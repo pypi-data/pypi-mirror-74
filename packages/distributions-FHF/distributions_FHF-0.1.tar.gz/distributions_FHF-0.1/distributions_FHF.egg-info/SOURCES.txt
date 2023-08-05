@@ -1,0 +1,10 @@
+setup.py
+distributions_FHF/Binomialdistribution_challenge.py
+distributions_FHF/Gaussiandistribution.py
+distributions_FHF/Generaldistribution.py
+distributions_FHF/__init__.py
+distributions_FHF.egg-info/PKG-INFO
+distributions_FHF.egg-info/SOURCES.txt
+distributions_FHF.egg-info/dependency_links.txt
+distributions_FHF.egg-info/not-zip-safe
+distributions_FHF.egg-info/top_level.txt
