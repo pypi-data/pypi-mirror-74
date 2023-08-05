@@ -1,0 +1,10 @@
+setup.py
+linarespckg/Binomialdistribution.py
+linarespckg/Gaussiandistribution.py
+linarespckg/Generaldistribution.py
+linarespckg/__init__.py
+linarespckg.egg-info/PKG-INFO
+linarespckg.egg-info/SOURCES.txt
+linarespckg.egg-info/dependency_links.txt
+linarespckg.egg-info/not-zip-safe
+linarespckg.egg-info/top_level.txt
