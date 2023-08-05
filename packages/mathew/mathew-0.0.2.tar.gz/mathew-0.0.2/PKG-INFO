@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: mathew
+Version: 0.0.2
+Summary: My personal math lib
+Home-page: https://github.com/larsvommars/mathew
+Author: LarsVomMars
+Author-email: dev@kroenner.eu
+License: MIT
+Description: # mathelib
+        An universal math lib for python
+        
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
