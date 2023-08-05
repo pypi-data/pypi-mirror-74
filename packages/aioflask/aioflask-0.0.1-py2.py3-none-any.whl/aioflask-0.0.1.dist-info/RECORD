@@ -1,0 +1,10 @@
+aioflask/__init__.py,sha256=VQKv-4JFblJzMhrqVfrQshdTHglOGmjWfdOTqp3Kd0g,37
+aioflask/app.py,sha256=c5ZtTlO70u-q_jNdgXWBX8TgifPI8utgYs2_9wij3tY,2929
+aioflask/asgi.py,sha256=Co_CaaHRAwSdJfaE-17UCmjWl7wLayNRG3PiGtZDTxs,5439
+aioflask/cli.py,sha256=g5flBvLnEQbAqaDXpIsUdMoSsGO7lXkqx9B7VMBk6Fc,4987
+aioflask-0.0.1.dist-info/LICENSE,sha256=JaEKcKBOfy5wUI8tQk4Z1uHrqMcmJgQ9JWsS9A4LmO4,1072
+aioflask-0.0.1.dist-info/METADATA,sha256=ynFkW06aleY-hjFo0jHqpB46RrbUcFBclcFvOROJoi4,559
+aioflask-0.0.1.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+aioflask-0.0.1.dist-info/entry_points.txt,sha256=e4yRmS8garHSTFhlVnqGGY68B3hA6sshqFmsn0ldnq4,41
+aioflask-0.0.1.dist-info/top_level.txt,sha256=eEZKZvoyt9HGOv4GzqUtWo_FN1X0dkV0iR-pafigEB8,9
+aioflask-0.0.1.dist-info/RECORD,,
