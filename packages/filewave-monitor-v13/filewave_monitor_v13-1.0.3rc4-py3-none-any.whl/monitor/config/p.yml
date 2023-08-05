@@ -1,0 +1,114 @@
+# my global config
+global:
+  scrape_interval:     15s # Set the scrape interval to every 15 seconds. Default is every 1 minute.
+  evaluation_interval: 15s # Evaluate rules every 15 seconds. The default is every 1 minute.
+
+# Alertmanager configuration
+alerting:
+  alertmanagers:
+    - static_configs:
+        - targets:
+            - localhost:21093
+
+# Load rules once and periodically evaluate them according to the global 'evaluation_interval'.
+rule_files:
+  - "./conf.d/rules/*.yml"
+  - "./conf.d/alerts/*.yml"
+
+scrape_configs:
+  - job_name: 'dynamic-inventory'
+    scheme: https
+    bearer_token_file: './conf.d/bearer_token_file'
+    metrics_path: "/dashboard_datasource/prometheus/association_status"
+    tls_config:
+      insecure_skip_verify: true
+    static_configs:
+      - targets: ['localhost:20443']
+
+  - job_name: 'prometheus'
+    static_configs:
+      - targets: ['localhost:21090']
+
+  # This is the node_exporter running on localhost
+  - job_name: 'node-exporter'
+    static_configs:
+      - targets: ['localhost:21100']
+        labels:
+          system: "fwserver"
+
+  - job_name: 'mtail'
+    static_configs:
+      - targets: ['localhost:21110']
+        labels:
+          system: "fwserver"
+
+  - job_name: 'postgres-exporter'
+    static_configs:
+      - targets: ['localhost:21109']
+        labels:
+          system: "fwserver"
+
+  - job_name: 'apache-exporter'
+    static_configs:
+      - targets: ['localhost:21108']
+        labels:
+          system: "fwserver"
+
+  - job_name: 'redis-exporter'
+    static_configs:
+      - targets: ['localhost:21107']
+        labels:
+          system: "fwserver"
+
+#  # This is for development only.
+#  - job_name: 'development'
+#    metrics_path: "/metrics.txt"
+#    static_configs:
+#      - targets: ['localhost:8092']
+
+  # This is the django endpoint (django-prometheus)
+  - job_name: 'filewave-django'
+    scheme: https
+    metrics_path: "/instrumentation/metrics"
+    tls_config:
+      insecure_skip_verify: true
+    static_configs:
+      - targets: ['localhost:20443']
+
+  # The fwxserver-admin/server jobs are kept separate so that its easy to tell them apart at the job name level.  
+  - job_name: 'fwxserver-admin'
+    metrics_path: "/metrics"
+    static_configs:
+      - targets: ['localhost:21102']
+        
+  - job_name: 'fwxserver-server'
+    metrics_path: "/metrics"
+    static_configs: 
+      - targets: ['localhost:21103']
+
+  - job_name: 'grafana'
+    scheme: https 
+    tls_config: 
+      insecure_skip_verify: true 
+    static_configs:
+      - targets: ['localhost:20448']
+
+  - job_name: 'extra-config-http'
+    file_sd_configs:
+      - files:
+        - /usr/local/etc/filewave/prometheus/conf.d/jobs/http/*.yml
+
+  - job_name: 'extra-config-https'
+    bearer_token_file: './conf.d/bearer_token_file'
+    scheme: https
+    tls_config:
+      insecure_skip_verify: true
+    file_sd_configs:
+      - files:
+        - /usr/local/etc/filewave/prometheus/conf.d/jobs/https/*.yml
+        
+  - job_name: boosters
+    proxy_url: http://127.0.0.1:20449/
+    file_sd_configs:
+      - files:
+        - /usr/local/etc/filewave/prometheus/conf.d/boosters/*.yml
