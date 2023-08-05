@@ -1,0 +1,15 @@
+Easy_Coral/EasyAI.py,sha256=xm9iMLOqb2Q1jUaV3tPY0rm2u5YDV626Y1o0wgEm_Ts,3804
+Easy_Coral/EasyCamera.py,sha256=bo2LCFrZUW_GT9L5v2IP3LU2palno_G5GhGcAck02hw,4489
+Easy_Coral/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+Easy_Coral/test.py,sha256=a9iljd-yjrF-ixyHrj-v2atg9mH1O6yikJWQMpunY9g,869
+Easy_Coral/models/face_labels.txt,sha256=ahIAeNthMe8FL2jWVBkgcw9ap-JYeZBtLWwo0o-zmoc,10
+Easy_Coral/models/field_labels.txt,sha256=2I6nQklApiLaYtMZXv1qifsBK1dlFyLKo2kevls-m6Q,52
+Easy_Coral/models/imagenet_labels.txt,sha256=UPQnU8bGp21CV7X3LLUG5rj3Jmz4gZ7ffTgSz1ScTUE,27691
+Easy_Coral/models/mobilenet_ssd_v2_face_quant_postprocess_edgetpu.tflite,sha256=b7HwrMt8rtBZV7-UYicx41Uap4SUUAlkHI8l_gy4JMY,6702088
+Easy_Coral/models/mobilenet_v2_1.0_224_quant_edgetpu.tflite,sha256=ogtRElQrLhTkajDDZboD8l3rHIG56kLse33CpZYg8mc,4067888
+Easy_Coral/models/mobilenet_v2_edgetpu_red.tflite,sha256=wMQvnKK8wJbkLLd2bfT97kQWEIGCusGTrSPJIP_Otjk,5403608
+Easy_Coral-0.1.6.dist-info/LICENSE,sha256=IaISEiHSo13y2NMz0Aph7SQERrYQcJJ0H_mWlBrNyRk,1022
+Easy_Coral-0.1.6.dist-info/METADATA,sha256=SW-V4pTof1bhFVT8ErK7ffkrz_M2lyyLmypeazgC4os,371
+Easy_Coral-0.1.6.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+Easy_Coral-0.1.6.dist-info/top_level.txt,sha256=TyOCUYlikvQX1xq1DQJsDpw12BlF2eOoHnx7zWZq-t8,11
+Easy_Coral-0.1.6.dist-info/RECORD,,
