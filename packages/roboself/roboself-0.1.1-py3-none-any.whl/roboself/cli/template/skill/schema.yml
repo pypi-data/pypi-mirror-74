@@ -1,0 +1,6 @@
+# The YAML schema
+# e.g.
+#
+# DummyObject:
+#   name: string
+#   size: number
