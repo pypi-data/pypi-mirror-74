@@ -1,0 +1,14 @@
+Metadata-Version: 1.2
+Name: laneDetectionCV
+Version: 0.0.10
+Summary: lane detection package
+Home-page: https://github.com/Krascal/
+Author: krascal
+Author-email: luanxuke@126.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3
