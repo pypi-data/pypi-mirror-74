@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: pytlu
+Version: 1.0.0
+Summary: DAQ for EUDAQ TLU
+Home-page: https://github.com/SiLab-Bonn/pytlu
+Author: Janek Fleper, Tomasz Hemperek, Yannick Dieter, Jens Janssen
+Author-email: j.fleper@gmx.de, hemeprek@uni-bonn.de, dieter@physik.uni-bonn.de, janssen@physik.uni-bonn.de
+Maintainer: Tomasz Hemperek
+Maintainer-email: hemeprek@uni-bonn.de
+License: UNKNOWN
+Platform: any
+Requires-Dist: basil-daq (>=3.0.0)
+Requires-Dist: online-monitor (>=0.4.1<0.5)
+Requires-Dist: numpy
+Requires-Dist: psutil
+Requires-Dist: qtpy
+Requires-Dist: pyusb
+Requires-Dist: pyyaml
+Requires-Dist: pyzmq
+Requires-Dist: tables
+Requires-Dist: tqdm
+
+UNKNOWN
+
+
