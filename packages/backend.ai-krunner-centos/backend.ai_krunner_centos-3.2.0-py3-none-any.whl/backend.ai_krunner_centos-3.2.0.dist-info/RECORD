@@ -1,0 +1,16 @@
+ai/backend/krunner/centos/__init__.py,sha256=kOZgokKclzJOb4ZLTaNz4mdDGkZQMziCTNNc9b9GmIQ,22
+ai/backend/krunner/centos/krunner-env.centos7.6.dockerfile,sha256=Ha21tUz46tzrM7Q-CfzjtjRph4Y3-I9AWvXqyrqVjUA,874
+ai/backend/krunner/centos/krunner-env.centos7.6.x86_64.tar.xz,sha256=CzDx2kYjPXnVMWDjVs1F6NRkjw7yime6LgBpLpOAjrk,25797696
+ai/backend/krunner/centos/krunner-python.centos7.6.dockerfile,sha256=EEYvYkY8H1JZ5MrK6qZ15AIGo8ciLBNvEDj4jlwlG6o,3147
+ai/backend/krunner/centos/krunner-python.centos7.6.txt,sha256=WwIYmrH5u1yqdhEyDzXNagctqI2wUz9ixLMZT4vuS3k,4
+ai/backend/krunner/centos/krunner-version.centos7.6.txt,sha256=7y0SfeN7lCuq0GFF5UsMYZofIjJ7LrvPvsePVWSv450,1
+ai/backend/krunner/centos/plugin.py,sha256=a65eEFPMlaLQlvmEZh3BG7XybBI8khOuFpoIkFtL0mY,94
+ai/backend/krunner/centos/requirements.txt,sha256=wP5K5svidEP8yMMcXQsTHfyx101TvbONU-5beGjDa-4,102
+ai/backend/krunner/centos/ttyd_linux.x86_64.bin,sha256=YbXJDliIFvqDWq9e7yNHF1ryGGK7Tbm9FwJG_tkFRk8,2243488
+ai/backend/krunner/centos/versions.txt,sha256=a5unUqjNNxhTDeWkxNcgyoMxt7d9yZfMDR-JqasSQ6A,10
+backend.ai_krunner_centos-3.2.0.dist-info/LICENSE,sha256=aQcQ-Bqma7DqCHBpf4R7Z2oBjdCB_ChkJ6jJQc9_5Ac,1063
+backend.ai_krunner_centos-3.2.0.dist-info/METADATA,sha256=PtwgWijTGPPjIbtkMTX2yMOsM62_6zKYkuEJrYdBf7U,775
+backend.ai_krunner_centos-3.2.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+backend.ai_krunner_centos-3.2.0.dist-info/entry_points.txt,sha256=6YsAaPlGO2En4j1SjoxUWHruQaDjzZfIeJN62osza48,67
+backend.ai_krunner_centos-3.2.0.dist-info/top_level.txt,sha256=TJAp5TUfTUztZSUatbygths7CWRrFfnOMCtZ-DIcw6c,3
+backend.ai_krunner_centos-3.2.0.dist-info/RECORD,,
