@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: domauto
+Version: 0.3.0a13
+Summary: The domauto project. Automatic DOM status plotting and autopsy
+Home-page: https://git.km3net.de/jseneca/dom_autopsy
+Author: Jordan Seneca
+Author-email: jseneca@km3net.de
+License: UNKNOWN
+Platform: any
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python
+Requires-Python: >=3.0
+Requires-Dist: km3pipe (>=8.0.0)
+Requires-Dist: setuptools-scm
+Requires-Dist: uproot
+Requires-Dist: docopt
+Requires-Dist: pathlib
+Requires-Dist: fs
+Requires-Dist: fs.sshfs
+
+UNKNOWN
+
+
