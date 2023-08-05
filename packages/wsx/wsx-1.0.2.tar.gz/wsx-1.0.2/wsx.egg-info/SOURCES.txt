@@ -1,0 +1,8 @@
+README.md
+setup.py
+wsx.egg-info/PKG-INFO
+wsx.egg-info/SOURCES.txt
+wsx.egg-info/dependency_links.txt
+wsx.egg-info/top_level.txt
+wui/__init__.py
+wui/wui.py
