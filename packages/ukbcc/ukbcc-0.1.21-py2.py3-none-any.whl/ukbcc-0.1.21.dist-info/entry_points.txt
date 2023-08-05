@@ -1,0 +1,3 @@
+[console_scripts]
+ukbcc_alt = ukbcc.main:main
+
