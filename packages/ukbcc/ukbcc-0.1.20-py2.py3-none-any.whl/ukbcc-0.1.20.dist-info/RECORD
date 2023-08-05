@@ -1,0 +1,16 @@
+ukbcc/__init__.py,sha256=VOdUVw49MnXyqYRzWqZslfnjKFCzGunyW-mnC9tB0FQ,23
+ukbcc/bulk.py,sha256=kJ7EbUMOGzYleT5xbgXdPVKBpkSGq6rIE3JT69yMb1A,5893
+ukbcc/colors.py,sha256=OYmU-3FCxDeHIlybWl9yt35FlPZd2zmVCZUqDTJfaqI,161
+ukbcc/filter.py,sha256=icCkQTDohBD_Ds61Vdi5PHpiwGLKmOOeuEqcwhuJRK0,3954
+ukbcc/main.py,sha256=NJxffm26i4nFBgRwA5HxDB5nbGC0qjg61rjTUI_s7Gw,5842
+ukbcc/query.py,sha256=k1R7LbPAqYKxFqkJ6-ozZHg7HbbtVvvci8d7zmKvru8,10475
+ukbcc/stats.py,sha256=qRdaWTOCOJuWdGE3-m8_6NliSJRs2N3hHaHBxmIvgvI,6103
+ukbcc/ui.py,sha256=zVOb7wdjFjvnu8LtrWJk8SbqCN8HdhQ5Vz_B2axf5dA,6207
+ukbcc/utils.py,sha256=hw4mguwmVc0-nPuR0cdMft2NGt98VjzukKxdkvhbAWs,5869
+ukbcc-0.1.20.data/scripts/ukbcc,sha256=8ky8ozLuxx5B6c44yxrsNLqs1MBeb6Cvjii1RUWuP7k,47
+ukbcc-0.1.20.dist-info/LICENSE.md,sha256=lX3SrLuH8ZeJn_EmGpDBI4zOY7yyRje-x7OVFBVg6Ec,55
+ukbcc-0.1.20.dist-info/METADATA,sha256=pUc38G68lRm1qk3wi7kYDct_hoFCzgHB4wwr3wYYYGQ,11681
+ukbcc-0.1.20.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+ukbcc-0.1.20.dist-info/entry_points.txt,sha256=XPb4XZvSOsSdWfOb8anWWlBbLQvmKzesWrvQrO9LJNQ,47
+ukbcc-0.1.20.dist-info/top_level.txt,sha256=BUq6G0WCW4vZlDmcrG9s35JwiHGo6BEa_XzVIDMnaxk,6
+ukbcc-0.1.20.dist-info/RECORD,,
