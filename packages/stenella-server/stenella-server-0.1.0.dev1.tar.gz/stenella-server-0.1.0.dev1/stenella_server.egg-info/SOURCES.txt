@@ -1,0 +1,9 @@
+MANIFEST.in
+NOTICE
+README.rst
+setup.py
+stenella/__init__.py
+stenella_server.egg-info/PKG-INFO
+stenella_server.egg-info/SOURCES.txt
+stenella_server.egg-info/dependency_links.txt
+stenella_server.egg-info/top_level.txt
