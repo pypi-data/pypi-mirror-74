@@ -1,0 +1,10 @@
+COPYING
+MANIFEST.in
+NOTICE
+README.rst
+setup.py
+caperea/__init__.py
+caperea_server.egg-info/PKG-INFO
+caperea_server.egg-info/SOURCES.txt
+caperea_server.egg-info/dependency_links.txt
+caperea_server.egg-info/top_level.txt
