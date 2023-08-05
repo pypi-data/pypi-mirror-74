@@ -1,0 +1,9 @@
+a2conn/__init__.py,sha256=-7XeDcmMpmf1Kzf1F0pua6z4uooRBErxUc6V9mG9T9U,32
+a2conn/mod1.py,sha256=nNLzLF6I5vxZP5qSTM9NX3IOfgT3cbUpt8C0-PUlSmI,141
+a2conn/mod2.py,sha256=nQQZ8ODL45WSwy2WdRgskC_tzQ5aSN864p9oXEGYE9o,154
+a2conn/zebra.py,sha256=ph8FrkDkpOONrR0oh0cJMYH7qG2OAJ0BzBgTArpzbMw,610
+a2conn-0.1.0.dist-info/METADATA,sha256=OedPgxsKdf-kyhzGyBf4z11WfVSunoe19-2azRad758,213
+a2conn-0.1.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+a2conn-0.1.0.dist-info/entry_points.txt,sha256=DkUZIjzFEx7HEwB5U9d4Xb5At1574U2NflW8qpVJjxI,46
+a2conn-0.1.0.dist-info/top_level.txt,sha256=PKN393mB4flbRpdDhIWjkuhKjaImKVpCiimHYYLHZcQ,7
+a2conn-0.1.0.dist-info/RECORD,,
