@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "biggan"
+version = "1.0.0a0"
+description = "BigGAN in idiomatic Keras"
+authors = ["Jon Kyl"]
+license = "GPL-3.0-only"
+include = ["biggan/config/*.yaml"]
+
+[tool.poetry.scripts]
+"biggan.prepare" = "scripts.prepare:main"
+"biggan.train" = "scripts.train:main"
+
+[tool.poetry.dependencies]
+python = "^3.6"
+tensorflow = "^2.2"
+pyyaml = "^5.3.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.4.2"
+ipython = "^7.14.0"
+black = "^19.10b0"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"

@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: biggan
+Version: 1.0.0a0
+Summary: BigGAN in idiomatic Keras
+License: GPL-3.0-only
+Author: Jon Kyl
+Requires-Python: >=3.6,<4.0
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: pyyaml (>=5.3.1,<6.0.0)
+Requires-Dist: tensorflow (>=2.2,<3.0)
