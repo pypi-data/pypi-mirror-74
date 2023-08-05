@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: dunefro-pkg
+Version: 0.0.1
+Summary: A small test package for pip
+Home-page: https://github.com/dunefro/syg_pip.git
+Author: Vedant Pareek
+Author-email: dunefro@gmail.com
+License: UNKNOWN
+Description: # syg_pip
+        A sample python library 
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
