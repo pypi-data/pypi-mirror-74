@@ -1,0 +1,12 @@
+README.md
+setup.py
+src/okt.py
+src/commands/__init__.py
+src/commands/config.py
+src/commands/users.py
+src/okt.egg-info/PKG-INFO
+src/okt.egg-info/SOURCES.txt
+src/okt.egg-info/dependency_links.txt
+src/okt.egg-info/entry_points.txt
+src/okt.egg-info/requires.txt
+src/okt.egg-info/top_level.txt
