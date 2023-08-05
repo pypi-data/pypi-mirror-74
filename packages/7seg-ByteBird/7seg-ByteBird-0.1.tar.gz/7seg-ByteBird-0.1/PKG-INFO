@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: 7seg-ByteBird
+Version: 0.1
+Summary: Simple "Flappy Bird" like game for 7 segment display from ZeroSeg module for Raspberry Pi.
+Home-page: https://github.com/samedamci/7seg-ByteBird
+Author: samedamci
+Author-email: samedamci@disroot.org
+License: ISC
+Project-URL: Issue tracker, https://github.com/samedamci/7seg-ByteBird/issues
+Description: # ByteBird
+        
+        Simple "Flappy Bird" like game for 7 segment display from ZeroSeg module for Raspberry Pi.
+        
+        ## Installation
+        ```
+        $ pip3 install --user 7seg-ByteBird
+        ```
+        ## Usage
+        ```
+        $ python3 -m ByteBird <time_delay*>
+        ```
+        or simply
+        ```
+        $ bytebird <time_delay*>
+        ```
+        \* Optional: Time delay between updates - difficulty level, less = harder.
+        
+Keywords: raspberry pi rpi led seven segment zeroseg game
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: License :: OSI Approved :: ISC License (ISCL)
+Classifier: Operating System :: POSIX :: Linux
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
