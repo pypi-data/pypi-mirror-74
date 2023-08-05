@@ -1,0 +1,12 @@
+procore/__init__.py,sha256=CecSnRAiCQiYLlzAJj_dZ6BPgadtgEG44Y3ztJX4wUk,312
+procore/exceptions.py,sha256=_1Lw7qKyKfUqzQ_W4pjIv3cIJER4V8eZZhOfhXLmh5Y,1325
+procore/procore.py,sha256=jfwkqdL01Aegf9plzMHe4LaLD40nzz8S98HyjwPSyis,2824
+procore/apis/__init__.py,sha256=rLGs3whgVDol2sTCowY8eZ6ykZnJYgsho5HMEWJnUuQ,112
+procore/apis/api_base.py,sha256=ab37ls6QBui6nhhRkkRFhKbYkW8rJMI37JFzZtvBVG4,4092
+procore/apis/companies.py,sha256=GhVY5HmPy4fEz8k6q7Er4Z2WI28eZ-D-7LzOkEw6M3M,299
+procore/apis/projects.py,sha256=3PxRFKs--jUQ2LNZ14uHG9jkXQ0DxLMgWnyUYDPLDVM,400
+procore-0.1.0.dist-info/LICENSE,sha256=_OcAxQDwx2t2II4wn0n7ZLhInda--qAJEMSclLAkSO4,1082
+procore-0.1.0.dist-info/METADATA,sha256=qrj52Sq0M84zEr3pwDlYylqrhZH00n77VgW3qvVHJCI,1879
+procore-0.1.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+procore-0.1.0.dist-info/top_level.txt,sha256=5tE78F1BdLeCiNb4QHlnK5mvgzEbzgu9KktJvsvJwYg,8
+procore-0.1.0.dist-info/RECORD,,
