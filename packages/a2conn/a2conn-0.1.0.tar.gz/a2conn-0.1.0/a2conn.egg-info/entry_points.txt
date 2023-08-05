@@ -1,0 +1,3 @@
+[console_scripts]
+a2conn = a2conn.zebra:main
+
