@@ -1,0 +1,6 @@
+"id","name","create_variant","type"
+"Min","Min","Always","Select"
+"Data","Data","Always","Radio"
+"SMS","SMS","Always","Radio"
+"MinBA","Min BA","Always","Radio"
+"Bandwidth","Bandwidth","Always","Radio"
