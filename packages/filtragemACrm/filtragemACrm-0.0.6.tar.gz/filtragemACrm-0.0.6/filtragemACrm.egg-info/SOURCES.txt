@@ -1,0 +1,11 @@
+README.md
+setup.cfg
+setup.py
+filtragemACrm/__init__.py
+filtragemACrm/lowImageSilimarity.py
+filtragemACrm/removeBlurringImages.py
+filtragemACrm.egg-info/PKG-INFO
+filtragemACrm.egg-info/SOURCES.txt
+filtragemACrm.egg-info/dependency_links.txt
+filtragemACrm.egg-info/requires.txt
+filtragemACrm.egg-info/top_level.txt
