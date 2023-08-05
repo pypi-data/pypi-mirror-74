@@ -1,0 +1,3 @@
+smallparts
+smallparts/l10n
+smallparts/text
