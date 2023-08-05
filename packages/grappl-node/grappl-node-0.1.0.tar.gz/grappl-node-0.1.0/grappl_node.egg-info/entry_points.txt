@@ -1,0 +1,4 @@
+
+        [console_scripts]
+        grappl_node=grappl_node.run.cli:execute_cli
+    
