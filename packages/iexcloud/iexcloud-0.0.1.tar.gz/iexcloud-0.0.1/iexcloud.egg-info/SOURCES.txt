@@ -1,0 +1,16 @@
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+versioneer.py
+iexcloud/__init__.py
+iexcloud/_version.py
+iexcloud/config.py
+iexcloud/constants.py
+iexcloud/reference.py
+iexcloud/stock.py
+iexcloud.egg-info/PKG-INFO
+iexcloud.egg-info/SOURCES.txt
+iexcloud.egg-info/dependency_links.txt
+iexcloud.egg-info/requires.txt
+iexcloud.egg-info/top_level.txt

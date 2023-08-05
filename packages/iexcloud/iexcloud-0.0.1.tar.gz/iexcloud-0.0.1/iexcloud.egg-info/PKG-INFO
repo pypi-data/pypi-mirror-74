@@ -1,0 +1,17 @@
+Metadata-Version: 1.2
+Name: iexcloud
+Version: 0.0.1
+Summary: iexcloud retrieves and archives iexcloud data in databases
+Home-page: https://github.com/shawnlinxl/iexcloud
+Maintainer: Shawn Lin
+Maintainer-email: shawnlin.xl@gmail.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Programming Language :: Python :: 3.7
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Office/Business :: Financial
+Classifier: Topic :: Scientific/Engineering
+Classifier: Operating System :: OS Independent
