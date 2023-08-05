@@ -1,0 +1,10 @@
+setup.py
+mathu_distributions/Binomialdistribution.py
+mathu_distributions/Gaussiandistribution.py
+mathu_distributions/Generaldistribution.py
+mathu_distributions/__init__.py
+mathu_distributions.egg-info/PKG-INFO
+mathu_distributions.egg-info/SOURCES.txt
+mathu_distributions.egg-info/dependency_links.txt
+mathu_distributions.egg-info/not-zip-safe
+mathu_distributions.egg-info/top_level.txt
