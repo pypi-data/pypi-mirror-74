@@ -1,0 +1,13 @@
+safexl/__init__.py,sha256=H5m4g9Cbnu1rQs1NsLS2e-yIJ0g744jFgXVFhwPVnoU,250
+safexl/colors.py,sha256=p0ntDD9cNTy8vV9FWrGYw5MpdO8xKJ9HXKbh4iP5KIs,3699
+safexl/toolkit.py,sha256=G2gFvwFheKbWDOYhNqrPKSYNnXf9sgFx6g9k-RjQBGY,14111
+safexl/xl_constants.py,sha256=DCfi1a2xEsxp8tdAvJtTUs7IAayenQh1rFNxOe1-dl4,39157
+safexl/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+safexl/tests/test_app.py,sha256=YCJ-Z6LILln-535vO1Cp3YNw6ibWSsESzt_dtcD10xY,6982
+safexl/tests/test_app_tools.py,sha256=P6NMXU4H0BoeFBNuxm0dZ942M6Ruj4jSWpMe1VsfkaM,14374
+safexl/tests/test_psutil_wrappers.py,sha256=ID_cpYi51D0l2BknxMQwjeSQfp2wBn8PgSYrHuSPcNw,5357
+safexl-0.0.7.dist-info/LICENCE.rst,sha256=IIJqYf5YdVzsMmAtd7dzUi5evcgVx7nfT1V5M9svw20,1133
+safexl-0.0.7.dist-info/METADATA,sha256=B4jr8P-vvG7koswYKsv5-5Poe2pJNEA7qa3bLsIOU1c,10834
+safexl-0.0.7.dist-info/WHEEL,sha256=LRS-GSFNyYPLBJaJJ6kxdk4Urtb4kEVXWc5DpA8iv6o,97
+safexl-0.0.7.dist-info/top_level.txt,sha256=lOgdenp1ij4DHiEy6-Z_imYJH21ayn_gKG3-OrqoOO4,171
+safexl-0.0.7.dist-info/RECORD,,
