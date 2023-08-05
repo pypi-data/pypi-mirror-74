@@ -1,0 +1,9 @@
+README.md
+setup.py
+sentry_chalice/__init__.py
+sentry_chalice/version.py
+sentry_chalice.egg-info/PKG-INFO
+sentry_chalice.egg-info/SOURCES.txt
+sentry_chalice.egg-info/dependency_links.txt
+sentry_chalice.egg-info/requires.txt
+sentry_chalice.egg-info/top_level.txt
