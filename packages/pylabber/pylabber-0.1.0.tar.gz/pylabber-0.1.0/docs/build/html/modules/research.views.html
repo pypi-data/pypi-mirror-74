@@ -1,0 +1,413 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>research.views package &mdash; pylabber 0.1.0 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="../_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+        <script src="../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="prev" title="research.serializers package" href="research.serializers.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> pylabber
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../overview.html">Overview</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../usage/installation.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../existing_apps.html">Existing Apps</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="modules.html">Reference</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="accounts.html">accounts package</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pylabber.html">pylabber package</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="research.html">research package</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="research.html#module-research">Module contents</a></li>
+<li class="toctree-l3 current"><a class="reference internal" href="research.html#subpackages">Subpackages</a><ul class="current">
+<li class="toctree-l4"><a class="reference internal" href="research.filters.html">research.filters package</a></li>
+<li class="toctree-l4"><a class="reference internal" href="research.models.html">research.models package</a></li>
+<li class="toctree-l4"><a class="reference internal" href="research.serializers.html">research.serializers package</a></li>
+<li class="toctree-l4 current"><a class="current reference internal" href="#">research.views package</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="research.html#submodules">Submodules</a></li>
+<li class="toctree-l3"><a class="reference internal" href="research.html#module-research.admin">research.admin module</a></li>
+<li class="toctree-l3"><a class="reference internal" href="research.html#module-research.apps">research.apps module</a></li>
+<li class="toctree-l3"><a class="reference internal" href="research.html#module-research.urls">research.urls module</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">pylabber</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html">Docs</a> &raquo;</li>
+        
+          <li><a href="modules.html">Reference</a> &raquo;</li>
+        
+          <li><a href="research.html">research package</a> &raquo;</li>
+        
+      <li>research.views package</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../_sources/modules/research.views.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="research-views-package">
+<h1>research.views package<a class="headerlink" href="#research-views-package" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="module-research.views">
+<span id="module-contents"></span><h2>Module contents<a class="headerlink" href="#module-research.views" title="Permalink to this headline">¶</a></h2>
+</div>
+<div class="section" id="submodules">
+<h2>Submodules<a class="headerlink" href="#submodules" title="Permalink to this headline">¶</a></h2>
+</div>
+<div class="section" id="module-research.views.group">
+<span id="research-views-group-module"></span><h2>research.views.group module<a class="headerlink" href="#module-research.views.group" title="Permalink to this headline">¶</a></h2>
+<dl class="py class">
+<dt id="research.views.group.GroupViewSet">
+<em class="property">class </em><code class="sig-prename descclassname">research.views.group.</code><code class="sig-name descname">GroupViewSet</code><span class="sig-paren">(</span><em class="sig-param"><span class="o">**</span><span class="n">kwargs</span></em><span class="sig-paren">)</span><a class="headerlink" href="#research.views.group.GroupViewSet" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">pylabber.views.defaults.DefaultsMixin</span></code>, <code class="xref py py-class docutils literal notranslate"><span class="pre">rest_framework.viewsets.ModelViewSet</span></code></p>
+<p>API endpoint that allows <a class="reference internal" href="research.models.html#research.models.group.Group" title="research.models.group.Group"><code class="xref py py-class docutils literal notranslate"><span class="pre">Group</span></code></a> instances
+to be viewed or edited.</p>
+<dl class="py attribute">
+<dt id="research.views.group.GroupViewSet.filter_class">
+<code class="sig-name descname">filter_class</code><a class="headerlink" href="#research.views.group.GroupViewSet.filter_class" title="Permalink to this definition">¶</a></dt>
+<dd><p>alias of <code class="xref py py-class docutils literal notranslate"><span class="pre">research.filters.group_filter.GroupFilter</span></code></p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="research.views.group.GroupViewSet.get_serializer_class">
+<code class="sig-name descname">get_serializer_class</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#research.views.group.GroupViewSet.get_serializer_class" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return the class to use for the serializer.
+Defaults to using <cite>self.serializer_class</cite>.</p>
+<p>You may want to override this if you need to provide different
+serializations depending on the incoming request.</p>
+<p>(Eg. admins get full serialization, others get basic serialization)</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt id="research.views.group.GroupViewSet.basename">
+<code class="sig-name descname">basename</code><em class="property"> = None</em><a class="headerlink" href="#research.views.group.GroupViewSet.basename" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt id="research.views.group.GroupViewSet.description">
+<code class="sig-name descname">description</code><em class="property"> = None</em><a class="headerlink" href="#research.views.group.GroupViewSet.description" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt id="research.views.group.GroupViewSet.detail">
+<code class="sig-name descname">detail</code><em class="property"> = None</em><a class="headerlink" href="#research.views.group.GroupViewSet.detail" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt id="research.views.group.GroupViewSet.name">
+<code class="sig-name descname">name</code><em class="property"> = None</em><a class="headerlink" href="#research.views.group.GroupViewSet.name" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt id="research.views.group.GroupViewSet.queryset">
+<code class="sig-name descname">queryset</code><em class="property"> = &lt;QuerySet []&gt;</em><a class="headerlink" href="#research.views.group.GroupViewSet.queryset" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt id="research.views.group.GroupViewSet.suffix">
+<code class="sig-name descname">suffix</code><em class="property"> = None</em><a class="headerlink" href="#research.views.group.GroupViewSet.suffix" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="module-research.views.study">
+<span id="research-views-study-module"></span><h2>research.views.study module<a class="headerlink" href="#module-research.views.study" title="Permalink to this headline">¶</a></h2>
+<dl class="py class">
+<dt id="research.views.study.StudyViewSet">
+<em class="property">class </em><code class="sig-prename descclassname">research.views.study.</code><code class="sig-name descname">StudyViewSet</code><span class="sig-paren">(</span><em class="sig-param"><span class="o">**</span><span class="n">kwargs</span></em><span class="sig-paren">)</span><a class="headerlink" href="#research.views.study.StudyViewSet" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">pylabber.views.defaults.DefaultsMixin</span></code>, <code class="xref py py-class docutils literal notranslate"><span class="pre">rest_framework.viewsets.ModelViewSet</span></code></p>
+<p>API endpoint that allows <a class="reference internal" href="research.models.html#research.models.study.Study" title="research.models.study.Study"><code class="xref py py-class docutils literal notranslate"><span class="pre">Study</span></code></a> instances to
+be viewed or edited.</p>
+<dl class="py attribute">
+<dt id="research.views.study.StudyViewSet.serializer_class">
+<code class="sig-name descname">serializer_class</code><a class="headerlink" href="#research.views.study.StudyViewSet.serializer_class" title="Permalink to this definition">¶</a></dt>
+<dd><p>alias of <a class="reference internal" href="research.serializers.html#research.serializers.study.StudySerializer" title="research.serializers.study.StudySerializer"><code class="xref py py-class docutils literal notranslate"><span class="pre">research.serializers.study.StudySerializer</span></code></a></p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt id="research.views.study.StudyViewSet.basename">
+<code class="sig-name descname">basename</code><em class="property"> = None</em><a class="headerlink" href="#research.views.study.StudyViewSet.basename" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt id="research.views.study.StudyViewSet.description">
+<code class="sig-name descname">description</code><em class="property"> = None</em><a class="headerlink" href="#research.views.study.StudyViewSet.description" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt id="research.views.study.StudyViewSet.detail">
+<code class="sig-name descname">detail</code><em class="property"> = None</em><a class="headerlink" href="#research.views.study.StudyViewSet.detail" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt id="research.views.study.StudyViewSet.name">
+<code class="sig-name descname">name</code><em class="property"> = None</em><a class="headerlink" href="#research.views.study.StudyViewSet.name" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt id="research.views.study.StudyViewSet.queryset">
+<code class="sig-name descname">queryset</code><em class="property"> = &lt;QuerySet []&gt;</em><a class="headerlink" href="#research.views.study.StudyViewSet.queryset" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt id="research.views.study.StudyViewSet.suffix">
+<code class="sig-name descname">suffix</code><em class="property"> = None</em><a class="headerlink" href="#research.views.study.StudyViewSet.suffix" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="module-research.views.subject">
+<span id="research-views-subject-module"></span><h2>research.views.subject module<a class="headerlink" href="#module-research.views.subject" title="Permalink to this headline">¶</a></h2>
+<dl class="py class">
+<dt id="research.views.subject.SubjectViewSet">
+<em class="property">class </em><code class="sig-prename descclassname">research.views.subject.</code><code class="sig-name descname">SubjectViewSet</code><span class="sig-paren">(</span><em class="sig-param"><span class="o">**</span><span class="n">kwargs</span></em><span class="sig-paren">)</span><a class="headerlink" href="#research.views.subject.SubjectViewSet" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">pylabber.views.defaults.DefaultsMixin</span></code>, <code class="xref py py-class docutils literal notranslate"><span class="pre">rest_framework.viewsets.ModelViewSet</span></code></p>
+<p>API endpoint that allows <a class="reference internal" href="research.models.html#research.models.subject.Subject" title="research.models.subject.Subject"><code class="xref py py-class docutils literal notranslate"><span class="pre">Subject</span></code></a> instances
+to be viewed or edited.</p>
+<dl class="py attribute">
+<dt id="research.views.subject.SubjectViewSet.filter_class">
+<code class="sig-name descname">filter_class</code><a class="headerlink" href="#research.views.subject.SubjectViewSet.filter_class" title="Permalink to this definition">¶</a></dt>
+<dd><p>alias of <a class="reference internal" href="research.filters.html#research.filters.subject_filter.SubjectFilter" title="research.filters.subject_filter.SubjectFilter"><code class="xref py py-class docutils literal notranslate"><span class="pre">research.filters.subject_filter.SubjectFilter</span></code></a></p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt id="research.views.subject.SubjectViewSet.serializer_class">
+<code class="sig-name descname">serializer_class</code><a class="headerlink" href="#research.views.subject.SubjectViewSet.serializer_class" title="Permalink to this definition">¶</a></dt>
+<dd><p>alias of <a class="reference internal" href="research.serializers.html#research.serializers.subject.SubjectSerializer" title="research.serializers.subject.SubjectSerializer"><code class="xref py py-class docutils literal notranslate"><span class="pre">research.serializers.subject.SubjectSerializer</span></code></a></p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="research.views.subject.SubjectViewSet.get_queryset">
+<code class="sig-name descname">get_queryset</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#research.views.subject.SubjectViewSet.get_queryset" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get the list of items for this view.
+This must be an iterable, and may be a queryset.
+Defaults to using <cite>self.queryset</cite>.</p>
+<p>This method should always be used rather than accessing <cite>self.queryset</cite>
+directly, as <cite>self.queryset</cite> gets evaluated only once, and those results
+are cached for all subsequent requests.</p>
+<p>You may want to override this if you need to provide different
+querysets depending on the incoming request.</p>
+<p>(Eg. return a list of items that is specific to the user)</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="research.views.subject.SubjectViewSet.plot">
+<code class="sig-name descname">plot</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">request</span></em>, <em class="sig-param"><span class="o">*</span><span class="n">args</span></em>, <em class="sig-param"><span class="o">**</span><span class="n">kwargs</span></em><span class="sig-paren">)</span><a class="headerlink" href="#research.views.subject.SubjectViewSet.plot" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt id="research.views.subject.SubjectViewSet.plot_script">
+<code class="sig-name descname">plot_script</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">request</span></em>, <em class="sig-param"><span class="o">*</span><span class="n">args</span></em>, <em class="sig-param"><span class="o">**</span><span class="n">kwargs</span></em><span class="sig-paren">)</span><a class="headerlink" href="#research.views.subject.SubjectViewSet.plot_script" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt id="research.views.subject.SubjectViewSet.basename">
+<code class="sig-name descname">basename</code><em class="property"> = None</em><a class="headerlink" href="#research.views.subject.SubjectViewSet.basename" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt id="research.views.subject.SubjectViewSet.description">
+<code class="sig-name descname">description</code><em class="property"> = None</em><a class="headerlink" href="#research.views.subject.SubjectViewSet.description" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt id="research.views.subject.SubjectViewSet.detail">
+<code class="sig-name descname">detail</code><em class="property"> = None</em><a class="headerlink" href="#research.views.subject.SubjectViewSet.detail" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt id="research.views.subject.SubjectViewSet.name">
+<code class="sig-name descname">name</code><em class="property"> = None</em><a class="headerlink" href="#research.views.subject.SubjectViewSet.name" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt id="research.views.subject.SubjectViewSet.queryset">
+<code class="sig-name descname">queryset</code><em class="property"> = &lt;SubjectQuerySet [&lt;Subject: Subject #2&gt;, &lt;Subject: Subject #1&gt;]&gt;</em><a class="headerlink" href="#research.views.subject.SubjectViewSet.queryset" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt id="research.views.subject.SubjectViewSet.suffix">
+<code class="sig-name descname">suffix</code><em class="property"> = None</em><a class="headerlink" href="#research.views.subject.SubjectViewSet.suffix" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+      
+        <a href="research.serializers.html" class="btn btn-neutral float-left" title="research.serializers package" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2020, Zvi Baratz
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

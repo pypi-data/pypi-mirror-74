@@ -1,0 +1,453 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>accounts.tests package &mdash; pylabber 0.1.0 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="../_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+        <script src="../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="accounts.views package" href="accounts.views.html" />
+    <link rel="prev" title="accounts.serializers package" href="accounts.serializers.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> pylabber
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../overview.html">Overview</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../usage/installation.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../existing_apps.html">Existing Apps</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="modules.html">Reference</a><ul class="current">
+<li class="toctree-l2 current"><a class="reference internal" href="accounts.html">accounts package</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="accounts.html#module-accounts">Module contents</a></li>
+<li class="toctree-l3 current"><a class="reference internal" href="accounts.html#subpackages">Subpackages</a><ul class="current">
+<li class="toctree-l4"><a class="reference internal" href="accounts.models.html">accounts.models package</a></li>
+<li class="toctree-l4"><a class="reference internal" href="accounts.serializers.html">accounts.serializers package</a></li>
+<li class="toctree-l4 current"><a class="current reference internal" href="#">accounts.tests package</a></li>
+<li class="toctree-l4"><a class="reference internal" href="accounts.views.html">accounts.views package</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="accounts.html#submodules">Submodules</a></li>
+<li class="toctree-l3"><a class="reference internal" href="accounts.html#module-accounts.admin">accounts.admin module</a></li>
+<li class="toctree-l3"><a class="reference internal" href="accounts.html#module-accounts.apps">accounts.apps module</a></li>
+<li class="toctree-l3"><a class="reference internal" href="accounts.html#module-accounts.signals">accounts.signals module</a></li>
+<li class="toctree-l3"><a class="reference internal" href="accounts.html#module-accounts.urls">accounts.urls module</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="pylabber.html">pylabber package</a></li>
+<li class="toctree-l2"><a class="reference internal" href="research.html">research package</a></li>
+</ul>
+</li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">pylabber</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html">Docs</a> &raquo;</li>
+        
+          <li><a href="modules.html">Reference</a> &raquo;</li>
+        
+          <li><a href="accounts.html">accounts package</a> &raquo;</li>
+        
+      <li>accounts.tests package</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../_sources/modules/accounts.tests.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="accounts-tests-package">
+<h1>accounts.tests package<a class="headerlink" href="#accounts-tests-package" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="module-accounts.tests">
+<span id="module-contents"></span><h2>Module contents<a class="headerlink" href="#module-accounts.tests" title="Permalink to this headline">¶</a></h2>
+</div>
+<div class="section" id="submodules">
+<h2>Submodules<a class="headerlink" href="#submodules" title="Permalink to this headline">¶</a></h2>
+</div>
+<div class="section" id="module-accounts.tests.factories">
+<span id="accounts-tests-factories-module"></span><h2>accounts.tests.factories module<a class="headerlink" href="#module-accounts.tests.factories" title="Permalink to this headline">¶</a></h2>
+<dl class="py class">
+<dt id="accounts.tests.factories.ProfileFactory">
+<em class="property">class </em><code class="sig-prename descclassname">accounts.tests.factories.</code><code class="sig-name descname">ProfileFactory</code><a class="headerlink" href="#accounts.tests.factories.ProfileFactory" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">factory.django.DjangoModelFactory</span></code></p>
+<dl class="py attribute">
+<dt id="accounts.tests.factories.ProfileFactory.bio">
+<code class="sig-name descname">bio</code><em class="property"> = &lt;factory.faker.Faker object&gt;</em><a class="headerlink" href="#accounts.tests.factories.ProfileFactory.bio" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt id="accounts.tests.factories.ProfileFactory.date_of_birth">
+<code class="sig-name descname">date_of_birth</code><em class="property"> = &lt;factory.faker.Faker object&gt;</em><a class="headerlink" href="#accounts.tests.factories.ProfileFactory.date_of_birth" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt id="accounts.tests.factories.ProfileFactory.institute">
+<code class="sig-name descname">institute</code><em class="property"> = &lt;factory.faker.Faker object&gt;</em><a class="headerlink" href="#accounts.tests.factories.ProfileFactory.institute" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt id="accounts.tests.factories.ProfileFactory.title">
+<code class="sig-name descname">title</code><em class="property"> = &lt;factory.faker.Faker object&gt;</em><a class="headerlink" href="#accounts.tests.factories.ProfileFactory.title" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt id="accounts.tests.factories.ProfileFactory.user">
+<code class="sig-name descname">user</code><em class="property"> = &lt;factory.declarations.SubFactory object&gt;</em><a class="headerlink" href="#accounts.tests.factories.ProfileFactory.user" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt id="accounts.tests.factories.UserFactory">
+<em class="property">class </em><code class="sig-prename descclassname">accounts.tests.factories.</code><code class="sig-name descname">UserFactory</code><a class="headerlink" href="#accounts.tests.factories.UserFactory" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">factory.django.DjangoModelFactory</span></code></p>
+<dl class="py attribute">
+<dt id="accounts.tests.factories.UserFactory.date_joined">
+<code class="sig-name descname">date_joined</code><em class="property"> = &lt;factory.declarations.LazyAttribute object&gt;</em><a class="headerlink" href="#accounts.tests.factories.UserFactory.date_joined" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt id="accounts.tests.factories.UserFactory.email">
+<code class="sig-name descname">email</code><em class="property"> = &lt;factory.faker.Faker object&gt;</em><a class="headerlink" href="#accounts.tests.factories.UserFactory.email" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt id="accounts.tests.factories.UserFactory.first_name">
+<code class="sig-name descname">first_name</code><em class="property"> = &lt;factory.faker.Faker object&gt;</em><a class="headerlink" href="#accounts.tests.factories.UserFactory.first_name" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt id="accounts.tests.factories.UserFactory.is_active">
+<code class="sig-name descname">is_active</code><em class="property"> = True</em><a class="headerlink" href="#accounts.tests.factories.UserFactory.is_active" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt id="accounts.tests.factories.UserFactory.is_staff">
+<code class="sig-name descname">is_staff</code><em class="property"> = True</em><a class="headerlink" href="#accounts.tests.factories.UserFactory.is_staff" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt id="accounts.tests.factories.UserFactory.is_superuser">
+<code class="sig-name descname">is_superuser</code><em class="property"> = True</em><a class="headerlink" href="#accounts.tests.factories.UserFactory.is_superuser" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt id="accounts.tests.factories.UserFactory.last_login">
+<code class="sig-name descname">last_login</code><em class="property"> = &lt;factory.declarations.LazyAttribute object&gt;</em><a class="headerlink" href="#accounts.tests.factories.UserFactory.last_login" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt id="accounts.tests.factories.UserFactory.last_name">
+<code class="sig-name descname">last_name</code><em class="property"> = &lt;factory.faker.Faker object&gt;</em><a class="headerlink" href="#accounts.tests.factories.UserFactory.last_name" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt id="accounts.tests.factories.UserFactory.password">
+<code class="sig-name descname">password</code><em class="property"> = &lt;factory.declarations.PostGenerationMethodCall object&gt;</em><a class="headerlink" href="#accounts.tests.factories.UserFactory.password" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt id="accounts.tests.factories.UserFactory.profile">
+<code class="sig-name descname">profile</code><em class="property"> = &lt;factory.declarations.RelatedFactory object&gt;</em><a class="headerlink" href="#accounts.tests.factories.UserFactory.profile" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt id="accounts.tests.factories.UserFactory.username">
+<code class="sig-name descname">username</code><em class="property"> = &lt;factory.declarations.Sequence object&gt;</em><a class="headerlink" href="#accounts.tests.factories.UserFactory.username" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="module-accounts.tests.test_admin">
+<span id="accounts-tests-test-admin-module"></span><h2>accounts.tests.test_admin module<a class="headerlink" href="#module-accounts.tests.test_admin" title="Permalink to this headline">¶</a></h2>
+<dl class="py class">
+<dt id="accounts.tests.test_admin.AdminTestCase">
+<em class="property">class </em><code class="sig-prename descclassname">accounts.tests.test_admin.</code><code class="sig-name descname">AdminTestCase</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">methodName</span><span class="o">=</span><span class="default_value">'runTest'</span></em><span class="sig-paren">)</span><a class="headerlink" href="#accounts.tests.test_admin.AdminTestCase" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">django.test.testcases.TestCase</span></code></p>
+<dl class="py method">
+<dt id="accounts.tests.test_admin.AdminTestCase.setUp">
+<code class="sig-name descname">setUp</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#accounts.tests.test_admin.AdminTestCase.setUp" title="Permalink to this definition">¶</a></dt>
+<dd><p>Hook method for setting up the test fixture before exercising it.</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt id="accounts.tests.test_admin.UserAdminTestCase">
+<em class="property">class </em><code class="sig-prename descclassname">accounts.tests.test_admin.</code><code class="sig-name descname">UserAdminTestCase</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">methodName</span><span class="o">=</span><span class="default_value">'runTest'</span></em><span class="sig-paren">)</span><a class="headerlink" href="#accounts.tests.test_admin.UserAdminTestCase" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#accounts.tests.test_admin.AdminTestCase" title="accounts.tests.test_admin.AdminTestCase"><code class="xref py py-class docutils literal notranslate"><span class="pre">accounts.tests.test_admin.AdminTestCase</span></code></a></p>
+<dl class="py method">
+<dt id="accounts.tests.test_admin.UserAdminTestCase.test_get_profile_inline_with_instance">
+<code class="sig-name descname">test_get_profile_inline_with_instance</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#accounts.tests.test_admin.UserAdminTestCase.test_get_profile_inline_with_instance" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt id="accounts.tests.test_admin.UserAdminTestCase.test_get_profile_inline_without_instance">
+<code class="sig-name descname">test_get_profile_inline_without_instance</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#accounts.tests.test_admin.UserAdminTestCase.test_get_profile_inline_without_instance" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt id="accounts.tests.test_admin.UserAdminTestCase.test_get_user_institute">
+<code class="sig-name descname">test_get_user_institute</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#accounts.tests.test_admin.UserAdminTestCase.test_get_user_institute" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="module-accounts.tests.test_backends">
+<span id="accounts-tests-test-backends-module"></span><h2>accounts.tests.test_backends module<a class="headerlink" href="#module-accounts.tests.test_backends" title="Permalink to this headline">¶</a></h2>
+</div>
+<div class="section" id="module-accounts.tests.test_models">
+<span id="accounts-tests-test-models-module"></span><h2>accounts.tests.test_models module<a class="headerlink" href="#module-accounts.tests.test_models" title="Permalink to this headline">¶</a></h2>
+<dl class="py class">
+<dt id="accounts.tests.test_models.ProfileModelTestCase">
+<em class="property">class </em><code class="sig-prename descclassname">accounts.tests.test_models.</code><code class="sig-name descname">ProfileModelTestCase</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">methodName</span><span class="o">=</span><span class="default_value">'runTest'</span></em><span class="sig-paren">)</span><a class="headerlink" href="#accounts.tests.test_models.ProfileModelTestCase" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">django.test.testcases.TestCase</span></code></p>
+<dl class="py method">
+<dt id="accounts.tests.test_models.ProfileModelTestCase.setUp">
+<code class="sig-name descname">setUp</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#accounts.tests.test_models.ProfileModelTestCase.setUp" title="Permalink to this definition">¶</a></dt>
+<dd><p>Hook method for setting up the test fixture before exercising it.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="accounts.tests.test_models.ProfileModelTestCase.test_full_name_with_title">
+<code class="sig-name descname">test_full_name_with_title</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#accounts.tests.test_models.ProfileModelTestCase.test_full_name_with_title" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt id="accounts.tests.test_models.ProfileModelTestCase.test_full_name_without_title">
+<code class="sig-name descname">test_full_name_without_title</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#accounts.tests.test_models.ProfileModelTestCase.test_full_name_without_title" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt id="accounts.tests.test_models.ProfileModelTestCase.test_login">
+<code class="sig-name descname">test_login</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#accounts.tests.test_models.ProfileModelTestCase.test_login" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt id="accounts.tests.test_models.ProfileModelTestCase.test_profile_is_created_when_user_is_saved">
+<code class="sig-name descname">test_profile_is_created_when_user_is_saved</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#accounts.tests.test_models.ProfileModelTestCase.test_profile_is_created_when_user_is_saved" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt id="accounts.tests.test_models.ProfileModelTestCase.test_str">
+<code class="sig-name descname">test_str</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#accounts.tests.test_models.ProfileModelTestCase.test_str" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt id="accounts.tests.test_models.UserModelTestCase">
+<em class="property">class </em><code class="sig-prename descclassname">accounts.tests.test_models.</code><code class="sig-name descname">UserModelTestCase</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">methodName</span><span class="o">=</span><span class="default_value">'runTest'</span></em><span class="sig-paren">)</span><a class="headerlink" href="#accounts.tests.test_models.UserModelTestCase" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">django.test.testcases.TestCase</span></code></p>
+<dl class="py method">
+<dt id="accounts.tests.test_models.UserModelTestCase.setUp">
+<code class="sig-name descname">setUp</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#accounts.tests.test_models.UserModelTestCase.setUp" title="Permalink to this definition">¶</a></dt>
+<dd><p>Hook method for setting up the test fixture before exercising it.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="accounts.tests.test_models.UserModelTestCase.test_user_created_with_profile">
+<code class="sig-name descname">test_user_created_with_profile</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#accounts.tests.test_models.UserModelTestCase.test_user_created_with_profile" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="module-accounts.tests.utils">
+<span id="accounts-tests-utils-module"></span><h2>accounts.tests.utils module<a class="headerlink" href="#module-accounts.tests.utils" title="Permalink to this headline">¶</a></h2>
+<dl class="py class">
+<dt id="accounts.tests.utils.LoggedInTestCase">
+<em class="property">class </em><code class="sig-prename descclassname">accounts.tests.utils.</code><code class="sig-name descname">LoggedInTestCase</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">methodName</span><span class="o">=</span><span class="default_value">'runTest'</span></em><span class="sig-paren">)</span><a class="headerlink" href="#accounts.tests.utils.LoggedInTestCase" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">rest_framework.test.APITestCase</span></code></p>
+<dl class="py method">
+<dt id="accounts.tests.utils.LoggedInTestCase.login">
+<code class="sig-name descname">login</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#accounts.tests.utils.LoggedInTestCase.login" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt id="accounts.tests.utils.LoggedInTestCase.setUp">
+<code class="sig-name descname">setUp</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#accounts.tests.utils.LoggedInTestCase.setUp" title="Permalink to this definition">¶</a></dt>
+<dd><p>Hook method for setting up the test fixture before exercising it.</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt id="accounts.tests.utils.MockRequest">
+<em class="property">class </em><code class="sig-prename descclassname">accounts.tests.utils.</code><code class="sig-name descname">MockRequest</code><a class="headerlink" href="#accounts.tests.utils.MockRequest" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference external" href="https://docs.python.org/3/library/functions.html#object" title="(in Python v3.8)"><code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></a></p>
+</dd></dl>
+
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="accounts.views.html" class="btn btn-neutral float-right" title="accounts.views package" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="accounts.serializers.html" class="btn btn-neutral float-left" title="accounts.serializers package" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2020, Zvi Baratz
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

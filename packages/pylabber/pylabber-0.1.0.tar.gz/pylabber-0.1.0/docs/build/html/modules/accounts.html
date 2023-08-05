@@ -1,0 +1,414 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>accounts package &mdash; pylabber 0.1.0 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="../_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+        <script src="../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="accounts.filters package" href="accounts.filters.html" />
+    <link rel="prev" title="Reference" href="modules.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> pylabber
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../overview.html">Overview</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../usage/installation.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../existing_apps.html">Existing Apps</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="modules.html">Reference</a><ul class="current">
+<li class="toctree-l2 current"><a class="current reference internal" href="#">accounts package</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#module-accounts">Module contents</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#subpackages">Subpackages</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="accounts.filters.html">accounts.filters package</a></li>
+<li class="toctree-l4"><a class="reference internal" href="accounts.models.html">accounts.models package</a></li>
+<li class="toctree-l4"><a class="reference internal" href="accounts.serializers.html">accounts.serializers package</a></li>
+<li class="toctree-l4"><a class="reference internal" href="accounts.views.html">accounts.views package</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#submodules">Submodules</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#module-accounts.admin">accounts.admin module</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#module-accounts.apps">accounts.apps module</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#module-accounts.signals">accounts.signals module</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#module-accounts.urls">accounts.urls module</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="pylabber.html">pylabber package</a></li>
+<li class="toctree-l2"><a class="reference internal" href="research.html">research package</a></li>
+</ul>
+</li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">pylabber</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html">Docs</a> &raquo;</li>
+        
+          <li><a href="modules.html">Reference</a> &raquo;</li>
+        
+      <li>accounts package</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../_sources/modules/accounts.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="accounts-package">
+<h1>accounts package<a class="headerlink" href="#accounts-package" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="module-accounts">
+<span id="module-contents"></span><h2>Module contents<a class="headerlink" href="#module-accounts" title="Permalink to this headline">¶</a></h2>
+<p>Manages researcher (<a class="reference internal" href="accounts.models.html#accounts.models.user.User" title="accounts.models.user.User"><code class="xref py py-class docutils literal notranslate"><span class="pre">User</span></code></a>) and
+<a class="reference internal" href="accounts.models.html#accounts.models.laboratory.Laboratory" title="accounts.models.laboratory.Laboratory"><code class="xref py py-class docutils literal notranslate"><span class="pre">Laboratory</span></code></a> accounts.</p>
+</div>
+<div class="section" id="subpackages">
+<h2>Subpackages<a class="headerlink" href="#subpackages" title="Permalink to this headline">¶</a></h2>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="accounts.filters.html">accounts.filters package</a></li>
+<li class="toctree-l1"><a class="reference internal" href="accounts.models.html">accounts.models package</a></li>
+<li class="toctree-l1"><a class="reference internal" href="accounts.serializers.html">accounts.serializers package</a></li>
+<li class="toctree-l1"><a class="reference internal" href="accounts.views.html">accounts.views package</a></li>
+</ul>
+</div>
+</div>
+<div class="section" id="submodules">
+<h2>Submodules<a class="headerlink" href="#submodules" title="Permalink to this headline">¶</a></h2>
+</div>
+<div class="section" id="module-accounts.admin">
+<span id="accounts-admin-module"></span><h2>accounts.admin module<a class="headerlink" href="#module-accounts.admin" title="Permalink to this headline">¶</a></h2>
+<dl class="py class">
+<dt id="accounts.admin.LaboratoryAdmin">
+<em class="property">class </em><code class="sig-prename descclassname">accounts.admin.</code><code class="sig-name descname">LaboratoryAdmin</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">model</span></em>, <em class="sig-param"><span class="n">admin_site</span></em><span class="sig-paren">)</span><a class="headerlink" href="#accounts.admin.LaboratoryAdmin" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">django.contrib.admin.options.ModelAdmin</span></code></p>
+<dl class="py attribute">
+<dt id="accounts.admin.LaboratoryAdmin.inlines">
+<code class="sig-name descname">inlines</code><em class="property"> = (&lt;class 'accounts.admin.LaboratoryMembershipInLine'&gt;,)</em><a class="headerlink" href="#accounts.admin.LaboratoryAdmin.inlines" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt id="accounts.admin.LaboratoryAdmin.list_display">
+<code class="sig-name descname">list_display</code><em class="property"> = ('id', 'title', 'description', 'created', 'modified')</em><a class="headerlink" href="#accounts.admin.LaboratoryAdmin.list_display" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt id="accounts.admin.LaboratoryAdmin.media">
+<em class="property">property </em><code class="sig-name descname">media</code><a class="headerlink" href="#accounts.admin.LaboratoryAdmin.media" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt id="accounts.admin.LaboratoryMembershipInLine">
+<em class="property">class </em><code class="sig-prename descclassname">accounts.admin.</code><code class="sig-name descname">LaboratoryMembershipInLine</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">parent_model</span></em>, <em class="sig-param"><span class="n">admin_site</span></em><span class="sig-paren">)</span><a class="headerlink" href="#accounts.admin.LaboratoryMembershipInLine" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">django.contrib.admin.options.TabularInline</span></code></p>
+<dl class="py attribute">
+<dt id="accounts.admin.LaboratoryMembershipInLine.model">
+<code class="sig-name descname">model</code><a class="headerlink" href="#accounts.admin.LaboratoryMembershipInLine.model" title="Permalink to this definition">¶</a></dt>
+<dd><p>alias of <code class="xref py py-class docutils literal notranslate"><span class="pre">accounts.models.laboratory_membership.LaboratoryMembership</span></code></p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt id="accounts.admin.LaboratoryMembershipInLine.extra">
+<code class="sig-name descname">extra</code><em class="property"> = 1</em><a class="headerlink" href="#accounts.admin.LaboratoryMembershipInLine.extra" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt id="accounts.admin.LaboratoryMembershipInLine.media">
+<em class="property">property </em><code class="sig-name descname">media</code><a class="headerlink" href="#accounts.admin.LaboratoryMembershipInLine.media" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt id="accounts.admin.ProfileInline">
+<em class="property">class </em><code class="sig-prename descclassname">accounts.admin.</code><code class="sig-name descname">ProfileInline</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">parent_model</span></em>, <em class="sig-param"><span class="n">admin_site</span></em><span class="sig-paren">)</span><a class="headerlink" href="#accounts.admin.ProfileInline" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">django.contrib.admin.options.StackedInline</span></code></p>
+<dl class="py attribute">
+<dt id="accounts.admin.ProfileInline.model">
+<code class="sig-name descname">model</code><a class="headerlink" href="#accounts.admin.ProfileInline.model" title="Permalink to this definition">¶</a></dt>
+<dd><p>alias of <a class="reference internal" href="accounts.models.html#accounts.models.profile.Profile" title="accounts.models.profile.Profile"><code class="xref py py-class docutils literal notranslate"><span class="pre">accounts.models.profile.Profile</span></code></a></p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt id="accounts.admin.ProfileInline.can_delete">
+<code class="sig-name descname">can_delete</code><em class="property"> = False</em><a class="headerlink" href="#accounts.admin.ProfileInline.can_delete" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt id="accounts.admin.ProfileInline.fk_name">
+<code class="sig-name descname">fk_name</code><em class="property"> = 'user'</em><a class="headerlink" href="#accounts.admin.ProfileInline.fk_name" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt id="accounts.admin.ProfileInline.media">
+<em class="property">property </em><code class="sig-name descname">media</code><a class="headerlink" href="#accounts.admin.ProfileInline.media" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt id="accounts.admin.ProfileInline.verbose_name_plural">
+<code class="sig-name descname">verbose_name_plural</code><em class="property"> = 'Profile'</em><a class="headerlink" href="#accounts.admin.ProfileInline.verbose_name_plural" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt id="accounts.admin.UserAdmin">
+<em class="property">class </em><code class="sig-prename descclassname">accounts.admin.</code><code class="sig-name descname">UserAdmin</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">model</span></em>, <em class="sig-param"><span class="n">admin_site</span></em><span class="sig-paren">)</span><a class="headerlink" href="#accounts.admin.UserAdmin" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">django.contrib.auth.admin.UserAdmin</span></code></p>
+<dl class="py method">
+<dt id="accounts.admin.UserAdmin.get_inline_instances">
+<code class="sig-name descname">get_inline_instances</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">request</span></em>, <em class="sig-param"><span class="n">obj</span><span class="o">=</span><span class="default_value">None</span></em><span class="sig-paren">)</span><a class="headerlink" href="#accounts.admin.UserAdmin.get_inline_instances" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt id="accounts.admin.UserAdmin.get_institute">
+<code class="sig-name descname">get_institute</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">instance</span></em><span class="sig-paren">)</span><a class="headerlink" href="#accounts.admin.UserAdmin.get_institute" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt id="accounts.admin.UserAdmin.inlines">
+<code class="sig-name descname">inlines</code><em class="property"> = (&lt;class 'accounts.admin.ProfileInline'&gt;, &lt;class 'accounts.admin.LaboratoryMembershipInLine'&gt;)</em><a class="headerlink" href="#accounts.admin.UserAdmin.inlines" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt id="accounts.admin.UserAdmin.list_display">
+<code class="sig-name descname">list_display</code><em class="property"> = ('username', 'email', 'first_name', 'last_name', 'get_institute', 'is_staff')</em><a class="headerlink" href="#accounts.admin.UserAdmin.list_display" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt id="accounts.admin.UserAdmin.list_select_related">
+<code class="sig-name descname">list_select_related</code><em class="property"> = ('profile',)</em><a class="headerlink" href="#accounts.admin.UserAdmin.list_select_related" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt id="accounts.admin.UserAdmin.media">
+<em class="property">property </em><code class="sig-name descname">media</code><a class="headerlink" href="#accounts.admin.UserAdmin.media" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="module-accounts.apps">
+<span id="accounts-apps-module"></span><h2>accounts.apps module<a class="headerlink" href="#module-accounts.apps" title="Permalink to this headline">¶</a></h2>
+<dl class="py class">
+<dt id="accounts.apps.AccountsConfig">
+<em class="property">class </em><code class="sig-prename descclassname">accounts.apps.</code><code class="sig-name descname">AccountsConfig</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">app_name</span></em>, <em class="sig-param"><span class="n">app_module</span></em><span class="sig-paren">)</span><a class="headerlink" href="#accounts.apps.AccountsConfig" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">django.apps.config.AppConfig</span></code></p>
+<dl class="py method">
+<dt id="accounts.apps.AccountsConfig.ready">
+<code class="sig-name descname">ready</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#accounts.apps.AccountsConfig.ready" title="Permalink to this definition">¶</a></dt>
+<dd><p>Override this method in subclasses to run code when Django starts.</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt id="accounts.apps.AccountsConfig.name">
+<code class="sig-name descname">name</code><em class="property"> = 'accounts'</em><a class="headerlink" href="#accounts.apps.AccountsConfig.name" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="module-accounts.signals">
+<span id="accounts-signals-module"></span><h2>accounts.signals module<a class="headerlink" href="#module-accounts.signals" title="Permalink to this headline">¶</a></h2>
+<dl class="py function">
+<dt id="accounts.signals.create_auth_token">
+<code class="sig-prename descclassname">accounts.signals.</code><code class="sig-name descname">create_auth_token</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">sender</span></em>, <em class="sig-param"><span class="n">instance</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">created</span><span class="o">=</span><span class="default_value">False</span></em>, <em class="sig-param"><span class="o">**</span><span class="n">kwargs</span></em><span class="sig-paren">)</span><a class="headerlink" href="#accounts.signals.create_auth_token" title="Permalink to this definition">¶</a></dt>
+<dd><p>Automatically creates an authentication token for the user, as described in
+<a class="reference external" href="https://www.django-rest-framework.org/api-guide/authentication/#generating-tokens">the DRF documentation</a>.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>created</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.8)"><em>bool</em></a><em>, </em><em>optional</em>) – Whether the instance is being created or updated, by default False</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt id="accounts.signals.post_save_user_model_receiver">
+<code class="sig-prename descclassname">accounts.signals.</code><code class="sig-name descname">post_save_user_model_receiver</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">sender</span></em>, <em class="sig-param"><span class="n">instance</span></em>, <em class="sig-param"><span class="n">created</span></em>, <em class="sig-param"><span class="o">*</span><span class="n">args</span></em>, <em class="sig-param"><span class="o">**</span><span class="n">kwargs</span></em><span class="sig-paren">)</span><a class="headerlink" href="#accounts.signals.post_save_user_model_receiver" title="Permalink to this definition">¶</a></dt>
+<dd><p>Standard implementation for user profile creation.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>sender</strong> (<a class="reference external" href="https://django.readthedocs.io/en/latest/ref/models/instances.html#django.db.models.Model" title="(in Django v3.2)"><em>django.db.models.Model</em></a>) – The class of the instance being saved</p></li>
+<li><p><strong>instance</strong> (<a class="reference external" href="https://django.readthedocs.io/en/latest/ref/models/instances.html#django.db.models.Model" title="(in Django v3.2)"><em>django.db.models.Model</em></a>) – The instance being saved</p></li>
+<li><p><strong>created</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.8)"><em>bool</em></a>) – Whether the instance is being created or updated</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+</div>
+<div class="section" id="module-accounts.urls">
+<span id="accounts-urls-module"></span><h2>accounts.urls module<a class="headerlink" href="#module-accounts.urls" title="Permalink to this headline">¶</a></h2>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="accounts.filters.html" class="btn btn-neutral float-right" title="accounts.filters package" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="modules.html" class="btn btn-neutral float-left" title="Reference" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2020, Zvi Baratz
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

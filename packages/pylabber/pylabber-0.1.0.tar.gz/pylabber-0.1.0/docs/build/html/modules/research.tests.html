@@ -1,0 +1,425 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>research.tests package &mdash; pylabber 0.1.0 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="../_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+        <script src="../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="research.views package" href="research.views.html" />
+    <link rel="prev" title="research.serializers package" href="research.serializers.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> pylabber
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../overview.html">Overview</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../usage/installation.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../existing_apps.html">Existing Apps</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="modules.html">Reference</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="accounts.html">accounts package</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pylabber.html">pylabber package</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="research.html">research package</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="research.html#module-research">Module contents</a></li>
+<li class="toctree-l3 current"><a class="reference internal" href="research.html#subpackages">Subpackages</a><ul class="current">
+<li class="toctree-l4"><a class="reference internal" href="research.filters.html">research.filters package</a></li>
+<li class="toctree-l4"><a class="reference internal" href="research.models.html">research.models package</a></li>
+<li class="toctree-l4"><a class="reference internal" href="research.serializers.html">research.serializers package</a></li>
+<li class="toctree-l4 current"><a class="current reference internal" href="#">research.tests package</a></li>
+<li class="toctree-l4"><a class="reference internal" href="research.views.html">research.views package</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="research.html#submodules">Submodules</a></li>
+<li class="toctree-l3"><a class="reference internal" href="research.html#module-research.admin">research.admin module</a></li>
+<li class="toctree-l3"><a class="reference internal" href="research.html#module-research.apps">research.apps module</a></li>
+<li class="toctree-l3"><a class="reference internal" href="research.html#module-research.urls">research.urls module</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">pylabber</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html">Docs</a> &raquo;</li>
+        
+          <li><a href="modules.html">Reference</a> &raquo;</li>
+        
+          <li><a href="research.html">research package</a> &raquo;</li>
+        
+      <li>research.tests package</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../_sources/modules/research.tests.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="research-tests-package">
+<h1>research.tests package<a class="headerlink" href="#research-tests-package" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="module-research.tests">
+<span id="module-contents"></span><h2>Module contents<a class="headerlink" href="#module-research.tests" title="Permalink to this headline">¶</a></h2>
+</div>
+<div class="section" id="submodules">
+<h2>Submodules<a class="headerlink" href="#submodules" title="Permalink to this headline">¶</a></h2>
+</div>
+<div class="section" id="module-research.tests.factories">
+<span id="research-tests-factories-module"></span><h2>research.tests.factories module<a class="headerlink" href="#module-research.tests.factories" title="Permalink to this headline">¶</a></h2>
+<dl class="py class">
+<dt id="research.tests.factories.StudyFactory">
+<em class="property">class </em><code class="sig-prename descclassname">research.tests.factories.</code><code class="sig-name descname">StudyFactory</code><a class="headerlink" href="#research.tests.factories.StudyFactory" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">factory.django.DjangoModelFactory</span></code></p>
+<dl class="py attribute">
+<dt id="research.tests.factories.StudyFactory.collaborators">
+<code class="sig-name descname">collaborators</code><em class="property"> = &lt;factory.declarations.RelatedFactory object&gt;</em><a class="headerlink" href="#research.tests.factories.StudyFactory.collaborators" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt id="research.tests.factories.StudyFactory.created">
+<code class="sig-name descname">created</code><em class="property"> = &lt;factory.declarations.LazyAttribute object&gt;</em><a class="headerlink" href="#research.tests.factories.StudyFactory.created" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt id="research.tests.factories.StudyFactory.description">
+<code class="sig-name descname">description</code><em class="property"> = &lt;factory.faker.Faker object&gt;</em><a class="headerlink" href="#research.tests.factories.StudyFactory.description" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt id="research.tests.factories.StudyFactory.modified">
+<code class="sig-name descname">modified</code><em class="property"> = &lt;factory.declarations.LazyAttribute object&gt;</em><a class="headerlink" href="#research.tests.factories.StudyFactory.modified" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt id="research.tests.factories.StudyFactory.subjects">
+<code class="sig-name descname">subjects</code><em class="property"> = &lt;factory.declarations.RelatedFactory object&gt;</em><a class="headerlink" href="#research.tests.factories.StudyFactory.subjects" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt id="research.tests.factories.StudyFactory.title">
+<code class="sig-name descname">title</code><em class="property"> = &lt;factory.faker.Faker object&gt;</em><a class="headerlink" href="#research.tests.factories.StudyFactory.title" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt id="research.tests.factories.SubjectFactory">
+<em class="property">class </em><code class="sig-prename descclassname">research.tests.factories.</code><code class="sig-name descname">SubjectFactory</code><a class="headerlink" href="#research.tests.factories.SubjectFactory" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">factory.django.DjangoModelFactory</span></code></p>
+<dl class="py attribute">
+<dt id="research.tests.factories.SubjectFactory.date_of_birth">
+<code class="sig-name descname">date_of_birth</code><em class="property"> = &lt;factory.faker.Faker object&gt;</em><a class="headerlink" href="#research.tests.factories.SubjectFactory.date_of_birth" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt id="research.tests.factories.SubjectFactory.dominant_hand">
+<code class="sig-name descname">dominant_hand</code><em class="property"> = &lt;factory.fuzzy.FuzzyChoice object&gt;</em><a class="headerlink" href="#research.tests.factories.SubjectFactory.dominant_hand" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt id="research.tests.factories.SubjectFactory.first_name">
+<code class="sig-name descname">first_name</code><em class="property"> = &lt;factory.faker.Faker object&gt;</em><a class="headerlink" href="#research.tests.factories.SubjectFactory.first_name" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt id="research.tests.factories.SubjectFactory.gender">
+<code class="sig-name descname">gender</code><em class="property"> = &lt;factory.fuzzy.FuzzyChoice object&gt;</em><a class="headerlink" href="#research.tests.factories.SubjectFactory.gender" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt id="research.tests.factories.SubjectFactory.id_number">
+<code class="sig-name descname">id_number</code><em class="property"> = &lt;factory.fuzzy.FuzzyText object&gt;</em><a class="headerlink" href="#research.tests.factories.SubjectFactory.id_number" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt id="research.tests.factories.SubjectFactory.last_name">
+<code class="sig-name descname">last_name</code><em class="property"> = &lt;factory.faker.Faker object&gt;</em><a class="headerlink" href="#research.tests.factories.SubjectFactory.last_name" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt id="research.tests.factories.SubjectFactory.sex">
+<code class="sig-name descname">sex</code><em class="property"> = &lt;factory.fuzzy.FuzzyChoice object&gt;</em><a class="headerlink" href="#research.tests.factories.SubjectFactory.sex" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="module-research.tests.test_app_config">
+<span id="research-tests-test-app-config-module"></span><h2>research.tests.test_app_config module<a class="headerlink" href="#module-research.tests.test_app_config" title="Permalink to this headline">¶</a></h2>
+<dl class="py class">
+<dt id="research.tests.test_app_config.ResearchConfigTest">
+<em class="property">class </em><code class="sig-prename descclassname">research.tests.test_app_config.</code><code class="sig-name descname">ResearchConfigTest</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">methodName</span><span class="o">=</span><span class="default_value">'runTest'</span></em><span class="sig-paren">)</span><a class="headerlink" href="#research.tests.test_app_config.ResearchConfigTest" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">django.test.testcases.TestCase</span></code></p>
+<dl class="py method">
+<dt id="research.tests.test_app_config.ResearchConfigTest.test_apps">
+<code class="sig-name descname">test_apps</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#research.tests.test_app_config.ResearchConfigTest.test_apps" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="module-research.tests.test_models">
+<span id="research-tests-test-models-module"></span><h2>research.tests.test_models module<a class="headerlink" href="#module-research.tests.test_models" title="Permalink to this headline">¶</a></h2>
+<dl class="py class">
+<dt id="research.tests.test_models.StudyModelTestCase">
+<em class="property">class </em><code class="sig-prename descclassname">research.tests.test_models.</code><code class="sig-name descname">StudyModelTestCase</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">methodName</span><span class="o">=</span><span class="default_value">'runTest'</span></em><span class="sig-paren">)</span><a class="headerlink" href="#research.tests.test_models.StudyModelTestCase" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">django.test.testcases.TestCase</span></code></p>
+<dl class="py method">
+<dt id="research.tests.test_models.StudyModelTestCase.add_subject">
+<code class="sig-name descname">add_subject</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">study</span></em>, <em class="sig-param"><span class="n">exception_msg</span><span class="o">=</span><span class="default_value">'Failed to add subject to study!'</span></em><span class="sig-paren">)</span><a class="headerlink" href="#research.tests.test_models.StudyModelTestCase.add_subject" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt id="research.tests.test_models.StudyModelTestCase.setUp">
+<code class="sig-name descname">setUp</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#research.tests.test_models.StudyModelTestCase.setUp" title="Permalink to this definition">¶</a></dt>
+<dd><p>Hook method for setting up the test fixture before exercising it.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="research.tests.test_models.StudyModelTestCase.test_add_subjects_to_study">
+<code class="sig-name descname">test_add_subjects_to_study</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#research.tests.test_models.StudyModelTestCase.test_add_subjects_to_study" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt id="research.tests.test_models.StudyModelTestCase.test_str">
+<code class="sig-name descname">test_str</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#research.tests.test_models.StudyModelTestCase.test_str" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt id="research.tests.test_models.SubjectModelTestCase">
+<em class="property">class </em><code class="sig-prename descclassname">research.tests.test_models.</code><code class="sig-name descname">SubjectModelTestCase</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">methodName</span><span class="o">=</span><span class="default_value">'runTest'</span></em><span class="sig-paren">)</span><a class="headerlink" href="#research.tests.test_models.SubjectModelTestCase" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">django.test.testcases.TestCase</span></code></p>
+<dl class="py method">
+<dt id="research.tests.test_models.SubjectModelTestCase.setUp">
+<code class="sig-name descname">setUp</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#research.tests.test_models.SubjectModelTestCase.setUp" title="Permalink to this definition">¶</a></dt>
+<dd><p>Hook method for setting up the test fixture before exercising it.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="research.tests.test_models.SubjectModelTestCase.test_dominant_hand_choices">
+<code class="sig-name descname">test_dominant_hand_choices</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#research.tests.test_models.SubjectModelTestCase.test_dominant_hand_choices" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt id="research.tests.test_models.SubjectModelTestCase.test_gender_choices">
+<code class="sig-name descname">test_gender_choices</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#research.tests.test_models.SubjectModelTestCase.test_gender_choices" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt id="research.tests.test_models.SubjectModelTestCase.test_get_full_name">
+<code class="sig-name descname">test_get_full_name</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#research.tests.test_models.SubjectModelTestCase.test_get_full_name" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt id="research.tests.test_models.SubjectModelTestCase.test_invalid_dominant_hand_choice">
+<code class="sig-name descname">test_invalid_dominant_hand_choice</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#research.tests.test_models.SubjectModelTestCase.test_invalid_dominant_hand_choice" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt id="research.tests.test_models.SubjectModelTestCase.test_invalid_gender_choice">
+<code class="sig-name descname">test_invalid_gender_choice</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#research.tests.test_models.SubjectModelTestCase.test_invalid_gender_choice" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt id="research.tests.test_models.SubjectModelTestCase.test_invalid_sex_choice">
+<code class="sig-name descname">test_invalid_sex_choice</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#research.tests.test_models.SubjectModelTestCase.test_invalid_sex_choice" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt id="research.tests.test_models.SubjectModelTestCase.test_not_future_birthdate_validator">
+<code class="sig-name descname">test_not_future_birthdate_validator</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#research.tests.test_models.SubjectModelTestCase.test_not_future_birthdate_validator" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt id="research.tests.test_models.SubjectModelTestCase.test_null_char_field">
+<code class="sig-name descname">test_null_char_field</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#research.tests.test_models.SubjectModelTestCase.test_null_char_field" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt id="research.tests.test_models.SubjectModelTestCase.test_sex_choices">
+<code class="sig-name descname">test_sex_choices</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#research.tests.test_models.SubjectModelTestCase.test_sex_choices" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt id="research.tests.test_models.SubjectModelTestCase.test_str">
+<code class="sig-name descname">test_str</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#research.tests.test_models.SubjectModelTestCase.test_str" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="module-research.tests.test_views">
+<span id="research-tests-test-views-module"></span><h2>research.tests.test_views module<a class="headerlink" href="#module-research.tests.test_views" title="Permalink to this headline">¶</a></h2>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="research.views.html" class="btn btn-neutral float-right" title="research.views package" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="research.serializers.html" class="btn btn-neutral float-left" title="research.serializers package" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2020, Zvi Baratz
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>
