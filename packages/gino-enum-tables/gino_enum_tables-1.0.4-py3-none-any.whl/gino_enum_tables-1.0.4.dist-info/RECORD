@@ -1,0 +1,8 @@
+enumtables/__init__.py,sha256=i-kV3g3SUq-Uul5DcCa0sH6mT5OfKzbPtlc1j3FwXWI,259
+enumtables/alembic_autogen.py,sha256=pzahopoVVwdj1db5gEljICx8hNwgWWbng-jWbuFcXns,1795
+enumtables/alembic_ops.py,sha256=fzND86f8oJ4teVVSrKEp0fYrDEmbXL0K_6tQOAoZqA4,1997
+enumtables/enum_table.py,sha256=GvMhqcTl9WYDXJn8-fjXTCIB3OXPbI7AmjpCQ69rf80,1660
+enumtables/enum_type.py,sha256=_oEm4pR7_3Yh5zKTIzcUNgUGMvo2FOq8YoobTGdu0CI,532
+gino_enum_tables-1.0.4.dist-info/WHEEL,sha256=G_NFpzHmv_dUXgCUSAWL0-bLL-eMzYU6DzDeGXbRXUk,83
+gino_enum_tables-1.0.4.dist-info/METADATA,sha256=DPJ184bXJnYniL-KV3Z-XQkuhqDM4WVzCm4eszZxESU,5242
+gino_enum_tables-1.0.4.dist-info/RECORD,,
