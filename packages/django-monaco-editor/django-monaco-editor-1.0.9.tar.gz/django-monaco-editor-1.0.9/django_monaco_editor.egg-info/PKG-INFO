@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: django-monaco-editor
+Version: 1.0.9
+Summary: A extra widget for django
+Home-page: https://github.com/noteby/django-monaco-editor
+Author: noteby
+Author-email: l.y.h.rothschild@gmail.com
+License: MIT
+Description: # django-monaco-editor
+        
+        ## Features
+        - Integrated with monaco-editor
+        
+        - Integrated with marked.js 
+        
+        - Github-style markdown
+        
+        - Support markdown live preview and shortcuts
+        
+          
+        
+        ## Requirements
+        - Django>=3.0
+Keywords: django monaco editor,monaco editor,django widget,django markdown
+Platform: UNKNOWN
+Classifier: Framework :: Django :: 3.0
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: JavaScript
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
