@@ -1,0 +1,8 @@
+README.md
+setup.py
+utils/__init__.py
+utils/knot_utils.py
+utils_knot.egg-info/PKG-INFO
+utils_knot.egg-info/SOURCES.txt
+utils_knot.egg-info/dependency_links.txt
+utils_knot.egg-info/top_level.txt
