@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: icon-etl
+Version: 0.0.1a1
+Summary: UNKNOWN
+Home-page: https://github.com/insight-icon/icon-etl
+Author: Richard Mah
+Author-email: richard@richardmah.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6.0,<3.8.0
+Provides-Extra: streaming
+Provides-Extra: dev
