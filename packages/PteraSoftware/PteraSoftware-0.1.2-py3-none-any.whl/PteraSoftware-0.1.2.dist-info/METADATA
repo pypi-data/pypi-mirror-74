@@ -1,0 +1,88 @@
+Metadata-Version: 2.1
+Name: PteraSoftware
+Version: 0.1.2
+Summary: This is an open-source, unsteady aerodynamics solver for analyzing flapping-wing flight.
+Home-page: https://github.com/camurban/pterasoftware
+Author: Cameron Urban
+Author-email: camerongurban@gmail.com
+License: UNKNOWN
+Keywords: aerospace computational-biology airplane cfd computational-fluid-dynamics aerodynamics aeronautics aerospace-engineering unmanned-aerial-system aircraft-design unmanned-aerial-vehicle ornithopter ornithology vortex-lattice-method unsteady-flows vlm potential-flow
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Physics
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >= 3.7.6, < 3.8
+Description-Content-Type: text/markdown
+Requires-Dist: matplotlib (<4,>=3.2.2)
+Requires-Dist: numpy (<1.19.0,>=1.18.5)
+Requires-Dist: pyvista (<1,>=0.25.3)
+Requires-Dist: scipy (<2,>=1.5)
+Requires-Dist: codecov (<3,>=2.1.8)
+Requires-Dist: numexpr (<3,>=2.7.1)
+Requires-Dist: pre-commit (<3,>=2.6)
+Requires-Dist: black (<20,>=19.10b0)
+
+# Ptera Software
+
+![Ptera Software Logo](docs/PteraSoftwareLogo.jpg)
+
+The minimum viable release of the Ptera Software suite: a fast, easy-to-use, and opensource software package for analyzing flapping-wing flight.
+
+## Motivation
+
+This project's primary deliverable is an opensource, fast, unsteady aerodynamics solver for analyzing flapping-wing flight
+
+## Build Status
+
+![Build Status](https://img.shields.io/travis/camUrban/PteraSoftware)
+
+## Code Style
+
+![Black Code Style](https://img.shields.io/badge/code%20style-black-black)
+
+## Example Output
+
+### Steady Horseshoe VLM
+
+### Steady Ring VLM
+
+### Unsteady Ring VLM
+
+![Flapping Example Animation](docs/FlappingExample.gif)
+
+![Flapping Example Force Outputs](docs/FlappingExampleForceOutputs.jpg)
+
+![Flapping Example Moment Outputs](docs/FlappingExampleMomentOutputs.jpg)
+
+## Features
+
+![Code Quality Grade](https://img.shields.io/codefactor/grade/github/camUrban/PteraSoftware)
+
+## Code Example
+
+## Installation
+
+```pip install pterasoftware```
+
+### Requirements
+
+## API Reference
+
+## Tests
+
+![Percent Coverage](https://img.shields.io/codecov/c/gh/camUrban/PteraSoftware)
+
+## How to Use
+
+## Contribute
+
+## Credits
+
+## License
+
+![MIT License](https://img.shields.io/github/license/camUrban/PteraSoftware?color=blue)
+
+
