@@ -1,0 +1,16 @@
+dataplay/__init__.py,sha256=-nNlMKS9nph3FR78_ZG9RGKrbxseeNp2K6nMr0pVGaU,23
+dataplay/_nbdev.py,sha256=XnLcUnrqyat9VxkhcOm1wrTdVN7CfppOkOmyiXyNLf0,760
+dataplay/acsDownload.py,sha256=BgMmsXdmwjnuGCnxCVa_aMnhAWfqhgHWbxwff9Xu47s,8396
+dataplay/geoms.py,sha256=gV2q1t7UNkkjlDd1IDCY7EMd6Vo1AwpYgs3eR8Dvj68,11726
+dataplay/merge.py,sha256=9Uu3y5yreZPp_bxqaHD2FYBk_O8I2FWQFgi_TB3cq0c,13566
+dataplay/__pycache__/__init__.cpython-36.pyc,sha256=InOYI-aYNDxwLROtEUPlb60zXz-5QYyvx67PJHelF1E,157
+dataplay/__pycache__/_nbdev.cpython-36.pyc,sha256=lDQEWCOMmMCPf5NfWBt4f2IcBvoKlf4xBDiwL0O6sgQ,722
+dataplay/__pycache__/acsDownload.cpython-36.pyc,sha256=htFNckI2JR3zYmIpvj2lCQtsFe_8FgUOL2sYm32Y7Yo,4520
+dataplay/__pycache__/geoms.cpython-36.pyc,sha256=Li4G-e2yFZqsomahRupzMWsyFZOjy9qQ_4ILlTFYUC0,7935
+dataplay/__pycache__/merge.cpython-36.pyc,sha256=mWXbu9Q990v4RfAci0eyUp1bSTCFd6WvvYhUpWPyTl0,8232
+dataplay-0.0.10.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+dataplay-0.0.10.dist-info/METADATA,sha256=5erNvaF1tiGxMTWtX9deOHo9MGpb6-LiZ2EG9LkSNh8,23536
+dataplay-0.0.10.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+dataplay-0.0.10.dist-info/entry_points.txt,sha256=eqGnTHtEVMYwfXVk1Z9MhC8O2N8wuqAbr0lisLmrkxs,20
+dataplay-0.0.10.dist-info/top_level.txt,sha256=fYpjstXeDpjhS0nYa5sUHJzp2g_Wtnt8tXiUS6exTDA,9
+dataplay-0.0.10.dist-info/RECORD,,
