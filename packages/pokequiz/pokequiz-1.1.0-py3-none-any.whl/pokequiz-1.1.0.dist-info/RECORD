@@ -1,0 +1,12 @@
+pokequiz/Classes.py,sha256=S2pc5fhgax07jW_lbM7w1coTza_ibJhEubLAktW0SPI,7218
+pokequiz/Question.py,sha256=-EkdCv7wRnZoU89hjbqgf2jpmd4_u8Dxbcga1VQTBK4,13668
+pokequiz/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pokequiz/__main__.py,sha256=WozT7qupTuWOCL3LZF1pVRlRu3Tg1eFL4HFEI5Gzj08,6579
+pokequiz/pokequiz.sqlite,sha256=9Mg13TD-tO-BmEGK7xFxUo_9cT7IpLQDcdMExPFh48M,69632
+pokequiz/seeds.json,sha256=jvpo6tR_NQEAIyVu5fG9sNwsfTX6l-Iq0rTOMtD9DSw,131712
+pokequiz-1.1.0.dist-info/LICENSE,sha256=z-9cgCcrzP0kiRtWp4oAxHehPRCMsQCedY6-r0u8qmc,1071
+pokequiz-1.1.0.dist-info/METADATA,sha256=yg_5kcA5X9mTBHmwwv_W7-sOAIRzQXQ4o-P8-Fzd_hA,2733
+pokequiz-1.1.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+pokequiz-1.1.0.dist-info/entry_points.txt,sha256=z4gbTUUaed2tuP7avA3fZW3sX9XA4zYQF5EVADMHpVE,53
+pokequiz-1.1.0.dist-info/top_level.txt,sha256=rZUB0OBDorPz7R5wIVL_7BXqVxxcnP9ka1s3mRX2Iuc,9
+pokequiz-1.1.0.dist-info/RECORD,,
