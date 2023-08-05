@@ -1,0 +1,61 @@
+Metadata-Version: 2.1
+Name: plotbook
+Version: 0.0.7
+Summary: Generate automatic plot for pandas DataFrame
+Home-page: https://github.com/shifwang/plotbook
+Author: Yu Wang
+Author-email: shifwangonline@gmail.com
+License: MIT
+Description: # Plotbook
+        
+        Plotbook allows you to make beautiful plots in Jupyter notebook interactively via ipywidgets. It helps people make beautiful plots faster, especially those who routinely use packages such as matplotlib, plotly, and seaborn. Some highlights:
+        1. Plot type inference: automatically infer the possible types of plot given the input data.
+        2. Use widgets to do fine-tuning.
+        
+        ## Installation
+        You can install via pip:
+        
+        ```
+        pip install plotbook
+        ```
+        
+        In order for widgets to work, make sure you also need to install the following jupyter extensions:
+        
+        ```
+        jupyter nbextension install jupyter-js-widgets plotlywidget
+        ```
+        
+        Check if the extensions are enabled:
+        
+        ```
+        jupyter nbextension list
+        ```
+        
+        ## Demos
+        Example images in the jupyter notebook:
+        
+        ![Example1](https://github.com/shifwang/plotbook/blob/master/imgs/example1.png)
+        ![Example2](https://github.com/shifwang/plotbook/blob/master/imgs/example2.png)
+        ![Example3](https://github.com/shifwang/plotbook/blob/master/imgs/example3.png)
+        
+Keywords: pandas data-science data-analysis python jupyter ipython
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Environment :: Console
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Financial and Insurance Industry
+Classifier: Intended Audience :: Healthcare Industry
+Classifier: Topic :: Scientific/Engineering
+Classifier: Framework :: IPython
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Provides-Extra: notebook
+Provides-Extra: app

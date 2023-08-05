@@ -1,0 +1,17 @@
+MANIFEST.in
+README.md
+requirements.txt
+setup.cfg
+setup.py
+src/plotbook/__init__.py
+src/plotbook/classes_.py
+src/plotbook/version.py
+src/plotbook.egg-info/PKG-INFO
+src/plotbook.egg-info/SOURCES.txt
+src/plotbook.egg-info/dependency_links.txt
+src/plotbook.egg-info/requires.txt
+src/plotbook.egg-info/top_level.txt
+src/plotbook/plots/__init__.py
+src/plotbook/plots/matplotlib.py
+src/plotbook/plots/plotly.py
+src/plotbook/plots/seaborn.py
