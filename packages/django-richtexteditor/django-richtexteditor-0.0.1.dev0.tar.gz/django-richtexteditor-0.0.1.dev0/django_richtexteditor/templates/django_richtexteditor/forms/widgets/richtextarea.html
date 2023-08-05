@@ -1,0 +1,5 @@
+<div class="toolbar-container"></div>
+<div class="" data-textarea-id="{{ widget.attrs.id }}"></div>
+<textarea name="{{ widget.name }}"{% include "django/forms/widgets/attrs.html" %}>
+{% if widget.value %}{{ widget.value }}{% endif %}
+</textarea>
