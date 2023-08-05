@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: magicdaq
+Version: 1.0.0
+Summary: Python API for MagicDAQ Data Acquisition and Test Automation Device
+Home-page: https://www.magicdaq.com/
+Author: MagicDAQ Support
+Author-email: support@magicdaq.com
+License: UNKNOWN
+Description: MagicDAQ is a versatile USB data acquisition and test automation device. 
+        * [MagicDAQ.com](https://www.magicdaq.com/)
+        
+        This python package provides a Python API to interact with the MagicDAQ.
+        
+        ### MagicDAQ Docs
+        
+        Full instillation instructions and API documentation at:
+        * [MagicDAQ Docs](https://magicdaq.github.io/magicdaq_docs/)
+        
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Microsoft :: Windows 
+Requires-Python: >=3.0
+Description-Content-Type: text/markdown
