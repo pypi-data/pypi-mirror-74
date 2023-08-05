@@ -1,0 +1,7 @@
+km3pipe>=8.0.0
+setuptools_scm
+uproot
+docopt
+pathlib
+fs
+fs.sshfs
