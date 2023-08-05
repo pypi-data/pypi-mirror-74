@@ -1,0 +1,8 @@
+dynamore/__init__.py,sha256=kUR5RAFc7HCeiqdlX36dZOHkUI5wI6V_43RpEcD8b-0,22
+dynamore/dynamodb_proxy.py,sha256=Rm8QJQPIF_Tdtzk481EYpK2No45JQdqTJHz83COk3sw,4694
+dynamore/entity.py,sha256=OTUjY7-4ugn1xz-QQdpLMBxEARSdGjUrB2Hy9T3nCyo,6524
+dynamore/utils.py,sha256=pIhjXe-jUH3-Eg8ZQs_7q3-LVG_gXviNVnPbeEIKXN8,195
+dynamore/validator.py,sha256=EUOsJZ-XQHIIf8hbdWu1EMe8tUJHTmZhe1nMBzIRhMw,683
+dynamore-0.1.0.dist-info/WHEEL,sha256=xSvaL1DM8LOHfdyo0cCcwjZu1tC6CnCsRGWUgazvlbM,83
+dynamore-0.1.0.dist-info/METADATA,sha256=afhFlYkDZ3GNbcCJASSkGcZUN2lPzed0sQRyIMCNiqM,2980
+dynamore-0.1.0.dist-info/RECORD,,

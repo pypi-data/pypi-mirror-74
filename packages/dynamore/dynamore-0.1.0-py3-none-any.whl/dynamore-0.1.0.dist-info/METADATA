@@ -1,0 +1,90 @@
+Metadata-Version: 2.1
+Name: dynamore
+Version: 0.1.0
+Summary: Dynamore is extremely simple Python library for managing entities on DynamoDb.
+Home-page: https://github.com/villekr/dynamore
+License: MIT
+Author: Ville Kärkkäinen
+Author-email: ville.karkkainen@outlook.com
+Requires-Python: >=3.8,<4.0
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: boto3 (==1.12.32)
+Requires-Dist: jsonschema (>=3.2.0,<4.0.0)
+Requires-Dist: python-dotenv (>=0.14.0,<0.15.0)
+Project-URL: Repository, https://github.com/villekr/dynamore
+Description-Content-Type: text/x-rst
+
+DYNAMORE
+--------
+
+Dynamore is extremely simple Python library for **managing entities** on DynamoDb. It's designed to be used together with REST API and only supports **single table design**.
+
+Installation
+------------
+
+Install from Pypi:
+
+.. code-block:: bash
+
+   $ pip install dynamore
+
+Quick start
+-----------
+
+Dynamore doesn't manage your tables so create DynamoDb table beforehand e.g. provisioning by CloudFormation.
+
+Here's the simple example on how to create Person schema and store it to DynamoDb:
+
+.. code-block:: Python
+
+    from dynamore.dynamodb_proxy import DynamoDbProxy
+    from dynamore.entity import Entity
+
+
+    class Person(Entity):
+        SCHEMA = {
+            "title": "PERSON",
+            "type": "object",
+            "required": ["name", "age", "gender", "id_number"],
+            "properties": {
+                "name": {"type": "string"},
+                "age": {"type": "integer", "min": 0, "max": 123},
+                "gender": {"type": "string", "enum": ["male", "female"]},
+                "id_number": {"type": "string"},
+            },
+            "additionalProperties": False,
+        }
+
+        ID_ATTRIBUTE = "id_number"
+
+    db = DynamoDbProxy(table_name="MyTable")
+    data = {
+        "name": "Jeanne",
+        "age": 123,
+        "gender": "female", 
+        "id_number": "123456"
+    }
+    _ = db.post(entity_class=Person, data=data)
+    # Get single item
+    item = db.get(
+        entity_class=Person, data={"id_number": data["id_number"]}
+    )
+    # Get all items of type "Person"
+    items = dynamodb_proxy.get(entity_class=Person)
+
+First a new entity class Person defined. It's **schema** is defined using jsonschema and **id attribute** defines the name of the attribute that is used for uniqueness.
+
+Dynamore stores data to DynamoDb in the following format:
+
++--------+--------+--------+-----+--------+
+| PK     | SK     | name   | age | gender |
++========+========+========+=====+========+
+| PERSON | 123456 | Jeanne | 123 | female | 
++--------+--------+--------+-----+--------+
+
+By default entity uses partition key "PK" and sort key "SK" value but you can define them otherwise by overriding pr_keys-method.
