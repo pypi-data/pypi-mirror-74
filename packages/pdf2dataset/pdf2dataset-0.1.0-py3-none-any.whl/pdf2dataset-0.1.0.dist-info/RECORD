@@ -1,0 +1,8 @@
+pdf2dataset/__init__.py,sha256=05ohRxr3N40GJa_3PB1apincuAuKHXbCqSWyKuWyEg0,36
+pdf2dataset/__main__.py,sha256=BJ_aysYKtvZB_8tSR8_32wddVGhBJEOVcYw-HfH04A0,1548
+pdf2dataset/extract.py,sha256=Mtlu5_nogdeUfjlCmFVpkGGO5mEN6FCHPL4QPCJRUi4,8721
+pdf2dataset/extraction_task.py,sha256=BElkYduDHO_xHFlomc-s3Eg1Dt5UHr5zsJbCYYZ_JPY,1511
+pdf2dataset-0.1.0.dist-info/entry_points.txt,sha256=8niWsw0K2NzDkiW68jSBXEpCsQarnTiNOvS-lez1svQ,57
+pdf2dataset-0.1.0.dist-info/WHEEL,sha256=G_NFpzHmv_dUXgCUSAWL0-bLL-eMzYU6DzDeGXbRXUk,83
+pdf2dataset-0.1.0.dist-info/METADATA,sha256=hXgIOaT54RNH8O4uiZdru1v3UObg_JDjaPKRviDPnak,2955
+pdf2dataset-0.1.0.dist-info/RECORD,,
