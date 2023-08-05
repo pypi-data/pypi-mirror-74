@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: face-mask-detector
+Version: 0.0.1
+Summary: A library and tool for detecting face masks
+Home-page: https://github.com/senofsky/face-mask-detector
+Author: Mark V Senofsky
+Author-email: mark.v.senofsky@gmail.com
+License: LICENSE
+Description: # face-mask-detector
+        A library and tool for detecting face masks in images and video streams
+        
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Provides-Extra: dev
