@@ -1,0 +1,11 @@
+competest/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+competest/competest.py,sha256=lDa9nPeTJ2RHK6-7c-9-UtL9WVAv1PpAEAvKObgyZHM,2785
+competest/linux.py,sha256=D-NP0ONCHXzbcsk_Jz6JP22to5oAFPQSVg-qIao11VI,1061
+competest/parsers.py,sha256=mzR1Mk-xh588hKVM5luHCSiJ-Vmk0wlF-44-8TLokHc,419
+competest/windows.py,sha256=Zj_HzHFrKJtrn6q08rMeDlQyEXg4K8J-yrx6M2MpeU0,1307
+competest-0.0.8.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+competest-0.0.8.dist-info/METADATA,sha256=9EtnHJkb52a6sIg_RIe9X8GZvocFHVVEkl6z4lHnOjY,3091
+competest-0.0.8.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+competest-0.0.8.dist-info/entry_points.txt,sha256=UiM7K5sGQN2VjadSDEo_Bpq1wV48xTeytRN7v_Lz8vQ,79
+competest-0.0.8.dist-info/top_level.txt,sha256=w6i9YHAJHNFlVJqmBHw6_RMsSCSHL2MG7bZ7sEHEHiE,10
+competest-0.0.8.dist-info/RECORD,,
