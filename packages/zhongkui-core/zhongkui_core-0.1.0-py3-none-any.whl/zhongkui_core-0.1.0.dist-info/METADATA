@@ -1,0 +1,87 @@
+Metadata-Version: 2.1
+Name: zhongkui-core
+Version: 0.1.0
+Summary: zhongkui core utils package
+Home-page: https://git.kongkongss.com/jyk/jyk-time
+Author: Yongkang Jiang
+Author-email: jyk.kongkong@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.7
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# zhongkui-core
+
+zhongkui core analysis package
+
+
+## Installation
+
+1. install exiftool
+
+```
+#!/bin/sh
+
+# only test on ubuntu18.04
+
+export EXIFTOOL=12.01
+echo "Installing exiftool..." 
+curl -Ls https://exiftool.org/Image-ExifTool-$EXIFTOOL.tar.gz > /tmp/exiftool.tar.gz 
+cd /tmp 
+tar xzf exiftool.tar.gz 
+cd Image-ExifTool-$EXIFTOOL 
+perl Makefile.PL 
+make test 
+make install 
+```
+
+2. install zhongkui-core
+
+```
+$ git clone git@git.kongkongss.com:zhongkui/zhongkui-core.git
+$ cd zhongkui-core
+$ pip install -e .
+```
+
+## Getting Started
+
+```shell
+>>> from zhongkui.core import File
+>>> sample = File("tests/sample/pe_upx")
+>>> print(sample.basicInfo())
+>>>
+{
+    "name": "pe",
+    "md5": "ff2a00e3d07afcf32a7459040bc9cc41",
+    "sha1": "61e810f352866cc5f3184489c796fba4c21b99ec",
+    "sha256": "fb12aec2553bd2567a82f18ca2e0710e8d72b22b1d2bdcf3a296e987ad3c398a",
+    "fileType": "win32exe",
+    "fileSize": 3901952,
+    "isProbablyPacked": true
+}
+```
+
+
+## Running the tests
+
+```shell
+$ cd zhongkui-core
+$ pytest -s
+```
+
+## Changelog
+[release Changelog](./CHANGELOG.md)
+
+
+## Authors
+
+* **kongkong Jiang** - *Initial work* - [jyker](https://git.kongkongss.com/jyker)
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
+
+
