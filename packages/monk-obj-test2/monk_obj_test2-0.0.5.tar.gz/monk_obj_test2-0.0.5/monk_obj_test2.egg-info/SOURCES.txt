@@ -1,0 +1,16 @@
+README.md
+setup.py
+monk_obj_test2.egg-info/PKG-INFO
+monk_obj_test2.egg-info/SOURCES.txt
+monk_obj_test2.egg-info/dependency_links.txt
+monk_obj_test2.egg-info/requires.txt
+monk_obj_test2.egg-info/top_level.txt
+monk_pytorch_finetune_test/__init__.py
+monk_pytorch_finetune_test/coco_eval.py
+monk_pytorch_finetune_test/coco_utils.py
+monk_pytorch_finetune_test/data_loader_class.py
+monk_pytorch_finetune_test/detector_prototype.py
+monk_pytorch_finetune_test/engine.py
+monk_pytorch_finetune_test/inference_prototype.py
+monk_pytorch_finetune_test/transforms.py
+monk_pytorch_finetune_test/utils.py
