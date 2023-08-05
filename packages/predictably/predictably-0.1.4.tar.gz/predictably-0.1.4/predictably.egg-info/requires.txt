@@ -1,0 +1,8 @@
+numpy>=1.13.3
+scipy
+statsmodels>=0.10
+scikit-learn
+
+[dev]
+pip-tools
+rpy2
