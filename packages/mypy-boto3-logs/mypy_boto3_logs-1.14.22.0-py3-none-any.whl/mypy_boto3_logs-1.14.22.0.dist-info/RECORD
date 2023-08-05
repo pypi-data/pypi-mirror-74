@@ -1,0 +1,11 @@
+mypy_boto3_logs/__init__.py,sha256=WVvZFUf2KL2YMrOT9YSTIyM1m-PhCyFFyEZN68HluQM,2542
+mypy_boto3_logs/__main__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mypy_boto3_logs/client.py,sha256=0r830CDDWwNg0XW5WBwAOhoDOGcjkbKbtSJN2xEh68g,21734
+mypy_boto3_logs/paginator.py,sha256=JV2zQSo4drzdyN-Ku4wOGYOeOtq-WCRr6x25PVn4ClQ,9243
+mypy_boto3_logs/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mypy_boto3_logs/type_defs.py,sha256=VQ63-rLfHOt685g0diMiEUBy9v1-Cv-sYKns90BnRxA,10887
+mypy_boto3_logs/version.py,sha256=FDHEYbWTyvl02otZ2wNKfG57E6l6gSimZ4ICLQ0OuX0,57
+mypy_boto3_logs-1.14.22.0.dist-info/METADATA,sha256=MJUwZfa5Lp4IyQcDGGSC5US2SvtAVsxAl5vX6b9X0bQ,5881
+mypy_boto3_logs-1.14.22.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+mypy_boto3_logs-1.14.22.0.dist-info/top_level.txt,sha256=wFlLml5pG1gh009ocjz8VDmaDDFCUEN3z-AiJI8X2ws,16
+mypy_boto3_logs-1.14.22.0.dist-info/RECORD,,
