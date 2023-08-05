@@ -1,0 +1,15 @@
+neispy/__init__.py,sha256=5BRif0bMH_LhYlP9MlHSHLs8nvijUM9zN3FUR9Ar_no,202
+neispy/asyncclient.py,sha256=5Vg7yjIppbOsJVDKcetr6Jr3Ie5Sk_ZzdKcGNz6Mrgk,18751
+neispy/asynchttp.py,sha256=pTFuvEdvxsCE2AcqzVmZH-nXa6dH8XeYBof_Cabw_9M,3866
+neispy/check.py,sha256=Vf3UeB17JyBLFznwA6UOnotqEVADaknQd4KBcHXj8Gk,556
+neispy/error.py,sha256=ORKmFCPUzW7eP3RbfCYvVlzrldT_3HPZUr_lZd7knVE,1083
+neispy/model.py,sha256=AQmVK9bc8OnvQZ-BC-6MtVI8kHtOZTp1iK2yupAstlY,3282
+neispy/syncclient.py,sha256=_JaMS0_ZEy7hRp1BGcHAMsT8gvWtccqx3kF7YKQP5RU,18639
+neispy/synchttp.py,sha256=2GFInEh-kq1oTZrzq-Uycc8Tyi8X6evO8_gP-d7Ob0E,3346
+test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test/test_requests.py,sha256=S2MKZwqTUcV8yt_gBlG1XlUcOW7u-eFe1EZw4a7DXyw,1823
+neispy-2.0.4.dist-info/LICENSE,sha256=GIJMbffhHIfv4nx0ls2Uot7zU-EwvSXD0osbkyG9Aus,1088
+neispy-2.0.4.dist-info/METADATA,sha256=3s2QJl865AYEDKfjyKyDPe7LvGt2WhqxfAjRpI1Ib8k,9125
+neispy-2.0.4.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+neispy-2.0.4.dist-info/top_level.txt,sha256=wjp6Dq4K4g1kbQ8pAx9mKK3udxqMhEDDIurSicrBRKg,12
+neispy-2.0.4.dist-info/RECORD,,
