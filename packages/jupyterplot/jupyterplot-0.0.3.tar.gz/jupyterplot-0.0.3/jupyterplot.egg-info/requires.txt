@@ -1,0 +1,3 @@
+lrcurve==1.1.0
+numpy
+matplotlib
