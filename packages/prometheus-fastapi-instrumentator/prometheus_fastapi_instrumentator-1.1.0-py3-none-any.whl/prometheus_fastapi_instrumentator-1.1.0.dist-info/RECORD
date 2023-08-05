@@ -1,0 +1,6 @@
+prometheus_fastapi_instrumentator/__init__.py,sha256=NFg_E03up922FFZZY2SzrPsiToYnX1TL5KXBwdN3y28,178
+prometheus_fastapi_instrumentator/instrumentation.py,sha256=c8c-zGDjajN_1mn8yQZiwFcwYqjS1dDsmQGdXlQKbgs,6427
+prometheus_fastapi_instrumentator-1.1.0.dist-info/LICENSE.txt,sha256=yNsJ-tSyF-YMCQi44oU8mXEKIWzmMXAwML7lgxAzrgo,1069
+prometheus_fastapi_instrumentator-1.1.0.dist-info/WHEEL,sha256=G_NFpzHmv_dUXgCUSAWL0-bLL-eMzYU6DzDeGXbRXUk,83
+prometheus_fastapi_instrumentator-1.1.0.dist-info/METADATA,sha256=rRQqijDYSUGX-coAO2wzfZkuF3skC5l5ZILM8qCm560,4379
+prometheus_fastapi_instrumentator-1.1.0.dist-info/RECORD,,
