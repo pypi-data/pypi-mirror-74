@@ -1,0 +1,10 @@
+setup.py
+mukeshdistributions/Binomialdistribution.py
+mukeshdistributions/Gaussiandistribution.py
+mukeshdistributions/Generaldistribution.py
+mukeshdistributions/__init__.py
+mukeshdistributions.egg-info/PKG-INFO
+mukeshdistributions.egg-info/SOURCES.txt
+mukeshdistributions.egg-info/dependency_links.txt
+mukeshdistributions.egg-info/not-zip-safe
+mukeshdistributions.egg-info/top_level.txt
