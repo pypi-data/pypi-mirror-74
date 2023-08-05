@@ -1,0 +1,11 @@
+README.md
+setup.py
+src/parserBI/__init__.py
+src/parserBI/classes.py
+src/parserBI/example.py
+src/parserBI.egg-info/PKG-INFO
+src/parserBI.egg-info/SOURCES.txt
+src/parserBI.egg-info/dependency_links.txt
+src/parserBI.egg-info/entry_points.txt
+src/parserBI.egg-info/requires.txt
+src/parserBI.egg-info/top_level.txt
