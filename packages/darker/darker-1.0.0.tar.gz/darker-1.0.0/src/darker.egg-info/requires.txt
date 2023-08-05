@@ -1,0 +1,13 @@
+black
+
+[:python_version < "3.8"]
+typing-extensions
+
+[isort]
+isort>=5.0.1
+
+[test]
+pytest
+pytest-black
+pytest-isort>=1.1.0
+pytest-mypy
