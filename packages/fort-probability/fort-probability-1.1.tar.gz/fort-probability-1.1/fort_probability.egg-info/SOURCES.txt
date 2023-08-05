@@ -1,0 +1,10 @@
+setup.py
+fort-probability/Binomialdistribution.py
+fort-probability/Gaussiandistribution.py
+fort-probability/Generaldistribution.py
+fort-probability/__init__.py
+fort_probability.egg-info/PKG-INFO
+fort_probability.egg-info/SOURCES.txt
+fort_probability.egg-info/dependency_links.txt
+fort_probability.egg-info/not-zip-safe
+fort_probability.egg-info/top_level.txt
