@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: deepdata
+Version: 0.2.1
+Summary: A general toolkit for deep learning dataset.
+Home-page: https://github.com/killf/deepdata
+Author: killf
+Author-email: killf@foxmail.com
+License: Apache License
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: opencv-python
+Requires-Dist: numpy
+Requires-Dist: tqdm
+
+# deepdata
+
+
