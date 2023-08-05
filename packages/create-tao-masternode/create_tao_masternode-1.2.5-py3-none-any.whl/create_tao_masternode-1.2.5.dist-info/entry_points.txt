@@ -1,0 +1,3 @@
+[console_scripts]
+create-tao-masternode=create_tao_masternode.main:entrypoint
+

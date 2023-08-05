@@ -1,0 +1,10 @@
+create_tao_masternode/__init__.py,sha256=TyoJr5e3yETpfn6Cqp5KwpweiqaDNZKKhK7N7U81GVQ,22
+create_tao_masternode/envs.py,sha256=8Wi-R_t8NxEswOMwZ57g1zMLJ_9WKLLdXv6PDZyGikw,745
+create_tao_masternode/main.py,sha256=x37s-G9nST11iSKlbgbVAi6gqQcjYtzKxwxtt3f055w,5982
+create_tao_masternode/templates/__init__.py,sha256=l0Qkob2kElWicfafAS8OBi_i47e_YA7YWVLLCJsfZoY,80
+create_tao_masternode/templates/compose.py,sha256=aRfM46Av1vT-p0RZ-mjN9WTOTOSB36TNKEMtn4NXkww,754
+create_tao_masternode/templates/env.py,sha256=fheOTdwwK-213kaiWvBBUx1NIEcP1jdYdh7ycDypv9U,80
+create_tao_masternode-1.2.5.dist-info/entry_points.txt,sha256=N-4L6467Mmo3T5ynSdiw2FFrxvuhI4ur82G4COcmD0I,79
+create_tao_masternode-1.2.5.dist-info/WHEEL,sha256=G_NFpzHmv_dUXgCUSAWL0-bLL-eMzYU6DzDeGXbRXUk,83
+create_tao_masternode-1.2.5.dist-info/METADATA,sha256=F8sGmPIMnt3ooXw-AuivkT4l3auhWzyphZhwjgErUwc,1238
+create_tao_masternode-1.2.5.dist-info/RECORD,,

@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: create-tao-masternode
+Version: 1.2.5
+Summary: Set up a Tao masternode by running one command.
+Home-page: https://tao.network
+License: GPL-3.0+
+Keywords: tao,blockchain,masternode,node
+Author: bryce-weiner
+Author-email: bryce@tao.network
+Requires-Python: >=3.5,<4.0
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: click (>=7.0,<8.0)
+Requires-Dist: jinja2 (>=2.10,<3.0)
+Requires-Dist: pyyaml (>=3.13,<4.0)
+Project-URL: Repository, https://github.com/Tao-Network/create-tao-masternode
+Description-Content-Type: text/markdown
+
+# create-tao-masternode
+Set up a Tao masternode by running one command.
+
+For guides and user documentation, please check the [official documentation](https://docs.tao.network/masternode/create-tao-masternode).
+
+## Development
+
+Install poetry.
+```
+pip3 install --user poetry
+```
+
+Install the project dependencies.
+```
+poetry install
+```
+
+Run tests.
+```
+poetry run python -m pytest
+```
+
