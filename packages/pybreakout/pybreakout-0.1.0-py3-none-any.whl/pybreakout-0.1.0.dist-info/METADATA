@@ -1,0 +1,53 @@
+Metadata-Version: 2.1
+Name: pybreakout
+Version: 0.1.0
+Summary: Yet another breakout game written in Python
+Home-page: https://github.com/julianolf/pybreakout
+License: MIT
+Keywords: breakout,game,pygame
+Author: Juliano Fernandes
+Author-email: julianofernandes@gmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Games/Entertainment
+Classifier: Topic :: Software Development :: Libraries :: pygame
+Requires-Dist: pygame (==2.0.0.dev10)
+Project-URL: Repository, https://github.com/julianolf/pybreakout
+Description-Content-Type: text/x-rst
+
+PyBREAKOUT
+==========
+
+Yet another Breakout game written in Python.
+
+.. image:: https://raw.githubusercontent.com/julianolf/pybreakout/master/screenshot.png
+    :width: 640px
+    :alt: game play screenshot
+
+Requirements
+------------
+
+* Python >= 3.7, < 3.8
+
+Installing
+----------
+
+Use ``pip`` to download and install the game. ::
+
+    $ pip install pybreakout
+
+Running
+-------
+
+Just type ``pybreakout`` to run the game. ::
+
+    $ pybreakout
+
+Controls
+--------
+
+Use the arrow keys to control the paddle.
+
