@@ -1,0 +1,14 @@
+nx_work_log/SysTrayPaused.ico,sha256=ulrfdAj-mA6dneY1kZQkrUVKwkhDP4ABncKIo67_9C4,318
+nx_work_log/SysTrayRunning.ico,sha256=0ks2YE4cYrILoIsf_5DkptGfZ4qbR7nB6OF-5xusPLU,318
+nx_work_log/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nx_work_log/change_time_dialog.py,sha256=LekkskJCy4E3kL0DzSpirpMjgOBCSthJsoivalgz4eA,4610
+nx_work_log/nx_work_log.py,sha256=uSZUdNskXBGW5xlNhGHag7u99gLckUJbo7cr5tBKkQE,2077
+nx_work_log/nx_work_log.rc,sha256=OBsjf_cvSyHad7fKtnLScGltdPXrIwxqkWJuBYJwHj8,2086
+nx_work_log/sys_tray_icon.py,sha256=PIrfOy_GjG7cOU3B0jF4q4aY5DLgIPs30lnoXlhDgA8,9571
+nx_work_log/version.py,sha256=i1yX3GxdXutI1YYCvUV8O7msNGXkA6ETlvkNrLCI_XM,116
+nx_work_log-0.0.2.dist-info/LICENSE.txt,sha256=sK11r87uFTD3d1GmlmWfvzOu4vcnhhqK3PNbyGn00Ko,1055
+nx_work_log-0.0.2.dist-info/METADATA,sha256=p5ggx37yUYdpZ8ar9ndDEQnF-QM3eSl1TtkJeLHwWns,992
+nx_work_log-0.0.2.dist-info/WHEEL,sha256=B-MEufKsIKRyyg0orbkY9mg4Nvh0GwM_cF_UcS57u8I,94
+nx_work_log-0.0.2.dist-info/entry_points.txt,sha256=ZlDJfT2SxIe0jMtIDwdHfZsn6vMuGACrPzH29wiscMg,60
+nx_work_log-0.0.2.dist-info/top_level.txt,sha256=doofi58DtvFpYQm36049aTY1PaX3zYeFlBzey0jDNsY,12
+nx_work_log-0.0.2.dist-info/RECORD,,
