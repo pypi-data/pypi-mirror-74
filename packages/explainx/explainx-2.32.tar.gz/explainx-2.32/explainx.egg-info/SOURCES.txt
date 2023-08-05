@@ -1,0 +1,94 @@
+README.md
+setup.cfg
+setup.py
+explainx/__init__.py
+explainx/explain.py
+explainx.egg-info/PKG-INFO
+explainx.egg-info/SOURCES.txt
+explainx.egg-info/dependency_links.txt
+explainx.egg-info/requires.txt
+explainx.egg-info/top_level.txt
+explainx/datasets/heloc_dataset.csv
+explainx/lib/PDASH.py
+explainx/lib/PDASH_utils.py
+explainx/lib/__init__.py
+explainx/lib/calculate_metrics.py
+explainx/lib/calculate_shap.py
+explainx/lib/dashboard.py
+explainx/lib/data_for_shap_graphs.py
+explainx/lib/die.py
+explainx/lib/draw_dataframe.py
+explainx/lib/encode_decode_cat_col.py
+explainx/lib/feature_impact.py
+explainx/lib/feature_importance.py
+explainx/lib/imports.py
+explainx/lib/insight_classification.py
+explainx/lib/insight_regression.py
+explainx/lib/insights.py
+explainx/lib/performance_metrics.py
+explainx/lib/plotly_css.py
+explainx/lib/plotly_graphs.py
+explainx/lib/protodash.py
+explainx/lib/rescale_numeric_feature.py
+explainx/lib/shap_pdp.py
+explainx/lib/summary_plot.py
+explainx/lib/shap/__init__.py
+explainx/lib/shap/_cext.cp37-win_amd64.pyd
+explainx/lib/shap/common.py
+explainx/lib/shap/datasets.py
+explainx/lib/shap/tree_shap.h
+explainx/lib/shap/benchmark/__init__.py
+explainx/lib/shap/benchmark/experiments.py
+explainx/lib/shap/benchmark/measures.py
+explainx/lib/shap/benchmark/methods.py
+explainx/lib/shap/benchmark/metrics.py
+explainx/lib/shap/benchmark/models.py
+explainx/lib/shap/benchmark/plots.py
+explainx/lib/shap/explainers/__init__.py
+explainx/lib/shap/explainers/bruteforce.py
+explainx/lib/shap/explainers/explainer.py
+explainx/lib/shap/explainers/gradient.py
+explainx/lib/shap/explainers/kernel.py
+explainx/lib/shap/explainers/linear.py
+explainx/lib/shap/explainers/mimic.py
+explainx/lib/shap/explainers/partition.py
+explainx/lib/shap/explainers/permutation.py
+explainx/lib/shap/explainers/pytree.py
+explainx/lib/shap/explainers/sampling.py
+explainx/lib/shap/explainers/tree.py
+explainx/lib/shap/explainers/deep/__init__.py
+explainx/lib/shap/explainers/deep/deep_pytorch.py
+explainx/lib/shap/explainers/deep/deep_tf.py
+explainx/lib/shap/explainers/other/__init__.py
+explainx/lib/shap/explainers/other/coefficent.py
+explainx/lib/shap/explainers/other/lime.py
+explainx/lib/shap/explainers/other/maple.py
+explainx/lib/shap/explainers/other/random.py
+explainx/lib/shap/explainers/other/treegain.py
+explainx/lib/shap/plots/__init__.py
+explainx/lib/shap/plots/bar.py
+explainx/lib/shap/plots/colorconv.py
+explainx/lib/shap/plots/colors.py
+explainx/lib/shap/plots/decision.py
+explainx/lib/shap/plots/dependence.py
+explainx/lib/shap/plots/embedding.py
+explainx/lib/shap/plots/force.py
+explainx/lib/shap/plots/force_matplotlib.py
+explainx/lib/shap/plots/image.py
+explainx/lib/shap/plots/monitoring.py
+explainx/lib/shap/plots/partial_dependence.py
+explainx/lib/shap/plots/summary.py
+explainx/lib/shap/plots/waterfall.py
+explainx/lib/shap/plots/resources/bundle.js
+explainx/lib/shap/plots/resources/logoSmallGray.png
+explainx/tutorials/1. Xgboost Model on Boston Dataset.ipynb
+explainx/tutorials/10.  Gradient Boosting Regressor on Boston Dataset.ipynb
+explainx/tutorials/2. Xgboost Model on Heloc Dataset.ipynb
+explainx/tutorials/3. Catboost Model on Boston Dataset.ipynb
+explainx/tutorials/4. Randomforest Model on iris Dataset.ipynb
+explainx/tutorials/5 Support Vector Classifier on iris Dataset.ipynb
+explainx/tutorials/6. KNeighborsClassifier on iris Dataset.ipynb
+explainx/tutorials/7. Logistic Regression on iris dataset.ipynb
+explainx/tutorials/8. DecisionTreeClassifier on iris Dataset.ipynb
+explainx/tutorials/9.  Neural Network Classifier on iris Dataset.ipynb
+explainx/tutorials/tutorials.txt
