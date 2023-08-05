@@ -1,0 +1,14 @@
+bore/__init__.py,sha256=EMnaLmpJVRjLPjlGKS5yG-A1BYJKde68ziCM9wacgfU,124
+bore/cli.py,sha256=6PO-qHTnlNcMhAsds4Y8OvsSX7ASl3lxSp7yAr1KEBw,390
+bore/plotting.py,sha256=EkV_BHQ-CigCp5EMXPDn0Ng0ah821rYf_I4EW3_aXDU,623
+bore/utils.py,sha256=YTPRXRf05Y5BxwCJe2X2sEEgo8Bll5vvexam_zVn5gE,3136
+bore/datasets/__init__.py,sha256=V4waMDupdjASbsFv9qdhBFjp2Lh51_5hFfbatbd-P7k,214
+bore/datasets/base.py,sha256=4SnIRb1PhWflFwPydNAmzJtZdHP5eg_HijCnG-_nKxc,721
+bore/datasets/synthetic.py,sha256=wWN4Q_5ciioABM3Fx0BuAKzIBnmPeZo07cLoFFiXDI8,2935
+bore-0.1.0.dist-info/AUTHORS.rst,sha256=heg2SPnvl4w5kiqPon2FGwlDJSuP9nD3BfryMxPQpVM,158
+bore-0.1.0.dist-info/LICENSE,sha256=gDO-0nCpoJJ5MIbz8cfUbhox2iB_GVomoXwjntcVnpE,1072
+bore-0.1.0.dist-info/METADATA,sha256=dEsIKTS0-QcVs0YRgwaTevdDDakO6EPFWs55Lp6Yazk,1870
+bore-0.1.0.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+bore-0.1.0.dist-info/entry_points.txt,sha256=oM-r5uFOb2rBiLKC7tvi-PnUL0vN1sN2aYn4iaQGyF0,40
+bore-0.1.0.dist-info/top_level.txt,sha256=aYKtGBsLvU3mgiUDYpJ6JVT9u-4VLh5sLVHoDprx5Jg,5
+bore-0.1.0.dist-info/RECORD,,
