@@ -1,0 +1,11 @@
+Metadata-Version: 1.2
+Name: sparc-dft-api
+Version: 0.1
+Summary: Python Wrapper for the SPARC-X DFT Code
+Home-page: https://github.com/SPARC-X/sparc-dft-api
+Author: Ben Comer
+Author-email: ben.comer@gatech.edu
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >3.5

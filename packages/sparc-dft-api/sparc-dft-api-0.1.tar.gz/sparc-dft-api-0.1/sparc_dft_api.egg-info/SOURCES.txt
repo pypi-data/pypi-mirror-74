@@ -1,0 +1,12 @@
+README.md
+setup.py
+sparc/__init__.py
+sparc/ion.py
+sparc/mongo.py
+sparc/sparc_core.py
+sparc/utilities.py
+sparc_dft_api.egg-info/PKG-INFO
+sparc_dft_api.egg-info/SOURCES.txt
+sparc_dft_api.egg-info/dependency_links.txt
+sparc_dft_api.egg-info/requires.txt
+sparc_dft_api.egg-info/top_level.txt
