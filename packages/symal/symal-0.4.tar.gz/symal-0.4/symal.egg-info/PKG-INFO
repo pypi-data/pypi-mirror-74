@@ -1,0 +1,14 @@
+Metadata-Version: 1.1
+Name: symal
+Version: 0.4
+Summary: learning to publish packages
+Home-page: https://github.com/igrorp/
+Author: Igor Paim
+Author-email: igorpaim8@gmail.com
+License: MIT
+Description: a
+Keywords: nothing
+Platform: UNKNOWN
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Classifier: Programming Language :: Python :: 3
