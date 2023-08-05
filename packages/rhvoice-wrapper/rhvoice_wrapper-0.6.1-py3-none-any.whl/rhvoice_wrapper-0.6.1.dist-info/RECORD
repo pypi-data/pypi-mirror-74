@@ -1,0 +1,9 @@
+rhvoice_wrapper/__init__.py,sha256=o1JrLV_cM5ceW8YIWFnhSbfg9UlGRXAZ5LYRDOgtgao,53
+rhvoice_wrapper/rhvoice_bindings.py,sha256=HmHhw88oRRnv5ncMYf87okf_QPJrM6RnKPR4DcQRYyI,7472
+rhvoice_wrapper/rhvoice_proxy.py,sha256=Hcso6juw7oN4aanSaa3w9Oln5pp69oJFmGk-aw_lmPE,8843
+rhvoice_wrapper/rhvoice_wrapper.py,sha256=KK4YQXE27_vdBnLEfVRLZT8IN2f4qJTrnVAlR9nhEYQ,18901
+rhvoice_wrapper-0.6.1.dist-info/LICENSE.md,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+rhvoice_wrapper-0.6.1.dist-info/METADATA,sha256=CR7dQUOLE0d3ykdh09A3_BzxNOP7tWmpGYQTil63dAE,7043
+rhvoice_wrapper-0.6.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+rhvoice_wrapper-0.6.1.dist-info/top_level.txt,sha256=oSFWPJQaRXJBKa2wM2G69yVkbgO0TqFNPj-Liv7B2xo,16
+rhvoice_wrapper-0.6.1.dist-info/RECORD,,
