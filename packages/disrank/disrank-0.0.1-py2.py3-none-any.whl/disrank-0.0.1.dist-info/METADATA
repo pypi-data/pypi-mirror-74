@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: disrank
+Version: 0.0.1
+Summary: A lib
+Home-page: https://github.com/shahprog/disrank/
+Author: Md Shahriyar Alam
+Author-email: mdshahriyaralam552@gmail.com
+License: MIT
+Keywords: discord discord-rank discord-profile discord-leveling
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: MacOS
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: Pillow
+
+# Disrank
+A lib
+
+
+Change Log
+===========
+
+0.0.1 (15/7/2020)
+--------------------------------
+- Release
+
+
