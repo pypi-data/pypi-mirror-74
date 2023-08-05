@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: typjson
+Version: 0.0.16
+Summary: Type-safe JSON (de)serialization
+License: MIT
+Author: Vladimir Sapronov
+Author-email: vladimir.sapronov@gmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: typing_inspect (>=0.6.0,<0.7.0)
+Description-Content-Type: text/markdown
+
+
