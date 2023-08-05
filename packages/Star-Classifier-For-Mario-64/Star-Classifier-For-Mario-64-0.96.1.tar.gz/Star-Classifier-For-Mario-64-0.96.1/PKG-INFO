@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: Star-Classifier-For-Mario-64
+Version: 0.96.1
+Summary: Auto-splitter for Super Mario 64
+Home-page: https://github.com/gcervantes8/Star-Classifier-For-Mario-64
+Author: Gerardo Cervantes
+Author-email: geras22222c@gmail.com
+License: UNKNOWN
+Description: Classifies amount of stars you have in game Super Mario 64. Useful in speedruns when timing how long it takes to get each star
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Environment :: Win32 (MS Windows)
+Requires-Python: ~=3.4
+Description-Content-Type: text/markdown

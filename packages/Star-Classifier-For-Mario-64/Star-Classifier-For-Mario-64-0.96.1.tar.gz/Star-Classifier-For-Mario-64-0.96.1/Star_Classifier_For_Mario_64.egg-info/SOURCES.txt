@@ -1,0 +1,7 @@
+README.md
+setup.py
+Star_Classifier_For_Mario_64.egg-info/PKG-INFO
+Star_Classifier_For_Mario_64.egg-info/SOURCES.txt
+Star_Classifier_For_Mario_64.egg-info/dependency_links.txt
+Star_Classifier_For_Mario_64.egg-info/requires.txt
+Star_Classifier_For_Mario_64.egg-info/top_level.txt
