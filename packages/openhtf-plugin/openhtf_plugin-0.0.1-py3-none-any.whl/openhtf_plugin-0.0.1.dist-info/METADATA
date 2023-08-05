@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: openhtf-plugin
+Version: 0.0.1
+Summary: Simple Kiwi-TCMS plugin for OpenHTF
+Home-page: https://github.com/UndyingScroll
+Author: Kevin Pulley
+Author-email: kpulley@imaginecommunications.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: spintop-openhtf
+Requires-Dist: tcms-api
+
+# openhtf-plugin Package
+
+This is a simple Kiwi-TCMS automation plugin for OpenHTF and Spintop-OpenHTF
+
+For more about Kiwi-TCMS please visit
+https://kiwitcms.org/
+
+Fore more about OpenHTF and Spintop-OpenHTF please visit
+https://github.com/google/openhtf
+https://gitlab.com/tackv/spintop-openhtf
+
+
+
+Requires MIT Kerberos for Windows if installed on Windows
+
