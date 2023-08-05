@@ -1,0 +1,289 @@
+/*
+    notebook.html  css
+*/
+
+#kernel_indicator {
+    float: left !important;
+    color: #565656;
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 11px;
+    z-index: 10;
+    text-align: center;
+    width: auto;
+    border-left:  none;
+}
+.indicator_area {
+    float: left !important;
+    color: #565656;
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 11px;
+    z-index: 10;
+    text-align: center;
+    width: auto;
+}
+.navbar-text {
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+
+#readonly-indicator {
+    float: left !important;
+    color: #565656;
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 11px;
+    z-index: 10;
+    text-align: center;
+    width: auto;
+    margin-top: 2px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    display: none;
+}
+
+#notification_trusted {
+    display: none !important;
+}
+
+.navbar-btn.btn-xs {
+    margin-top: 5px;
+    margin-bottom: 4px;
+}
+
+#notification_area {
+    float: left !important;
+    z-index: 10;
+}
+
+#modal_indicator {
+    float: left !important;
+    color: #565656;
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 11px;
+    z-index: 10;
+    text-align: center;
+    width: auto;
+}
+
+#maintoolbar {
+    margin-left: 5px;
+}
+
+#notebook {
+    padding-top: 0  !important;
+}
+
+#head-fixed {
+    color: #565859;
+    font-size: 16px;
+    padding: 0px 5px;
+    background: #F9F9F9;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    box-shadow:0px 2px 10px 0 rgba(9, 24, 145, 0.1); 
+    min-width: 380px;
+}
+
+.notebook_app {
+    min-width: 380px;
+}
+
+.bottom-btn-box {
+    /* width: 100%;  */
+    /* display: table; */
+    margin: 10px 0;
+}
+
+.mr-10 { margin-right: 10px; }
+.ml-10 { margin-left: 10px; }
+.mr-5 { margin-right: 5px; }
+.ml-5 { margin-left: 5px; }
+
+.bottom-btn-box button {
+    font-family: PingFangSC-Medium;
+    font-size: 12px;
+    width: 70px;
+    box-sizing: border-box;
+    height: 30px;
+    border: 1px solid #00a3da;
+    border-radius: 1px;
+    text-align: center;
+    outline: none;
+}
+
+.bottom-btn-box .btn-c-default {
+    background: rgba(0,163,218,0.05);
+    color: #00a3da;
+}
+
+.bottom-btn-box .btn-c-default:hover {
+    background: rgba(0,163,218,0.15);
+}
+
+.bottom-btn-box .btn-c-blue {
+    background: #00a3da;
+    color: #fff;
+}
+
+.bottom-btn-box .btn-c-blue:hover {
+    background: #03b5f0;
+}
+
+.bottom-btn-box .btn-c-gray {
+    background: rgba(170, 170, 170, 1);
+    color: #fff;
+    border: 1px solid #AAA;
+}
+.bottom-btn-box .btn-c-gray:hover {
+    background: rgba(170, 170, 170, 0.8);
+}
+
+.bottom-btn-box .btn-icon {
+    width: 30px;
+}
+
+.bottom-btn-box .btn-sm {
+    width: 25px;
+    height: 25px;
+    font-size: 10px;
+    padding: 0px;
+}
+
+.bottom-btn-box .btn-auto {
+    width: auto;
+}
+
+.bottom-btn-box .btn-c-white {
+    background: #FFF;
+    color: #00a3da;
+    border-radius: 3px;
+}
+
+.bottom-btn-box .btn-c-white:hover {
+    background: #F1F1F1;
+}
+
+#footer-btns {
+    margin-left: 10px;
+}
+
+div.cell {
+    margin-bottom: 20px;
+}
+
+div.cell.selected, .cell.selected.jupyter-soft-selected {
+    border: none !important;
+    padding-left: 15px;
+}
+div.cell.selected:before,
+div.cell.selected.jupyter-soft-selected:before {
+  position: absolute;
+  display: block;
+  top: -1px;
+  left: -1px;
+  width: 5px;
+  height: calc(100% +  2px);
+  content: '';
+  background: #42A5F5;
+}
+
+.edit_mode div.cell.selected {
+    border: none !important;
+    padding-left: 15px;
+}
+.edit_mode div.cell.selected:before {
+    position: absolute;
+    display: block;
+    top: -1px;
+    left: -1px;
+    width: 5px;
+    height: calc(100% +  2px);
+    content: '';
+    background: #66BB6A;
+}
+
+.edit_mode .cell.selected {
+    border: none !important;
+}
+
+
+.prompt_container {
+    display: none !important;
+}
+
+div.out_prompt_overlay {
+    width: 100%;
+}
+
+div.output_wrapper {
+    margin: 0;
+}
+
+#notebook-container {
+    padding: 5px 5px 15px 5px;
+    background-color: transparent;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+#ipython-main-app {
+    margin-top: 60px;
+}
+
+div.input_area {
+    background: #F5F5F5!important;
+    border-radius: 2px;
+}
+
+.notebook_app {
+    background: #fff;
+}
+
+.prompt {
+    display: none;
+}
+
+.CodeMirror {
+    min-height: 150px;
+}
+
+.CodeMirror-scroll {
+    min-height: 150px;
+    margin-bottom: -25px !important;
+}
+
+.run-tips {
+    font-size: 12px;
+    padding-left: 5px;
+    padding-top: 15px;
+}
+
+.run-tips.error {
+    color: red;
+}
+
+.run-tips.success {
+    color: green;
+}
+
+
+/* 滚动条样式 */
+.notebook_app::-webkit-scrollbar {
+    width: 4px;    
+}
+.notebook_app::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+    background: rgba(0,0,0,0.2);
+}
+.notebook_app::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+    border-radius: 0;
+    background: rgba(0,0,0,0.1);
+
+}
