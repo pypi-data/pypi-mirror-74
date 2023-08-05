@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: my-test-poetry
+Version: 0.1.0
+Summary: 测试poetry上传到pipy
+Author: wangchenwei
+Author-email: wangchenwei@focuschina.com
+Requires-Python: >=3.7,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8

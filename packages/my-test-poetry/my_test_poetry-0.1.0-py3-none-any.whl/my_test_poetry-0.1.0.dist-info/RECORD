@@ -1,0 +1,5 @@
+my_test_poetry/README.md,sha256=eTnEhaFZr3qFuUVnNvqeetQxqXkNLMFTdRlf8ja_0XQ,51
+my_test_poetry/test.py,sha256=kSUCdhcWYav0opXbgEKTyKNe1rtPvFpIBiNTlHlCr5E,23
+my_test_poetry-0.1.0.dist-info/WHEEL,sha256=G_NFpzHmv_dUXgCUSAWL0-bLL-eMzYU6DzDeGXbRXUk,83
+my_test_poetry-0.1.0.dist-info/METADATA,sha256=fDXHkcsFvpZWRX48Aj1DJrlMlPQeUsmDoYKlPeb4E5E,330
+my_test_poetry-0.1.0.dist-info/RECORD,,
