@@ -1,0 +1,13 @@
+pyClickModels.libs/libjson-c-ca0558d5.so.2.0.1,sha256=R_g_Ub75zzfET0AKUF7fFSZ0zMKhON44vPuh9fGpNEM,44328
+pyClickModels-0.0.1.dist-info/WHEEL,sha256=0wGQBSV-BlYX9ESMZyEiLMpXIYwrZGj6McPYyDp_RjA,108
+pyClickModels-0.0.1.dist-info/top_level.txt,sha256=nhCu7-bp4aMQxLCmKZtCO5pDD1fejkZrpblnL1stvI0,20
+pyClickModels-0.0.1.dist-info/LICENSE,sha256=4TTldg0AAVby0pj2ICjNXA7EEfD2jrgkygRFRK4Fkzs,1069
+pyClickModels-0.0.1.dist-info/METADATA,sha256=Ka4ZvYSWBfN6d_4kGLbfyerZ5DYJxBj1R5sRL4sLojE,7203
+pyClickModels-0.0.1.dist-info/RECORD,,
+pyClickModels/__version__.py,sha256=kw052OVPYLn2U07C4043QGiPBSAA-bkWchWv6W-4m2A,71
+pyClickModels/DBN.pxd,sha256=df9--DKBfhSf2ZkvI6oH3iBmQ-TeTFDfJnCs7cgfJ2o,3317
+pyClickModels/DBN.cpp,sha256=HZ6r6AHLPScdRYCARhczt62nn9KbhASUZ_crznoQdVM,488305
+pyClickModels/DBN.cpython-38-x86_64-linux-gnu.so,sha256=qZrzP3btJl3ZSv5EgDp_ANeu5umSe1qn8ZaSP13hp3g,1335336
+pyClickModels/jsonc.pxd,sha256=V0gTA11I6q61Kgt1xEvI6SECZ0tn52tXespdHnIriu0,798
+pyClickModels/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_cy_DBN.cpython-38-x86_64-linux-gnu.so,sha256=6zn0RqVYJTGBj6Bt0DmTrZUrFDkmDIxz93oX8S83lYs,2545240
