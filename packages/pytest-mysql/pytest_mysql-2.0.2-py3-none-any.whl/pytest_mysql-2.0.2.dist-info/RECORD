@@ -1,0 +1,15 @@
+pytest_mysql/__init__.py,sha256=aaoSOTt3JyEL2rd-D-ZZf8Aj1pNXDPG4q7JdW2cRy6g,861
+pytest_mysql/executor.py,sha256=i_9VQ6feKCwfI1Osa6rPgV-t3mJ2uDJchsNw_oNeohY,6665
+pytest_mysql/plugin.py,sha256=U2KKFH0E9Y1TA_LupmMFObzPER2XTSyGlHmJJaTiodc,4415
+pytest_mysql/port.py,sha256=NQoUXnLIdOglvShiweKfMAySykOyfkXBqtGCsBpZ2q4,3046
+pytest_mysql/factories/__init__.py,sha256=P5843r-LMjIK3BoENQk6rLuviZ14BZ2BKL7exoGeXMc,161
+pytest_mysql/factories/client.py,sha256=_ylrsAro18P6XNbAeRF4glwVpDthFFXoAQ3VJ2IIzI8,3287
+pytest_mysql/factories/process.py,sha256=VOFTViuULIvne402GsI2DQIBj96bJz5ShRdr-x_NF-I,4372
+pytest_mysql-2.0.2.dist-info/AUTHORS.rst,sha256=eyNDMvc07_NRnnmO8GT3bTihpAO2stssIAbUcA1gDk8,284
+pytest_mysql-2.0.2.dist-info/COPYING,sha256=xTplwv1WHIfqq_EHLvXcq4ZTBCvBUwhGX1JBNYXrYnE,35146
+pytest_mysql-2.0.2.dist-info/COPYING.lesser,sha256=6or154nLLU6bELzjh0mCreFjt0m2v72zLi3yHE0QbeE,7650
+pytest_mysql-2.0.2.dist-info/METADATA,sha256=QGVPBP7ajAH1Xw8DyqQOsnhRRrOnqPTZqBbMXj6Xb_A,10742
+pytest_mysql-2.0.2.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+pytest_mysql-2.0.2.dist-info/entry_points.txt,sha256=Kww0PbTvJXRuUMqFLgRvspa0ejW4PbeNp2Ae66j4BqY,47
+pytest_mysql-2.0.2.dist-info/top_level.txt,sha256=mpdKt90fgBU12OW4d9O3g4wppzbcxu3mgOh9mYyR9UA,13
+pytest_mysql-2.0.2.dist-info/RECORD,,
