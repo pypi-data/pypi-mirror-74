@@ -1,0 +1,5 @@
+pygears
+pexpect
+PySide2!=5.12.1
+pygraphviz
+pygments
