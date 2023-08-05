@@ -1,0 +1,8 @@
+setup.cfg
+setup.py
+enzo/__init__.py
+enzo.egg-info/PKG-INFO
+enzo.egg-info/SOURCES.txt
+enzo.egg-info/dependency_links.txt
+enzo.egg-info/requires.txt
+enzo.egg-info/top_level.txt
