@@ -1,0 +1,29 @@
+# for: grafana
+counter grafana_logs_total by severity  
+
+# Count of specific types of errors -- notably statement timeouts 
+counter grafana_errors_total by type  
+
+# Log lines like this... 
+# 2020/06/22 15:26:54 http: TLS handshake error from 167.71.248.102:56450: read tcp 192.168.178.74:20448->167.71.248.102:56450: read: connection reset by peer
+# 2020/06/22 12:05:50 http: TLS handshake error from [::1]:51184: remote error: tls: bad certificate
+# 2020/06/03 16:54:14 http: TLS handshake error from 192.168.178.111:62554: remote error: tls: unknown certificate
+
+/^(?P<date>\d\d\d\d\/\d\d\/\d\d \d\d:\d\d:\d\d)" http:/ {
+	strptime($date, "2006/01/02 15:04:05")     
+	grafana_logs_total["error"]++    
+
+	/TLS handshake error from (?P<from>.*):/ {
+		/connection reset by peer/ {
+			grafana_errors_total["tls_connection_reset_by_peer"]++
+		}
+		/tls: bad certificate/ {
+			grafana_errors_total["tls_bad_certificate"]++
+		}
+		/tls: unknown certificate/ {
+			grafana_errors_total["tls_unknown_certificate"]++
+		}
+	}
+
+} 
+
