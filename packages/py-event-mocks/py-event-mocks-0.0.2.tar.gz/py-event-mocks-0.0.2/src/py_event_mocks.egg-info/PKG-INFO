@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: py-event-mocks
+Version: 0.0.2
+Summary: A small library that includes details mocks of AWS Lambda event sources, Python implementation.
+Home-page: https://github.com/smatsumoto78/py-event-mocks
+Author: Shinji Matsumoto
+Author-email: shinji.mtsmt@gmail.com
+License: MIT
+Description: # py-event-mocks
+        
+        Python implementation of [serverless / event-mocks](https://github.com/serverless/event-mocks)
+        
+        ## Set up
+        
+        ```bash
+        pip install py-event-mocks
+        ```
+        
+        ## Usage
+        
+        
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
