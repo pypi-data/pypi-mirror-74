@@ -1,0 +1,2 @@
+httpie>=2.0.0
+requests-llnw-auth>=1.0.1

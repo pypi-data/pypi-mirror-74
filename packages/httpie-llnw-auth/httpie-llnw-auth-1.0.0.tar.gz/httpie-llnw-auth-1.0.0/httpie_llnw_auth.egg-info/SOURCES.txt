@@ -1,0 +1,9 @@
+README.md
+httpie_llnw_auth.py
+setup.py
+httpie_llnw_auth.egg-info/PKG-INFO
+httpie_llnw_auth.egg-info/SOURCES.txt
+httpie_llnw_auth.egg-info/dependency_links.txt
+httpie_llnw_auth.egg-info/entry_points.txt
+httpie_llnw_auth.egg-info/requires.txt
+httpie_llnw_auth.egg-info/top_level.txt
