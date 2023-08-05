@@ -1,0 +1,8 @@
+lint_review/__init__.py,sha256=PmKqAskt9-JeHOI0uwBwCntXUueGAwFMuVXqlNr3tiw,270
+lint_review/__main__.py,sha256=dKZcw47LZIeWL3sfkKZWfvsn2Eq7hvbS_kOBUWEcVDw,3128
+lint_review/gitlab.py,sha256=OtIxWe3vyTjIuYpsHlmTo4m1NP-TEcNfQgKxi8zslcA,4172
+lint_review/reviewer.py,sha256=l3J50onIQG4_2Yk3tiu9LU-ddUqnODSipkYbdhZtoQs,1058
+lint_review-0.1.0.dist-info/entry_points.txt,sha256=Rbf9GYT4dVKyXpW4chcJblT13sjmqOLJtQWW5rda21Q,48
+lint_review-0.1.0.dist-info/WHEEL,sha256=G_NFpzHmv_dUXgCUSAWL0-bLL-eMzYU6DzDeGXbRXUk,83
+lint_review-0.1.0.dist-info/METADATA,sha256=1_iZo43jy-NQfTnDvaj1U2NblKnhp54mym8v5l39Frg,2259
+lint_review-0.1.0.dist-info/RECORD,,
