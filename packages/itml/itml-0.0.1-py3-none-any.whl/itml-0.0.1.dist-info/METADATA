@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: itml
+Version: 0.0.1
+Summary: Iacchus' Table Markup Language 
+Home-page: https://github.com/iacchus/iacchus-table-language
+Author: Iacchus Mercurius
+Author-email: kass.ivs@gmail.com
+License: UNKNOWN
+Keywords: Markup
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Description-Content-Type: text/markdown
+
+soon...
+
+
