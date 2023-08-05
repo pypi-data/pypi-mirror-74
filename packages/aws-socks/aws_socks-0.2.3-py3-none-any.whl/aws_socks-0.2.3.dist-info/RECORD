@@ -1,0 +1,13 @@
+socks/__init__.py,sha256=UPmSmv794xs0mIEK_EhSoFstsq0CDPENOnKupygu3fc,248
+socks/athena.py,sha256=6Ndwphjioc97tp2m5mqAi6g3fx6-cfedLSnQ_KxkDBI,3139
+socks/aws_lambda.py,sha256=etcpotH8oHX1LU1wPS9i5hSu0hAue8DeWRlWJBA5wm8,751
+socks/cloudwatch.py,sha256=khbxV3mL5YU-Fbm12Bi3_xyAgp5gmYBvpOVRVMg4hpA,2429
+socks/dynamodb.py,sha256=IrR-TMTVlYiIfLA42vwfUQ8VcsnCkr_Sy8CcSXOXiak,4759
+socks/s3.py,sha256=Z627gdy43MrbQW0xuvObpAFGK0fFppM0o-re3VBAdAE,5788
+socks/secretsmanager.py,sha256=KUlEsbFOcPI3BUvrSfLjTBgiQrU3RD1PnY-3s-I8pwQ,1774
+socks/sqs.py,sha256=wTMCb2VWb_4nkptnLdQViyOhaqTNu3M6HJFpTh8tdTA,2273
+socks/ssm.py,sha256=jXcRG6OZfQAYFPRBdsyGT0D9RsSx0fnwz3ctvIsAUvo,1438
+socks/sts.py,sha256=cGvP_XvIKevHlJ_q50EDON1Ccl_M7FaL4RK-2fbnPLo,877
+aws_socks-0.2.3.dist-info/WHEEL,sha256=C90Mwr_Jk4_IPKbEQeJHH_TSkLAVFEZOMPO9_4HdXQI,85
+aws_socks-0.2.3.dist-info/METADATA,sha256=pt-qbjGCGHPePgg6skOlQSvib2adc-Z8gBkQuQQb5TA,3296
+aws_socks-0.2.3.dist-info/RECORD,,
