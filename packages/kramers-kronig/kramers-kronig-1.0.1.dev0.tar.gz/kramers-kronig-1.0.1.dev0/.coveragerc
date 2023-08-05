@@ -1,0 +1,8 @@
+[run]
+branch = True
+source = kk
+
+[report]
+fail_under = 99
+precision = 2
+show_missing = True
