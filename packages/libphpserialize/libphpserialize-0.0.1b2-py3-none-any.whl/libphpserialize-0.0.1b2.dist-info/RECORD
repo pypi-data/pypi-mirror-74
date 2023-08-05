@@ -1,0 +1,9 @@
+phpserialize/__init__.py,sha256=psyXD03qGgZWens8NfIHTs2ucpOxReO-YLZCCOwn_WM,59
+phpserialize/decorators.py,sha256=tfafrlz6UJn3Z784a2CYfBMkTbAkqn6L836G-BK3wHU,136
+phpserialize/php_ini.py,sha256=t__4i6mRrOy3_8dE8F_Aiv9QGE0Ip2GGlKjWMvxd0hI,86
+phpserialize/serialize.py,sha256=6_poAbcYYHxejoQ77UqVWvDhUbfH8c9OWCi2oQmqib4,1953
+phpserialize/unserialize.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+libphpserialize-0.0.1b2.dist-info/METADATA,sha256=-wxovxwxvcAmNF9CB26J9YlF9ocgrHT67dI0PR5Fyno,1594
+libphpserialize-0.0.1b2.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+libphpserialize-0.0.1b2.dist-info/top_level.txt,sha256=WIAvqdOK1Pv6gjR8N79KcoqAoHyeYDEljHDFQzaB9JA,13
+libphpserialize-0.0.1b2.dist-info/RECORD,,
