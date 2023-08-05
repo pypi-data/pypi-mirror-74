@@ -1,0 +1,15 @@
+rpcpy/__init__.py,sha256=90JiDJItg4UBADOc7vclbyfMIfUSeq0ilAQmQDILKDc,48
+rpcpy/application.py,sha256=LpW_Z3fK4JwVtAjYTkxj9nGsS2h2fan4LdyZ5wqCuG8,3622
+rpcpy/asgi.py,sha256=GapHtBjWMvzyCXqQNu-FsVQBQOpw_gH8nmKB7_wj4_M,7997
+rpcpy/client.py,sha256=3Y2-1Hc2OCaGnUODl__3dA53ELixLMON_k9LwsE6hJA,2421
+rpcpy/datastructures.py,sha256=6OoTt1UUU9XtvJUmXfnAIoeb8kavvpRBU2zKWvTjWYY,20111
+rpcpy/formparsers.py,sha256=QjeApCa62MNVlE8ebMrASuMz4O9uiEGN8K-ZOC9GWKE,11435
+rpcpy/serializers.py,sha256=erFUs0LVP52hMZJkL3YdDSZgfpGBMaG-Q2EDkQ4n9eY,1051
+rpcpy/types.py,sha256=yU_I2O1dkbItgM3AcrZNjWNWjhOg4OlurrTJLCjH1MY,823
+rpcpy/utils.py,sha256=F1oefAckJRRzUxq6ZAKmQJG_UypRz99iqglaV6HKxZU,1961
+rpcpy/version.py,sha256=yHk3T-HNO9fagGX3saQC-xp4lU0Z65sc27IPGbMkNHo,63
+rpcpy/wsgi.py,sha256=jCUCGhM6ZrqXPR-NYe2Rmkdit8iX6mRh_3kXmKJWuJc,6546
+rpc.py-0.1.1.dist-info/LICENSE,sha256=MhC4fwl2kax5j09y25YsHSSEF31vHtu5Qhqy9KoLKfw,11341
+rpc.py-0.1.1.dist-info/WHEEL,sha256=G_NFpzHmv_dUXgCUSAWL0-bLL-eMzYU6DzDeGXbRXUk,83
+rpc.py-0.1.1.dist-info/METADATA,sha256=DSDpdo6RKykVhDofOq0iLsgxYYTsNbP_l-EvTiQHCTE,2155
+rpc.py-0.1.1.dist-info/RECORD,,
