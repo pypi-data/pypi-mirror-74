@@ -1,0 +1,12 @@
+eval7-0.1.8.dist-info/METADATA,sha256=YaWuvcQLR-LWg-hfZMfl7_rZXNGKvdUpqntcrzhGsb4,4300
+eval7-0.1.8.dist-info/WHEEL,sha256=x_vzcI4ZEGB3mgPWPKzGiYMKKJ7Ixf6JpcM2LwQveJI,109
+eval7-0.1.8.dist-info/RECORD,,
+eval7-0.1.8.dist-info/top_level.txt,sha256=_mtptJ6ymqbmLwNw_9hKywqoVbgKsmaG-88RT5a1rNw,6
+eval7-0.1.8.dist-info/LICENSE,sha256=0xI-6J7d3cn-4QPlSOhPj5EcZscRH_4I5XH0DTQ65xs,1105
+eval7/xorshift_rand.cpython-37m-x86_64-linux-gnu.so,sha256=L6xW7VQTpf_aMHIz6cZs4BtD6b9o7w9kzA4JOYEfVrk,230904
+eval7/__init__.py,sha256=7cHEtPCcpSAHlU3Wu5PPRMMDmuTZ2MWhs5jiZBtMx4Q,434
+eval7/evaluate.cpython-37m-x86_64-linux-gnu.so,sha256=ul5st1CtSg40uHtywqCp4xVQk90y-5FZ3K3jZ6LP7aQ,204888
+eval7/handrange.py,sha256=nyWlVsU8mnvt9gKQjA8LkQ9_RokiJtrkyKFBWaZcJiI,551
+eval7/cards.cpython-37m-x86_64-linux-gnu.so,sha256=zbwIPPA-jJWoXEz8OIHxaiZj0sDL17we1DeNAL6cD_0,510576
+eval7/rangestring.py,sha256=q74-336uR4kRps89y_niwwZu_3fCEjnHgdLgJbamlSI,10883
+eval7/equity.cpython-37m-x86_64-linux-gnu.so,sha256=BkbSR6fn9J9jtqDhlAoxMNGFb7L46ekOyiZGF-9tiNk,309168
