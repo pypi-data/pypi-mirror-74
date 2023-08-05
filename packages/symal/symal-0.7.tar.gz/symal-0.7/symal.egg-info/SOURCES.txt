@@ -1,0 +1,11 @@
+MANIFEST.in
+README
+setup.py
+symal/__init__.py
+symal/code.py
+symal/symalscript
+symal.egg-info/PKG-INFO
+symal.egg-info/SOURCES.txt
+symal.egg-info/dependency_links.txt
+symal.egg-info/requires.txt
+symal.egg-info/top_level.txt

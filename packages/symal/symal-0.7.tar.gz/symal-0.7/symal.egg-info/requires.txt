@@ -1,0 +1,7 @@
+matplotlib
+scikit-learn
+numpy
+svglib
+svgwrite
+pandas
+seaborn

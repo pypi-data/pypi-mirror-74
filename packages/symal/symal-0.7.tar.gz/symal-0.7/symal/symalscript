@@ -1,0 +1,6 @@
+#!python
+
+from symal import *
+
+print(Test())
+
