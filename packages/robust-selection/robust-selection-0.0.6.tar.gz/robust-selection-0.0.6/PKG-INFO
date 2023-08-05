@@ -1,0 +1,11 @@
+Metadata-Version: 1.2
+Name: robust-selection
+Version: 0.0.6
+Summary: Distributionally Robust Formulation and Model Selection for the Graphical Lasso
+Home-page: https://github.com/dddlab/robust_selection
+Author: Chau Tran
+Author-email: chautran@ucsb.edu
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6
