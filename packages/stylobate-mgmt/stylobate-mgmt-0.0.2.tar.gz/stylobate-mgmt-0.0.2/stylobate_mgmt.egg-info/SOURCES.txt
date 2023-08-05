@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+stylobate_mgmt/__init__.py
+stylobate_mgmt/stylo.py
+stylobate_mgmt.egg-info/PKG-INFO
+stylobate_mgmt.egg-info/SOURCES.txt
+stylobate_mgmt.egg-info/dependency_links.txt
+stylobate_mgmt.egg-info/entry_points.txt
+stylobate_mgmt.egg-info/not-zip-safe
+stylobate_mgmt.egg-info/top_level.txt
