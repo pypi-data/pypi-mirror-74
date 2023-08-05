@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: S-RANK
+Version: 0.5
+Summary: A basic implementation of the Scalable RANK Algorithm, for feature selection in unsupervised learning problems.
+Home-page: https://github.com/Willinki/S-RANK.git
+Author: Davide Badalotti
+Author-email: davide.badalotti@outlook.it
+License: GPL-3.0
+Description: UNKNOWN
+Platform: UNKNOWN
