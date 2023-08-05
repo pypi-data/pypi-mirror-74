@@ -1,0 +1,17 @@
+BI_parser/__init__.py,sha256=qwGk--4oY1rmMWGk904H4MqhWckORDRU4_Fa5W36YuQ,31
+BI_parser/bloc.py,sha256=RB7w31UVzpSu7RPXw15DHx0XT0z_3gAlrAZJyW_n5PI,767
+BI_parser/client.py,sha256=qjKf8vPHEfZyiHo1qCsM-4n2ZjetnveUV0bj69PtpJo,1978
+BI_parser/code.py,sha256=q2PGhdfGEtP2Dip1jZ2Qxm-tgOemgf9L-YbFfVRz0ME,961
+BI_parser/commentaire.py,sha256=XEXGK-nvt40dPbA39MweLsXhW1FbzJJB1ob-VetfAdU,318
+BI_parser/const_regex.py,sha256=XEXGK-nvt40dPbA39MweLsXhW1FbzJJB1ob-VetfAdU,318
+BI_parser/example.py,sha256=-Z39GVQE1cvJrlFUMFGJlerLkmaby-98yJRD8WnsHe0,70
+BI_parser/parser.py,sha256=9yC1-9vFZTAtTT3f5SXrvaXwv1qYjzOulzMIMZjuGxM,624
+BI_parser/requete.py,sha256=aq-XzI51jiwDqX8DCxG_kv_pTL4hjPMj5m4EBImrFxw,20545
+BI_parser/script.py,sha256=Sl6OhFLHbkcSYofm7GpsetHJ_0wSW4Rvoubfr5X2hrg,7207
+BI_parser/table.py,sha256=krmnla4mDzF7w__Coeb57AAcQYbanATtW7HLe60nHs4,309
+BI_parser/variable.py,sha256=uYD-Zcu4jWjbg3wSADBWvdlH4H3Kllfv94y3Cc9mmsU,170
+BI_Parser-0.0.2.dist-info/LICENSE,sha256=6kbiFSfobTZ7beWiKnHpN902HgBx-Jzgcme0SvKqhKY,1091
+BI_Parser-0.0.2.dist-info/METADATA,sha256=Ei6ggoUNxGEFOJIXPMrrA9yli-Ak6IbCi2o3r4j35ro,1458
+BI_Parser-0.0.2.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+BI_Parser-0.0.2.dist-info/top_level.txt,sha256=0ZHwaXe1ieeaqGpQOxxejhJAQTgB-KINUEQo0PkRHQo,10
+BI_Parser-0.0.2.dist-info/RECORD,,
