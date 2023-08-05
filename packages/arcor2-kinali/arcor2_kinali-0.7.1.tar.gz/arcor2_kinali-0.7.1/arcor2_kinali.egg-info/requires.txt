@@ -1,0 +1,4 @@
+dataclasses
+dataclasses-jsonschema[fast-validation]
+arcor2==0.7.1
+Pillow
