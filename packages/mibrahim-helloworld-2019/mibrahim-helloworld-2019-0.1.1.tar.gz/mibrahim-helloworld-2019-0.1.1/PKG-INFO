@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: mibrahim-helloworld-2019
+Version: 0.1.1
+Summary: Project template
+Home-page: https://github.com/RobertoPrevato/PythonTemplate
+Author: RobertoPrevato
+Author-email: roberto.prevato@gmail.com
+License: MIT
+Description: # helloworld
+Keywords: template
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
