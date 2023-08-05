@@ -1,0 +1,10 @@
+sparc/__init__.py,sha256=H5eJX4b4kDHoBQ9mWWrYVtcsn2u3MZAJYOLsOcQrr3w,54
+sparc/ion.py,sha256=VRgPFDYIe3MwUg6vofwIx47mcYUVUYwpECaE-xTPXVA,21457
+sparc/mongo.py,sha256=aH_7ns49qputxttHEKnPa23tXVNG_3g4CiNTtGcxbHE,7726
+sparc/sparc_core.py,sha256=9wKlHbZop0ocm2n66z-aS3ospS_dpO2e080sLdy7NYA,68623
+sparc/utilities.py,sha256=BFXhoXG6TGgj0WxVMY-4jWNEC0iiMO1D6TC_z09_HHk,13668
+sparc_dft_api-0.1.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+sparc_dft_api-0.1.dist-info/METADATA,sha256=S2sLVPWflSSI7AlSwKEhq_iqpXgfjwPijUV-xTxrWpM,360
+sparc_dft_api-0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+sparc_dft_api-0.1.dist-info/top_level.txt,sha256=0Rkt3aTPDJTiu4CYXIrK3J29ztJr3Fd8oBc_SwyDECs,6
+sparc_dft_api-0.1.dist-info/RECORD,,
