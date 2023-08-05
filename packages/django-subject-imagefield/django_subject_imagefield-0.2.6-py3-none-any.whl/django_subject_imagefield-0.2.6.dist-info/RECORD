@@ -1,0 +1,13 @@
+subject_imagefield/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+subject_imagefield/config.py,sha256=jXw6ZWVMMAGX4XNOrmSU6kmQkfQGz1BvRBTJRPl67eo,539
+subject_imagefield/fields.py,sha256=onjqW5-svxlTfFCF2BY_omy0qad5ybZ_dWlaw8AtGlM,2571
+subject_imagefield/forms.py,sha256=-eE0u60WP_XXDSziASZsjZQ0YVKAWfxtrATs1qPjoc0,656
+subject_imagefield/widgets.py,sha256=kQaLSgX7r559OSTRayEi_wZa4wdRM5pjRXKxmsl_Wt0,167
+subject_imagefield/locale/it/LC_MESSAGES/django.mo,sha256=xU-Bq5KId5nOcS7VeHUZ8MNK_CBBjZUthtyExtljvQY,561
+subject_imagefield/locale/it/LC_MESSAGES/django.po,sha256=sMkV_d88WVjc4XBAlklPbStdITuAJ5cUv09lrGD_owE,809
+subject_imagefield/templates/subject_imagefield/widgets/subject_image.html,sha256=iG1wdktJcB5-Xc7mxacixLmkO7CU-JtUaUdiGr91E0s,6564
+django_subject_imagefield-0.2.6.dist-info/LICENSE,sha256=H1xr9tYeM-V6IkbmODkUUwmLJQsamBYgSf90gfJbg_Q,1056
+django_subject_imagefield-0.2.6.dist-info/METADATA,sha256=rJbq391Ktzo2ls_SgvLwN9hjbC3vHn3_Pls_E6vJQV0,3348
+django_subject_imagefield-0.2.6.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+django_subject_imagefield-0.2.6.dist-info/top_level.txt,sha256=T-VMgt41Y_hddfmorYpN87lCDDfHDESOcLRLtfHIuDI,19
+django_subject_imagefield-0.2.6.dist-info/RECORD,,
