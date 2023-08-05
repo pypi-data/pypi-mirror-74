@@ -1,0 +1,6 @@
+README.md
+setup.py
+pyturbot.egg-info/PKG-INFO
+pyturbot.egg-info/SOURCES.txt
+pyturbot.egg-info/dependency_links.txt
+pyturbot.egg-info/top_level.txt
