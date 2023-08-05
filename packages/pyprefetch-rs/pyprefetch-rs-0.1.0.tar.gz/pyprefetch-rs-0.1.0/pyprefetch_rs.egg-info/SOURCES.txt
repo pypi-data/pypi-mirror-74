@@ -1,0 +1,7 @@
+README.md
+setup.py
+pyprefetch_rs.egg-info/PKG-INFO
+pyprefetch_rs.egg-info/SOURCES.txt
+pyprefetch_rs.egg-info/dependency_links.txt
+pyprefetch_rs.egg-info/not-zip-safe
+pyprefetch_rs.egg-info/top_level.txt
