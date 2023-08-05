@@ -1,0 +1,15 @@
+data/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+data/popular_20k.data,sha256=TtblM213YNKB9-ct8xgn2ogMhhNj6CDYxlZmsPENmsA,155418
+spacin/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+spacin/__main__.py,sha256=Uo8EMertKmvPpnkVG7R7jkmWk6nR8lbOmVP2bBdLFcc,3354
+spacin/algorithm.py,sha256=rZeeHu2dRaeslrdJitpmwzYue2Xf_UK4niByjx2yHDE,2880
+spacin/loader.py,sha256=G488q3WPGo9s_WcBlhQddVb71LMuqvsZB9tiKk3okVU,1058
+spacin/spacin.py,sha256=5DqWPXX1y2DFpkrC6TSXUBiVmbIvwSiUZ2AnITJ5Rhc,851
+spacin/validator.py,sha256=J8YDf27-Vta_6RwCMSY5d4sAmJOMSy_VLxnKhWI-NOk,1219
+spacin-0.1.0.dist-info/DESCRIPTION.rst,sha256=vvoPF85d7FJ2M8yci75q5FyXZh6QughNv-8gyTuQVpE,78
+spacin-0.1.0.dist-info/METADATA,sha256=W6DOyuolw5NVvt0PuEY25N0sYFrFtwKsf9VAp3nwAXo,308
+spacin-0.1.0.dist-info/RECORD,,
+spacin-0.1.0.dist-info/WHEEL,sha256=8Lm45v9gcYRm70DrgFGVe4WsUtUMi1_0Tso1hqPGMjA,92
+spacin-0.1.0.dist-info/entry_points.txt,sha256=kNNt9G14KRAzlcYuIM1088ku1fVZkaKOwiTrG4BeCFs,49
+spacin-0.1.0.dist-info/metadata.json,sha256=1dRWfdIlS0p4Mr8uNPkZU7yOFC-uVkXtiGh0Rm3fH30,571
+spacin-0.1.0.dist-info/top_level.txt,sha256=IEdqZY_IwLdcX55jJVIjCO3skThP0x44XJRxOczbAh4,12
