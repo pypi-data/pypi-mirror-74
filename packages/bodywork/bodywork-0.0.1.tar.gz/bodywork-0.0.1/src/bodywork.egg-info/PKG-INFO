@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: bodywork
+Version: 0.0.1
+Summary: Machine learning and statistical model deployment frameowrk.
+Home-page: https://github.com/AlexIoannides/bodywork
+Author: Alex Ioannides
+License: Apache 2.0
+Description: # bodywork
+        
+        A framework for deploying statistical (machine) learning models on Kubernetes.
+        
+Platform: UNKNOWN
+Requires-Python: >=3.7.*
+Description-Content-Type: text/markdown
+Provides-Extra: dev
