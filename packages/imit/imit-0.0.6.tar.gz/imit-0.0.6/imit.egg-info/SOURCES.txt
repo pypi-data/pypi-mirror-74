@@ -1,0 +1,15 @@
+README.md
+setup.py
+imit/__init__.py
+imit/commit_inquirer.py
+imit/git_handler.py
+imit/imit.py
+imit/option_handler.py
+imit/version_handler.py
+imit.egg-info/PKG-INFO
+imit.egg-info/SOURCES.txt
+imit.egg-info/dependency_links.txt
+imit.egg-info/entry_points.txt
+imit.egg-info/not-zip-safe
+imit.egg-info/requires.txt
+imit.egg-info/top_level.txt
