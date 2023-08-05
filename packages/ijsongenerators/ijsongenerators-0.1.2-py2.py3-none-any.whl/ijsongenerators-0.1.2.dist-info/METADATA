@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: ijsongenerators
+Version: 0.1.2
+Summary: Library to make ijson return nested generators into the JSON stream
+Home-page: UNKNOWN
+Author: Simon Engledew
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: ijson
+Provides-Extra: dev
+Requires-Dist: black ; extra == 'dev'
+Requires-Dist: isort ; extra == 'dev'
+Requires-Dist: autoflake ; extra == 'dev'
+Provides-Extra: test
+Requires-Dist: coverage ; extra == 'test'
+Requires-Dist: pytest ; extra == 'test'
+Requires-Dist: pytest-cov ; extra == 'test'
+
+UNKNOWN
+
+
