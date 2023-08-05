@@ -1,0 +1,12 @@
+setup.py
+pip2spack/__init__.py
+pip2spack/main.py
+pip2spack/spack_package.py
+pip2spack/test_data.py
+pip2spack/test_main.py
+pip2spack.egg-info/PKG-INFO
+pip2spack.egg-info/SOURCES.txt
+pip2spack.egg-info/dependency_links.txt
+pip2spack.egg-info/entry_points.txt
+pip2spack.egg-info/top_level.txt
+pip2spack/templates/__init__.py
