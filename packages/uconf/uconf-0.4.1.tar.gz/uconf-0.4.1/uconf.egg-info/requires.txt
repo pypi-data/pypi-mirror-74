@@ -1,0 +1,3 @@
+fslib>=0.3.4
+tdparser
+confutils>=0.3.6
