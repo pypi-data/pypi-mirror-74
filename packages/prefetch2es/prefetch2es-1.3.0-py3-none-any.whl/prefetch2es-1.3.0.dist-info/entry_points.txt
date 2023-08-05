@@ -1,0 +1,3 @@
+[console_scripts]
+prefetch2es=prefetch2es:main
+
