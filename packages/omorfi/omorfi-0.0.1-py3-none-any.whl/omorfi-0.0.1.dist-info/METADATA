@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: omorfi
+Version: 0.0.1
+Summary: Open morphology for Finnish, python bindings
+Home-page: https://github.com/flammie/omorfi
+Author: Flammie A Pirinen
+Author-email: flammie@iki.fi
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
+Requires-Dist: hfst
+
+# omorfi-python
+
+Python API for omorfi (the open morphology of Finnish).
+
+
