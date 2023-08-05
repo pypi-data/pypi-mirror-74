@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: mOTUlizer
+Version: 0.0.1
+Summary: making OTUs from genomes, and stats on them. and maybe even core-genomes
+Home-page: https://github.com/moritzbuck/0039_mOTUlizer/tree/dev
+Author: Moritz Buck
+Author-email: moritz.buck@slu.se
+License: UNKNOWN
+Description: # 0039_mOTUlizer
+        Utility to analyse a group of closely related MAgs/Genomes/bins/SUBs of more or less dubious origin
+        
+Keywords: bioinformatics clustering metagenomics microbial-genomics genomics
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
