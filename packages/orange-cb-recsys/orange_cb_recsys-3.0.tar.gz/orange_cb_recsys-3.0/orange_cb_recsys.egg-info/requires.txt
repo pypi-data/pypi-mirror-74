@@ -1,0 +1,14 @@
+pandas==1.0.5
+PyYAML==5.3.1
+numpy==1.18.4
+gensim==3.8.3
+nltk==3.5
+babelpy==1.0.1
+mysql==0.0.2
+mysql-connector-python==8.0.20
+wikipedia2vec==1.0.4
+sklearn==0.0
+SPARQLWrapper==1.8.5
+textblob==0.15.3
+matplotlib==3.2.2
+pywsd==1.2.4
