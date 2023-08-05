@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: simpeg-octree-mt
+Version: 0.0.1
+Summary: SimPeg package with modification to incorporate octree meshes with MT
+Home-page: https://github.com/pypa/sampleproject
+Author: Diego Miranda
+Author-email: dmiranda@ufpa.br
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: numpy (>=1.7)
+Requires-Dist: scipy (>=0.13)
+Requires-Dist: pymatsolver (>=0.1.1)
+Requires-Dist: matplotlib
+Requires-Dist: properties (>=0.5.2)
+Requires-Dist: vectormath (>=0.2.0)
+Requires-Dist: discretize (>=0.4.0)
+Requires-Dist: geoana (>=0.0.4)
+
+# Example Package
+
+This is a simple example package. You can use
+[Github-flavored Markdown](https://guides.github.com/features/mastering-markdown/)
+to write your content
+
+
