@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: lokstats
+Version: 0.0.1
+Summary: it is for advanced statistics calculations of partial and multiple correlations
+Home-page: https://github.com/loksundar/partial_multiple_correlation
+Author: LOK SUNDAR GANTHI
+Author-email: loksundar000@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# lokstats package
+
+This is an package for advanced statistical calculations . 
+It is having two functions 
+1.) mulcor(dataframe_name,"column_name ")
+	To calculate the multiple correlations it is used,here column name is the name of the column for which we want to calculate the multiple correlation.
+2.) partcor(dataframe_name,"column1_name ","column1_name ")
+	To calculate the Partial correlations it is used,here column1_name,column2_name are the names of the columns for which we want to calculate the partial correlation.
+To see the full working go here:https://github.com/loksundar/partial_multiple_correlation
+thank you
+
