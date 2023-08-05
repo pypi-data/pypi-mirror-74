@@ -1,0 +1,15 @@
+tarentula/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tarentula/cli.py,sha256=3qj93debXGPjiMUZfvBwBKKWISUpgGRyUSzmaQHpieA,4232
+tarentula/datashare_client.py,sha256=Qy67xYtkjkATgVhDU6zG1qagfbpDaR2rlwmlwBEERtk,6441
+tarentula/download.py,sha256=yMkuW5bRUuB4oJLDIpg42SaIw6Zl5y5GEsgT0S1qUio,7037
+tarentula/logger.py,sha256=Q8ttCEXiqX8iQx6Qd7S6Dr7B_3EI47zp5b6QWtrYpGM,748
+tarentula/tagging.py,sha256=3Kb2wSFRrc1TTp6vRHDJrpvXmQcMyOWO_fIVdAzNo70,4037
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_datashare_client.py,sha256=F5vQbeIJRXTmiGxJ0mC887BbtLbAVxDgGMYLABwuoC4,6216
+tests/test_tagging.py,sha256=QpJtJFh5mm_5PtOOrDlsOlJziTiJiSDMdGXKxkSO4r4,11037
+tarentula-1.4.0.dist-info/LICENSE,sha256=O1b8W9eWOjzZsLOUTApcvxMD2nigCOZak17O6X9vef0,34551
+tarentula-1.4.0.dist-info/METADATA,sha256=ZIJRKEWyULTEopJroQZ_EtvOtDpWg-rkRFJFEzmp2c0,4905
+tarentula-1.4.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+tarentula-1.4.0.dist-info/entry_points.txt,sha256=0xk8xJVO4-KclWj-1fPVovi-qwumt_LyliSICm3BQeI,71
+tarentula-1.4.0.dist-info/top_level.txt,sha256=e9roNndycQPhl2b6s2oyhkZbYu6ZqfTb44qfeQ0_S1w,16
+tarentula-1.4.0.dist-info/RECORD,,
