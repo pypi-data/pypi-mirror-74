@@ -1,0 +1,3 @@
+[console_scripts]
+a2connect = a2connect.zebra:main
+
