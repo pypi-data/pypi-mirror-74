@@ -1,0 +1,3 @@
+[console_scripts]
+chibi_xl_deploy = chibi_xl_deploy.cli:main
+
