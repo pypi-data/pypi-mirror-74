@@ -1,0 +1,10 @@
+setup.py
+kavya_distributions/Binomialdistribution.py
+kavya_distributions/Gaussiandistribution.py
+kavya_distributions/Generaldistribution.py
+kavya_distributions/__init__.py
+kavya_distributions.egg-info/PKG-INFO
+kavya_distributions.egg-info/SOURCES.txt
+kavya_distributions.egg-info/dependency_links.txt
+kavya_distributions.egg-info/not-zip-safe
+kavya_distributions.egg-info/top_level.txt
