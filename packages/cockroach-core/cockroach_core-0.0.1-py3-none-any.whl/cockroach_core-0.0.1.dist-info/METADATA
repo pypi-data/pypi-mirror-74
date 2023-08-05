@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: cockroach-core
+Version: 0.0.1
+Summary: UNKNOWN
+Home-page: http://gitlab.com/cockroach-poaker/cockroach-core
+Author: Simon Redding
+Author-email: s1m0n.r3dd1ng@gmail.com
+License: GPL3
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.5
+
+# cockroach-core [![pipeline status](https://gitlab.com/cockroach-poker/cockroach-core/badges/master/pipeline.svg)](https://gitlab.com/cockroach-poker/cockroach-core/-/commits/masterst)
+
+Core game logic implemented in a python package.
+
+

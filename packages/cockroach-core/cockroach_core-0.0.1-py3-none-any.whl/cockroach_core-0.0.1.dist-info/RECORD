@@ -1,0 +1,8 @@
+cockroachcore/__init__.py,sha256=tgIN7nv5vkb_Y3op12iYgsXk6Cd4y3GOtiIxzviXThE,75
+cockroachcore/cards.py,sha256=fGOpdVa6ORCMVG5jZit_Wck29HhsqclmMEHbOK6jeIo,285
+cockroachcore/game.py,sha256=bnB_ep7syjLYC_AKiG9y8f9HAGHIegsOeP22AU8Vh-I,2882
+cockroach_core-0.0.1.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+cockroach_core-0.0.1.dist-info/METADATA,sha256=Nt859OS8eI60xMI-kpPF3PXnRu9dUtEQk2sElg93lB4,662
+cockroach_core-0.0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+cockroach_core-0.0.1.dist-info/top_level.txt,sha256=eHIeWC5tCpVgPrdFGNquOf-ta8yKayBcsWHOKxva8qw,14
+cockroach_core-0.0.1.dist-info/RECORD,,
