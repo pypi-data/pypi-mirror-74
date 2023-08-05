@@ -1,0 +1,10 @@
+README.md
+setup.py
+servicecatalog_product_maker/__init__.py
+servicecatalog_product_maker/product_maker.py
+servicecatalog_product_maker.egg-info/PKG-INFO
+servicecatalog_product_maker.egg-info/SOURCES.txt
+servicecatalog_product_maker.egg-info/dependency_links.txt
+servicecatalog_product_maker.egg-info/entry_points.txt
+servicecatalog_product_maker.egg-info/requires.txt
+servicecatalog_product_maker.egg-info/top_level.txt
