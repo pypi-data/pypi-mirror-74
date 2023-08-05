@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: evm-fm-python
+Version: 0.1
+Summary: Environment variable manager for Mac
+Home-page: https://github.com/andrewdieken/evm-fm-python
+Author: YOUR NAME
+Author-email: andrewrd@live.com
+License: MIT
+Download-URL: https://github.com/andrewdieken/evm-fm-python/archive/v0.01.0.tar.gz
+Description: UNKNOWN
+Keywords: aws,environment,variable,manager,mac
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
