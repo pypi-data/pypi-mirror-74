@@ -1,0 +1,13 @@
+deepdata/__init__.py,sha256=OEhyF9_NaGWgc6Y3Ff8CZA_CTNgJjOMy2M5v4KXWIjI,150
+deepdata/cifar.py,sha256=mQmarusrVysXM4VtszwNbDCUUzNgd9MRLGWVt5K7T1g,5863
+deepdata/data_loader.py,sha256=IbF2_v6gHg-rFmdOXTAPpKbb9HGEwj3Ggx1o1YlEqQ0,3525
+deepdata/dataset.py,sha256=LddSNz2ACEIPhRmGrIeuBsKNT2JHeruS-cIZYDS3GbA,146
+deepdata/mnist.py,sha256=hzInSc-f_n-lly7hIgn-46w5vwDI30n8RXbFV7HzpTc,20759
+deepdata/transforms.py,sha256=Bp_9z_Dm0c__VQQBpHeDjFrzljOquDbSkpBEpZWABG8,2156
+deepdata/urls.py,sha256=QhuHSiWc2xvngkkKFZ-rORyIioj1WZZ6dy_EuaEY-xs,545
+deepdata/utils.py,sha256=sfl5rwp12REOvR0dW0tJ87FX81tACuFPg8jFB04buk4,6175
+deepdata-0.2.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+deepdata-0.2.0.dist-info/METADATA,sha256=q7O79_1XQnJznBJsxG0vHsuwgVl_8pZYmFjxKpGGjeM,606
+deepdata-0.2.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+deepdata-0.2.0.dist-info/top_level.txt,sha256=TcM_k239cTMr7KUik8msJsRmhv2e2od6EclX_Gw4aX4,9
+deepdata-0.2.0.dist-info/RECORD,,
