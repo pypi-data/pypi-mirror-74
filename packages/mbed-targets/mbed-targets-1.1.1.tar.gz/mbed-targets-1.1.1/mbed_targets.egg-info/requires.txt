@@ -1,0 +1,8 @@
+requests>=2.20
+python-dotenv
+mbed-tools-lib~=1.2
+pdoc3
+mbed-project~=2.0
+
+[:python_version < "3.7"]
+dataclasses
