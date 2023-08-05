@@ -1,0 +1,11 @@
+durations_nlp/__init__.py,sha256=hbVEeC8xyPaoVbFYrUZVkTRH82sLTLZEmDgiNm6-ffA,216
+durations_nlp/constants.py,sha256=7f8yN_6_z9hZ1DaqDUB3xlk4I2_c4RojPbcOH4f4q_A,1736
+durations_nlp/duration.py,sha256=Z-Gy3cAavKjixQeJ1p9aAmKzhKDaLOxw9thxoUF9ndw,3052
+durations_nlp/exceptions.py,sha256=a8jFTNCexy8aM_VnFpkn9btIGo2b7lv4lQ22LhZf1-c,91
+durations_nlp/helpers.py,sha256=lUrmtm2Bsg4XWD4HCyylHXUs0ERnysoCWRRFsw5ybhs,236
+durations_nlp/parser.py,sha256=H2tZC5CgJ3VvZYhQl0Gk8ObvSBP6fLto0rb0-9yrPJY,2666
+durations_nlp/scales.py,sha256=BO9kTYMvB0CGrK5heGUkw75GNCRXu4L6utvpXuwhWcE,2185
+durations_nlp-1.0.0.dist-info/LICENSE,sha256=4o8UaenP2v_f7XS61QlCj4RcV1NSslYLoLxRHRMqzxU,1079
+durations_nlp-1.0.0.dist-info/WHEEL,sha256=G_NFpzHmv_dUXgCUSAWL0-bLL-eMzYU6DzDeGXbRXUk,83
+durations_nlp-1.0.0.dist-info/METADATA,sha256=1z5Zkm5_v_BKdU7BSv0FTecLonC_PsWxP60elfdaVrY,2965
+durations_nlp-1.0.0.dist-info/RECORD,,
