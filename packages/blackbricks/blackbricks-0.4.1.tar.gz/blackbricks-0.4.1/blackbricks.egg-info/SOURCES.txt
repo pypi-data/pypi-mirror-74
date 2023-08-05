@@ -1,0 +1,10 @@
+README.md
+setup.py
+blackbricks/__init__.py
+blackbricks/blackbricks.py
+blackbricks.egg-info/PKG-INFO
+blackbricks.egg-info/SOURCES.txt
+blackbricks.egg-info/dependency_links.txt
+blackbricks.egg-info/entry_points.txt
+blackbricks.egg-info/requires.txt
+blackbricks.egg-info/top_level.txt
