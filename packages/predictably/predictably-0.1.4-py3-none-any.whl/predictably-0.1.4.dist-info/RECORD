@@ -1,0 +1,13 @@
+predictably/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+predictably/base/__init__.py,sha256=_pLr-V3Zb6GRpy2XeepHjwKCp_QyBWH3DbNX2am5tIk,107
+predictably/base/_base.py,sha256=mVpDw7QwgeKVyuaJ7EpUYs2qIFqip7nsHtIQ0x1XdcQ,151
+predictably/statistical_tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+predictably/univariate/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+predictably/utilities/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+predictably/utilities/transformations.py,sha256=aiLRMJmPRVz3A1WJzXKVU32R3bbGd8INcFXFPQf02Ng,1080
+predictably/utilities/validations.py,sha256=odlh2wR11_Np9SJ5yRbHOYfDQF7Z0OlL-CIOjMVdp-U,383
+predictably-0.1.4.dist-info/LICENSE,sha256=6E2ZiJE5cpFifAoiCE6Mrjt-r5F6aHz3IWx27k_zU88,1544
+predictably-0.1.4.dist-info/METADATA,sha256=yoquSwi2Er8t81T4j_IAn4YZ6pMKhQqUYbX0n9Bznuo,1333
+predictably-0.1.4.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+predictably-0.1.4.dist-info/top_level.txt,sha256=_mOsgLgvsbwOqkNcpf5MGt3VfJUy4tsswuPfbetSLUQ,12
+predictably-0.1.4.dist-info/RECORD,,
