@@ -1,0 +1,6 @@
+setup.py
+supertype/__init__.py
+supertype_python.egg-info/PKG-INFO
+supertype_python.egg-info/SOURCES.txt
+supertype_python.egg-info/dependency_links.txt
+supertype_python.egg-info/top_level.txt
