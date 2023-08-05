@@ -1,0 +1,11 @@
+topplot-0.0.5.data/scripts/topplot,sha256=z_xt6VLA4hMrrj-7SJOVuPXT57Y3gA1xu72RA-Uws7U,46362
+topplot_/__init__.py,sha256=DRXWZTOkLvcJcnJOKOe5KMHndAnPEPDZ_BaVrnFnUJE,186
+topplot_/figman.py,sha256=fRE13nVj2IgjkarZzf7yGWL1yhTMrGDwI9J0KSdjjUw,24603
+topplot_/grapher.py,sha256=VTWF-TnQIGuqIm9eKVgyKe2V7vNfz_jXYvxDnxdj1kg,39202
+topplot_/linestyler.py,sha256=Z2vKLgGj4MwgRve_fVbw1vZK9LMy0X7eApgOGO-jevM,2237
+topplot_/utils.py,sha256=A8FzwStgme98VH5nevrkz6vI_HO45Y2G-v803XKQSLE,2838
+topplot-0.0.5.dist-info/LICENCE,sha256=FnuG9XORft8nAsdFtrZ1YDhhYro5ouxpd2ebITBh1r0,35147
+topplot-0.0.5.dist-info/METADATA,sha256=ydfgoqCfKUcEouJEciT1Ag9T7YRarsFKTkkDisgMrl0,11899
+topplot-0.0.5.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+topplot-0.0.5.dist-info/top_level.txt,sha256=Aqo-PbzCJ5HYtENVEdzW_twilRPMpXiJen0MLHfVOrA,9
+topplot-0.0.5.dist-info/RECORD,,
