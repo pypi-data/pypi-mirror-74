@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: cpgqls-client
+Version: 0.0.1
+Summary: A client library for CPGQL servers
+Home-page: https://github.com/ShiftLeftSecurity/codepropertygraph
+Author: ShiftLeft Inc.
+Author-email: support@shiftleft.io
+License: UNKNOWN
+Description: ## cpgqls-client-python
+        
+        TODO: description
+        
+        
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
