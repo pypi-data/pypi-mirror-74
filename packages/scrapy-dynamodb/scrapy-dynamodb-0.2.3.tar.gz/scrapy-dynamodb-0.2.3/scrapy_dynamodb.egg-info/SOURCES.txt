@@ -1,0 +1,10 @@
+MANIFEST.in
+README.rst
+requirements.txt
+scrapy_dynamodb.py
+setup.py
+scrapy_dynamodb.egg-info/PKG-INFO
+scrapy_dynamodb.egg-info/SOURCES.txt
+scrapy_dynamodb.egg-info/dependency_links.txt
+scrapy_dynamodb.egg-info/requires.txt
+scrapy_dynamodb.egg-info/top_level.txt
