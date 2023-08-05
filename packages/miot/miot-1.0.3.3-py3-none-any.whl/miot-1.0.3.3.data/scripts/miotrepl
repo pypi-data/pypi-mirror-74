@@ -1,0 +1,215 @@
+#!python
+#!/usr/bin/python3
+
+# Modular Internet of Things
+# Command line utility / REPL
+# (c) Copyright Si Dunford, Mar 2019
+#
+# STATE: Pre-Alpha
+
+import sys
+from miot import config,mqtt
+
+VERSION = '0.1.5'
+
+brokers = {}
+
+## SUPPORT FUNCTIONS
+
+def die( message, subtext='', pointer=0 ):
+    print( message )
+    if subtext!='': print( "  "+subtext )
+    if pointer>0:
+        print( " "*(pointer+2)+"^" )
+    sys.exit(1)
+
+def repl():
+    print( "Welcome to Modular IoT" )
+    print( "Type 'quit' to exit, or 'help' for assistance." )
+    running = True
+    while running:
+        value = input( ":" )
+        if value!='':
+            cmd = value.split(" ")
+            if cmd[0]=='quit': 
+                running = False
+            else:
+                func = CMDswitcher.get( cmd[0], unknown_repl )
+                func( cmd[1:], cmd[0] )
+
+## MQTT SUPPORT
+
+def on_error( broker, error ):
+    err = str(error['id'])
+    print( "! {} | ({}) {} | {}".format( broker.hostname, err, error['message'], broker.error( err ) ))
+
+def on_connect( broker, msg ):
+    print( "! {} | Connected".format( broker.hostname ) )
+
+def on_message( broker, msg ):
+    print( "! {} | {} | {}".format( broker.hostname, msg['topic'], msg['topic'] ))
+
+def connect( host ):
+    global brokers
+    if host in brokers:
+        return brokers[host]
+    #
+    if( host=='' ):
+        hostip   = config.get( "mqtt.host" )
+        port     = config.get( "mqtt.port" )
+        username = config.get( "mqtt.username" )
+        userpass = config.get( "mqtt.password" )
+    else:
+        hostip   = config.get( "mqtt.{}.host".format( host ) )
+        port     = config.get( "mqtt.{}.port".format( host ) )
+        username = config.get( "mqtt.{}.username".format( host ) )
+        userpass = config.get( "mqtt.{}.password".format( host ) )
+    #
+    broker = mqtt.broker()
+    broker.authenticate( username, userpass )
+    broker.on( 'error', on_error )
+    broker.on( 'connect', on_connect )
+    broker.on( 'message', on_message )
+    broker.connect( hostip, port )
+    #
+    brokers[host]=broker
+    return broker
+    
+## COMMANDS
+
+def exist( args, cmd ):
+    if len(args)<1:
+        die( "Missing parameter: exist <key> [T|F]" )
+    key = args[0]
+    default = False
+    print( len(args))
+    if len(args)==2:
+        print( "has default flag" )
+        temp = args[2][0]
+        print(temp)
+        default = True if args[2][0].lower()==true else False
+    result = config.exist( key, default )
+    print( str(result) )
+        
+def get( args, cmd ):
+    if len(args)<1:
+        die( "Missing parameter:", "get <key>", 5 )
+    elif len(args)>1:
+        die( "Unexpected character:", "get "+" ".join(args), 5+len(args[0]) )
+    key = args[0]
+    print( key+" = '"+str(config.get( key ))+"'" )
+        
+def help( args, cmd ):
+    print( """
+# miot get <key>
+# miot exists <key> [T/(F)]
+# miot set <key> <value>
+""")
+
+def list( args, cmd ):
+    print( "LIST" )
+
+    # READ CONFIG.INI FOR INSTALLED COMPONENTS
+    # READ MODULES.DAT FOR AVAILABLE COMPONENTS
+    # SHOW LIST
+
+def set( args, cmd ):
+    if len(args)<2:
+        die( "Missing parameter: get <key> <value>" )
+    key = args.pop(0)
+    value = " ".join(args)
+    config.set( key, value )
+    config.save()
+
+def subscribe( args, cmd ):
+    print( str(len(args)) + " arguments" )
+    if len(args)==1:
+        host     = ''
+        topic    = args[0]
+    elif len(args)==2:
+        host     = args[0]
+        topic    = args[1]
+    else:
+        die( 'Missing parameter: subscribe [broker] <topic>' )
+        
+    print( "BROKER:  "+host )
+    print( "TOPIC:   "+topic )
+    
+    broker = connect( host )
+    broker.subscribe( topic )
+    
+def publish( args, cmd ):
+    #print( str(len(args)) + " arguments" )
+    if len(args)==2:
+        host     = ''
+        topic    = args[0]
+        message  = args[1]
+        #hostip   = config.get( "mqtt.host" )
+        #port     = config.get( "mqtt.port" )
+        #username = config.get( "mqtt.username" )
+        #userpass = config.get( "mqtt.password" )
+    elif len(args)==3:
+        host     = args[0]
+        topic    = args[1]
+        message  = args[2]
+        #hostip   = config.get( "mqtt.{}.host".format( host ) )
+        #port     = config.get( "mqtt.{}.port".format( host ) )
+        #username = config.get( "mqtt.{}.username".format( host ) )
+        #userpass = config.get( "mqtt.{}.password".format( host ) )
+    else:
+        die( 'Missing parameter: publish [broker] <topic> "<message>"' )
+        
+    #print( "BROKER:  "+host )
+    #print( "TOPIC:   "+topic )
+    #print( "MESSAGE: "+message )
+        
+    broker = connect( host )
+    #broker = mqtt.broker()
+    #broker.authenticate( username, userpass )
+    #broker.connect( hostip, port )
+    
+    broker.publish( topic, message )
+    print( "Published to {}.".format( topic ) )
+    
+def unsubscribe( args, cmd ):
+    pass
+
+def unknown_cli( args, cmd ):
+    die( "Unknown command: {}".format(" ".join(sys.argv[1:]) ))
+
+def unknown_repl( args, cmd ):
+    print( "- Unknown command: {}".format(cmd) )
+     
+def update( args, cmd ):
+    print( "UPDATE")
+
+def version( args, cmd ):
+    print( "Version: "+VERSION )
+
+
+# COMMAND SWITCHER
+CMDswitcher = { 
+    "--help":help,
+    "get":get,
+    "exist":exist,
+    "exists":exist,
+    "help":help,
+    "list":list,
+    "publish":publish,
+    "set":set,
+    "subscribe":subscribe,
+    "update":update, 
+    "version":version 
+}
+
+# PROCESS ARGUMENTS
+if len(sys.argv) <= 1:
+    repl()
+    sys.exit(0)
+
+func = CMDswitcher.get( sys.argv[1], unknown_cli )
+func( sys.argv[2:], sys.argv[1] )
+
+
+
+
