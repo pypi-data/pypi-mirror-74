@@ -1,0 +1,9 @@
+README.md
+setup.py
+simons/VERSION.txt
+simons/__init__.py
+simons.egg-info/PKG-INFO
+simons.egg-info/SOURCES.txt
+simons.egg-info/dependency_links.txt
+simons.egg-info/not-zip-safe
+simons.egg-info/top_level.txt
