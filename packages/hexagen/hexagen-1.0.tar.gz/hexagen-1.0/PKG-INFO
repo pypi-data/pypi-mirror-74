@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: hexagen
+Version: 1.0
+Summary: Generates random hexadecimal digits and prints them to standard output.
+Home-page: https://github.com/cabrust/hexagen
+Author: Clemens-Alexander Brust
+Author-email: ikosa.de@gmail.com
+License: UNKNOWN
+Description: # Hexagen
+        
+        This generates 6 random hexadecimal digits and prints them to standard output.
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: BSD License
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown

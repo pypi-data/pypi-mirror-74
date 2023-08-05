@@ -1,0 +1,6 @@
+README.md
+setup.py
+hexagen.egg-info/PKG-INFO
+hexagen.egg-info/SOURCES.txt
+hexagen.egg-info/dependency_links.txt
+hexagen.egg-info/top_level.txt
