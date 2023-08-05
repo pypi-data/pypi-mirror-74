@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: powerfuldeveloper-base
+Version: 0.0.6
+Summary: Basic Foundation of All created by him
+Home-page: UNKNOWN
+Author: Hussein Mirzaki
+Author-email: husseinmirzaki@gmail.com
+License: UNKNOWN
+Description: # Basic Foundation of All created by him
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
