@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: ayuda
+Version: 0.11
+Summary: Program for save your notes and share between git
+Home-page: https://gitlab.com/rodrigohernan.ramos/ayuda
+Author: Rodrigo Ramos
+Author-email: rodrigohernan.ramos@gmail.com
+License: UNKNOWN
+Description: ## Description
+        Command line program for save your notes and share between git
+        
+        ## Install
+        pip install ayuda
+        
+        ## For development
+        ~~~
+        pip3 install -e .
+        ~~~
+        ### For Update
+        #### Pre requisitos
+        ~~~
+        python3 -m pip install --user --upgrade setuptools wheel
+        python3 -m pip install --user --upgrade twine
+        ~~~
+        #### Update commands
+        python3 setup.py sdist bdist_wheel
+        python3 -m twine upload --repository pypi dist/*
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
