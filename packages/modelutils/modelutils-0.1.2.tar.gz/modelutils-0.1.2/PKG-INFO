@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: modelutils
+Version: 0.1.2
+Summary: Utility scripts for various deep learning models
+Home-page: https://github.com/shonohs/modelutils
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Provides-Extra: all
