@@ -1,0 +1,7 @@
+geopandas
+gtfs-kit
+pandas
+pyproj
+pyshp
+shapely
+simpledbf
