@@ -1,0 +1,25 @@
+# for django style logs
+counter filewave_django_logs_total by severity  
+counter filewave_django_errors_total by type, url
+
+#[INFO] 2020-07-09 11:33:04,491 (mdm): MDM status from: 77.64.233.60, udid 2290731c-dd48-af5c-4477-2b5e2fdf977a, userID SYSTEM, status Idle
+#[INFO] 2020-07-09 11:33:04,507 (mdm): MDM status from: 77.64.233.60, udid 7fa85663-b24f-72d8-cfb8-31134de6c524, userID SYSTEM, status Idle
+#[INFO] 2020-07-09 11:33:04,508 (mdm): MDM status from: 77.64.233.60, udid ebaa04ed-4c3c-17e9-ea89-b0a64625a5ab, userID SYSTEM, status Idle
+#[INFO] 2020-07-09 11:33:04,508 (mdm): MDM status from: 77.64.233.60, udid 78536521-7d92-43f5-ae09-251d1c66bd7b, userID SYSTEM, status Idle
+#[INFO] 2020-07-09 11:33:04,491 (mdm): MDM status from: 77.64.233.60, udid 8b8750cf-0248-b68e-6901-fe2ad71bb5bb, userID SYSTEM, status Idle
+#[INFO] 2020-07-09 11:33:04,513 (mdm): MDM status from: 77.64.233.60, udid 3551ff3f-87a4-8e2e-a029-ff01d17db390, userID SYSTEM, status Idle
+#[ERROR] 2020-07-09 11:33:04,631 (log): Service Unavailable: /ios/mdm
+#[ERROR] 2020-07-09 11:33:04,641 (log): Service Unavailable: /ios/mdm
+#[INFO] 2020-07-09 11:33:05,227 (apn): Sending 1 APN messages
+#[ERROR] 2020-07-09 11:33:25,066 (apn): Device a6ba5df8-ef5b-faa3-03df-7788f2673537 is missing the push_magic token needed to send it APNs. This device most likely did not complete the OTA enrollment process properly, leaving it in a half-enrolled state.
+
+/^\[ERROR\] (?P<date>\d\d\d\d-\d\d-\d\d \d\d:\d\d:\d\d).\d\d\d \(.*\): / {
+	strptime($date, "2006-01-02 15:04:05")     
+	filewave_django_logs_total["Error"]++    
+
+	# Looking out for misconfigured notify     
+	/Service Unavailable: (?P<url>.*)\/?/ {         
+		filewave_django_errors_total["Service Unavailable", $url]++
+	}
+} 
+
