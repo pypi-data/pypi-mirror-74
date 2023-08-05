@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: penguin-libraries
+Version: 0.1.3
+Summary: Easy and useful libraries.
+Author: PixelPenguin
+Requires-Python: >=3.6,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: Pillow
+Requires-Dist: PyYAML
+Requires-Dist: lightgbm
+Requires-Dist: numpy
+Requires-Dist: optuna
+Requires-Dist: pandas
+Requires-Dist: pytorch-lightning
+Requires-Dist: scikit-learn
+Requires-Dist: tensorboard
+Requires-Dist: torch
+Requires-Dist: torchvision
