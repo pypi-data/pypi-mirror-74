@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+dsnf/Binomialdistribution.py
+dsnf/Gaussiandistribution.py
+dsnf/Generaldistribution.py
+dsnf/__init__.py
+dsnf.egg-info/PKG-INFO
+dsnf.egg-info/SOURCES.txt
+dsnf.egg-info/dependency_links.txt
+dsnf.egg-info/not-zip-safe
+dsnf.egg-info/top_level.txt
