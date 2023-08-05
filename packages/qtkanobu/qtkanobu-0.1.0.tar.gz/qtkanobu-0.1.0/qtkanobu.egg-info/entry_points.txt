@@ -1,0 +1,3 @@
+[console_scripts]
+qtkanobu = qtkanobu.__main__:main
+
