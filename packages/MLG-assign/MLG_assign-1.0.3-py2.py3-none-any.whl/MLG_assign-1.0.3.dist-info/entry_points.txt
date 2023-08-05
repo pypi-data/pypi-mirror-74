@@ -1,0 +1,3 @@
+[console_scripts]
+MLG_assign = MLG_assign:main
+
