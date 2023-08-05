@@ -1,0 +1,10 @@
+azure_log_analytics_data_collector_api-0.3.0.dist-info/DESCRIPTION.rst,sha256=OCTuuN6LcWulhHS3d5rfjdsQtW22n7HENFRh6jC6ego,10
+azure_log_analytics_data_collector_api-0.3.0.dist-info/METADATA,sha256=e-ErYaTu9W8pT9W50CC6q2umLG2kZjOLcyupsWT9CBY,905
+azure_log_analytics_data_collector_api-0.3.0.dist-info/RECORD,,
+azure_log_analytics_data_collector_api-0.3.0.dist-info/WHEEL,sha256=8Lm45v9gcYRm70DrgFGVe4WsUtUMi1_0Tso1hqPGMjA,92
+azure_log_analytics_data_collector_api-0.3.0.dist-info/metadata.json,sha256=uWVtF2Hpmqc4IRCDU4Nraq8T4MXLhvofSZRq-Grq1Mo,1074
+azure_log_analytics_data_collector_api-0.3.0.dist-info/top_level.txt,sha256=WY6wnzY1G3RWMD8uJ81XH7uPAVQ8r_u3UrXO4iDfN1g,56
+datacollectorapi/__init__.py,sha256=oMVVq2ER0k9uzIXhQ8DoUHXl0FN-WnHFvE59Oim6llE,88
+datacollectorapi/client.py,sha256=NdFk9RspKdqKpVLTbZk7GZvW1825C7mhrafsRsvvnq0,2894
+datacollectorapi/helper.py,sha256=Z0-H1NLT8r06mtgGTnIRsewszwVi1PLGUyjEuPHdvBg,80
+datacollectorapi/version.py,sha256=OgfvlOui_Z4FwAja2bTJgiUkMeuAXZ561wYewaEr6SQ,18
