@@ -1,0 +1,9 @@
+structlog
+
+[dev]
+pytest
+numpy
+
+[tests]
+pytest
+numpy
