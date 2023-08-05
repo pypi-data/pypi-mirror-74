@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: crack-engine-CraXell
+Version: 0.0.1.2
+Summary: A package
+Home-page: https://github.com/CraXell/crack-engine
+Author: CraXell
+Author-email: craxell.tv@gmail.com
+License: UNKNOWN
+Description: # crack-engine
+        Crack engine is an open-source pygame game engine.
+        
+        
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
