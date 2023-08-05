@@ -1,0 +1,10 @@
+econlib/__init__.py,sha256=XBQ4XyfNVxYe3TlhGWdwFvElgqdwmuqvlNiRkZzQQS4,100
+econlib/example_module.py,sha256=VeUAOgApfqBti18Wy38mJ_VHgUbszVfSzJdyI4Fr7Vw,3577
+econlib/linearmodel.py,sha256=TQ3P7Qgo1al1fGDuHBWaAEJOqpOX3r88q6VrmUH2u_k,3252
+econlib/result.py,sha256=8QoxQI3WOZNfyOKPH1XMdHqm2GbV3oDtVabMfo6SH-Y,5999
+econlib/tool.py,sha256=kDgmbodqH966qPPTYmuO09iUeliXOSK1fQzQbtYHtRk,925
+econlib-0.0.3.dist-info/LICENSE,sha256=Lmi2Vr9K1uYIzuVnP18LcJecuee99P7fYcT0B2W9J6A,1090
+econlib-0.0.3.dist-info/METADATA,sha256=utMf5IC-V93FfW1OLn55KYAlm1Q2RFTEO1m_VphtX5A,976
+econlib-0.0.3.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+econlib-0.0.3.dist-info/top_level.txt,sha256=JJvhlHz4J2flBJUvDlXf8rU5OJ3LswZ4esMEgOuUpc8,8
+econlib-0.0.3.dist-info/RECORD,,
