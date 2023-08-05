@@ -1,0 +1,4 @@
+[console_scripts]
+iart_export=iart.iart:export_script
+iart_setup=iart.iart:interactive_setup
+
