@@ -1,0 +1,6 @@
+numpy==1.16.4
+tensorflow<=1.14.0,>=1.11.1
+argparse
+keras==2.2.5
+scikit-image
+pillow>=7.0.0
