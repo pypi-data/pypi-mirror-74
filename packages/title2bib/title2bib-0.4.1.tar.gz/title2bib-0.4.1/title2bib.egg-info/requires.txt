@@ -1,0 +1,5 @@
+arxivcheck
+doi2bib
+future
+requests
+unidecode
