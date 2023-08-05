@@ -1,0 +1,9 @@
+gerapy_pyppeteer/__init__.py,sha256=8FPVGqv23C9wSffCSsa18u5Zn7Km_vEa5ej2FCbkxM0,93
+gerapy_pyppeteer/__version__.py,sha256=U0A9O6NVeIcQ_k0syp7kU5uxxRtnn7qz6Ecbx4ro_LU,74
+gerapy_pyppeteer/downloadermiddlewares.py,sha256=NC2asBLIOKs9H2AcSCX8bY2UmgN2uwWDO_wY-oCF0AE,10534
+gerapy_pyppeteer/request.py,sha256=v879kVJobd_udQ1F6qlTyrfUvKh9WQvb77gOQ-W_USk,1153
+gerapy_pyppeteer/settings.py,sha256=MyVfQ51Dni2pAxNfYBXtfwvK2aWXgwZq254ZF9lccoI,927
+gerapy_pyppeteer-0.0.4.dist-info/METADATA,sha256=YK6FTXXs-qx2OucqbVJejeGlQ4Dg86hcdV7XUR1pKLQ,9652
+gerapy_pyppeteer-0.0.4.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+gerapy_pyppeteer-0.0.4.dist-info/top_level.txt,sha256=-lc1YFYMYIGkDbj-bNFrc8s0AN633POlNtemKyNJOaA,17
+gerapy_pyppeteer-0.0.4.dist-info/RECORD,,
