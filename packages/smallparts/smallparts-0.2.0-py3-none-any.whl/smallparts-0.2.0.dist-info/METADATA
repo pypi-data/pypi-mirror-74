@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: smallparts
+Version: 0.2.0
+Summary: A humble collection of convenience modules for use with Python 3
+Home-page: https://github.com/blackstream-x/smallparts
+Author: Rainer Schwarzbach
+Author-email: rainer@blackstream.de
+License: UNKNOWN
+Project-URL: Documentation, https://blackstream-x.github.io/smallparts/index.html
+Project-URL: Source, https://github.com/blackstream-x/smallparts
+Project-URL: Tracker, https://github.com/blackstream-x/smallparts/issues
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Text Processing :: General
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# Smallparts
+
+A humble collection of convenience modules for use with Python 3
+
+This project mainly focuses on text conversion and generation.
+The package documentation can be found
+[here](https://blackstream-x.github.io/smallparts/index.html "on GitHub Pages").
+
+----
+
+> Please note: this project has been created as a fork of a sample project
+> that exists for the Python Packaging User Guide’s Tutorial on Packaging
+> and Distributing Projects (<https://github.com/pypa/sampleproject>).
+> Apart from the basic structure of the package,
+> this project shares nothing in commmon with its parent.
+
+
+
