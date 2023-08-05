@@ -1,0 +1,9 @@
+pytz
+dataset
+
+[linting]
+pytest
+mypy
+
+[testing]
+pytest
