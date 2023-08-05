@@ -1,0 +1,18 @@
+Metadata-Version: 1.1
+Name: fmp-python
+Version: 0.1.0
+Summary: Python wrapper for Financial Modeling Prep API
+Home-page: https://github.com/ikbale/fmp_python
+Author: Ikbale Maghraoui
+Author-email: ikbale94@gmail.com
+License: MIT
+Description: UNKNOWN
+Keywords: python finance trading stocks prices financialmodelingprep api fmp alphavantage wtd iex
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
