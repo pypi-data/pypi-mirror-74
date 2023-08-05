@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: tensor-track
+Version: 0.0.4
+Summary: The one-stop shop for tracking TensorFlow metrics
+Home-page: https://github.com/SamClaflin/Tensor-Track
+Author: Sam Claflin
+Author-email: samclaflin7@gmail.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
