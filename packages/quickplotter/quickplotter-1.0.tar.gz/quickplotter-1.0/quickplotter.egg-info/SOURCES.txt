@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+quickplotter/__init__.py
+quickplotter/_clean.py
+quickplotter/_quickplotter.py
+quickplotter/_visualization.py
+quickplotter.egg-info/PKG-INFO
+quickplotter.egg-info/SOURCES.txt
+quickplotter.egg-info/dependency_links.txt
+quickplotter.egg-info/requires.txt
+quickplotter.egg-info/top_level.txt
