@@ -1,0 +1,8 @@
+sword3common
+
+[docs]
+Sphinx
+sphinx-autodoc-annotation
+
+[test]
+nose
