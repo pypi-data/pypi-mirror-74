@@ -1,0 +1,13 @@
+mypy_boto3_cloudformation/__init__.py,sha256=dQcZqvYwhCidmuXou9waqhRxVNitqDVrWo73NIcVZH4,5404
+mypy_boto3_cloudformation/__main__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mypy_boto3_cloudformation/client.py,sha256=e5lUA3SB3m4hR8klVyRAs-6tN3vkYU_8XFPWYQ-TaKY,39690
+mypy_boto3_cloudformation/paginator.py,sha256=d0ZX7QHSY585xrJ4LmSV-vNsqIUd_B2UfvMnjZp-lpk,12864
+mypy_boto3_cloudformation/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mypy_boto3_cloudformation/service_resource.py,sha256=B0u2qbnydSO6W5lPszqpRsx3YOK8UEZSQ8K-hLutylM,13531
+mypy_boto3_cloudformation/type_defs.py,sha256=irk_DrA0UiRasxOpWsMe-Qt2C55QlYP0AVwlUYPYTfI,35589
+mypy_boto3_cloudformation/version.py,sha256=FDHEYbWTyvl02otZ2wNKfG57E6l6gSimZ4ICLQ0OuX0,57
+mypy_boto3_cloudformation/waiter.py,sha256=tTOP87mdtZuOP0Nd2ob30W_82diO1WeSAdAGuJOWl7M,6727
+mypy_boto3_cloudformation-1.14.22.0.dist-info/METADATA,sha256=OMtYB3D6GvpvRErZWo5rTug_To9mljUQcdFxSOrk55w,9754
+mypy_boto3_cloudformation-1.14.22.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+mypy_boto3_cloudformation-1.14.22.0.dist-info/top_level.txt,sha256=XBhYVkEGLVZ3m_MRGiySI_Jdw_M2CpUO8CMRjHNmEiQ,26
+mypy_boto3_cloudformation-1.14.22.0.dist-info/RECORD,,
