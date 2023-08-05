@@ -1,0 +1,16 @@
+mokapot/__init__.py,sha256=TNz-wrtYtV9vZIA7B80rgk-bnwmiXFsdJQkx1i9Psxc,450
+mokapot/brew.py,sha256=hDDGO8vrseKQOwXU3P701hFWf4tIVZrOh8RGoMXWpRM,8709
+mokapot/confidence.py,sha256=jVddco2JvlrLSq6RYUbAxjfX-roydJGjNwOPLmhsqRo,13096
+mokapot/config.py,sha256=WrZdVhwYQ9F7toFyZ-N15FYvVcQTWt6nTS_-EY1bePc,4550
+mokapot/dataset.py,sha256=tNznvVJy8Bk6eQjiIwPmQK6Nwr_W1j2vlkT2pHqbx-4,21352
+mokapot/model.py,sha256=WLP-zOd3787S6F4cb7pKk4_FAXGz6oUX4bQ-liZOeic,14214
+mokapot/mokapot.py,sha256=iVJ_4LlCKEO0plLiCOE12tz_8Q2TTvVjUmPK2BYpRJM,2003
+mokapot/parsers.py,sha256=jEnq4Nu7_TI2YfGHAijdNO--jXY95_UBlPc4A9hRwxM,4390
+mokapot/qvalues.py,sha256=jSyuktCefgF02Y0T3--j_W8MEYP5155cDJs6NsR9Y3U,6068
+mokapot/utils.py,sha256=w1IIQcppR-OWcwp_b44GkR2xUU2mrZfyunv_3SovKKk,1463
+mokapot-0.1a3.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+mokapot-0.1a3.dist-info/METADATA,sha256=5HYsD_FIfGxpWHlgQSN7x6vMwyL6aXUz-7R_Zs-Bu4s,3683
+mokapot-0.1a3.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+mokapot-0.1a3.dist-info/entry_points.txt,sha256=wITVqsNFlNikuzFpo8KTBjBiMfO11Mly3yTrBhp0ptI,50
+mokapot-0.1a3.dist-info/top_level.txt,sha256=jrlJ3ppp6UdxCqmRYHnpYs08YmIm0ur0KTbhP5LF6I8,8
+mokapot-0.1a3.dist-info/RECORD,,
