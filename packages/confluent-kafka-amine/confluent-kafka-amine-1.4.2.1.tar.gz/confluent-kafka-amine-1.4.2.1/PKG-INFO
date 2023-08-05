@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: confluent-kafka-amine
+Version: 1.4.2.1
+Summary: Forked Confluent's Python client for Apache Kafka. Contains implementation of subject name strategy
+Home-page: https://github.com/enima2684/confluent-kafka-python.git
+Author: Amine Bouamama
+Author-email: amine.bouamama@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Provides-Extra: schema-registry
+Provides-Extra: avro
+Provides-Extra: json
+Provides-Extra: protobuf
+Provides-Extra: dev
+Provides-Extra: doc
