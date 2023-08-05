@@ -1,0 +1,12 @@
+lang_spider/__init__.py,sha256=bAN2cNegMaqF78cNsv0pZVOh3DAXut7lXaxI9SUbdnk,125
+lang_spider/consts.py,sha256=FHrrg8wfZ_O28Nizo8ctZ6VPsXOIvO0td50wsGfFDDg,64602
+lang_spider/logger.py,sha256=U1yz_HM4lTLzXgWsagG1ZQ43s836I0l1AatbSyHO7f0,2965
+lang_spider/scheduler.py,sha256=HeyvdGz7tqND-2IxaTX6_KHxLMqZv8xW7kSt7wUXqF0,1272
+lang_spider/sync_spider.py,sha256=OFuCQvsaLVIfh6PN0oJY4p5VurZ8Hs8-5g930pBcUD8,6198
+lang_spider/utils.py,sha256=eGZiKPG_A8D8mwfyYZCn_wwrEz_cU9wc8pKCeEai9MM,1260
+lang_spider/web_http.py,sha256=wdNSiSQ2wIaRv7wqWyk4vsvEs-wIc91xx3amGR5YuLs,6064
+LangSpider-1.0.dist-info/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+LangSpider-1.0.dist-info/METADATA,sha256=gd_dhXr1zE6WswGgb5SmvAxTHr8YsWR9eKg3aRSReME,397
+LangSpider-1.0.dist-info/WHEEL,sha256=_NOXIqFgOaYmlm9RJLPQZ13BJuEIrp5jx5ptRD5uh3Y,92
+LangSpider-1.0.dist-info/top_level.txt,sha256=BpJ_jfLv9L8u1lawGZ_Ff44jKJytxj9fFlODl2MN0mw,12
+LangSpider-1.0.dist-info/RECORD,,
