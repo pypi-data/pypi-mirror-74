@@ -1,0 +1,8 @@
+README.md
+setup.py
+auto_uploadfile_test.egg-info/PKG-INFO
+auto_uploadfile_test.egg-info/SOURCES.txt
+auto_uploadfile_test.egg-info/dependency_links.txt
+auto_uploadfile_test.egg-info/top_level.txt
+src/__init__.py
+src/operationFile.py
