@@ -1,0 +1,2 @@
+prune covcolor/
+global-include *.txt *.py
