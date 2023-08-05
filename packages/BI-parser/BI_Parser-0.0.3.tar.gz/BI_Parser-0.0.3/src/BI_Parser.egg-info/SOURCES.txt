@@ -1,0 +1,8 @@
+README.md
+setup.py
+src/BI_Parser.egg-info/PKG-INFO
+src/BI_Parser.egg-info/SOURCES.txt
+src/BI_Parser.egg-info/dependency_links.txt
+src/BI_Parser.egg-info/top_level.txt
+src/BI_parser/__init__.py
+src/BI_parser/client.py
