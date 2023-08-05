@@ -1,0 +1,195 @@
+Metadata-Version: 2.1
+Name: docx-utils
+Version: 0.1.3
+Summary: Creation and manipulation of Open XML documents (mainly docx).
+Home-page: https://github.com/tantale/docx_utils
+Author: Laurent LAPORTE
+Author-email: tantale.solutions@gmail.com
+License: MIT License
+Keywords: Microsoft,Office,Word,Excel,PowerPoint,docx,xlsx,pptx,XML
+Platform: posix
+Platform: nt
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Unix
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Topic :: Utilities
+Requires-Python: >= 2.7, != 3.0.*, != 3.1.*, != 3.2.*, != 3.3.*, != 3.4.*, < 4
+Description-Content-Type: text/x-rst
+Requires-Dist: click
+Requires-Dist: six
+Requires-Dist: lxml
+Requires-Dist: enum34 ; python_version < "3.4"
+Provides-Extra: dev
+Requires-Dist: tox (<4) ; extra == 'dev'
+Requires-Dist: zipp (<2) ; (python_version < "3") and extra == 'dev'
+Requires-Dist: configparser (<5) ; (python_version < "3") and extra == 'dev'
+Requires-Dist: virtualenv (<20) ; (python_version < "3" and sys_platform == "win32") and extra == 'dev'
+Provides-Extra: test
+Requires-Dist: pytest (==4.6.11) ; extra == 'test'
+Requires-Dist: pytest-cov (==2.5.1) ; extra == 'test'
+Requires-Dist: mock (==3.0.5) ; extra == 'test'
+Requires-Dist: coverage (==5.0.4) ; extra == 'test'
+Requires-Dist: zipp (==1.2.0) ; (python_version < "3") and extra == 'test'
+Requires-Dist: configparser (==4.0.2) ; (python_version < "3") and extra == 'test'
+Requires-Dist: coverage (==5.0.4) ; (python_version < "3") and extra == 'test'
+
+========
+Overview
+========
+
+
+
+Creation and manipulation of Open XML documents (mainly docx).
+
+* Free software: MIT license
+
+
+Features
+========
+
+This library allow you to:
+
+* Convert Open XML documents into flat OPC format.
+
+
+Installation
+============
+
+.. code:: bash
+
+    pip install docx-utils
+
+
+Using the library
+=================
+
+Using the library to convert an Open XML document into flat OPC format:
+
+.. code:: python
+
+   >>> from docx_utils.flatten import opc_to_flat_opc
+   >>> opc_to_flat_opc("sample.docx", "sample.xml")
+
+
+Command Line Interface (CLI)
+============================
+
+Printing the online help:
+
+.. code:: bash
+
+   $ docx_utils --help
+   Usage: docx_utils [OPTIONS] COMMAND [ARGS]...
+
+     Docx utilities
+
+   Options:
+     --version  Show the version and exit.
+     --help     Show this message and exit.
+
+   Commands:
+     flatten  Convert an Open XML document into flat OPC format.
+
+Converting an Open XML document into flat OPC format:
+
+.. code:: bash
+
+   $ docx_utils flatten sample.docx sample.xml
+   Converting 'sample.docx' to flat XML...
+   Conversion done: 'sample.xml'.
+
+
+Documentation
+=============
+
+https://docx-utils.readthedocs.io/en/latest/
+
+
+Development
+===========
+
+To run the all tests run::
+
+    tox
+
+
+
+=========
+Changelog
+=========
+
+
+
+v0.1.3 (2020-07-15)
+===================
+
+Fixed
+~~~~~
+
+* Correct the project's dependencies: Enum34 is only required for Python versions < 3.4.
+
+* Add the ``docx_utils.exceptions`` module: Exception hierarchy for the docx-utils package.
+
+* Fix `#1 <https://github.com/tantale/docx_utils/issues/1>`_:
+
+  - Add the *on_error* option in the ``docx_utils.flatten.opc_to_flat_opc`` function
+    in order to ignore (or raise an exception) when a part URI cannot be resolved
+    during the Microsoft Office document parsing.
+
+  - Change the command line interface: add the ``--on-error`` option to handle parsing error.
+
+Other
+~~~~~
+
+* Continuous Integration: add configurations for Python 3.7 and Python 3.8.
+
+
+v0.1.2 (2018-07-26)
+===================
+
+Fixed
+~~~~~
+
+* Drop support for PyPy: it seams that lxml is not available for this Python implementation.
+
+* Drop support for Python 3.7: this Python version is not yet available on all platform.
+  However, it is known to work on Ubuntu with the python-3.7-dev release.
+
+Other
+~~~~~
+
+* Use the pseudo-tags ``start-exclude``/``end-exclude`` in ``CHANGELOG.rst`` and ``README.rst``
+  to exclude text from the generated ``PKG-INFO`` during setup.
+
+
+v0.1.1 (2018-07-25)
+===================
+
+Fixed
+~~~~~
+
+* Fix wheel version on PyPi.
+
+
+v0.1.1 (2018-07-24)
+===================
+
+Added
+~~~~~
+
+* First release.
+
+

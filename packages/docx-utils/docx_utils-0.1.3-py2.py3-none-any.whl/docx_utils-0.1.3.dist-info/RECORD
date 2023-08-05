@@ -1,0 +1,12 @@
+docx_utils/__init__.py,sha256=oZeeGExSXQJDcJY4lHvpxWZMEkro7ueeGaslJuhsOOs,297
+docx_utils/__main__.py,sha256=SbsAXkIh7wHEbYwRp3dzD0bfQKoi8DQZFYM4iSHRcy0,403
+docx_utils/cli.py,sha256=U4JuD3NdMkfojiy5KTyIL3F9kP1KLH1GWeV1JnWc3NI,1608
+docx_utils/exceptions.py,sha256=OPqouWCB8eiImIiOa1oRfggUlxtay0Rq72Ir77S29C8,1041
+docx_utils/flatten.py,sha256=ZmzjTTL9mHsHZ5N1PttgBuGO-_I-smKy-s86h8egBhk,5538
+docx_utils-0.1.3.dist-info/AUTHORS.rst,sha256=q3dQqmz7djuHrFyqUn98OuXXglqpuiYDQJrPvpy5am8,64
+docx_utils-0.1.3.dist-info/LICENSE.rst,sha256=9L0T4lUD08zcnT7aG4PfHoovX5mI4FQUmnX02DbMQqM,1072
+docx_utils-0.1.3.dist-info/METADATA,sha256=QqqP1C7lLjqhxf-Fs48zy5LG3AfTvYUgp3H3Y5hAhrQ,4807
+docx_utils-0.1.3.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+docx_utils-0.1.3.dist-info/entry_points.txt,sha256=bc4YP3b5Gue9H_eoCk1wmyuthHnqrrfmoIFRLVKxcTg,52
+docx_utils-0.1.3.dist-info/top_level.txt,sha256=nrUmq-QYXGUf3quuR439cHZcezTWRnl5HpcYC1InNRo,11
+docx_utils-0.1.3.dist-info/RECORD,,
