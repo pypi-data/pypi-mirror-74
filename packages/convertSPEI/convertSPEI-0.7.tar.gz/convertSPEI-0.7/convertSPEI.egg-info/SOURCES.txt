@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+convertSPEI.egg-info/PKG-INFO
+convertSPEI.egg-info/SOURCES.txt
+convertSPEI.egg-info/dependency_links.txt
+convertSPEI.egg-info/requires.txt
+convertSPEI.egg-info/top_level.txt
+scripts/convertSPEI.py
