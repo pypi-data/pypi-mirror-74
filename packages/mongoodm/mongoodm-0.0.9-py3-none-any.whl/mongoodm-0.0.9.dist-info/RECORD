@@ -1,0 +1,8 @@
+mongoodm/__init__.py,sha256=y6elbzTTQDe1b09zwm76ASu0pdglSz01jCv6IDwiTGU,12191
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/document_test.py,sha256=yKZAEKMLaA1B4ox77IYQeN7-N5LGP-Ns36p-id9GvFw,1429
+mongoodm-0.0.9.dist-info/LICENCE,sha256=O0ufj3_HhGBOYpQz83uxh0Ij3HDvcKTiooQt_ebDQFs,1059
+mongoodm-0.0.9.dist-info/METADATA,sha256=9i2UkGNnvmS_HneQLh2i71ZByKsCv3wg2sr7NI-3QUk,760
+mongoodm-0.0.9.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+mongoodm-0.0.9.dist-info/top_level.txt,sha256=L5WFcVU3gQJcvQ5jnekEEaTnAnz4-1bheXU81JAYY9Q,15
+mongoodm-0.0.9.dist-info/RECORD,,
