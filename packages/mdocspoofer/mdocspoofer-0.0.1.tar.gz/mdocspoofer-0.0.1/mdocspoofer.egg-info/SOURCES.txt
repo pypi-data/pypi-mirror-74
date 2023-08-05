@@ -1,0 +1,12 @@
+setup.py
+mdocspoofer/__init__.py
+mdocspoofer/mdoc.py
+mdocspoofer/version.py
+mdocspoofer.egg-info/PKG-INFO
+mdocspoofer.egg-info/SOURCES.txt
+mdocspoofer.egg-info/dependency_links.txt
+mdocspoofer.egg-info/entry_points.txt
+mdocspoofer.egg-info/requires.txt
+mdocspoofer.egg-info/top_level.txt
+test/__init__.py
+test/test_mdoc.py

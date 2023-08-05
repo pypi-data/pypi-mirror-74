@@ -1,0 +1,18 @@
+Metadata-Version: 1.1
+Name: mdocspoofer
+Version: 0.0.1
+Summary: Spoof SerialEM mdoc files from a directory of multi-frame micrographs created in Tomo5
+Home-page: https://github.com/alisterburt/mdocspoofer
+Author: Alister Burt
+Author-email: alisterburt@gmail.com
+License: BSD 3-Clause License
+Download-URL: https://github.com/alisterburt/mdocspoofer/archive/v0.0.1.tar.gz
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
