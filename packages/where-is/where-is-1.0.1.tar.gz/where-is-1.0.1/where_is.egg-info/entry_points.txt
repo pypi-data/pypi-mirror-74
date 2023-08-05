@@ -1,0 +1,3 @@
+[console_scripts]
+where-is = whereis.__main__:main
+

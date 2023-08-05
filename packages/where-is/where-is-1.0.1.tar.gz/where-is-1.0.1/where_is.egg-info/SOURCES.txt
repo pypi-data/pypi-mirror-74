@@ -1,0 +1,15 @@
+README.md
+setup.py
+where_is.egg-info/PKG-INFO
+where_is.egg-info/SOURCES.txt
+where_is.egg-info/dependency_links.txt
+where_is.egg-info/entry_points.txt
+where_is.egg-info/top_level.txt
+whereis/__init__.py
+whereis/__main__.py
+whereis/__version__.py
+whereis/cli.py
+whereis/core.py
+whereis/exceptions.py
+whereis/levels.py
+whereis/utils.py
