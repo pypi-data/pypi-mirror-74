@@ -1,0 +1,10 @@
+README.md
+setup.py
+ccwrapper/__init__.py
+ccwrapper/catcoin.py
+ccwrapper/error.py
+ccwrapper.egg-info/PKG-INFO
+ccwrapper.egg-info/SOURCES.txt
+ccwrapper.egg-info/dependency_links.txt
+ccwrapper.egg-info/requires.txt
+ccwrapper.egg-info/top_level.txt
