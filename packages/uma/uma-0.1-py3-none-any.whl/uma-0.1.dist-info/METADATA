@@ -1,0 +1,57 @@
+Metadata-Version: 2.1
+Name: uma
+Version: 0.1
+Summary: A python package to collect pyomo results as pandas dataframe for easier access.
+Home-page: https://github.com/dgusain1/uma
+Author: Digvijay Gusain
+Author-email: digvijay.gusain29@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: pyomo
+
+# uma
+**uma** is a Python package to collect pyomo results as pandas dataframe for easier access.
+
+## Installation
+**uma** can be installed from PyPI using:
+
+```
+pip install uma
+```
+**uma** requires numpy and pandas to work.
+
+## Usage
+**uma** works if the model solution is optimal. If the solution is infeasible, an error will be returned.
+
+```python
+from uma import get_df, get_dict, get_value
+from pyomo.environ import * 
+from pyomo.opt import SolverFactory
+
+model = ConcreteModel() 
+model.x = Var(initialize=-1.2, bounds=(-2, 2))
+model.y = Var(initialize= 1.0, bounds=(-2, 2))
+model.obj = Objective( expr= (1-model.x)**2 + 100*(model.y-model.x**2)**2, sense= minimize)
+
+solver = SolverFactory('ipopt')
+solver.solve(model)
+
+df = get_df(model)
+print(df.head())
+
+dict1 = get_dict(model)
+print(dict1)
+
+x = get_value(model.x)
+print(x)
+```
+
+
+
