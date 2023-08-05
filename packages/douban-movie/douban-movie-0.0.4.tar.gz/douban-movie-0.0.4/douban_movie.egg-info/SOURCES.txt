@@ -1,0 +1,16 @@
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+douban_movie.egg-info/PKG-INFO
+douban_movie.egg-info/SOURCES.txt
+douban_movie.egg-info/dependency_links.txt
+douban_movie.egg-info/entry_points.txt
+douban_movie.egg-info/requires.txt
+douban_movie.egg-info/top_level.txt
+screenshots/douban-movie-list.png
+screenshots/douban-movie.png
+src/__init__.py
+src/__main__.py
+src/douban.py
+src/view.py

@@ -1,0 +1,3 @@
+[console_scripts]
+douban = src.__main__:main
+
