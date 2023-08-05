@@ -1,0 +1,11 @@
+Metadata-Version: 1.2
+Name: MGEmasker
+Version: 0.1.1
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: Anthony Underwood
+Author-email: au3@sanger.ac.uk
+License: GPLv3
+Description: Find MGEs
+Platform: UNKNOWN
+Requires-Python: >=3

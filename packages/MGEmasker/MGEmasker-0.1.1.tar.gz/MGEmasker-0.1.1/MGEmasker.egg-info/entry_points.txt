@@ -1,0 +1,3 @@
+[console_scripts]
+maskMGEs = mge_masker.run_find_MGEs:main
+
