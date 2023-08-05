@@ -1,0 +1,10 @@
+README.md
+setup.py
+redisevents/__init__.py
+redisevents/config.py
+redisevents/redisevents.py
+redisevents.egg-info/PKG-INFO
+redisevents.egg-info/SOURCES.txt
+redisevents.egg-info/dependency_links.txt
+redisevents.egg-info/requires.txt
+redisevents.egg-info/top_level.txt
