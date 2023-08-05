@@ -1,0 +1,8 @@
+pipenv
+pytest
+pytest-html
+selenium
+jmespath
+requests
+pyyaml
+Appium-Python-Client
