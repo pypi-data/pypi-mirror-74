@@ -1,0 +1,6 @@
+jinja2
+pyvcd
+attrs
+
+[:python_version < "3.7"]
+dataclasses

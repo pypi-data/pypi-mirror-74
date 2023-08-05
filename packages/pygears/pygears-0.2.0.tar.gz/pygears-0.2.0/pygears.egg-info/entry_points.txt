@@ -1,0 +1,3 @@
+[console_scripts]
+pygears = pygears.entry:main
+
