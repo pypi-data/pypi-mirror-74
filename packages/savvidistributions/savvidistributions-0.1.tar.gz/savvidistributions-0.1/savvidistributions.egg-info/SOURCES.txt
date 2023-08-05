@@ -1,0 +1,10 @@
+setup.py
+savvidistributions/Binomialdistribution.py
+savvidistributions/Gaussiandistribution.py
+savvidistributions/Generaldistribution.py
+savvidistributions/__init__.py
+savvidistributions.egg-info/PKG-INFO
+savvidistributions.egg-info/SOURCES.txt
+savvidistributions.egg-info/dependency_links.txt
+savvidistributions.egg-info/not-zip-safe
+savvidistributions.egg-info/top_level.txt
