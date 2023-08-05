@@ -1,0 +1,17 @@
+CHANGES.txt
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+upmath/Number.py
+upmath/__init__.py
+upmath/pE.py
+upmath/pi.py
+upmath/psmf.py
+upmath/upNumber.py
+upmath.egg-info/PKG-INFO
+upmath.egg-info/SOURCES.txt
+upmath.egg-info/dependency_links.txt
+upmath.egg-info/not-zip-safe
+upmath.egg-info/top_level.txt
