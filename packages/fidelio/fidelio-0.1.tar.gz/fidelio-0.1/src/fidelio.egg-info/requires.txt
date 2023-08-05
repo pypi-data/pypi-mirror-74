@@ -1,0 +1,6 @@
+click
+streamlit
+lxml
+plotly
+sqlalchemy
+psycopg2-binary
