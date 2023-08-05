@@ -1,0 +1,10 @@
+setup.py
+mathoperations_arva/Arithematic.py
+mathoperations_arva/Operation.py
+mathoperations_arva/__init__.py
+mathoperations_arva/python_code.py
+mathoperations_arva.egg-info/PKG-INFO
+mathoperations_arva.egg-info/SOURCES.txt
+mathoperations_arva.egg-info/dependency_links.txt
+mathoperations_arva.egg-info/not-zip-safe
+mathoperations_arva.egg-info/top_level.txt
