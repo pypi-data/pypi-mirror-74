@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: handoff
+Version: 0.1.0a0
+Summary: Deploy configurable unix pipeline jobs serverlessly.
+Home-page: http://dev.handoff.cloud
+Author: Daigo Tanaka, Anelen Co., LLC
+Author-email: UNKNOWN
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
