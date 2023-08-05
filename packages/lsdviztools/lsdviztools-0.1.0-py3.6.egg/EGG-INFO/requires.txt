@@ -1,0 +1,9 @@
+numpy
+pandas
+rasterio
+scipy
+cartopy
+fiona
+shapely
+geopandas
+cartopy
