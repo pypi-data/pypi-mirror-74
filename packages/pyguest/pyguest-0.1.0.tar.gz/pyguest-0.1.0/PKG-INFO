@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: pyguest
+Version: 0.1.0
+Summary: A simple python package for simulating event attendance from a guest list.
+License: MIT
+Author: Tomas Beuzen
+Author-email: tomas.beuzen@gmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: numpy (>=1.19.0,<2.0.0)

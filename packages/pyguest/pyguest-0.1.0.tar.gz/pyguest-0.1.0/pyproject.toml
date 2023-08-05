@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "pyguest"
+version = "0.1.0"
+description = "A simple python package for simulating event attendance from a guest list."
+authors = ["Tomas Beuzen <tomas.beuzen@gmail.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+numpy = "^1.19.0"
+
+[tool.poetry.dev-dependencies]
+black = "^19.10b0"
+flake8 = "^3.8.3"
+pytest = "^5.4.3"
+pytest-cov = "^2.10.0"
+sphinx = "^3.1.2"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
