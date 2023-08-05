@@ -1,0 +1,4 @@
+google-auth==1.18.0
+firebase-admin==4.3.0
+typing-extensions==3.7.4.2
+dacite==1.5.1
