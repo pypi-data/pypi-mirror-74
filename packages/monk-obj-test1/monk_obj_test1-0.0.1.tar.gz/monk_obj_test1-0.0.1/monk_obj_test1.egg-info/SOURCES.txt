@@ -1,0 +1,11 @@
+README.md
+setup.py
+monk_gluoncv_finetune_test/__init__.py
+monk_gluoncv_finetune_test/detector_prototype.py
+monk_gluoncv_finetune_test/im2rec.py
+monk_gluoncv_finetune_test/inference_prototype.py
+monk_obj_test1.egg-info/PKG-INFO
+monk_obj_test1.egg-info/SOURCES.txt
+monk_obj_test1.egg-info/dependency_links.txt
+monk_obj_test1.egg-info/requires.txt
+monk_obj_test1.egg-info/top_level.txt

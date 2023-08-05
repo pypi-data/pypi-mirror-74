@@ -1,0 +1,13 @@
+numpy
+scipy
+tqdm
+pillow
+opencv-python
+cython
+jupyter
+notebook
+pandas
+matplotlib
+xmltodict
+mxnet-cu90
+gluoncv
