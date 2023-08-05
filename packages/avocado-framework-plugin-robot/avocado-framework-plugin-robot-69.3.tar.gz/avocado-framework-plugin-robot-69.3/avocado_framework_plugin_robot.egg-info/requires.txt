@@ -1,0 +1,2 @@
+avocado-framework==69.3
+robotframework<=3.1.2
