@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+marcopolo_probability/Binomialdistribution.py
+marcopolo_probability/Gaussiandistribution.py
+marcopolo_probability/Generaldistribution.py
+marcopolo_probability/__init__.py
+marcopolo_probability.egg-info/PKG-INFO
+marcopolo_probability.egg-info/SOURCES.txt
+marcopolo_probability.egg-info/dependency_links.txt
+marcopolo_probability.egg-info/not-zip-safe
+marcopolo_probability.egg-info/top_level.txt
