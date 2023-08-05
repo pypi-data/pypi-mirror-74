@@ -1,0 +1,8 @@
+git_acp/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+git_acp/modules/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+git_acp/modules/git_acp.py,sha256=V7-YU7yAs6XxgcqY0p3e4ELCSvEIpoHcf7afQCV5N90,8006
+git_acp_ansible-1.0.8.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+git_acp_ansible-1.0.8.dist-info/METADATA,sha256=qtl19jR4VGjuYLOsgmjO1-wRBvRmXM2-6F0bWEY4PS8,3672
+git_acp_ansible-1.0.8.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+git_acp_ansible-1.0.8.dist-info/top_level.txt,sha256=kqQkgt7dAG-TaSvfYYZfhlG34SrZ3rq-hwl-HmXU-_I,8
+git_acp_ansible-1.0.8.dist-info/RECORD,,
