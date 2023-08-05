@@ -1,0 +1,2 @@
+datajoint>=0.12
+seaborn>=0.10.0
