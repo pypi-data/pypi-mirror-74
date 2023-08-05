@@ -1,0 +1,9 @@
+numpy
+scipy
+pmdarima
+statsmodels
+scikit-learn
+
+[dev]
+pip-tools
+rpy2
