@@ -1,0 +1,9 @@
+README.md
+setup.py
+PyBF/__init__.py
+PyBF/reading.py
+PyBF/writing.py
+PyBinF.egg-info/PKG-INFO
+PyBinF.egg-info/SOURCES.txt
+PyBinF.egg-info/dependency_links.txt
+PyBinF.egg-info/top_level.txt

@@ -1,0 +1,1 @@
+PyBF is a Python module to read and write *binary* files. Use *PyBF.read* and *PyBF.write* to read and write.
