@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: spacin
+Version: 0.1.0
+Summary: Spacin, puts space between!
+Home-page: https://gitlab.com/mohammadsalek/spacin
+Author: Mohammad Salek
+License: MIT
+Description: Spacin is a word-separator that  distinguishes each word in a given string.
+Platform: UNKNOWN
+Description-Content-Type: text/plain

@@ -1,0 +1,16 @@
+MANIFEST.in
+README.md
+setup.py
+data/__init__.py
+data/popular_20k.data
+spacin/__init__.py
+spacin/__main__.py
+spacin/algorithm.py
+spacin/loader.py
+spacin/spacin.py
+spacin/validator.py
+spacin.egg-info/PKG-INFO
+spacin.egg-info/SOURCES.txt
+spacin.egg-info/dependency_links.txt
+spacin.egg-info/entry_points.txt
+spacin.egg-info/top_level.txt

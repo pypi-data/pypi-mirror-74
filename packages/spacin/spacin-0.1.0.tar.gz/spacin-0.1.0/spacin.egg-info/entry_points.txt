@@ -1,0 +1,3 @@
+[console_scripts]
+spacin = spacin.__main__:main
+
