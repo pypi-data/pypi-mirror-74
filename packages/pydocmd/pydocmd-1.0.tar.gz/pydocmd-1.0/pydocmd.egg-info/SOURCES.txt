@@ -1,0 +1,8 @@
+README.md
+setup.py
+pydocmd/pydocmd
+pydocmd.egg-info/PKG-INFO
+pydocmd.egg-info/SOURCES.txt
+pydocmd.egg-info/dependency_links.txt
+pydocmd.egg-info/top_level.txt
+pydocmd.egg-info/zip-safe
