@@ -1,0 +1,6 @@
+Change Log
+==========
+
+0.0.7 (07.07.2020)
+------------------
+- Moved all functions into a class.
