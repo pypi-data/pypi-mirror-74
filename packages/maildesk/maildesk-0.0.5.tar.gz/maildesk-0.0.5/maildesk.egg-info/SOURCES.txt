@@ -1,0 +1,8 @@
+README.md
+setup.py
+maildesk/__init__.py
+maildesk/client.py
+maildesk.egg-info/PKG-INFO
+maildesk.egg-info/SOURCES.txt
+maildesk.egg-info/dependency_links.txt
+maildesk.egg-info/top_level.txt
