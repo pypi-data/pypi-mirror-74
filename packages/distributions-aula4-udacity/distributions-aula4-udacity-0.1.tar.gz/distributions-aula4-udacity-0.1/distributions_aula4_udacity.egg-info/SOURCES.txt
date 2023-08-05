@@ -1,0 +1,11 @@
+setup.cfg
+setup.py
+distributions-aula4-udacity/Binomialdistribution.py
+distributions-aula4-udacity/Gaussiandistribution.py
+distributions-aula4-udacity/Generaldistribution.py
+distributions-aula4-udacity/__init__.py
+distributions_aula4_udacity.egg-info/PKG-INFO
+distributions_aula4_udacity.egg-info/SOURCES.txt
+distributions_aula4_udacity.egg-info/dependency_links.txt
+distributions_aula4_udacity.egg-info/not-zip-safe
+distributions_aula4_udacity.egg-info/top_level.txt
