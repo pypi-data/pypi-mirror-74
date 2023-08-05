@@ -1,0 +1,126 @@
+#!/usr/bin/env python3
+
+import sys
+import datetime
+import argparse
+import logging
+import photoage
+
+
+class PhotoageCli:
+    @staticmethod
+    def parse_args():
+        parser = argparse.ArgumentParser(description='Calculate the age of a photo.')
+
+        parser.add_argument('file_paths', metavar='file-paths', nargs='+', help='The file paths of the photos')
+        parser.add_argument('--birthday', '-b', type=str, default=None, help='The birthday of the character in the photos')
+        parser.add_argument('--offset', '-o', type=str, default=None, help='The birthday of the character in the photos')
+        parser.add_argument('--summary', '-s', action='store_true', help='Switch to summary mode')
+        parser.add_argument('--enable-stat-method', '-t', action='store_true', help='Whether stat method should be enabled')
+        parser.add_argument('--verbose', '-v', action='store_true', help='When you want to debug')
+
+        return parser.parse_args()
+
+    @staticmethod
+    def run(args):
+        PhotoageCli._config_logging(args.verbose)
+
+        logging.debug(f'file_paths: {args.file_paths}')
+
+        results = []
+        for file_path in args.file_paths:
+            options = PhotoageCli._make_options(args.birthday, args.offset, args.enable_stat_method)
+            logging.debug(f'options: {options}')
+            days = photoage.calculate_days(file_path, **options)
+            results.append((file_path, days))
+
+        if not args.summary:
+            PhotoageCli._print_plain_results(results, args.birthday)
+        else:
+            PhotoageCli._print_summary_results(results, args.birthday)
+
+        logging.debug('shutting down')
+
+    @staticmethod
+    def _config_logging(verbose):
+        log_level = logging.DEBUG if verbose else logging.INFO
+        log_format = '%(levelname)s: %(message)s'
+        logging.basicConfig(level=log_level, format=log_format)
+
+    @staticmethod
+    def _make_options(birthday, offset, enable_stat_method):
+        options = {}
+        if birthday:
+            try:
+                options['birthday'] = datetime.datetime.strptime(birthday, '%Y/%m/%d')
+            except ValueError:
+                raise Error(f'unable to parse birthday date {birthday}')
+        if offset:
+            try:
+                offset_time = datetime.datetime.strptime(offset, '%H:%M:%S')
+            except ValueError:
+                raise Error(f'unable to parse offset time {offset}')
+            options['offset'] = datetime.timedelta(hours=offset_time.hour, minutes=offset_time.minute, seconds=offset_time.second)
+        if enable_stat_method:
+            options['methods'] = ('exif', 'stat')
+        return options
+
+    @staticmethod
+    def _print_plain_results(results, birthday):
+        for result in results:
+            if result[1] is not None:
+                print(f'{result[0]}: {result[1]} days since {birthday}')
+            else:
+                print(f'{result[0]}: unknown date of photo token')
+
+    @staticmethod
+    def _print_summary_results(results, birthday):
+        print(f'total number of photo(s): {len(results)} photos')
+
+        known_results = [result for result in results if result[1] is not None]
+        if known_results:
+            first_result = min(known_results, key=lambda result: result[1])
+            latest_result = max(known_results, key=lambda result: result[1])
+            print(f'first photo: {first_result[0]}, {first_result[1]} days since {birthday}')
+            print(f'latest photo: {latest_result[0]}, {latest_result[1]} days since {birthday}')
+
+            known_days = set([result[1] for result in known_results])
+            missing_days = [day for day in range(latest_result[1]) if day not in known_days]
+            if missing_days:
+                print(f'{len(missing_days)} missing photo(s): {", ".join(str(day) for day in missing_days)} days since {birthday}')
+
+            mapping = {}
+            for result in known_results:
+                if result[1] not in mapping:
+                    mapping[result[1]] = [result[0]]
+                else:
+                    mapping[result[1]].append(result[0])
+            mapping = {day: file_paths for day, file_paths in mapping.items() if len(file_paths) > 1}
+            if mapping:
+                print(f'{len(mapping)} set(s) of duplicate photos:')
+                for day in mapping:
+                    print(f'- {day} days since {birthday}: {", ".join(mapping[day])}')
+
+        unknown_results = [result for result in results if result[1] is None]
+        if unknown_results:
+            print(f'{len(unknown_results)} photo(s) with unknown date:')
+            for result in unknown_results:
+                print(f'- {result[0]}')
+
+
+class Error(Exception):
+    pass
+
+
+def main():
+    args = PhotoageCli.parse_args()
+    PhotoageCli.run(args)
+
+
+if __name__ == '__main__':
+    try:
+        main()
+        sys.exit(0)
+    except Error as e:
+        logging.error(e)
+        sys.exit(1)
