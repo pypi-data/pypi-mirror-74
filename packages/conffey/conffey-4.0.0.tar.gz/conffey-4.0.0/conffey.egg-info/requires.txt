@@ -1,0 +1,2 @@
+xpinyin>=0.5.6
+Pillow>=7.0.0
