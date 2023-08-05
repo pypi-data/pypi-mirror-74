@@ -1,0 +1,5 @@
+Setting qualifier 'Key'
+Creating class 'root/test':'TST_Person'
+Created class 'root/test':'TST_Person'
+Creating instance of 'TST_Person'.
+Creating instance of 'TST_Person'.
