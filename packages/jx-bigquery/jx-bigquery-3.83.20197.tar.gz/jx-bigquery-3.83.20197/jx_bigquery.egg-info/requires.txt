@@ -1,0 +1,10 @@
+google-cloud-bigquery
+jx-python>=3.78.20194
+jx-python>=3.78.20194
+mo-dots>=3.78.20194
+mo-future>=3.71.20168
+mo-json>=3.80.20196
+mo-kwargs>=3.82.20197
+mo-logs>=3.83.20197
+mo-sql>=3.77.20190
+mo-times>=3.76.20190
