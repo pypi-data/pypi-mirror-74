@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+src/dominion/__init__.py
+src/dominion/__main__.py
+src/dominion/dominion.py
+src/dominion/dominion_version.py
+src/dominion.egg-info/PKG-INFO
+src/dominion.egg-info/SOURCES.txt
+src/dominion.egg-info/dependency_links.txt
+src/dominion.egg-info/entry_points.txt
+src/dominion.egg-info/not-zip-safe
+src/dominion.egg-info/requires.txt
+src/dominion.egg-info/top_level.txt
+src/dominion/data/cards.json
