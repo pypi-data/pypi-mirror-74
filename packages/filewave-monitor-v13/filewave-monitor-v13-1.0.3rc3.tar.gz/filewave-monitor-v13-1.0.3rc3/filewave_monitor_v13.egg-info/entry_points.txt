@@ -1,0 +1,3 @@
+[console_scripts]
+monitor-v13-install = monitor.scripts:install_into_environment
+
