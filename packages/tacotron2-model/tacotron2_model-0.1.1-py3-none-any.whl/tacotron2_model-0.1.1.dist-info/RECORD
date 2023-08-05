@@ -1,0 +1,15 @@
+tacotron2_model/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tacotron2_model/attention.py,sha256=lR24ZkwjYqNX8xvaFLy28OUIIwNLAEdBPNKgvyg8mOo,2542
+tacotron2_model/decoder.py,sha256=-C0LFTl0TFWOoSzqPwygunDaqqz1aXTJiZ_YEDdjXEk,9814
+tacotron2_model/encoder.py,sha256=joSkMZZXDDk0kgS6PlzYfj_8ho4lQ29Zl-SPxsxJ4qU,2014
+tacotron2_model/layers.py,sha256=W-nuP4y38dkSQ-7uxAMkWMY-nj4LC3pKLgRsk45ohrs,961
+tacotron2_model/normalizers.py,sha256=M3uzhS488IkxdHg3B5bO4F-DZZKjKtjslzEctcGBTNc,1333
+tacotron2_model/postnet.py,sha256=QZE5Desy-WwwS1IfkYph3FHDnOBa_ZnmLmnbB9_r9KU,2286
+tacotron2_model/prenet.py,sha256=NS5Gd3zN0nFUc-Lty4fqsCPG4dWfZV1zceeIt2dHqfI,606
+tacotron2_model/tacotron2.py,sha256=qQHCo603uBqzY26UdFmGvGUzB3E6yf-HKkY06YN8m28,4406
+tacotron2_model/utils.py,sha256=xOqqchk-ttxBCo36qXLNa4K0D2VtpXjZfPvVQf3NCw0,414
+tacotron2_model-0.1.1.dist-info/LICENSE,sha256=6zPJuM6n_PI8wFHEi9VNkKM8M8Z4SobPGXLIQO8unE8,1518
+tacotron2_model-0.1.1.dist-info/METADATA,sha256=kBX74RCW5nm8Pd-UUWCVJkTwGk5P402ZAH-KriH2pNM,797
+tacotron2_model-0.1.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+tacotron2_model-0.1.1.dist-info/top_level.txt,sha256=YOzxGBJXEuqc2eGNQDMrhsvwWOkpKi1sU7evcsJBYfU,16
+tacotron2_model-0.1.1.dist-info/RECORD,,
