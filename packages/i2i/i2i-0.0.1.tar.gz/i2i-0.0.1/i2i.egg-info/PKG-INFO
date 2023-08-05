@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: i2i
+Version: 0.0.1
+Summary: Tools to build adapters for one interface to talk to another
+Home-page: http://github.com/thorwhalen/i2i.git
+Author: OtoSense
+Author-email: UNKNOWN
+License: Apache
+Description: UNKNOWN
+Platform: UNKNOWN
