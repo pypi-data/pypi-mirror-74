@@ -1,0 +1,8 @@
+# File access
+fslib>=0.3.4
+
+# Parsing
+tdparser
+
+# Configuration
+confutils>=0.3.6
