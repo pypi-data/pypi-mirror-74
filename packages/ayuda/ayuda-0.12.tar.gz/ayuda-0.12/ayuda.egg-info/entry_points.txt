@@ -1,0 +1,4 @@
+
+        [console_scripts]
+        ayuda=ayuda.main:main
+    
