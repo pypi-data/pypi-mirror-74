@@ -1,0 +1,116 @@
+image: python:latest
+
+# Change pip's cache directory to be inside the project directory since we can
+# only cache local items.
+variables:
+  PIP_CACHE_DIR: "$CI_PROJECT_DIR/.cache/pip"
+
+# Pip's cache doesn't store the python packages
+# https://pip.pypa.io/en/stable/reference/pip_install/#caching
+#
+# If you want to also cache the installed packages, you have to install
+# them in a virtualenv and cache it as well.
+cache:
+  paths:
+    - .cache/pip
+    - venv/
+
+stages:
+  - build
+  - test
+  - deploy
+
+before_script:
+  - pip install virtualenv
+  - virtualenv venv
+  - source venv/bin/activate
+  # hack because of bug in setuptools (Optimal would be 'pip install .' but install_requires in setup.cfg not read. See https://github.com/pypa/setuptools/issues/456)
+  - pip install -r docs/requirements.txt
+
+dist:
+  stage: build
+  script:
+    - python setup.py bdist_wheel
+    # an alternative approach is to install and run:
+    - pip install dist/*
+    # run the command here
+  artifacts:
+    paths:
+      - dist/*.whl
+    expire_in: 1h
+  only:
+    - tags
+
+pages:
+  stage: build
+  script:
+    - pip install sphinx sphinx_rtd_theme recommonmark
+    - cd docs
+    - make html
+    - cd ..
+    - mkdir -p public
+    - rm -rf public/*
+    - mv docs/_build/html/* public/  # add it to pages. Pages is exposing public/index.html
+  only:
+    - master
+  cache:
+    paths:
+      - public
+  artifacts:
+    paths:
+      - public
+      - docs
+
+lint:
+  stage: test
+  before_script:
+    - pip install -q flake8
+  script:
+    - flake8
+
+test:
+  stage: test
+  script:
+    - pip --version
+    - pip install tox  # you can also use tox
+    - tox
+  coverage: '/^TOTAL.+?(\d+\%)$/'
+  artifacts:
+    # paths:
+    # pa- report/unit
+    reports:
+      junit:
+        - report/junit.xml
+    
+gitlab-release:
+  image: inetprocess/gitlab-release
+  stage: deploy
+  before_script:
+    - echo "Starting release"
+  script:
+    - gitlab-release --message 'Automatic release' dist/*  # Note:
+  only:
+    - tags
+
+pypi:
+  image: docker.km3net.de/base/python:3
+  stage: deploy
+  cache: {}
+  before_script:
+    - echo "Starting upload to pypi"
+  script:
+    # Check if current_version is already uploaded
+    - VERSION=$((python -c "import configparser; config = configparser.ConfigParser(); config.read('setup.cfg'); print(config['bumpversion']['current_version'])") 2>&1)
+    - MODULE_NAME=$((python -c "import configparser; config = configparser.ConfigParser(); config.read('setup.cfg'); print(config['metadata']['name'])") 2>&1)
+    - PACKAGE_JSON_URL="https://pypi.org/pypi/$MODULE_NAME/json" 
+    - apt-get install -qq -y jq
+    - PYPI_VERSIONS=$(curl -s "$PACKAGE_JSON_URL" | jq  -r '.releases | keys | .[]' | sort -V)
+    - if [[ $PYPI_VERSIONS =~ $VERSION ]]; then echo "Version $VERSION is already uploaded!"; exit 1; fi
+    # Version not already uploaded so do it now.
+    - echo "Uploading version $VERSION"
+    - pip install -U twine
+    - python setup.py sdist
+    - twine upload dist/*
+  rules:
+    # for debuggin: git commit -am "deb" && git push && bumpversion patch && git tag -l --sort=-v:refname | head -n 1 | git push origin
+    - if: $CI_COMMIT_TAG =~ /^v[0-9]+\.[0-9]+\.[0-9]+$/
