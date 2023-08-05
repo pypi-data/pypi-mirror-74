@@ -1,0 +1,13 @@
+GraphRicciCurvature/FormanRicci.py,sha256=uNTNpBKJCBfIyuSNKoHdI02h6qVaOvh6dcJtWNGED7M,3439
+GraphRicciCurvature/OllivierRicci.py,sha256=LjBkibxdNtVAqf4brMTvxb_ZGONRnpK4zVJ_hICafL8,33038
+GraphRicciCurvature/RicciFlow.py,sha256=Wdf75WCIa6WrejLR65331h58d4SNcgUWmDNLwG__gTc,3587
+GraphRicciCurvature/__init__.py,sha256=M2x3v9cf7H7bEWFhdfFDwANS5k4TFyJZpww7Ccnc0AA,86
+GraphRicciCurvature/util.py,sha256=-VlLvD_a_skfSE_s-0OUpHzxJESPGwVSaocDHsufJfY,3443
+test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test/test_FormanRicci.py,sha256=BDzcjKr-OJRAmnRhLnnPJs-uZvpY3mEbDNPduVtoma4,426
+test/test_OllivierRicci.py,sha256=IOFxlK1RlJenlCsfGZBvbkN5KRDXh7IHoW4WdjH9b8c,4678
+GraphRicciCurvature-0.5.0.dist-info/LICENSE.txt,sha256=rZSq8TclxggD5cMxIG0zL399f7ei3xRWbyhGXuo5Muc,11343
+GraphRicciCurvature-0.5.0.dist-info/METADATA,sha256=enOKCIOMm6SW4oeFvMbhMtJPTQmweuIGT1FqhlyEIcY,8405
+GraphRicciCurvature-0.5.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+GraphRicciCurvature-0.5.0.dist-info/top_level.txt,sha256=uCCXJs2w-QYv3A14jVu_BvhZ92p5ayMqrECjxNmaXDI,25
+GraphRicciCurvature-0.5.0.dist-info/RECORD,,
