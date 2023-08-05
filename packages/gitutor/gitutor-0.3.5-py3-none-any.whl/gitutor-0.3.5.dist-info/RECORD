@@ -1,0 +1,15 @@
+gitutor/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gitutor/cli.py,sha256=cmCrFZflFnYrv_RrPwqUIlAhPMk-li3tGAJUTQV-JhU,895
+gitutor/compare/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gitutor/compare/commands.py,sha256=RrYKUkzc5rLNwPRlJZgIOv6qQZoN7MsBqkD8MIv30_8,1762
+gitutor/ignore/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gitutor/ignore/commands.py,sha256=1W8G892658lczn3fQrtEYk_RCcwF2-CShvWLT6wWJrw,3885
+gitutor/init/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gitutor/init/commands.py,sha256=_0znTpzFmNAahd76AxhY4J89KmIrGNhZwQUXYwqORWw,2075
+gitutor/init/test_commands.py,sha256=rabm28-QRrNG67o9pO1-j38p_D52d9GOiJ5yzvkVD5U,2191
+gitutor/save/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gitutor/save/commands.py,sha256=CRe56NISTwTfBSkjcnR84LWaVkFRjQD5Y2b6G7JQvfY,2688
+gitutor-0.3.5.dist-info/entry_points.txt,sha256=VuDV9LVzqG6HNXxQ-GjJFZjk3g5tvemvjotgYHjww_A,39
+gitutor-0.3.5.dist-info/WHEEL,sha256=G_NFpzHmv_dUXgCUSAWL0-bLL-eMzYU6DzDeGXbRXUk,83
+gitutor-0.3.5.dist-info/METADATA,sha256=gYKLamADoHpEZJc6EUgz9sWaLg_JdEY7nYJqT0k2vcA,579
+gitutor-0.3.5.dist-info/RECORD,,
