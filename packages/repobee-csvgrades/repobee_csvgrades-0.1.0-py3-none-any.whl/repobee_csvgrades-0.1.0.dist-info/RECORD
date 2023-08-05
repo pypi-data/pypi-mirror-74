@@ -1,0 +1,13 @@
+repobee_csvgrades/__init__.py,sha256=y05RXJulkC7yHQpXkSGkU2BJbPi9Dstdy2RZ9G9IiYc,49
+repobee_csvgrades/__version.py,sha256=kUR5RAFc7HCeiqdlX36dZOHkUI5wI6V_43RpEcD8b-0,22
+repobee_csvgrades/_containers.py,sha256=8cLq9GPbS7Hh3g-Gt1cIsNaXDCUwRjia_S_7jW2j1aI,2002
+repobee_csvgrades/_exception.py,sha256=mDi7ecWkojooaMQlG2yTR6B_A7PB2VXOUVSaP9H_tSU,270
+repobee_csvgrades/_file.py,sha256=D6wWKtCBikqLgBBGo1-D2MEl0zXiQ38BHHSLH7C2ZRk,1726
+repobee_csvgrades/_grades.py,sha256=5WUk7d1mOKsRjPJqr0PRv7TCgxJPnbjLseHfMWQY5uw,3158
+repobee_csvgrades/_marker.py,sha256=aam6D92ykcPR3b0_8zyHY6ydARiw8BsIXSjnZl4rqhk,4002
+repobee_csvgrades/csvgrades.py,sha256=-eFi8LMlOrpswVGo2ahpSeeZGdzvMKGGM10UfAMp1eI,6980
+repobee_csvgrades-0.1.0.dist-info/LICENSE,sha256=dd4ynrWTAHjqsNkSDj2mUEQTBoWaCwB16LEbqLx98JI,1071
+repobee_csvgrades-0.1.0.dist-info/METADATA,sha256=VDjBxb6MtLau6V1BdwR_AWN61GuUFRXSX9N0lNn0HpQ,10896
+repobee_csvgrades-0.1.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+repobee_csvgrades-0.1.0.dist-info/top_level.txt,sha256=G1S95P0o62bXt-nz-jWdSwdpesz08TDTeLYCALcN8_M,18
+repobee_csvgrades-0.1.0.dist-info/RECORD,,
