@@ -1,0 +1,14 @@
+Metadata-Version: 1.2
+Name: arivo.om
+Version: 0.2.84
+Summary: Util functions for om docker containers
+Home-page: UNKNOWN
+License: GPL-3
+Description: VERSION=0.2.84
+        GIT_BRANCH=master
+        GIT_COMMIT=9a1ae322170c17853b9b1538141478fd6bda03be
+        GIT_COMMIT_SHORT=9a1ae322
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=2.6, !=3.0.*, !=3.1.*, !=3.2.*, <4
