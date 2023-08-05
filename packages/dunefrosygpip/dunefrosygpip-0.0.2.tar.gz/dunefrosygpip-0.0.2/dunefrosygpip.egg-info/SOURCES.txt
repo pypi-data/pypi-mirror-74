@@ -1,0 +1,11 @@
+.gitignore
+LICENSE
+README.md
+setup.py
+dunefrosygpip/__init__.py
+dunefrosygpip/dune.py
+dunefrosygpip/test.py
+dunefrosygpip.egg-info/PKG-INFO
+dunefrosygpip.egg-info/SOURCES.txt
+dunefrosygpip.egg-info/dependency_links.txt
+dunefrosygpip.egg-info/top_level.txt
