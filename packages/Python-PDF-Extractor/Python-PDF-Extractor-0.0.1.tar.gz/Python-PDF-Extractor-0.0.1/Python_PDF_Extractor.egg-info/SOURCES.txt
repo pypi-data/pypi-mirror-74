@@ -1,0 +1,8 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+Python_PDF_Extractor.egg-info/PKG-INFO
+Python_PDF_Extractor.egg-info/SOURCES.txt
+Python_PDF_Extractor.egg-info/dependency_links.txt
+Python_PDF_Extractor.egg-info/top_level.txt

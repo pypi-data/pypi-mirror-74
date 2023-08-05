@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: Python-PDF-Extractor
+Version: 0.0.1
+Summary: PDF text extractor
+Home-page: UNKNOWN
+Author: James Crone
+Author-email: jmcrone98@gmail.com
+License: UNKNOWN
+Description: # Python-PDF-Extractor
+        A PDF file text extractor for Python
+        
+Platform: UNKNOWN
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
