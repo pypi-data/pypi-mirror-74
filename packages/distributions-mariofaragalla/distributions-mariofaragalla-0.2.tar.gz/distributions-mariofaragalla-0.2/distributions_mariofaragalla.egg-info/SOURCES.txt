@@ -1,0 +1,10 @@
+setup.py
+distributions-mariofaragalla/Binomialdistribution.py
+distributions-mariofaragalla/Gaussiandistribution.py
+distributions-mariofaragalla/Generaldistribution.py
+distributions-mariofaragalla/__init__.py
+distributions_mariofaragalla.egg-info/PKG-INFO
+distributions_mariofaragalla.egg-info/SOURCES.txt
+distributions_mariofaragalla.egg-info/dependency_links.txt
+distributions_mariofaragalla.egg-info/not-zip-safe
+distributions_mariofaragalla.egg-info/top_level.txt
