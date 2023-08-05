@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+fortinetapi/__init__.py
+fortinetapi/password_client.py
+fortinetapi/token_client.py
+fortinetapi.egg-info/PKG-INFO
+fortinetapi.egg-info/SOURCES.txt
+fortinetapi.egg-info/dependency_links.txt
+fortinetapi.egg-info/not-zip-safe
+fortinetapi.egg-info/requires.txt
+fortinetapi.egg-info/top_level.txt
