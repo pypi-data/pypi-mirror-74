@@ -1,0 +1,13 @@
+Metadata-Version: 1.1
+Name: global_benchmark_database_tool
+Version: 2.9.0
+Summary: Superseded by: gbd-tools
+Home-page: https://github.com/Udopia/gbd
+Author: Markus Iser, Luca Springer
+Author-email: markus.iser@kit.edu
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+Classifier: Development Status :: 7 - Inactive
