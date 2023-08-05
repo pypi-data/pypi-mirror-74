@@ -1,0 +1,13 @@
+Metadata-Version: 1.0
+Name: tvdsb-student-api
+Version: 1.0
+Summary: A Python library and CLI tool for interacting with the TVDSB Student Portal service 
+Home-page: https://github.com/Ewpratten/tvdsb-student-api
+Author: Evan Pratten
+Author-email: ewpratten@retrylife.ca
+License: GPLv3
+Description: # tvdsb-student-api
+        A Python library and CLI tool for interacting with the TVDSB Student Portal service
+        
+        ## CLI tool usage
+Platform: UNKNOWN
