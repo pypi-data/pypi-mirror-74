@@ -1,0 +1,13 @@
+README.md
+setup.py
+softspot/__init__.py
+softspot/softspot.f95
+softspot/softspot.py
+softspot/util.py
+softspot.egg-info/PKG-INFO
+softspot.egg-info/SOURCES.txt
+softspot.egg-info/dependency_links.txt
+softspot.egg-info/requires.txt
+softspot.egg-info/top_level.txt
+tests/__init__.py
+tests/test_softspot.py
