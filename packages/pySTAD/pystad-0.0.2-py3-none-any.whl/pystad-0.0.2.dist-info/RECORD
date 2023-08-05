@@ -1,0 +1,12 @@
+stad/__init__.py,sha256=RsIbzWgCzn7GJ38umVlH8155viELhOFbiF1hnK5255c,968
+stad/drawing.py,sha256=vJMUVTD0Nmi70g-7H7lN058gDn9YYaKq0Ts6awYwceU,15822
+stad/evaluate.py,sha256=V9plsDUyoyUkgcj60FoKel2Pq-sZhbPmOCkhFfwOtPE,4285
+stad/explore.py,sha256=gd0uJU5LDCIBIKNMAah358IOO3FnbkfE7QIzg_ZWaNY,2409
+stad/lens_1D.py,sha256=fTQXEyvuunz2gs5YE2DEb4HE5hroo5BOIzSmFfjVn_U,4470
+stad/main.py,sha256=dzbyQaD2ETvhIyhUOFFAs-xkDGgd8_DPCQLNnemaUJU,10064
+stad/sparse.py,sha256=Xg5Sd6wpy3yjplu9amLdh_GnVxEIfhEgj46qx-xa3SE,2996
+pystad-0.0.2.dist-info/LICENSE.txt,sha256=t-Pnw--NmNKa-V0bI1qnGSWDKqdlZemHV9h44Vsbb7Q,1086
+pystad-0.0.2.dist-info/METADATA,sha256=64QicmezjAm-Nx9ATquyfs_SHplIzrptK-KZlkktk40,6441
+pystad-0.0.2.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+pystad-0.0.2.dist-info/top_level.txt,sha256=RFmUCzZf3CUGFyV4LtKwVf3cn1LVQ3n_xV06r1rCuPc,5
+pystad-0.0.2.dist-info/RECORD,,
