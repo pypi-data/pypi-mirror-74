@@ -1,0 +1,10 @@
+dotboy/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dotboy/__main__.py,sha256=pIwfHSV4B4yyYupmQrkh2aJVcXeLypZWJ3eKnu5IjQE,3396
+dotboy/config.py,sha256=JOoxMQF7oIxu8VpoL4KiEqXnRKuBr6NB82VqATrNR7g,285
+dotboy/dotboy.py,sha256=mc7qQGF54M343qGbR48sBQKExwZ8RmHFrV7Cw50Jvk8,7617
+dotboy/path_info.py,sha256=oPx5B7B1FibmZptAfaDx3VJDrAJEVr3ICe5kNzemR7s,344
+dotboy-0.3.0.dist-info/LICENSE,sha256=5pb4ejMatSXXfSV-u-vPlWUnpnoCh4sQEYZwS5n0AC4,1066
+dotboy-0.3.0.dist-info/METADATA,sha256=qAKuQ709QXx0YLSIDgbzKVS4Gf5Lb9PyR45Vqp2_tm0,3385
+dotboy-0.3.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+dotboy-0.3.0.dist-info/top_level.txt,sha256=A4X1qH94NWY8eKNyQuY8tXLbsTA8_bvWlqY9OskSUto,7
+dotboy-0.3.0.dist-info/RECORD,,
