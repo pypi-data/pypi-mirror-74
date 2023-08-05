@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: USB-Prober
+Version: 0.0.1
+Summary: A lightweight script that lists all connected USB devices.
+Home-page: https://github.com/Heimdall-Framework/usb-prober
+Author: Ivan Zlatanov
+Author-email: me@iv.an
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.4
+Description-Content-Type: text/markdown
+
+# usb-prober
+
+[![Build Status](https://travis-ci.org/Heimdall-Framework/usb-prober.svg?branch=master)](https://travis-ci.org/Heimdall-Framework/usb-prober)
+
+A lightweight script that lists all connected USB devices.
+
+---
+
+## Installation
+Simply run `pip install .` in the root directory of the prober.
+
+## Usage
+After running the script in order to install your dependencies, all you need to do is to type `uprobe` on the command line. It will print all connected USB devices and their most important properties.
+
+## Listed properties
+* Port number
+* Device product ID
+* Device vendor ID
+* Device class
+* Device bus number
+* Device bus address
+
+

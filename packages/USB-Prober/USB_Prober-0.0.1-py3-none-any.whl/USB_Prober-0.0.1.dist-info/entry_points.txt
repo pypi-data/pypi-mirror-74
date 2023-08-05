@@ -1,0 +1,3 @@
+[console_scripts]
+uprobe = prober.prober:main
+
