@@ -1,0 +1,25 @@
+Metadata-Version: 1.2
+Name: molgemtools
+Version: 0.0.5
+Summary: Tools for working with molecular geometry data.
+Home-page: https://gitlab.com/d_attila/molgemtools.git
+Author: Attila Dékány
+Author-email: dekanyattilaadam@gmail.com
+License: MIT
+Project-URL: Documentation, https://d_attila.gitlab.io/molgemtools/
+Project-URL: Source Code, https://gitlab.com/d_attila/molgemtools.git
+Description: It provides:
+        
+            - opening molecular `.xyz` files
+            - calculating the Euler angles from 3-dimensional rotation matrices
+            - conversion between Cartesian and internal coordinate representations
+            - molecular shape matching based on singular value decomposition
+            - calculating atomic distances, bond angles and dihedral angles
+            - calculating the principal moments of inertia
+            - generating permuted geometries
+            - calculating the molecular adjacency list based on atomic distances
+            - some chemical graph-theoretical tools
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
