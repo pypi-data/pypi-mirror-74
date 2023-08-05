@@ -1,0 +1,9 @@
+vsatcloud/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vsatcloud/common.py,sha256=iGnTirrkt6yqBD5EcV00aFb0hRQx9SRYLPFZVc1yRCs,1491
+vsatcloud/logging.py,sha256=oNx78K8g3uPA8b-Hg6UQUuDOlbxyYCk9sNiNpCz-B_w,468
+vsatcloud/scene.py,sha256=FBVE8xsfNYy0D5g6ElUIyQIvT56T-BLhc-IFqS1lLoA,1445
+vsatcloud-0.1.0.dist-info/METADATA,sha256=SJaYhVEV1dWJA0DaW9If5aAUkyuBSZ7hlfWU-pc7j0I,482
+vsatcloud-0.1.0.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+vsatcloud-0.1.0.dist-info/top_level.txt,sha256=WzqQgLgZGGGv8RguhWIk22HbxEfx-7_58xiDkz8q4Nw,10
+vsatcloud-0.1.0.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+vsatcloud-0.1.0.dist-info/RECORD,,
