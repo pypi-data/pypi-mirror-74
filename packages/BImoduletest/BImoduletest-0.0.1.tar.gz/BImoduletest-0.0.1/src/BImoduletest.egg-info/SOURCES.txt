@@ -1,0 +1,10 @@
+README.md
+setup.py
+src/BImoduletest/Function_main.py
+src/BImoduletest/__init__.py
+src/BImoduletest.egg-info/PKG-INFO
+src/BImoduletest.egg-info/SOURCES.txt
+src/BImoduletest.egg-info/dependency_links.txt
+src/BImoduletest.egg-info/entry_points.txt
+src/BImoduletest.egg-info/requires.txt
+src/BImoduletest.egg-info/top_level.txt
