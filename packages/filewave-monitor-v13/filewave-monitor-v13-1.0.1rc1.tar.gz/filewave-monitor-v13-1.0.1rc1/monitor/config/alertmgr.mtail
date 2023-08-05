@@ -1,0 +1,25 @@
+# for alert manager
+counter alertmanager_logs_total by severity  
+
+# Count of specific types of errors -- notably statement timeouts 
+counter alertmanager_errors_total by type  
+
+# # Log lines like this... 
+# level=error ts=2020-06-26T11:20:47.751Z caller=notify.go:372 component=dispatcher msg="Error on notify" err="establish connection to server: dial tcp: lookup some.smtp.server.com on 192.168.178.2:53: no such host" context_err="context deadline exceeded" 
+# level=error ts=2020-06-26T11:21:07.752Z caller=dispatch.go:266 component=dispatcher msg="Notify for alerts failed" num_alerts=2 err="establish connection to server: dial tcp: lookup some.smtp.server.com on 192.168.178.2:53: no such host" 
+# 
+
+/^level=(?P<severity>error) ts=(?P<date>\d\d\d\d-\d\d-\d\dT\d\d:\d\d:\d\d\.\d\d\d)Z / {
+	strptime($date, "2006-01-02T15:04:05.000")     
+	alertmanager_logs_total[$severity]++    
+
+	# Looking out for misconfigured notify     
+	/.*component=dispatcher msg=\"(?P<msg>Error on notify)\"/ {         
+		alertmanager_errors_total["notify_error"]++
+	}
+
+	/.*component=dispatcher msg=\"Notify for alerts failed\" num_alerts=(?P<num_alerts>\d+) err="establish connection to server: dial tcp: lookup (?P<server_name>.*) on (?P<server_ip>.*): no such host/ {
+		alertmanager_errors_total["no_such_host"]++
+	}
+} 
+
