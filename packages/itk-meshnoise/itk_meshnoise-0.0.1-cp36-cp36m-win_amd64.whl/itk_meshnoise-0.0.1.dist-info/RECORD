@@ -1,0 +1,10 @@
+itk/MeshNoisePython.py,sha256=E3P4jUABFU-ZlJggPK6lbWtrFkNW1sZdeJqmB7xDuzY,2553
+itk/_MeshNoisePython.pyd,sha256=IVEUjHiMKIBP-8FICoWkOeCLwDpnGOzQHn9MvVGqYyc,1319424
+itk/itkAdditiveGaussianNoiseMeshFilterPython.py,sha256=42fpZ-hsCKBJPzRlGy-lSlEKUavHLnnwUJuexA_4B_s,125515
+itk/itkAdditiveGaussianNoiseQuadEdgeMeshFilterPython.py,sha256=dlYWSfKtsG9QrcEi4P1Vt-QooOIjwob0D-XCzRu8IT8,12256
+itk/Configuration/MeshNoiseConfig.py,sha256=673zuEn-TCTVG4jbv-h_LQ2o0fNoZgQ-qqGncc0olj8,3290
+itk_meshnoise-0.0.1.dist-info/LICENSE,sha256=OawxU7kqWphIPSC2qRaA3XPRcOMlGWLu3XlunpiPve4,11551
+itk_meshnoise-0.0.1.dist-info/METADATA,sha256=f-BElvXAf1lhQ0iKicOw6R4ODYZjn8KNtGONef8H0fo,1477
+itk_meshnoise-0.0.1.dist-info/WHEEL,sha256=tsrWNVzy_oVY11mGSwRmxQKn96ESuFDVMfR3oica3Wc,99
+itk_meshnoise-0.0.1.dist-info/top_level.txt,sha256=K3Bo2NX2FvAd7ExrYg0rKrdBucaB6n6elW5QBc_g8FA,4
+itk_meshnoise-0.0.1.dist-info/RECORD,,
