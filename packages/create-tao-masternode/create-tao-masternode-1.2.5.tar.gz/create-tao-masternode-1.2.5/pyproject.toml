@@ -1,0 +1,30 @@
+[tool.poetry]
+name = "create-tao-masternode"
+version = "1.2.5"
+description = "Set up a Tao masternode by running one command."
+readme = "README.md"
+license = "GPL-3.0+"
+homepage = "https://tao.network"
+repository = "https://github.com/Tao-Network/create-tao-masternode"
+# documentation = "https://docs.tao.network/"
+keywords = ["tao", "blockchain", "masternode", "node"]
+authors = ["bryce-weiner <bryce@tao.network>"]
+
+[tool.poetry.dependencies]
+python = "^3.5"
+click = "^7.0"
+jinja2 = "^2.10"
+pyyaml = "^3.13"
+
+[tool.poetry.dev-dependencies]
+pytest = "^3.0"
+flake8 = "^3.6"
+coverage = "^4.5"
+coveralls = "^1.5"
+pyinstaller = "^3.4"
+
+[tool.poetry.scripts]
+create-tao-masternode = "create_tao_masternode.main:entrypoint"
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
