@@ -1,0 +1,109 @@
+LabelmeX is a graphical image annotation tool inspired by <http://labelme.csail.mit.edu>.  
+LabelmeX is able perform auto-annotation by specifying the model web service.
+It is written in Python and uses Qt for its graphical interface.
+
+## Requirements
+
+- Ubuntu / macOS / Windows
+- Python2 / Python3
+- [PyQt4 / PyQt5](http://www.riverbankcomputing.co.uk/software/pyqt/intro) / [PySide2](https://wiki.qt.io/PySide2_GettingStarted)
+
+
+## Installation
+
+There are options:
+
+- Platform agonistic installation: [Anaconda](#anaconda), [Docker](#docker)
+- Platform specific installation: [Ubuntu](#ubuntu), [macOS](#macos), [Windows](#windows)
+
+### Anaconda
+
+You need install [Anaconda](https://www.continuum.io/downloads), then run below:
+
+```bash
+# python2
+conda create --name=labelmex python=2.7
+source activate labelmex
+# conda install -c conda-forge pyside2
+conda install pyqt
+pip install labelmex
+# if you'd like to use the latest version. run below:
+# pip install git+https://github.com/wkentaro/labelme.git
+
+# python3
+conda create --name=labelmex python=3.6
+source activate labelmex
+# conda install -c conda-forge pyside2
+# conda install pyqt
+# pip install pyqt5  # pyqt5 can be installed via pip on python3
+pip install labelmex
+# or you can install everything by conda command
+# conda install labelme -c conda-forge
+```
+
+
+### Ubuntu
+
+```bash
+# Ubuntu 14.04 / Ubuntu 16.04
+# Python2
+# sudo apt-get install python-qt4  # PyQt4
+sudo apt-get install python-pyqt5  # PyQt5
+sudo pip install labelmex
+# Python3
+sudo apt-get install python3-pyqt5  # PyQt5
+sudo pip3 install labelmex
+```
+
+### Ubuntu 19.10+ / Debian (sid)
+
+```bash
+sudo apt-get install labelmex
+```
+
+### macOS
+
+```bash
+# macOS Sierra
+brew install pyqt  # maybe pyqt5
+pip install labelmex  # both python2/3 should work
+```
+
+### Windows
+
+Install [Anaconda](https://www.continuum.io/downloads), then in an Anaconda Prompt run:
+
+```bash
+# python3
+conda create --name=labelme python=3.6
+conda activate labelme
+pip install labelme
+```
+
+## Usage
+
+Run `labelmex --help` for detail.  
+The annotations are saved as a [JSON](http://www.json.org/) file.
+
+```bash
+labelmex  # just open gui
+```
+
+## Acknowledgement
+
+This repo is the fork of [wkentaro/labelme](https://github.com/wkentaro/labelme),
+whose development is still on-going.
+
+
+## Cite This Project
+
+If you use this project in your research or wish to refer to the baseline results published in the README, please use the following BibTeX entry.
+
+```bash
+@misc{labelme2016,
+  author =       {Kentaro Wada},
+  title =        {{labelme: Image Polygonal Annotation with Python}},
+  howpublished = {\url{https://github.com/wkentaro/labelme}},
+  year =         {2016}
+}
+```
