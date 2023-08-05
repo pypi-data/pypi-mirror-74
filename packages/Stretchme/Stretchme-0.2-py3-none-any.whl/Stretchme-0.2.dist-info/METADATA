@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: Stretchme
+Version: 0.2
+Summary: A package for analysis of stretching of proteins.
+Home-page: https://github.com/ilbsm/protein_stretching
+Author: Paweł Dąbrowski-Tumański
+Author-email: p.dabrowski-tumanski@uw.edu.pl
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# Strechme Package
+
+The Stretchme package is a tool for the analysis of the data of protein stretching by optical tweezers or AFM.
+
