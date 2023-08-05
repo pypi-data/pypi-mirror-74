@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: sentry-chalice
+Version: 0.0.1.dev0
+Summary: Chalice integration for Sentry
+Home-page: https://github.com/cuenca-mx/sentry-chalice
+Author: Cuenca
+Author-email: dev@cuenca.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: dataclasses (>=0.7) ; python_version < "3.7"
+Provides-Extra: test
+Requires-Dist: pytest (==5.4.3) ; extra == 'test'
+Requires-Dist: pytest-cov (==2.10.0) ; extra == 'test'
+Requires-Dist: black (==19.10b0) ; extra == 'test'
+Requires-Dist: isort (==5.0.*) ; extra == 'test'
+Requires-Dist: flake8 (==3.8.3) ; extra == 'test'
+Requires-Dist: mypy (==0.782) ; extra == 'test'
+
+# sentry-chalice
+Chalice integration for Sentry
+
+
