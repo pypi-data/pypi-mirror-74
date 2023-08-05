@@ -1,0 +1,10 @@
+README.md
+setup.py
+feta/__init__.py
+feta/__version__.py
+feta/cli.py
+feta.egg-info/PKG-INFO
+feta.egg-info/SOURCES.txt
+feta.egg-info/dependency_links.txt
+feta.egg-info/requires.txt
+feta.egg-info/top_level.txt
