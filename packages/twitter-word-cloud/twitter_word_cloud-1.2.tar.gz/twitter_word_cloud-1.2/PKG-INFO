@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: twitter_word_cloud
+Version: 1.2
+Summary: Generate word cloud charts from twitter
+Home-page: https://github.com/Aymanf-sherief/TwitterWordCloud
+Author: Ayman Sherief
+Author-email: aymanf.sherief@gmail.com
+License: UNKNOWN
+Description: # Twitter Word Cloud, A python package to generate word cloud charts from tweets
+        
+        ## Installation:
+        `pip install twitter-word-cloud`
+        
+        ## usage
+        Checkout `example.py`
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
