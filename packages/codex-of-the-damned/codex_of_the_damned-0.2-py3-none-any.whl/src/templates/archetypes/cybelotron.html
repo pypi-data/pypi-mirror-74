@@ -1,0 +1,84 @@
+{% extends "archetypes/_layout.html" %}
+{% import "archetypes/_layout-erratum.html" as erratum with context %}
+{% import "archetypes/cybelotron.json" as deck_json %}
+
+{% block meta %}
+<meta property="decklist" content='{{ deck_json | tojson }}' />
+{% endblock %}
+
+{% block archetype_name %}
+<h1><img src="{{ url_for('static', filename='img/icons/clan-baali.svg') }}"> Cybelotron</h1>
+{% endblock %}
+
+{% block archetype %}
+<h2>Highlights</h2>
+<p>
+    This is a <em>special</em> deck using {{ card("Cybele") }} and
+    {{ card("Call the Great Beast") }}.
+</p>
+<p>
+    The idea is to put a Master: Discipline on {{ card("Cybele") }}
+    to get her to 11 capacity, use {{ card("Magic of the Smith") }}
+    to fetch a {{ card("Soul Gem of Etrius") }},
+    unlock with {{ card("Truth of a Thousand Lies") }},
+    then play {{ card("Call the Great Beast") }} with
+    <i>ORS</i> and burn,
+    triggering the {{ card("Soul Gem of Etrius") }}.
+    A new {{ card("Cybele") }} comes back with the
+    {{ card("Soul Gem of Etrius") }} and bleeds alongside the
+    Great Beast.
+</p>
+<p>
+    This is a complicated combination but, if done right, {{ card("Cybele") }}
+    and her "resurrection" can both bleed in the same turn for 3 each, plus 3 from the Great Beast.
+    {{ card("Golconda: Inner Peace") }} is used on the
+    Great Beast and
+    {{ card("Redeem the Lost Soul") }} on the burnt
+    {{ card("Cybele") }}, for a massive bloat.
+</p>
+<p>
+    {{ card("Dreams of the Sphinx") }} and
+    {{ card("The Barrens") }} are used to discard the spurious
+    {{ card("Magic of the Smith") }}
+    once the combo is up and running.
+</p>
+<p>
+    The combat module is defensive, using only {{ card("Majesty") }}.
+</p>
+<h2>Tips & Tricks</h2>
+<p>
+    {{ card("Antediluvian Awakening") }}
+    can help burn an exhausted {{ card("Cybele") }} to avoid getting stuck
+    in torpor.
+</p>
+<p>
+    Once {{ card("Cybele") }} is at 11 capacity with the
+    {{ card("Soul Gem of Etrius") }},
+    {{ card("Truth of a Thousand Lies") }} can be used
+    to get her bleed up to 5: If the prey plays
+    {{ card("Archon Investigation") }}, a new
+    {{ card("Cybele") }} just comes into play and bleeds again.
+</p>
+<p>
+    {{ card("Spying Mission") }} can be used if a bleed is bounced
+    to avoid dealing damage to an ally.
+</p>
+<p>
+    Sadly, {{ card("Golconda: Inner Peace") }} can not
+    be used on {{ card("Cybele") }}: as it does not burn her, it does not
+    trigger the {{ card("Soul Gem of Etrius") }} effect.
+</p>
+<h2>Variants</h2>
+<p>
+    There are only minor variations to this archetype.
+    {{ card("Dark Influences") }} and
+    {{ card("Unleash Hell's Fury") }} are often included.
+</p>
+{% endblock %}
+
+{% block errata %}
+<div class="warning">
+    <h3>Errata</h3>
+    {{ erratum.antheliostheredstar() }}
+</div>
+{% endblock %}

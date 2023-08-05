@@ -1,0 +1,71 @@
+{% extends "archetypes/_layout.html" %}
+{% import "archetypes/_layout-erratum.html" as erratum with context %}
+{% import "archetypes/dmitris-big-band.json" as deck_json %}
+
+{% block meta %}
+<meta property="decklist" content='{{ deck_json | tojson }}' />
+{% endblock %}
+
+{% block archetype_name %}
+<h1><img src="{{ url_for('static', filename='img/icons/clan-assamite.svg') }}"> Dmitri's Big Band</h1>
+{% endblock %}
+
+{% block archetype %}
+<h2>Highlights</h2>
+<p>
+    This is a <em>toolbox</em> deck centered around the <i>CAQ</i> disciplines, with
+    {{ card("Dmitri Borodin") }} as a star.
+</p>
+<p>
+    {{ card("Truth of Blood") }} and
+    {{ card("Trochomancy") }} are used to bleed.
+    {{ card("Disguised Weapon") }} along
+    {{ card(".44 Magnum") }} and
+    {{ card("Sniper Rifle") }} for combat.
+    <i>c</i> provides some maneuverability with {{ card("Pursuit") }}.
+</p>
+<p>
+    <i>A</i> provides intercept and bounces, along the excellent
+    {{ card("Black Sunrise") }} for additional unlocks.
+    There is a bit of permanent intercept and
+    {{ card("Smiling Jack, The Anarch") }} is supposed
+    to be kept on the table to increase pool damage.
+</p>
+<h2>Tips & Tricks</h2>
+<p>
+    {{ card("Enkil Cog") }} is an excellent bleed enhancer, but an
+    {{ card("Archon Investigation") }} on the prey side
+    is dangerous if it is used in conjunction with
+    {{ card("Trochomancy") }}.
+    Using {{ card("Enkil Cog") }} ability to bleed during the prey's turn
+    prevents the use of {{ card("Archon Investigation") }}
+    (if the bleed is not bounced): as it is an out-of-turn master, the prey can not play it during her own turn.
+</p>
+<p>
+    {{ card("The Fourth Cycle") }} is included as a solution
+    against problematic Gehenna card but since
+    {{ card("Anthelios, The Red Star") }} ban in 2016
+    it should not be included in the deck anymore.
+    {{ card("The Unmasking") }} or a
+    {{ card("Dragonbound") }} are not problematic and
+    {{ card("Veil of Darkness") }}
+    is too rarely played to be considered a threat.
+</p>
+<h2>Variants</h2>
+<p>
+    There is no major variant for this archetype. The crypt can be altered a bit,
+    {{ card("Infernal Pursuit") }} added to help with the rotation and
+    {{ card("Target Vitals") }} for more damages.
+    Instead or along the {{ card("Trochomancy") }},
+    other permanent bleed enhancers can also be added, like
+    {{ card("J. S. Simmons, Esq.") }} and
+    {{ card("Tasha Morgan") }}.
+</p>
+{% endblock %}
+
+{% block errata %}
+<div class="warning">
+    <h3>Errata</h3>
+    {{ erratum.pentextmsubversion( 'remove' ) }}
+</div>
+{% endblock %}
