@@ -1,0 +1,9 @@
+README.md
+setup.py
+jointpdf/__init__.py
+jointpdf/pdf2image.py
+jointpdf/pdf2text.py
+jointpdf.egg-info/PKG-INFO
+jointpdf.egg-info/SOURCES.txt
+jointpdf.egg-info/dependency_links.txt
+jointpdf.egg-info/top_level.txt
