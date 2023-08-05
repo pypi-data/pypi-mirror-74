@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: github-help-wanted
+Version: 1.0
+Summary: A python program for fetching github issues with the "help-wanted" tag
+Home-page: https://github.com/banzai200/Github-Help-Wanted
+Author: Wesley
+Author-email: tairoria@gmail.com
+License: MIT License
+Platform: UNKNOWN
+Requires-Dist: PyGithub
+
+UNKNOWN
+
+
