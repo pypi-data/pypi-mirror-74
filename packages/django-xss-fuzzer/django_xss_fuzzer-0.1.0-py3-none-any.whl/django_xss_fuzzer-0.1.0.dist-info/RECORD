@@ -1,0 +1,5 @@
+django_xss_fuzzer/__init__.py,sha256=056sTsUxzI7aT2uF1eHQBm5cOBLlimvv8xuGiAj-GY0,2578
+django_xss_fuzzer-0.1.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+django_xss_fuzzer-0.1.0.dist-info/WHEEL,sha256=GLESb-AiO9TFjbXrEA7UrNl4dwWlkXoKZg6N6Vg0OJg,81
+django_xss_fuzzer-0.1.0.dist-info/METADATA,sha256=2FBXkWnCNft8KU3MKTvm-4hZ53cX5nOnmzxIMRZY5bk,2648
+django_xss_fuzzer-0.1.0.dist-info/RECORD,,
