@@ -1,0 +1,4 @@
+openpy
+pymysql
+requests
+selenium
