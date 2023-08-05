@@ -1,0 +1,17 @@
+AUTHORS
+CHANGES.md
+CREDITS.md
+MANIFEST.in
+README
+README.md
+UNLICENSE
+VERSION
+setup.cfg
+setup.py
+src/dogma/__init__.py
+src/dogma.py.egg-info/PKG-INFO
+src/dogma.py.egg-info/SOURCES.txt
+src/dogma.py.egg-info/dependency_links.txt
+src/dogma.py.egg-info/requires.txt
+src/dogma.py.egg-info/top_level.txt
+test/test_import.py
