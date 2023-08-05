@@ -1,0 +1,4 @@
+
+        [console_scripts]
+        tarentula-cli=tarentula.cli:cli
+    
