@@ -1,0 +1,28 @@
+#!python
+from mkwcs.lib import search_angle 
+import os,sys
+
+if (len(sys.argv)!=8 and len(sys.argv)!=9):
+	sys.exit('''Usage1  >  get_angle   image.fits  pix_scale   ra(degrees)  dec(degrees)  North_tilt_0  North_tilt_1 delta_angle 
+Usage2  >  get_angle   image.fits  pix_scale   ra(degrees)  dec(degrees)  North_tilt_0  North_tilt_1 delta_angle  (default=19)\n''')
+
+
+# inputs 
+image_file=sys.argv[1]       # image
+pixsize= float(sys.argv[2])  # pixel size
+ra_c = float(sys.argv[3])    # coordinates
+dec_c = float(sys.argv[4])   # coordinates
+n_tilt0= float(sys.argv[5])   # angle range start 
+n_tilt1= float(sys.argv[6])   # angle range end
+delta_tilt = float(sys.argv[7]) # increment size to sample the angle range
+
+
+if(len(sys.argv)==8):
+    best_angle,best_score=search_angle(image_file,pixsize,ra_c,dec_c,angle0=n_tilt0,angle1=n_tilt1,delta_angle=delta_tilt)
+else:
+    mlim = float(sys.argv[8])   # limiting magnitude for the USNOB1 search
+    best_angle,best_score=search_angle(image_file,pixsize,ra_c,dec_c,angle0=n_tilt0,angle1=n_tilt1,delta_angle=delta_tilt,mag_limit=mlim)
+
+print("Best Angle= %.2f  |  Matching Stars = %d"%(best_angle,best_score))
+
+#

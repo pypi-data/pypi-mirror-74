@@ -1,0 +1,9 @@
+mkwcs/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mkwcs/lib.py,sha256=r_8kOcktFCOBqMnBPkoeCBYrs50ofHPyUQfq4Vok0fk,10210
+mkwcs-0.1.data/scripts/get_angle,sha256=nCaKHJKn5WfA7IJG8uXlhxs6qnL4Y2V0zK0AfZAa7Bs,1159
+mkwcs-0.1.data/scripts/mkwcs_with_angle,sha256=FOO5nr513prUIFGwsUuOVF2UVzuAhFy-cvxFOkOUVes,860
+mkwcs-0.1.data/scripts/mkwcs_with_angle_range,sha256=BwPoF-YBviQVULlkKeDo90ZsVAKJLn0dB_Mf__ewcFs,1689
+mkwcs-0.1.dist-info/METADATA,sha256=B68epsXLyoclnzU5qUEVuaEfGrwCwq9zCIZQ86koSsQ,2040
+mkwcs-0.1.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+mkwcs-0.1.dist-info/top_level.txt,sha256=fWpthoRpQQiNrl637xWX9a7ky3vDJsgnZMwpvN_k6ow,6
+mkwcs-0.1.dist-info/RECORD,,
