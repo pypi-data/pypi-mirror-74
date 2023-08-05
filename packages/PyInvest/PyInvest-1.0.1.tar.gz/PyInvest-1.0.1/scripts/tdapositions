@@ -1,0 +1,77 @@
+#!/usr/bin/env python3
+
+import argparse
+from getpass import getuser, getpass
+from datetime import date
+
+from pyinvest import auth, accounts, config
+
+parser = argparse.ArgumentParser()
+parser.add_argument('--config', '-c', type=str, default='$HOME/config/pyinvest.json')
+parser.add_argument('--verbose', '-v', action='store_true')
+parser.add_argument('--username', '-u', type=str, default='Jmoorh9302')
+args = parser.parse_args()
+
+password = getpass()
+
+info = config.Config(args.config)
+
+access_token = auth.authenticate(info.client_id, info.redirect, info.username, password)
+
+td_ameritrade = accounts.TDAmeritradeClient(access_token, info.account_id)
+account_info = td_ameritrade.get_account_info()
+positions = td_ameritrade.get_positions()
+
+total_account_value = account_info['currentBalances']['liquidationValue']
+available_cash = account_info['currentBalances']['cashAvailableForTrading']
+position_value = account_info['currentBalances']['longMarketValue']
+today = date.today().strftime('%m/%d/%Y')
+
+print("\n")
+print(f"Info for account #{info.account_id} - {today}")
+print("-------------------------------------------------------")
+print(f"Cash available for trading: ${available_cash}")
+print(f"Positions: ${position_value}")
+print(f"Total account value: ${total_account_value}")
+print("\n")
+
+total_profit = 0
+
+if args.verbose:
+    print("Positions")
+    print("------------------------------------------------------------------------------")
+
+for asset in positions:
+    symbol = asset['instrument']['symbol']
+    current_price = round(asset['marketValue'] / asset['longQuantity'], 2)
+    asset_profit = accounts.calculate_total_profit(asset['longQuantity'],
+                                                   asset['averagePrice'],
+                                                   current_price)
+    total_profit += asset_profit
+
+    asset_profit_pcnt = accounts.calculate_total_profit_percentage(asset['longQuantity'],
+                                                                   asset['averagePrice'],
+                                                                   current_price)
+    
+    if symbol == 'MMDA1':
+        continue  # Skip Money Market value
+
+    quantity = asset['longQuantity']
+    avg_price = round(asset['averagePrice'], 2)
+    market_value = round(asset['marketValue'], 2)
+
+    current_profit = round(asset['currentDayProfitLoss'], 2)
+    current_profit_pcnt = round(asset['currentDayProfitLossPercentage'], 2)
+
+    if args.verbose:
+        print(f"Symbol: {symbol}, Long quantity: {quantity}, Market value: {market_value}")
+        print(f"Current price: ${current_price}, Average price: ${avg_price}")
+        print(f"Day gain/loss: ${current_profit}, {current_profit_pcnt}%")
+        print(f"Total gain/loss: ${asset_profit}, {asset_profit_pcnt}%")
+        print("------------------------------------------------------------------------------")
+
+total_profit = round(total_profit, 2)
+dec = (total_account_value / (total_account_value - total_profit)) - 1
+total_profit_pcnt = round(dec * 100, 2)
+print(f"Total profit: ${total_profit}, {total_profit_pcnt}%\n")
+
