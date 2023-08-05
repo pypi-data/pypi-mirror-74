@@ -1,0 +1,8 @@
+docopt
+lxml
+requests
+
+[dev]
+coverage
+pycodestyle
+nose
