@@ -1,0 +1,12 @@
+setup.py
+labplusAI/Basic_DNN.py
+labplusAI/Face_Detection.py
+labplusAI/Machine_Vision.py
+labplusAI/Object_Tracker.py
+labplusAI/__init__.py
+labplusAI/labplusAI.py
+labplusAI/tools.py
+labplusAI.egg-info/PKG-INFO
+labplusAI.egg-info/SOURCES.txt
+labplusAI.egg-info/dependency_links.txt
+labplusAI.egg-info/top_level.txt
