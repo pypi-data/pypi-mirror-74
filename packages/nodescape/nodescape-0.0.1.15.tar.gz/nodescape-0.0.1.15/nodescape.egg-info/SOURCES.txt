@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+nodescape.egg-info/PKG-INFO
+nodescape.egg-info/SOURCES.txt
+nodescape.egg-info/dependency_links.txt
+nodescape.egg-info/top_level.txt
