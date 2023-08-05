@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+minimally_sufficient_pandas/__init__.py
+minimally_sufficient_pandas/_pandas_accessor.py
+minimally_sufficient_pandas.egg-info/PKG-INFO
+minimally_sufficient_pandas.egg-info/SOURCES.txt
+minimally_sufficient_pandas.egg-info/dependency_links.txt
+minimally_sufficient_pandas.egg-info/requires.txt
+minimally_sufficient_pandas.egg-info/top_level.txt
