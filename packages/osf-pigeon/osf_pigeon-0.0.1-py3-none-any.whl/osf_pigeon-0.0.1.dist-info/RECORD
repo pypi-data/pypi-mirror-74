@@ -1,0 +1,9 @@
+settings/__init__.py,sha256=Fo0XWcI1WGBhtrdtBKsG8r9VziASnT4xZ2rzbFUTfUQ,246
+settings/defaults.py,sha256=aO_Tio9BGa520AbCIhGWUMYjSFQPkuteSTw85bs9Cos,584
+settings/local-dist.py,sha256=s5ynRR3dN04uaratl1yTg5ImzQxZjJ4hha9vn7Sa66c,390
+settings/local.py,sha256=uFjV6c8YV_15SEMZNZURR6z_ruCqYbCBGPt8A21IE3w,658
+osf_pigeon-0.0.1.dist-info/LICENSE,sha256=OWPwnZledfnKobTjBpZczIzBDLtYAb23hLmFasWXUqw,1080
+osf_pigeon-0.0.1.dist-info/METADATA,sha256=a-P4NGFFbgqGe3BrfwPItTSQtIY1IN-i5aXpaxF24OI,473
+osf_pigeon-0.0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+osf_pigeon-0.0.1.dist-info/top_level.txt,sha256=wZK3kjBHOHXxWdRCPXTQD32cxOY0Yas7CgQwuGdtn3A,9
+osf_pigeon-0.0.1.dist-info/RECORD,,
