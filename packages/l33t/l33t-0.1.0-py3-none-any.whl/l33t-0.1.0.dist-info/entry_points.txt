@@ -1,0 +1,3 @@
+[console_scripts]
+l33t=l33t:main
+

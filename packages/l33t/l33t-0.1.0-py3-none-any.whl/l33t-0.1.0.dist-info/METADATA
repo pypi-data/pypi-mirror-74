@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: l33t
+Version: 0.1.0
+Summary: leet speak generator
+Home-page: https://github.com/tz4678/l33t
+Author: Sergey M
+Author-email: tz4678@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Project-URL: Repository, https://github.com/tz4678/l33t
