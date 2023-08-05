@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: greenletio
+Version: 0.0.2
+Summary: Asyncio integration with sync code using greenlets.
+Home-page: https://github.com/miguelgrinberg/greenletio
+Author: Miguel Grinberg
+Author-email: miguel.grinberg@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: greenlet
+
+# greenletio
+
+
