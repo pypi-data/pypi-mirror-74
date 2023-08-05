@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: salure-preprocessors
+Version: 0.0.1
+Summary: Contains some more SKLearn Preprocessors
+Home-page: UNKNOWN
+Author: Salure
+Author-email: bi@salure.nl
+License: Apache 2.0
+Description: Salure Preprocessors
+Platform: UNKNOWN
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
