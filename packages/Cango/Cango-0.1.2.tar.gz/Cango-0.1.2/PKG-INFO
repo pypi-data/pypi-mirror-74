@@ -1,0 +1,12 @@
+Metadata-Version: 1.2
+Name: Cango
+Version: 0.1.2
+Summary: A library for executing commands asynchronously.
+Home-page: https://github.com/YE-Kits/Cango
+Author: buzz
+Author-email: admin@imipy.com
+License: GPL-3.0
+Description: UNKNOWN
+Keywords: cango
+Platform: UNKNOWN
+Requires-Python: >=3.6
