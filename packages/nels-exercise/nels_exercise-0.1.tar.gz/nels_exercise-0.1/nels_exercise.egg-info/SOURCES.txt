@@ -1,0 +1,10 @@
+setup.py
+nels_exercise/Binomialdistribution.py
+nels_exercise/Gaussiandistribution.py
+nels_exercise/Generaldistribution.py
+nels_exercise/__init__.py
+nels_exercise.egg-info/PKG-INFO
+nels_exercise.egg-info/SOURCES.txt
+nels_exercise.egg-info/dependency_links.txt
+nels_exercise.egg-info/not-zip-safe
+nels_exercise.egg-info/top_level.txt
