@@ -1,0 +1,3352 @@
+# French translations for the Codex.
+# This file is distributed under the MIT license.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: codex 0.X\n"
+"Report-Msgid-Bugs-To: lionel.panhaleux+codex@gmail.com\n"
+"POT-Creation-Date: 2020-07-15 17:58+0200\n"
+"PO-Revision-Date: 2020-07-04 08:50+0200\n"
+"Last-Translator: Lionel Panhaleux <lionel.panhaleux+codex@gmail.com>\n"
+"Language: fr\n"
+"Language-Team: codex-fr <lionel.panhaleux+codex@gmail.com>\n"
+"Plural-Forms: nplurals=2; plural=(n > 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#. TRANSLATORS: please abide by BCP translation choices for game terms when possible.
+#: src/navigation.py:52
+msgid "Home"
+msgstr "Accueil"
+
+#: src/navigation.py:56 src/templates/online-play/index.html:5
+msgid "Online Play"
+msgstr "Jeu en ligne"
+
+#: src/navigation.py:59 src/templates/online-play/lackeyccg.html:5
+msgid "LackeyCCG"
+msgstr "LackeyCCG"
+
+#: src/navigation.py:60 src/templates/online-play/tabletop-simulator.html:5
+msgid "Tabletop Simulator"
+msgstr "Tabletop Simulator"
+
+#: src/navigation.py:61 src/templates/online-play/vtes-online.html:5
+msgid "V:TES Online"
+msgstr "V:TES Online"
+
+#: src/navigation.py:65 src/templates/strategy/index.html:4
+msgid "Strategy"
+msgstr "Stratégie"
+
+#: src/navigation.py:68 src/templates/strategy/fundamentals.html:4
+msgid "Fundamentals"
+msgstr "Fondamentaux"
+
+#: src/navigation.py:69 src/templates/strategy/combat.html:4
+msgid "Combat"
+msgstr "Combat"
+
+#: src/navigation.py:70 src/templates/strategy/bloat.html:4
+msgid "Bloat"
+msgstr "Régénération"
+
+#: src/navigation.py:71 src/templates/strategy/deck-building.html:10
+msgid "Deck building"
+msgstr "Construction de deck"
+
+#: src/navigation.py:72 src/navigation.py:86 src/templates/archetypes/index.html:10
+msgid "Archetypes"
+msgstr "Archétypes"
+
+#: src/navigation.py:73
+msgid "Table Talk"
+msgstr "Discussion"
+
+#: src/navigation.py:75
+msgid "Deck guides"
+msgstr "Guides de decks"
+
+#: src/navigation.py:77
+msgid "Den of Fiends"
+msgstr "L'Antre des Démons"
+
+#: src/navigation.py:78
+msgid "Libertine Ball"
+msgstr "Le Bal des Libertins"
+
+#: src/navigation.py:79
+msgid "Pact with Nephandi"
+msgstr "Pacte avec les Nephandi"
+
+#: src/navigation.py:80
+msgid "Parliament of Shadows"
+msgstr "Le Parlement des Ombres"
+
+#: src/navigation.py:89 src/templates/best-cards/clans/brujah.html:39 src/templates/best-cards/clans/toreador.html:8
+#: src/templates/strategy/archetypes.html:254
+msgid "AAA"
+msgstr ""
+
+#: src/navigation.py:90 src/templates/best-cards/clans/akunanse.html:9
+msgid "Akunanse Wall"
+msgstr ""
+
+#: src/navigation.py:91 src/templates/best-cards/clans/assamite.html:110 src/templates/strategy/archetypes.html:136
+msgid "Amaravati Politics"
+msgstr ""
+
+#: src/navigation.py:92
+msgid "Anti ventrue Grinder"
+msgstr ""
+
+#: src/navigation.py:93 src/templates/strategy/archetypes.html:364
+msgid "Baltimore Purge"
+msgstr ""
+
+#: src/navigation.py:94 src/templates/best-cards/clans/followers-of-set.html:8 src/templates/strategy/archetypes.html:53
+msgid "Bima Dominate"
+msgstr ""
+
+#: src/navigation.py:95 src/templates/best-cards/clans/assamite.html:19 src/templates/best-cards/clans/assamite.html:128
+#: src/templates/strategy/archetypes.html:48 src/templates/strategy/fundamentals.html:329
+msgid "Black Hand"
+msgstr ""
+
+#: src/navigation.py:96 src/templates/best-cards/clans/ahrimanes.html:12 src/templates/strategy/archetypes.html:200
+msgid "Cats"
+msgstr ""
+
+#: src/navigation.py:97 src/templates/best-cards/clans/baali.html:30 src/templates/best-cards/clans/malkavian.html:302
+#: src/templates/best-cards/clans/ventrue.html:138 src/templates/strategy/archetypes.html:73
+msgid "Council of Doom"
+msgstr ""
+
+#: src/navigation.py:98 src/templates/strategy/archetypes.html:367
+msgid "Cybelotron"
+msgstr ""
+
+#: src/navigation.py:99 src/templates/best-cards/clans/daughters-of-cacophony.html:8
+#: src/templates/strategy/archetypes.html:127
+msgid "Daughters Politics"
+msgstr ""
+
+#: src/navigation.py:100 src/templates/best-cards/clans/assamite.html:15 src/templates/best-cards/sects/anarch.html:207
+#: src/templates/strategy/archetypes.html:137
+msgid "Death Star"
+msgstr ""
+
+#: src/navigation.py:101
+msgid "Dmitri's Big Band"
+msgstr ""
+
+#: src/navigation.py:102 src/templates/best-cards/clans/harbingers-of-skulls.html:12
+#: src/templates/best-cards/clans/harbingers-of-skulls.html:34 src/templates/strategy/archetypes.html:261
+msgid "Emerald Legion"
+msgstr ""
+
+#: src/navigation.py:103 src/templates/best-cards/clans/brujah.html:10 src/templates/best-cards/clans/nosferatu.html:154
+#: src/templates/strategy/archetypes.html:255
+msgid "Euro Brujah"
+msgstr ""
+
+#: src/navigation.py:104 src/templates/archetypes/council-of-doom.html:60 src/templates/strategy/archetypes.html:72
+msgid "Girls Will Find Inner Circle"
+msgstr ""
+
+#: src/navigation.py:105 src/templates/archetypes/tzimisce-wall.html:81 src/templates/best-cards/clans/tremere.html:24
+#: src/templates/best-cards/sects/anarch.html:9 src/templates/strategy/archetypes.html:197
+msgid "Goratrix High Tower"
+msgstr ""
+
+#: src/navigation.py:106 src/templates/best-cards/clans/guruhi.html:10 src/templates/best-cards/clans/nosferatu.html:93
+#: src/templates/strategy/archetypes.html:326
+msgid "Guruhi Rush"
+msgstr ""
+
+#: src/navigation.py:107 src/templates/best-cards/clans/imbued.html:9
+msgid "Hunters"
+msgstr ""
+
+#: src/navigation.py:108 src/templates/best-cards/clans/ishtarri.html:8 src/templates/best-cards/sects/laibon.html:75
+#: src/templates/strategy/archetypes.html:124
+msgid "Ishtarri Politics"
+msgstr ""
+
+#: src/navigation.py:109 src/templates/best-cards/clans/toreador.html:9 src/templates/strategy/archetypes.html:64
+msgid "Jost Powerbleed"
+msgstr ""
+
+#: src/navigation.py:110 src/templates/best-cards/clans/giovanni.html:8 src/templates/best-cards/sects/anarch.html:121
+#: src/templates/strategy/archetypes.html:260
+msgid "Khazar's Diary"
+msgstr ""
+
+#: src/navigation.py:111 src/templates/archetypes/lasombra-nocturn.html:68 src/templates/best-cards/clans/kiasyd.html:9
+#: src/templates/strategy/archetypes.html:37
+msgid "Kiasyd Stealth & Bleed"
+msgstr ""
+
+#: src/navigation.py:112 src/templates/archetypes/kiasyd-stealth-bleed.html:90
+#: src/templates/best-cards/clans/lasombra.html:8 src/templates/strategy/archetypes.html:38
+msgid "Lasombra Nocturn"
+msgstr ""
+
+#: src/navigation.py:113 src/templates/best-cards/clans/malkavian.html:9 src/templates/strategy/archetypes.html:115
+msgid "Lutz Politics"
+msgstr ""
+
+#: src/navigation.py:114 src/templates/strategy/archetypes.html:373
+msgid "Madness Reversal"
+msgstr ""
+
+#: src/navigation.py:115 src/templates/best-cards/clans/malkavian.html:22 src/templates/strategy/archetypes.html:362
+msgid "Mind Rape"
+msgstr ""
+
+#: src/navigation.py:116 src/templates/best-cards/clans/nosferatu.html:129 src/templates/best-cards/clans/tremere.html:15
+#: src/templates/strategy/archetypes.html:68
+msgid "Mistress"
+msgstr ""
+
+#: src/navigation.py:117 src/templates/best-cards/clans/guruhi.html:7 src/templates/best-cards/clans/nosferatu.html:8
+#: src/templates/best-cards/sects/anarch.html:10 src/templates/strategy/archetypes.html:327
+msgid "Nananimalism"
+msgstr ""
+
+#: src/navigation.py:118 src/templates/archetypes/tupdogs.html:82 src/templates/best-cards/clans/tremere.html:19
+#: src/templates/best-cards/clans/tremere.html:99 src/templates/best-cards/clans/tremere.html:131
+#: src/templates/best-cards/sects/anarch.html:122 src/templates/strategy/archetypes.html:262
+msgid "Nephandii"
+msgstr ""
+
+#: src/navigation.py:119 src/templates/best-cards/clans/nosferatu.html:11 src/templates/best-cards/clans/nosferatu.html:69
+#: src/templates/best-cards/clans/nosferatu.html:79 src/templates/best-cards/clans/nosferatu.html:115
+#: src/templates/strategy/archetypes.html:119
+msgid "Nosferatu Royalty"
+msgstr ""
+
+#: src/navigation.py:120 src/templates/best-cards/clans/malkavian.html:10 src/templates/strategy/archetypes.html:79
+msgid "Rachel Madness"
+msgstr ""
+
+#: src/navigation.py:121 src/templates/best-cards/clans/ravnos.html:8 src/templates/strategy/archetypes.html:141
+msgid "Ravnos Clown Car"
+msgstr ""
+
+#: src/navigation.py:122 src/templates/best-cards/clans/gangrel.html:9
+msgid "Renegade Assault"
+msgstr ""
+
+#: src/navigation.py:123 src/templates/best-cards/clans/salubri.html:13 src/templates/best-cards/sects/anarch.html:8
+#: src/templates/strategy/archetypes.html:208
+msgid "Saulot & Friends"
+msgstr ""
+
+#: src/navigation.py:124 src/templates/best-cards/clans/daughters-of-cacophony.html:9
+#: src/templates/strategy/archetypes.html:126
+msgid "Scout"
+msgstr ""
+
+#: src/navigation.py:125 src/templates/best-cards/clans/giovanni.html:10 src/templates/strategy/archetypes.html:321
+msgid "Shambling Hordes"
+msgstr ""
+
+#: src/navigation.py:126 src/templates/best-cards/clans/salubri.html:15 src/templates/strategy/archetypes.html:363
+msgid "Spirit Marionette"
+msgstr ""
+
+#: src/navigation.py:127 src/templates/best-cards/clans/gangrel.html:7 src/templates/strategy/archetypes.html:57
+msgid "Stanislava"
+msgstr ""
+
+#: src/navigation.py:128 src/templates/best-cards/clans/akunanse.html:11 src/templates/best-cards/clans/akunanse.html:66
+msgid "Team Jacob"
+msgstr ""
+
+#: src/navigation.py:129 src/templates/best-cards/clans/ventrue.html:18 src/templates/strategy/archetypes.html:63
+msgid "The Bleeding Vignes"
+msgstr ""
+
+#: src/navigation.py:130 src/templates/best-cards/clans/baali.html:12 src/templates/best-cards/clans/nosferatu.html:9
+#: src/templates/best-cards/clans/nosferatu.html:142 src/templates/best-cards/clans/ventrue.html:139
+#: src/templates/strategy/archetypes.html:114 src/templates/strategy/archetypes.html:131
+msgid "The Dark Side of Politics"
+msgstr ""
+
+#: src/navigation.py:131 src/templates/archetypes/rachel-madness.html:79 src/templates/best-cards/clans/baali.html:25
+#: src/templates/strategy/archetypes.html:78
+msgid "The unnamed"
+msgstr ""
+
+#: src/navigation.py:132 src/templates/archetypes/nephandii.html:98 src/templates/best-cards/clans/tremere.html:28
+#: src/templates/best-cards/clans/tremere.html:194 src/templates/strategy/archetypes.html:315
+msgid "Tupdogs"
+msgstr ""
+
+#: src/navigation.py:133 src/templates/best-cards/clans/tzimisce.html:10
+msgid "Tzimisce Toolbox"
+msgstr ""
+
+#: src/navigation.py:134 src/templates/archetypes/mistress.html:65 src/templates/best-cards/clans/tremere.html:38
+#: src/templates/best-cards/clans/tzimisce.html:9 src/templates/strategy/archetypes.html:190
+msgid "Tzimisce Wall"
+msgstr ""
+
+#: src/navigation.py:135 src/templates/best-cards/clans/ventrue.html:14 src/templates/best-cards/clans/ventrue.html:170
+#: src/templates/best-cards/clans/ventrue.html:204 src/templates/strategy/archetypes.html:256
+msgid "Ventrue Royalty"
+msgstr ""
+
+#: src/navigation.py:136 src/templates/best-cards/clans/tremere.html:11 src/templates/strategy/archetypes.html:272
+msgid "War Chantry"
+msgstr ""
+
+#: src/navigation.py:137 src/templates/best-cards/clans/tzimisce.html:11 src/templates/best-cards/sects/anarch.html:120
+#: src/templates/strategy/archetypes.html:320
+msgid "War Ghouls"
+msgstr ""
+
+#: src/navigation.py:138 src/templates/best-cards/clans/caitiff.html:32 src/templates/best-cards/clans/malkavian.html:16
+#: src/templates/best-cards/clans/toreador.html:12 src/templates/strategy/archetypes.html:187
+msgid "Weenie AUS"
+msgstr ""
+
+#: src/navigation.py:139 src/templates/best-cards/clans/caitiff.html:104 src/templates/best-cards/clans/malkavian.html:15
+#: src/templates/strategy/archetypes.html:43
+msgid "Weenie DEM"
+msgstr ""
+
+#: src/navigation.py:140 src/templates/best-cards/clans/ventrue.html:23 src/templates/strategy/archetypes.html:52
+msgid "Weenie DOM"
+msgstr ""
+
+#: src/navigation.py:144
+msgid "Best Cards"
+msgstr "Top Cartes"
+
+#: src/navigation.py:148 src/templates/best-cards/index.html:20
+msgid "Generic"
+msgstr "Générique"
+
+#: src/navigation.py:150
+msgid "Master cards"
+msgstr "Cartes de Maître"
+
+#: src/navigation.py:151
+msgid "Political actions"
+msgstr "Actions politiques"
+
+#: src/navigation.py:152
+msgid "No discipline"
+msgstr "Sans discipline"
+
+#: src/navigation.py:153
+msgid "Animalism"
+msgstr "Animalisme"
+
+#: src/navigation.py:154
+msgid "Auspex"
+msgstr "Auspex"
+
+#: src/navigation.py:155
+msgid "Celerity"
+msgstr "Célérité"
+
+#: src/navigation.py:156
+msgid "Dominate"
+msgstr "Domination"
+
+#: src/navigation.py:157
+msgid "Fortitude"
+msgstr "Force d’âme"
+
+#: src/navigation.py:158
+msgid "Necromancy"
+msgstr "Nécromancie"
+
+#: src/navigation.py:159
+msgid "Obfuscate"
+msgstr "Occultation"
+
+#: src/navigation.py:160
+msgid "Potence"
+msgstr "Puissance"
+
+#: src/navigation.py:161
+msgid "Presence"
+msgstr "Présence"
+
+#: src/navigation.py:165 src/templates/best-cards/index.html:35
+msgid "Sects"
+msgstr "Sectes"
+
+#: src/navigation.py:167 src/templates/strategy/bloat.html:77 src/templates/strategy/bloat.html:78
+#: src/templates/strategy/bloat.html:101 src/templates/strategy/bloat.html:102 src/templates/strategy/fundamentals.html:279
+#: src/templates/strategy/fundamentals.html:280 src/templates/strategy/fundamentals.html:327
+#: src/templates/strategy/fundamentals.html:399
+msgid "Anarch"
+msgstr ""
+
+#: src/navigation.py:168
+msgid "Camarilla"
+msgstr ""
+
+#: src/navigation.py:169 src/templates/strategy/bloat.html:146 src/templates/strategy/fundamentals.html:86
+#: src/templates/strategy/fundamentals.html:472
+msgid "Laibon"
+msgstr ""
+
+#: src/navigation.py:170 src/templates/strategy/bloat.html:103 src/templates/strategy/bloat.html:104
+#: src/templates/strategy/bloat.html:268 src/templates/strategy/fundamentals.html:440
+msgid "Sabbat"
+msgstr ""
+
+#: src/navigation.py:174 src/templates/best-cards/index.html:42
+msgid "Clans"
+msgstr "Clans"
+
+#: src/navigation.py:176
+msgid "Ahrimanes"
+msgstr ""
+
+#: src/navigation.py:177
+msgid "Akunanse"
+msgstr ""
+
+#: src/navigation.py:178
+msgid "Assamite"
+msgstr ""
+
+#: src/navigation.py:179
+msgid "Baali"
+msgstr ""
+
+#: src/navigation.py:180
+msgid "Brujah"
+msgstr ""
+
+#: src/navigation.py:181
+msgid "Caitiff"
+msgstr ""
+
+#: src/navigation.py:182
+msgid "Daughters of Cacophony"
+msgstr "Filles de la Cacophonie"
+
+#: src/navigation.py:183
+msgid "Followers of Set"
+msgstr "Disciples de Seth"
+
+#: src/navigation.py:184
+msgid "Gangrel"
+msgstr ""
+
+#: src/navigation.py:185
+msgid "Giovanni"
+msgstr ""
+
+#: src/navigation.py:186
+msgid "Guruhi"
+msgstr ""
+
+#: src/navigation.py:187
+msgid "Harbingers of Skulls"
+msgstr "Émissaires des Crânes"
+
+#: src/navigation.py:188 src/templates/strategy/bloat.html:158 src/templates/strategy/fundamentals.html:281
+msgid "Imbued"
+msgstr "Illuminés"
+
+#: src/navigation.py:189
+msgid "Ishtarri"
+msgstr ""
+
+#: src/navigation.py:190
+msgid "Kiasyd"
+msgstr ""
+
+#: src/navigation.py:191
+msgid "Lasombra"
+msgstr ""
+
+#: src/navigation.py:192
+msgid "Malkavian"
+msgstr "Malkavien"
+
+#: src/navigation.py:193
+msgid "Nosferatu"
+msgstr ""
+
+#: src/navigation.py:194
+msgid "Ravnos"
+msgstr ""
+
+#: src/navigation.py:195
+msgid "Salubri"
+msgstr ""
+
+#: src/navigation.py:196
+msgid "Toreador"
+msgstr "Toréador"
+
+#: src/navigation.py:197
+msgid "Tremere"
+msgstr ""
+
+#: src/navigation.py:198
+msgid "True Brujah"
+msgstr "Brujah Véritable"
+
+#: src/navigation.py:199
+msgid "Tzimisce"
+msgstr ""
+
+#: src/navigation.py:200
+msgid "Ventrue"
+msgstr ""
+
+#: src/navigation.py:205
+msgid "Deck Search"
+msgstr "Recherche de Deck"
+
+#: src/navigation.py:206
+msgid "Card Search"
+msgstr "Recherche de Carte"
+
+#: src/templates/404.html:4
+msgid "The page you are trying to access does not exist."
+msgstr "La page que vous cherchez n'existe pas."
+
+#: src/templates/404.html:5
+msgid "Home page"
+msgstr "Page d'accueil"
+
+#: src/templates/_layout_sponsor.html:3
+msgid "Sponsor the Codex"
+msgstr "Sponsorisez le Codex"
+
+#: src/templates/card-search.html:13
+msgid "Card Search"
+msgstr "Recherche de Carte"
+
+#: src/templates/card-search.html:16
+#, python-format
+msgid ""
+"Official cards text provided by %(vekn)s. All rulings give a link to the actual official ruling made by successive "
+"Rules Directors."
+msgstr ""
+"Les textes officiels des cartes sont fournis par %(vekn)s. Tous les arbitrages présentent un lien vers l'arbitrage "
+"officiel correspondant effectué par les Rules Directors successifs."
+
+#: src/templates/card-search.html:45
+msgid "Submit a new ruling or a ruling correction"
+msgstr "Soumettre un nouvel arbitrage ou une correction"
+
+#: src/templates/card-search.html:48
+msgid "Help improve the Codex: provide an explanation and a link to a message from a Rules Director."
+msgstr "Participez à l'amélioration du Codex : donnez une explication et un lien vers le post d'un Rules Director."
+
+#: src/templates/card-search.html:59
+msgid ""
+"<strong>Proposed rulings will not be included automatically.</strong> Once submited, your ruling will be reviewed by "
+"the Codex and KRCG team, and included in the next release."
+msgstr ""
+"<strong>Les arbitrages proposés ne seront pas inclus automatiquement.</strong> Une fois soumis, votre arbitrage sera "
+"relu par l'équipe du Codex et de KRCG, et inclus dans la prochaine version."
+
+#: src/templates/card-search.html:66
+msgid "The Rules Directors have been:"
+msgstr "Les Rules Directors sont:"
+
+#: src/templates/card-search.html:68
+msgid "From 2016-12-04 onward,"
+msgstr "À partir de 2016-12-04,"
+
+#: src/templates/card-search.html:74 src/templates/card-search.html:97
+msgid "From 2011-07-06 onward,"
+msgstr "À partir de 2011-07-06,"
+
+#: src/templates/card-search.html:80
+msgid "From 1998-06-22 onward,"
+msgstr "À partir de 1998-06-22,"
+
+#: src/templates/card-search.html:86 src/templates/card-search.html:107
+msgid "From 1994-12-15 onward,"
+msgstr "À partir de 21994-12-15,"
+
+#: src/templates/card-search.html:95
+msgid "The official boards for rulings have been:"
+msgstr "Les forums officiels pour les arbitrages sont:"
+
+#: src/templates/card-search.html:99
+msgid "The VEKN Forum"
+msgstr "Le Forum VEKN"
+
+#: src/templates/card-search.html:102
+msgid "From 2010-12-30 onward,"
+msgstr "À partir de 2010-12-30,"
+
+#: src/templates/card-search.html:104
+msgid "The Boardgame Geek Forum"
+msgstr "Le forum de Boardgame Geek"
+
+#: src/templates/card-search.html:109
+msgid "The rec.games.trading-cards.jyhad Google Group"
+msgstr "Le groupe Google rec.games.trading-cards.jyhad"
+
+#: src/templates/deck-search.html:21
+msgid "Deck Search"
+msgstr "Recherche de Deck"
+
+#: src/templates/deck-search.html:24
+#, python-format
+msgid ""
+"This is an interactive interface to the %(twda)s provided by VEKN. Type a card name to search all winning deck with "
+"it since 2008."
+msgstr ""
+"Ceci est une interface interactive pour la %(twda)s fournie par VEKN. Entrez un nom de carte pour rechercher tous les"
+" decks gagnants qui la contiennent depuis 2008."
+
+#: src/templates/deck-search.html:57
+msgid "Comments"
+msgstr "Commentaires"
+
+#. please abide by BCP translation choices for game terms when possible.
+#: src/templates/index.html:8
+#, python-format
+msgid ""
+"This site is a compilation of <strong>Vampire: the Eternal Struggle</strong> strategy resources. It is intended for "
+"players already familiar with the game and its rules. VTES is a game published by %(black_chantry_productions)s, "
+"under the %(white_wolf)s license."
+msgstr ""
+"Ce site est une compilation de ressources de stratégie pour <strong>Vampire: the Eternal Struggle</strong>. Il est "
+"conçu pour les joueurs connaissant déjà le jeu et ses règles. VTES est un jeu publié par "
+"%(black_chantry_productions)s, sous la license %(white_wolf)s."
+
+#: src/templates/index.html:19
+msgid "Brett S. guide"
+msgstr "guide de Brett S."
+
+#: src/templates/index.html:18
+#, python-format
+msgid ""
+"If you are a new player, consult %(brett_s_guide)s to learn the game before digging deeper. The official rule can be "
+"found on the %(vekn_website)s. The official %(players_guide)s is available in PDF format at DriveThruRPG."
+msgstr ""
+"Si vous êtes un nouveau joueur, consultez le %(brett_s_guide)s pour apprendre le jeu avant d'aller plus loin. Les "
+"règles officielles sont sur le %(vekn_website)s. Le %(players_guide)s officiel est disponible en PDF sur "
+"DriveThruRPG."
+
+#: src/templates/index.html:20
+msgid "VEKN website"
+msgstr "site web de VEKN"
+
+#: src/templates/index.html:21
+msgid "Player's Guide"
+msgstr "Guide du Joueur"
+
+#: src/templates/index.html:30
+msgid "Github page"
+msgstr "page Github"
+
+#: src/templates/index.html:29
+#, python-format
+msgid ""
+"If you want to contribute to this guide, point out mistakes or raise an issue, you are welcome to do so on the "
+"%(github_page)s of the project."
+msgstr ""
+"Si vous désirez contribuer à ce guide, signaler une erreur ou un problème, merci de le faire sur la %(github_page)s "
+"du projet."
+
+#: src/templates/index.html:36
+msgid "Community"
+msgstr "Communauté"
+
+#: src/templates/index.html:38
+msgid "VEKN Forum"
+msgstr "Forum VEKN"
+
+#: src/templates/index.html:40
+msgid "VTES Discord"
+msgstr "Discord VTES"
+
+#: src/templates/index.html:43
+msgid "VEKN Facebook goup"
+msgstr "Groupe Facebook VEKN"
+
+#: src/templates/index.html:49
+msgid "interviews archive"
+msgstr "archive d'interviews"
+
+#: src/templates/index.html:57
+msgid ""
+"Portions of the materials are the copyrights and trademarks of Paradox Interactive AB, and are used with permission. "
+"All rights reserved. For more information please visit"
+msgstr ""
+"Des parties du matériel utilisé sont la propriété et les marques déposées de Paradox Interactive AB, et sont "
+"utilisées avec autorisation. Tous droits réservés. Pour plus d'informations, merci de consulter"
+
+#: src/templates/archetypes/_layout-erratum.html:3
+#, python-format
+msgid ""
+"%(pentex)s has been modified by an <em>errata</em> in September 2019. It does not prevent a vampire to act anymore, "
+"so it is less powerful"
+msgstr ""
+"%(pentex)s a été modifiée par un <em>errata</em> en september 2019. Elle n'empêche plus un vampire d'agir, donc elle "
+"est moins puissante"
+
+#: src/templates/archetypes/_layout-erratum.html:10
+msgid "and should probably not be included in the deck anymore."
+msgstr "et devrait probablement être retiré de ce deck."
+
+#: src/templates/archetypes/_layout-erratum.html:12
+msgid ". Its ability to disable a strong blocker is still an important aspect so it can have its place here."
+msgstr ""
+". Sa capacité à mettre un bloqueur puissant hors d'action est toujours un aspect important donc elle a peut-être "
+"encore sa place ici."
+
+#: src/templates/archetypes/_layout-erratum.html:14
+msgid "but still has its place in the deck, as it was mainly used as a way to disable a blocker anyway."
+msgstr ""
+"mais a toujours sa place dans ce deck, puisqu'elle était de toute façon principalement utilisée pour mettre un "
+"bloqueur hors d'action."
+
+#: src/templates/archetypes/_layout-erratum.html:21
+#, python-format
+msgid ""
+"%(villein)s has been modified by an errata in June 2018 to limit the blood taken to a maximum of 5. It should still "
+"be as efficient as ever in this archetype, though."
+msgstr ""
+"%(villein)s a été modifié par un errata en juin 2018 pour limiter la quantité de sang récupéré à un maximum de 5. Il "
+"devrait toutefois conserver son efficacité dans cet archétype."
+
+#: src/templates/archetypes/_layout-erratum.html:32
+#, python-format
+msgid ""
+"%(parity_shift)s has been modified in the September 2019 <em>errata</em>. The amount of pool is no longer equal to "
+"the number of Methusalah, but is stable at 3. The card is then less powerful in the game beginning, but is still a "
+"good fit in this deck."
+msgstr ""
+"%(parity_shift)s a été modifié dans l'<em>errata</em> de septembre 2019. La quantité de points de réserve n'est plus "
+"égale au nombre de Methusalah, mais est fixée à 3. Cette carte est donc moins puissante en début de partie, mais "
+"reste une bonne inclusion dans ce deck."
+
+#: src/templates/archetypes/_layout-erratum.html:44
+#, python-format
+msgid "%(anthelios)s has been banned in 2016. Its removal may have a bit of impact on the Master module."
+msgstr "%(anthelios)s a été bannie en 2016. Son retrait peut avoir quelques conséquences sur le module de cartes Maître."
+
+#: src/templates/archetypes/_layout-erratum.html:55
+#, python-format
+msgid "%(liliths_blessing)s has been banned in 2016."
+msgstr "%(liliths_blessing)s a été bannie en 2016."
+
+#: src/templates/archetypes/_layout-erratum.html:65
+#, python-format
+msgid "%(temptation_of_greater_power)s has been banned in 2016."
+msgstr "%(temptation_of_greater_power)s a été bannie en 2016."
+
+#: src/templates/archetypes/aaa.html:14
+#, python-format
+msgid ""
+"<h2>Highlights</h2> <p> This is a <em>toolbox</em> deck starring %(anson)s alongside %(alexandra)s and %(anneke)s, "
+"hence the \"AAA\" name. </p> <p> The deck is well-balanced, using %(second_tradition_domain)s for wake and intercept,"
+" %(concealed_weapon)s + %(magnum)s with %(CEL)s for combat, %(parity_shift)s and %(aire_of_elation)s for pool damage "
+"and %(anson)s's ability to bloat and use recursion with %(ashur_tablets)s and %(liquidation)s. </p> <p> "
+"%(resist_earths_grasp)s can provide a bit of stealth or be used in combat if required. </p> <p> %(heart_of_the_city)s"
+" and %(codex_of_the_edenic_groundskeepers)s are good bleed enhancers for the late game. </p> <h2>Tips & Tricks</h2> "
+"<p> %(entrancement)s can help get rid of cumbersome allies, %(scourge_of_the_enochians)s is there to deal with breed "
+"constructs. </p> <p> As the game progresses, %(ashur_tablets)s are used for recursion to adapt the deck content to "
+"the table context, bringing back more of what is really needed in the deck. </p> <h2>Variants</h2> <p> The "
+"<strong>Anson Guns</strong> variant focuses on %(anson)s and drops its Toreador companions to get cheaper vampires "
+"with %(CEL)s, like in %(tomasz_deck)s from 2019. </p> <p> The <strong>Grand Ball</strong> variant ditches the combat "
+"module and uses %(alexandra)s's ability with %(toreador_grand_ball)s to provide unblockable votes, like in "
+"%(martin_deck)s from 2013. </p> <p> The <strong>Aching Beauty</strong> variant also replaces the combat module with "
+"defensive %(majesty)s, but uses %(aching_beauty)s in numbers to make the vampires actions hard to block, like in "
+"%(laszlo_deck)s from 2012. </p> <p> The <strong>AAAAA</strong> variant keeps %(alexandra)s and %(anneke)s and uses "
+"the %(alastor)s + %(assault_rifle)s combination (hence the five \"A\"), like in %(izaak_deck)s from 2010. </p>"
+msgstr ""
+"<h2>Principe</h2> <p> C’est un deck <em>toolbox</em> avec %(anson)s en star, accompagné d’%(alexandra)s et "
+"d’%(anneke)s, d’où le nom “AAA”. </p> <p> Le deck est équilibré, il utilise %(second_tradition_domain)s pour le "
+"réveil et l’interception, %(concealed_weapon)s + %(magnum)s avec %(CEL)s pour le combat, %(parity_shift)s et "
+"%(aire_of_elation)s pour détruire la réserve de sa proie et le pouvoir d’%(anson)s pour régénérer et faire de la "
+"récursion avec %(ashur_tablets)s et %(liquidation)s. </p> <p> %(resist_earths_grasp)s peut donner un peu de "
+"discrétion ou être utilisé en combat si nécessaire. </p> <p> %(heart_of_the_city)s et "
+"%(codex_of_the_edenic_groundskeepers)s sont de bonnes améliorations de morsure pour la fin de partie. </p> <h2>Trucs "
+"& Astuces</h2> <p> %(entrancement)s peut permettre de se débarrasser d’alliés pénibles, %(scourge_of_the_enochians)s "
+"est inclus pour gérer les decks de breed. </p> <p> Alors que la partie progresse, les %(ashur_tablets)s sont "
+"utilisées pour leur récursivité afin d'adapter le deck au contexte de table en y remontant ce qui est vraiment utile."
+" </p> <h2>Variantes</h2> <p> La variante <strong>Anson Guns</strong> se concentre sur %(anson)s et néglige ses "
+"camarades Toréador pour leur préférer des vampires moins coûteux avec %(CEL)s, comme dans le %(tomasz_deck)s de 2019."
+" </p> <p> La variante <strong>Grand Ball</strong> retire le module de combat et utilise le pouvoir d’%(alexandra)s "
+"avec %(toreador_grand_ball)s pour donner des votes imblocables, comme dans le %(martin_deck)s de 2013. </p> <p> La "
+"variante <strong>Aching Beauty</strong> remplace aussi le module de combat par des %(majesty)s pour la défense, mais "
+"utilise %(aching_beauty)s en grand nombre pour rendre les actions des vampires difficiles à bloquer, comme dans le "
+"%(laszlo_deck)s de 2012. </p> <p> La variante <strong>AAAAA</strong> conserve %(alexandra)s et %(anneke)s et utilise "
+"la combinaison %(alastor)s + %(assault_rifle)s (d’où les cinq “A”), comme dans le %(izaak_deck)s de 2010. </p>"
+
+#: src/templates/archetypes/aaa.html:35
+msgid "Tomasz Izydorczyk's deck"
+msgstr "deck de Tomasz Izydorczyk"
+
+#: src/templates/archetypes/aaa.html:36
+msgid "Martin Miller's deck"
+msgstr "deck de Martin Miller"
+
+#: src/templates/archetypes/aaa.html:37
+msgid "László Walter's deck"
+msgstr "deck de László Walter"
+
+#: src/templates/archetypes/aaa.html:38
+msgid "Izaak Havelaar's deck"
+msgstr "deck d'Izaak Havelaar"
+
+#: src/templates/archetypes/akunanse-wall.html:42 src/templates/archetypes/anti-ventrue-grinder.html:76
+#: src/templates/archetypes/black-hand.html:24 src/templates/archetypes/death-star.html:38
+#: src/templates/archetypes/hunters.html:30 src/templates/archetypes/ishtarri-politics.html:35
+#: src/templates/archetypes/mistress.html:47 src/templates/archetypes/nosferatu-royalty.html:42
+#: src/templates/archetypes/spirit-marionette.html:59 src/templates/archetypes/ventrue-royalty.html:64
+#: src/templates/best-cards/clans/daughters-of-cacophony.html:92 src/templates/best-cards/clans/imbued.html:143
+#: src/templates/best-cards/clans/lasombra.html:102 src/templates/best-cards/clans/tremere.html:120
+#: src/templates/best-cards/clans/true-brujah.html:97 src/templates/best-cards/generic/celerity.html:32
+#: src/templates/best-cards/generic/fortitude.html:18 src/templates/best-cards/generic/master.html:56
+#: src/templates/best-cards/generic/no-discipline.html:165 src/templates/best-cards/generic/presence.html:20
+#: src/templates/strategy/combat.html:18 src/templates/strategy/fundamentals.html:232
+msgid "A&B"
+msgstr ""
+
+#: src/templates/archetypes/akunanse-wall.html:79
+msgid "Michael Bartsch"
+msgstr ""
+
+#: src/templates/archetypes/akunanse-wall.html:99
+msgid "Noel Giménez Infante's deck"
+msgstr "deck de Noel Giménez Infante"
+
+#: src/templates/archetypes/amaravati-politics.html:85
+msgid "Riccardo Fabiani's deck"
+msgstr "deck de Riccardo Fabiani"
+
+#: src/templates/archetypes/anti-ventrue-grinder.html:82
+msgid "Ravel Zorzal's deck"
+msgstr "deck de Ravel Zorzal"
+
+#: src/templates/archetypes/anti-ventrue-grinder.html:91
+msgid "Jackson Iribarren's deck"
+msgstr "deck de Jackson Iribarren"
+
+#: src/templates/archetypes/anti-ventrue-grinder.html:98
+msgid "Bob Joseph's deck"
+msgstr "deck de Bob Joseph"
+
+#: src/templates/archetypes/bima-dominate.html:59
+msgid "Ivor Blockley's deck"
+msgstr "deck d'Ivor Blockley"
+
+#: src/templates/archetypes/black-hand.html:67
+msgid "Mark Loughman's deck"
+msgstr "deck de Mark Loughman"
+
+#: src/templates/archetypes/black-hand.html:74
+msgid "Carlo Daniele's deck"
+msgstr "deck de Carlo Daniele"
+
+#: src/templates/archetypes/cats.html:48 src/templates/archetypes/ishtarri-politics.html:27
+#: src/templates/archetypes/kiasyd-stealth-bleed.html:36 src/templates/best-cards/generic/master.html:53
+#: src/templates/strategy/combat.html:19 src/templates/strategy/deck-guides/libertine-ball.html:103
+msgid "leeching"
+msgstr "transfusion"
+
+#: src/templates/archetypes/cats.html:85
+msgid "Yoann Guyader's deck"
+msgstr "deck de Yoann Guyader"
+
+#: src/templates/archetypes/cats.html:97
+msgid "Stephen Sing's deck"
+msgstr "deck de Stephen Sing"
+
+#: src/templates/archetypes/council-of-doom.html:70
+msgid "Ruben Feldman's deck"
+msgstr "deck de Ruben Feldman"
+
+#: src/templates/archetypes/daughters-politics.html:54 src/templates/archetypes/death-star.html:56
+msgid "Karl Schaefer's deck"
+msgstr "deck de Karl Schaefer"
+
+#: src/templates/archetypes/emerald-legion.html:68
+msgid "Richard Stefan Utner's deck"
+msgstr "deck de Richard Stefan Utner"
+
+#: src/templates/archetypes/euro-brujah.html:68 src/templates/archetypes/guruhi-rush.html:64
+msgid "Michael Heyder's deck"
+msgstr "deck de Michael Heyder"
+
+#: src/templates/archetypes/girls-will-find-inner-circle.html:71 src/templates/archetypes/nephandii.html:81
+msgid "Hugh Angseesing's deck"
+msgstr "deck de Hugh Angseesing"
+
+#: src/templates/archetypes/goratrix-high-tower.html:90
+msgid "Jakub Baranowski's deck"
+msgstr "deck de Jakub Baranowski"
+
+#: src/templates/archetypes/guruhi-rush.html:70
+msgid "Jorge Delgado's deck"
+msgstr "deck de Jorge Delgado"
+
+#: src/templates/archetypes/hunters.html:68
+msgid "Cory Busch Kendall's deck"
+msgstr "deck de Cory Busch Kendall"
+
+#: src/templates/archetypes/hunters.html:74
+msgid "John Newquist in a 2008 NAC Qualifier"
+msgstr "John Newquist pour le qualifier du NAC 2008"
+
+#: src/templates/archetypes/hunters.html:79 src/templates/archetypes/lasombra-nocturn.html:62
+#: src/templates/archetypes/ventrue-royalty.html:78
+msgid "Sergio Gracia's deck"
+msgstr "deck de Sergio Gracia"
+
+#: src/templates/archetypes/index.html:11
+#, python-format
+msgid ""
+"<p> Here is a list of <strong>Vampire: the Eternal Struggle</strong> deck archetypes. Every archetype is presented "
+"with %(twda)s deck list examples, main variations, and a play guide. </p> <p> Only archetypes having proven "
+"themselves against at least 25 players since 2008 are taken into account, with the exception of some original designs"
+" for strategic reference. Example decklists are the most recent ones, or the ones with a Continental Championship "
+"win. </p> <p> If you're searching for additional ideas or references, the %(bibliodeque)s is a French project based "
+"on the TWDA that references over 100 archetypes with example decklists, to help people building decks for their "
+"casual play or tournaments. </p>"
+msgstr ""
+"<p> Voici une liste d'archétypes de decks de <strong>Vampire: the Eternal Struggle</strong>. Chaque archétype est "
+"présenté avec un exemple de decklist de la %(twda)s, les principales variantes et un guide de jeu. </p> <p> Seuls les"
+" archétypes ayant fait leurs preuves contre au moins 25 joueurs depuis 2008 sont pris en compte, à l'exception de "
+"quelques designs originaux pour référence stratégique. Les decklist d'exemple sont les plus récentes, ou celles ayant"
+" gagné un Championnat Continental. </p> <p> Si vous cherchez plus d'idées ou de références, la %(bibliodeque)s est un"
+" projet français basé sur la TWDA qui référence plus de 100 archétypes avec des decklist d'exemple, afin d'aider les "
+"joueurs à construire des decks pour leurs parties amicales ou leurs tournois. </p>"
+
+#: src/templates/archetypes/ishtarri-politics.html:68
+msgid "Adam Hulse's deck"
+msgstr "deck d'Adam Hulse"
+
+#: src/templates/archetypes/ishtarri-politics.html:72
+msgid "Marcin Szybkowski"
+msgstr "Marcin Szybkowski"
+
+#: src/templates/archetypes/jost-powerbleed.html:66
+msgid "Moisés Ferrer's deck"
+msgstr "deck de Moisés Ferrer"
+
+#: src/templates/archetypes/jost-powerbleed.html:76 src/templates/archetypes/tupdogs.html:86
+msgid "Martin Weinmayer's deck"
+msgstr "deck de Martin Weinmayer"
+
+#: src/templates/archetypes/jost-powerbleed.html:86
+msgid "Rudolf Scholz's deck"
+msgstr "deck de Rudolf Scholz"
+
+#: src/templates/archetypes/khazars-diary.html:78
+msgid "Iñaki Puigdollers's deck"
+msgstr "deck d'Iñaki Puigdollers"
+
+#: src/templates/archetypes/khazars-diary.html:90
+msgid "Roberto Venturi's deck"
+msgstr "deck de Roberto Venturi"
+
+#: src/templates/archetypes/khazars-diary.html:101
+msgid "Enrico De Stefano's deck"
+msgstr "deck d'Enrico De Stefano"
+
+#: src/templates/archetypes/kiasyd-stealth-bleed.html:86
+msgid "Ben Peal's deck"
+msgstr "deck de Ben Peal"
+
+#: src/templates/archetypes/lasombra-nocturn.html:80
+msgid "Csaba Greguss's deck"
+msgstr "deck de Csaba Greguss"
+
+#: src/templates/archetypes/lutz-politics.html:81 src/templates/archetypes/tupdogs.html:92
+msgid "Danilo Torrisi's deck"
+msgstr "deck de Danilo Torrisi"
+
+#: src/templates/archetypes/lutz-politics.html:89
+msgid "Fabien Garcia's deck"
+msgstr "deck de Fabien Garcia"
+
+#: src/templates/archetypes/lutz-politics.html:95
+msgid "Otso Saariluoma's deck"
+msgstr "deck d'Otso Saariluoma"
+
+#: src/templates/archetypes/madness-reversal.html:54 src/templates/archetypes/nananimalism.html:71
+msgid "Orian Gissler's deck"
+msgstr "deck d'Orian Gissler"
+
+#: src/templates/archetypes/mind-rape.html:50
+msgid "Erol Hammer's deck"
+msgstr "deck d'Erol Hammer"
+
+#: src/templates/archetypes/mistress.html:50
+msgid "Benoît Moyen's deck"
+msgstr "deck de Benoît Moyen"
+
+#: src/templates/archetypes/mistress.html:53
+msgid "nice combination"
+msgstr "belle combinaison"
+
+#: src/templates/archetypes/nananimalism.html:78
+msgid "Kim Nilsson's deck"
+msgstr "deck de Kim Nilsson"
+
+#: src/templates/archetypes/nananimalism.html:83
+msgid "Ádám Horváth's deck"
+msgstr "deck d'Ádám Horváth"
+
+#: src/templates/archetypes/nephandii.html:86
+msgid "Greg Williams' deck"
+msgstr "deck de Greg Williams"
+
+#: src/templates/archetypes/nephandii.html:89
+msgid "Jordi Tomás' deck"
+msgstr "deck de Jordi Tomás"
+
+#: src/templates/archetypes/nephandii.html:90
+msgid "Jonathan Sanchez Rios' deck"
+msgstr "deck de Jonathan Sanchez Rios"
+
+#: src/templates/archetypes/nosferatu-royalty.html:76
+msgid "Gyula Erdõs' deck"
+msgstr "deck de Gyula Erdõs"
+
+#: src/templates/archetypes/nosferatu-royalty.html:83
+msgid "Iñaki Jimenez's deck"
+msgstr "deck d'Iñaki Jimenez"
+
+#: src/templates/archetypes/nosferatu-royalty.html:88 src/templates/archetypes/weenie-aus.html:82
+msgid "Pascal Bertrand's deck"
+msgstr "deck de Pascal Bertrand"
+
+#: src/templates/archetypes/ravnos-clown-car.html:60
+msgid "Miguel Pascual's deck"
+msgstr "deck de Miguel Pascual"
+
+#: src/templates/archetypes/renegade-assault.html:54
+msgid "Antti Tirilä's deck"
+msgstr "deck d'Antti Tirilä"
+
+#: src/templates/archetypes/saulot-friends.html:63
+msgid "Daniel Abreu's deck"
+msgstr "deck de Daniel Abreu"
+
+#: src/templates/archetypes/scout.html:62
+msgid "Djordje Bjelajac's deck"
+msgstr "deck de Djordje Bjelajac"
+
+#: src/templates/archetypes/shambling-hordes.html:56
+msgid "Andrzej Jagla's deck"
+msgstr "deck d'Andrzej Jagla"
+
+#: src/templates/archetypes/shambling-hordes.html:65
+msgid "Otto Kukkasniemi's deck"
+msgstr "deck d'Otto Kukkasniemi"
+
+#: src/templates/archetypes/spirit-marionette.html:67
+msgid "Yannick Gibert's deck"
+msgstr "deck de Yannick Gibert"
+
+#: src/templates/archetypes/spirit-marionette.html:70
+msgid "older version from Tomasz Kowalewski"
+msgstr "version plus ancienne de Tomasz Kowalewski"
+
+#: src/templates/archetypes/stanislava.html:80
+msgid "Janne Lönnqvist's deck"
+msgstr "deck de Janne Lönnqvist"
+
+#: src/templates/archetypes/stanislava.html:89
+msgid "Giulio De Cicco's deck"
+msgstr "deck de Giulio De Cicco"
+
+#: src/templates/archetypes/the-dark-side-of-politics.html:68 src/templates/archetypes/weenie-dom.html:64
+msgid "Vincent Ripoll's deck"
+msgstr "deck de Vincent Ripoll"
+
+#: src/templates/archetypes/the-unnamed.html:104
+msgid "Fernando Naves Resck's deck"
+msgstr "deck de Fernando Naves Resck"
+
+#: src/templates/archetypes/tzimisce-wall.html:78
+msgid "Nicola Lonardi's deck"
+msgstr "deck de Nicola Lonardi"
+
+#: src/templates/archetypes/ventrue-royalty.html:73
+msgid "Anthony Coleman's deck"
+msgstr "deck d'Anthony Coleman"
+
+#: src/templates/archetypes/war-chantry.html:100
+msgid "Ricardo Molina Sobreira's deck"
+msgstr "deck de Ricardo Molina Sobreira"
+
+#: src/templates/archetypes/war-chantry.html:110
+msgid "Pau Vilar's deck"
+msgstr "deck de Pau Vilar"
+
+#: src/templates/archetypes/war-ghouls.html:53
+msgid "Emiliano Imeroni's deck"
+msgstr "deck d'Emiliano Imeroni"
+
+#: src/templates/archetypes/war-ghouls.html:60
+msgid "Antonio Cobo Cuenca's deck"
+msgstr "deck d'Antonio Cobo Cuenca"
+
+#: src/templates/archetypes/weenie-aus.html:48
+msgid "classic deal"
+msgstr "deal classique"
+
+#: src/templates/archetypes/weenie-aus.html:77
+msgid "Christian Chénard's deck"
+msgstr "deck de Christian Chénard"
+
+#: src/templates/archetypes/weenie-dem.html:86
+msgid "Norbert Bróda's deck"
+msgstr "deck de Norbert Bróda"
+
+#: src/templates/archetypes/weenie-dem.html:94
+msgid "Bram van Stappen's deck"
+msgstr "deck de Bram van Stappen"
+
+#: src/templates/archetypes/weenie-dem.html:100
+msgid "Pawel Kosz's"
+msgstr "de Pawel Kosz"
+
+#: src/templates/archetypes/weenie-dom.html:57
+msgid "Manoel Pinheiro's deck"
+msgstr "deck de Manoel Pinheiro"
+
+#: src/templates/best-cards/_layout_card_column.html:7
+#, python-format
+msgid "played in %(num)d decks,"
+msgstr "joué dans %(num)d decks,"
+
+#: src/templates/best-cards/_layout_card_column.html:9
+msgid "typically 1 copy"
+msgstr "typiquement 1 exemplaire"
+
+#: src/templates/best-cards/_layout_card_column.html:11
+#, python-format
+msgid "typically %(range)s copies"
+msgstr "environ %(range)s exemplaires"
+
+#: src/templates/best-cards/index.html:5
+msgid "Best Cards"
+msgstr "Top Cartes"
+
+#: src/templates/best-cards/index.html:6
+#, python-format
+msgid ""
+"<p> This category presents the best cards of the game. The list is based on a statistical analysis of the %(twda)s "
+"provided by VEKN, considering the 2000+ decks from 2008 onward. The best cards are those that have been included in "
+"the most winning decks since then. </p> <p> All clan %(hunting_grounds)s and, on occasions, some low capacity "
+"vampires, have been omitted for convenience. </p>"
+msgstr ""
+"<p> Cette catégorie présente les meilleures cartes du jeu. La liste est basée sur une analyse statistique de la "
+"%(twda)s fournie par VEKN, en prenant en compte quelques 2000 decks depuis 2008. Les meilleures cartes sont celles "
+"ayant été inclues dans le plus grand nombre de decks gagnants depuis. </p> <p> Tous les %(hunting_grounds)s et, "
+"parfois, quelques vampires de basse capacité, ont été omis par commodité. </p>"
+
+#: src/templates/best-cards/index.html:43
+msgid ""
+"<p> Blood Brothers, Panders, Osebo, Nagaraja and Samedi are too rarely played to be included in this analysis: they "
+"lack the numbers for a statistical review to be relevant. </p> <p> Gargoyles are included in the Tremere clan "
+"analysis, all Imbued are included in the same analysis regardless of their creed. </p>"
+msgstr ""
+"<p> Les Frères de Sang, Pander, Osebo, Nagaraja et Samedi ont été trop peu joués pour être inclus dans cette analyse "
+": ils n'ont pas les nombres suffisants pour qu'une analyse statistique soit pertinente. </p> <p> Les Gargouille sont "
+"inclues dans le clan Tremere, tous les Illuminés sont inclus dans la même analyse quel que soit leur credo. </p>"
+
+#: src/templates/best-cards/clans/ahrimanes.html:7
+#, python-format
+msgid ""
+"<p> Ahrimanes and their unique discipline %(spi)s provide a stronger defence than the usual %(ani)s builds. Moreover,"
+" the acces to %(pre)s allow them more toolboxy constructs than mono %(ani)s, for a little more bleed. They offer "
+"basically two possible crypts, a group 2 with %(howler)s and %(the_siamese)s, and a group 4 with %(muricia)s and "
+"%(effie_lowery)s. </p> <p> This clan has only one main archetype: %(cats)s. Some Ahrimaines are good picks for mono "
+"%(ani)s archetypes as they offer %(ANI)s vampires for good value like %(effie_lowery)s and %(sahana)s. </p>"
+msgstr ""
+"<p> Les Ahrimanes et leur discipline exclusive %(spi)s donnent une meilleure défense que les constructions "
+"habituelles avec %(ani)s. De plus, leur accès à %(pre)s leur permet des constructions plus écléctiques que les mono "
+"%(ani)s, pour un peu plus de  morsure. Elles offrent principalement deux cryptes, une au groupe 2 avec %(howler)s et "
+"%(the_siamese)s et une au groupe 4 avec %(muricia)s et %(effie_lowery)s. </p> <p> Ce clan n'a qu'un archétype "
+"principal : %(cats)s. Quelques Ahrimaines sont de bons choix pour les archétypes mono %(ani)s puisqu'elles offrent "
+"des vampires avec %(ANI)s pour un coût raisonnable, comme %(effie_lowery)s et %(sahana)s. </p>"
+
+#: src/templates/best-cards/clans/ahrimanes.html:33
+#, python-format
+msgid "Superior %(ANI)s and %(SPI)s at a very decent cost of 5, she is even included in pure %(ANI)s crypts."
+msgstr ""
+"%(ANI)s et %(SPI)s en supérieur pour un coût très raisonnable à 5, elle est même inclue dans les cryptes purement "
+"%(ANI)s."
+
+#: src/templates/best-cards/clans/ahrimanes.html:39
+#, python-format
+msgid ""
+"Leader of the group 4 crypt, she has all clan disciplines %(SPI_ANI_PRE)s at superior for a reasonnable cost of 7. "
+"The +1 strength bonus is always good to take: she can use a little less %(aid_from_bats)s for a little more "
+"%(carrion_crows)s."
+msgstr ""
+"Leader de la crypt de groupe 4, elle a toutes les disciplines de clan %(SPI_ANI_PRE)s en supérieur pour un coût "
+"raisonnable de 7. Le bonus de +1 strength est toujours bon à prendre : elle peut utiliser un peu moins "
+"d'%(aid_from_bats)s pour un peu plus de %(carrion_crows)s."
+
+#: src/templates/best-cards/clans/ahrimanes.html:51
+#, python-format
+msgid ""
+"Leader of the group 2 crypt, she has all clan disciplines %(SPI_ANI_PRE)s at superior for a cost of 8. The maneuver "
+"combined with the +1 strength bonus makes her a good warrior on her own."
+msgstr ""
+"Leader de la crypt de groupe 2, elle a toutes les disciplines de clan %(SPI_ANI_PRE)s en supérieur pour un coût de 8."
+" La manœuvre combinée au bonus de +1 strength en fait intrinsèquement une bonne guerrière."
+
+#: src/templates/best-cards/clans/ahrimanes.html:61
+#, python-format
+msgid ""
+"A nice rush action, slightly better than %(bums_rush)s. It is often played in %(aus)s constructs for its base effect,"
+" as %(ani)s provides the arguably better %(deep_song)s already."
+msgstr ""
+"Une bonne action de rush, un peu meilleure que %(bums_rush)s. Elle est souvent jouée dans les constructions %(aus)s "
+"pour son effet de base, puisque %(ani)s donne déjà accès à %(deep_song)s, sans doute meilleur."
+
+#: src/templates/best-cards/clans/ahrimanes.html:72
+msgid ""
+"An excellent unlock and intercept reaction, the core of most Ahrimanes defensive modules. An unlock is better than a "
+"simple wake, and the card is cheap: it costs blood only if both unlock and intercept are needed."
+msgstr ""
+"Une excellente réaction de redressement et d'interception, le cœur de la plupart des modules défensifs Ahrimanes. Un "
+"redressement est meilleur qu'un simple réveil et la carte est bon marché : elle ne coûte du sang que si le "
+"redressement et l'interception sont tous deux nécessaires."
+
+#: src/templates/best-cards/clans/ahrimanes.html:80
+#, python-format
+msgid ""
+"A versatile tool: it is decisive in combat and works well with the %(ani)s classic combination of %(aid_from_bats)s "
+"and %(carrion_crows)s. Moreover, the optional +1 stealth is very useful to get critical actions through. It is a "
+"straight upgrade over the similar %(resist_earths_grasp)s."
+msgstr ""
+"Un outil versatile : il est décisif en combat et fonctionne bien avec la cominaison %(ani)s classique "
+"d'%(aid_from_bats)s et %(carrion_crows)s. De plus, le +1 stealth en option est très utile pour passer des action "
+"critiques. C'est une nette amélioration par rapport à %(resist_earths_grasp)s."
+
+#: src/templates/best-cards/clans/ahrimanes.html:93
+#, python-format
+msgid ""
+"The only card apart %(aus)s %(eagles_sight)s and %(anneke)s to allow cross-table blocks, it is a drastic improvement "
+"over the classical %(ani)s intercept module. The ability to intercept one's prey bleed or a cross-table vote is "
+"critical to %(wall_decks)s."
+msgstr ""
+"La seule carte avec %(aus)s %(eagles_sight)s et %(anneke)s qui permet les blocages non standards, c'est une "
+"amélioration drastique pour le module d'interception %(ani)s classique. La possibilité d'intercepter les morsures de "
+"sa proie ou les votes en face est critique pour les %(wall_decks)s."
+
+#: src/templates/best-cards/clans/ahrimanes.html:96 src/templates/best-cards/generic/auspex.html:86
+#: src/templates/best-cards/generic/master.html:85
+msgid "wall decks"
+msgstr "decks mur"
+
+#: src/templates/best-cards/clans/ahrimanes.html:105
+#, python-format
+msgid ""
+"A strong intercept boost on par with %(aus)s %(enhanced_senses)s, this completes the %(spi)s toolset for intercept. "
+"Combined with %(falcons_eye)s and %(speak_with_spirits)s, along %(ani)s %(cats_guidance)s, it delivers an intercept "
+"module as solid as %(aus)s."
+msgstr ""
+"Un bon boost d'interception comparable à %(aus)s %(enhanced_senses)s, il complète la panoplie %(spi)s pour "
+"l'interception. Cominé à %(falcons_eye)s et %(speak_with_spirits)s, ainsi que %(ani)s %(cats_guidance)s, il fournit "
+"un module d'interception comparable à %(aus)s."
+
+#: src/templates/best-cards/clans/akunanse.html:14 src/templates/strategy/deck-building.html:234
+msgid "combat ends"
+msgstr "fin de combat"
+
+#: src/templates/best-cards/clans/assamite.html:11
+msgid "Amaravati politics"
+msgstr ""
+
+#: src/templates/best-cards/clans/assamite.html:23
+msgid "Dimitri's Big Band"
+msgstr ""
+
+#: src/templates/best-cards/clans/baali.html:108
+msgid "own archetype"
+msgstr "propre archétype"
+
+#: src/templates/best-cards/clans/gangrel.html:91
+msgid "Girls Will Find Inner Circles"
+msgstr ""
+
+#: src/templates/best-cards/clans/salubri.html:40
+msgid "an archetype of its own"
+msgstr "un archétype à lui"
+
+#: src/templates/best-cards/clans/toreador.html:58 src/templates/best-cards/clans/toreador.html:104
+msgid "AAA archetype"
+msgstr ""
+
+#: src/templates/best-cards/clans/ventrue.html:10 src/templates/strategy/archetypes.html:267
+msgid "Anti Ventrue Grinder"
+msgstr ""
+
+#: src/templates/best-cards/generic/master.html:86
+msgid "block denial"
+msgstr "déni de blocage"
+
+#: src/templates/best-cards/generic/no-discipline.html:242 src/templates/strategy/deck-building.html:235
+msgid "bruise"
+msgstr "érosion"
+
+#: src/templates/online-play/index.html:6
+#, python-format
+msgid ""
+"<p> This category presents tools for online play. Each section presents a different tool, the ways to reach its "
+"community and the basic Étiquette when using it. </p> <p> Regardless of the tool, %(amaranth)s and %(vtes_db)s can be"
+" used for deck building. </p>"
+msgstr ""
+"<p> Cette catégorie présente les outils pour jouer en ligne. Chaque section présente une plateforme différente, la "
+"manière d'entrer en contact avec sa communauté et l'étiquette à respecter lors de son utilisation. </p> <p> Quel que "
+"soit l'outil utilisé, %(amaranth)s et %(vtes_db)s peuvent être utilisés pour la construction de deck. </p>"
+
+#: src/templates/online-play/lackeyccg.html:7
+#, python-format
+msgid ""
+"%(lackey)s is an old software to play Collectible Card Games online. It is still the foremost online plateform when "
+"it comes to play <strong>V:tES</strong> in real time, as it is free and up-to-date cardwise."
+msgstr ""
+"%(lackey)s est un vieux logiciel conçu pour jouer aux jeux de cartes à collectionner en ligne. Il s'agit encore "
+"aujourd'hui de la plateforme principale quand il s'agit de jouer à <strong>V:tES</strong> en temps réel, étant donné "
+"qu'il est gratuit et à jour en ce qui concerne les cartes."
+
+#: src/templates/online-play/lackeyccg.html:15 src/templates/online-play/tabletop-simulator.html:16
+#: src/templates/online-play/vtes-online.html:15
+msgid "Install"
+msgstr "Installation"
+
+#: src/templates/online-play/lackeyccg.html:17
+#, python-format
+msgid "Go to the %(lackey)s page and install the software on your system."
+msgstr "Allez sur la page de %(lackey)s et installez le logiciel sur votre système."
+
+#: src/templates/online-play/lackeyccg.html:24
+msgid "On Mac OSX"
+msgstr "Sur Mac OSX"
+
+#: src/templates/online-play/lackeyccg.html:26
+msgid "The system's security prevents the application to run:"
+msgstr "La sécurité du système empêche l'application de tourner :"
+
+#: src/templates/online-play/lackeyccg.html:30
+#, python-format
+msgid ""
+"If you just allow it in your system preference, it will take you to a \"Missing fonts\" %(error_web_page)s instead of"
+" launching. To fix it, open a Terminal and type the following command:<br /> %(command_line)s<br /> Replace the last "
+"part with the path of your LackeyCCG folder if you did not put it in the Applications folder."
+msgstr ""
+"Si vous vous contentez de permettre son lancement dans vos préférences système, elle vous enverra vers une "
+"%(error_web_page)s indiquant \"Missing fonts\" au lieu de se lancer. Pour corriger le problème, ouvrez un Terminal et"
+" tapez la commande suivante :<br /> %(command_line)s<br /> Remplacez la dernière partie avec le chemin d'accès de "
+"votre dossier LackeyCCG si vous ne l'avez pas mis dans le dossier Applications."
+
+#: src/templates/online-play/lackeyccg.html:32
+msgid "error web page"
+msgstr "page web d’erreur"
+
+#: src/templates/online-play/lackeyccg.html:44
+msgid "On Windows"
+msgstr "Sur Windows"
+
+#: src/templates/online-play/lackeyccg.html:46
+msgid "The system's security prevents the application to run if it is not run with <strong>admin privileges</strong>."
+msgstr ""
+"La sécurité du système vous empêchera de lancer l'application si elle n'est pas lancée avec les <strong>privilèges "
+"administrateur</strong>."
+
+#: src/templates/online-play/lackeyccg.html:53
+#, python-format
+msgid ""
+"Go to the %(plugins)s tab and paste this AutoUpdate URL to activate the <strong>VtES</strong> plugin:<br /> "
+"%(autoupdate_url)s<br /> then click the %(install)s button."
+msgstr ""
+"Go to the %(plugins)s tab and paste this AutoUpdate URL to activate the <strong>VtES</strong> plugin:<br /> "
+"%(autoupdate_url)s<br /> then click the %(install)s button."
+
+#: src/templates/online-play/lackeyccg.html:66
+#, python-format
+msgid ""
+"This takes a few minutes. Once the download is finished and displays %(autoupdate_finished)s, click the "
+"%(browse_installed)s button, select the %(vtes)s plugin and click the %(choose)s button."
+msgstr ""
+"Cela prend quelques minutes. Une fois le téléchargement terminé et que %(autoupdate_finished)s s'affiche, cliquez le "
+"bouton %(browse_installed)s, sélectionnez le plugin %(vtes)s et cliquez sur le bouton %(choose)s."
+
+#: src/templates/online-play/lackeyccg.html:78
+#, python-format
+msgid ""
+"The interface has now adopted <strong>VtES</strong> colors. Go back to the %(plugins)s tab and click the "
+"%(download_images)s button. You can let that run in the background as it takes around 30 minutes, but this will avoid"
+" unneccessary delays when displaying card images during play."
+msgstr ""
+"L'interface utilise désormais les couleurs de <strong>VtES</strong>. Retournez sur l'onglet %(plugins)s et cliquez "
+"sur le bouton %(download_images)s. Vous pouvez laisser tourner en arrière-plan car cela prend environ 30 minutes, "
+"mais cela évitera les délais d'affichage superflus lors de l'affichage des cartes."
+
+#: src/templates/online-play/lackeyccg.html:90
+#, python-format
+msgid "Now go to the %(preferences)s tab and choose a suitable nickname. You're all set."
+msgstr "Maintenant retournez sur l'onglet %(preferences)s et choisissez un surnom adapté. Vous êtes prêt."
+
+#: src/templates/online-play/lackeyccg.html:97 src/templates/online-play/tabletop-simulator.html:30
+#: src/templates/online-play/vtes-online.html:31
+msgid "Play"
+msgstr "Jouer"
+
+#: src/templates/online-play/lackeyccg.html:99
+#, python-format
+msgid "To find an online game, go to the %(server)s tab and click the %(connect)s button."
+msgstr "Pour trouver une partie en ligne, allez sur l'onglet %(server)s et cliquez sur le bouton %(connect)s."
+
+#: src/templates/online-play/lackeyccg.html:108
+#, python-format
+msgid ""
+"To use your decks exported from %(amaranth)s (use the %(export)s button), you have to copy the text file into the "
+"%(lackey_deck)s folder. You can then find them in <em>LackeyCCG</em> %(deck_editor)s tab by clicking on the "
+"%(browse)s button."
+msgstr ""
+"Pour utiliser vos decks exportés depuis %(amaranth)s (utilisez le bouton %(export)s), vous devez copier le fichier "
+"texte dans le dossier %(lackey_deck)s. Vous pouvez les trouver dans l'onglet %(deck_editor)s de <em>LackeyCCG</em> en"
+" cliquant sur le bouton %(browse)s."
+
+#: src/templates/online-play/lackeyccg.html:123
+#, python-format
+msgid ""
+"Alternatively, you can use the %(paste)s button to paste the decklist directly in a new deck. Make sure to paste the "
+"library and crypt parts independantly in this case."
+msgstr ""
+"Alternativement, vous pouvez utiliser le bouton %(paste)s pour coller votre decklist directement dans un nouveau "
+"deck. Make sure to paste the library and crypt parts independantly in this case."
+
+#: src/templates/online-play/lackeyccg.html:131
+msgid "Finally, make sure you click the green + buttons in the interface to get access to all the menus."
+msgstr "Enfin, assurez-vous d'avoir cliqué sur les boutons verts + de l'interface pour avoir accès à tous les menus."
+
+#: src/templates/online-play/lackeyccg.html:137
+msgid "Keyboard Layout"
+msgstr "Mapping de clavier"
+
+#: src/templates/online-play/lackeyccg.html:139
+msgid ""
+"LackeyCCG uses a non-configurable US keyboard layout. This means you may not be able to use punctuation and numbers "
+"when typing if you do not have a US keyboard. The only known \"workaround\" is to configure your system keyboard to "
+"us an US mapping."
+msgstr ""
+"LackeyCCG utilise un mapping de clavier US non configurable. Cela signifie que vous ne pourrez pas utiliser de "
+"ponctuation ou de nombres quand vous tapez si vous n'utilisez pas un clavier US. Le seul \"contournement\" connu est "
+"de configurer votre mapping de clavier comme US au niveau du système."
+
+#: src/templates/online-play/lackeyccg.html:146 src/templates/online-play/tabletop-simulator.html:48
+msgid "Useful commands"
+msgstr "Commandes utiles"
+
+#: src/templates/online-play/lackeyccg.html:148
+#, python-format
+msgid "Note that you can configure keyboard shortcuts to your liking in the %(preferences)s tab."
+msgstr "Notez que vous pouvez configurer les raccourcis clavier à votre convenance dans l'onglet %(preferences)s."
+
+#: src/templates/online-play/lackeyccg.html:155
+msgid "Lock or Unlock"
+msgstr "Incliner ou Redresser"
+
+#: src/templates/online-play/lackeyccg.html:156
+msgid "Add a blood"
+msgstr "Ajouter un point de sang"
+
+#: src/templates/online-play/lackeyccg.html:157
+msgid "Remove a blood"
+msgstr "Enlever un point de sang"
+
+#: src/templates/online-play/lackeyccg.html:158
+msgid "Draw a card from library"
+msgstr "Piocher une carte de la bibliothèque"
+
+#: src/templates/online-play/lackeyccg.html:159
+msgid "Peek at the face of one of your crypt card"
+msgstr "Voir la face d'une de vos cartes de crypte"
+
+#: src/templates/online-play/lackeyccg.html:163
+msgid "range of commands"
+msgstr "série de commandes"
+
+#: src/templates/online-play/lackeyccg.html:162
+#, python-format
+msgid ""
+"Lackey also offers a %(range_of_commands)s to use in the chat window (beginning with \"/\"). Among them, the "
+"%(secret)s and %(reveal)s command can be useful for some cards."
+msgstr ""
+"Lackey offre une %(range_of_commands)s qui peuvent être utilisées dans la fenêtre de chat (en commençant par \"/\"). "
+"Parmi elles, les commandes %(secret)s et %(reveal)s peuvent être utiles pour certaines cartes."
+
+#: src/templates/online-play/tabletop-simulator.html:7
+#, python-format
+msgid ""
+"%(tabletop_simulator)s is a Steam app to play tabletop games. It has fan-made plugins to play V:tES online with "
+"friends. It is mostly used among friends who want to play the game between themselves, as there is no matching server"
+" to find fellow players inside the application itself."
+msgstr ""
+"%(tabletop_simulator)s est une application Steam permettant de jouer à des jeux de plateau. Il existe des plugins "
+"amateurs pour jouer à V:tES en ligne. Il est principalement utilisé pour des parties entre amis, car il n'y a pas de "
+"serveur de matching pour trouver d'autres joueurs au sein de l'application."
+
+#: src/templates/online-play/tabletop-simulator.html:18
+#, python-format
+msgid ""
+"Buy and install the %(tabletop_simulator)s application using <em>Steam</em>. Then install %(this_collection)s of "
+"plugins. Use the relevant plugin to create your deck. Once the deck is ready, select the two stacks (Library and "
+"Crypt), then right-click and choose %(save_object)s to save your deck."
+msgstr ""
+"Achetez et installez l'application %(tabletop_simulator)s en utilisant <em>Steam</em>. Puis installez "
+"%(this_collection)s de plugins. Utilisez le plugin adapté pour créer votre deck. Une fois le deck prêt, sélectionnez "
+"les deux paquets (bibliothèque et crypte), puis cliquez droit et choisissez %(save_object)s pour sauver votre deck."
+
+#: src/templates/online-play/tabletop-simulator.html:20
+msgid "this collection"
+msgstr "cette collection"
+
+#: src/templates/online-play/tabletop-simulator.html:32
+#, python-format
+msgid ""
+"Find a group of friends then create a game and invite them. Load one of your decks by clicking on the %(objects)s "
+"button: your decks should be in the %(saved_objects)s section."
+msgstr ""
+"Trouvez un groupe d,amis puis créz une partie et invitez-les. Chargez l'un de vos decks en cliquant sur le bouton "
+"%(objects)s : vos decks devraient se trouver dans la section %(saved_objects)s."
+
+#: src/templates/online-play/tabletop-simulator.html:43
+msgid "Make sure you set the rotation on 90º (topside button on the right) for easy lock and unlock."
+msgstr ""
+"Assurez-vous de régler la rotation à 90º (bouton en haut à droite) pour pouvoir incliner et redresser vos cartes "
+"facilement."
+
+#: src/templates/online-play/tabletop-simulator.html:50
+msgid "Lock"
+msgstr "Incliner"
+
+#: src/templates/online-play/tabletop-simulator.html:51
+msgid "Unlock"
+msgstr "Redresser"
+
+#: src/templates/online-play/tabletop-simulator.html:52
+msgid "Flip card"
+msgstr "Retourner une carte"
+
+#: src/templates/online-play/tabletop-simulator.html:53
+msgid "Hover over a deck and type a number N"
+msgstr "Passer sur un deck et tapez un nombre N"
+
+#: src/templates/online-play/tabletop-simulator.html:53
+msgid "Draw N cards"
+msgstr "Piocher N cartes"
+
+#: src/templates/online-play/vtes-online.html:7
+#, python-format
+msgid ""
+"%(vtes_online)s, previously named \"JOL\" (as in Jyhad OnLine) is the oldest online platform for online V:TES play. "
+"It is focused on non-real-time play, meaning a single game can span over days while players interact in an "
+"asynchronous fashion."
+msgstr ""
+"%(vtes_online)s, auparavant appelé \"JOL\" (c'est-à-dire Jyhad OnLine) est la plateforme de jeu en ligne de V:TES la "
+"plus ancienne. Elle est centrée sur le jeu en temps non réel, c'est-à-dire qu'une seul partie peut dure des jours "
+"tandis que les joueurs interagissent de manière asynchrone."
+
+#: src/templates/online-play/vtes-online.html:17
+#, python-format
+msgid ""
+"No install is required as %(vtes_online)s is played in browser. However, it is strongly recommanded to join the "
+"%(jol_discord_server)s. You can use the %(decks)s menu to build you decks, or just paste a deck exported from "
+"%(amaranth)s (use the %(export)s button)."
+msgstr ""
+"Aucune installation n'est nécessaire puisque %(vtes_online)s se joue dans le navigateur. Cependant il est fortement "
+"recommandé de rejoindre le %(jol_discord_server)s. Vous pouvew utiliser le menu %(decks)s pour construire vos decks, "
+"ou juste collé un deck exporté depuis %(amaranth)s (utilisez le bouton %(export)s)."
+
+#: src/templates/online-play/vtes-online.html:19
+msgid "JOL Discord Server"
+msgstr "Serveur Discord JOL"
+
+#: src/templates/online-play/vtes-online.html:33
+#, python-format
+msgid ""
+"You need to ask around on the main chat for someone to create a game for you. If you're a regular player, you will "
+"probably get the necessary role soon enough. Once you're in a game, check the %(help)s menu topside for the necessary"
+" commands."
+msgstr ""
+"Vous devez demander dans le chat principal pour que quelqu'un vous crée une partie. Si vous jouez régulièrement, vous"
+" aurez rapidement le rôle nécessaire à cet effet. Une fois la partie commencée, allez voir le menu %(help)s en haut "
+"pour les commandes nécessaires."
+
+#: src/templates/online-play/vtes-online.html:41
+msgid "Commands"
+msgstr "Commandes"
+
+#: src/templates/online-play/vtes-online.html:43
+msgid "Add or remove pool"
+msgstr "Ajouter ou enlever de l'influence"
+
+#: src/templates/online-play/vtes-online.html:44
+msgid "Add or remove blood"
+msgstr "Ajouter ou enlever du sang"
+
+#: src/templates/online-play/vtes-online.html:46
+msgid "Increase or decrease capacity"
+msgstr "Augmenter ou baisser la capacité"
+
+#: src/templates/online-play/vtes-online.html:47
+msgid "Discard"
+msgstr "Défausser"
+
+#: src/templates/online-play/vtes-online.html:48
+msgid "Draw"
+msgstr "Piocher"
+
+#: src/templates/online-play/vtes-online.html:49
+msgid "Take or move the edge"
+msgstr "Prendre ou déplacer l'avantage"
+
+#: src/templates/online-play/vtes-online.html:50
+msgid "Put a label on a card"
+msgstr "Mettre une note sur une carte"
+
+#: src/templates/online-play/vtes-online.html:52
+msgid "Move a card"
+msgstr "Déplacer une carte"
+
+#: src/templates/online-play/vtes-online.html:53
+msgid "Reorder players seatings"
+msgstr "Réarranger l'ordre de jeu"
+
+#: src/templates/online-play/vtes-online.html:55
+msgid "Play a card"
+msgstr "Jouer une carte"
+
+#: src/templates/online-play/vtes-online.html:56
+msgid "Roll a die"
+msgstr "Lancer un dé"
+
+#: src/templates/online-play/vtes-online.html:57
+msgid "Show a card"
+msgstr "Montre une carte"
+
+#: src/templates/online-play/vtes-online.html:58
+msgid "Shuffle cards"
+msgstr "Mélanger des cartes"
+
+#: src/templates/online-play/vtes-online.html:60
+msgid "Transfer blood"
+msgstr "Transférer du sang"
+
+#: src/templates/online-play/vtes-online.html:62
+msgid "Lock a card"
+msgstr "Incliner une carte"
+
+#: src/templates/online-play/vtes-online.html:63
+msgid "Unlock a card"
+msgstr "Redresser une carte"
+
+#: src/templates/online-play/vtes-online.html:66
+msgid "Mark the number of votes on a vampire"
+msgstr "Indiquer le nombre de votes d'un vampire"
+
+#: src/templates/strategy/archetypes.html:163 src/templates/strategy/table-talk.html:4
+msgid "Table talk"
+msgstr "Discussion"
+
+#: src/templates/strategy/bloat.html:6
+msgid ""
+"Pool is the core resource of the game. The more the better: more pool means more life and more minions. All efficient"
+" decks have at least a basic <strong>bloat</strong> module: a group of cards designed to get pool back. Getting blood"
+" on uncontrolled vampires amounts to bloating, as the blood can easily be taken back using a few transfers."
+msgstr ""
+"La réserve d'influence est la ressource clé du jeu. Plus on en a, mieux on se porte : plus d'influence signifie une "
+"meilleure survie et plus de serviteurs. Tous les decks efficaces ont un module de <strong>régénération</strong> "
+"élémentaire : un ensemble de cartes destinées à regagner de l'influence. Regagner du sang sur des vampires non "
+"contrôlés revient à régénérer l'influence, puisque le sang peut facilement être récupéré grâce à quelques transferts."
+
+#: src/templates/strategy/bloat.html:14
+msgid "Leeching"
+msgstr "Transfusion"
+
+#: src/templates/strategy/bloat.html:16
+msgid ""
+"Getting pool back by taking blood from one’s minions — commonly known as <strong>leeching</strong> — is the most "
+"common way to bloat. This technique makes use of the following Master cards:"
+msgstr ""
+"Récupérer de l'influence en prenant le sang de ses serviteurs — une technique communément appelée la "
+"<strong>transfusion</strong> — est la méthode de régénération la plus répandue. Cette technique peut faire usage des "
+"cartes Maître suivantes :"
+
+#: src/templates/strategy/bloat.html:38
+#, python-format
+msgid ""
+"It does take some Master cards slots out in a deck, and it leaves your minions somewhat weakened. Still, a vampire "
+"may act and use all its disciplines even with only 1 blood left. The two trifles, %(villein)s and %(vessel)s, are "
+"appealing as they do not use up a Master card slot, but they are a bit less efficient thant their plain counterparts."
+msgstr ""
+"Cela prend quelques emplacement de cartes Maître dans un deck, et laisse les serviteurs quelque peu affaiblis. Malgré"
+" tout, un vampire peut agir et utiliser toutes ses disciplines même avec un seul point de sang. Les deux cartes "
+"triviales, %(villein)s and %(vessel)s, sont tentantes car elles ne consomment pas d'action de Maître, mais elles sont"
+" aussi un peu moins efficaces que leurs équivalents standards."
+
+#: src/templates/strategy/bloat.html:49
+msgid "Villein errata"
+msgstr "Errata de Villein"
+
+#: src/templates/strategy/bloat.html:51
+#, python-format
+msgid ""
+"%(villein)s has seen its card text change in June 2018: it now has an <strong>upper limit of 5 blood</strong>, which "
+"was not the case before. Be careful when reading an older deck list, as it may use %(villein)s where %(minion_tap)s "
+"would be a better fit nowadays."
+msgstr ""
+"Le text de %(villein)s a été changé en juin 2018 : il a maintenant une <strong>limite de 5 sang</strong>, ce qui "
+"n'était pas le cas auparavant. Soyez attentif en consultant une ancienne decklist, car elle peut utiliser %(villein)s"
+" là où %(minion_tap)s serait plus adéquat de nos jours."
+
+#: src/templates/strategy/bloat.html:63
+#, python-format
+msgid ""
+"Decks that use this technique may improve it by including some cards to regenerate their vampires blood, as it has "
+"effectively become a source of pool. %(hunting_grounds)s can be used – there is one for almost each clan, plus more "
+"generic hunting grounds or cards that have a similar effect:"
+msgstr ""
+"Les decks qui utilisent cette technique peuvent l'améliorer en incluant des cartes pour régénérer le sang de leurs "
+"vampires, puisqu'il est devenu une source d'influence. Les %(hunting_grounds)s peuvent être utilisés – il y en a un "
+"pour chaque clan, plus des hunting grounds génériques ou des cartes qui ont des effets similaires :"
+
+#: src/templates/strategy/bloat.html:75 src/templates/strategy/bloat.html:127 src/templates/strategy/bloat.html:131
+#: src/templates/strategy/deck-building.html:137
+msgid "needs to be defended"
+msgstr "doit être défendu"
+
+#: src/templates/strategy/bloat.html:76
+msgid "City titled vampires"
+msgstr "Vampires avec un titre de ville"
+
+#: src/templates/strategy/bloat.html:87
+msgid "Black Hand, costly and fragile"
+msgstr "Black Hand, coûteux et fragile"
+
+#: src/templates/strategy/bloat.html:90
+msgid "costly and fragile"
+msgstr "coûteux et fragile"
+
+#: src/templates/strategy/bloat.html:91
+msgid "costly and less efficient"
+msgstr "coûteux et moins efficace"
+
+#: src/templates/strategy/bloat.html:94
+msgid ""
+"Finally, a handful of cards can augment the blood amount vampires get from hunting, which is another way to "
+"regenerate their blood:"
+msgstr ""
+"Enfin, une poignée de cartes augmentent la quantité de sang que les vampires peuvent récupérer en chassant, ce qui "
+"est une autre manière de régénérer leur sang :"
+
+#: src/templates/strategy/bloat.html:106
+msgid "Master bloating"
+msgstr "Régénération par cartes Maître"
+
+#: src/templates/strategy/bloat.html:108
+msgid ""
+"Another alternative is to let the minions use their blood as they see fit and focus on generating pool directly using"
+" Master cards. A few cards allow this:"
+msgstr ""
+"Une autre alternative est de laisser les serviteurs utiliser leur sang comme ils le souhaitent et se concentrer sur "
+"générer de l'influence directement en utilisant des cartes Maître. Quelques cartes le permettent :"
+
+#: src/templates/strategy/bloat.html:119
+#, python-format
+msgid "(uses up a lot of Master slots, best in an MMPA archetypes like %(girls)s)"
+msgstr "(consomme beaucoup d'emplacements de cartes Maître, a sa place dans les archétypes MMPA comme %(girls)s)"
+
+#: src/templates/strategy/bloat.html:161
+#, python-format
+msgid ""
+"Generic investments %(secret_horde)s and %(protracted_investment)s are rarely played, as they need many Master "
+"actions and %(ashur_tablets)s are generally preferred when one has enough master actions to play them."
+msgstr ""
+"Les investissements génériques %(secret_horde)s et %(protracted_investment)s sont rarement joués, puisqu'ils "
+"consomment une action de Maître et qu'%(ashur_tablets)s leur est généralement préféré lorsque l'on dispose d'assez "
+"d'actions de Maître pour les jouer."
+
+#: src/templates/strategy/bloat.html:173
+msgid "Clan masters"
+msgstr "Cartes maître de clan"
+
+#: src/templates/strategy/bloat.html:174
+msgid "5 clans give access to a unique location generating pool:"
+msgstr "5 clans donnent accès à un lieu unique qui génère de l'influence :"
+
+#: src/templates/strategy/bloat.html:198
+#, python-format
+msgid ""
+"<p> Fast decks can rely on the fact they should score their first Victory Point early and use %(momentums_edge)s and "
+"%(gambit_accepted)s. </p> <p> Finally, those ready to pay the price can even sacrifice some vampires to get some pool"
+" back with %(golconda_inner_peace)s, %(khobar_towers_al_khubar)s (%(img_clan_followers_of_set)s) or "
+"%(redeem_the_lost_soul)s. </p> <h2 id=\"action-bloating\">Action bloating</h2> <p> The last alternative is to use "
+"actions directly to bloat. This is excellent if the action has a powerful alternative, like the infamous %(DOM)s "
+"%(govern_the_unaligned)s or %(PRE)s %(enchant_kindred)s and %(scouting_mission)s, or if the bloat is a side-effect of"
+" a useful action, like %(PRE)s %(legal_manipulations)s and %(social_charm)s, or %(DEM)s %(kindred_spirits)s. </p> <p>"
+" Actions getting blood on uncontrolled vampires with no alternative are less efficient. They can still come in handy "
+"when used in swarm constructs to get many vampiers out quickly, as is the case for %(img_clan_toreador_anti)s "
+"%(art_scam)s and Black Hand %(reunion_kamut)s, but otherwise they are only used sparsingly. %(img_clan_guruhi)s "
+"%(founders_of_the_ebony_kingdom)s and %(img_clan_assamite)s %(khabar_glory)s deserve a special motion, as they are "
+"unusually high on blood gain. </p>"
+msgstr ""
+"<p> Les decks rapides peuvent compter sur le fait qu'ils devraient marquer leur premier Point de Victoire rapidement "
+"pour jouer %(momentums_edge)s et %(gambit_accepted)s. </p> <p> Enfin, ceux qui sont prêts à en payer le prix peuvent "
+"sacrifier quelques vampires pour récupérer de l'influence avec %(golconda_inner_peace)s, %(khobar_towers_al_khubar)s "
+"(%(img_clan_followers_of_set)s) ou %(redeem_the_lost_soul)s. </p> <h2 id=\"action-bloating\">Régénération par "
+"action</h2> <p> La dernière alternative est d'utiliser des actions directement pour régénérer l'influence. C'est "
+"excellent si l'action présente une alternative puissante, comme le fameux %(DOM)s %(govern_the_unaligned)s ou %(PRE)s"
+" %(enchant_kindred)s et %(scouting_mission)s, ou si la régénération est un effet de bord d'une action déjà utile, "
+"comme %(PRE)s %(legal_manipulations)s et %(social_charm)s, ou %(DEM)s %(kindred_spirits)s. </p> <p> Les actions "
+"permettant de mettre du sang sur des vampires non contrôlés sans alternative sont moins efficaces. Elles peuvent tout"
+" de même s'avérer utiles quand elles sont utilisées dans des decks d'essaim pour sortir beaucoup de vampires "
+"rapidement, comme c'est le cas pour %(img_clan_toreador_anti)s %(art_scam)s et %(reunion_kamut)s pour la Black Hand, "
+"mais elles ne sont autrement utilisées qu'avec parcimonie. %(img_clan_guruhi)s %(founders_of_the_ebony_kingdom)s et "
+"%(img_clan_assamite)s %(khabar_glory)s méritent une mention spéciale car elles entraînent un gain d'influence "
+"exceptionnellement haut. </p>"
+
+#: src/templates/strategy/bloat.html:249
+msgid "Vote bloating"
+msgstr "Régénération par vote"
+
+#: src/templates/strategy/bloat.html:251
+msgid ""
+"Most standard actions only generate bloats between 1 and 3 points. Some political actions, however, can produce "
+"higher bloats if they get through. They are so efficient, virtually every political oriented deck include some of "
+"them:"
+msgstr ""
+"La plupart des actions standard ne régénèrent qu'1 à 3 points. Quelques actions politiques, cependant, peuvent "
+"produire une régénération plus importante si elles passent. Elles sont si efficaces qu'à peu près tous les decks "
+"politiques en incluent :"
+
+#: src/templates/strategy/bloat.html:263 src/templates/strategy/fundamentals.html:265
+msgid "Prince or Justicar"
+msgstr "Prince ou Justicar"
+
+#: src/templates/strategy/bloat.html:265 src/templates/strategy/combat.html:53 src/templates/strategy/combat.html:58
+#: src/templates/strategy/combat.html:65 src/templates/strategy/combat.html:70 src/templates/strategy/combat.html:75
+#: src/templates/strategy/combat.html:80 src/templates/strategy/combat.html:222 src/templates/strategy/combat.html:228
+#: src/templates/strategy/combat.html:233 src/templates/strategy/combat.html:319
+#: src/templates/strategy/deck-building.html:202 src/templates/strategy/fundamentals.html:56
+#: src/templates/strategy/fundamentals.html:61 src/templates/strategy/fundamentals.html:76
+#: src/templates/strategy/fundamentals.html:85 src/templates/strategy/fundamentals.html:159
+#: src/templates/strategy/fundamentals.html:210 src/templates/strategy/fundamentals.html:434
+msgid "and"
+msgstr "et"
+
+#: src/templates/strategy/bloat.html:266 src/templates/strategy/fundamentals.html:216
+msgid "Big capacity vampires"
+msgstr "Vampires de haute capacité"
+
+#. not tokens, strategies against bloat
+#: src/templates/strategy/bloat.html:275
+msgid "Counters"
+msgstr "Contres"
+
+#: src/templates/strategy/bloat.html:277
+#, python-format
+msgid ""
+"Most bloat modules are focused on Master cards. This entails that countering those masters with %(sudden_reversal)s, "
+"%(wash)s or %(bleeding_the_vine)s is a valid offensive strategy. Technically, they amount to an indirect bleed: "
+"preventing one's prey to get three pools from %(minion_tap)s or %(liquidation)s is equivalent to removing three pools"
+" from her using a bleed. The same logic applies to stopping pool generating political actions with "
+"%(delaying_tactics)s."
+msgstr ""
+"La plupart des modules de régénération utilisent des cartes Maître. Cela implique que contrer ces cartes Maître avec "
+"%(sudden_reversal)s, %(wash)s ou %(bleeding_the_vine)s est une stratégie offensive valide. Techniquement, cela "
+"revient à une morsure indirecte : empêcher sa proie de gagner 3 influence grâce à %(minion_tap)s ou %(liquidation)s "
+"équivaut à en lui en faire perdre 3 avec une morsure. La même logique peut être appliquée pour stopper les actions "
+"politiques de régénération avec %(delaying_tactics)s."
+
+#: src/templates/strategy/combat.html:6
+#, python-format
+msgid ""
+"Combat occurs when a block succeeds, but can also be provoked directly using actions like %(bums_rush)s: because of "
+"this card, other actions with similar effects are commonly called <strong>rush actions</strong>. It also gave its "
+"name to an entire category of decks: the %(rush_decks)s."
+msgstr ""
+"Les combats surviennent lorsqu'un blocage réussit, mais peuvent aussi être provoqués directement par des actions "
+"comme %(bums_rush)s : à cause de cette carte, les autres actions avec un effet similaire sont communément appelées "
+"des <strong>actions de rush</strong>. Elle a aussi donné son nom à toute une catégorie de decks : les %(rush_decks)s."
+
+#: src/templates/strategy/combat.html:8
+msgid "rush decks"
+msgstr "decks de rush"
+
+#: src/templates/strategy/combat.html:16
+msgid "Bruise"
+msgstr "Érosion"
+
+#: src/templates/strategy/combat.html:17
+#, python-format
+msgid ""
+"<p> Combat does not help reducing the prey's pool, at least not directly. The core principle of combat is "
+"<strong>bruise</strong>: reducing its opponents blood amount. It forces the minions to hunt or stay in torpor, "
+"seriously reducing %(a_b)s. As a bonus, reducing the blood amount on the table means diminishing the effectivness of "
+"%(leeching)s techniques. </p> <p> So the main focus of any combat module is to improve or prevent bruise, "
+"<em>ie.</em> blood consumption. </p>"
+msgstr ""
+"<p> Le combat ne permet pas de réduire la réserve d'influence de sa proie, en tous cas pas directement. Le principe "
+"central du combat est l'<strong>érosion</strong> : réduire la quantité de sang de l'adversaire. Cela force les "
+"serviteurs à chasser ou à rester en torpeur, ce qui réduit sérieusement l'%(a_b)s. En prime, réduire la quantité de "
+"sang sur la table diminue l'efficacité des techniques de %(leeching)s. </p> <p> En conséquence, l'objectif de tout "
+"module de combat est d'améliorer ou réduire l'érosion, <em>càd</em> la perte de sang. </p>"
+
+#: src/templates/strategy/combat.html:34
+msgid "Dealing damage"
+msgstr "Infliger des dégâts"
+
+#: src/templates/strategy/combat.html:36
+#, python-format
+msgid ""
+"On the discipline side, %(pot)s and %(thn)s are great at dealing high damage. %(ani)s has a strong combination with "
+"%(aid_from_bats)s and %(carrion_crows)s, giving 3 damages with a press. %(tha)s has the excellent %(theft_of_vitae)s,"
+" which provides a non-preventable 4 blood differential at no cost. Many disciplines give access to aggravated damage "
+"options:"
+msgstr ""
+"Du côté des disciplines, %(pot)s et %(thn)s infligent de grands quantités de dégâts. %(ani)s a une combinaison "
+"puissante avec %(aid_from_bats)s et %(carrion_crows)s, qui donnent 3 dégâts et une poursuite. %(tha)s a l'excellent "
+"%(theft_of_vitae)s, qui fournit gratuitement un différentiel de 4 sang sans possibilité de prévention. De nombreuses "
+"disciplines donnent accès à des dégâts aggravés :"
+
+#: src/templates/strategy/combat.html:51 src/templates/strategy/combat.html:57 src/templates/strategy/combat.html:62
+#: src/templates/strategy/combat.html:68 src/templates/strategy/combat.html:73 src/templates/strategy/combat.html:78
+#: src/templates/strategy/combat.html:82 src/templates/strategy/combat.html:83 src/templates/strategy/combat.html:84
+#: src/templates/strategy/combat.html:85 src/templates/strategy/combat.html:218 src/templates/strategy/combat.html:226
+#: src/templates/strategy/combat.html:232 src/templates/strategy/combat.html:236 src/templates/strategy/combat.html:237
+#: src/templates/strategy/combat.html:238 src/templates/strategy/combat.html:240 src/templates/strategy/combat.html:244
+#: src/templates/strategy/combat.html:247 src/templates/strategy/combat.html:249
+#: src/templates/strategy/deck-building.html:201 src/templates/strategy/fundamentals.html:54
+#: src/templates/strategy/fundamentals.html:56
+msgid "with"
+msgstr "avec"
+
+#: src/templates/strategy/combat.html:87
+#, python-format
+msgid "Gargoyles (%(img_clan_gargoyle)s) with %(raking_talons)s."
+msgstr "Les gargouilles (%(img_clan_gargoyle)s) avec %(raking_talons)s."
+
+#: src/templates/strategy/combat.html:96
+msgid "Using aggravated damage"
+msgstr "Utiliser des dégâts aggravés"
+
+#: src/templates/strategy/combat.html:97
+#, python-format
+msgid ""
+"<p> Using aggravated damage while acting is tricky, as the acting minion has to choose <strong>and pay</strong> for "
+"his strike before the reacting minion. Cards that make the damage of a strike aggravated, like %(claws_of_the_dead)s,"
+" are superior in this aspect, as one can wait to see if the reacting minion will play a combat ends or a dodge before"
+" using the card. </p> <p> Using aggravated damage on the reacting side is easier. Moreover, it allows the use of "
+"%(rötschreck)s, sending the opponent into torpor whatever his strike. The only prerequisite is for the range to be "
+"right for the aggravated strike to be able to land in theory. </p>"
+msgstr ""
+"<p> Utiliser des dégâts aggravés en agissant est délicat, car la serviteur qui agit doit choisir sa frappe <strong>et"
+" la payer</strong> avant le serviteur qui réagit. Les cards qui transforment les dégâts d'une frappe en dégâts "
+"aggravés, comme %(claws_of_the_dead)s, sont supérieures en ce sens, puisqu'on peut attendre de voir si le serviteur "
+"qui réagit va jouer une fin de combat ou une esquive avant d'utiliser la carte. </p> <p> Utiliser des dégâts aggravés"
+" du côté de la réaction est plus simple. De plus, cela permet d'utiliser %(rötschreck)s pour envoyer l'adversaire en "
+"torpeur quelle que soit sa frappe. Le seul prérequis est que la portée doit être adéquate pour la frappe aggravée. "
+"</p>"
+
+#: src/templates/strategy/combat.html:117
+#, python-format
+msgid ""
+"<p> Apart from dealing more damage each strike, <strong>additional strikes</strong> are a good option to deliver more"
+" damage each combat. They are, however, mostly available only for %(cel)s users, with the notable exceptions of "
+"%(arms_of_the_abyss)s (%(obt)s), %(devil_channel_back)s (%(abo)s) and %(octopod)s (%(san)s). </p> <p> Finally, "
+"%(target_vitals)s is an excellent option to increase damage, available for every minion at no cost. </p>"
+msgstr ""
+"<p> Hors la question d'infliger plus de dégâts à chaque frappe, les <strong>frappes additionnelles</strong> sont un "
+"bon moyen d'infliger plus de dégâts à chaque combat. Elles sont par contre surtout disponibles pour les utilisateurs "
+"de %(cel)s, à l'exception notable de %(arms_of_the_abyss)s (%(obt)s), %(devil_channel_back)s (%(abo)s) et %(octopod)s"
+" (%(san)s). </p> <p> Enfin, %(target_vitals)s est une excellente option pour augmenter les dégâts, disponible "
+"gratuitement pour tous les serviteurs. </p>"
+
+#: src/templates/strategy/combat.html:136
+msgid "Weapons"
+msgstr "Armes"
+
+#: src/templates/strategy/combat.html:138
+msgid ""
+"Weapons are also a good way to improve damage. There are a lot of weapons available, here are the most efficient and "
+"most played:"
+msgstr ""
+"Les armes sont aussi un bon moyen d'augmenter les dégâts. Il y a beaucoup d'armes disponibles, voici les plus "
+"efficaces et les plus jouées :"
+
+#: src/templates/strategy/combat.html:145
+#, python-format
+msgid ""
+"%(weighted_walking_stick)s: A weapon that can be wielded without losing an action to equip it. It provides a total of"
+" three additional damages at no cost, an excellent ratio."
+msgstr ""
+"%(weighted_walking_stick)s : Une arme qui peut être utilisée sans perdre une action à l'équiper. Elle fournit un "
+"total de trois dégâts supplémentaires gratuitement, un très bon ratio."
+
+#: src/templates/strategy/combat.html:154
+#, python-format
+msgid ""
+"%(magnum)s: An additional damage each strike, together with a manoeuver to keep the range long an avoid bruise. This "
+"is also the best weapon %(concealed_weapon)s can get out, thus avoiding to loose an action (and risking interception)"
+" to equip with it."
+msgstr ""
+"%(magnum)s : Un dégât de plus à chaque frappe, couplé à la manœuvre pour rester à longue portée et éviter l'érosion. "
+"C'est aussi la meilleure arme que %(concealed_weapon)s peut sortir, ce qui évite de perdre une action à l'équiper (et"
+" de risquer l'interception)."
+
+#: src/templates/strategy/combat.html:167
+#, python-format
+msgid "%(ivory_bow)s: Although unique, 1 pool for an aggravated ranged damage each strike is a bargain."
+msgstr "%(ivory_bow)s : Bien qu'unique, 1 influence pour un dégât aggravé longue portée à chaque frappe, c'est une affaire."
+
+#: src/templates/strategy/combat.html:175
+#, python-format
+msgid ""
+"%(sniper_rifle)s: Although only useful when blocking, its ability to set the range is an excellent option to avoid "
+"bruise."
+msgstr ""
+"%(sniper_rifle)s : Surtout utile pour bloquer, sa capacité à fixer la portée est une excellent option pour éviter "
+"l'érosion."
+
+#: src/templates/strategy/combat.html:184
+#, python-format
+msgid ""
+"%(assault_rifle)s: A stronger version of the %(magnum)s. The 5 pool cost is prohibitive, but if it can be reduced by "
+"bringing it game using %(alastor)s, for example, it is one of the strongest weapon of the game."
+msgstr ""
+"%(assault_rifle)s : Une version plus puissante du %(magnum)s. Le coût de 5 influence est prohibitif, mais il peut "
+"être réduit en le mettant en jeu avec %(alastor)s, par exemple. C'est l'une des armes les plus puissantes du jeu."
+
+#: src/templates/strategy/combat.html:197
+#, python-format
+msgid ""
+"%(blade_of_bellona)s: An additional damage and optional manoeuver at no cost, a real bargain for "
+"%(img_clan_salubri_anti)s."
+msgstr ""
+"%(blade_of_bellona)s : Un dégât de plus avec une manœuvre en option, le tout gratuit – une affaire pour les "
+"%(img_clan_salubri_anti)s."
+
+#: src/templates/strategy/combat.html:208
+msgid "Defense"
+msgstr "Défense"
+
+#: src/templates/strategy/combat.html:210
+msgid ""
+"The easiest defense for combats is to avoid them altogether using a <em>Strike: Combat Ends</em>, "
+"<strong>S:CE</strong> for short. Multiple disciplines give access to this option:"
+msgstr ""
+"La défense la plus simple en combat est de l'éviter complètement en utilisant une <em>Frappe : Fin de combat</em> "
+"(<em>Strike: Combat Ends</em> en anglais, <strong>S:CE</strong> pour faire court). Plusieurs disciplines donnent "
+"accès à cette option :"
+
+#: src/templates/strategy/combat.html:254
+#, python-format
+msgid ""
+"It is worth noting that %(flash_grenade)s is an option for any minion, and also that big capacity vampires have "
+"access to %(dom)s %(obedience)s and %(OBF)s %(mental_maze)s to avoid combat altogether, although only when reacting "
+"to an action."
+msgstr ""
+"Il est bon de noter que %(flash_grenade)s est une option pour tous les serviteurs, mais aussi que les vampires de "
+"haute capacité ont accès à %(dom)s %(obedience)s et %(OBF)s %(mental_maze)s pour éviter complètement le combat, bien "
+"qu'uniquement en réaction."
+
+#: src/templates/strategy/combat.html:267
+#, python-format
+msgid ""
+"<h3>How to deal with Strike: Combat Ends (S:CE)</h3> <p> S:CE are a real issue for combat-focused deck. Some "
+"solutions exist to deal with them. </p> <ul> <li> %(nsa_trio)s is available to everyone but is not an option for "
+"<em>rush</em> decks, as their combat may not be the result of a block. </li> <li> Some disciplines have a counter "
+"that let them prevent S:CE or continue the combat after a S:CE: %(pot)s with %(immortal_grapple)s, %(CEL)s with "
+"%(psyche)s, %(AUS)s with %(telepathic_tracking)s, %(THN)s with %(relentless_reaper)s and %(CEL)s%(QUI)s with "
+"%(sanguine_entrapment)s. </li> </ul> <p> Other than that, the only option is to get into enough combats to exhaust "
+"the S:CE on the defence side. </p>"
+msgstr ""
+"<h3>Comment gérer les Frappe : Fin de combat (S:CE)</h3> <p> Les S:CE sont un vrai problème pour les decks centrés "
+"sur le combat. Quelques solutions existent pour les gérer. </p> <ul> <li> %(nsa_trio)s est disponible pour tous mais "
+"n'est pas une option pour les decks de <em>rush</em>, puisque leurs combats sont rarement le résultat d'un blocage. "
+"</li> <li> Certaines disciplines disposent de contres qui leur permettent d'empêcher un S:CE ou de continuer le "
+"combat après un S:CE : %(pot)s avec %(immortal_grapple)s, %(CEL)s avec %(psyche)s, %(AUS)s avec "
+"%(telepathic_tracking)s, %(THN)s avec %(relentless_reaper)s et %(CEL)s%(QUI)s avec %(sanguine_entrapment)s. </li> "
+"</ul> <p> Sans ça, la seule option est d'entrer suffisamment souvent en combat pour épuiser les S:CE du côté de la "
+"défense. </p>"
+
+#: src/templates/strategy/combat.html:302
+#, python-format
+msgid ""
+"Aside from S:CE, <strong>damage prevention</strong> is another important part of combat. It is useful in defence, but"
+" also on the offence: reducing the loss of blood improves the bruise ratio, which is the primary focus of "
+"combat‑oriented decks. %(for)s is the key discipline for damage prevention, and only a few damage prevention cards "
+"exist outside this discipline:"
+msgstr ""
+"Après les S:CE, la <strong>prevention de dégâts</strong> est une autre partie important du combat. C'est utile "
+"défensivement, mais aussi offensivement : réduire la perte de sang augmente le ratio d'érosion, ce qui est l'objectif"
+" principal des decks orientés combat. %(for)s est la principale discipline pour la prévention de dégâts et seules "
+"quelques cartes de prévention n'en font pas partie :"
+
+#: src/templates/strategy/combat.html:311
+#, python-format
+msgid "%(glancing_blow)s prevents only one damage, that makes it a viable option only for saving an ally."
+msgstr "%(glancing_blow)s ne prévient qu'un dégât, ce qui ne le rend viable que pour sauver un allié."
+
+#: src/templates/strategy/combat.html:332
+#, python-format
+msgid ""
+"<p> <strong>Dodging</strong> is still an option for defence, and the simple %(dodge)s is available for everyone. It "
+"is weaker than ending the combat with a S:CE, but it is still a viable defensive option when S:CE are not available. "
+"</p> <p> Finally, two combat cards can <strong>send a vampire into torpor directly</strong>: %(coma)s (%(dem)s) and "
+"%(entombment)s (%(OBT)s). They're too costly to be used effectively as an offensive option, but they are good "
+"defensive options as they can act as a deterrent against combat decks. </p>"
+msgstr ""
+"<p> <strong>Esquiver</strong> est toujours une option pour la défense et le simple %(dodge)s est disponible pour "
+"tous. L'esquive est moins efficace qu'un S:CE, mais reste une option défensive viable quand aucun S:CE n'est "
+"disponible. </p> <p> Enfin, deux cartes de combat peuvent <strong>envoyer un vampire en torpeur directement</strong>:"
+" %(coma)s (%(dem)s) et %(entombment)s (%(OBT)s). Elles sont trop coûteuses pour être efficaces en tant qu'outil "
+"offensif, mais ce sont de bonnes options en défense car elles peuvent constituer une bonne dissuasion contre les "
+"decks de combat. </p>"
+
+#: src/templates/strategy/combat.html:351
+msgid "Range Management"
+msgstr "Gestion de la portée"
+
+#: src/templates/strategy/combat.html:353
+msgid ""
+"Getting the correct range is fundamental for combat. Most combat module specialize in a given range, either "
+"maintaining <strong>long range</strong> to avoid the basic one damage any vampire can do, or using strong "
+"<strong>short range</strong> strikes and effects. Many cards provide <strong>maneuvers</strong> and many offensive "
+"combat module use them to manage their range. A few cards allow a vampire to <strong>set the range</strong> directly,"
+" without letting the opponent the opportunity to maneuver:"
+msgstr ""
+"Avoir la bonne portée est essentiel au combat. La plupart des modules de combat se spécialisent pour une portée "
+"donnée, que ce soit <strong>à distance</strong> pour éviter le dégât de base que tout vampire peut infliger, ou "
+"<strong>au contact</strong> pour utiliser des frappes et des effets puissants. De nombreuses cartes fournissent des "
+"<strong>manœuvres</strong> et beaucoup de modules de combat offensifs les utilisent pour gérer leur portée. Quelques "
+"cartes permettent à un vampire de <strong>fixer la portée</strong> directement, sans laisser l'opportunité à "
+"l'adversaire de manœuvrer :"
+
+#: src/templates/strategy/deck-building.html:12
+msgid "Over time, a handful of excellent ressources have been created on the subject by the community:"
+msgstr "Au fil du temps, une poignée d'excellentes ressources ont été crées sur le sujet par la communauté :"
+
+#: src/templates/strategy/deck-building.html:17 src/templates/strategy/deck-building.html:22
+#: src/templates/strategy/deck-building.html:25 src/templates/strategy/deck-building.html:28
+#: src/templates/strategy/deck-building.html:33 src/templates/strategy/deck-building.html:38
+msgid "by"
+msgstr "de"
+
+#: src/templates/strategy/deck-building.html:42
+msgid "Modules and density"
+msgstr "Modules et densité"
+
+#: src/templates/strategy/deck-building.html:43
+#, python-format
+msgid ""
+"<p> Decks can be broken down in « modules »: group of cards with a similar objective. The percentage of cards each "
+"module contains is its density. As the normal hand size is seven, the expectation (<em>ie.</em> the number of cards "
+"of the module you can expect in any given hand) is the density time seven. </p> <p> <strong>Spam</strong> modules "
+"have a density over 25%(pct)s entail an expectation over 1.75: more often than not, two cards of the module in hand. "
+"This is a rare distribution, but necessary to continuously play a given card multiple times every turn. </p> <p> "
+"<strong>Strong</strong> modules have a density between 14%(pct)s and 25%(pct)s and an expectation between 1 and 1.5: "
+"these cards will be used once or twice at each turn. Most decks have one or multiple strong modules, and their "
+"strategy can often be identified by checking them. </p> <p> <strong>Standard</strong> modules have a density between "
+"7%(pct)s and 14%(pct)s have an expectation between ½ and 1. They are supposed to be used regularly but not "
+"necessarily every turn. Strong and standard modules cards can be discarded when needed, as one can be confident to "
+"get another in hand quite soon. </p> <p> <strong>Tactical</strong> modules have a density below 7%(pct)s and "
+"typically provide specific support. From unique permanents and events to counters or responses to expected counters, "
+"they provide build-up power and security. As these cards are drawn sporadically, they are meant to be kept in hand "
+"for special cases or immediately discarded if the context is not favourable. In case they might come in handy, they "
+"should be kept in hand until needed: the sparse distribution of the module makes sure the cards will not jam the "
+"hand. </p>"
+msgstr ""
+"<p> Les decks peuvent être divisés en « modules » : des groupes de cartes partageant un même objectif. Le pourcentage"
+" de cartes contenues dans chaque module est sa densité. Comme la taille de main normale est de sept, L'espérance "
+"(<em>càd</em> le nombre de cartes du module que l'on peut espérer avoir dans une main donnée) est égale à la densité "
+"multipliée par sept. </p> <p> Les modules de <strong>spam</strong> ont une densité de plus de 25%(pct)s ce qui "
+"entraîne une espérance de plus de 1,75 : un peu moins de deux cartes du module dans la main. C'est une distribution "
+"rare, mais nécessaire pour jouer sans cesse la même carte plusieurs fois à chaque tour. </p> <p> Les modules "
+"<strong>primaires</strong> ont une densité entre 14%(pct)s et 25%(pct)s et une espérance entre 1 et 1,5 : ces cartes "
+"seront utilisées une à deux fois par tour. La plupart des decks ont plusieurs modules primaires et leur stratégie "
+"peut souvent être déduite en les analysant. </p> <p> Les modules <strong>secondaires</strong> ont une densité entre "
+"7%(pct)s et 14%(pct)s avec une espérance entre ½ et 1. Ils sont supposés être utilisés régulièrement, mais pas "
+"nécessairement à chaque tour. Les cartes des modules principaux et secondaires peuvent être défaussées au besoin, car"
+" on peut compter sur le fait de repiocher des cartes de ces modules rapidement. </p> <p> Les modules "
+"<strong>tactiques</strong> ont une densité en-dessous de 7%(pct)s et fournissent généralement un support bien "
+"spécifique. Des permanents uniques aux événements en passant par les contres ou les répliques aux contres attendus, "
+"ces cartes assurent sécurité et consolidation. Comme elles ne sont piochées que sporadiquement, le joueur est supposé"
+" les conserver en main pour un moment spécifique ou les défausser immédiatement si le contexte ne leur est pas "
+"favorable. Au cas où elles pourraient s'avérer utiles, elles devraient être gardées en main jusqu'au au moment "
+"adéquat : la distribution raréfiée du module permet de s'assurer que ces cartes n'enrayent pas la main. </p>"
+
+#: src/templates/strategy/deck-building.html:76
+#, python-format
+msgid ""
+"<h3>Master module</h3> <p> The Master module density depends on the rotation speed: one want to play one Master card "
+"per turn as much as possible, but not more. So the higher the rotation speed, the slimmer the master module density. "
+"Hence, the Master cards count stays stable across deck sizes: 12 to 15 Master cards plus, optionally, up to 6 or 7 "
+"Trifle. </p> <p> Some decks can use specific cards like %(the_parthenon)s to get more Master actions and hence play "
+"more Master cards in the deck, though: this is the <strong>M</strong>ulti <strong>M</strong>aster "
+"<strong>P</strong>hase <strong>A</strong>ctions (MMPA) strategy. </p>"
+msgstr ""
+"<h3>Module de cartes Maître</h3> <p> La densité du module de cartes Maître dépend de la vitesse de rotation : on "
+"désire jouer une carte Maître par tour autant que possible, mais pas plus. Donc plus haute est la vitesse de "
+"rotation, plus basse doit être la densité du module de cartes Maître. Par conséquent, le nombre de cartes Maître "
+"reste stable quelle que soit la taille du deck : 12 à 15 cartes Maître plus, éventuellement, jusqu'à 6 ou 7 cartes "
+"Triviales. </p> <p> Certains decks utilisent des cartes spécifiques comment %(the_parthenon)s pour obtenir plus "
+"d'actions de Maître et jouent donc plus de cartes Maître dans le deck : il s'agit de la stratégie dite de "
+"<strong>M</strong>ulti <strong>M</strong>aster <strong>P</strong>hase <strong>A</strong>ctions (MMPA). </p>"
+
+#: src/templates/strategy/deck-building.html:95
+msgid "Rotation"
+msgstr "Rotation"
+
+#: src/templates/strategy/deck-building.html:97
+msgid ""
+"Games usually last between 10 to 20 turns and decks are tailored with the peak card rotation speed in mind: the "
+"number of cards played on average between one unlock phase and the next, not counting the few first turns of build-"
+"up. The deck size should enable a peak rotation during 12 turns. The efficiency of a deck depends on its capacity to "
+"maintain an optimal rotation speed throughout the game: being stuck with no relevant card to play is a loosing "
+"situation."
+msgstr ""
+"Les parties durent en général 10 à 20 tours et les decks sont taillés en gardant en tête la vitesse de rotation de "
+"pointe : le nombre de cartes jouées en moyenne entre deux phases de redressement, sans compter les quelques premiers "
+"tours de mise en place. La taille du deck doit permettre une rotation de pointe pendant 12 tours. L'efficacité d'un "
+"deck dépend de sa capacité à maintenir une rotation optimale tout au cours de la partie : être coincé avec des cartes"
+" inutiles est une position perdante."
+
+#: src/templates/strategy/deck-building.html:106
+msgid ""
+"<h3>Deck size examples</h3> <p> 60 cards deck have a peak rotation of 5 cards maximum (5 × 12 = 60): in the mid-game "
+"it plays one master, three to four minion cards, and maybe a discard. This counts the whole turn, reactions included."
+" </p> <p> 90 cards deck have a peak rotation of 7 to 8 cards (90 ∕ 12 = 7.5): in the mid-game it plays one master, up"
+" to a full hand of minion cards and maybe a discard. </p>"
+msgstr ""
+"<h3>Exemples de tailles de decks</h3> <p> Un deck de 60 cartes a une rotation de point de 5 cartes maximum (5 × 12 = "
+"60) : en milieu de partie il joue une carte Maître, trois ou quatre cartes de serviteur, et peut-être une défausse. "
+"Cela prend en compte le tour complet, réactions comprises. </p> <p> Un deck de 90 cartes a une rotation de pointe de "
+"7 à 8 cartes (90 ∕ 12 = 7.5) : en milieu de partie il joue une carte Maître, jusqu'à une pleine main de cartes de "
+"serviteur et peut-être une défausse. </p>"
+
+#: src/templates/strategy/deck-building.html:119
+msgid ""
+"<strong>Cycling</strong> cards and purposefully increasing the rotation to get more efficient cards is sometimes the "
+"only way to keep the rotation fluid. Multiple cards are available to provide good cycling options:"
+msgstr ""
+"<strong>Recycler</strong> des cartes et augmenter volontairement la rotation pour piocher des cartes plus efficaces "
+"est parfois la seule manière de conserver une rotation fluide. Plusieurs cartes existent pour recycler :"
+
+#: src/templates/strategy/deck-building.html:141
+msgid "needs to be defended, best with Anarchs"
+msgstr "doit être défendu, plus utile avec des Anarch"
+
+#: src/templates/strategy/deck-building.html:145
+msgid "Sabbat only, best with Black Hand"
+msgstr "Sabbat seulement, plus utile avec des Black Hand"
+
+#: src/templates/strategy/deck-building.html:149
+#, python-format
+msgid ""
+"A card that is hard to play can <strong>jam</strong> the hand. Action modifiers, especially restricted stealth cards "
+"like %(forgotten_labyrinth)s, can only be used when the opponent tries to block, so they can jam. On the other hand, "
+"action cards like %(computer_hacking)s do not usually jam the hand as they can be played as soon as a minion is "
+"unlocked and ready to act. A tactical module for card rotation can be played in situations when jamming is expected."
+msgstr ""
+"Une carte difficile à jouer peut <strong>enrayer</strong> une main. Les modificateurs d'action, en particulier les "
+"cartes de discrétion comme %(forgotten_labyrinth)s, ne peuvent être utilisées que si un adversaire essaie de bloquer,"
+" donc elle peuvent enrayer. D'un autre côté, les cartes d'actions comme %(computer_hacking)s n'enrayent normalement "
+"pas la main puisqu'elles peuvent être jouées dès qu'un serviteur est redressé et prêt à agir. Un module tactique de "
+"cartes de rotation peut être joué lorsqu'un enrayement est à craindre."
+
+#: src/templates/strategy/deck-building.html:162
+msgid "Recursion"
+msgstr "Récursivité"
+
+#: src/templates/strategy/deck-building.html:164
+msgid ""
+"Even stronger than a good rotation, the <strong>recursion</strong> can be a strong point in a deck: it is the ability"
+" to fetch cards from the ash heap and get them back into hand. Only a few cards provide recursion:"
+msgstr ""
+"Encore mieux qu'une bonne rotation, la <strong>récursivité</strong> peut être le point fort d'un deck : il s'agit de "
+"la capacité à récupérer des cartes du tas de cendres pour les remettre en main. Seules quelques cartes fournissent de"
+" la récursivité :"
+
+#: src/templates/strategy/deck-building.html:172
+#, python-format
+msgid ""
+"%(ashur_tablets)s provide an excellent recursion as well as a powerful bloat. They need more than one Master phase "
+"action to be really effective, so %(the_parthenon)s can come in handy. The MMPA archetypes like %(girls)s make full "
+"use of this card."
+msgstr ""
+"%(ashur_tablets)s fournit une excellente récursivité avec une bonne régénération au passage. Il faut plus d'une "
+"action de Maître par tour pour que ce soit réellement efficace, donc %(the_parthenon)s peut s'avérer utile. Les "
+"archétypes MMPA comme %(girls)s font un plein usage de cette carte."
+
+#: src/templates/strategy/deck-building.html:184
+#, python-format
+msgid "%(the_sargon_fragment)s is the only other option open to all, but it is unique and uses up a lot of actions."
+msgstr "%(the_sargon_fragment)s est la seule autre option ouverte à tous, mais elle est unique et consomme beaucoup d'actions."
+
+#: src/templates/strategy/deck-building.html:191
+#, python-format
+msgid "Giovanni %(img_clan_giovanni)s have the excellent %(sudario_refraction)s and the lesser %(spiritual_guidance)s"
+msgstr ""
+"Les Giovanni %(img_clan_giovanni)s disposent de l'excellent %(sudario_refraction)s et de %(spiritual_guidance)s, plus"
+" spécifique"
+
+#: src/templates/strategy/deck-building.html:203
+msgid "Anarchs"
+msgstr "Anarchs"
+
+#: src/templates/strategy/deck-building.html:207
+msgid "Unique, Anarch"
+msgstr "Unique, Anarch"
+
+#: src/templates/strategy/deck-building.html:218
+msgid ""
+"Beyond its obvious advantage of fetching just the right card at the right time, a good recursion allows a deck to "
+"adapt itself to the context and the table situation."
+msgstr ""
+"Au-delà de l'avantage évident de piocher exactement la bonne carte au bon moment, une bonne récursivité permet à un "
+"deck de s'adapter au contexte et à la situation de table."
+
+#: src/templates/strategy/deck-building.html:224
+msgid "Building a deck in practice"
+msgstr "Construire un deck en pratique"
+
+#: src/templates/strategy/deck-building.html:226
+msgid "bleed"
+msgstr "morsure"
+
+#: src/templates/strategy/deck-building.html:225
+#, python-format
+msgid ""
+"<h3>1. Theme</h3> <p> The first step to build a deck is to choose a theme, a core principle to build upon. Multiple "
+"possibilities here: <ul> <li><strong>Clan</strong>: the most common theme, just choose a clan.</li> "
+"<li><strong>Discipline(s)</strong>: choose one or more disciplines you want to play.</li> <li><strong>Star</strong>: "
+"choose a star vampire with powerful disciplines or abilities.</li> <li><strong>Cards combination</strong>: choose a "
+"combination of two to four cards you want to play together.</li> </ul> </p> <h3>2. Four strategic pillars</h3> <p> "
+"The second step, before adding more cards to the deck, is to define the four pillars of the deck strategy: <ul> "
+"<li><strong>Payload:</strong> how the deck delivers pool damage to its prey. Does it %(bleed)s? Use %(politics)s? "
+"Some other pool damage device like %(anarch_revolt)s or %(dragonbound)s? </li> <li> <strong>Delivery system:</strong>"
+" how the deck makes sure the payload is delivered. If it bleeds, does it use stealth, block denial or an overwhelming"
+" number of actions? If it uses political actions, does it use stealth to get them through? How does it get enough "
+"votes? If it uses specific pool damage cards, do they need protection or support to apply their effect? </li> <li> "
+"<strong>Defense:</strong> how the deck avoids to lose. %(Bloating)s is the most generic defense: gaining pool works "
+"against all offensive strategies. Most decks use a modicum of bloat, some rely on a heavy bloat as their sole "
+"defense. <em>Blocking</em> is the second most generic defense: most offensive strategies use actions. More focused "
+"defensive tools are often used against the most widespread offensive strategies: %(bounce)s or <em>Reduction</em> "
+"against bleed, %(delaying_tactics)s and %(poison_pill)s against politics. </li> <li> <strong>Combat "
+"Management:</strong> how the deck deals with minion combats. If it does not plan to block, <em>support allies</em> to"
+" block rush actions can be enough. Some decks plan to avoid combat and use %(combat_ends)s effects when it cannot be "
+"avoided. Others plan to use combats to optimize %(bruise)s in their favor. </li> </ul> </p> <h3>3. Cards</h3> <p> Now"
+" select the crypt and library cards to put in the deck. The minions you select will define the range of disciplines "
+"you can use and, symmetrically, the library cards you choose and their requirements will define what minions you want"
+" in your crypt. </p> <p> During this card selection process, only add <strong>one copy of each card</strong> you want"
+" to play. Check the %(best_cards)s and the %(deck_archive)s for ideas. If you find tournament winning examples close "
+"to your deck list, they may give you ideas about what to include. </p> <p> At the end you should have <strong>4 to 12"
+" crypt cards and 20 to 40 library cards</strong>. If you have more, it is time to sit back and ponder what is really "
+"useful and what should be cut. Consider your four strategic pillars to help you decide: payload is more important "
+"than delivery, itself more important than defense, and combat management comes last. </p>"
+msgstr ""
+"<h3>1. Thème</h3> <p> La première étape pour construire un deck est de choisir un thème, un principe central sur "
+"lequel construire. Il y a ici plusieurs possibilités : <ul> <li><strong>Un clan</strong>: le thème le plus courant, "
+"il suffit de choisir un clan.</li> <li><strong>Discipline(s)</strong>: choisissez une ou plusieurs disciplines que "
+"vous désirez jouer.</li> <li><strong>Star</strong>: choisissez un vampire star avec une combinaison de disciplines ou"
+" un pouvoir puissants.</li> <li><strong>Combinaison de cartes</strong>: choisissez une combinaison de deux à quatre "
+"cartes que vous souhaitez jouer.</li> </ul> </p> <h3>2. Quatre piliers stratégiques</h3> <p> La seconde étape, avant "
+"d'ajouter des cartes, est de définir les quatre piliers de la stratégie du deck : <ul> <li><strong>La charge utile "
+":</strong> la manière dont le deck réduit l'influence de sa proie. Utilise-t-il la %(bleed)s ? La %(politics)s ? Un "
+"autre moyen de réduire l'influence comme %(anarch_revolt)s ou %(dragonbound)s ? </li> <li> <strong>Le système de "
+"transmission :</strong> la manière dont le deck s'assure que la charge utile est bien délivrée. S'il utilise la "
+"morsure, utilise-t-il de la discrétion, des dénis de blocage ou un nombre d'actions accablant ? S'il utilise des "
+"actions politiques, utilise-t-il de la discrétion pour les faire passer ? Comment fait-il pour s'assurer d'avoir "
+"assez de votes ? S'il utilise des cartes de réduction d'influence spécifiques, doit-il les protéger ou les soutenir "
+"pour s'assurer que leur effet est appliqué ? </li> <li> <strong>La défense :</strong> la manière dont le deck évite "
+"de perdre. La %(Bloating)s est la défense la plus générique : gagner de l'influence fonctionne quelle que soit la "
+"stratégie offensive des adversaires. La plupart des decks utilisent un minimum de régénération, certains se basent "
+"sur une importante régénération comme seule défense. <em>Bloquer</em> est la seconde stratégie de défense la plus "
+"générique : la plupart des stratégies offensives utilisent des actions. Des outils défensifs plus précis sont souvent"
+" utilisés contre les stratégies offensives les plus répandues : %(bounce)s ou <em>Réductions</em> contre la morsure, "
+"%(delaying_tactics)s ou %(poison_pill)s contre la politique. </li> <li> <strong>La gestion du combat :</strong> la "
+"manière dont le deck gère les combats de serviteurs. S'il ne prévoit pas de bloquer, des <em>alliés de support</em> "
+"pour bloquer les actions de rush peuvent suffire. Certains decks prévoient d'éviter le combat et utilisent des effets"
+" de %(combat_ends)s quand ils n'y parviennent pas. D'autres prévoient d'utiliser le combat pour optimiser "
+"l'%(bruise)s en leur faveur. </li> </ul> </p> <h3>3. Cartes</h3> <p> Il est maintenant temps de sélectionner les "
+"cartes de crypte et de bibliothèque à mettre dans le deck. Les serviteurs que vous sélectionnerez vont déterminer le "
+"spectre de disciplines que vous pourrez utiliser et, symmétriquement, les cartes de bibliothèque que vous choisirez "
+"et leurs prérequis vont définir les serviteurs que vous voudrez dans votre crypte. </p> <p> Durant cette opération de"
+" sélection de carte, n'ajoutez qu'<strong>un exemplaire de chaque carte</strong> choisie. Allez voir le "
+"%(best_cards)s et l'%(deck_archive)s pour trouver l'inspiration. Si vous trouvez un exemple de deck gagnant de "
+"tournoi proche de votre decklist, il pourrait vous donner des idées sur quoi inclure. </p> <p> À la fin vous devriez "
+"avoir <strong>4 à 12 cartes de crypte et 20 à 40 cartes de bibliothèque</strong>. Si vous en avez plus, il est temps "
+"de prendre un peu de recul et de vous demander ce qui est vraiment utile et ce qui devrait être retiré. Utilisez vos "
+"quatre piliers stratégiques pour vous aider : la charge utile est plus importante que le système de transmission, "
+"lui-même plus important que la défense, et la gestion de combat arrive en dernier. </p>"
+
+#: src/templates/strategy/deck-building.html:227
+msgid "politics"
+msgstr "politique"
+
+#: src/templates/strategy/deck-building.html:230
+msgid "Bloating"
+msgstr "Régénération"
+
+#: src/templates/strategy/deck-building.html:231
+msgid "Bounces"
+msgstr "Rebonds"
+
+#: src/templates/strategy/deck-building.html:236
+msgid "best cards"
+msgstr "top cartes"
+
+#: src/templates/strategy/deck-building.html:237
+msgid "deck archive"
+msgstr "archive de decks"
+
+#: src/templates/strategy/deck-building.html:301
+#, python-format
+msgid ""
+"Note at this point you are working in single copies. This means that if you are building a rush combat deck, you "
+"should consider removing combat cards before removing a payload card like %(fame)s. When adjusting the number of "
+"copies on the other hand, no pillar has priority and you may choose to use dozens of copies of the combat cards you "
+"kept in the selection and a single %(fame)s."
+msgstr ""
+"Notez qu'à ce stade vous travaillez en exemplaires uniques. Cela signifie que si vous construisez un deck de rush, "
+"vous devriez envisager de retirer des cartes de combat avant de retirer des cartes de charge utile comme %(fame)s. "
+"Quand vous ajusterez le nombre d'exemplaires de chaque carte, au contraire, aucun pillier n'aura priorité et vous "
+"pourrez choisir d'utiliser des dizaines d'exemplaires des cartes de combat que vous aurez gardées, et un seul "
+"%(fame)s."
+
+#: src/templates/strategy/deck-building.html:311
+#, python-format
+msgid ""
+"<h3>Counters</h3> <p> If you can predict that specific archetypes will be a threat, consider including specific "
+"counters against them. From %(fear_of_mekhet)s against Inner Circles to %(scourge_of_the_enochians)s against swarms, "
+"including %(archon_investigation)s against greedy bleeders, there are a lot of options available and they can "
+"transform a losing position into a win. </p> <p> If nothing specific comes in mind, consider the all-purpose counters"
+" of the game: %(direct_intervention)s, %(dark_influences)s, %(sudden_reversal)s or %(wash)s. </p>"
+msgstr ""
+"<h3>Contres</h3> <p> Si vous pouvez prédire qu'un archétype spécifique sera une menace, envisagez d'inclure des "
+"contres spécifiques contre lui. De %(fear_of_mekhet)s contre les membres du Cercle intérieur à "
+"%(scourge_of_the_enochians)s contre les essaims, en passant par %(archon_investigation)s contre les mordeurs avides, "
+"il y a beaucoup de possibilités et elles peuvent transformer une position perdante en victoire. </p> <p> Si rien de "
+"spécifique ne vous vient à l'esprit, envisagez d'inclure certains des contres génériques du jeu : "
+"%(direct_intervention)s, %(dark_influences)s, %(sudden_reversal)s ou %(wash)s. </p>"
+
+#: src/templates/strategy/deck-building.html:335
+msgid ""
+"<h3>4. Card flow</h3> <p> Once the skeleton is ready, you can adjust the card flow. First adjust the crypt: use 4 (or"
+" more) copies for a star, 3 copies for an especially good minion if he is not mandatory for your play, 2 copies for "
+"an efficient one and 1 copy for support minions. </p> <p> Then try to get an idea of the <a "
+"href=\"#rotation\">rotation speed</a>: what would a normal turn be in the mid-game (including reactions)? How many "
+"minions are acting and reacting and how many cards are used? This will give you the target library size as well as "
+"the number of cards you need in each of your modules. </p> <p> Finally, define <a href=\"#modules-and-"
+"density\">modules and their density</a> and adapt the number of copies in each of them to match the desired density, "
+"working module by module. Adjusting the master module first may be easier, as the number or cards only depends on the"
+" number of master actions you expect to get. For the rest of the deck though, there is no predefined pattern: no "
+"strategic pillar has the priority in terms of density. A <em>Stealth & Bleed</em> can typically have two strong "
+"module for bleed and stealth, two standard modules for bounce and combat defense, and a tactical module against "
+"politics. A <em>Wall</em> deck, on the other hand, can have a spam module for wake & intercept, a standard module for"
+" bloat and only a tactical module for the payload. </p> <p> This little calculator may help you figure out the number"
+" of copies you want to include for each card: </p>"
+msgstr ""
+"<h3>4. Flux de cartes</h3> <p> Une fois le squelette prêt, vous pouvez ajuster le flux de cartes. Ajustez la crypte "
+"en premier : utilisez 4 exemplaires (ou plus) pour une star, 3 exemplaires pour un serviteur particulièrement bon "
+"s'il n'est pas indispensable pour votre jeu, 2 exemplaires pour un serviteur efficace et 1 exemplaire pour les "
+"serviteurs de support. </p> <p> Ensuite essayez de vous faire une idée de la <a href=\"#rotation\">vitesse de "
+"rotation</a> : à quoi ressemblera un tour normal en milieu de partie (en comptant les réactions) ? Combien de "
+"serviteurs vont agir et réagir et combien de cartes seront utilisées ? Cela vous donnera votre taille de votre "
+"bibliothèque cible en même temps que le nombre de cartes nécessaires dans chaque module. </p> <p> Enfin, définissez "
+"<a href=\"#modules-and-density\">les modules et leur densité</a> et adaptez le nombre d'exemplaires de chacun d'entre"
+" eux pour atteindre la densité souhaitée, en travaillant module par module. Ajuster le module de cartes Maître est "
+"plus simple, car le nombnre de cartes ne dépend que du nombre d'actions de Maître que vous espérez avoir. Pour le "
+"reste du deck cependant, il n'y a pas de schéma préétabli : aucun pilier stratégique n'a priorité sur les autre en "
+"termes de densité. Un <em>Stealth & Bleed</em> peut typiquement avoir deux modules primaires pour la morsure et la "
+"discrétion, deux modules secondaires pour le rebond et la défense au combat, et un module tactique contre la "
+"politique. Un deck <em>Mur</em>, a contrario, peut avoir un module de spam pour le réveil et l'interception, un "
+"module secondaire pour la régénération et juste un module tactique pour la charge utile. </p> <p> Cette calculette "
+"pourra vous aider à décider du nombre d'exemplaires pour chaque carte : </p>"
+
+#: src/templates/strategy/deck-building.html:370
+msgid "Probability to get a specific card"
+msgstr "Probabilité d'avoir une carte donnée"
+
+#: src/templates/strategy/deck-building.html:371 src/templates/strategy/deck-building.html:385
+msgid "cards in deck:"
+msgstr "cartes dans le deck :"
+
+#: src/templates/strategy/deck-building.html:373
+msgid "copies of the card:"
+msgstr "exemplaires de la carte :"
+
+#: src/templates/strategy/deck-building.html:375
+msgid "cards drawn:"
+msgstr "cartes piochées :"
+
+#: src/templates/strategy/deck-building.html:384
+msgid "Copies needed to get a draw"
+msgstr "Exemplaires requis pour piocher"
+
+#: src/templates/strategy/deck-building.html:387
+msgid "draws:"
+msgstr "pioches :"
+
+#: src/templates/strategy/deck-building.html:389
+msgid "desired probability:"
+msgstr "probabilitée voulue :"
+
+#: src/templates/strategy/deck-building.html:392
+msgid "0 copies"
+msgstr "0 copies"
+
+#: src/templates/strategy/deck-building.html:396
+msgid ""
+"The probability to get a specific card is computed as the cumulated probability (sum) of having 1, 2, ..., n copies "
+"of the card."
+msgstr ""
+"La probabilité de piocher une carte donnée est calculée comme la probabilité cumulée (somme) de piocher 1, 2, ..., n "
+"exemplaires."
+
+#: src/templates/strategy/deck-building.html:401
+msgid "The formula used is"
+msgstr "La formule utilisée est"
+
+#: src/templates/strategy/deck-building.html:403
+msgid "with s: stack, d: draws and c: copies and"
+msgstr "avec s: paquet, d: pioche et c: exemplaires et"
+
+#: src/templates/strategy/deck-building.html:403
+msgid "the binomial coefficients."
+msgstr "les cœfiicients binomiaux."
+
+#: src/templates/strategy/deck-building.html:405
+msgid "To second computation just computes the preceding probability for consecutive values of c."
+msgstr "Le second calcul additionne simplement la probabilité précédente pour les valeurs successives de c."
+
+#: src/templates/strategy/deck-building.html:408
+msgid ""
+"<h3>Cycling</h3> <p> If one of your strong module can jam your hand (for example a strong stealth or a strong "
+"intercept module), consider adding cycling-oriented cards (<em>cf.</em> the <a href=\"#rotation\">Rotation</a> "
+"section). </p> <p> They should not be included blindly though; they can be an obstacle to a deck with no jam issue. "
+"</p>"
+msgstr ""
+"<h3>Recyclage</h3> <p> Si l'un de vos modules primaires peut enrayer votre main (par exemple un module primaire de "
+"discrétion ou d'interception), envisagez d'ajouter des cartes pour recycler (<em>cf.</em> la section <a "
+"href=\"#rotation\">Rotation</a>). </p> <p> Elles ne devraient cependant pas être incluses aveuglément ; elles peuvent"
+" tout à fait constituer un obstacle pour un deck sans problème d'enrayement. </p>"
+
+#: src/templates/strategy/deck-building.html:419
+#, python-format
+msgid ""
+"<h3>5. Test and refine</h3> <p> Once the first version of the deck list is ready, it should be tested to check if it "
+"behaves as expected. Just doing a dozen play simulations alone, playing out the first 3 to 5 turns with no opponents,"
+" can help you adapt the card flow a bit. If you have some time at hand, you can use the %(play_test_system)s devised "
+"by <em>Paul Johnson</em> to test your deck more thoroughly. </p> <p> In the end, only real games can help refine a "
+"deck. Actual play get you accustomed to a deck strengths and weaknesses. It helps to note the cards cycled or "
+"discarded during a game, as well as those used to oust the prey: cards that you repetitively do not use, or payload "
+"cards that do not help you oust your prey, are cards you should consider removing. </p>"
+msgstr ""
+"<h3>5. Testez and affinez</h3> <p> Une fois la première version du deck prête, il devrait être testé pour vérifier "
+"s'il est à la hauteur de ce que l'on en attendait. Ne serait-ce que faire une dizaine de simulations de jeu en "
+"solitaire, en jouant les 3 à 5 premiers tours sans adversaire, peut déjà vous aider à adapter un peu le flux de "
+"cartes. Si vous avez un peu de temps devant vous, vous pouvez utiliser le %(play_test_system)s conçu par <em>Paul "
+"Johnson</em> pour tester en profondeur. </p> <p> Au final, seules de vraies parties pourront vous aider à affiner "
+"votre deck. Une vraie partie vous permet de vous habituer aux forces et faiblesses du deck. Noter les cartes "
+"défaussées au cours de la partie peut aider, de même que noter les cartes ayant permis de sortir une proie : vous "
+"devriez envisager de retirer les cartes dont vous ne vous servez pas, ainsi que les cartes de charge utile qui ne "
+"contribuent pas à sortir votre proie. </p>"
+
+#: src/templates/strategy/deck-building.html:420
+msgid "play test system"
+msgstr "système de test"
+
+#: src/templates/strategy/fundamentals.html:5
+msgid "Bleed"
+msgstr "Morsure"
+
+#: src/templates/strategy/fundamentals.html:6
+#, python-format
+msgid ""
+"<p> The root of the game win is to destroy the prey’s pool and the obvious way to do it is to bleed. Numerous cards "
+"in the game can enhance bleed. %(dom)s and %(pre)s give very strong bleed decks, but a swarm of minions also get the "
+"job done pretty fast. ¾ of edible decks will kill their prey by bleeding it. </p> <p> Bleed modifiers like "
+"%(conditioning)s should be played <strong>after the prey has declined to block</strong>. This way, they are more "
+"likely to get through. </p>"
+msgstr ""
+"<p> La base pour gagner consiste à détruire la réserve d'influence de sa proie et la manière la plus évidente de le "
+"faire est de mordre. De nombreuses cartes dans le jeu peuvent améliorer la morsure. %(dom)s et %(pre)s donnent des "
+"decks de morsure puissants, mais un essaim de serviteurs peut aussi faire le travail rapidement. ¾ des decks valables"
+" vont sortir leur proie en utilisant la morsure. </p> <p> Les modificateurs de morsure comme %(conditioning)s sont "
+"censés être joués <strong>après que la proie a refusé de bloquer</strong>. De cette manière, ils ont plus de chances "
+"de passer. </p>"
+
+#: src/templates/strategy/fundamentals.html:22
+#, python-format
+msgid ""
+"<h3>Limited and unlimited modifiers</h3> <p> Bleed modifiers are always <em>\"limited\"</em> if the card does not "
+"state otherwise, meaning one can play only one modifier increasing the bleed amount during a bleed action. However, a"
+" few cards provided non-limited bleed increase: %(leverage)s, %(command_of_the_beast)s and "
+"%(quicksilver_contemplation)s are played, more expensive ones are not. </p>"
+msgstr ""
+"<h3>Modificateurs limités et non limités</h3> <p> Les modificateurs de morsure sont toujours <em>\"limités\"</em> "
+"sauf si la carte précise le contraire, ce qui signifie qu'on ne peut jouer qu'un modificateur augmentant la morsure "
+"durant une action de morsure. Cependant, quelques cartes fournissent des augmentations de morsure non limitées: "
+"%(leverage)s, %(command_of_the_beast)s et %(quicksilver_contemplation)s sont jouées, les cartes plus coûteuses ne le "
+"sont pas. </p>"
+
+#: src/templates/strategy/fundamentals.html:37
+msgid "Bounce"
+msgstr "Rebond"
+
+#: src/templates/strategy/fundamentals.html:39
+msgid ""
+"On the defence side, <strong>bounces</strong> (reactions that change the target of a bleed) should be played only "
+"<strong>after the bleed amount has been confirmed</strong> by the predator, after block has been declined. This way "
+"the modifier, if any, is likely to be redirected too. This is because once the predator confirms the bleed amount, he"
+" actually passes on his opportunity to play a modifier and do not get another opportunity if the prey does not play a"
+" reaction. Only a few cards allow to <em>bounce</em> bleeds:"
+msgstr ""
+"Du côté défensif, les <strong>rebonds</strong> (des réactions qui changent la cible d'une morsure) sont censés n'être"
+" joués qu'<strong>une fois le score de morsure confirmé</strong> par le prédateur, après que les bloquages ont été "
+"refusés. Ainsi le modificateur, s'il y en a un, sera probablement lui aussi redirigé. Cela fonctionne ainsi car "
+"lorsque le prédateur confirme le score de morsure, il signale ainsi qu'il passe l'opportunité de jouer un "
+"modificateur : il n'aura pas d'autre opportunité si la proie ne joue pas une réaction. Seul un petit nombre de cartes"
+" permettent le <em>rebond</em> d'une morsure:"
+
+#: src/templates/strategy/fundamentals.html:52
+msgid "younger vampires or allies"
+msgstr "vampires plus jeunes et alliés"
+
+#: src/templates/strategy/fundamentals.html:65
+msgid "Imbued with"
+msgstr "Les illuminés avec"
+
+#: src/templates/strategy/fundamentals.html:68
+msgid "And only a few cards can counter these <em>bounces</em>:"
+msgstr "Et seul un petit nombre de cartes peuvent contrer ces <em>rebonds</em>:"
+
+#: src/templates/strategy/fundamentals.html:72
+#, python-format
+msgid "can counter %(dom)s bounces"
+msgstr "peut contrer les rebonds %(dom)s"
+
+#: src/templates/strategy/fundamentals.html:78
+#, python-format
+msgid "can counter %(AUS)s bounces"
+msgstr "peuvent countre les rebonds %(AUS)s"
+
+#: src/templates/strategy/fundamentals.html:82
+msgid "can counter any bounce"
+msgstr "peut contrer tous les rebonds"
+
+#: src/templates/strategy/fundamentals.html:87
+msgid "can counter bounces when being the target"
+msgstr "peuvent contrer les rebonds dont on est la cible"
+
+#: src/templates/strategy/fundamentals.html:91
+msgid "is often used to deter bounces, even if it may not be enough to prevent them altogether."
+msgstr "est souvent utilisé pour décourager les rebonds, même si cela peut être insuffisant pour les empêcher complètement."
+
+#: src/templates/strategy/fundamentals.html:95
+#, python-format
+msgid ""
+"<h3>Archon limit</h3> <p> A bleed for more than 3 exposes the minion to the possibility of %(archon_investigation)s. "
+"Because of this card, 3 has become the <strong>Archon limit</strong>: some decks will make sure to stay under it to "
+"avoid risking their minions, others will consider their minions expendable and get happily over it. </p>"
+msgstr ""
+"<h3>La limite d'Archon</h3> <p> Une morsure à plus de 3 expose le serviteur à une possible %(archon_investigation)s. "
+"À cause de cette carte, 3 est devenu la <strong>limite d'Archon</strong>: certains decks vont s'assurer de rester "
+"sous cette limite pour éviter de risquer leurs serviteurs, d'autres vont considérer que leurs serviteurs sont "
+"sacrifiables et iront joyeusement au-delà. </p>"
+
+#: src/templates/strategy/fundamentals.html:108
+msgid "Politics"
+msgstr "Politique"
+
+#: src/templates/strategy/fundamentals.html:109
+#, python-format
+msgid ""
+"<p> The other option to deplete the prey’s pool is to use political actions like %(kine_resources_contested)s. The "
+"advantage of this strategy is the +1 stealth on the action. The disadvantage is that it is not directed: not only the"
+" prey but the predator can block, and the whole table can vote. </p> <p> The terms of the referendum are announced "
+"<strong>once the action resolves</strong>. One can negotiate the vote as the action is announced, but only after "
+"blocks are declined and the action succeeds does one choose the official terms of the referendum — and eventually "
+"betray everyone. The terms must be stated clearly once the action resolves, if just to confirm the Methusalah holds "
+"true to its word. </p> <p> In order to pass their referendum successfuly, Methusalah will try to achieve a "
+"<strong>vote lock</strong>, meaning they have more votes on the table than the sum of all other players votes. "
+"Multiple techniques can be used to this effect:"
+msgstr ""
+"<p> L'autre option pour réduire la réserve d'influence de la proie est d'utiliser des actions politiques comme "
+"%(kine_resources_contested)s. L'avantage de cette strategie est le bonus de +1 en discrétion sur l'action. Le défaut "
+"est qu'elle n'est pas dirigée : non seulement la proie mais aussi le prédateur peuvent bloquer, et toute la table "
+"peut voter. </p> <p> Les termes du référendum sont annoncés <strong>à la résolution de l'action</strong>. On peut "
+"négocier le vote lors de l'annonce de l'action, mais ce n'est qu'après le refus de bloquer, quand l'action est "
+"réussie, que l'on choisit les termes officiels du référendum — et que l'on trahit potentiellement tout le monde. Les "
+"termes doivent être annoncés clairement lors de la résolution de l'action, ne serait-ce que pour confirmer que le "
+"Mathusalem reste fidèle à sa parole. </p> <p> Pour réussir à passer leurs référendums, les Mathusalems vont essayer "
+"de parvenir à un <strong>verrou de vote</strong>, c'est-à-dire qu'ils auront plus de votes sur la table que la somme "
+"des votes de tous les autres joueurs. Plusieurs techniques peuvent être utilisées à cet effet:"
+
+#: src/templates/strategy/fundamentals.html:132
+#, python-format
+msgid ""
+"Using modifiers or master cards to get more votes: %(pre)s has the most options, but other disciplines offer good "
+"modifiers, like %(mel)s %(madrigal)s or %(tem)s %(hall_of_hades_court)s, as do some clans like the Ventrue "
+"%(img_clan_ventrue)s with %(ventrue_headquarters)s or the Followers of Set %(img_clan_followers_of_set)s with "
+"%(ferraille)s."
+msgstr ""
+"Utiliser des modificateurs ou des cartes de Maître pour avoir plus de votes: %(pre)s offre le plus grand nombre "
+"d'options, mais d'autres disciplines offrent de bons modificateurs, comme %(mel)s %(madrigal)s ou %(tem)s "
+"%(hall_of_hades_court)s, de même que certains clans comme les Ventrue %(img_clan_ventrue)s avec "
+"%(ventrue_headquarters)s ou les Disciples de Seth %(img_clan_followers_of_set)s avec %(ferraille)s."
+
+#: src/templates/strategy/fundamentals.html:149
+#, python-format
+msgid "Using %(praxis)s, %(crusade)s or %(fee_stake)s cards."
+msgstr "Utiliser des cartes de %(praxis)s, %(crusade)s ou %(fee_stake)s."
+
+#: src/templates/strategy/fundamentals.html:158
+msgid ""
+"Getting multiple big capacity vampires with a lot of votes out, like Inner Circles and Justicars. This is usually "
+"achieved using"
+msgstr ""
+"Sortir plusieurs vampires de haute capacité avec beaucoup de votes, comme des membres du Cercle intérieur et des "
+"Justicars. On y parvient généralement en utilisant"
+
+#: src/templates/strategy/fundamentals.html:160
+msgid "together with"
+msgstr "en combinaison avec"
+
+#: src/templates/strategy/fundamentals.html:161 src/templates/strategy/fundamentals.html:173
+#: src/templates/strategy/fundamentals.html:178
+msgid "or"
+msgstr "ou"
+
+#: src/templates/strategy/fundamentals.html:165
+msgid "Using an effect to give votes to all members of clan, like"
+msgstr "Utiliser un effet pour donner des votes à tous les membres d'un clan, comme"
+
+#: src/templates/strategy/fundamentals.html:176
+msgid "This needs to be combined with ways to bring many vampires of that clan into play, using actions like"
+msgstr ""
+"Il faut combiner ça avec des techniques permettant de mettre de nombreux membres du clan en jeu, en utilisant des "
+"actions comme"
+
+#: src/templates/strategy/fundamentals.html:177
+msgid "or Master cards like"
+msgstr "ou des cartes de Maître comme"
+
+#: src/templates/strategy/fundamentals.html:183
+msgid "Delay"
+msgstr "Délai"
+
+#: src/templates/strategy/fundamentals.html:185
+#, python-format
+msgid ""
+"Aggressive vote decks will pass multiple votes in a single turn, but this has led to the use of %(delaying_tactics)s "
+"as a defence. This means diversity in votes is needed to avoid loosing a whole turn of actions just because "
+"%(kine_resources_contested)s has been delayed."
+msgstr ""
+"Les decks de vote aggressifs vont passer plusieurs votes dans un seul tour, mais cela a conduit à l'utilisation de "
+"%(delaying_tactics)s comme défense. Cela signifie que la diversité dans les votes est souhaitable pour éviter de "
+"perdre un tour d'actions entier juste à cause d'un délai sur %(kine_resources_contested)s."
+
+#: src/templates/strategy/fundamentals.html:196
+msgid "Damage dealing votes"
+msgstr "Votes réduisant l'influence"
+
+#: src/templates/strategy/fundamentals.html:198
+msgid ""
+"Only a few votes deal substantive pool damage, and they often have restrictions. Some votes dealing less damage are "
+"not listed here."
+msgstr ""
+"Seuls quelques votes permettent de réduire vraiment la réserve d'influence, et ils ont souvent des restrictions. "
+"Certains votes infligeant moins de dégâts sont ignorés ici."
+
+#: src/templates/strategy/fundamentals.html:205
+msgid "Prince or Justicar, only on a Methusalah with more pool"
+msgstr "Prince ou Justicar, seulement sur un Mathusalem avec moins d'influence"
+
+#: src/templates/strategy/fundamentals.html:212
+msgid "both have the same effect"
+msgstr "les deux ont le même effet"
+
+#: src/templates/strategy/fundamentals.html:220
+msgid "Independant or Anarch"
+msgstr "Indépendant ou Anarch"
+
+#: src/templates/strategy/fundamentals.html:228
+msgid "Baron"
+msgstr ""
+
+#: src/templates/strategy/fundamentals.html:233
+#, python-format
+msgid ""
+"<p> One can either choose to buff up attack or to keep minions and cards to defend oneself: the stronger the defence,"
+" the weaker the attack, so it’s a question of balance in every deck. Whatever the balance though, a deck power is "
+"fundamentally about « A&B », the number of <strong>A</strong>ctions & <strong>B</strong>locks in a single turn. In "
+"any case, the A&B must be as high as possible for the deck to be effective. </p> <p> The most obvious way to increase"
+" A&B is to use <strong>wake</strong> reactions like %(wake_with_evenings_freshness)s. Most decks use this technique, "
+"although some forward-only builds will not, for lack of decent defensive tools. </p>"
+msgstr ""
+"<p> On peut choisir de renforcer l'attaque ou de conserver des serviteurs ou des cartes pour se défendre: plus forte "
+"est la défense, plus fragile sera l'attaque, donc c'est une question d'équilibre dans tous les decks. Quel que soit "
+"l'équilibre cependant, la puissance d'un deck dépend fondamentalement de son « A&B », le nombre "
+"d'<strong>A</strong>ctions & <strong>B</strong>locages dans un seul tour. Dans tous les cas, l'A&B doit être aussi "
+"haut que possible pour que le deck soit efficace. </p> <p> La manière la plus évidente d'augmenter l'A&B est "
+"d'utiliser des réactions de <strong>réveil</strong> comme %(wake_with_evenings_freshness)s. La plupart des decks "
+"utilisent cette technique, même si quelques constructions purement offensives s'en passent étant donné leur manque "
+"d'outil défensif. </p>"
+
+#: src/templates/strategy/fundamentals.html:250
+msgid "Wake & unlock reactions"
+msgstr "Réactions de réveil & de redressement"
+
+#: src/templates/strategy/fundamentals.html:252
+msgid ""
+"A few cards provide wake or unlock effects during the opponents turn, letting locked vampire react to and intercept "
+"actions."
+msgstr ""
+"Quelques cartes fournissent un effet de réveil ou de redressement durant le tour des adversaires, ce qui permet à un "
+"vampire incliné de réagir et d'intercepter des actions."
+
+#: src/templates/strategy/fundamentals.html:267 src/templates/strategy/fundamentals.html:268
+msgid "titled Sabbat"
+msgstr "Sabbat titré"
+
+#: src/templates/strategy/fundamentals.html:277
+#, python-format
+msgid "Big capacity %(ANI)s"
+msgstr "Haute capacité %(ANI)s"
+
+#: src/templates/strategy/fundamentals.html:284
+#, python-format
+msgid ""
+"<p> Another easy way to increase A&B is to use a <strong>weenie</strong> crypt: many small vampires for more actions "
+"and blocks. Their lower capacity mean they are less powerful individually, but the higher A&B is worth it. </p> <p> "
+"Other methods to get more minions also increase A&B, like recruiting <strong>Allies</strong> or using "
+"<strong>breed</strong> cards like %(the_embrace)s to create new vampires. </p> <p> The last way to increase A&B is to"
+" use modifiers to engage in multiple actions with a single minion. This strategy is called <strong>drive</strong> in "
+"honour of %(freak_drive)s, one of the most played card to achieve this. Because the <strong>NRA</strong> "
+"(<strong>N</strong>on <strong>R</strong>epeatable <strong>A</strong>ction) rule states that no action card can be "
+"used twice in the same turn by the same minion, this strategy has to be combined with a matching diversity in "
+"actions. </p>"
+msgstr ""
+"<p> Un autre moyen facile d'augmenter l'A&B est d'utiliser une crypte de <strong>weenie</strong> : de nombreux petits"
+" vampires pour plus d'actions et de blocages. Leur basse capacité signifie qu'ils seront moins puissants "
+"individuellement, mais l'augmentation d'A&B en vaut la chandelle. </p> <p> D'autres méthodes permettant d'avoir plus "
+"de serviteurs augmentent aussi l'A&B, comme recruter des <strong>Alliés</strong> ou utiliser des cartes de "
+"<strong>reproduction</strong> comme %(the_embrace)s pour créer de nouveaux vampires. </p> <p> Le dernier moyen "
+"d'augmenter l'A&B est d'utiliser des modificateurs pour réaliser plusieurs actions avec un seul serviteur. Cette "
+"stratégie s'appelle le <strong>drive</strong> en l'honneur de %(freak_drive)s, une des cartes les plus jouées pour y "
+"parvenir. Comme la règle de <strong>NRA</strong> (<strong>N</strong>on <strong>R</strong>epeatable "
+"<strong>A</strong>ction) précise qu'aucune carte d'action ne peut être utilisée deux fois dans le même tour par le "
+"même serviteur, cette stratégie doit être combinée avec une diversité suffisante d'actions pour être efficace. </p>"
+
+#: src/templates/strategy/fundamentals.html:307
+msgid "Unlock modifiers"
+msgstr "Modificateurs de redressement"
+
+#: src/templates/strategy/fundamentals.html:309
+msgid "Only a few cards allow a vampire to unlock during the turn and undertake multiple actions."
+msgstr "Seuls quelques cartes permettent à un vampire de se redresser durant le tour pour pouvoir effectuer plusieurs actions."
+
+#: src/templates/strategy/fundamentals.html:330
+msgid "Seraph"
+msgstr ""
+
+#: src/templates/strategy/fundamentals.html:333
+msgid "Action sequence"
+msgstr "Séquence d'action"
+
+#: src/templates/strategy/fundamentals.html:334
+msgid ""
+"<p> The choice and order of minion actions is important. A common strategy is to <strong>bait</strong>, beginning "
+"with the most mundane actions, up to the strongest ones. This forces the opponent to ponder what to block: too early "
+"and a devastating action could get through unopposed, too late and one could stay sitting for a big action than never"
+" comes. </p> <p> The other side of the medal is the <strong>gambit</strong> strategy: engaging in the heaviest action"
+" first in order to entice the opponent to keep a wake or an unlocked minion for an even uglier action that will, in "
+"fact, never come. </p>"
+msgstr ""
+"<p> Le choix et l'ordre des actions de serviteurs est important. Une stratégie répandue consiste à "
+"<strong>appâter</strong> en commençant par les actions les plus triviales, pour finir par les plus importantes. Cela "
+"force l'adversaire à mesurer ses blocages : s'il bloque trop tôt, une action dévastatrice pourrait passer sans "
+"opposition, trop tard et il pourrait rester à attendre une action majeure qui n'arrivera jamais. </p> <p> Le revers "
+"de la médaille est la stratégie du <strong>gambit</strong> : commencer par l'action la plus forte pour pousser "
+"l'adversaire à conserver un réveil ou un minion redressé pour une action encore pire qui, en fait, n'arrivera jamais."
+" </p>"
+
+#: src/templates/strategy/fundamentals.html:347
+msgid "The lunge"
+msgstr "La fente"
+
+#: src/templates/strategy/fundamentals.html:349
+msgid ""
+"The key to victory is to get a hand fit to oust one’s prey in the turn. Building this hand, then assessing the right "
+"moment to play it and <strong>lunge</strong> for the Victory Point is key. If the prey survives, they can rebuild "
+"their pool. Moreover, the rest of the table will tend to gang up against the predator. As a prey, one should take "
+"care to conceal its defensive capabilities — or lack thereof. As a predator, one should try to asses the number of "
+"wakes, bounces, delays, <em>etc.</em> available on the prey side."
+msgstr ""
+"La clé de la victoire est d'avoir une main permettant de sortir sa proie dans le tour. Construire cette main, puis "
+"mesurer le bon moment pour la jouer et <strong>se fendre</strong> pour le Point de Victoire, est vital. Si la proie "
+"survit, elle peut régénérer sa réserve d'influence. De plus, le reste de la table va avoir tendance à s'unir contre "
+"le prédateur. En tant que proie, il est judicieux de dissimuler ses capacités défensives — ou leur absence. En tant "
+"que prédateur, il est judicieux d'essayer de déterminer le nombre de réveils, rebonds, délais, <em>etc.</em> "
+"disponibles du côté de la proie. </p>"
+
+#: src/templates/strategy/fundamentals.html:358
+msgid "Stealth and Intercept"
+msgstr "Discrétion et interception"
+
+#: src/templates/strategy/fundamentals.html:359
+#, python-format
+msgid ""
+"<p> The key between offence and defence is the management of stealth and intercept. Many disciplines give access to "
+"stealth and intercept. </p> <p> One level of intercept is enough to block hunts, votes, equipments and recruitments. "
+"Therefore, some decks include a limited number of <strong>permanent intercept</strong> cards like "
+"%(wmrh_talk_radio)s. </p> <p> %(carlton_van_wyk)s, %(ponticulus)s (%(img_clan_tremere)s) and %(harzomatuili)s "
+"(Cardinal or Regent) deserve a special mention: they include a permanent intercept bonus plus their combat abilities "
+"is great and allow them to hinder the opponents all by themselves. </p>"
+msgstr ""
+"<p> La charnière entre l'attaque et la défense est la gestion de la discrétion et de l'interception. De nombreuses "
+"disciplines donnent accès à de la discrétion et de l'interception. </p> <p> Un niveau d'interception est suffisant "
+"pour bloquer les chasses, les votes, les équipments et les recrutements. C'est pourquoi certain decks incluent un "
+"nombre restreints de cartes d'<strong>interception permanente</strong> comme %(wmrh_talk_radio)s. </p> <p> "
+"%(carlton_van_wyk)s, %(ponticulus)s (%(img_clan_tremere)s) et %(harzomatuili)s (Cardinal ou Régent) méritent une "
+"mention spéciale: ils disposent d'un bonus d'interception permanent et, en plus, leurs capacités de combat sont "
+"excellentes et leur permettent de gêner les adversaires sans autre ajout. </p>"
+
+#: src/templates/strategy/fundamentals.html:384
+msgid "Permanent intercept cards"
+msgstr "Cartes d'interception permanente"
+
+#: src/templates/strategy/fundamentals.html:386
+msgid "Only a few unique cards give permanent intercept to any vampire, most of them master cards."
+msgstr ""
+"Seules quelques cartes fournissent de l'interception permanente à n'importe quel vampire, la plupart sont des cartes "
+"de Maître."
+
+#: src/templates/strategy/fundamentals.html:395
+msgid "expensive"
+msgstr "cher"
+
+#: src/templates/strategy/fundamentals.html:418
+msgid "Allies"
+msgstr "Alliés"
+
+#: src/templates/strategy/fundamentals.html:422
+msgid "Other cards give permanent intercept to a chosen vampire."
+msgstr "D'autres cartes donnent un bonus d'interception permanente à un vampire précis."
+
+#: src/templates/strategy/fundamentals.html:444
+msgid "Small capacity vampires"
+msgstr "Vampires de basse capacité"
+
+#: src/templates/strategy/fundamentals.html:456
+msgid "Magaji"
+msgstr ""
+
+#: src/templates/strategy/fundamentals.html:489
+#, python-format
+msgid ""
+"On the other hand, whatever level of intercept one manages to achieve, stealth specialised decks often include some "
+"<strong>block denial</strong> modifiers atop normal stealth. %(OBF)s %(elder_impersonation)s, %(NEC)s "
+"%(call_of_the_hungry_dead)s and %(OBT)s %(blanket_of_night)s are the only full-purpose block denials of the game. "
+"However, %(DOM)s gives access to %(seduction)s which is still a strong denial, even if it is less efficient against "
+"wakes. Many disciplines give access to lesser block denials that only work against allies and younger vampires, but "
+"they are less used."
+msgstr ""
+"D'un autre côté, quel que soit le niveau d'interception que l'on atteint, les decks spécialisés dans la discrétion "
+"incluent souvent quelques modificateurs de <strong>déni de blocage</strong> en plus de la discrétion normale. %(OBF)s"
+" %(elder_impersonation)s, %(NEC)s %(call_of_the_hungry_dead)s et %(OBT)s %(blanket_of_night)s sont les seuls "
+"véritables dénis de blocage du jeu. Cependant, %(DOM)s donne accès à %(seduction)s qui reste un déni plutôt puissant,"
+" même s'il est moins efficace contre les réveils. De nombreuses disciplines fournissent des dénis de blocs de moindre"
+" envergure qui ne fonctionnent que contre les alliés et les vampires plus jeunes, mais ils sont moins utilisés."
+
+#: src/templates/strategy/index.html:6
+msgid "This section explores <strong>Vampire: the Eternal Struggle</strong> strategy in some details."
+msgstr "Cette section explore la stratégie de <strong>Vampire: the Eternal Struggle</strong> en détail."
+
+#: src/templates/strategy/index.html:9
+msgid "gives general tips and advices."
+msgstr "donne des astuces et des conseils généraux"
+
+#: src/templates/strategy/index.html:10
+msgid "explains combat in detail."
+msgstr "explique le combat en détail"
+
+#: src/templates/strategy/index.html:11
+msgid "details the different strategies to gain pool during a game."
+msgstr "détaille les différentes stratégies permettant de regagner de la réserve d'influence pendant une partie."
+
+#: src/templates/strategy/index.html:12
+msgid "gives some tools toward deck building."
+msgstr "donne des techniques pour construire son propre deck."
+
+#: src/templates/strategy/index.html:13
+msgid "is an introduction to the different deck archetypes."
+msgstr "est une introduction aux différents archétypes de decks."
+
+#: src/templates/strategy/index.html:14
+msgid "presents negociation strategies and tips."
+msgstr "présente les stratégies et astuces de négociation."
+
+#: src/templates/strategy/index.html:16
+msgid "Black Chantry Sabbat pre-constructed decks guides"
+msgstr "Guides de jeu des decks préconstruits Sabbat de Black Chantry"
+
+#: src/templates/strategy/index.html:23
+msgid "Black Chantry \"First Blood\" pre-constructed decks guides"
+msgstr "Guides de jeu des decks préconstruits \"Premier Sang\" de Black Chantry"
+
+#: src/templates/strategy/index.html:25
+msgid "Black Chantry released official guides for the First Blood decks series:"
+msgstr "Black Chantry a publié des guides officiels pour la série de decks Premier Sang :"
+
+#: src/templates/strategy/index.html:29
+msgid "First Blood: Ventrue"
+msgstr "Premier Sang : Ventrue"
+
+#: src/templates/strategy/index.html:32
+msgid "First Blood: Malkavian"
+msgstr "Premier Sang : Malkavien"
+
+#: src/templates/strategy/index.html:35
+msgid "First Blood: Nosferatu"
+msgstr "Premier Sang : Nosferatu"
+
+#: src/templates/strategy/index.html:38
+msgid "First Blood: Toreador"
+msgstr "Premier Sang : Toréador"
+
+#: src/templates/strategy/index.html:41
+msgid "First Blood: Tremere"
+msgstr "Premier Sang : Tremere"
+
+#: src/templates/strategy/index.html:46
+msgid "All rights reserved."
+msgstr "Tous droits réservés."
+
+#: src/templates/strategy/table-talk.html:6
+msgid ""
+"<em>« Table talk »</em> is an important part of the game. The best players are ruthless negotiators and rely on their"
+" skill to topple the game in their favour."
+msgstr ""
+"La <em>« discussion »</em> est une part importante du jeu. Les meilleurs joueurs sont des négociateurs chevronnés et "
+"utilisent leur talent pour faire basculer la partie en leur faveur."
+
+#: src/templates/strategy/table-talk.html:11
+msgid "Negociation"
+msgstr "Négociation"
+
+#: src/templates/strategy/table-talk.html:13
+msgid ""
+"Making tactical deals with other players during the game is the heart of table talk. A lot of things can be discussed"
+" and negociated around the table. The key to successful negociation is to determine what every other player "
+"<strong>can offer</strong> and what she <strong>may desire</strong>. Then, almost anything can be dealt on a table."
+msgstr ""
+"Faire des pactes tactiques avec d'autres joueurs pendant la partie est le cœur de la discussion. Beaucoup de choses "
+"peuvent être négociées autour de la table. La clé d'une négociation réussie est de déterminer ce que chaque joueur "
+"<strong>peut offrir</strong> et ce qu'il <strong>pourrait désirer</strong>. Partant de là, presque tout est "
+"négociable à la table."
+
+#: src/templates/strategy/table-talk.html:21
+msgid "Some tactical deals are fairly common:"
+msgstr "Certains pactes tactiques sont assez courants :"
+
+#: src/templates/strategy/table-talk.html:24
+msgid "Agreeing for a <strong>single damage combat</strong> (only simple hand strikes) before blocking a bounced bleed."
+msgstr ""
+"Accepter de ne faire qu'<strong>un dégât au combat</strong> (en utilisant des frappes à mains nues) avant de bloquer "
+"une morsure redirigée."
+
+#: src/templates/strategy/table-talk.html:30
+msgid "<strong>Not intercepting</strong> an action, often on the ground that the result does not hinder the other player."
+msgstr ""
+"<strong>Ne pas intercepter</strong> une action, en général sur la base du fait que l'action ne pénalise pas l'autre "
+"joueur."
+
+#: src/templates/strategy/table-talk.html:36
+#, python-format
+msgid "Letting another player <strong>borrow a card</strong> unopposed, like %(the_rack)s or %(powerbase_montreal)s."
+msgstr "Laisser un autre joueur <strong>emprunter une carte</strong>, comme %(the_rack)s ou %(powerbase_montreal)s."
+
+#: src/templates/strategy/table-talk.html:45
+msgid "Getting another player's vampire <strong>out of torpor</strong>; it is a directed action, harder to block."
+msgstr "<strong>Sortir de torpeur</strong> le vampire d'un autre joueur; c'est une action dirigée, plus difficile à bloquer."
+
+#: src/templates/strategy/table-talk.html:51
+msgid "Asking a combat-oriented deck to <strong>take down a vampire</strong>."
+msgstr "Demander à un deck orienté combat de <strong>régler son compte à un vampire</strong>."
+
+#: src/templates/strategy/table-talk.html:56
+#, python-format
+msgid "Aggreing to <strong>use %(ashur_tablets)s alternatively</strong> to avoid crippling one another."
+msgstr "Accepter d'<strong>utiliser %(ashur_tablets)s à tour de rôle</strong> pour éviter de s'handicaper respectivement."
+
+#: src/templates/strategy/table-talk.html:65
+msgid ""
+"Deals can relate to something <em>not</em> being done instead of something being offered. Dealing to <em>not</em> "
+"bleed, <em>not</em> block or <em>not</em> rush are often proposed to one's prey or predator."
+msgstr ""
+"Les pactes peuvent concerner quelque chose qui <em>ne sera pas fait</em> plutôt qu'offrir quelque chose. Faire un "
+"pacte pour <em>ne pas</em> mordre, <em>ne pas</em> bloquer ou <em>ne pas</em> rusher est souvent proposé à la proie "
+"ou au prédateur."
+
+#: src/templates/strategy/table-talk.html:72
+msgid ""
+"<h3>The unbearable lightness of deals</h3> <p> They are two important things to keep in mind with deals: <ul> <li> "
+"They can always be <strong>broken</strong>, and one should always be prepared to break them or have them broken by "
+"the other party. </li> <li> One can always deal to refrain from something <strong>they can not do anyway</strong>. "
+"For example, a <em>wall</em> deck can deal to let an action pass in exchange for some advantage, even if he had no "
+"way to block the action in the first place. </li> </ul> </p> <p> Deals are a powerful tool but they should still be "
+"considered with some lightness. </p>"
+msgstr ""
+"<h3>L'insoutenable légèreté des pactes</h3> <p> Il faut garder deux choses à l'esprit concernant les pactes : <ul> "
+"<li> Ils peuvent toujours être <strong>brisés</strong>, et on devrait toujours être prêt à en briser un ou s'attendre"
+" à ce que notre homologue le brise. </li> <li> On peut toujours promettre de s'abstenir de faire quelque chose "
+"<strong>qu'on ne pouvait pas faire de toute façon</strong>. Par exemple, un deck de <em>mur</em> peut accepter de "
+"laisser passer une action en échange de quelque avantage, alors même qu'il n'était pas en mesure de bloquer l'action."
+" </li> </ul> </p> <p> Les pactes sont importants mais il doivent tout de même être pris avec une certaine légèreté. "
+"</p>"
+
+#: src/templates/strategy/table-talk.html:94
+msgid ""
+"Finally, on the tournament scene, <strong>table splits</strong> deals are commonplace. For this kind of deals, 2 or 3"
+" prominent players agree upon a repartition of Victory Points by deciding who gets to oust who. This is often key in "
+"the end game."
+msgstr ""
+"Enfin, lors d'un tournoi, les pactes de <strong>partage de table</strong> sont monnaie courante. Dans ce type de "
+"pacte, 2 ou 3 joueurs dominants s'accordent sur une certaine répartition de Points de Victoire en décidant qui "
+"sortira quelle proie. C'est souvent décisif pour la fin de partie."
+
+#: src/templates/strategy/table-talk.html:101
+msgid "Information, Deception and Standing"
+msgstr "Information, Désinformation et Réputation"
+
+#: src/templates/strategy/table-talk.html:104
+msgid ""
+"Table talk is not only about negociation, it is also about manipulation. Multiple techniques are used for deception "
+"and information gathering. A common tactic is to <strong>announce</strong> every action one as the intention to "
+"undertake before playing it. It has multiple positive effects:"
+msgstr ""
+"La discussion ne se limite pas à la négociation, il s'agit aussi de manipulation. Plusieurs techniques sont utilisées"
+" pour la désinformation et la collecte d'informations. Une tactique répandue consiste à <strong>annoncer</strong> "
+"chaque action que l'on a l'intention d'entreprendre avant de la jouer. Cela a plusieurs effets positifs :"
+
+#: src/templates/strategy/table-talk.html:113
+msgid "It is a way to <strong>gather information</strong> about the opponents play: can they block, bounce or counter?"
+msgstr ""
+"C'est une manière de <strong>collecter l'information</strong> sur le jeu des autres : peuvent-ils bloquer, rebondir "
+"ou contrer ?"
+
+#: src/templates/strategy/table-talk.html:119
+msgid "It opens a window of negociation to get an action through and <strong>avoid possible blocks</strong>."
+msgstr "Cela ouvre une fenêtre de négociation pour pouvoir passer une action et <strong>éviter les blocages</strong>."
+
+#: src/templates/strategy/table-talk.html:124
+msgid ""
+"It makes the player <strong>appear more affable</strong>, as he looks like he tries to get other players aproval "
+"before deciding on his actions. Keeping that in mind, it is a good play to accept to delay an action if it causes an "
+"issue for an ally, or to excuse oneself when undertaking an aggressive action toward another player. Being likeable "
+"is an excellent asset throughout the game."
+msgstr ""
+"Cela rend le joueur <strong>plus affable en apparence</strong>, puisqu'il donne l'impression de chercher "
+"l'approbation des autres joueurs avant de choisir son action. En gardant ça à l'esprit, accepter de repousser une "
+"action si elle pose problème à un allié peut être un bon coup, ou s'excuser si l'on entreprend une action très "
+"aggressive envers un autre joueur. Être avenant est une bonne ressource lors de la partie."
+
+#: src/templates/strategy/table-talk.html:132
+msgid ""
+"It gives an occasion to use a bit of deception by commenting the action and <strong>mislead the opponents</strong> "
+"about its long term effect or importance to the deck strategy."
+msgstr ""
+"Cela donne l'occasion de procéder à un peu de désinformation en commentant une action pour <strong>tromper les "
+"adversaires</strong> en ce qui concerne ses effets à long terme ou son importance stratégique pour le deck."
+
+#: src/templates/strategy/table-talk.html:139
+msgid "Decision timing"
+msgstr "Temps de décision"
+
+#: src/templates/strategy/table-talk.html:141
+msgid ""
+"The time someone takes to ponder wether or not they react to a play or an action is an indication of their hand "
+"content. One should keep focused on the decision timing of the other players, while trying to be as unconspicuous as "
+"possible oneself."
+msgstr ""
+"Le temps de réflexion que l'on prend pour décider de réagir ou de jouer une action est révélateur du contenu de la "
+"main. On devrait être attentif au temps de décision des autres joueurs, tout en essayant d'être aussi discret que "
+"possible soi-même."
+
+#: src/templates/strategy/table-talk.html:149
+msgid ""
+"The best but hardest way to be impenetrable is to always take a similar time to ponder any reaction, even when none "
+"is possible. This is easier said than done, though."
+msgstr ""
+"Le meilleur moyen, mais le plus difficile, pour être impénétrable est de toujours prendre le même temps de réflexion "
+"pour chaque action et réaction, même lorsqu'aucune réaction n'est possible. C'est plus facile à dire qu'à faire."
+
+#: src/templates/strategy/table-talk.html:155
+#, python-format
+msgid ""
+"An easier way is to <strong>act as if</strong> one had a useful reaction in hand when it's not the case. Asking for "
+"two seconds to ponder during another player turn to hint at a counter like %(sudden_reversal)s without having it in "
+"hand is a cheap but effective move."
+msgstr ""
+"Une méthode plus simple est de jouer <strong>comme si</strong> on avait une réaction utile en main quand ce n'est pas"
+" le cas. Demander deus secondes pour réfléchir pendant le tour d'un autre joueur pour laisser croire à la présence "
+"d'un contre comme %(sudden_reversal)s sans l'avoir en main est un coup bas, mais efficace."
+
+#: src/templates/strategy/table-talk.html:164
+msgid ""
+"The easiest way to stay composed is to <strong>decide in advance</strong> what one's reaction will be. For example, "
+"with a wake in hand, one can decide <em>beforehand</em> to wake only if a bleed above one pool is anounced. This way "
+"the pondering time does not show so much."
+msgstr ""
+"Le meilleur moyen pour rester de marbre est de <strong>décider à l'avance</strong> de sa réaction. Par exemple, avec "
+"un réveil en main, on peut décider <em>à l'avance</em> de ne se réveiller que si une morsure de plus d'un point est "
+"annoncée. De cette manière le temps de réflexion est plus difficile à déceler."
+
+#: src/templates/strategy/table-talk.html:173
+msgid ""
+"Another tool of manipulation is about the players <strong>standing</strong> around the table. A handful of casual "
+"comments can go a long way. The basic idea is to decide on a <em>posture</em> quite early in the game: which deck is "
+"a threat on the table and which is the underdog. If the other players aggree with the posture, this can have the "
+"following effects:"
+msgstr ""
+"Une autre technique de manipulation concerne la <strong>réputation</strong> des joueurs à la table. Une poignée de "
+"commentaires nonchalants peut avoir un effet considérable. L'idée de base et de choisir une <em>posture</em> assez "
+"tôt dans la partie : quel deck est une menace à la table et lequel est une victime. Si les autres joueurs sont "
+"d'accord avec cette posture, cela peut avoir les effets suivants :"
+
+#: src/templates/strategy/table-talk.html:183
+msgid "The <strong>threat</strong> will come under pressure and its allies will hesitate to deal with them."
+msgstr "La <strong>menace</strong> sera sous pression et ses alliés hésiteront à faire des pactes avec lui."
+
+#: src/templates/strategy/table-talk.html:188
+msgid "The <strong>underdog</strong> is more likely to be ignored by the other players and miss some deals opporunities."
+msgstr "La <strong>victime</strong> sera plus facilement ignorée par les autre et ratera des opportunités de négociation."
+
+#: src/templates/strategy/table-talk.html:195
+msgid ""
+"Of course, one should try to <strong>lay low</strong>, avoid to focus the table attention to oneself and "
+"<em>never</em> present himself as the threat. The posture should be expressed with a bit of subtelty and always "
+"<em>pleasantly</em>: an aggressive posture is very likely to drive the other players against the initiator, plus, "
+"remember, this is a game and should stay enjoyable even for your opponents."
+msgstr ""
+"Bien sûr, on devrait toujours chercher à faire <strong>profil bas</strong>, éviter d'attirer l'attention de la table "
+"à soi et ne <em>jamais</em> se présenter comme une menace. La posture doit être exprimée subtilement et toujours de "
+"manière <em>plaisante</em> : une posture aggressive a beaucoup de chance de pousser les autres joueurs à agir contre "
+"son instigateur et, souvenez-vous, cela reste un jeu et devrait rester agréable pour vos adversaires."
+
+#: src/templates/strategy/table-talk.html:203
+msgid "Table strategies"
+msgstr "Stratégies de table"
+
+#: src/templates/strategy/table-talk.html:204
+msgid ""
+"<p> Not everything around the table is about talking. Having a good sense of the table balance is essential to build "
+"an efficient table strategy as well. </p> <p> The most obvious fact about table strategy is the two players « cross "
+"table » are <strong>natural allies</strong>. The grand-prey will be leaning to help against the prey, and the grand-"
+"predator against the predator. Cultivating good rapports with them is important in the beginning. As the game "
+"progress though, they can become threats themselves. </p>"
+msgstr ""
+"<p> Tout n'est pas que discussion à la table. Avoir une bonne idée de l'équilibre de la table est essentiel pour "
+"construire une stratégie de table efficace. </p> <p> Le point le plus évident concernant la stratégie de table est "
+"que deux joueurs « face-à-face » sont des <strong>alliés naturels</strong>. La grande-proie sera favorable à aider "
+"contre la proie, ainsi que le grand-prédateur contre le prédateur. Entretenir de bons rapports avec eux est important"
+" au début. Alors que le jeu progresse, cependant, ils peuvent devenir eux-mêmes une menace. </p>"
+
+#: src/templates/strategy/table-talk.html:217
+msgid ""
+"<h3>Hopping</h3> <p> A strategy uniquely available to vote constructs, hopping is going against the grand-prey pool "
+"before ousting the prey first. It is a good idea when the grand-prey deck has good block capacity: they do not get "
+"the chance to block the undirected vote actions until they are either the prey or the predator. </p>"
+msgstr ""
+"<h3>Saut de mouton</h3> <p> Le saut de mouton, une stratégie exclusivement réservée aux decks de vote, consiste à "
+"saper l'influence de la grande-proie avant de sortir sa propre proie. C'est une bonne idée quand la grande-proie a "
+"une grande capacité de blocage : elle n'aura pas l'opportunité de bloquer les actions de vote non dirigées tant "
+"qu'elle ne sera pas la proie ou le prédateur. </p>"
+
+#: src/templates/strategy/table-talk.html:228
+msgid ""
+"One should of course focus on <strong>eliminating its prey</strong>. However, when the predator is too threatening, "
+"some builds have the ability to <strong>go reverse</strong>, taking aggressive actions against their predator to oust"
+" them before their prey. A full reverse, taking predators down one after another for a 2 VP game win at the end, is "
+"hard to achieve: each predator gets 6 more pool out of the oust. However, going at least partially reverse during a "
+"game, ousting or crippling the predator to diminish the pressure, is a real possibility for some decks."
+msgstr ""
+"On devrait toujours se concentrer sur l'<strong>élimination de sa proie</strong>. Cela dit, si le prédateur est trop "
+"menaçant, certains decks ont la possibilité de jouer <strong>à contresens</strong>, en effectuant des actions "
+"aggressives contre leur prédateur pour le sortir avant leur proie. Un contresens complet, en sortant les prédateurs "
+"les uns après les autres pour une victoire à 2 points, est difficile à réaliser : chaque prédateur gagne 6 points "
+"d'influence lors de la sortie du précédent. Cependant, jouer partiellement à contresens pendant une partie, en "
+"sortant ou en handicappant son prédateur pour diminuer la pression, est une vraie possibilité pour certains decks."
+
+#: src/templates/strategy/table-talk.html:237
+msgid "Predator-Prey Continuum"
+msgstr "Le Continuum Proie-Prédateur"
+
+#: src/templates/strategy/table-talk.html:239
+#, python-format
+msgid ""
+"The Predator-Prey Continuum is a notion developped by Gregory Williams in his "
+"%(basic_concepts_in_deck_construction)s. The gist of it is that when a player applies pressure to his prey, the "
+"effect ripples around the table and, depending on the number of players, the consequences vary. See the following "
+"schematics, representing, 5, 4 and 3-players continuum, where M<sub>1</sub>, M<sub>2</sub>, M<sub>3</sub>, "
+"M<sub>4</sub> and M<sub>5</sub> are the five Methusalah."
+msgstr ""
+"Le Continuum Proie-Prédateur est une notion developpée par Gregory Williams dans son "
+"%(basic_concepts_in_deck_construction)s. L'idée est que lorsqu'un joueur met la pression à sa proie, les effets se "
+"transmettent autour de la table comme une onde et, selon le nombre de joueurs, les conséquences en sont différentes. "
+"Observez le diagramme suivant représentant des continuum à 5, 4 et 3 joueurs, où M<sub>1</sub>, M<sub>2</sub>, "
+"M<sub>3</sub>, M<sub>4</sub> et M<sub>5</sub> sont les 5 Mathusalems."
+
+#: src/templates/strategy/table-talk.html:254
+msgid "lunge move"
+msgstr "fente"
+
+#: src/templates/strategy/table-talk.html:253
+#, python-format
+msgid ""
+"<p> If a strong (▲) player (M<sub>1</sub>) pressures his prey, then his prey (M<sub>2</sub>) has to focus on defense "
+"(△) and his grand-prey (M<sub>3</sub>) gets strong (▲) and can put pressure on <em>his</em> prey (M<sub>4</sub>), and"
+" so on. </p> <p> In a game with an even number of players (4 players in the example), this is a stable situation: "
+"cross-table allies reinforce each other and they build up their edge. If there is an odd number of players though, "
+"the pressure comes back a turn later on M<sub>1</sub> (turn B). </p> <p> This systemic ripple effect, although not so"
+" clear-cut in practice and depending a lot on the type of decks on the table, is a good model of how the game flows. "
+"It emphasizes how important it is for one to nail his <strong>%(lunge_move)s</strong> in a five or three players "
+"setup: if the lunge works, you get back to an even number and a favorable situation. If it fails, you stay on an odd "
+"number of players and have just put a lot of pressure on your prey. More often than not, this means the pressure will"
+" come back at you in your very next turn. </p>"
+msgstr ""
+"<p> Si un joueur (M<sub>1</sub>) en position de force (▲) met la pression à sa proie, alors sa proie (M<sub>2</sub>) "
+"doit se concentrer sur la défense (△) et sa grande-proie (M<sub>3</sub>) est laissée tranquille (▲) et peut mettre la"
+" pression à <em>sa</em> propre proie (M<sub>4</sub>), et ainsi de suite. </p> <p> Dans une partie avec un nombre de "
+"joueurs pair (4 joueurs dans cet exemple), c'est une situation stable : les alliés face-à-face se renforcent l'un "
+"l'autre et capitalisent sur leur avantage. Si le nombre de joueurs est impair cependant, la pression revient un tour "
+"plus tard sur M<sub>1</sub> (tour B). </p> <p> Cet effet d'onde systémique, même s'il n'est pas aussi tranché en "
+"pratique et dépend beaucoup du type de decks à la table, est un bon modèle de la manière dont une partie évolue. Au "
+"passage, il met en évidence à quel point il est important de réussir sa <strong>%(lunge_move)s</strong> dans une "
+"situation à trois ou cinq joueurs : si la fente fonctionne, vous revenez à un nombre pair et à une situation "
+"favorable. Si elle échoue, vous restez sur un nombre impair de joueurs en ayant mis une grande pression sur la proie."
+" En général, cela signifie que la pression va revenir en force contre vous au prochain tour de table. </p>"
+
