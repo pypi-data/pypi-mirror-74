@@ -1,0 +1,7 @@
+README.md
+setup.py
+mGesf.egg-info/PKG-INFO
+mGesf.egg-info/SOURCES.txt
+mGesf.egg-info/dependency_links.txt
+mGesf.egg-info/requires.txt
+mGesf.egg-info/top_level.txt
