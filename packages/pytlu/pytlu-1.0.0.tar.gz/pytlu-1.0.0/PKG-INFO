@@ -1,0 +1,12 @@
+Metadata-Version: 1.2
+Name: pytlu
+Version: 1.0.0
+Summary: DAQ for EUDAQ TLU
+Home-page: https://github.com/SiLab-Bonn/pytlu
+Author: Janek Fleper, Tomasz Hemperek, Yannick Dieter, Jens Janssen
+Author-email: j.fleper@gmx.de, hemeprek@uni-bonn.de, dieter@physik.uni-bonn.de, janssen@physik.uni-bonn.de
+Maintainer: Tomasz Hemperek
+Maintainer-email: hemeprek@uni-bonn.de
+License: UNKNOWN
+Description: UNKNOWN
+Platform: any

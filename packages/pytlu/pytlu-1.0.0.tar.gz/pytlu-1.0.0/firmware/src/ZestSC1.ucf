@@ -1,0 +1,256 @@
+
+
+###########################
+# Register interface #
+###########################
+net "BUS_CLK_IN" LOC = "R9";
+
+net "USB_BUS_ADD<0>" LOC = "J2";
+net "USB_BUS_ADD<1>" LOC = "J1";
+net "USB_BUS_ADD<2>" LOC = "G1";
+net "USB_BUS_ADD<3>" LOC = "H1";
+net "USB_BUS_ADD<4>" LOC = "H4";
+net "USB_BUS_ADD<5>" LOC = "H3";
+net "USB_BUS_ADD<6>" LOC = "G4";
+net "USB_BUS_ADD<7>" LOC = "G3";
+net "USB_BUS_ADD<8>" LOC = "F5";
+net "USB_BUS_ADD<9>" LOC = "G5";
+net "USB_BUS_ADD<10>" LOC = "F3";
+net "USB_BUS_ADD<11>" LOC = "F2";
+net "USB_BUS_ADD<12>" LOC = "E4";
+net "USB_BUS_ADD<13>" LOC = "F4";
+net "USB_BUS_ADD<14>" LOC = "E2";
+net "USB_BUS_ADD<15>" LOC = "E1";
+
+net "BUS_DATA<0>" LOC = "M2";
+net "BUS_DATA<1>" LOC = "M1";
+net "BUS_DATA<2>" LOC = "L5";
+net "BUS_DATA<3>" LOC = "L4";
+net "BUS_DATA<4>" LOC = "L3";
+net "BUS_DATA<5>" LOC = "L2";
+net "BUS_DATA<6>" LOC = "K5";
+net "BUS_DATA<7>" LOC = "K4";
+
+net "BUS_OE_N" LOC = "J3";
+net "BUS_RD_N" LOC = "J4";
+net "BUS_WR_N" LOC = "K2";
+net "BUS_CS_N" LOC = "K3";
+
+net "BUS_CLK_IN" IOSTANDARD = LVCMOS33;
+net "USB_BUS_ADD<*>" IOSTANDARD = LVCMOS33;
+net "BUS_OE_N" IOSTANDARD = LVCMOS33;
+net "BUS_RD_N" IOSTANDARD = LVCMOS33;
+net "BUS_WR_N" IOSTANDARD = LVCMOS33;
+net "BUS_CS_N" IOSTANDARD = LVCMOS33;
+net "BUS_DATA<*>" IOSTANDARD = LVCMOS33 | DRIVE = 12 | SLEW = FAST;
+
+net "BUS_CLK_IN" TNM_Net = "TNM_BUS_CLK";
+timespec "TS_BUS_CLK" = PERIOD "TNM_BUS_CLK" 20.83 ns HIGH 50 %;
+
+NET "BUS_CLK" TNM_NET = tn_BUS_CLK;
+NET "CLK160" TNM_NET = tn_CLK160;
+NET "CLK320" TNM_NET = tn_CLK320;
+NET "CLK40" TNM_NET = tn_CLK40;
+
+TIMESPEC TS_FALSE_CLK_40_BUS_CLK = FROM "tn_CLK40" TO "tn_BUS_CLK" TIG;
+TIMESPEC TS_FALSE_BUS_CLK_CLK_40 = FROM "tn_BUS_CLK" TO "tn_CLK40" TIG;
+
+NET "BUS_WR_N" OFFSET = IN : 9 : AFTER : BUS_CLK_IN ;
+NET "BUS_RD_N" OFFSET = IN : 9 : AFTER : BUS_CLK_IN ;
+NET "BUS_DATA[*]" OFFSET = IN : 10  : AFTER : BUS_CLK_IN ;
+NET "BUS_DATA[*]" OFFSET = OUT : 5 : BEFORE : BUS_CLK_IN ;
+NET "USB_BUS_ADD[*]" OFFSET = IN : 5  : AFTER : BUS_CLK_IN ;
+
+#######################
+# Streaming interface #
+#######################
+net "USB_STREAM_CLK" LOC = "T9";
+net "USB_STREAM_FLAGS_N<0>" LOC = "T8";
+net "USB_STREAM_FLAGS_N<1>" LOC = "T4";
+net "USB_STREAM_FLAGS_N<2>" LOC = "R4";
+
+net "USB_STREAM_FX2RDY" LOC = "P9";
+net "USB_STREAM_SLRD_n" LOC = "P5";
+net "USB_STREAM_SLWR_n" LOC = "R6";
+net "USB_STREAM_SLOE_n" LOC = "N8";
+
+net "USB_STREAM_FIFOADDR<0>" LOC = "N10";
+net "USB_STREAM_FIFOADDR<1>" LOC = "M10";
+net "USB_STREAM_PKTEND_N" LOC = "R11";
+
+net "USB_STREAM_DATA<0>" LOC = "M6";
+net "USB_STREAM_DATA<1>" LOC = "N6";
+net "USB_STREAM_DATA<2>" LOC = "R7";
+net "USB_STREAM_DATA<3>" LOC = "T7";
+net "USB_STREAM_DATA<4>" LOC = "R10";
+net "USB_STREAM_DATA<5>" LOC = "P10";
+net "USB_STREAM_DATA<6>" LOC = "N11";
+net "USB_STREAM_DATA<7>" LOC = "M11";
+net "USB_STREAM_DATA<8>" LOC = "R12";
+net "USB_STREAM_DATA<9>" LOC = "P12";
+net "USB_STREAM_DATA<10>" LOC = "T13";
+net "USB_STREAM_DATA<11>" LOC = "R13";
+net "USB_STREAM_DATA<12>" LOC = "T10";
+net "USB_STREAM_DATA<13>" LOC = "P13";
+net "USB_STREAM_DATA<14>" LOC = "N12";
+net "USB_STREAM_DATA<15>" LOC = "T14";
+
+net "USB_STREAM_CLK" IOSTANDARD = LVCMOS33;
+net "USB_STREAM_SLRD_n" IOSTANDARD = LVCMOS33 | DRIVE = 6 | SLEW = FAST;
+net "USB_STREAM_SLWR_n" IOSTANDARD = LVCMOS33 | DRIVE = 6 | SLEW = FAST;
+net "USB_STREAM_SLOE_n" IOSTANDARD = LVCMOS33 | DRIVE = 6 | SLEW = FAST;
+net "USB_STREAM_FX2RDY" IOSTANDARD = LVCMOS33;
+net "USB_STREAM_FIFOADDR<*>" IOSTANDARD = LVCMOS33 | DRIVE = 12 | SLEW = FAST;
+net "USB_STREAM_PKTEND_N" IOSTANDARD = LVCMOS33 | DRIVE = 12 | SLEW = FAST;
+net "USB_STREAM_DATA<*>" IOSTANDARD = LVCMOS33 | DRIVE = 12 | SLEW = FAST;
+net "USB_STREAM_FLAGS_N<*>" IOSTANDARD = LVCMOS33;
+
+net "USB_STREAM_CLK" TNM_net = "USB_STREAM_CLK";
+timespec "TS_StreamCLK" = PERIOD "USB_STREAM_CLK" 20.83 ns HIGH 50 %;
+
+net "USB_STREAM_DATA<*>" OFFSET = in 4.0 ns before USB_STREAM_CLK;
+net "USB_STREAM_DATA<*>" OFFSET = out 16 ns after USB_STREAM_CLK;
+
+net "USB_STREAM_SLRD_n" OFFSET = OUT 8 ns AFTER USB_STREAM_CLK;
+net "USB_STREAM_SLWR_n" OFFSET = OUT 16 ns AFTER USB_STREAM_CLK;
+net "USB_STREAM_SLOE_n" OFFSET = OUT 8 ns AFTER USB_STREAM_CLK;
+
+net "USB_STREAM_FLAGS_N<2>" OFFSET = IN 7 ns BEFORE USB_STREAM_CLK;
+net "USB_STREAM_FLAGS_N<1>" OFFSET = IN 7 ns BEFORE USB_STREAM_CLK;
+net "USB_STREAM_FLAGS_N<0>" OFFSET = IN 7 ns BEFORE USB_STREAM_CLK;
+
+##################
+# SRAM Interface #
+##################
+
+net "SRAM_CLK" LOC = "B7";
+net "SRAM_ADD<0>" LOC = "D3";
+net "SRAM_ADD<1>" LOC = "E3";
+net "SRAM_ADD<2>" LOC = "D2";
+net "SRAM_ADD<3>" LOC = "D1";
+net "SRAM_ADD<4>" LOC = "C3";
+net "SRAM_ADD<5>" LOC = "C2";
+net "SRAM_ADD<6>" LOC = "B1";
+net "SRAM_ADD<7>" LOC = "C1";
+net "SRAM_ADD<8>" LOC = "G2";
+net "SRAM_ADD<9>" LOC = "A5";
+net "SRAM_ADD<10>" LOC = "A7";
+net "SRAM_ADD<11>" LOC = "A3";
+net "SRAM_ADD<12>" LOC = "D5";
+net "SRAM_ADD<13>" LOC = "B4";
+net "SRAM_ADD<14>" LOC = "A4";
+net "SRAM_ADD<15>" LOC = "C5";
+net "SRAM_ADD<16>" LOC = "B5";
+net "SRAM_ADD<17>" LOC = "E6";
+net "SRAM_ADD<18>" LOC = "D6";
+net "SRAM_ADD<19>" LOC = "C6";
+net "SRAM_ADD<20>" LOC = "B6";
+net "SRAM_ADD<21>" LOC = "E7";
+net "SRAM_ADD<22>" LOC = "D7";
+net "SRAM_ADV_LD_N" LOC = "C7";
+net "SRAM_BW_N<0>" LOC = "C8";
+net "SRAM_BW_N<1>" LOC = "D8";
+
+net "SRAM_DATA<0>" LOC = "B10";
+net "SRAM_DATA<1>" LOC = "A10";
+net "SRAM_DATA<2>" LOC = "E10";
+net "SRAM_DATA<3>" LOC = "D10";
+net "SRAM_DATA<4>" LOC = "C11";
+net "SRAM_DATA<5>" LOC = "B11";
+net "SRAM_DATA<6>" LOC = "E11";
+net "SRAM_DATA<7>" LOC = "D11";
+net "SRAM_DATA<8>" LOC = "C12";
+net "SRAM_DATA<9>" LOC = "B12";
+net "SRAM_DATA<10>" LOC = "B13";
+net "SRAM_DATA<11>" LOC = "A13";
+net "SRAM_DATA<12>" LOC = "B14";
+net "SRAM_DATA<13>" LOC = "A14";
+net "SRAM_DATA<14>" LOC = "D12";
+net "SRAM_DATA<15>" LOC = "C10";
+net "SRAM_DATA<16>" LOC = "A12";
+net "SRAM_DATA<17>" LOC = "A9";
+
+net "SRAM_OE_N" LOC = "C9";
+net "SRAM_WE_N" LOC = "D9";
+
+net "SRAM_*" IOSTANDARD = LVCMOS33 | DRIVE = 12 | SLEW = FAST;
+
+#######################
+# Expansion connector #
+#######################
+#net "IO_CLK_N" LOC = "B8";
+#net "IO_CLK_P" LOC = "A8";
+#net "IO_CLK_N" IOSTANDARD = LVCMOS33 | DRIVE = 12 | SLEW = FAST;
+#net "IO_CLK_P" IOSTANDARD = LVCMOS33 | DRIVE = 12 | SLEW = FAST;
+
+#I2C_SEL : ( 25 , 22 );
+#I2C_SCL_OUT : 18; 
+#I2C_SDA_OUT : 21;
+#I2C_SCL_IN : 20;
+#I2C_SDA_IN : 23; 
+#GPIO_BIT : (37,36,35,34,32);
+#DUT_TRIGGER : (1,0,3,2,5,4);
+#DUT_RESET : (13,12,15,14,17,16);
+#DUT_BUSY : (27,26,29,28,31,30);
+#DUT_CLOCK : (38,41,43,42,44,46); 
+#BEAM_TRIGGER : (9,6,11,8);
+
+net "DUT_TRIGGER<1>" LOC = "T12"; #net "IO<0>" LOC = "T12";
+net "DUT_TRIGGER<0>" LOC = "K15"; #net "IO<1>" LOC = "K15";
+net "DUT_TRIGGER<3>" LOC = "P16"; #net "IO<2>" LOC = "P16";
+net "DUT_TRIGGER<2>" LOC = "R16"; #net "IO<3>" LOC = "R16";
+net "DUT_TRIGGER<5>" LOC = "P15"; #net "IO<4>" LOC = "P15";
+net "DUT_TRIGGER<4>" LOC = "P14"; #net "IO<5>" LOC = "P14";
+
+net "BEAM_TRIGGER<1>" LOC = "N16"; #net "IO<6>" LOC = "N16";
+#net "IO<7>" LOC = "N15";
+net "BEAM_TRIGGER<3>" LOC = "M14"; #net "IO<8>" LOC = "M14";
+net "BEAM_TRIGGER<0>" LOC = "N14"; #net "IO<9>" LOC = "N14";
+#net "IO<10>" LOC = "M16";
+net "BEAM_TRIGGER<2>" LOC = "M15"; #net "IO<11>" LOC = "M15";
+
+net "DUT_RESET<1>" LOC = "L13"; #net "IO<12>" LOC = "L13";
+net "DUT_RESET<0>" LOC = "M13"; #net "IO<13>" LOC = "M13";
+net "DUT_RESET<3>" LOC = "L15"; #net "IO<14>" LOC = "L15";
+net "DUT_RESET<2>" LOC = "L14"; #net "IO<15>" LOC = "L14";
+net "DUT_RESET<5>" LOC = "K12"; #net "IO<16>" LOC = "K12";
+net "DUT_RESET<4>" LOC = "L12"; #net "IO<17>" LOC = "L12";
+
+net "I2C_SCL_OUT" LOC = "K14"; #net "IO<18>" LOC = "K14";
+#net "IO<19>" LOC = "K13";
+net "I2C_SCL_IN" LOC = "J14"; #net "IO<20>" LOC = "J14";
+net "I2C_SDA_OUT" LOC = "J13"; #net "IO<21>" LOC = "J13";
+net "I2C_SEL<1>" LOC = "J16"; #net "IO<22>" LOC = "J16";
+net "I2C_SDA_IN" LOC = "K16"; #net "IO<23>" LOC = "K16";
+#net "IO<24>" LOC = "H16";
+net "I2C_SEL<0>" LOC = "H15"; #net "IO<25>" LOC = "H15";
+
+net "DUT_BUSY<1>" LOC = "H14"; #net "IO<26>" LOC = "H14";
+net "DUT_BUSY<0>" LOC = "H13"; #net "IO<27>" LOC = "H13";
+net "DUT_BUSY<3>" LOC = "G15"; #net "IO<28>" LOC = "G15";
+net "DUT_BUSY<2>" LOC = "G14"; #net "IO<29>" LOC = "G14";
+net "DUT_BUSY<5>" LOC = "G13"; #net "IO<30>" LOC = "G13";
+net "DUT_BUSY<4>" LOC = "G12"; #net "IO<31>" LOC = "G12";
+
+#net "IO<32>" LOC = "F15";
+#net "IO<33>" LOC = "F14";
+#net "IO<34>" LOC = "F13";
+#net "IO<35>" LOC = "F12";
+#net "IO<36>" LOC = "E16";
+#net "IO<37>" LOC = "E15";
+net "DUT_CLOCK<0>" LOC = "E14"; #net "IO<38>" LOC = "E14";
+#net "IO<39>" LOC = "E13";
+#net "IO<40>" LOC = "D16";
+net "DUT_CLOCK<1>" LOC = "D15"; #net "IO<41>" LOC = "D15";
+net "DUT_CLOCK<3>" LOC = "D14"; #net "IO<42>" LOC = "D14";
+net "DUT_CLOCK<2>" LOC = "C15"; #net "IO<43>" LOC = "C15";
+net "DUT_CLOCK<4>" LOC = "C16"; #net "IO<44>" LOC = "C16";
+#net "IO<45>" LOC = "B16";
+net "DUT_CLOCK<5>" LOC = "G16"; #net "IO<46>" LOC = "G16";
+
+#net "IO<*>" IOSTANDARD = LVCMOS33 | DRIVE = 12 | SLEW = FAST;
+net "DUT_*" IOSTANDARD = LVCMOS33 | DRIVE = 12 | SLEW = FAST;
+net "BEAM_*" IOSTANDARD = LVCMOS33 | DRIVE = 12 | SLEW = FAST;
+net "I2C_*" IOSTANDARD = LVCMOS33 | DRIVE = 12 | SLEW = FAST;
+
+#INST "tlu_master/tlu_master_core/tlu_ch[0].tlu_ch_rx/iddr_des_tdc/Mshreg_DDRQ_DLY_0" LOC = SLICE_X79Y11;
