@@ -1,0 +1,40 @@
+=======
+History
+=======
+
+0.1.0 (2020-06-29)
+------------------
+
+* First release on PyPI.
+
+0.1.1 (2020-07-09)
+------------------
+
+* Automated release
+
+0.1.2 (2020-07-09)
+------------------
+
+* Travis bug fix
+
+0.2.0 (2020-07-13)
+------------------
+
+* Add columns to guide and gene output for base LFC of pairs
+* Check inputs, removing guides without the right number of pairs or control pairs
+
+
+0.2.1 (2020-07-13)
+------------------
+
+* Update basic usage notebook
+
+0.2.2 (2020-07-15)
+------------------
+
+* Aggregate guide scores that are in data multiple times in different orientations
+
+0.2.3 (2020-07-15)
+------------------
+
+* Deduplicate repeat guide pairs in anchor df
