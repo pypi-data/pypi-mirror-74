@@ -1,0 +1,7 @@
+README.md
+setup.py
+EasyWayAPI.egg-info/PKG-INFO
+EasyWayAPI.egg-info/SOURCES.txt
+EasyWayAPI.egg-info/dependency_links.txt
+EasyWayAPI.egg-info/requires.txt
+EasyWayAPI.egg-info/top_level.txt
