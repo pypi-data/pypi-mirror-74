@@ -1,0 +1,96 @@
+Metadata-Version: 2.1
+Name: prefetch2es
+Version: 1.3.0
+Summary: A library for fast import of Windows Prefetch into Elasticsearch.
+Home-page: https://github.com/sumeshi/prefetch2es
+License: MIT
+Keywords: elasticsearch,prefetch
+Author: sumeshi
+Author-email: j15322sn@gmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: elasticsearch (>=7.8.0,<8.0.0)
+Requires-Dist: pyprefetch-rs (>=0.1.0,<0.2.0)
+Requires-Dist: setuptools (>=49.2.0,<50.0.0)
+Requires-Dist: setuptools_rust (>=0.10.6,<0.11.0)
+Requires-Dist: tqdm (>=4.48.0,<5.0.0)
+Requires-Dist: wheel (>=0.34.2,<0.35.0)
+Project-URL: Repository, https://github.com/sumeshi/prefetch2es
+Description-Content-Type: text/markdown
+
+# Prefetch2es
+[![MIT License](http://img.shields.io/badge/license-MIT-blue.svg?style=flat)](LICENSE)
+[![PyPI version](https://badge.fury.io/py/prefetch2es.svg)](https://badge.fury.io/py/prefetch2es)
+[![Python Versions](https://img.shields.io/pypi/pyversions/prefetch2es.svg)](https://pypi.org/project/prefetch2es/)
+
+Import Windows Prefetch(.pf) to Elasticsearch
+
+prefetch2es uses Rust library [pyprefetch-rs](https://github.com/sumeshi/pyprefetch-rs).
+
+```
+Note: Nov 11, 2019
+    Moved main development location to gitlab
+```
+
+## Usage
+```bash
+$ prefetch2es /path/to/your/file.pf
+```
+
+or
+
+```python
+from prefetch2es.prefetch2es import prefetch2es
+
+if __name__ == '__main__':
+    filepath = '/path/to/your/file.pf'
+    prefetch2es(filepath)
+```
+
+### Options
+```
+--host: 
+    ElasticSearch host address
+    (default: localhost)
+
+--port: 
+    ElasticSearch port number
+    (default: 9200)
+
+--index: 
+    Index name
+    (default: prefetch2es)
+
+--type: 
+    Document-type name
+    (default: prefetch2es)
+
+```
+
+### Examples
+```
+$ prefetch2es /path/to/your/file.pf --host=localhost --port=9200 --index=foo --type=bar
+```
+
+```py
+if __name__ == '__main__':
+    prefetch2es('/path/to/your/file.pf', host=localhost, port=9200, index='foo', type='bar')
+```
+
+## Installation
+### via pip
+```
+$ pip install prefetch2es
+```
+
+The source code for prefetch2es is hosted at GitHub, and you may download, fork, and review it from this repository(https://github.com/sumeshi/prefetch2es).
+
+Please report issues and feature requests. :sushi: :sushi: :sushi:
+
+## License
+prefetch2es is released under the [MIT](https://github.com/sumeshi/prefetch2es/blob/master/LICENSE) License.
+
+Powered by [pyprefetch-rs](https://github.com/sumeshi/pyprefetch-rs).  
