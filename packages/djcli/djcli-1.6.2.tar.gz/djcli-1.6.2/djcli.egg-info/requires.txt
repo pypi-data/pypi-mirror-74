@@ -1,0 +1,8 @@
+cli2>=2.2.0
+tabulate
+
+[test]
+django
+pytest
+pytest-cov
+pytest-django
