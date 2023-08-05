@@ -1,0 +1,11 @@
+README.md
+setup.py
+lib/__init__.py
+lib/detector_prototype.py
+lib/im2rec.py
+lib/inference_prototype.py
+monk_test1.egg-info/PKG-INFO
+monk_test1.egg-info/SOURCES.txt
+monk_test1.egg-info/dependency_links.txt
+monk_test1.egg-info/requires.txt
+monk_test1.egg-info/top_level.txt
