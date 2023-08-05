@@ -1,0 +1,4 @@
+AB123456	.	CDS	201	400	.	+	.	product="Transposon"
+AB123456	.	CDS	401	500	.	-	.	product="Phage protein"
+AB123456	.	CDS	501	600	.	+	.	product="IS101"
+AB123456	.	CDS	601	700	.	+	.	product="Integrase"
