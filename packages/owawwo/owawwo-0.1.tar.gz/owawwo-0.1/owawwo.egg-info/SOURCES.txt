@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+owawwo/Binomialdistribution.py
+owawwo/Gaussiandistribution.py
+owawwo/Generaldistribution.py
+owawwo/__init__.py
+owawwo.egg-info/PKG-INFO
+owawwo.egg-info/SOURCES.txt
+owawwo.egg-info/dependency_links.txt
+owawwo.egg-info/not-zip-safe
+owawwo.egg-info/top_level.txt
