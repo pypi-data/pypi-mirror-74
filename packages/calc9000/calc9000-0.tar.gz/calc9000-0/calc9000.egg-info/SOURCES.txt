@@ -1,0 +1,16 @@
+README.md
+setup.cfg
+setup.py
+calc9000/__init__.py
+calc9000/converse.py
+calc9000/datatypes.py
+calc9000/forge.py
+calc9000/functions.py
+calc9000/larker.py
+calc9000/main.py
+calc9000/references.py
+calc9000.egg-info/PKG-INFO
+calc9000.egg-info/SOURCES.txt
+calc9000.egg-info/dependency_links.txt
+calc9000.egg-info/requires.txt
+calc9000.egg-info/top_level.txt
