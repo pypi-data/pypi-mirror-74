@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+NOTICE
+README.rst
+setup.cfg
+setup.py
+english/__init__.py
+english/casing.py
+english/text.py
+english.egg-info/PKG-INFO
+english.egg-info/SOURCES.txt
+english.egg-info/dependency_links.txt
+english.egg-info/entry_points.txt
+english.egg-info/requires.txt
+english.egg-info/top_level.txt
+test/test_casing.py
+test/test_text.py
