@@ -1,0 +1,8 @@
+itk/MGHIOPython.py,sha256=BsOrPK1Eec2oUA-U_rNqLWJuObmrBVMCCugQDiUJTFk,2325
+itk/_MGHIOPython.so,sha256=mK1ysDshwn1o_C_Zl0uPqBOw5yvQ7CBvxxZxlwYmZX8,770044
+itk/itkMGHImageIOPython.py,sha256=a5zX-sqJrzDH_skdao7YPozWgOT4wlC6JYefkQkaxgk,6624
+itk/Configuration/MGHIOConfig.py,sha256=MPfM-2vLny9twuJwqkZ9WTqUoXiTxZmKcRILJCHnWOY,227
+itk_iomgh-1.0.0.dist-info/METADATA,sha256=VleNCasU6FVubfhL13mr3OlXoC4KbvcoY14SP_lVFVo,1504
+itk_iomgh-1.0.0.dist-info/WHEEL,sha256=z9qir6Vi_mkOsxGi50wLYU-N2ok_4rABw72J-twhmMA,102
+itk_iomgh-1.0.0.dist-info/top_level.txt,sha256=K3Bo2NX2FvAd7ExrYg0rKrdBucaB6n6elW5QBc_g8FA,4
+itk_iomgh-1.0.0.dist-info/RECORD,,
