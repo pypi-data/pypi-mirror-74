@@ -1,0 +1,10 @@
+setup.py
+oludist/Binomialdistribution.py
+oludist/Gaussiandistribution.py
+oludist/Generaldistribution.py
+oludist/__init__.py
+oludist.egg-info/PKG-INFO
+oludist.egg-info/SOURCES.txt
+oludist.egg-info/dependency_links.txt
+oludist.egg-info/not-zip-safe
+oludist.egg-info/top_level.txt
