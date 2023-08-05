@@ -1,0 +1,95 @@
+Metadata-Version: 2.1
+Name: lupoclient
+Version: 0.0.1
+Summary: This client is a wrapper for the official Lupo API
+Home-page: https://github.com/Staq-AI/zorro-client
+Author: Michael Fatemi, Suhas Nandiraju
+Author-email: myfatemi04@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+
+# Zorro Client
+`zorro-client` is a library written for use with Zorro, an algorithmic trading platform. This library includes a full API client with access to user-written indicators and strategies. In addition, it includes the backtesting framework and scripting language used by Zorro, so you can test out your strategies on your own data as well.
+
+## Install
+```
+$ pip3 install zorro-client
+```
+
+## Example
+```python
+import zorro
+
+theAPI = zorro.Api(
+    api_key="your-api-key",
+    secret_key="your-secret-key")
+
+my_indicator = theAPI.indicators['indicator-id']
+my_strategy = theAPI.strategies['strategy-id']
+
+stock_data = zorro.StockData.create(
+	["AAPL",  "AMZN"],
+	"2020-01-03",
+	"2020-07-11",
+	"1d")
+
+# backtest the strategy
+backtest = my_strategy.create_backtest(stock_data)
+backtest.simulate()
+
+# find important details
+backtest_results = backtest.analyze()
+sharpe_ratio = backtest_results['sharpe_ratio']
+alpha = backtest_results['alpha']
+beta = backtest_results['beta']
+profit_pct = backtest_results['profit_percent']
+profit = backtest_results['profit']
+trade_history = backtest.trade_history
+
+print(backtest_results)
+```
+
+## Usage
+
+### Import
+```python
+import zorro
+```
+
+### Create a strategy
+```python
+my_strategy = zorro.Strategy(
+	{
+		"type": "order",
+		"stock": "AAPL",
+		"qty": "10"
+	}
+)
+```
+
+### Execute the strategy on a paper API
+No setup required.
+```python
+paper_broker = zorro.PaperBroker()
+my_strategy.execute(handler=paper_broker)
+```
+
+### Execute the strategy on a live API
+To do this, you will need an Alpaca account. You can create one [here](http://alpaca.markets). 
+```python
+live_broker = zorro.LiveBroker(
+	alpaca_api_key_id="<Your API key>",
+	alpaca_api_secret="<Your API secret")
+
+my_strategy.execute(handler=live_broker)
+```
+
+## Thank you for using Zorro!
+If you have any questions, reach out to us at [our email](mailto:tradewithzorro@gmail.com).
+
