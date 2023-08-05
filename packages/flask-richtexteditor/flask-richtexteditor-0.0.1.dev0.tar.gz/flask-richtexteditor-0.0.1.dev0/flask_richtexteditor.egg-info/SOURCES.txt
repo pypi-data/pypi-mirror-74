@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+flask_richtexteditor/__init__.py
+flask_richtexteditor.egg-info/PKG-INFO
+flask_richtexteditor.egg-info/SOURCES.txt
+flask_richtexteditor.egg-info/dependency_links.txt
+flask_richtexteditor.egg-info/not-zip-safe
+flask_richtexteditor.egg-info/top_level.txt

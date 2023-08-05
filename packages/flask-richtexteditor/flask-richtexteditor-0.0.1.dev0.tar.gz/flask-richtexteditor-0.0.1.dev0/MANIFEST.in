@@ -1,0 +1,8 @@
+include LICENSE
+include *.rst
+
+# recursive-include flask_richtexteditor/static *
+# recursive-include flask_richtexteditor/templates *
+
+global-exclude __pycache__
+global-exclude *.py[cod]
