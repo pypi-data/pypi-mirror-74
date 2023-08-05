@@ -1,0 +1,6 @@
+[console_scripts]
+themisasi_download = themisasi.web:cli
+themisasi_pixels = themisasi.pixels:cli
+themisasi_radec = themisasi.radec:cli
+themisasi_video = themisasi.video:cli
+
