@@ -1,0 +1,11 @@
+README.md
+setup.py
+B3Parser.egg-info/PKG-INFO
+B3Parser.egg-info/SOURCES.txt
+B3Parser.egg-info/dependency_links.txt
+B3Parser.egg-info/requires.txt
+B3Parser.egg-info/top_level.txt
+b3parser/__init__.py
+b3parser/b3parser.py
+b3parser/linecount.py
+b3parser/regex.py
