@@ -1,0 +1,12 @@
+MANIFEST.in
+README.md
+setup.py
+optimusbeez/PSO.py
+optimusbeez/__init__.py
+optimusbeez/evaluate.py
+optimusbeez/optimize_constants.py
+optimusbeez.egg-info/PKG-INFO
+optimusbeez.egg-info/SOURCES.txt
+optimusbeez.egg-info/dependency_links.txt
+optimusbeez.egg-info/requires.txt
+optimusbeez.egg-info/top_level.txt
