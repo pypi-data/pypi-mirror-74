@@ -1,0 +1,8 @@
+cython
+numpy
+scipy
+cma
+pandas
+nlopt
+xlrd
+sympy
