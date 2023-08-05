@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: soxbindings
+Version: 0.0.1
+Summary: Python bindings for sox.
+Home-page: https://github.com/pseeth/soxbindings
+Author: Prem Seetharaman
+Author-email: prem@u.northwestern.edu
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: sox (==1.4.0b0)
+
+UNKNOWN
+
+
