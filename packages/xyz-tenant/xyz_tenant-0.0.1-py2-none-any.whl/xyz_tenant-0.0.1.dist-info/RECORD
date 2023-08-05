@@ -1,0 +1,14 @@
+xyz_tenant/__init__.py,sha256=7LF9gSmCHB10ohoMr1k8h3TGku532oQla1AYOF-tCJc,45
+xyz_tenant/apis.py,sha256=3Ow6QAWuDxwvo1UueybMiStHb9KKMY7qM2y8dWEKGNY,176
+xyz_tenant/apps.py,sha256=mSDOn4nSriFSjVjsmg9bcOL1YPJ_Cb40aVm3YVCdqEw,330
+xyz_tenant/choices.py,sha256=j3UZeFN3R_i823Q6shjmL2tGYfrpm64fR3Dc2w07ZTw,313
+xyz_tenant/middleware.py,sha256=qlzk0yxYAVmwurGOERpEoKlkcbQ7rQuz7poWoGiiqe8,291
+xyz_tenant/models.py,sha256=AgnKRHYX1nUV87Ya50p0D3tHx9hfeg0SNZuHVlNR0XM,1232
+xyz_tenant/receivers.py,sha256=9p-Jyo2CNNMY7XHManq0WY4RffBT1zNRAEc9Eo5iUTI,660
+xyz_tenant/tasks.py,sha256=SHPrQjzyaWvLGKZbEvANeXTnK_VKI1FTq-uG3jQ-GQQ,346
+xyz_tenant/migrations/0001_initial.py,sha256=pTfRb8CKvErvGLHwUkWzKSMQaoaqz-RnLGdBy6hPjhg,2482
+xyz_tenant/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+xyz_tenant-0.0.1.dist-info/METADATA,sha256=s59bZvpLTogXNn4MPbFXmtUrn19DJx5sVOlFM6XjSuU,755
+xyz_tenant-0.0.1.dist-info/WHEEL,sha256=g3LQva5oS9Ma-DPFwX8R7Ke-NO25KWW489RoZdNxJXc,92
+xyz_tenant-0.0.1.dist-info/top_level.txt,sha256=dNtlTiyhRP2jsiWc2n3yg65oRnuJG-sI4ZQ5H03hSWc,11
+xyz_tenant-0.0.1.dist-info/RECORD,,
