@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: pyexe
+Version: 0.1.0
+Summary: Python package to execute local and remote commands
+Home-page: https://github.com/shivampip/pyexe
+Author: You
+Author-email: shivam301296@gmail.com
+License: Apache License 2.0
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: fancybox
+Requires-Dist: termcolor
+Requires-Dist: fabric
+
+# Example Package
+
+This is a simple example package. You can use
+[Github-flavored Markdown](https://guides.github.com/features/mastering-markdown/)
+to write your content.
+
+
