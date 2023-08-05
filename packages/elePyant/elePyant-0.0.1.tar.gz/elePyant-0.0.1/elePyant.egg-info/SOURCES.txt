@@ -1,0 +1,12 @@
+MANIFEST.in
+README.md
+setup.py
+elePyant/__init__.py
+elePyant/core.py
+elePyant.egg-info/PKG-INFO
+elePyant.egg-info/SOURCES.txt
+elePyant.egg-info/dependency_links.txt
+elePyant.egg-info/requires.txt
+elePyant.egg-info/top_level.txt
+elePyant/test/__init__.py
+elePyant/test/test_core.py
