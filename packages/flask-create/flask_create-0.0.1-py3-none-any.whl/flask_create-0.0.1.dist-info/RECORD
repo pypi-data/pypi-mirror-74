@@ -1,0 +1,13 @@
+flask_create/__init__.py,sha256=4_ltJzI941ULoUvkQ7UmnYOTcFec9qpjvZWAtVytQRA,48
+flask_create/create.py,sha256=Mp4oTlZ2HQq9wn6A59G7JSFWuCvb38Saba_iO9L8QmM,887
+flask_create/flask_template/extras/config.py,sha256=2QA-dYM8Ms8hfF_Hd9GsIcREu_i1lEQSXHuVG6-DJtQ,676
+flask_create/flask_template/extras/scripts.py,sha256=NVea68ZCLWdQ7D5aL_PwdBahE1-M_sTVv16SElXBB_w,353
+flask_create/flask_template/extras/wsgi.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+flask_create/flask_template/src_dir/__init__.py,sha256=IC62YAN_Dgk9xMuFEA2K5yyH0Lx1FxN5FrKljxGWq-U,351
+flask_create/flask_template/src_dir/models.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+flask_create-0.0.1.dist-info/LICENSE,sha256=RiCR-cSZ7SQsVixj0GgPSD-5o9NzKYsdLevXkTb5sAg,1072
+flask_create-0.0.1.dist-info/METADATA,sha256=sDlVKlHOdhU6lGiKOqEqZsVt1A6b4ARVcq7OnDUAEjM,964
+flask_create-0.0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+flask_create-0.0.1.dist-info/entry_points.txt,sha256=k0UeZ3Qy99OMHVrh4dl3a5roIITcptAHl2sXX_2X7VU,61
+flask_create-0.0.1.dist-info/top_level.txt,sha256=UlSSzyvMQcBV9Yvt1X8LzOHdkSe6mbmsXCD9SbsuFdQ,13
+flask_create-0.0.1.dist-info/RECORD,,
