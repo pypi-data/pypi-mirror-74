@@ -1,0 +1,56 @@
+Metadata-Version: 2.1
+Name: win32-setfiletime
+Version: 1.0.0
+Summary: A small Python utility to set file creation/modified/accessed time on Windows
+Home-page: https://github.com/lahma0/win32-setfiletime
+Author: lahma0
+Author-email: lahma69@gmail.com
+License: MIT license
+Download-URL: https://github.com/lahma0/win32-setfiletime/archive/1.0.0.tar.gz
+Keywords: win32,windows,filesystem,filetime,timestamp,modified,created,accessed
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Topic :: System :: Filesystems
+Classifier: Intended Audience :: Developers
+Classifier: Environment :: Win32 (MS Windows)
+Classifier: Natural Language :: English
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Microsoft
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+Requires-Dist: pytest (>=4.6.2) ; extra == 'dev'
+Requires-Dist: black (>=19.3b0) ; (python_version >= "3.6") and extra == 'dev'
+
+# win32-setfiletime
+
+[![Pypi version](https://img.shields.io/pypi/v/win32-setfiletime.svg)](https://pypi.python.org/pypi/win32-setfiletime) [![Python version](https://img.shields.io/badge/python-3.5%2B-blue.svg)](https://pypi.python.org/pypi/win32-setfiletime) [![Build status](https://img.shields.io/travis/com/lahma0/win32-setfiletime/master.svg)](https://travis-ci.com/lahma0/win32-setfiletime) [![License](https://img.shields.io/github/license/lahma0/win32-setfiletime.svg)](https://github.com/lahma0/win32-setfiletime/blob/master/LICENSE)
+
+A small Python utility to set file creation/modified/accessed time on Windows.
+
+
+## Installation
+
+```shell
+pip install win32-setfiletime
+```
+
+## Usage
+
+```python
+from win32_setfiletime import setctime, setmtime, setatime
+
+setctime("my_file.txt", 1561675987.509)
+setmtime("my_file.txt", 1561675987.509)
+setatime("my_file.txt", 1561675987.509)
+```
+
+
