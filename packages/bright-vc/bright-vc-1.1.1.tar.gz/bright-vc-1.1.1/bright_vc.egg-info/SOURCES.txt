@@ -1,0 +1,10 @@
+README.md
+setup.py
+bright_vc/__init__.py
+bright_vc/tests.py
+bright_vc.egg-info/PKG-INFO
+bright_vc.egg-info/SOURCES.txt
+bright_vc.egg-info/dependency_links.txt
+bright_vc.egg-info/top_level.txt
+bright_vc/__pycache__/__init__.cpython-37.pyc
+bright_vc/__pycache__/tests.cpython-37.pyc
