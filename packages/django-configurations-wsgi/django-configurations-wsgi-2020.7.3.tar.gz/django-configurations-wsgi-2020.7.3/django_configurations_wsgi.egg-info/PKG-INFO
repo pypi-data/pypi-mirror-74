@@ -1,0 +1,55 @@
+Metadata-Version: 2.1
+Name: django-configurations-wsgi
+Version: 2020.7.3
+Summary: django-configurations wsgi
+Home-page: https://github.com/andrewp-as-is/django-configurations-wsgi.py
+License: Unlicense
+Description: <!--
+        https://readme42.com
+        -->
+        
+        
+        [![](https://img.shields.io/pypi/v/django-configurations-wsgi.svg?maxAge=3600)](https://pypi.org/project/django-configurations-wsgi/)
+        [![](https://img.shields.io/badge/License-Unlicense-blue.svg?longCache=True)](https://unlicense.org/)
+        
+        ### Installation
+        ```bash
+        $ [sudo] pip install django-configurations-wsgi
+        ```
+        
+        #### Examples
+        ```bash
+        gunicorn django_configurations_wsgi:application -b 0.0.0.0:8080
+        ```
+        
+        `requirements.txt`
+        ```
+        ...
+        django_configurations_wsgi
+        ...
+        ```
+        
+        P.S. default `wsgi.py`:
+        ```python
+        import os
+        
+        os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'settings')
+        os.environ.setdefault('DJANGO_CONFIGURATION', 'Dev')
+        
+        from configurations.wsgi import get_wsgi_application
+        
+        application = get_wsgi_application()
+        ```
+        
+        #### Links
+        +   [django-configurations](https://github.com/jazzband/django-configurations)
+        
+        <p align="center">
+            <a href="https://readme42.com/">readme42.com</a>
+        </p>
+Keywords: django-configurations wsgi
+Platform: UNKNOWN
+Classifier: Framework :: Django
+Classifier: License :: Public Domain
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown

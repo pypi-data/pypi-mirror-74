@@ -1,0 +1,9 @@
+requirements.txt
+setup.py
+django_configurations_wsgi/__init__.py
+django_configurations_wsgi/__main__.py
+django_configurations_wsgi.egg-info/PKG-INFO
+django_configurations_wsgi.egg-info/SOURCES.txt
+django_configurations_wsgi.egg-info/dependency_links.txt
+django_configurations_wsgi.egg-info/requires.txt
+django_configurations_wsgi.egg-info/top_level.txt
