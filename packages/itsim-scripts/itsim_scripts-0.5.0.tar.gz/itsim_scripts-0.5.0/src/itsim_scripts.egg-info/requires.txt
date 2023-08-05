@@ -1,0 +1,6 @@
+gtfs-kit
+matplotlib
+pandas
+pyshp
+shapely
+simplification
