@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: procedural
+Version: 0.1.1
+Summary: A Python client for interacting with Procedural's REST APIs.
+Home-page: https://github.com/procedural-build/procedural-py
+Author: Christian Kongsgaard
+Author-email: christian@procedural.build
+Requires-Python: >=3.6,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: requests (>=2.24.0,<3.0.0)
+Project-URL: Repository, https://github.com/procedural-build/procedural-py
+Description-Content-Type: text/markdown
+
+# Procedural
+
+A Python client for interacting with [Procedural's](www.procedural.build/) REST APIs.
+
+
