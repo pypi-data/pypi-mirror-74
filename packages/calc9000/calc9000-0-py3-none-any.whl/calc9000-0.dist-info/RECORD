@@ -1,0 +1,13 @@
+calc9000/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+calc9000/converse.py,sha256=KoT85ZK6nuDSsWs6f3BK27bXPSw3dAm3LFaKpLM1NU8,573
+calc9000/datatypes.py,sha256=8ZTJfOc7_zW1kTYfefxQ_ApRBdS7U_jWndHJf5dcY8M,5488
+calc9000/forge.py,sha256=f1i2LmLzuM7dc6hgOV9w-ROp4EiJyM7L7vrHRquiAuc,4110
+calc9000/functions.py,sha256=wkbunGqe62KqKhN9-DiS0-Jn0yTNme2PYjOIlfULz0s,53159
+calc9000/larker.py,sha256=mOlNppllG0rBqzvAKfpHh1B3QJ8L1BC-VxdN3nwyAb8,6206
+calc9000/main.py,sha256=uZ7A0SxM2dbqvA3gDZgvAf0DLFH35V82lm0ihgFs-ak,1046
+calc9000/references.py,sha256=P77W9jfcgyLT2MHxWM06nWeqJR_gbcgfcOeVHdDJSRA,1641
+calc9000-0.dist-info/LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+calc9000-0.dist-info/METADATA,sha256=_lqqxituImpnm7F_hjbEptNb-7y1UoB2Rl4FLSwGonY,251
+calc9000-0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+calc9000-0.dist-info/top_level.txt,sha256=nT0gFCkBzgQfS6GM9Rn6TWG6WRuIO6MZhMWM60-p_dw,9
+calc9000-0.dist-info/RECORD,,
