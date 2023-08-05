@@ -1,0 +1,3 @@
+nkocr/auxiliary
+nkocr/ocr_products
+nkocr/ocr_table
