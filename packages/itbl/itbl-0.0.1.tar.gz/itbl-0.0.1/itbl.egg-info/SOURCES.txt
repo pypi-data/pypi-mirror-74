@@ -1,0 +1,6 @@
+README.md
+setup.py
+itbl.egg-info/PKG-INFO
+itbl.egg-info/SOURCES.txt
+itbl.egg-info/dependency_links.txt
+itbl.egg-info/top_level.txt
