@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: picosnitch
+Version: 0.1.0
+Summary: See which processes make remote network connections
+Home-page: https://github.com/elesiuta/picosnitch
+License: UNKNOWN
+Description: # picosnitch
+        - See which processes make remote network connections  
+        - Logs and config are stored in ~/.config/picosnitch/snitch.json and updated every 10 minutes or on sigterm  
+        - Do not rely on this for security or anything remotely critical (only checks connections at 0.2s intervals and could miss very short lived ones, would need a network driver or event listener for better reliability)  
+        - Quick experiment inspired by programs such as:  
+          - Little Snitch
+          - OpenSnitch
+          - GlassWire
+          - simplewall
+        # run
+        - run as a daemon (regular process on windows) with  
+        `python picosnitch.py`
+        - or install from source with  
+        `python setup.py install`
+        - or install from PyPI with  
+        `pip install picosnitch`
+        - then run as a daemon with  
+        `picosnitch`
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: System :: Networking :: Monitoring
+Description-Content-Type: text/markdown
