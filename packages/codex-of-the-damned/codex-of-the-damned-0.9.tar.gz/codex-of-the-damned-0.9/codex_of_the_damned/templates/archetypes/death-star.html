@@ -1,0 +1,74 @@
+{% extends "archetypes/_layout.html" %}
+{% import "archetypes/_layout-erratum.html" as erratum with context %}
+{% import "archetypes/death-star.json" as deck_json %}
+
+{% block meta %}
+<meta property="decklist" content='{{ deck_json | tojson }}' />
+{% endblock %}
+
+{% block archetype_name %}
+<h1><img src="{{ url_for('static', filename='img/icons/clan-assamite.svg') }}">Death Star</h1>
+{% endblock %}
+
+{% block archetype %}
+<h2>Highlights</h2>
+<p>
+    This is a <em>breed & boon</em> anarch political deck using
+    {{ card("Alamut") }} and <em>Fee Stake</em> actions to get votes,
+    plus {{ card("The Embrace") }} and
+    {{ card("Web of Knives Recruit") }} for breeding,
+    {{ card("Consanguineous Boon") }} and
+    {{ card("Exclusion Principle") }} for bloating.
+</p>
+<p>
+    The idea is to use {{ card("Revolutionary Council") }}
+    with a lot of anarchs at hand to deliver <strong>more than a dozen pool damage in a single blow</strong>,
+    hence the <em>"Death Star"</em> name.
+</p>
+<p>
+    The deck has a strong stealth module with <i>O</i>.
+</p>
+<h2>Tips & Tricks</h2>
+<p>
+    During the beginning of the game, the deck should focus on breeding and bloating, surviving its predator.
+</p>
+<p>
+    {{ card("CrimethInc") }} and
+    {{ card("Firebrand") }} are used to improve
+    {{ link("/strategy/fundamentals", _("A&B"), _anchor="AB") }}.
+</p>
+<p>
+    {{ card("Alamut") }} should be resplenished as much as possible.
+    Vampires with <i>o</i> are supposed to get some bleed through (even for 1 pool) to get tokens on it fast.
+    If drawn, {{ card("Club Illusion") }} make these bleed stronger.
+</p>
+<p>
+    In late game, {{ card("Garibaldi-Meucci Museum") }}
+    helps get some {{ card("Revolutionary Council") }}
+    back in hand to finish the table.
+</p>
+<h2>Variants</h2>
+<p>
+    This decklist is quite famous, as Matt Morgan won the North American Championship (NAC) first day with it,
+    only to see Ben Peal win the final on day 2 with an almost identical decklist.
+</p>
+<p>
+    {{ link("/deck-search", _("Karl Schaefer's deck"), twda_id="2019won5co") }}
+    from 2019 is a variant using <em>Daughters of Cacophony</em> instead of <em>Assamite</em>.
+    {{ card("Alamut") }}, <i>o</i> stealth modifiers and
+    {{ card("Web of Knives Recruit") }} are lost,
+    but the <em>Daughters of Cacophony</em> have access to
+    <i>r</i> vote modifiers and combat ends,
+    {{ card("Conductor") }},
+    {{ card("The Missing Voice") }},
+    {{ card("Lily Prelude") }} and
+    {{ card("Madrigal") }}, making up for it.
+</p>
+{% endblock %}
+
+{% block errata %}
+<div class="warning">
+    <h3>Errata</h3>
+    {{ erratum.pentextmsubversion( 'undecided' ) }}
+</div>
+{% endblock %}
