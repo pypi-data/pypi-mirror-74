@@ -1,0 +1,8 @@
+PyNaCl>=1.2
+setuptools
+
+[:platform_system != "Windows"]
+ptyprocess
+
+[:platform_system == "Windows"]
+pywin32
