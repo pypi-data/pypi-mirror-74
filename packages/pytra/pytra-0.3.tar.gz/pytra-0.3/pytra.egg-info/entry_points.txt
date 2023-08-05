@@ -1,0 +1,3 @@
+[console_scripts]
+pytra = src.pytra:pytra
+

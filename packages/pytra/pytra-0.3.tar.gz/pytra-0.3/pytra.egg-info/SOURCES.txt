@@ -1,0 +1,15 @@
+README.md
+setup.py
+pytra.egg-info/PKG-INFO
+pytra.egg-info/SOURCES.txt
+pytra.egg-info/dependency_links.txt
+pytra.egg-info/entry_points.txt
+pytra.egg-info/requires.txt
+pytra.egg-info/top_level.txt
+src/__init__.py
+src/pytra.py
+src/utils/__init__.py
+src/utils/constants.py
+src/utils/decorators.py
+src/utils/googletrans_helpers.py
+src/utils/translator.py
