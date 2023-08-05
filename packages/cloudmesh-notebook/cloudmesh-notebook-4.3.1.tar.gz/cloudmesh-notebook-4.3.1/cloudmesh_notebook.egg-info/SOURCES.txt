@@ -1,0 +1,17 @@
+README.md
+setup.cfg
+setup.py
+cloudmesh/__init__.py
+cloudmesh/notebook/__init__.py
+cloudmesh/notebook/__version__.py
+cloudmesh/notebook/api/__init__.py
+cloudmesh/notebook/api/manager.py
+cloudmesh/notebook/command/__init__.py
+cloudmesh/notebook/command/notebook.py
+cloudmesh_notebook.egg-info/PKG-INFO
+cloudmesh_notebook.egg-info/SOURCES.txt
+cloudmesh_notebook.egg-info/dependency_links.txt
+cloudmesh_notebook.egg-info/namespace_packages.txt
+cloudmesh_notebook.egg-info/not-zip-safe
+cloudmesh_notebook.egg-info/requires.txt
+cloudmesh_notebook.egg-info/top_level.txt
