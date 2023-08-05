@@ -1,0 +1,10 @@
+README.md
+setup.py
+pngdata/__init__.py
+pngdata/__main__.py
+pngdata/core.py
+pngdata.egg-info/PKG-INFO
+pngdata.egg-info/SOURCES.txt
+pngdata.egg-info/dependency_links.txt
+pngdata.egg-info/requires.txt
+pngdata.egg-info/top_level.txt
