@@ -1,0 +1,12 @@
+jsonflattifier/__init__.py,sha256=YvVzhsMYRzkG_xcP_9onTOvuQ54SKKH3nD_AGACc24A,474
+jsonflattifier/__main__.py,sha256=7maCdGRhkZYVYDqdUcqaKZ8MP1an6umrce_Hyfe6Ynw,96
+jsonflattifier/apis.py,sha256=ETYYkZtduhOQW79hxaQVsbHAm3N2YkOGVK7IyYnQois,3422
+jsonflattifier/errors.py,sha256=dea1gYmEgyfCdsRcqX1LtvLy3D9Nr3CAWBQ9hkPVen0,47
+jsonflattifier/helpers.py,sha256=3S0rPrRCV0PDQaG6tenm6FjgfHNkrl8uCT74p4EAbR4,4945
+jsonflattifier/main.py,sha256=dO_IBgEPQ4xAwkQDRqLpndhngq0n_Emv3B0t9oyekwk,3755
+jsonflattifier/version.py,sha256=o3oVvRE56o-tBCynG2AkAP_uPQhnqj5UMSdy-pvBLJc,86
+jsonflattifier-1.1.6.dist-info/LICENSE,sha256=vAV_d402p0YdY4BFoVCry3MG2Hecjs8It0CU87SIFPQ,1079
+jsonflattifier-1.1.6.dist-info/METADATA,sha256=Z4Ca1Up9cpDtQLhzMSGVG74M1QdzJ0-9M2lf0Z2CpDE,1919
+jsonflattifier-1.1.6.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+jsonflattifier-1.1.6.dist-info/top_level.txt,sha256=llj2gksjiSoLPqJkFgXu0N-wJtEauv7dyOGSEMhiQV4,15
+jsonflattifier-1.1.6.dist-info/RECORD,,
