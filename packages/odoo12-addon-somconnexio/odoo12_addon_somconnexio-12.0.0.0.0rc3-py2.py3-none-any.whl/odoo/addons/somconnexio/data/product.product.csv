@@ -1,0 +1,58 @@
+id,name,attribute_value_ids/id,product_tmpl_id/id
+__export__.product_product_669_4f7cb5dd,100 Min,1GB,100Min
+__export__.product_product_673_05b00aaf,100 Min,2GB,100Min
+__export__.product_product_674_0549a9dd,100 Min,3GB,100Min
+__export__.product_product_683_26c66f99,100 Min,SenseDades,100Min
+__export__.product_product_684_225e4ca3,100 Min,5GB,100Min
+__export__.product_product_685_6f8ab3b9,100 Min,10GB,100Min
+__export__.product_product_686_3b23ed2f,100 Min,200MB,100Min
+__export__.product_product_687_be7ad2b6,100 Min,500MB,100Min
+__export__.product_product_670_2f175182,200 Min,1GB,200Min
+__export__.product_product_671_daee90a9,200 Min,2GB,200Min
+__export__.product_product_672_3cc22352,200 Min,3GB,200Min
+__export__.product_product_688_45540630,200 Min,SenseDades,200Min
+__export__.product_product_689_d9999bf8,200 Min,5GB,200Min
+__export__.product_product_690_7d1534e0,200 Min,10GB,200Min
+__export__.product_product_691_5be69e67,200 Min,200MB,200Min
+__export__.product_product_692_0b734cf3,200 Min,500MB,200Min
+__export__.product_product_716_916791f2,300 Min,1GB,300Min
+__export__.product_product_717_6e047d59,ADSL 20Mb,100MinFixIMobile,ADSL
+__export__.product_product_718_3edd78f6,ADSL 20Mb,1000MinFix,ADSL
+__export__.product_product_719_eded4fe8,ADSL 20Mb,SenseFix,ADSL
+__export__.product_product_727_cb8b7073,Alta parell existent a terminis,,AltaParellExistent
+__export__.product_product_706_b66137ff,Dades addicionals,100MB,DadesAddicionals
+__export__.product_product_707_7f361d9f,Dades addicionals,1GB,DadesAddicionals
+__export__.product_product_708_ff1ebc20,Dades addicionals,500MB,DadesAddicionals
+__export__.product_product_715_43f9fae3,Enviament SIM,,EnviamentSIM
+__export__.product_product_725_3fc1d1b4,Enviament router,,EnviamentRouter
+__export__.product_product_720_7acd155b,Fibra,100Mb,Fibra
+__export__.product_product_721_8f669492,Fibra,600Mb,Fibra
+__export__.product_product_722_6a4eeb6a,Fibra,1Gb,Fibra
+__export__.product_product_723_7a90245c,IPv4 Fixa,,IPv4Fixa
+__export__.product_product_703_86334662,Internacional,100Min,Internacional
+__export__.product_product_704_d3bd0995,Internacional,200Min,Internacional
+__export__.product_product_705_6d408065,Internacional,300Min,Internacional
+__export__.product_product_724_26e1df0c,Recollida router,,RecollidaRouter
+__export__.product_product_709_84501f53,SMS Massius,500SMS,SMSMassius
+__export__.product_product_710_1c4d2947,SMS Massius,1000SMS,SMSMassius
+__export__.product_product_711_c5ac2422,SMS Massius,2000SMS,SMSMassius
+__export__.product_product_712_86c0bf9e,SMS Massius,3000SMS,SMSMassius
+__export__.product_product_713_d119407f,SMS Massius,5000SMS,SMSMassius
+__export__.product_product_714_f12222dd,SMS Massius,10000SMS,SMSMassius
+__export__.product_product_675_6e6c1143,Sense Minuts,1GB,SenseMinuts
+__export__.product_product_676_4fbc4851,Sense Minuts,2GB,SenseMinuts
+__export__.product_product_677_df60dcba,Sense Minuts,3GB,SenseMinuts
+__export__.product_product_678_55635868,Sense Minuts,SenseDades,SenseMinuts
+__export__.product_product_679_a14489fc,Sense Minuts,10GB,SenseMinuts
+__export__.product_product_680_219e8f71,Sense Minuts,5GB,SenseMinuts
+__export__.product_product_681_506ac88b,Sense Minuts,200MB,SenseMinuts
+__export__.product_product_682_eed64149,Sense Minuts,500MB,SenseMinuts
+__export__.product_product_694_5b99c8b8,Trucades Il·limitades,SenseDades,TrucadesIllimitades
+__export__.product_product_695_2a0d8555,Trucades Il·limitades,1GB,TrucadesIllimitades
+__export__.product_product_696_e93b0573,Trucades Il·limitades,2GB,TrucadesIllimitades
+__export__.product_product_697_dbd0aeae,Trucades Il·limitades,3GB,TrucadesIllimitades
+__export__.product_product_698_e684d88d,Trucades Il·limitades,5GB,TrucadesIllimitades
+__export__.product_product_699_98db754d,Trucades Il·limitades,10GB,TrucadesIllimitades
+__export__.product_product_700_49a59608,Trucades Il·limitades,20GB,TrucadesIllimitades
+__export__.product_product_701_f9d5f8e6,Trucades Il·limitades,200MB,TrucadesIllimitades
+__export__.product_product_702_c8d85d5a,Trucades Il·limitades,500MB,TrucadesIllimitades
