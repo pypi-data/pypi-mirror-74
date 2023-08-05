@@ -1,0 +1,12 @@
+manim_notebook/__init__.py,sha256=9Uk9QZyjeDxodhlLcxm8TZtDa3vuMx3qsqze19LZwEA,103
+manim_notebook/es.py,sha256=WyrYZncpCdivlkrd-C4sAQ2LXmVSC-Clm3ersKXXmfo,2101
+manim_notebook/fetch_output.py,sha256=52H3Dd4nVYJzZ9--DtTBIzr73tvOXWLVcaizKETgJz8,1203
+manim_notebook/mango.py,sha256=G8KkGE0uMVSS37FwzrE10sKlXkDPZOKX4JnvoUEH6WY,1878
+manim_notebook/manim_cell.py,sha256=VMJaWdYaU9ezpaVbtBWKYlvn2bspKCxKduS7qxgI3uQ,3483
+manim_notebook/parse_args.py,sha256=4rI1uK-6dKBzVu6zqfmt4HTB291kFxVs3rdZz_lEDrI,4873
+manim_notebook/split.py,sha256=X-N9nX5TKGMGB1PdUPMnS-xZJPbGqafLXwEeni2p7zs,589
+manim_notebook-1.0.1.dist-info/LICENSE,sha256=6_SEjq17rZyJWbehmCAUI4C6Rv8WOnvRKVt3bIoju-E,1070
+manim_notebook-1.0.1.dist-info/METADATA,sha256=mukbAbcKQMG-YGkCDmZkiktUMvcoTA2LSvgFALmTzug,1748
+manim_notebook-1.0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+manim_notebook-1.0.1.dist-info/top_level.txt,sha256=nKY6YeHssrjtBI1TJrxAVADI8m41XaFW5vAFfBVTm3Q,15
+manim_notebook-1.0.1.dist-info/RECORD,,
