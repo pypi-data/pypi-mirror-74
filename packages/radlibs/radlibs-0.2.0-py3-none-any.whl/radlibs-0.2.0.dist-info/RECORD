@@ -1,0 +1,11 @@
+radlibs/__init__.py,sha256=IG1I8gfoytyptGLhXsh6B-EPYYjSAHrgPIdGjPxoKtQ,146
+radlibs/generatewordopts.py,sha256=GOIfuDOaAdDfVRn1LqcZsQpmG_wJIhfdT1z3HxIlb6A,2918
+radlibs/makeradlibs.py,sha256=Tw9MCOX2s4oHC16tKn9btRVdZo_pFe5UioDTLsZSlD8,2274
+radlibs/postagger.py,sha256=uwDrr6q4oRuR-dnkTdhLfpr0Mz3Fhxm4qaaqpw63tKs,400
+radlibs/data/humor_dataset.feather,sha256=7fW1eEhXKliZjunQ-V1xZv_HXOn8ACM2LDYr3-tLpGY,550080
+radlibs/data/pos_lexicon.feather,sha256=yizNVQTZS3t0kOl-54h3uigXgOMj3i9_BroFwpGncUU,7459024
+radlibs/data/proper_nouns.feather,sha256=BSAyxJxWXzxPPv12oRoQhqZOiHBlTAIr54NWDV6XRkI,20432
+radlibs-0.2.0.dist-info/METADATA,sha256=VXsNe2j-1rSKZAtP0saaLPSNLN5gkZ84sMQexvOm1rY,466
+radlibs-0.2.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+radlibs-0.2.0.dist-info/top_level.txt,sha256=aVcVuymEngIhMPAM5Vrjup0AT6iAQiORwUILqge4p9U,8
+radlibs-0.2.0.dist-info/RECORD,,
