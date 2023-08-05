@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: predictably
+Version: 0.1.0
+Summary: Scikit-learn compatible Pyton forecasting module
+Home-page: https://rnkuhns.github.io/predict-ably/
+Author: Ryan Kuhns
+Author-email: rnkuhns@gmail.com
+License: BSD-3
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Development Status :: 1 - Planning
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: pmdarima
+Requires-Dist: statsmodels
+Requires-Dist: scikit-learn
+Provides-Extra: dev
+Requires-Dist: pip-tools ; extra == 'dev'
+Requires-Dist: rpy2 ; extra == 'dev'
+
+# predict-*ably*
+A Python module for time-series forecasting that seeks to provide high-level functionality similar to R's fable and forecast packages
+
+
