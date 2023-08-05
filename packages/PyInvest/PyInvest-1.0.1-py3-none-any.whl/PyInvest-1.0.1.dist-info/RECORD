@@ -1,0 +1,13 @@
+PyInvest-1.0.1.data/data/pyinvestconf/pyinvest.json,sha256=KG6TfwnG3x_pBXnIBV1-nniwhd7O-vyn5ejiGq1WAPk,94
+PyInvest-1.0.1.data/scripts/tda_allocations,sha256=spVGM0j56dCnPYYPlhrtdHyY_UqNJtW8UGgPqOnIbVI,1927
+PyInvest-1.0.1.data/scripts/tdaorders,sha256=s-SRmmMC6vr9GDR7vEWaCe5RUG57_CgnTnSDFLGHzxc,1672
+PyInvest-1.0.1.data/scripts/tdapositions,sha256=D6a2QFZBcprJzDBk5dMvcrovpnLpENKxrE_XK6k2iq4,3089
+pyinvest/__init__.py,sha256=d4QHYmS_30j0hPN8NmNPnQ_Z0TphDRbu4MtQj9cT9e8,22
+pyinvest/accounts.py,sha256=upt_XTfGoUakuLhh-I9ZrYb9wUVyk0T6ZmAajPS6sAQ,2504
+pyinvest/auth.py,sha256=0DwOGKJf5Hs3oG1oGVnutcb00BSnF_--1pVTUmRRrbk,2694
+pyinvest/config.py,sha256=7e5RLIpQZA9dpcfsaQ7NMDfM_Ze5ed6aF6AqrBLV7Ug,485
+PyInvest-1.0.1.dist-info/LICENSE,sha256=5PU2rsUTP6o2kaQoSqLRS6YelTqwbNJibkzAWvAEf4E,1064
+PyInvest-1.0.1.dist-info/METADATA,sha256=PqIadb68SlFh1EWfBXfktsmYCzzVAiL6LFo1NUpzQRM,283
+PyInvest-1.0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+PyInvest-1.0.1.dist-info/top_level.txt,sha256=w1a89EUGsEdSlQYTCfZLpSQfsZ2jHZ5DHOIxu9Vpl5E,9
+PyInvest-1.0.1.dist-info/RECORD,,
