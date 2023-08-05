@@ -1,0 +1,9 @@
+PyCap-1.1.0.dist-info/DESCRIPTION.rst,sha256=ZpUMryDqM6o1lNiovStibCkS3qFGkyOtlYUPx8Q4Loo,8662
+PyCap-1.1.0.dist-info/METADATA,sha256=9eEHgHVhfijgoH3l_V4yCk0L4jw4s67umuNVQ4Ti91s,9585
+PyCap-1.1.0.dist-info/pydist.json,sha256=VHzAojoqSQT75iMD7NMA3LHUyqhgjBECW5JR9OjhcbA,1025
+PyCap-1.1.0.dist-info/RECORD,,
+PyCap-1.1.0.dist-info/top_level.txt,sha256=CR_O8GqftRxOPlWesQOMv3P6wyoNMW1YFo0VF5NNcOA,7
+PyCap-1.1.0.dist-info/WHEEL,sha256=ibOYvSdKJvW5cQqAvCn5IeFe8k9CB_RFFU6JulEfc2k,98
+redcap/project.py,sha256=HhSxLdX0kV5cETb9pWMUVGZazSYiD_SmyIATTyuEgoM,30358
+redcap/request.py,sha256=LDQwsG3bo5i1nyB22murvjiwjQc365lzCHQOy_R8Y7M,6800
+redcap/__init__.py,sha256=Ss3VK8fwdMigRd6KVEi0HV77WieJEV3FKIxr9AmW3G4,657
