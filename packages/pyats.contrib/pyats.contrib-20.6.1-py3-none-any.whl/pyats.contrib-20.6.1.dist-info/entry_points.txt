@@ -1,0 +1,10 @@
+[pyats.easypy.plugins]
+webex = pyats.contrib.plugins.webex:webex_plugin
+
+[pyats.topology.loader]
+ansible = pyats.contrib.creators.ansible:Ansible
+file = pyats.contrib.creators.file:File
+interactive = pyats.contrib.creators.interactive:Interactive
+netbox = pyats.contrib.creators.netbox:Netbox
+template = pyats.contrib.creators.template:Template
+
