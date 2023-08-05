@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: intake-solr
+Version: 0.1.1
+Summary: SOLR plugin for Intake
+Home-page: https://github.com/intake/intake-solr
+Maintainer: Martin Durant
+Maintainer-email: mdurant@anaconda.com
+License: BSD
+Platform: UNKNOWN
+Requires-Dist: intake
+Requires-Dist: pysolr
+Requires-Dist: dask
+Requires-Dist: requests
+Requires-Dist: requests-kerberos
+Requires-Dist: pandas
+
+Intake-solr: SOLR Plugin for Intake
+-----------------------------------
+
+Apache-SOLR driver for Intake
+
+

@@ -1,0 +1,4 @@
+[intake.drivers]
+solr = intake_solr.source:SOLRSequenceSource
+solrtab = intake_solr.source:SOLRTableSource
+

@@ -1,0 +1,14 @@
+intake_solr/__init__.py,sha256=IUqmWngk5EDFUEG5oo9q6qe-YV--h0E48AcjLu75H3M,239
+intake_solr/_version.py,sha256=Z9EMvSBQskvWGxook6dPg5xG6W2nExd8V1zjC7QyRBg,497
+intake_solr/source.py,sha256=1fRVxRc3pQRi41FUKlSrcvGgcI1LN_zGDsBWsUIl6wM,4935
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/sample1.csv,sha256=rwa27asE39BIT13geEzmyAy0AkI-VMBPd0idSc3g_t0,63
+tests/test_discovery.py,sha256=Ybsm4HGjlvDKkikVsvuqlazxaUQ1IeCS4hMn18CYLMc,355
+tests/test_intake_solr.py,sha256=WnMJHRjv3YsNkO9zuQmDnVv855xwvZGLKj4bp6NaaFI,1468
+tests/util.py,sha256=E4tmC69bijpswOHK_fc2FRpYNYKod_W_Z9M_gS3ZQNk,1492
+intake_solr-0.1.1.dist-info/LICENSE,sha256=fUH-19QZWQKsVH2vOE1QVACzdzwVgvkNBOePhR9d7AU,1330
+intake_solr-0.1.1.dist-info/METADATA,sha256=uZM4WTfQxKROMXg6GHS7IIoevWvcJtIUsG-seiijLZE,481
+intake_solr-0.1.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+intake_solr-0.1.1.dist-info/entry_points.txt,sha256=lLF-EIayaR6LM6GvbLMY5xzzrbtbJoHP48ayKkmKW9k,108
+intake_solr-0.1.1.dist-info/top_level.txt,sha256=IXknvHoLAb9j4Ek3xjfZxoGon3BJjUl9vl5JMu4YKqM,18
+intake_solr-0.1.1.dist-info/RECORD,,
