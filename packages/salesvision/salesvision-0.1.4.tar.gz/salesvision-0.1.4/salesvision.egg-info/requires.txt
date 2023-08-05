@@ -1,0 +1,7 @@
+imagehash
+io
+numpy
+pymongo
+requests
+pillow
+opencv-python
