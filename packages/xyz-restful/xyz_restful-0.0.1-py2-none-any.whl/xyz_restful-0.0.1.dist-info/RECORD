@@ -1,0 +1,14 @@
+xyz_restful/__init__.py,sha256=xch_i_4EWLSPlOg3yRQQBofdrtqtY0VyRndTWdzGT-0,109
+xyz_restful/apps.py,sha256=DeJA3eklp379ys5EWlfpQxKgO6d2BtTWjBruioBZ6Ew,653
+xyz_restful/decorators.py,sha256=FZFdgCopoxsqIhyqsNrgJEbI4Lr7rV8nfOkw5Q4w2os,507
+xyz_restful/filters.py,sha256=RRgvBZxL60G21EnleNspeVyInqb7AN-oGoXLxmh_0-o,338
+xyz_restful/helper.py,sha256=WpigONLOA7vugmbrNb17FgRyIT3y3dgTJQYYrAQtIfs,3657
+xyz_restful/metadata.py,sha256=hvIMd_AZoDrplIMrcP78Yupl0A-NJRLdb6TQgIerA2E,6003
+xyz_restful/mixins.py,sha256=yU0iBt-lCEuX2-KmJf5h8M7511RyjmjvBZdCOR8vH9E,1887
+xyz_restful/paginations.py,sha256=QYD83OraNA_q2CTMelbxI4Kd3NhdVlwKAkgs7ejMv7g,228
+xyz_restful/permissions.py,sha256=969FVyjc1E6kgITEmrJPbVyV2vficphmBx_NMZXpcKM,556
+xyz_restful/urls.py,sha256=2EvdkIDQsgSytw1xwOD4y7CgJKQzVw23oqUHaWBoM3E,162
+xyz_restful-0.0.1.dist-info/METADATA,sha256=zYLrO3KPNekRA1kOOvU3BTgzUEB6b_0Wj_81j8lhluU,716
+xyz_restful-0.0.1.dist-info/WHEEL,sha256=g3LQva5oS9Ma-DPFwX8R7Ke-NO25KWW489RoZdNxJXc,92
+xyz_restful-0.0.1.dist-info/top_level.txt,sha256=6mhtHSOMbnESaE9zGwgDpnVkZZZVD351wDtEjQhR6Ak,12
+xyz_restful-0.0.1.dist-info/RECORD,,
