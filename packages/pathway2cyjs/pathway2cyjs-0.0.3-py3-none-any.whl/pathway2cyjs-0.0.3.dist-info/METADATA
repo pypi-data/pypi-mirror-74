@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: pathway2cyjs
+Version: 0.0.3
+Summary: Convert Escher, Wikipathways, KEGG pathway data to Cytoscape.js JSON (.cyjs)
+Home-page: https://github.com/ecell/pathway2cyjs
+Author: Kozo Nishida
+Author-email: knishida@riken.jp
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+Requires-Dist: bridgedbpy
+Requires-Dist: beautifulsoup4
+Requires-Dist: pandas
+Requires-Dist: biopython
+Requires-Dist: lxml
+
+# pathway2cyjs
+
+pathway2cyjs converts [Escher](https://escher.github.io/#/), [Wikipathways](https://www.wikipathways.org/index.php/WikiPathways), [KEGG](https://www.genome.jp/kegg/) pathway data to Cytoscape.js JSON (.cyjs)
+
+
