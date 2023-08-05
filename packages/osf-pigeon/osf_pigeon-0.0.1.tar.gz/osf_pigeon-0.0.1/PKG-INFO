@@ -1,0 +1,14 @@
+Metadata-Version: 1.1
+Name: osf_pigeon
+Version: 0.0.1
+Summary: A utility for archiving osf storage projects at archive.org
+Home-page: https://github.com/CenterForOpenScience/osf-pigeon
+Author: Center for Open Science
+Author-email: contact@cos.io
+License: UNKNOWN
+Description: 123
+Platform: UNKNOWN
+Classifier: Natural Language :: English
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3.7
+Classifier: License :: OSI Approved :: MIT License

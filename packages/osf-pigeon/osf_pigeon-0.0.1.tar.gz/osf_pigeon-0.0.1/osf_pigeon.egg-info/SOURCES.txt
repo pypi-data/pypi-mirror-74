@@ -1,0 +1,11 @@
+README.md
+setup.cfg
+setup.py
+osf_pigeon.egg-info/PKG-INFO
+osf_pigeon.egg-info/SOURCES.txt
+osf_pigeon.egg-info/dependency_links.txt
+osf_pigeon.egg-info/top_level.txt
+settings/__init__.py
+settings/defaults.py
+settings/local-dist.py
+settings/local.py
