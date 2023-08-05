@@ -1,0 +1,10 @@
+malnet_task-0.1.0-py3.7-nspkg.pth,sha256=LAXgCfPy5dfAEoIDQVr1JJrQLD4YIdc5fuDAsUSJA6o,539
+malnet/task/__init__.py,sha256=y3edFPc6W5G-ti_al6bn8LfWUPc5mnBp4az99Vy99Es,90
+malnet/task/core.py,sha256=yFRXtOVjB6_ZVyBICzDVHYBRVjTlQd3INtrSUXNZkUo,6294
+malnet_task-0.1.0.dist-info/LICENSE,sha256=42-BHzHzrZ0rpoIwJYdHvLhoq1noZA-rNzP74Xm7fPQ,1109
+malnet_task-0.1.0.dist-info/METADATA,sha256=S6nKGA6UCDiBxIeRVru-YsmO9cV9I7xira8wXpFS-zQ,1210
+malnet_task-0.1.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+malnet_task-0.1.0.dist-info/namespace_packages.txt,sha256=_U6hRaKUcpj6ICMVCfG-doplUI37CFApZrC2i3HaDgQ,7
+malnet_task-0.1.0.dist-info/top_level.txt,sha256=_U6hRaKUcpj6ICMVCfG-doplUI37CFApZrC2i3HaDgQ,7
+malnet_task-0.1.0.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+malnet_task-0.1.0.dist-info/RECORD,,

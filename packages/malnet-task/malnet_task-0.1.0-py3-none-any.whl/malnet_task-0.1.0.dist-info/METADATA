@@ -1,0 +1,60 @@
+Metadata-Version: 2.1
+Name: malnet-task
+Version: 0.1.0
+Summary: malnet backend core package
+Home-page: https://git.kongkongss.com/malwarenet/malnet-task
+Author: Yongkang Jiang
+Author-email: jyk.kongkong@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.7
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: zhongkui-core (>=0.1.0)
+Requires-Dist: malnet-db (>=0.1.0)
+Requires-Dist: minio
+Requires-Dist: elasticsearch (==7.0.0)
+Requires-Dist: jyk-logging
+
+# malnet-task
+
+malnet malware analysis task utils
+
+## Installation
+
+```bash
+$ git clone ssh://git@git.kongkongss.com/malwarenet/malnet-task.git
+$ cd malnet-task
+# `run as developer`
+$ pip install malnet-task -e .
+```
+
+## Getting Started
+
+```shell
+waiting for ...
+```
+
+## Running the tests
+
+```shell
+$ cd malnet-task
+$ pytest -s
+```
+
+## Changelog
+[release Changelog](CHANGELOG.md)
+
+## TODOs
+
+
+## Authors
+
+* **kongkong Jiang** - *Initial work* - [jyker](https://git.kongkongss.com/jyker)
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
+
