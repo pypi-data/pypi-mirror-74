@@ -1,0 +1,4 @@
+jsmin
+mechanicalsoup
+pyopenssl
+pyyaml
