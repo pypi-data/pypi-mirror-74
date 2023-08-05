@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+src/pandoc_run_filter.py
+src/pandoc_run_filter.egg-info/PKG-INFO
+src/pandoc_run_filter.egg-info/SOURCES.txt
+src/pandoc_run_filter.egg-info/dependency_links.txt
+src/pandoc_run_filter.egg-info/entry_points.txt
+src/pandoc_run_filter.egg-info/requires.txt
+src/pandoc_run_filter.egg-info/top_level.txt

@@ -1,0 +1,6 @@
+pandocfilters>=1.4
+Pillow>=7.2
+
+[dev]
+pyfiglet>=0.8
+pytest>=5.1
