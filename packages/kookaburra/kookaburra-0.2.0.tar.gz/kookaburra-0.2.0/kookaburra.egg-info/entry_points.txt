@@ -1,0 +1,4 @@
+[console_scripts]
+kb_create_database = kookaburra.database:main
+kb_single_pulse = kookaburra.single_pulse:main
+

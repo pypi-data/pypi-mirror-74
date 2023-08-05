@@ -1,0 +1,20 @@
+Metadata-Version: 1.2
+Name: kookaburra
+Version: 0.2.0
+Summary: Shapelet fitting for pulsars
+Home-page: https://github.com/GregoryAshton/kookaburra
+Author: Greg Ashton
+Author-email: gregory.ashton@ligo.org
+License: MIT
+Description: ![Python package](https://github.com/GregoryAshton/kookaburra/workflows/Python%20package/badge.svg)
+        [![Documentation Status](https://readthedocs.org/projects/kookaburra/badge/?version=latest)](https://kookaburra.readthedocs.io/en/latest/?badge=latest)
+        
+        # kookaburra
+        
+        Project directory for kookaburra, a code to perform shapelet fitting for pulsars. Please see [the documentation](https://kookaburra.readthedocs.io/en/latest/index.html) for help installing and using kookaburra.
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.7
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >3.6
