@@ -1,0 +1,13 @@
+malnet_db-0.1.0-py3.7-nspkg.pth,sha256=LAXgCfPy5dfAEoIDQVr1JJrQLD4YIdc5fuDAsUSJA6o,539
+malnet/db/__init__.py,sha256=-Aj8A0koFWYfMa-oo9V6yjrmaJrlQ6WrIGGeSsnngrU,356
+malnet/db/fs.py,sha256=M_pPGI4zdKX0MjN2fSaz-_vMQiuBAW8_XYFrqiOdCN0,3614
+malnet/db/model.py,sha256=t54Zsx68ao5yNGkUshKV0Eyele98eQJvuP8DRQEObO4,4573
+malnet/db/test.py,sha256=2WX6JI9FnXthM2x2Nq0Lx771Ejd8Q6dQddOScIXKSLQ,682
+malnet/db/utils.py,sha256=CO69pimultkO0VvZpjpdqJ8Eh0UY5683dlIc6qVIpRc,470
+malnet_db-0.1.0.dist-info/LICENSE,sha256=DGJL0G7NA6DopEZ6edP59oHbB3uxYx7MOIKtriNqHqg,1131
+malnet_db-0.1.0.dist-info/METADATA,sha256=5KTOsbW99O9MWvVprtfYQ84ee1fMYCOdnSc0M3ZKCpw,1229
+malnet_db-0.1.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+malnet_db-0.1.0.dist-info/namespace_packages.txt,sha256=_U6hRaKUcpj6ICMVCfG-doplUI37CFApZrC2i3HaDgQ,7
+malnet_db-0.1.0.dist-info/top_level.txt,sha256=_U6hRaKUcpj6ICMVCfG-doplUI37CFApZrC2i3HaDgQ,7
+malnet_db-0.1.0.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+malnet_db-0.1.0.dist-info/RECORD,,

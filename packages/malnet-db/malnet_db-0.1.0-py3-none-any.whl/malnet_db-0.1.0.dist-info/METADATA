@@ -1,0 +1,62 @@
+Metadata-Version: 2.1
+Name: malnet-db
+Version: 0.1.0
+Summary: malnet backend core package
+Home-page: https://git.kongkongss.com/malwarenet/malnet-db
+Author: Yongkang Jiang
+Author-email: jyk.kongkong@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.7
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: malnet-core (>=0.1.1)
+Requires-Dist: elasticsearch (==7.0.0)
+Requires-Dist: peewee (>=3.13.3)
+Requires-Dist: psycopg2-binary (>=2.8.5)
+
+# malnet-database
+
+malnet database package
+
+## Installation
+
+- run malnet-db in docker
+
+```bash
+$ git clone ssh://git@git.kongkongss.com/malwarenet/malnet-db.git
+$ cd malnet-db
+$ make dev
+# in docker `run as developer`
+$ pip install malnet-db -e .
+```
+
+## Getting Started
+
+### Example
+
+```bash
+waiting for...
+```
+
+## Running the tests
+
+```shell
+$ cd malnet-db
+$ pytest -s
+```
+
+## Changelog
+[release Changelog](CHANGELOG.md)
+
+
+## Authors
+
+* **kongkong Jiang** - *Initial work* - [jyker](https://git.kongkongss.com/jyker)
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
+
