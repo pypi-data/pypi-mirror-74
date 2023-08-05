@@ -1,0 +1,4 @@
+dogma.py>=0
+
+[test]
+pytest
