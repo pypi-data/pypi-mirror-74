@@ -1,0 +1,8 @@
+rsapi/__init__.py,sha256=C7fjZ3QuJIkJUtz707p0zBKm49OlinYvBd9SgPCV5IE,1164
+rsapi/osrs.py,sha256=OkaLRCOUprpAqQXM1LAHTE09nigdgPN5MKkWthd_SKE,9853
+rsapi/test_osrs.py,sha256=eHd01jc8tR8alSJ8K6JThmAIiybxDbH5r6NnHhSlPck,1334
+rsapi/util.py,sha256=Lo2IWQkFBdZq7aLmO7KFZxqXDh7YhuuROCuw_hgXkFY,2079
+rsapi-0.0.4.dist-info/METADATA,sha256=Oo3GkZIApT1YY9x8mK97aaULt0RblKOgPzvfzPHeM5o,487
+rsapi-0.0.4.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+rsapi-0.0.4.dist-info/top_level.txt,sha256=Uig9_L-iu-aETJqN-oFJB53jPx8DSeetGdbgPKnul-g,6
+rsapi-0.0.4.dist-info/RECORD,,
