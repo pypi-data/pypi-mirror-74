@@ -1,0 +1,8 @@
+requirements.txt
+setup.py
+gfm2html/__init__.py
+gfm2html.egg-info/PKG-INFO
+gfm2html.egg-info/SOURCES.txt
+gfm2html.egg-info/dependency_links.txt
+gfm2html.egg-info/requires.txt
+gfm2html.egg-info/top_level.txt
