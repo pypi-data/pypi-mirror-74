@@ -1,0 +1,12 @@
+numpy
+scipy
+tqdm
+pillow
+opencv-python
+cython
+jupyter
+notebook
+pandas
+matplotlib
+xmltodict
+torchtorchvision
