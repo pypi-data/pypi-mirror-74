@@ -1,0 +1,17 @@
+{
+    "localfile": "csv-data.csv",
+    "format": {
+	"type": "csv",
+	"delimiter": ",",
+	"quote": "\""
+    },
+    "encoding": "utf-8",
+    "schema_groups": ["label", "coordinates"],
+    "schema": {
+	"i" : "name",
+	"coordinates" : {
+	    "X" : "x",
+	    "Y" : "y"
+	}
+    }
+}
