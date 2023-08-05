@@ -1,0 +1,9 @@
+
+[:platform_python_implementation=="CPython" and python_version<"3.9"]
+ruyaml.clib>=0.1.2
+
+[docs]
+ryd
+
+[jinja2]
+ruyaml.jinja2>=0.2
