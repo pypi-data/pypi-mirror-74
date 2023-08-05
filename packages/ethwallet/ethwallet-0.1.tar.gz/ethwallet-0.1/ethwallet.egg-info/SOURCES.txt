@@ -1,0 +1,7 @@
+setup.py
+ethwallet/__init__.py
+ethwallet.egg-info/PKG-INFO
+ethwallet.egg-info/SOURCES.txt
+ethwallet.egg-info/dependency_links.txt
+ethwallet.egg-info/not-zip-safe
+ethwallet.egg-info/top_level.txt
