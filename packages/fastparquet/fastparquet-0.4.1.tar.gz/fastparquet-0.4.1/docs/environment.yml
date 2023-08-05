@@ -1,0 +1,9 @@
+name: fastparquet
+dependencies:
+    - numba
+    - pandas
+    - numpy
+    - thrift
+    - numpydoc
+    - python=3
+    - cython
