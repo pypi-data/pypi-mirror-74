@@ -1,0 +1,15 @@
+setup.py
+standard_distributions/__init__.py
+standard_distributions/distribution.py
+standard_distributions.egg-info/PKG-INFO
+standard_distributions.egg-info/SOURCES.txt
+standard_distributions.egg-info/dependency_links.txt
+standard_distributions.egg-info/not-zip-safe
+standard_distributions.egg-info/requires.txt
+standard_distributions.egg-info/top_level.txt
+standard_distributions/binomial/__init__.py
+standard_distributions/binomial/binomial.py
+standard_distributions/binomial/test_binomial.py
+standard_distributions/gaussian/__init__.py
+standard_distributions/gaussian/gaussian.py
+standard_distributions/gaussian/test_gaussian.py
