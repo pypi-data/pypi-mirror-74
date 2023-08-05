@@ -1,0 +1,10 @@
+.gitignore
+LICENSE
+MANIFEST.in
+NAME
+README.md
+VERSION
+setup.py
+data_amqp/__init__.py
+data_amqp/amqp.py
+tests/ampq.py
