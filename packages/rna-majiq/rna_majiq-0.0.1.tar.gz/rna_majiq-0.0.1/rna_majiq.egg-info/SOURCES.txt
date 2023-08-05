@@ -1,0 +1,7 @@
+README.md
+setup.py
+rna_majiq/__init__.py
+rna_majiq.egg-info/PKG-INFO
+rna_majiq.egg-info/SOURCES.txt
+rna_majiq.egg-info/dependency_links.txt
+rna_majiq.egg-info/top_level.txt
