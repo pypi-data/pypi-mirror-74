@@ -1,0 +1,8 @@
+README.md
+setup.py
+publish_pypi/__init__.py
+publish_pypi/pdf2text.py
+publish_pypi.egg-info/PKG-INFO
+publish_pypi.egg-info/SOURCES.txt
+publish_pypi.egg-info/dependency_links.txt
+publish_pypi.egg-info/top_level.txt
