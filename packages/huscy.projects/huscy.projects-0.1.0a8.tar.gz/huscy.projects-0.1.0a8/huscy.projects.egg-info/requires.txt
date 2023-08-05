@@ -1,0 +1,12 @@
+Django>=2.2
+djangorestframework>=3.10
+django-filter
+django-guardian
+
+[development]
+psycopg2-binary
+coveralls
+
+[testing]
+tox
+watchdog
