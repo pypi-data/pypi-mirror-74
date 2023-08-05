@@ -1,0 +1,7 @@
+README.md
+setup.py
+pymailchimp.egg-info/PKG-INFO
+pymailchimp.egg-info/SOURCES.txt
+pymailchimp.egg-info/dependency_links.txt
+pymailchimp.egg-info/requires.txt
+pymailchimp.egg-info/top_level.txt
