@@ -1,0 +1,8 @@
+__pycache__
+*.pyc
+target
+portmod/portmod.*
+portmod.egg-info
+.venv
+build
+dist
