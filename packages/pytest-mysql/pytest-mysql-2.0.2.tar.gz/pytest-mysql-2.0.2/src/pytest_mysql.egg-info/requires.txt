@@ -1,0 +1,9 @@
+pytest>=3.0.0
+mirakuru>=2.3.0
+port-for
+mysqlclient
+
+[tests]
+pytest-cov
+pytest-xdist
+Mock
