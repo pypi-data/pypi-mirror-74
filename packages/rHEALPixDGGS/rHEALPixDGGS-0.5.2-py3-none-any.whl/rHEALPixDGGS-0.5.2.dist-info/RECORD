@@ -1,0 +1,12 @@
+rhealpixdggs/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+rhealpixdggs/dggs.py,sha256=abPXmdtVJuFd_Qr0QvRtxMrDIAG1ZpYlSu3EavaIRtM,111246
+rhealpixdggs/ellipsoids.py,sha256=jk0O8M8U2ccLDYY4Q5h6kMF-1xrjXEW50tlfn6uzXm8,12523
+rhealpixdggs/pj_healpix.py,sha256=bsXQ1gBcdOoK7FwL_L7yGwv5e0_EdKa3UxPeW9ffJvM,11542
+rhealpixdggs/pj_rhealpix.py,sha256=S1C4VErFNkqns8h9D-GLMrLoeVoiUV26XT7WtkUBY8o,22214
+rhealpixdggs/projection_wrapper.py,sha256=cLY9RfRuKsMIQofx64cZutn96BW5bAYpCxUBsSntM1w,4887
+rhealpixdggs/utils.py,sha256=QnbmdfcPvH9DBy6OrUPi2FR9Bp3WRBUKxeGayk70NQ4,7311
+rHEALPixDGGS-0.5.2.dist-info/LICENSE,sha256=ixuiBLtpoK3iv89l7ylKkg9rs2GzF9ukPH7ynZYzK5s,35148
+rHEALPixDGGS-0.5.2.dist-info/METADATA,sha256=o_p7KGJhpwx_iabc2J9GGPaYo_4ZtLkOr5OxhD3dS7w,6606
+rHEALPixDGGS-0.5.2.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+rHEALPixDGGS-0.5.2.dist-info/top_level.txt,sha256=GpeUsXhyQENXVpgnrETxiBbwaU_ykoWQl5gbWeJ6lZg,13
+rHEALPixDGGS-0.5.2.dist-info/RECORD,,
