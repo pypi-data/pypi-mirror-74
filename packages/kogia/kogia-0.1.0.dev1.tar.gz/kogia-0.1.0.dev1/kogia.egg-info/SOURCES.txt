@@ -1,0 +1,10 @@
+LICENSE
+MANIFEST.in
+NOTICE
+README.rst
+setup.py
+kogia/__init__.py
+kogia.egg-info/PKG-INFO
+kogia.egg-info/SOURCES.txt
+kogia.egg-info/dependency_links.txt
+kogia.egg-info/top_level.txt
