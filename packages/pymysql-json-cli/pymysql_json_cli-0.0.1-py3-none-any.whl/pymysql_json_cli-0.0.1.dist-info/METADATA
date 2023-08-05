@@ -1,0 +1,71 @@
+Metadata-Version: 2.1
+Name: pymysql-json-cli
+Version: 0.0.1
+Summary: pymysql wrapper for cli use
+Home-page: https://github.com/watarukura
+License: MIT
+Author: watarukura
+Author-email: what.r.j150@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Utilities
+Requires-Dist: click (>=7.1.2,<8.0.0)
+Requires-Dist: pymysql (>=0.9.3,<0.10.0)
+Project-URL: Repository, https://github.com/watarukura/pymysql-json-cli
+Description-Content-Type: text/markdown
+
+# pymysql-json-cli
+
+## install
+
+```sh
+pip install pymysql-json-cli
+```
+
+## usage
+
+```sh
+cat << EOF |
+SHOW DATABASES;
+EOF
+pymysql-json
+# [{"Database": "information_schema"}, {"Database": "test"}]
+```
+
+```sh
+cat <<EOF |
+SELECT *
+FROM %(table_name)s
+EOF
+pymysql-json --args '{"table_name": "test_table"}'
+# [{"test_column": "arg_value"}, {"test_column": "test_value"}]
+```
+
+```sh
+echo "SHOW DATABASES;" > db.sql
+pymysql-json --sqlfile ./db.sql
+# [{"Database": "information_schema"}, {"Database": "test"}]
+```
+
+## development
+
+- Need
+  - cargo-make
+  - docker
+
+### lint & test
+
+```sh
+makers --env-file .env.test tests
+```
+
+### lint except python code
+
+```sh
+makers --env-file .env.test lints
+```

@@ -1,0 +1,3 @@
+[console_scripts]
+pymysql-json=src.main:cli
+

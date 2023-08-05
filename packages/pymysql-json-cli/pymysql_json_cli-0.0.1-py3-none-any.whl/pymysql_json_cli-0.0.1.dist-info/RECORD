@@ -1,0 +1,6 @@
+src/main.py,sha256=BcslBEjP1IHcoI9e4b567ll75eZA0QNNLqbIkgTloYQ,1123
+src/mysql.py,sha256=krP4fX4CkMOT8WjeIPdOkXytmMhZxXvsDdHF5MVQSGY,1394
+pymysql_json_cli-0.0.1.dist-info/entry_points.txt,sha256=qHyzoS7-HTUstHGfUxxWSZ1PjU1-eCMZlYijt6iBEhw,45
+pymysql_json_cli-0.0.1.dist-info/WHEEL,sha256=G_NFpzHmv_dUXgCUSAWL0-bLL-eMzYU6DzDeGXbRXUk,83
+pymysql_json_cli-0.0.1.dist-info/METADATA,sha256=vuhbyvmnvWNvDZYoamBVV7-OudR1brjBJtsePMu5qyg,1428
+pymysql_json_cli-0.0.1.dist-info/RECORD,,
