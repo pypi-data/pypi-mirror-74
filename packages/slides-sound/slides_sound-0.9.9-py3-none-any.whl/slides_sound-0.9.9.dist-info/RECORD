@@ -1,0 +1,16 @@
+slides_sound/__init__.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+slides_sound/notes.py,sha256=WMKr7pI9c3UQSGSe08QYY-FpbNYTr5HJEdbnbvtnuHA,11772
+slides_sound/slides_util.py,sha256=H46Qx8NX35snnr5EwH7gqHWXxRbSGE8MhBN0guKdsSc,766
+slides_sound/soundgen.py,sha256=tlxIXHBIQmTVUV5KRuwhyJrMtukxaTT89GfesoamuJk,22448
+slides_sound/version.py,sha256=-8X6qjGZgbAxBy5dR883kVIXOSvCH9K8hlWPmQHjoyA,22
+slides_sound-0.9.9.data/scripts/contact_sheet,sha256=wEykkhKY7Z30KokkaR5oTZR7XF7zgi-wUhyPkky7hO0,5767
+slides_sound-0.9.9.data/scripts/convertsf,sha256=qvuH_IUutsDd7r1yFm-yRiGKCYDZ11P9SafBA1BMBBc,2712
+slides_sound-0.9.9.data/scripts/list_soundfont,sha256=CYoJTLgS5u8OtKDcmVuUyifz5vObLjw4kslxz8Yn4Xs,45
+slides_sound-0.9.9.data/scripts/music,sha256=C1SyCXBhvr27fKVBMDplEJJWHt-oE3m9IHOv2mIrvvc,6632
+slides_sound-0.9.9.data/scripts/rotate_resize,sha256=ZhVNLafHgCEwFQ1ENiY1cuHqQPq-TT20Olqz50_2LPM,3482
+slides_sound-0.9.9.data/scripts/slides,sha256=ujHW9JkMj1rZUW0WP_t66mnUGrek9iMYMvBeTX59rUw,6049
+slides_sound-0.9.9.dist-info/LICENSE,sha256=qQXNMm5FTdEqKtjVuYOyVrA4bF2uzDFz8rRHPCRtKtI,1075
+slides_sound-0.9.9.dist-info/METADATA,sha256=k3KyHPyL1FjnfbuuzYSUG0gEekLkM3gK4xmqfr0KapQ,6232
+slides_sound-0.9.9.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+slides_sound-0.9.9.dist-info/top_level.txt,sha256=pveuAHPTRamo_-LtR2olJR21_MN0ZI5VNy854OPTAKQ,13
+slides_sound-0.9.9.dist-info/RECORD,,

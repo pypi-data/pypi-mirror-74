@@ -1,0 +1,71 @@
+#!python
+import fluidsynth as fl
+import pyaudio
+from slides_sound.soundgen import save_sample
+from slides_sound.notes import duration
+import sys
+import os
+from optparse import OptionParser
+import traceback
+
+def main(options, args):
+    """ The main driver for the sf converter """
+
+    fl.init()
+    sf = fl.sfload(options.font)
+    fl.program_select(0,sf,options.bank,options.preset)
+
+    if options.verbose:
+        pa = pyaudio.PyAudio()
+        strm = pa.open(
+            format = pyaudio.paInt16,
+            channels = 2,
+            rate = 44100,
+            output = True)
+
+    if options.verbose:
+        print("loaded:",options.font,options.bank,options.preset)
+    nidx = 1
+    time = duration( 120, 1 ) * 44100.0
+    decay = int(time/4.0)
+    attack = int(time) - decay
+    for dyn,velocity in [("p",48),("mp",64),("mf",80),("f",96),("ff",112)]:
+        for nvalue in range(int(options.start_note),int(options.end_note)):
+            if options.verbose:
+                print("generating:",dyn,velocity,nidx,nvalue)
+            samples = []
+            if options.verbose:
+                print("time,attack,decay:",time,attack,decay)
+#            samples.append(fl.write_s16(44100/10))
+            fl.noteon(0,nvalue,velocity)
+            samples.append(fl.write_s16(attack))
+            fl.noteoff(0,nvalue)
+            samples.append(fl.write_s16(decay))
+            packed = ''.join(samples)
+            if options.verbose:
+                print("nsamples:",len(packed))
+            save_sample(packed,os.path.join(options.output,"%d_mcg_%s_%0d.wav"%(nidx,dyn,nvalue)),2)
+            nidx += 1
+
+    fl.stop()
+
+if __name__ == '__main__':
+    parser = OptionParser(usage="usage: %prog [options] ", description="A tool to generate wav files from a soundfont")
+    parser.add_option("-f","--font", dest="font", default="", help="Read soundfont from this file")
+    parser.add_option("-b","--bank", dest="bank", type="int", default=0, help="Sample bank to use")
+    parser.add_option("-p","--preset", dest="preset", type="int", default=0, help="Sample preset to use")
+    parser.add_option("-o","--output",dest="output",default=".", help="Output path for samples")
+    parser.add_option("-s","--start_note",dest="start_note",default="40",help="Starting midi note number")
+    parser.add_option("-e","--end_note",dest="end_note",default="84",help="Ending midi note number")
+    parser.add_option("-v","--verbose", dest="verbose", action="store_true", default=False, help="Log all activity to console")
+
+    (options,args) = parser.parse_args()
+
+    try:
+        ret = main(options,args)
+    except:
+        tb = traceback.format_exc()
+        print(tb, file=sys.stderr)
+        exit(1)
+
+    exit(ret)
