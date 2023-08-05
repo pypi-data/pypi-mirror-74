@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: poetry-packaging-poc
+Version: 0.2.0
+Summary: 
+Author: Marcos Damián Mesmer y Rosset
+Author-email: marcosdmyr@gmail.com
+Requires-Python: >=3.8,<3.9
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: click (>=7.1.2,<8.0.0)

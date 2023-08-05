@@ -1,0 +1,3 @@
+[console_scripts]
+poetry-packaging-poc=poetry_packaging_poc.console:main
+

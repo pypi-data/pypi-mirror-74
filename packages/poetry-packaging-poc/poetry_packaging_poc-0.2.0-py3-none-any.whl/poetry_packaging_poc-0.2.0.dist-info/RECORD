@@ -1,0 +1,7 @@
+poetry_packaging_poc/__init__.py,sha256=Zn1KFblwuFHiDRdRAiRnDBRkbPttWh44jKa5zG2ov0E,22
+poetry_packaging_poc/console.py,sha256=8h_rUxp8yiil-kfuaO7yMw6EWiUhOBExeQkjHxow-QE,190
+poetry_packaging_poc-0.2.0.dist-info/entry_points.txt,sha256=JJyAj_hn__q3LAbxdzZZcuAPasHQrf5zhc9eUbG2_78,74
+poetry_packaging_poc-0.2.0.dist-info/LICENSE,sha256=awOCsWJ58m_2kBQwBUGWejVqZm6wuRtCL2hi9rfa0X4,1211
+poetry_packaging_poc-0.2.0.dist-info/WHEEL,sha256=G_NFpzHmv_dUXgCUSAWL0-bLL-eMzYU6DzDeGXbRXUk,83
+poetry_packaging_poc-0.2.0.dist-info/METADATA,sha256=I6FceRel3pFCtAM5rRYZ0gvoZfLkXieDuDE-28K_I8c,312
+poetry_packaging_poc-0.2.0.dist-info/RECORD,,
