@@ -1,0 +1,4 @@
+argparse>=1.4.0
+
+[dev]
+pylint>=2.5.0
