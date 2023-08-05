@@ -1,0 +1,22 @@
+Metadata-Version: 1.1
+Name: preferred_pictures
+Version: 0.1
+Summary: A client for the Preferred.pictures API that makes integration easy
+Home-page: https://github.com/preferred-pictures/python
+Author: Preferred.pictures
+Author-email: contact@preferred.pictures
+License: MIT
+Download-URL: https://github.com/preferred-pictures/python/archive/v_01.tar.gz
+Description: UNKNOWN
+Keywords: preferred.pictures,optimization
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Environment :: Web Environment
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
