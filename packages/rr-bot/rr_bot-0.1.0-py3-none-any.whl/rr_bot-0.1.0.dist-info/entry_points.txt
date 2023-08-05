@@ -1,0 +1,3 @@
+[console_scripts]
+rr-bot = rr_bot.main:main
+
