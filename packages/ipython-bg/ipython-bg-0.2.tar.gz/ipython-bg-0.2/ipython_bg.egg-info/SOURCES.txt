@@ -1,0 +1,8 @@
+README.md
+setup.py
+ipython_bg/__init__.py
+ipython_bg.egg-info/PKG-INFO
+ipython_bg.egg-info/SOURCES.txt
+ipython_bg.egg-info/dependency_links.txt
+ipython_bg.egg-info/requires.txt
+ipython_bg.egg-info/top_level.txt
