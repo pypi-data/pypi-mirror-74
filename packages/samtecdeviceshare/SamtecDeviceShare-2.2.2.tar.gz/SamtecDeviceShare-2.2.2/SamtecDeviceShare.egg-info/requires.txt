@@ -1,0 +1,8 @@
+aiohttp
+fastapi
+lockfile
+pydantic
+pyhumps
+uvicorn
+python-networkmanager
+dbus-python

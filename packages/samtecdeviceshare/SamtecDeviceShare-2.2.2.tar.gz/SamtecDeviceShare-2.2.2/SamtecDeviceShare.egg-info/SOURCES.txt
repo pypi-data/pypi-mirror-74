@@ -1,0 +1,15 @@
+README.md
+setup.cfg
+setup.py
+SamtecDeviceShare.egg-info/PKG-INFO
+SamtecDeviceShare.egg-info/SOURCES.txt
+SamtecDeviceShare.egg-info/dependency_links.txt
+SamtecDeviceShare.egg-info/requires.txt
+SamtecDeviceShare.egg-info/top_level.txt
+samtecdeviceshare/__init__.py
+samtecdeviceshare/ethernethandler.py
+samtecdeviceshare/helper.py
+samtecdeviceshare/logger.py
+samtecdeviceshare/sdshare.py
+samtecdeviceshare/server.py
+samtecdeviceshare/types.py
