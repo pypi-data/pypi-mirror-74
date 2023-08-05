@@ -1,0 +1,8 @@
+README.md
+jsock.py
+setup.py
+jsock.egg-info/PKG-INFO
+jsock.egg-info/SOURCES.txt
+jsock.egg-info/dependency_links.txt
+jsock.egg-info/requires.txt
+jsock.egg-info/top_level.txt
