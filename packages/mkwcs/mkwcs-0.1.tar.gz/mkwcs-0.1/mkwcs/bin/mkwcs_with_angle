@@ -1,0 +1,22 @@
+#!/usr/bin/env python3
+from mkwcs.lib import makewcs
+import os,sys
+
+if (len(sys.argv)!=6 and len(sys.argv)!=7):
+	sys.exit('''Usage1  >  mkwcs_with_angle   image.fits  pix_scale   ra(degrees)  dec(degrees)  North_tilt_counter_clockwise(default 0) 
+Usage2  >  mkwcs_with_angle   image.fits  pix_scale   ra(degrees)  dec(degrees)  North_tilt_counter_clockwise(default 0)   mag_limit(default=19)\n''')
+
+
+# inputs 
+image_file=sys.argv[1]       # image
+pixsize= float(sys.argv[2])  # pixel size
+ra_c = float(sys.argv[3])    # coordinates
+dec_c = float(sys.argv[4])   # coordinates
+n_tilt= float(sys.argv[5])   # coordinates
+
+
+if(len(sys.argv)==6):
+    makewcs(image_file,pixsize,ra_c,dec_c,rot_angle_deg=n_tilt)
+else:
+    mlim = float(sys.argv[6])   # limiting magnitude for the USNOB1 catalog search
+    makewcs(image_file,pixsize,ra_c,dec_c,rot_angle_deg=n_tilt,mag_limit=mlim)

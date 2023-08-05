@@ -1,0 +1,13 @@
+README.md
+setup.py
+mkwcs/__init__.py
+mkwcs/lib.py
+mkwcs.egg-info/PKG-INFO
+mkwcs.egg-info/SOURCES.txt
+mkwcs.egg-info/dependency_links.txt
+mkwcs.egg-info/not-zip-safe
+mkwcs.egg-info/requires.txt
+mkwcs.egg-info/top_level.txt
+mkwcs/bin/get_angle
+mkwcs/bin/mkwcs_with_angle
+mkwcs/bin/mkwcs_with_angle_range
