@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: nma-ibl
+Version: 0.1.0
+Summary: Toolkits to access data in IBL public database
+Home-page: UNKNOWN
+Author: Vathes
+Author-email: support@vathes.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: datajoint (>=0.12)
+Requires-Dist: seaborn (>=0.10.0)
+
+UNKNOWN
+
+
