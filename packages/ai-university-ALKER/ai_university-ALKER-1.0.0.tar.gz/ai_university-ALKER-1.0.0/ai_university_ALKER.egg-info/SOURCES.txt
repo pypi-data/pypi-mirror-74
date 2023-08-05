@@ -1,0 +1,7 @@
+README.md
+setup.py
+ai_university/__init__.py
+ai_university_ALKER.egg-info/PKG-INFO
+ai_university_ALKER.egg-info/SOURCES.txt
+ai_university_ALKER.egg-info/dependency_links.txt
+ai_university_ALKER.egg-info/top_level.txt
