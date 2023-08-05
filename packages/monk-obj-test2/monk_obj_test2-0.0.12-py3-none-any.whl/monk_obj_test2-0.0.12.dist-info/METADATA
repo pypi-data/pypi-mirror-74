@@ -1,0 +1,124 @@
+Metadata-Version: 2.1
+Name: monk-obj-test2
+Version: 0.0.12
+Summary: Monk Object Detection's 2_pytorch_finetune
+Home-page: https://github.com/Tessellate-Imaging/Monk_Object_Detection
+Author: Tessellate Imaging
+Author-email: abhishek@tessellateimaging.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Environment :: GPU :: NVIDIA CUDA :: 9.0
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: tqdm
+Requires-Dist: pillow
+Requires-Dist: opencv-python
+Requires-Dist: cython
+Requires-Dist: jupyter
+Requires-Dist: notebook
+Requires-Dist: pandas
+Requires-Dist: matplotlib
+Requires-Dist: xmltodict
+Requires-Dist: torchvision (==0.5.0)
+Requires-Dist: torch (==1.4.0)
+Requires-Dist: pycocotools
+
+## Project Details
+Pipeline based on GluonCV Fintuning project - https://gluon-cv.mxnet.io/build/examples_detection/index.html
+
+<br />
+<br />
+<br />
+
+## Installation
+
+Supports 
+- Python 3.6
+- Python 3.7
+
+`cd installation`
+
+Check the cuda version using the command
+
+`nvcc -V`
+
+Select the right requirements file and run 
+
+`cat <selected requirements file> | xargs -n 1 -L 1 pip install`
+
+For example for cuda 9.0
+
+`cat requirements_cuda9.0.txt | xargs -n 1 -L 1 pip install`
+
+
+<br />
+<br />
+<br />
+
+## Functional Documentation
+  [Link](https://abhi-kumar.github.io/1_gluoncv_finetune_docs/)
+
+<br />
+<br />
+<br />
+
+## Pipeline
+
+- Load Dataset
+
+`gtf.Dataset(root_dir, img_dir, anno_file, batch_size=batch_size);`
+
+- Load Model
+
+`gtf.Model(model_name, use_pretrained=pretrained, use_gpu=gpu);`
+
+- Set Hyper-parameter
+
+`gtf.Set_Learning_Rate(0.001);`
+
+- Train
+
+`gtf.Train(epochs, params_file);`
+
+
+
+<br />
+<br />
+<br />
+
+## TODO
+
+- [x] Add SSD support
+- [x] Add YoloV3 support
+- [ ] Add support for Coco-Type Annotated Datasets
+- [x] Add support for VOC-Type Annotated Dataset
+- [ ] Add Faster-RCNN support
+- [x] Test on Kaggle and Colab 
+- [ ] Add validation feature & data pipeline
+- [ ] Add Optimizer selection feature
+- [ ] Enable Learning-Rate Scheduler Support
+- [ ] Enable Layer Freezing
+- [ ] Set Verbosity Levels
+- [ ] Add Project management and version control support (Similar to Monk Classification)
+- [ ] Add Graph Visualization Support
+- [ ] Enable batch proessing at inference
+- [ ] Add feature for top-k output visualization
+- [x] Add Multi-GPU training
+- [ ] Auto correct missing or corrupt images - Currently skips them
+- [ ] Add Experimental Data Analysis Feature
+
+
+<br />
+<br />
+<br />
+
+## External Contributors list 
+
+- https://github.com/THEFASHIONGEEK: Multi GPU feature
+
+

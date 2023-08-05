@@ -1,0 +1,14 @@
+monk_pytorch_finetune_test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+monk_pytorch_finetune_test/coco_eval.py,sha256=WzaXlSbirixQY71kpSDSrD0aW16tnk5xVJHRwWSlgaE,12036
+monk_pytorch_finetune_test/coco_utils.py,sha256=2Ya6uf1KQkoJyyZH-H24uyJy2x9eV8IqPMw1TEdwA0s,8835
+monk_pytorch_finetune_test/data_loader_class.py,sha256=2baoSfYDaNGTJvBywFYuCWk0aXRSdFvD9Mq9PNmWBBI,3036
+monk_pytorch_finetune_test/detector_prototype.py,sha256=TNhsTNthDkTdF6-VeEt1pRLUIFFFkn3MFnj2lxUhC9I,11776
+monk_pytorch_finetune_test/engine.py,sha256=E7yjhnQCGVGPmR5vhs60-BUZjvBb1okNQ8jITUFuMGU,3827
+monk_pytorch_finetune_test/inference_prototype.py,sha256=v_tfFD5vzYc34YFgv4GhDNPbS_uLKaNK0MDYGSR0z4I,6636
+monk_pytorch_finetune_test/transforms.py,sha256=woVMAOlsU1499OG6FMZ7AowUdCd-2OOzm4-7myS-TNs,1534
+monk_pytorch_finetune_test/utils.py,sha256=TVhDurFMD-xKrJm4u1phBxY2nHI6a25q8t-qDk1V_sA,9796
+monk_obj_test2-0.0.12.dist-info/LICENSE.md,sha256=6r_7aMwzwIH2PD4eo-PgFPpnk4EABfUly0kpBjIU1A4,11370
+monk_obj_test2-0.0.12.dist-info/METADATA,sha256=_kEOxQmFaGx97nove9GOsIO9-rz2srITPN-lzVTYdoI,2704
+monk_obj_test2-0.0.12.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+monk_obj_test2-0.0.12.dist-info/top_level.txt,sha256=7MZWweuJbbfTn1hAYuElrHq_NvyGpdXiv4aKXpbTuWw,27
+monk_obj_test2-0.0.12.dist-info/RECORD,,
