@@ -1,0 +1,10 @@
+README.md
+setup.py
+pybrgr/__init__.py
+pybrgr/main.py
+pybrgr.egg-info/PKG-INFO
+pybrgr.egg-info/SOURCES.txt
+pybrgr.egg-info/dependency_links.txt
+pybrgr.egg-info/entry_points.txt
+pybrgr.egg-info/not-zip-safe
+pybrgr.egg-info/top_level.txt
