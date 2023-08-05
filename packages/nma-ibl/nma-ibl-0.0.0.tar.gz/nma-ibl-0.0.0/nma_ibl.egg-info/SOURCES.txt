@@ -1,0 +1,10 @@
+README.md
+setup.py
+nma_ibl/__init__.py
+nma_ibl/paper_behavior_functions.py
+nma_ibl/psychofit.py
+nma_ibl.egg-info/PKG-INFO
+nma_ibl.egg-info/SOURCES.txt
+nma_ibl.egg-info/dependency_links.txt
+nma_ibl.egg-info/requires.txt
+nma_ibl.egg-info/top_level.txt
