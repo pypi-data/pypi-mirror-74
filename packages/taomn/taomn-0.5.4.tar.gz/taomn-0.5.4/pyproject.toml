@@ -1,0 +1,30 @@
+[tool.poetry]
+name = "taomn"
+version = "0.5.4"
+description = "Quickstart your Tao masternode"
+readme = "README.md"
+license = "GPL-3.0+"
+homepage = "https://tao.network"
+repository = "https://github.com/Tao-Network/taomn"
+documentation = "https://docs.tao.network/masternode/taomn/"
+keywords = ["tao", "blockchain", "masternode", "node"]
+authors = [
+  "Bryce Weiner <bryce@tao.network>",
+  "Etienne Napoleone <etienne@tomochain.com>"
+]
+
+[tool.poetry.dependencies]
+python = "^3.5"
+docker = "^3.5.0"
+pastel = "^0.1.0"
+clint = "^0.5.1"
+python-slugify = "^1.2"
+click = "^7.0"
+
+[tool.poetry.dev-dependencies]
+flake8 = "^3.5"
+coveralls = "^1.3"
+pytest = "^3.6"
+
+[tool.poetry.scripts]
+taomn = "taomn.taomn:main"
