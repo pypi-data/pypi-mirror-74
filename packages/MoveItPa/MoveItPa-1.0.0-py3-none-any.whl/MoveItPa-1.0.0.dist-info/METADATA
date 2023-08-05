@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: MoveItPa
+Version: 1.0.0
+Summary: A movement recognition library
+Home-page: UNKNOWN
+Author: Djamel RAAB
+Author-email: djamelraab95@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: opencv-contrib-python
+Requires-Dist: scikit-learn
+Requires-Dist: tensorflow (>=2.0.0matplotlib)
+Requires-Dist: seaborn
+
+UNKNOWN
+
+
