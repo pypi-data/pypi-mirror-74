@@ -1,0 +1,17 @@
+README.md
+setup.py
+tarentula/__init__.py
+tarentula/cli.py
+tarentula/datashare_client.py
+tarentula/download.py
+tarentula/logger.py
+tarentula/tagging.py
+tarentula.egg-info/PKG-INFO
+tarentula.egg-info/SOURCES.txt
+tarentula.egg-info/dependency_links.txt
+tarentula.egg-info/entry_points.txt
+tarentula.egg-info/requires.txt
+tarentula.egg-info/top_level.txt
+tests/__init__.py
+tests/test_datashare_client.py
+tests/test_tagging.py
