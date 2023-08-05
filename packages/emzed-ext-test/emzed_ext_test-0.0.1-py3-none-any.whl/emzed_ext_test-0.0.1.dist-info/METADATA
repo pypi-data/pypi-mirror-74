@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: emzed-ext-test
+Version: 0.0.1
+Summary: please describe the package here in one line
+Home-page: https://biol.ethz.ch
+Author: Hans Dampf
+Author-email: hans.dampf@biol.ethz.ch
+License: http://opensource.org/licenses/GPL-3.0
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: emzed3
+Requires-Dist: emzed3-gui
+
+
+
+# describe the package here in more than one line
+
+## you can use markdown here
+
+This package **does nothing**.
+
+```
+import antigravity
+```
+
+
+
