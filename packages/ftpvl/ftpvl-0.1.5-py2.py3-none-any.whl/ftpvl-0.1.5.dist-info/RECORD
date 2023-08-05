@@ -1,0 +1,12 @@
+ftpvl/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ftpvl/evaluation.py,sha256=SdWJ6guLa8kbOtG3ZuIqjyur4sL8iw5OStplD5tGPW8,1534
+ftpvl/fetchers.py,sha256=hrfEjsKhXKyclzgXxbnvIZMEB6jCz6bUd6i1hb3796w,6586
+ftpvl/helpers.py,sha256=HdsfCqL49WcRsDdJ1IH70xUZqkgjrje74OwARlYN-xs,4641
+ftpvl/processors.py,sha256=0k9c7U8hkRQHbY_fQhS_cfe9v1T5_Bl39B-L6VwwO54,13955
+ftpvl/styles.py,sha256=dyf9gZ_-LLcxQPVFjDd76eGrK39S2Bvrnvn4aI9TGhg,1224
+ftpvl/visualizers.py,sha256=Vd4Ivz2SjV46uL60rpuVMhckN5NfMQh7yaXMJIgUpKI,7290
+ftpvl-0.1.5.dist-info/LICENSE,sha256=92W0twKAMfkkl0HsokjAi0GuUbeQ56lu6VVD2KCboCo,1067
+ftpvl-0.1.5.dist-info/METADATA,sha256=u_xAOKXFlCHBRNSfZJ7H9BcteQ7EP9Q7qAdqrbSUet4,3085
+ftpvl-0.1.5.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+ftpvl-0.1.5.dist-info/top_level.txt,sha256=DFTHA74QMWgisN2dnE8Yuf_b5VtLnPI40pXEo05PBxY,6
+ftpvl-0.1.5.dist-info/RECORD,,
