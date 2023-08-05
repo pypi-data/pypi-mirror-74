@@ -1,0 +1,17 @@
+pyappcache/__init__.py,sha256=MsSFjiLMLJZ7QhUPpVBWKiyDnCzryquRyr329NoCACI,2
+pyappcache/cache.py,sha256=X72qNALKmxtnmVLD6c7h_-5lRCkeJl8AUaucBQkb__4,2587
+pyappcache/compression.py,sha256=19Xkis8gXbZbktCynBbncpel-bCUaRskGXh0Dgbmj30,374
+pyappcache/keys.py,sha256=_H5GFG9nHVkeUDItaVNbBmiAoBvGmN-qzVgh6c259ZA,1104
+pyappcache/memcache.py,sha256=zCtyOX-hVfIo3IXSCoAWdObdjyKhE-YoVOjJazY4qu4,1006
+pyappcache/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyappcache/redis.py,sha256=hB38UL40_mAs-DSZykdzIb5b-PCgC8X2Fo-AYlYpV9c,987
+pyappcache/serialisation.py,sha256=vzCdUA4fgdvpqsOfmnijtHT_LSwjE6IR_jieIF1Ywps,673
+pyappcache/sqlite.py,sha256=3J6wSpoqdsZmqdkOBdbAhrcGpjCU2sgtPBUJk-6J4wI,4568
+pyappcache/sqlite_lru.py,sha256=Pm9ioWXUT26iP6RABiwin9tosusawd30Du6v_mU0A3A,4125
+pyappcache/util/__init__.py,sha256=MsSFjiLMLJZ7QhUPpVBWKiyDnCzryquRyr329NoCACI,2
+pyappcache/util/requests.py,sha256=xBSqWV20RJIgifJdW8hb7ktLO2kiscL_oeHHj3zCHKg,602
+pyappcache-0.1.dist-info/METADATA,sha256=grnPJrDPSSxF18Glvu--oBhszs2NKWY14LLADRldTow,806
+pyappcache-0.1.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+pyappcache-0.1.dist-info/top_level.txt,sha256=O1dXxp3M6dvb3ZRRlfDDm0AxBUJxis52rs_x36xXCZg,11
+pyappcache-0.1.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+pyappcache-0.1.dist-info/RECORD,,
