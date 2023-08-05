@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: megastep
+Version: 0.1
+Summary: Helps build million-frame-per-second reinforcement learning environments
+Home-page: http://andyljones.com/megastep
+Author: Andy Jones
+Author-email: andyjones.ed@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Provides-Extra: cubicasa
+Provides-Extra: rebar
+Provides-Extra: docs
+Provides-Extra: test
