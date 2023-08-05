@@ -1,0 +1,3 @@
+[console_scripts]
+pokequiz = pokequiz.__main__:quiz
+
