@@ -1,0 +1,67 @@
+Metadata-Version: 2.1
+Name: find-the-site
+Version: 0.2
+Summary: Find the site in duckduckgo
+Home-page: https://github.com/serhii73/find_the_site
+License: MIT
+Keywords: find,search,company website,brand website
+Author: serhii
+Author-email: aserhii@protonmail.com
+Requires-Python: >=3.6,<4.0
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: beautifulsoup4 (>=4.7.1,<5.0.0)
+Requires-Dist: requests (>=2.22,<3.0)
+Requires-Dist: user-agent (>=0.1.9,<0.2.0)
+Project-URL: Repository, https://github.com/serhii73/find_the_site
+Description-Content-Type: text/markdown
+
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/serhii73/find_the_site/graphs/commit-activity)
+[![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
+[![GitHub contributors](https://img.shields.io/github/contributors/serhii73/find_the_site.svg)](https://GitHub.com/serhii73/find_the_site/graphs/contributors/)
+[![GitHub stars](https://img.shields.io/github/stars/serhii73/find_the_site.svg?style=social&label=Star&maxAge=2592000)](https://GitHub.com/serhii73/find_the_site/stargazers/)
+![GitHub forks](https://img.shields.io/github/forks/serhii73/find_the_site.svg?style=social)
+[![GitHub issues](https://img.shields.io/github/issues/serhii73/find_the_site.svg)](https://GitHub.com/serhii73/find_the_site/issues/)
+
+# find_the_site
+## Are you looking for a company/enterprise website? This small library finds websites in [duckduckgo search engine](https://duckduckgo.com/?t=hk)
+#### Optionally you can use:
+- the [ecosia](https://ecosia.org) search engine, to support environmental efforts
+##### How to Install ?
+
+```
+pip install find_the_site
+```
+
+##### How to use ?
+
+def get_website(website, eco=False)
+> **website**: Whose website you are searching for
+>
+> **eco**: 
+>- **True**: Use ecosia search.
+>- **default**: **False**
+
+##### Find the website
+
+```
+In [1]: from find_the_site.fw import get_website                                               
+
+In [2]: get_website("UNITED NATIONS")                                                          
+Out[2]: 'https://www.un.org/en/'
+```
+#
+```
+In [1]: from find_the_site.fw import get_website 
+
+In [2]: get_website("UNITED NATIONS", eco=True)                                                          
+Out[2]: 'https://www.un.org/en/'
+```
+
