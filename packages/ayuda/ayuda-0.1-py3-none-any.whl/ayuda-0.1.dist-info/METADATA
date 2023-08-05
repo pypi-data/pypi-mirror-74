@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: ayuda
+Version: 0.1
+Summary: Program for save your notes and share between git
+Home-page: https://gitlab.com/rodrigohernan.ramos/ayuda
+Author: Rodrigo Ramos
+Author-email: rodrigohernan.ramos@gmail.com
+License: UNKNOWN
+Download-URL: https://gitlab.com/rodrigohernan.ramos/ayuda/tarball/0.1
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: urwid
+Requires-Dist: PyYaml
+Requires-Dist: gitpython
+
+## hi man
+pip3 install -e .
+
+

@@ -1,0 +1,10 @@
+ayuda/__init__.py,sha256=EQLSWdzi2otAT-YK-iwcuDxXE9dM6WoiQq-cS_jUngk,21
+ayuda/components.py,sha256=d58rqBN4StvznsCyjBeBLEy9AspR1L8979s3i4BIQ04,7659
+ayuda/config.py,sha256=mmS5Smn0UALgsYgb1vmkasqud6madP1qqhJiW6FPxZE,288
+ayuda/main.py,sha256=fhdAjoJTpzgabMxoi9M5_Yc6QNn2JnOuqjyiGYHXJPo,16313
+ayuda/messages.py,sha256=ZrVcNWxkstrfS0sPl9fNKnz2JAAcZZ37w8KqUvxq3y8,538
+ayuda-0.1.dist-info/METADATA,sha256=ifYvmX4ACLFCdUo-pEb686j9jpEaV3U0pBet3ub54Dw,496
+ayuda-0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+ayuda-0.1.dist-info/entry_points.txt,sha256=Nx82UGHCxcwkhro3ExcXQnp0kr19lOL5CzJhqEkvEm0,61
+ayuda-0.1.dist-info/top_level.txt,sha256=so3SI9a-Pd8h74p5ZTXkCcX89DGbSC-tiWL3KwfIwb8,6
+ayuda-0.1.dist-info/RECORD,,
