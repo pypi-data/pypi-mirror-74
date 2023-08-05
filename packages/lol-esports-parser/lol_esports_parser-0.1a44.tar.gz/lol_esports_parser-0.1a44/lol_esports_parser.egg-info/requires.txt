@@ -1,0 +1,9 @@
+beautifulsoup4
+dateparser
+lol-dto>=0.1a8
+lol-id-tools>=1.4.0
+mwclient
+requests
+retry
+riot-transmute>=0.1a16
+riotwatcher
