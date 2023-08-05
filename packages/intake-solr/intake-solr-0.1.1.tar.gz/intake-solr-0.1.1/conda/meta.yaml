@@ -1,0 +1,38 @@
+package:
+   name: intake-solr
+   version: {{ GIT_DESCRIBE_TAG }}
+
+source:
+   path: ..
+
+build:
+  number: {{ GIT_DESCRIBE_NUMBER }}
+  script: python setup.py install --single-version-externally-managed --record=record.txt
+  noarch: python
+
+requirements:
+  build:
+    - python
+    - jinja2
+  run:
+    - intake
+    - python
+    - pysolr
+    - requests-kerberos
+
+test:
+  source_files:
+    - tests
+  requires:
+    - pytest
+    - pytest-cov
+    - coverage
+  commands:
+    - py.test --verbose --cov=intake_solr tests
+
+about:
+  home: https://github.com/ContinuumIO/intake-solr
+  license: BSD
+  license_file: LICENSE
+  summary: |
+    SOLR plugin for Intake

@@ -1,0 +1,30 @@
+language: generic
+sudo: required
+os:
+- linux
+services:
+- docker
+env:
+  matrix:
+  - CONDA_PY=37
+install:
+- |
+  echo "Installing a fresh version of Miniconda."
+  MINICONDA_URL="https://repo.continuum.io/miniconda"
+  MINICONDA_FILE="Miniconda3-latest-$(case $TRAVIS_OS_NAME in (linux) echo Linux;; (osx) echo MacOSX;;esac)-x86_64.sh"
+  curl -L -O "${MINICONDA_URL}/${MINICONDA_FILE}"
+  bash $MINICONDA_FILE -b
+- |
+  echo "Configuring conda."
+  source $HOME/miniconda3/bin/activate root
+  conda install -c conda-forge -y flake8 intake pandas pytest requests
+  pip install pysolr
+  pip install -e .
+script:
+- |
+  flake8 intake_solr
+  pytest
+notifications:
+  email: false
+  on_success: change
+  on_failure: always

@@ -1,0 +1,14 @@
+Metadata-Version: 1.2
+Name: intake-solr
+Version: 0.1.1
+Summary: SOLR plugin for Intake
+Home-page: https://github.com/intake/intake-solr
+Maintainer: Martin Durant
+Maintainer-email: mdurant@anaconda.com
+License: BSD
+Description: Intake-solr: SOLR Plugin for Intake
+        -----------------------------------
+        
+        Apache-SOLR driver for Intake
+        
+Platform: UNKNOWN

@@ -1,0 +1,503 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>API Reference &mdash; intake_solr 0.0.2 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  
+  
+    <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  
+
+  
+
+  
+        <link rel="index" title="Index"
+              href="genindex.html"/>
+        <link rel="search" title="Search" href="search.html"/>
+    <link rel="top" title="intake_solr 0.0.2 documentation" href="index.html"/>
+        <link rel="prev" title="Quickstart" href="quickstart.html"/> 
+
+  
+  <script src="_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+   
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="index.html" class="icon icon-home"> intake_solr
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                0.0.2
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="quickstart.html">Quickstart</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">API Reference</a><ul class="simple">
+</ul>
+</li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">intake_solr</a>
+        
+      </nav>
+
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html">Docs</a> &raquo;</li>
+        
+      <li>API Reference</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="_sources/api.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="api-reference">
+<h1>API Reference<a class="headerlink" href="#api-reference" title="Permalink to this headline">¶</a></h1>
+<table border="1" class="longtable docutils">
+<colgroup>
+<col width="10%" />
+<col width="90%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td><a class="reference internal" href="#intake_solr.TablePlugin" title="intake_solr.TablePlugin"><code class="xref py py-obj docutils literal notranslate"><span class="pre">intake_solr.TablePlugin</span></code></a>()</td>
+<td>Plugin for SOLR reader</td>
+</tr>
+<tr class="row-even"><td><a class="reference internal" href="#intake_solr.SequencePlugin" title="intake_solr.SequencePlugin"><code class="xref py py-obj docutils literal notranslate"><span class="pre">intake_solr.SequencePlugin</span></code></a>()</td>
+<td>Plugin for SOLR reader</td>
+</tr>
+<tr class="row-odd"><td><a class="reference internal" href="#intake_solr.source.SOLRTableSource" title="intake_solr.source.SOLRTableSource"><code class="xref py py-obj docutils literal notranslate"><span class="pre">intake_solr.source.SOLRTableSource</span></code></a>(query,&nbsp;…)</td>
+<td>Execute a query on SOLR, return as dataframe</td>
+</tr>
+<tr class="row-even"><td><a class="reference internal" href="#intake_solr.source.SOLRSequenceSource" title="intake_solr.source.SOLRSequenceSource"><code class="xref py py-obj docutils literal notranslate"><span class="pre">intake_solr.source.SOLRSequenceSource</span></code></a>(query,&nbsp;…)</td>
+<td>Execute a query on SOLR</td>
+</tr>
+</tbody>
+</table>
+<dl class="class">
+<dt id="intake_solr.TablePlugin">
+<em class="property">class </em><code class="descclassname">intake_solr.</code><code class="descname">TablePlugin</code><a class="reference internal" href="_modules/intake_solr.html#TablePlugin"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#intake_solr.TablePlugin" title="Permalink to this definition">¶</a></dt>
+<dd><p>Plugin for SOLR reader</p>
+<p class="rubric">Methods</p>
+<table border="1" class="longtable docutils">
+<colgroup>
+<col width="10%" />
+<col width="90%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td><a class="reference internal" href="#intake_solr.TablePlugin.open" title="intake_solr.TablePlugin.open"><code class="xref py py-obj docutils literal notranslate"><span class="pre">open</span></code></a>(query,&nbsp;base_url,&nbsp;core,&nbsp;**kwargs)</td>
+<td>Create SOLRTableSource instance</td>
+</tr>
+</tbody>
+</table>
+<table border="1" class="docutils">
+<colgroup>
+<col width="71%" />
+<col width="29%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td><strong>separate_base_kwargs</strong></td>
+<td>&#160;</td>
+</tr>
+</tbody>
+</table>
+<dl class="method">
+<dt id="intake_solr.TablePlugin.open">
+<code class="descname">open</code><span class="sig-paren">(</span><em>query</em>, <em>base_url</em>, <em>core</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/intake_solr.html#TablePlugin.open"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#intake_solr.TablePlugin.open" title="Permalink to this definition">¶</a></dt>
+<dd><p>Create SOLRTableSource instance</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><dl class="first last docutils">
+<dt><strong>query, base_url, core, qargs, kwargs:</strong></dt>
+<dd><p class="first last">See <code class="docutils literal notranslate"><span class="pre">SOLRSource</span></code>.</p>
+</dd>
+</dl>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="intake_solr.SequencePlugin">
+<em class="property">class </em><code class="descclassname">intake_solr.</code><code class="descname">SequencePlugin</code><a class="reference internal" href="_modules/intake_solr.html#SequencePlugin"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#intake_solr.SequencePlugin" title="Permalink to this definition">¶</a></dt>
+<dd><p>Plugin for SOLR reader</p>
+<p class="rubric">Methods</p>
+<table border="1" class="longtable docutils">
+<colgroup>
+<col width="10%" />
+<col width="90%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td><a class="reference internal" href="#intake_solr.SequencePlugin.open" title="intake_solr.SequencePlugin.open"><code class="xref py py-obj docutils literal notranslate"><span class="pre">open</span></code></a>(query,&nbsp;base_url,&nbsp;core,&nbsp;**kwargs)</td>
+<td>Create SOLRSequenceSource instance</td>
+</tr>
+</tbody>
+</table>
+<table border="1" class="docutils">
+<colgroup>
+<col width="71%" />
+<col width="29%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td><strong>separate_base_kwargs</strong></td>
+<td>&#160;</td>
+</tr>
+</tbody>
+</table>
+<dl class="method">
+<dt id="intake_solr.SequencePlugin.open">
+<code class="descname">open</code><span class="sig-paren">(</span><em>query</em>, <em>base_url</em>, <em>core</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/intake_solr.html#SequencePlugin.open"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#intake_solr.SequencePlugin.open" title="Permalink to this definition">¶</a></dt>
+<dd><p>Create SOLRSequenceSource instance</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><dl class="first last docutils">
+<dt><strong>query, base_url, core, qargs, kwargs:</strong></dt>
+<dd><p class="first last">See <code class="docutils literal notranslate"><span class="pre">SOLRSource</span></code>.</p>
+</dd>
+</dl>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="intake_solr.source.SOLRTableSource">
+<em class="property">class </em><code class="descclassname">intake_solr.source.</code><code class="descname">SOLRTableSource</code><span class="sig-paren">(</span><em>query</em>, <em>base_url</em>, <em>core</em>, <em>qargs=None</em>, <em>metadata=None</em>, <em>auth=None</em>, <em>cert=None</em>, <em>zoocollection=False</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/intake_solr/source.html#SOLRTableSource"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#intake_solr.source.SOLRTableSource" title="Permalink to this definition">¶</a></dt>
+<dd><p>Execute a query on SOLR, return as dataframe</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><dl class="first docutils">
+<dt><strong>query: str</strong></dt>
+<dd><p class="first last">Query to execute, in Lucene syntax, e.g., <code class="docutils literal notranslate"><span class="pre">&quot;*:*&quot;</span></code></p>
+</dd>
+<dt><strong>base_url: str</strong></dt>
+<dd><p class="first last">Connection on which to reach SOLR, including protocol (http), server,
+port and base path. If using Zookeeper, this should be the full
+comma-separated list of <a class="reference external" href="service:port/path">service:port/path</a> elements.</p>
+</dd>
+<dt><strong>core: str</strong></dt>
+<dd><p class="first last">Named segment of the SOLR storage to query</p>
+</dd>
+<dt><strong>qargs: dict</strong></dt>
+<dd><p class="first last">Further parameters to pass with the query (e.g., highlighting)</p>
+</dd>
+<dt><strong>metadata: dict</strong></dt>
+<dd><p class="first last">Additional information to associate with this source</p>
+</dd>
+<dt><strong>auth: None, “kerberos” or (username, password)</strong></dt>
+<dd><p class="first last">Authentication to attach to requests</p>
+</dd>
+<dt><strong>cert: str or None</strong></dt>
+<dd><p class="first last">Path to SSL certificate, if required</p>
+</dd>
+<dt><strong>zoocollection: bool or str</strong></dt>
+<dd><p class="first last">If using Zookeeper to orchestrate SOLR, this is the name of the
+collection to connect to.</p>
+</dd>
+</dl>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Attributes:</th><td class="field-body"><dl class="first last docutils">
+<dt><strong>plot</strong></dt>
+<dd></dd>
+</dl>
+</td>
+</tr>
+</tbody>
+</table>
+<p class="rubric">Methods</p>
+<table border="1" class="longtable docutils">
+<colgroup>
+<col width="10%" />
+<col width="90%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">close</span></code>()</td>
+<td>Close open resources corresponding to this data source.</td>
+</tr>
+<tr class="row-even"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">discover</span></code>()</td>
+<td>Open resource and populate the source attributes.</td>
+</tr>
+<tr class="row-odd"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">read</span></code>()</td>
+<td>Load entire dataset into a container and return it</td>
+</tr>
+<tr class="row-even"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">read_chunked</span></code>()</td>
+<td>Return iterator over container fragments of data source</td>
+</tr>
+<tr class="row-odd"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">read_partition</span></code>(i)</td>
+<td>Return a (offset_tuple, container) corresponding to i-th partition.</td>
+</tr>
+<tr class="row-even"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">to_dask</span></code>()</td>
+<td>Return a dask container for this data source</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="class">
+<dt id="intake_solr.source.SOLRSequenceSource">
+<em class="property">class </em><code class="descclassname">intake_solr.source.</code><code class="descname">SOLRSequenceSource</code><span class="sig-paren">(</span><em>query</em>, <em>base_url</em>, <em>core</em>, <em>qargs=None</em>, <em>metadata=None</em>, <em>auth=None</em>, <em>cert=None</em>, <em>zoocollection=False</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/intake_solr/source.html#SOLRSequenceSource"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#intake_solr.source.SOLRSequenceSource" title="Permalink to this definition">¶</a></dt>
+<dd><p>Execute a query on SOLR</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><dl class="first docutils">
+<dt><strong>query: str</strong></dt>
+<dd><p class="first last">Query to execute, in Lucene syntax, e.g., <code class="docutils literal notranslate"><span class="pre">&quot;*:*&quot;</span></code></p>
+</dd>
+<dt><strong>base_url: str</strong></dt>
+<dd><p class="first last">Connection on which to reach SOLR, including protocol (http), server,
+port and base path. If using Zookeeper, this should be the full
+comma-separated list of <a class="reference external" href="service:port/path">service:port/path</a> elements.</p>
+</dd>
+<dt><strong>core: str</strong></dt>
+<dd><p class="first last">Named segment of the SOLR storage to query</p>
+</dd>
+<dt><strong>qargs: dict</strong></dt>
+<dd><p class="first last">Further parameters to pass with the query (e.g., highlighting)</p>
+</dd>
+<dt><strong>metadata: dict</strong></dt>
+<dd><p class="first last">Additional information to associate with this source</p>
+</dd>
+<dt><strong>auth: None, “kerberos” or (username, password)</strong></dt>
+<dd><p class="first last">Authentication to attach to requests</p>
+</dd>
+<dt><strong>cert: str or None</strong></dt>
+<dd><p class="first last">Path to SSL certificate, if required</p>
+</dd>
+<dt><strong>zoocollection: bool or str</strong></dt>
+<dd><p class="first last">If using Zookeeper to orchestrate SOLR, this is the name of the
+collection to connect to.</p>
+</dd>
+</dl>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Attributes:</th><td class="field-body"><dl class="first last docutils">
+<dt><strong>plot</strong></dt>
+<dd></dd>
+</dl>
+</td>
+</tr>
+</tbody>
+</table>
+<p class="rubric">Methods</p>
+<table border="1" class="longtable docutils">
+<colgroup>
+<col width="10%" />
+<col width="90%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">close</span></code>()</td>
+<td>Close open resources corresponding to this data source.</td>
+</tr>
+<tr class="row-even"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">discover</span></code>()</td>
+<td>Open resource and populate the source attributes.</td>
+</tr>
+<tr class="row-odd"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">read</span></code>()</td>
+<td>Load entire dataset into a container and return it</td>
+</tr>
+<tr class="row-even"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">read_chunked</span></code>()</td>
+<td>Return iterator over container fragments of data source</td>
+</tr>
+<tr class="row-odd"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">read_partition</span></code>(i)</td>
+<td>Return a (offset_tuple, container) corresponding to i-th partition.</td>
+</tr>
+<tr class="row-even"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">to_dask</span></code>()</td>
+<td>Return a dask container for this data source</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+
+
+           </div>
+           <div class="articleComments">
+            
+           </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+      
+        <a href="quickstart.html" class="btn btn-neutral" title="Quickstart" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2018, Martin Durant.
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'./',
+            VERSION:'0.0.2',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true,
+            SOURCELINK_SUFFIX: '.txt'
+        };
+    </script>
+      <script type="text/javascript" src="_static/jquery.js"></script>
+      <script type="text/javascript" src="_static/underscore.js"></script>
+      <script type="text/javascript" src="_static/doctools.js"></script>
+
+  
+
+  
+  
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+  
+
+  
+  
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.StickyNav.enable();
+      });
+  </script>
+   
+
+</body>
+</html>
