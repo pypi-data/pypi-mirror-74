@@ -1,0 +1,78 @@
+{% extends "archetypes/_layout.html" %}
+{% import "archetypes/_layout-erratum.html" as erratum with context %}
+{% import "archetypes/baltimore-purge.json" as deck_json %}
+
+{% block meta %}
+<meta property="decklist" content='{{ deck_json | tojson }}' />
+{% endblock %}
+
+{% block archetype_name %}
+<h1><img src="{{ url_for('static', filename='img/icons/clan-lasombra.svg') }}"> Baltimore Purge</h1>
+{% endblock %}
+
+{% block archetype %}
+<h2>Highlights</h2>
+<p>
+    This is a <em>special</em> deck using {{ card("Montano") }}
+    to play {{ card("Baltimore Purge") }}, then
+    {{ card("Freak Drive") }} to get out of torpor and play
+    {{ card("Graverobbing") }} to permanently steal opponents vampires.
+    {{ card("Mind Rape") }} is added to the mix for additional
+    vampire thefts.
+    {{ card("Heidelberg Castle, Germany") }} is used to
+    take the blood of stolen vampires and give it to {{ card("Montano") }},
+    fueling the costly combination.
+</p>
+<p>
+    It is a dreadful combination and, therefore, quickly attracts the table attention.
+    This archetype is seldom played and has not yet won any major tournament.
+</p>
+<p>
+    The deck packs quite a lot of <i>$</i> stealth considering
+    {{ card("Montano") }} already has an included stealth bonus:
+    indeed, getting blocked somewhere suring the combo can be deadly,
+    so the deck has to make sure it does not happen.
+</p>
+<p>
+    The entire combat module is defensive, using
+    {{ card("Shadow Body") }} and
+    {{ card("Obedience") }}.
+</p>
+<h2>Tips & Tricks</h2>
+<p>
+    {{ card("Zillah's Valley") }},
+    {{ card("Dreams of the Sphinx") }} and
+    {{ card("Information Highway") }} are used to get
+    {{ card("Montano") }} out faster.
+</p>
+<p>
+    {{ card("Enkil Cog") }} lets
+    {{ card("Montano") }} bleed for 3 and act during the other players turns.
+    Playing a {{ card("Baltimore Purge") }} during the predator's turn
+    makes the whole combination easier.
+</p>
+<p>
+    {{ card("Renewed Vigor") }} is used at inferior <i>f</i> to help
+    get {{ card("Montano") }} out of torpor when he plays
+    {{ card("Baltimore Purge") }}.
+</p>
+<p>
+    {{ card("Eluding the Arms of Morpheus") }}
+    provides additional unlock: it can be used to unlock during an opponent's turn and,
+    if {{ card("Enkil Cog") }} is into play and the block does not happen,
+    a new action can be performed at the end of the opponent's turn.
+</p>
+<h2>Variants</h2>
+<p>
+    There are only minor variations to this archetype.
+    {{ card("Govern the Unaligned") }} and
+    {{ card("Perfectionist") }} are often included.
+</p>
+{% endblock %}
+
+{% block errata %}
+<div class="warning">
+    <h3>Errata</h3>
+    {{ erratum.pentextmsubversion( 'remove' ) }}
+</div>
+{% endblock %}
