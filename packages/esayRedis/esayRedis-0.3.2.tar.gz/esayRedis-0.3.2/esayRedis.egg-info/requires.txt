@@ -1,0 +1,6 @@
+fastapi
+asyncio_redis
+starlette
+pydantic
+uuid
+asyncio
