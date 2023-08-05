@@ -1,0 +1,15 @@
+malnet_core-0.1.1-py3.7-nspkg.pth,sha256=LAXgCfPy5dfAEoIDQVr1JJrQLD4YIdc5fuDAsUSJA6o,539
+malnet/core/__init__.py,sha256=PCytfOI1IAcouINlMFW69VJ7qqWOt6QWAUWSJadp8KU,209
+malnet/core/config.py,sha256=hc03m5pDomdLmswUvNmA4Sl9Z8DGJxkqzBY-qwy2HDA,1120
+malnet/core/exception.py,sha256=gmkJ89WGpuI1Xsk17_aMWdF-xmwHp5UjF6neLRddhJY,181
+malnet/core/idgen.py,sha256=0q3l5TfuuY-mCSsvV8n4bJBwfgvGcpNaocUPxw5pML0,1455
+malnet/core/utils.py,sha256=s2zIeKzNNEuzi76cP9LY-kqpcz1X6nMe3_nb6ygufts,583
+malnet/core/data/dev.conf,sha256=ICHi5O6pijDujLe3u-zhpC1pIj_c1LkvGWvj2af4s0E,462
+malnet/core/data/prud.conf,sha256=XuyimRJ8aFpnwtLi6uA9bwlzCGFo7Ui66F5d4zVAyRE,306
+malnet_core-0.1.1.dist-info/LICENSE,sha256=qj_kp6EbFqU2zjEHIQN4oALPKO160PuTPFePKi2M1ZM,1497
+malnet_core-0.1.1.dist-info/METADATA,sha256=wJph-yV5mpChPM1OPx4fROQROIpQlG7c23eMofqKL6w,1004
+malnet_core-0.1.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+malnet_core-0.1.1.dist-info/namespace_packages.txt,sha256=_U6hRaKUcpj6ICMVCfG-doplUI37CFApZrC2i3HaDgQ,7
+malnet_core-0.1.1.dist-info/top_level.txt,sha256=_U6hRaKUcpj6ICMVCfG-doplUI37CFApZrC2i3HaDgQ,7
+malnet_core-0.1.1.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+malnet_core-0.1.1.dist-info/RECORD,,
