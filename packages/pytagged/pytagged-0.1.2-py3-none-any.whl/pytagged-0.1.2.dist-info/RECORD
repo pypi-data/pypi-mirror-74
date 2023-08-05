@@ -1,0 +1,10 @@
+pytagged/__init__.py,sha256=K5SiDdEGYMpdqXThrqwTqECJJBOQNTQDrnpc2K5mzKs,21
+pytagged/_utils.py,sha256=EBl4QfvNmV2pnSAlPHIHHjetvDIg9Wx_TbIXA9TLff4,1955
+pytagged/cli.py,sha256=iBMhaZSzD8VSAt4xYngm3Uu8xAyGQ_4JaZ4FRTrscKY,10968
+pytagged/nline.py,sha256=70Zi3VivZsGXaSUo8pz8uuBagge5JI8-yAK1lblW8G4,3263
+pytagged-0.1.2.dist-info/LICENSE,sha256=UwwTDiDtVEbuua5heLRPygMaoMMO5YVuyQviK3bI8Gk,1068
+pytagged-0.1.2.dist-info/METADATA,sha256=xPzqIy2HKZr3cltFjJD1e9Oy0Mzx38jgP42e7cYupi0,7698
+pytagged-0.1.2.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+pytagged-0.1.2.dist-info/entry_points.txt,sha256=DpAz8n33W7_nKHDWfro9PoySJaBvKqmdBykk8TxqERM,45
+pytagged-0.1.2.dist-info/top_level.txt,sha256=lI6uc4aKLm-9btpX4kKPiRnpviHjr-Egm6zjCJbBNZw,9
+pytagged-0.1.2.dist-info/RECORD,,
