@@ -1,0 +1,11 @@
+distfit/__init__.py,sha256=14TdW_adWaRikKq0VX2F9dgThgi0_QOztf0J2PlVcuQ,810
+distfit/distfit.py,sha256=JKHJr3R4PTgjpgTYF1fwL5Rmlt0Vv_dp-aMncJWqlIU,40143
+distfit/examples.py,sha256=DX33ay63e7gSqY96gks6Wdx8vFCe2IoEnZXQhjb6_eg,15071
+distfit/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+distfit/utils/picklefast.py,sha256=tEADJBq7VENKiFrvHCyOtwjv3RBtlGmTBAAMwSCcjlw,2765
+distfit/utils/smoothline.py,sha256=wwZucdtOwZwhjDkUJCFYsJGLm_CyM-V-YWTHPAbQmNk,2239
+distfit-1.1.5.dist-info/LICENSE,sha256=5Pftb-WvHM_0gyGm-fGU5AVy7qAmGNlwJ97XwLkTAe8,1181
+distfit-1.1.5.dist-info/METADATA,sha256=1iI6N-5yOzrQMrlxeFGBGqldF986P4Kr88Fl6V2VYHw,6991
+distfit-1.1.5.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+distfit-1.1.5.dist-info/top_level.txt,sha256=sG6u8cWRdZ6ifG86E1eGaxOHiQDLT9Ky5zH4FbDGDwk,8
+distfit-1.1.5.dist-info/RECORD,,
