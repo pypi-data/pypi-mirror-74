@@ -1,0 +1,10 @@
+monk_gluoncv_finetune_test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+monk_gluoncv_finetune_test/detector_prototype.py,sha256=DSQ7rsQ86MqScxczgkDHuHdF-Avl5z5G63LXU1UlohI,21824
+monk_gluoncv_finetune_test/im2rec.py,sha256=yl_q_ysM71sJ1ET7pMJuUXBYTGuLHTslCjiTMjhX48E,15837
+monk_gluoncv_finetune_test/inference_prototype.py,sha256=CTSJNZcGrJP1ep4RMeRXdX3KMsl8uO3wXjb4GKvcKgc,7787
+monk_obj_test1-0.0.1.dist-info/LICENSE.md,sha256=6r_7aMwzwIH2PD4eo-PgFPpnk4EABfUly0kpBjIU1A4,11370
+monk_obj_test1-0.0.1.dist-info/METADATA,sha256=ReDs9uTpZRSeXVsufTR3nNV5G0r-9CgeyM_pNp2STeE,2657
+monk_obj_test1-0.0.1.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+monk_obj_test1-0.0.1.dist-info/dependency_links.txt,sha256=VynZ5AV-aWH8Y31URJ_5jtw6oNo-4ucqe5C4kxUvF_I,81
+monk_obj_test1-0.0.1.dist-info/top_level.txt,sha256=JELP_2Oj6TbYS5PwpA1PunmqRs1gOpS0F-spIvuoBto,27
+monk_obj_test1-0.0.1.dist-info/RECORD,,
