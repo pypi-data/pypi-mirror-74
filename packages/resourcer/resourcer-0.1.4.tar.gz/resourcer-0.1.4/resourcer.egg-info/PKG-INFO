@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: resourcer
+Version: 0.1.4
+Summary: An object wrapper around 'requests'
+Home-page: https://github.com/fiazsami/resourcer
+Author: Fiaz Sami
+License: UNKNOWN
+Description: ## Resourcer - a requests wrapper
+        
+        A simple wrapper around [requests](https://github.com/psf/requests).  
+        
+        ```
+        pip install resourcer
+        ```
+        
+        Example usage
+        
+        ```Python
+        
+        from resourcer import Resource
+        
+        resource = Resource('https://{domain}/{path1}/{path2}')
+        
+        resource.domain = "github.com"
+        resource.path1 = "fiazsami"
+        resource.path2 = "resourcer"
+        
+        print(resource.text)
+        ```
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
