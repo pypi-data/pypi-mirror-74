@@ -1,0 +1,16 @@
+README.md
+setup.py
+pystad.egg-info/PKG-INFO
+pystad.egg-info/SOURCES.txt
+pystad.egg-info/dependency_links.txt
+pystad.egg-info/requires.txt
+pystad.egg-info/top_level.txt
+stad/__init__.py
+stad/drawing.py
+stad/evaluate.py
+stad/explore.py
+stad/lens_1D.py
+stad/main.py
+stad/sparse.py
+test/test_drawing.py
+test/test_stad.py

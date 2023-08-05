@@ -1,0 +1,110 @@
+Metadata-Version: 2.1
+Name: pystad
+Version: 0.0.1
+Summary: Dimensionality reduction through Simplified Topological  Abstraction of Data
+Home-page: https://gitlab.com/JelmerBot/pystad2
+Author: Jelmer Bot
+Author-email: jelmer.bot@uhasselt.be
+License: MIT
+Description: 
+        # pySTAD 
+        
+        This is a python implementation of [STAD](https://ieeexplore.ieee.org/document/9096616/) for the exploration and visualisation of high-dimensional data. This implementation is based on the [R version](https://github.com/vda-lab/stad).
+        
+        ## Background
+        
+        [STAD](https://ieeexplore.ieee.org/document/9096616/) is a dimensionality reduction algorithm, that generates an abstract representation of high-dimensional data by giving each data point a location in a graph which preserves the distances in the original high-dimensional space. The STAD graph is built upon the Minimum Spanning Tree (MST) to which new edges are added until the correlation between the graph and the original dataset is maximized. Additionally, STAD supports the inclusion of filter functions to analyse data from new perspectives, emphasizing traits in data which otherwise would remain hidden. 
+        
+        ### Topological Data analysis
+        
+        Topological data analysis (TDA) aims to describe the geometric structures present in data. A dataset is interpreted as a point-cloud, where each point is sampled from an underlying geometric object. TDA tries to recover and describe the geometry of that object in terms of features that are invariant ["under continuous deformations, such as stretching, twisting, crumpling and bending, but not tearing or gluing"](https://en.wikipedia.org/wiki/Topology). Two geometries that can be deformed into each other without tearing or glueing are *homeomorphic* (for instance a donut and coffee mug). Typically, TDA describes the *holes* in a geometry, formalised as [Betti numbers](https://en.wikipedia.org/wiki/Betti_number).
+        
+        
+        Like other TDA algorithms, STAD constructs a graph that describes the structure of the data. However, the output of STAD should be interpreted as a data-visualisation result, rather than a topological description of the data's structure. Other TDA algorithms, like [mapper](https://github.com/scikit-tda/kepler-mapper), do produce topological results. However, they rely on aggregating the data, whereas STAD encodes the original data points as vertices in a graph.
+        
+        ### Dimensionality reduction
+        
+        Compared to dimensionality reduction algorithms like, t-SNE and UMAP, the STAD produces a more flexible description of the data. A graph can be drawn using different layouts and a user can interact with it. In addition, STAD's projections retain the global structure of the data. In general, the STAD graph tends to underestimate distant data-points in the network structure. On the other hand, t-SNE and UMAP emphasize the relation of data-points with their closest neighbors over that with distant data-points.
+        
+        <p style="text-align:center;"><img src="./assets/dimensionality_reduction_comparison.png" width="90%" /></p>
+        
+        from [Alcaide & Aerts (2020)](https://ieeexplore.ieee.org/document/9096616/)
+        
+        ## Installation
+        
+        pySTAD can be installed with:
+        ```bash
+        pip install pystad
+        ```
+        Which will install the following dependencies:
+        - numpy
+        - scipy
+        - python-igraph
+        - pandas
+        
+        The example notebooks have additional dependencies:
+        - matplotlib
+        - networkx
+        - scikit-learn
+        - jupyterlab
+        - ipywidgets
+        
+        These can be installed with pip or conda. Enabling ipywidgets in jupyter lab takes two more steps:
+        - First, install nodejs using conda:
+        ```bash
+        conda install -c conda-forge nodejs
+        ```
+        - Then install the jupyter lab extension:
+        ```bash
+        jupyter labextension install @jupyter-widgets/jupyterlab-manager
+        ```
+        
+        ## Examples
+        
+        Please see the example notebooks for demonstrations of STAD and interactive exploration dashboards. The code below provides a quick-start:
+        
+        ```Python
+        import stad
+        import pandas as pd
+        import numpy as np
+        import matplotlib.pyplot as plt
+        from scipy.sparse import triu
+        from sklearn.metrics.pairwise import euclidean_distances
+        
+        # Circles dataset
+        data = pd.read_csv('./examples/data/horse.csv', header=0)
+        data = vertex_data.sample(n=500)
+        dist = triu(euclidean_distances(data), k = 1)
+        
+        plt.scatter(data.z, data.y, s=5, c=data.x)
+        plt.show()
+        
+        ## STAD without lens
+        network_no_lens, detail = stad.stad(dist)
+        stad.draw_network_matplotlib(network_no_lens, detail))
+        plt.show()
+        stad.draw_correlations_matplotlib(detail)
+        plt.show()
+        
+        ## STAD with lens
+        network_lens, detail = stad.stad(dist, lens_values = data['x'], lens_bins = 3)
+        stad.draw_network_matplotlib(network_lens, detail)
+        plt.show()
+        stad.draw_correlations_matplotlib(detail)
+        plt.show()
+        ```
+        
+        ## Compared to the R-implementation
+        
+        The [R implementation](https://github.com/vda-lab/stad) supports 2 dimensional filters (lenses) and uses Simulated Annealing to optimise the output graph. This implementation currently only supports 1D lenses. In addition, aside from simulated annealing, this implementation also supports linear and logistic sweeps.
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Scientific/Engineering :: Visualization
+Classifier: Topic :: Scientific/Engineering
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Provides-Extra: testing
+Provides-Extra: examples
