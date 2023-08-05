@@ -1,0 +1,6 @@
+README.md
+setup.py
+cherryplum.egg-info/PKG-INFO
+cherryplum.egg-info/SOURCES.txt
+cherryplum.egg-info/dependency_links.txt
+cherryplum.egg-info/top_level.txt
