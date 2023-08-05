@@ -1,0 +1,11 @@
+dominion/__init__.py,sha256=n_Ud_4YxJsZe8V8VVpQ3ayZ0ctDUoFDL42uJdy92CKs,127
+dominion/__main__.py,sha256=aj66el2NfgIa9uiCxySbmk1PpS2dtzakEtFykIadg_I,32
+dominion/dominion.py,sha256=KwugzB0ju2NpwvfWemjB22-xrnvdXN7-LMa85xbcM1o,11843
+dominion/dominion_version.py,sha256=Olp5dS_vXRdIcc0lgW6sQlInk5aTUImKvVgblJanYxk,25
+dominion/data/cards.json,sha256=lx0kxZY8ZFR-uu85iJvmYR4f9IllpsGHwcSwmZhmlOA,869966
+dominion-0.0.1rc0.dist-info/LICENSE,sha256=yZoywy-UmvTt4-Ix27QcIKP-V4oW7_QSLYda11Ldgbs,1075
+dominion-0.0.1rc0.dist-info/METADATA,sha256=jdr52X6yK_Zof8W7Ecv4gmgCx3Ma-xIurYTC5Zjpdq0,2263
+dominion-0.0.1rc0.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+dominion-0.0.1rc0.dist-info/entry_points.txt,sha256=Bsz9t-A9g32FwjWNFh5j-EOUDgpYIMCuYfRwYk44UCw,43
+dominion-0.0.1rc0.dist-info/top_level.txt,sha256=dpnzTCrDg7_SC5D2EXN-FOIPC18mNn4nkCPtXb7bJFA,9
+dominion-0.0.1rc0.dist-info/RECORD,,
