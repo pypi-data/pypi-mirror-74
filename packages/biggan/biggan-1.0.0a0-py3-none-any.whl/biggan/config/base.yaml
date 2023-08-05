@@ -1,0 +1,80 @@
+tfrecord_path:
+  help: path to the tfrecords containing images and class labels
+
+model_path:
+  help: directory in which to save logs and checkpoints
+
+channels:
+  default: 32
+  help: greatest common factor of the number of channels in all layers
+
+latent_dim:
+  default: 128
+  help: dimensionality of the latent space
+
+batch_size:
+  default: 16
+  help: number of images per training step
+
+num_D_updates:
+  default: 2
+  help: number of discriminator updates per generator update
+
+momentum:
+  default: 0.99
+  help: momentum for batch norm running statistics
+
+epsilon:
+  default: 1.0E-8
+  help: fudge factor for finite precision division
+
+G_learning_rate:
+  default: 0.000025
+  help: learning rate of the generator
+
+G_beta_1:
+  default: 0.0
+  help: decay rate for the 1st moment estimates in the generator's optimizer
+
+G_beta_2:
+  default: 0.999
+  help: decay rate for the 2nd moment estimates in the generator's optimizer
+
+D_learning_rate:
+  default: 0.000025
+  help: learning rate of the discriminator
+
+D_beta_1:
+  default: 0.0
+  help: decay rate for the 1st moment estimates in the discriminator's optimizer
+
+D_beta_2:
+  default: 0.999
+  help: decay rate for the 2nd moment estimates in the discriminator's optimizer
+
+image_size:
+  default: 256
+  choices: [256]
+  help: image sidelength in pixels
+
+num_epochs:
+  default: 1000
+  help: number of passes through the dataset
+
+log_every:
+  default: 100
+  help: interval of iterations at which to write logs and checkpoints
+
+do_cache:
+  default: false
+  action: store_true
+  help: cache the dataset in memory
+
+shuffle_buffer_size:
+  default: 4096
+  help: number of training examples to store in the shuffle buffer
+
+use_tpu:
+  default: false
+  action: store_true
+  help: whether to use a TPU as the compute device

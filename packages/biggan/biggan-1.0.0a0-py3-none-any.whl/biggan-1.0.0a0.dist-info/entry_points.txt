@@ -1,0 +1,4 @@
+[console_scripts]
+biggan.prepare=scripts.prepare:main
+biggan.train=scripts.train:main
+

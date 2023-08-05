@@ -1,0 +1,11 @@
+biggan/__init__.py,sha256=-LxSaiVrlfvOQ28I7ngkutL2l0ZjCcb3Qz6lDIPtNpo,163
+biggan/architecture.py,sha256=MUuoyK5sOYmNmNBAlHjLZUIxKYXpvzyy7E9-WeHcCRE,13942
+biggan/config/__init__.py,sha256=PVAsmXy75pVilCT03Zut6Y5_If9c61f_8C5mCrsM-lw,1655
+biggan/config/base.yaml,sha256=1ANCrL5c794jLhOpjsl96Sl4mnlHwfVxopBmpMEdf3s,1755
+biggan/data.py,sha256=-day2Itbd3qTgvx4WEBRUBBAwmqSh5MpmkVdHTfFCuM,6211
+biggan/model.py,sha256=BFSjuFPXcFe9aacNd8kcuonrS92VDTO0pccTvXS3754,10055
+biggan-1.0.0a0.dist-info/entry_points.txt,sha256=IH5xctzfuyOLI96d3Vc9bijxvyc9NmOgiZxH48yma5A,87
+biggan-1.0.0a0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+biggan-1.0.0a0.dist-info/WHEEL,sha256=xSvaL1DM8LOHfdyo0cCcwjZu1tC6CnCsRGWUgazvlbM,83
+biggan-1.0.0a0.dist-info/METADATA,sha256=ePJpBvzxiwD5q59t3yroXsyKFNWEwrp5YEnFRO2DNZE,506
+biggan-1.0.0a0.dist-info/RECORD,,
