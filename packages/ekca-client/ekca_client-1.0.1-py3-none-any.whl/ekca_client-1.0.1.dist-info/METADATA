@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: ekca-client
+Version: 1.0.1
+Summary: EKCA client tool
+Home-page: https://ekca.stroeder.com
+Author: Michael Stroeder
+Author-email: michael@stroeder.com
+Maintainer: Michael Stroeder
+Maintainer-email: michael@stroeder.com
+License: Apache-2.0
+Download-URL: https://pypi.python.org/pypi/ekca-client
+Keywords: PKI,SSH,SSH-CA,Certificate
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: System :: Systems Administration
+Classifier: Topic :: System :: Systems Administration :: Authentication/Directory
+Classifier: Topic :: System :: Systems Administration :: Authentication/Directory :: LDAP
+Requires-Python: >=3.4.*
+Description-Content-Type: text/markdown
+Requires-Dist: PyNaCl (>=1.2)
+Requires-Dist: setuptools
+Requires-Dist: ptyprocess ; platform_system != "Windows"
+Requires-Dist: pywin32 ; platform_system == "Windows"
+
+Ephemeral Keys Certification Authority (EKCA) client
+====================================================
+
+This module package implements the client component of
+[EKCA](https://ekca.stroeder.com) which is currently
+a simple command-line tool.
+
+See also: [Installation / Client](https://ekca.stroeder.com/install.html#client)
+
+
