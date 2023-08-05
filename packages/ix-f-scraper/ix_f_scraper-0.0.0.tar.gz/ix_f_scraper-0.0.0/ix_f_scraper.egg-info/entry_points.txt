@@ -1,0 +1,3 @@
+[console_scripts]
+ix_f_scraper = ix_f_scraper.cli:main
+
