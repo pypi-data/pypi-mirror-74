@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "dynamore"
+version = "0.1.0"
+description = "Dynamore is extremely simple Python library for managing entities on DynamoDb."
+authors = ["Ville Kärkkäinen <ville.karkkainen@outlook.com>"]
+repository = "https://github.com/villekr/dynamore"
+license = "MIT"
+readme = "README.rst"
+classifiers = [
+    'Development Status :: 3 - Alpha',
+    'License :: OSI Approved :: MIT License',
+    'Programming Language :: Python :: 3',
+    'Programming Language :: Python :: 3.8',
+    'Programming Language :: Python :: 3.7',
+    'Programming Language :: Python :: 3.6',
+]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+boto3 = "1.12.32"
+jsonschema = "^3.2.0"
+python-dotenv = "^0.14.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
