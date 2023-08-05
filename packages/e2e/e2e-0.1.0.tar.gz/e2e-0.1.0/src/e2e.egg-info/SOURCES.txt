@@ -1,0 +1,6 @@
+setup.py
+src/e2e/__init__.py
+src/e2e.egg-info/PKG-INFO
+src/e2e.egg-info/SOURCES.txt
+src/e2e.egg-info/dependency_links.txt
+src/e2e.egg-info/top_level.txt
