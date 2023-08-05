@@ -1,0 +1,9 @@
+ncbitax2lin/__init__.py,sha256=W-NheV0QKwHUd4r9zGks8tGf9cvnulPL9E2WeOuw_0A,58
+ncbitax2lin/data_io.py,sha256=B-Fa_kNhYfIYAqWcmbpeCsfGKPTR_-qPe-GWWdHJzYQ,2766
+ncbitax2lin/ncbitax2lin.py,sha256=5yrXeQnn5pBrTOB0KuQrketOv3K4Pf5OjIORtGXtKaU,5793
+ncbitax2lin/utils.py,sha256=6PRrbGav32oWsAsBdXowNRdIV6Lo2WkHm1hJOFi1gq4,1559
+ncbitax2lin-2.0.2.dev0.dist-info/entry_points.txt,sha256=gHXGVIvmjNs30DkwPiWQ5PbIo9ajQrnS-7C9_cu23LA,60
+ncbitax2lin-2.0.2.dev0.dist-info/LICENSE.txt,sha256=lkQh1w1KukrSHr2qynP_k9zOiRsVWV9MKOa_WPSRDiY,1062
+ncbitax2lin-2.0.2.dev0.dist-info/WHEEL,sha256=xSvaL1DM8LOHfdyo0cCcwjZu1tC6CnCsRGWUgazvlbM,83
+ncbitax2lin-2.0.2.dev0.dist-info/METADATA,sha256=ZwVEei6JpUFuuMauwquKg4OA_WesII8feIvWBumIbrE,4659
+ncbitax2lin-2.0.2.dev0.dist-info/RECORD,,
