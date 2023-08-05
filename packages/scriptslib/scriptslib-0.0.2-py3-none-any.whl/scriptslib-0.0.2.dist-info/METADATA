@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: scriptslib
+Version: 0.0.2
+Summary: Collection of commonly used scripts into a packaged format.
+Home-page: https://github.com/jnvilo/scriptslib
+Author: [Error: [Errno 2] No such file or directory: '/home/jnvilo/Projects/scriptslib/AUTHORS.txt']
+Author-email: jnvilo@gmail.com
+Maintainer: Jason Viloria
+License: UNKNOWN
+Download-URL: https://github.com/jnvilo/scriptslib/archive/0.0.2.tar.gz
+Keywords: scripts,admin,lib
+Platform: UNKNOWN
+Classifier: Environment :: Console
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License (GPL)
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development :: Libraries
+Requires-Dist: beautifulsoup4 (==4.9.1)
+Requires-Dist: bs4 (==0.0.1)
+Requires-Dist: certifi (==2020.6.20)
+Requires-Dist: chardet (==3.0.4)
+Requires-Dist: idna (==2.10)
+Requires-Dist: requests (==2.24.0)
+Requires-Dist: soupsieve (==2.0.1)
+Requires-Dist: urllib3 (==1.25.9)
+
+This contains libraries of utilities and code snippets that I use and bundled them into one single 
+library for ease of use. 
+
+![Python package](https://github.com/jnvilo/scriptslib/workflows/Python%20package/badge.svg)
+
+
+

@@ -1,0 +1,10 @@
+scriptslib/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+scriptslib/test_wikimedia.py,sha256=CKCyGOsOjHakLr1h5dKOUEEBsNXamYuB0SRW6GE-rrQ,260
+scriptslib/wikimedia.py,sha256=vS7mnMj-MlHV8c9nDJWI7m8RwwfFZaEGzGQbQ3ApnT4,2675
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/utilities.py,sha256=-BhRWtXkciOYB2goNpTj4EhgpUXZABvQSzktU9kzDo4,132
+tests/wikimedia_tests.py,sha256=Ej1ReP6RGpzw9KMI_Mya9RqefJD-gZCHRAducnP5YSU,266
+scriptslib-0.0.2.dist-info/METADATA,sha256=lgQSzlnUHXrQLzRc-bw1ov-yM5cgbXbzbFYIRgJnhyg,1350
+scriptslib-0.0.2.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+scriptslib-0.0.2.dist-info/top_level.txt,sha256=uT5Xe-10EVmriVu7pAx1R3eC8q6Km8Kd7urjQ-u2Z44,17
+scriptslib-0.0.2.dist-info/RECORD,,
