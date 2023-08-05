@@ -1,0 +1,3 @@
+[console_scripts]
+easy_database = easydb.__main__:main
+
