@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: a2connect
+Version: 0.1.2
+Summary: my cool package
+Home-page: UNKNOWN
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: requests (==2.24.0)
+
+UNKNOWN
+
+

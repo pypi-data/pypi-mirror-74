@@ -1,0 +1,13 @@
+a2conn/__init__.py,sha256=-7XeDcmMpmf1Kzf1F0pua6z4uooRBErxUc6V9mG9T9U,32
+a2conn/mod1.py,sha256=nNLzLF6I5vxZP5qSTM9NX3IOfgT3cbUpt8C0-PUlSmI,141
+a2conn/mod2.py,sha256=nQQZ8ODL45WSwy2WdRgskC_tzQ5aSN864p9oXEGYE9o,154
+a2conn/zebra.py,sha256=ph8FrkDkpOONrR0oh0cJMYH7qG2OAJ0BzBgTArpzbMw,610
+a2connect/__init__.py,sha256=MFKZ1K5aFLS0A0KQ_s9ht6zHQr2elqN1rC5xOMjloIo,233
+a2connect/mod1.py,sha256=nNLzLF6I5vxZP5qSTM9NX3IOfgT3cbUpt8C0-PUlSmI,141
+a2connect/mod2.py,sha256=nQQZ8ODL45WSwy2WdRgskC_tzQ5aSN864p9oXEGYE9o,154
+a2connect/zebra.py,sha256=ph8FrkDkpOONrR0oh0cJMYH7qG2OAJ0BzBgTArpzbMw,610
+a2connect-0.1.2.dist-info/METADATA,sha256=a9yC1AFRnSn8-u1KEt1h8kdJT8ea6EX8aax7fMdaR44,216
+a2connect-0.1.2.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+a2connect-0.1.2.dist-info/entry_points.txt,sha256=zjfS86YjV_SaYUrmIZtB5X6P-6lHByUuZ1wOQlRoAw0,52
+a2connect-0.1.2.dist-info/top_level.txt,sha256=yTHUmNbzjxzHadCPwDwjGUjyeHonNyemgEFlZhYmn70,10
+a2connect-0.1.2.dist-info/RECORD,,
