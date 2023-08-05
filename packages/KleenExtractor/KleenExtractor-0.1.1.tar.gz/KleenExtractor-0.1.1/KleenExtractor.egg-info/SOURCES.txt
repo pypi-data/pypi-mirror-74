@@ -1,0 +1,10 @@
+README.md
+setup.py
+KleenExtractor.egg-info/PKG-INFO
+KleenExtractor.egg-info/SOURCES.txt
+KleenExtractor.egg-info/dependency_links.txt
+KleenExtractor.egg-info/top_level.txt
+kleenextractor/__about__.py
+kleenextractor/__init__.py
+kleenextractor/kleenextractor.py
+kleenextractor/kleenextractor_definition.py
