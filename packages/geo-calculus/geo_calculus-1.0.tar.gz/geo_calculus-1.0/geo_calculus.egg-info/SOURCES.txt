@@ -1,0 +1,6 @@
+setup.py
+geo_calculus.egg-info/PKG-INFO
+geo_calculus.egg-info/SOURCES.txt
+geo_calculus.egg-info/dependency_links.txt
+geo_calculus.egg-info/not-zip-safe
+geo_calculus.egg-info/top_level.txt
