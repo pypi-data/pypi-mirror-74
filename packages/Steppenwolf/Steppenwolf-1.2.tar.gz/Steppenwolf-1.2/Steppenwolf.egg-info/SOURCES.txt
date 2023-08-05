@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+Steppenwolf/__init__.py
+Steppenwolf.egg-info/PKG-INFO
+Steppenwolf.egg-info/SOURCES.txt
+Steppenwolf.egg-info/dependency_links.txt
+Steppenwolf.egg-info/requires.txt
+Steppenwolf.egg-info/top_level.txt
+bin/githubapi.py
