@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: itk-meshnoise
+Version: 0.0.1
+Summary: Classes to perturb mesh objects with Gaussian noise
+Home-page: https://github.com/InsightSoftwareConsortium/ITKMeshNoise
+Author: Davis Vigneault
+Author-email: davis.vigneault@gmail.com
+License: Apache
+Download-URL: https://github.com/InsightSoftwareConsortium/ITKMeshNoise
+Keywords: ITK InsightToolkit Mesh Noise
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: C++
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Healthcare Industry
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Medical Science Apps.
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Operating System :: Android
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS
+Requires-Dist: itk
+
+itk-meshnoise provides classes to perturb mesh objects with Gaussian noise.
+Please refer to:
+Vigneault D., "Perturbing Mesh Vertices with Additive Gaussian Noise", Insight Journal, January-December 2016, http://hdl.handle.net/10380/3567.
+
