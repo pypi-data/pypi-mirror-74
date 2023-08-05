@@ -1,0 +1,10 @@
+fslib/__init__.py,sha256=4SSPvFnqVWl9VqL1kjAVD_z1oIWw25Fqckj2szS9Ilw,300
+fslib/base.py,sha256=PvcTFacf5Ik6-7CmtMU2onbwLMJS8gBCXhxrKpV9PJ0,15080
+fslib/builders.py,sha256=fPfu0A4usGiRoDcioBIL3m2A6OTCAYw_pqAfF6NE0GE,434
+fslib/exceptions.py,sha256=-hyr9jV2j8_HvcyAgc4h81lRcHmpE0Osg3yppNYYZ98,1144
+fslib/helpers.py,sha256=Enh9v1KDsMkEhJ8OnIRgXSKubGSlpwSWd1p7IccFGb0,707
+fslib/stacking.py,sha256=NKQv_7fF8zD9P1TmyceZafn2qZL2I0dRdPf84iz9xXE,35939
+fslib-0.3.0.dist-info/METADATA,sha256=mrS_46OxJBX7NzB1URWsadrwgpzC74Ui92tCfSNAWNc,4058
+fslib-0.3.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+fslib-0.3.0.dist-info/top_level.txt,sha256=560P_RwBpEUcy-rO9YvclZd-Xpod_GcVdPFPrKIg2RM,6
+fslib-0.3.0.dist-info/RECORD,,
