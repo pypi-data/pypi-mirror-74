@@ -1,0 +1,12 @@
+astropy
+numpy
+scipy
+
+[fast-cosmo]
+lalsuite
+
+[plot]
+matplotlib
+
+[waveform]
+lalsuite
