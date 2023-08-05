@@ -1,0 +1,8 @@
+README.md
+setup.cfg
+setup.py
+migeo.egg-info/PKG-INFO
+migeo.egg-info/SOURCES.txt
+migeo.egg-info/dependency_links.txt
+migeo.egg-info/requires.txt
+migeo.egg-info/top_level.txt
