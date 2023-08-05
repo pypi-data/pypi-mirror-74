@@ -1,0 +1,11 @@
+xyz_system/__init__.py,sha256=y83d_stZ8aiFsJTEJZi93dYHeSuhMUWr8YS5gmsNNfk,45
+xyz_system/apis.py,sha256=SEjIVMm9vVYq5EOZC7Dhsp5bFCgn6Op6F5RBPrOUfQs,695
+xyz_system/apps.py,sha256=2QwNpUZwY-HKS22KW_A3-9zCCjmuW3P-ymBQGGNKshg,298
+xyz_system/models.py,sha256=X8DB76mKq6ItT8N7sWk3dAehAxTCs0FYhMtkOXfbPYU,823
+xyz_system/serializers.py,sha256=Jr6yLcRNZp_VHZORAslw-nd2pPbeqFdR8LbdEoO5IZY,404
+xyz_system/migrations/0001_initial.py,sha256=kqp6fejeYrvKf0ylXySTavgjAP5YEPF-_rbiDnE0XyI,1749
+xyz_system/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+xyz_system-0.0.1.dist-info/METADATA,sha256=QrMEqWN89xp9R35UC5oIBXXzaN3tfu9YimXPbZ24zEE,707
+xyz_system-0.0.1.dist-info/WHEEL,sha256=g3LQva5oS9Ma-DPFwX8R7Ke-NO25KWW489RoZdNxJXc,92
+xyz_system-0.0.1.dist-info/top_level.txt,sha256=9MOsk7_HnI6hAKKdMbZS0VllNYygCWShTf39Nz5Ofqg,11
+xyz_system-0.0.1.dist-info/RECORD,,
