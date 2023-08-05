@@ -1,0 +1,11 @@
+[console_scripts]
+pyjamaas = pyjamaas.cliff:main
+
+[pyjamaas.entrypoints]
+clone = pyjamaas.commands.clone:Clone
+machine get = pyjamaas.commands.machine:Get
+machine list = pyjamaas.commands.machine:List
+tags add = pyjamaas.commands.tags:Add
+tags clear = pyjamaas.commands.tags:Clear
+tags delete = pyjamaas.commands.tags:Delete
+
