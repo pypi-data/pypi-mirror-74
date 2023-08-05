@@ -1,0 +1,3 @@
+cirq
+numpy
+tensorflow_quantum
