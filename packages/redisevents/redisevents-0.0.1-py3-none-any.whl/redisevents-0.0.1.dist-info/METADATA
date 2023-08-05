@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: redisevents
+Version: 0.0.1
+Summary: A small package for building a microservice event system in python with redis
+Home-page: UNKNOWN
+Author: Grayden Shand
+Author-email: graydenshand@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# RedisEvents
+
+A simple package for coordinating microservices using redis streams.
+
+
+
