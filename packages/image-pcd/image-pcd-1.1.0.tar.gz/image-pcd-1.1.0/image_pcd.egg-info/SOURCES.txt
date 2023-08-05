@@ -1,0 +1,9 @@
+README.md
+setup.py
+image_pcd.egg-info/PKG-INFO
+image_pcd.egg-info/SOURCES.txt
+image_pcd.egg-info/dependency_links.txt
+image_pcd.egg-info/requires.txt
+image_pcd.egg-info/top_level.txt
+pcd/__init__.py
+pcd/prominent_colors_detector.py
