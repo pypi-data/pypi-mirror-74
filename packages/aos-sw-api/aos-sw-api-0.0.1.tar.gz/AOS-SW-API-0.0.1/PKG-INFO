@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: aos-sw-api
+Version: 0.0.1
+Summary: ArubaOS Switch REST API
+Home-page: https://github.com/KennethSoelberg/AOS-SW-API
+License: MIT
+Author: Kenneth Sølberg
+Author-email: solberg.kenneths94@gmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: httpx (==0.13.3)
+Requires-Dist: pydantic (==1.5.1)
+Project-URL: Repository, https://github.com/KennethSoelberg/AOS-SW-API
+Description-Content-Type: text/markdown
+
+# ArubaOS Switch API
+
