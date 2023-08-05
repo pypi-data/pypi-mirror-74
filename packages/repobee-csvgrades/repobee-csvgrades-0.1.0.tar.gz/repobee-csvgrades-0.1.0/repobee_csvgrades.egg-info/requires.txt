@@ -1,0 +1,8 @@
+repobee-plug>=0.10.0
+repobee>=2.1.0
+
+[TEST]
+pytest
+pytest-cov
+pytest-mock
+tox
