@@ -1,0 +1,4 @@
+inquirer
+docopt
+logging
+GitPython
