@@ -1,0 +1,4 @@
+PyGithub>=1.51
+
+[dev]
+pylint>=2.5.0
