@@ -1,0 +1,563 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* easy_my_coop_sponsorship
+#	* somconnexio
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 12.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-07-16 08:09+0000\n"
+"PO-Revision-Date: 2020-07-16 08:09+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: somconnexio
+#: model:ir.model.fields,field_description:somconnexio.field_subscription_request__iban
+msgid "Account Number"
+msgstr "Número de compte"
+
+#. module: somconnexio
+#: model:ir.model.fields,field_description:somconnexio.field_res_partner__type
+#: model:ir.model.fields,field_description:somconnexio.field_res_users__type
+msgid "Address Type"
+msgstr "Tipus d'adreça"
+
+#. module: somconnexio
+#: model:product.category,name:somconnexio.broadband_adsl_service
+msgid "Broadband ADSL Service"
+msgstr "Servei Banda Ampla ADSL"
+
+#. module: somconnexio
+#: model:product.category,name:somconnexio.broadband_additional_service
+msgid "Broadband Additional Service"
+msgstr "Serveri Banda Ampla Addicional"
+
+#. module: somconnexio
+#: model:product.category,name:somconnexio.broadband_fiber_service
+msgid "Broadband Fiber Service"
+msgstr "Servei Banda Ampla Fibra"
+
+#. module: somconnexio
+#: model:product.category,name:somconnexio.broadband_service
+msgid "Broadband Service"
+msgstr "Servei Band Ampla"
+
+#. module: easy_my_coop_sponsorship
+#: model_terms:ir.ui.view,arch_db:easy_my_coop_sponsorship.view_convert_to_member
+msgid "Cancel"
+msgstr "Cancel·lar"
+
+#. module: somconnexio
+#: model:ir.model.fields,field_description:somconnexio.field_contract_contract__contract_category_id
+msgid "Category Contract"
+msgstr "Categoria de Contracte"
+
+#. module: somconnexio
+#: model:ir.model.fields,field_description:somconnexio.field_contract_category__name
+msgid "Category name"
+msgstr "Nom de Categoria"
+
+#. module: easy_my_coop_sponsorship
+#: model:ir.model,name:easy_my_coop_sponsorship.model_subscription_upgrade_sponsee
+msgid "Change a partner from sponsee to member"
+msgstr "Canvi a partner de apadrinat a soci"
+
+#. module: somconnexio
+#: model:ir.model.fields,field_description:somconnexio.field_coop_agreement__code
+msgid "Code"
+msgstr "Codi"
+
+#. modules: easy_my_coop_sponsorship, somconnexio
+#: model:ir.model,name:easy_my_coop_sponsorship.model_res_partner
+#: model:ir.model,name:somconnexio.model_res_partner
+#: selection:res.partner,type:0
+msgid "Contact"
+msgstr "Contacte"
+
+#. module: somconnexio
+#: model:ir.model,name:somconnexio.model_contract_contract
+msgid "Contract"
+msgstr "Contracte"
+
+#. module: somconnexio
+#: model:ir.actions.act_window,name:somconnexio.contract_category_product_action
+msgid "Contract - Product Category relation"
+msgstr "Contracte - Categoria de producte - Relació"
+
+#. module: somconnexio
+#: model:ir.ui.menu,name:somconnexio.menu_contract_category_product
+msgid "Contract - Product category relation"
+msgstr "Contracte - Categoria de producte - Relació"
+
+#. module: somconnexio
+#: model:ir.ui.menu,name:somconnexio.menu_contract_category_service
+msgid "Contract - Service technology relation"
+msgstr "Contracte - Tecnologia de servei – Relació"
+
+#. module: somconnexio
+#: model:ir.model.fields,field_description:somconnexio.field_contract_category_product__contract_category
+#: model:ir.model.fields,field_description:somconnexio.field_contract_category_service_technology__contract_category_id
+msgid "Contract Category"
+msgstr "Categoria de Contracte"
+
+#. module: somconnexio
+#: model:ir.actions.act_window,name:somconnexio.contract_category_service_technology_action
+msgid "Contract Category - Service Technology relation"
+msgstr "Contracte - Tecnologia de servei – Relació"
+
+#. module: easy_my_coop_sponsorship
+#: model:ir.actions.act_window,name:easy_my_coop_sponsorship.action_view_convert_to_member
+#: model:ir.ui.menu,name:easy_my_coop_sponsorship.menu_easy_my_coop_convert_to_member
+msgid "Convert to member"
+msgstr "Convertir a soci"
+
+#. module: easy_my_coop_sponsorship
+#: model_terms:ir.ui.view,arch_db:easy_my_coop_sponsorship.view_convert_to_member
+msgid "Convert to member."
+msgstr "Convertir a soci."
+
+#. module: easy_my_coop_sponsorship
+#: model_terms:ir.ui.view,arch_db:easy_my_coop_sponsorship.view_convert_to_member
+msgid "Convert to member"
+msgstr "Convertir a soci"
+
+#. module: somconnexio
+#: model:ir.model.fields,field_description:somconnexio.field_res_partner__coop_agreement_id
+#: model:ir.model.fields,field_description:somconnexio.field_res_users__coop_agreement_id
+#: model:ir.model.fields,field_description:somconnexio.field_subscription_request__coop_agreement_id
+msgid "Coop Agreement"
+msgstr "Conveni Cooperatiu"
+
+#. module: somconnexio
+#: model:ir.ui.menu,name:somconnexio.menu_easy_my_coop_coop_agreements
+msgid "Coop Agreements"
+msgstr "Convenis Cooperatius"
+
+#. module: somconnexio
+#: model:ir.actions.act_window,name:somconnexio.coop_agreement_action_view
+msgid "Cooperative Agreement"
+msgstr "Conveni Cooperatiu"
+
+#. module: somconnexio
+#: model_terms:ir.ui.view,arch_db:somconnexio.coop_agreement_form
+#: model_terms:ir.ui.view,arch_db:somconnexio.coop_agreement_tree
+msgid "Cooperative Agreements"
+msgstr "Convenis Cooperatius"
+
+#. module: somconnexio
+#: model:ir.model,name:somconnexio.model_coop_agreement
+msgid "Cooperative agreement"
+msgstr "Conveni cooperatiu"
+
+#. module: somconnexio
+#: model:ir.model.fields,field_description:somconnexio.field_coop_agreement__partner_id
+msgid "Cooperator"
+msgstr "Intercooperant"
+
+#. module: easy_my_coop_sponsorship
+#: model_terms:ir.ui.view,arch_db:easy_my_coop_sponsorship.view_res_partner_filter_coop
+msgid "Cooperator Sponsees"
+msgstr "Apadrinats"
+
+#. modules: easy_my_coop_sponsorship, somconnexio
+#: model:ir.model.fields,field_description:easy_my_coop_sponsorship.field_subscription_upgrade_sponsee__create_uid
+#: model:ir.model.fields,field_description:somconnexio.field_contract_category__create_uid
+#: model:ir.model.fields,field_description:somconnexio.field_contract_category_product__create_uid
+#: model:ir.model.fields,field_description:somconnexio.field_contract_category_service_technology__create_uid
+#: model:ir.model.fields,field_description:somconnexio.field_coop_agreement__create_uid
+#: model:ir.model.fields,field_description:somconnexio.field_product_category_technology_supplier__create_uid
+#: model:ir.model.fields,field_description:somconnexio.field_service_supplier__create_uid
+#: model:ir.model.fields,field_description:somconnexio.field_service_technology__create_uid
+#: model:ir.model.fields,field_description:somconnexio.field_service_technology_service_supplier__create_uid
+msgid "Created by"
+msgstr "Creat per"
+
+#. modules: easy_my_coop_sponsorship, somconnexio
+#: model:ir.model.fields,field_description:easy_my_coop_sponsorship.field_subscription_upgrade_sponsee__create_date
+#: model:ir.model.fields,field_description:somconnexio.field_contract_category__create_date
+#: model:ir.model.fields,field_description:somconnexio.field_contract_category_product__create_date
+#: model:ir.model.fields,field_description:somconnexio.field_contract_category_service_technology__create_date
+#: model:ir.model.fields,field_description:somconnexio.field_coop_agreement__create_date
+#: model:ir.model.fields,field_description:somconnexio.field_product_category_technology_supplier__create_date
+#: model:ir.model.fields,field_description:somconnexio.field_service_supplier__create_date
+#: model:ir.model.fields,field_description:somconnexio.field_service_technology__create_date
+#: model:ir.model.fields,field_description:somconnexio.field_service_technology_service_supplier__create_date
+msgid "Created on"
+msgstr "Creat el"
+
+#. modules: easy_my_coop_sponsorship, somconnexio
+#: model:ir.model.fields,field_description:easy_my_coop_sponsorship.field_subscription_upgrade_sponsee__display_name
+#: model:ir.model.fields,field_description:somconnexio.field_contract_category__display_name
+#: model:ir.model.fields,field_description:somconnexio.field_contract_category_product__display_name
+#: model:ir.model.fields,field_description:somconnexio.field_contract_category_service_technology__display_name
+#: model:ir.model.fields,field_description:somconnexio.field_coop_agreement__display_name
+#: model:ir.model.fields,field_description:somconnexio.field_product_category_technology_supplier__display_name
+#: model:ir.model.fields,field_description:somconnexio.field_service_supplier__display_name
+#: model:ir.model.fields,field_description:somconnexio.field_service_technology__display_name
+#: model:ir.model.fields,field_description:somconnexio.field_service_technology_service_supplier__display_name
+msgid "Display Name"
+msgstr "Mostrar Nom"
+
+#. module: somconnexio
+#: model:ir.model.fields,field_description:somconnexio.field_res_partner__coop_agreement
+#: model:ir.model.fields,field_description:somconnexio.field_res_users__coop_agreement
+msgid "Has cooperator agreement?"
+msgstr "¿Té conveni cooperatiu?"
+
+#. modules: easy_my_coop_sponsorship, somconnexio
+#: model:ir.model.fields,field_description:easy_my_coop_sponsorship.field_subscription_upgrade_sponsee__id
+#: model:ir.model.fields,field_description:somconnexio.field_contract_category__id
+#: model:ir.model.fields,field_description:somconnexio.field_contract_category_product__id
+#: model:ir.model.fields,field_description:somconnexio.field_contract_category_service_technology__id
+#: model:ir.model.fields,field_description:somconnexio.field_coop_agreement__id
+#: model:ir.model.fields,field_description:somconnexio.field_product_category_technology_supplier__id
+#: model:ir.model.fields,field_description:somconnexio.field_service_supplier__id
+#: model:ir.model.fields,field_description:somconnexio.field_service_technology__id
+#: model:ir.model.fields,field_description:somconnexio.field_service_technology_service_supplier__id
+msgid "ID"
+msgstr "ID"
+
+#. modules: easy_my_coop_sponsorship, somconnexio
+#: selection:subscription.request,type:0
+#: selection:subscription.request,type:0
+msgid "Increase number of share"
+msgstr "Incrementar número de accions"
+
+#. module: somconnexio
+#: selection:res.partner,type:0
+msgid "Invoice address"
+msgstr "Adreça de factura"
+
+#. module: somconnexio
+#: model:ir.model.fields,field_description:somconnexio.field_contract_contract__is_broadband
+msgid "Is Broadband"
+msgstr "¿És de Banda Ampla?"
+
+#. module: easy_my_coop_sponsorship
+#: model:ir.model.fields,field_description:easy_my_coop_sponsorship.field_res_partner__coop_sponsee
+#: model:ir.model.fields,field_description:easy_my_coop_sponsorship.field_res_users__coop_sponsee
+msgid "Is Cooperator Sponsee?"
+msgstr "¿Es u apadrinat amb conveni?"
+
+#. modules: easy_my_coop_sponsorship, somconnexio
+#: model:ir.model.fields,field_description:easy_my_coop_sponsorship.field_subscription_upgrade_sponsee____last_update
+#: model:ir.model.fields,field_description:somconnexio.field_contract_category____last_update
+#: model:ir.model.fields,field_description:somconnexio.field_contract_category_product____last_update
+#: model:ir.model.fields,field_description:somconnexio.field_contract_category_service_technology____last_update
+#: model:ir.model.fields,field_description:somconnexio.field_coop_agreement____last_update
+#: model:ir.model.fields,field_description:somconnexio.field_product_category_technology_supplier____last_update
+#: model:ir.model.fields,field_description:somconnexio.field_service_supplier____last_update
+#: model:ir.model.fields,field_description:somconnexio.field_service_technology____last_update
+#: model:ir.model.fields,field_description:somconnexio.field_service_technology_service_supplier____last_update
+msgid "Last Modified on"
+msgstr "Última modificació el "
+
+#. modules: easy_my_coop_sponsorship, somconnexio
+#: model:ir.model.fields,field_description:easy_my_coop_sponsorship.field_subscription_upgrade_sponsee__write_uid
+#: model:ir.model.fields,field_description:somconnexio.field_contract_category__write_uid
+#: model:ir.model.fields,field_description:somconnexio.field_contract_category_product__write_uid
+#: model:ir.model.fields,field_description:somconnexio.field_contract_category_service_technology__write_uid
+#: model:ir.model.fields,field_description:somconnexio.field_coop_agreement__write_uid
+#: model:ir.model.fields,field_description:somconnexio.field_product_category_technology_supplier__write_uid
+#: model:ir.model.fields,field_description:somconnexio.field_service_supplier__write_uid
+#: model:ir.model.fields,field_description:somconnexio.field_service_technology__write_uid
+#: model:ir.model.fields,field_description:somconnexio.field_service_technology_service_supplier__write_uid
+msgid "Last Updated by"
+msgstr "Última actualització per"
+
+#. modules: easy_my_coop_sponsorship, somconnexio
+#: model:ir.model.fields,field_description:easy_my_coop_sponsorship.field_subscription_upgrade_sponsee__write_date
+#: model:ir.model.fields,field_description:somconnexio.field_contract_category__write_date
+#: model:ir.model.fields,field_description:somconnexio.field_contract_category_product__write_date
+#: model:ir.model.fields,field_description:somconnexio.field_contract_category_service_technology__write_date
+#: model:ir.model.fields,field_description:somconnexio.field_coop_agreement__write_date
+#: model:ir.model.fields,field_description:somconnexio.field_product_category_technology_supplier__write_date
+#: model:ir.model.fields,field_description:somconnexio.field_service_supplier__write_date
+#: model:ir.model.fields,field_description:somconnexio.field_service_technology__write_date
+#: model:ir.model.fields,field_description:somconnexio.field_service_technology_service_supplier__write_date
+msgid "Last Updated on"
+msgstr "Última actualització el"
+
+#. module: somconnexio
+#: model:product.category,name:somconnexio.mobile_additional_service
+msgid "Mobile Additional Service"
+msgstr "Servei Addicional mòbil"
+
+#. module: somconnexio
+#: model:product.category,name:somconnexio.mobile_service
+msgid "Mobile Service"
+msgstr "Servei Mòbil"
+
+#. module: somconnexio
+#: model:ir.model.fields,field_description:somconnexio.field_service_supplier__name
+#: model:ir.model.fields,field_description:somconnexio.field_service_technology__name
+msgid "Name"
+msgstr "Nom"
+
+#. modules: easy_my_coop_sponsorship, somconnexio
+#: selection:subscription.request,type:0
+#: selection:subscription.request,type:0
+msgid "New Cooperator"
+msgstr "Nou cooperant"
+
+#. module: easy_my_coop_sponsorship
+#: model:ir.model.fields,field_description:easy_my_coop_sponsorship.field_subscription_upgrade_sponsee__ordered_parts
+msgid "Number of Share"
+msgstr "Número de Accions"
+
+#. module: somconnexio
+#: model:product.category,name:somconnexio.broadband_oneshot_adsl_service
+#: model:product.category,name:somconnexio.broadband_oneshot_service
+#: model:product.category,name:somconnexio.mobile_oneshot_service
+msgid "OneShot Service"
+msgstr "Servei OneShot"
+
+#. module: somconnexio
+#: selection:res.partner,type:0
+msgid "Other address"
+msgstr "Altres adreces"
+
+#. module: easy_my_coop_sponsorship
+#: model:ir.model.fields,field_description:easy_my_coop_sponsorship.field_subscription_upgrade_sponsee__partner_id
+msgid "Partner"
+msgstr "Empresa"
+
+#. module: easy_my_coop_sponsorship
+#: model_terms:ir.ui.view,arch_db:easy_my_coop_sponsorship.view_res_partner_filter_coop
+msgid "Partners with a sponsor"
+msgstr "Partners apadrinats"
+
+#. module: somconnexio
+#: model_terms:ir.ui.view,arch_db:somconnexio.product_pricelist_view
+msgid "Price"
+msgstr "Preu"
+
+#. module: somconnexio
+#: model_terms:ir.ui.view,arch_db:somconnexio.product_pricelist_view
+msgid "Pricelist Items"
+msgstr "Element de tarifa"
+
+#. module: somconnexio
+#: selection:res.partner,type:0
+msgid "Private Address"
+msgstr "Adreça privada"
+
+#. module: somconnexio
+#: model:ir.model.fields,field_description:somconnexio.field_contract_category_product__product_category
+#: model:ir.model.fields,field_description:somconnexio.field_product_category_technology_supplier__product_category_id
+msgid "Product Category"
+msgstr "Categoria del producte"
+
+#. module: somconnexio
+#: model:ir.actions.act_window,name:somconnexio.product_category_technology_supplier_action
+msgid "Product Category - Service Technology - Service Supplier relation"
+msgstr ""
+
+#. module: somconnexio
+#: model:ir.ui.menu,name:somconnexio.menu_product_category_service_technology_supplier
+msgid "Product category - Service technology - supplier relation"
+msgstr ""
+
+#. module: somconnexio
+#: model:ir.model.fields,field_description:somconnexio.field_coop_agreement__products
+msgid "Products"
+msgstr "Productes"
+
+#. module: somconnexio
+#: model:ir.model.fields,help:somconnexio.field_coop_agreement__products
+msgid "Products available for the partners sponsored by that cooperative."
+msgstr ""
+
+#. module: somconnexio
+#: selection:res.partner,type:0
+msgid "Representative"
+msgstr ""
+
+#. module: somconnexio
+#: model_terms:ir.ui.view,arch_db:somconnexio.product_pricelist_view
+msgid "Service"
+msgstr ""
+
+#. module: somconnexio
+#: selection:res.partner,type:0
+msgid "Service Address"
+msgstr ""
+
+#. module: somconnexio
+#: model:ir.model.fields,field_description:somconnexio.field_contract_contract__service_partner_id
+msgid "Service Contact"
+msgstr ""
+
+#. module: somconnexio
+#: model:ir.model.fields,field_description:somconnexio.field_contract_contract__service_supplier_id
+msgid "Service Supplier"
+msgstr ""
+
+#. module: somconnexio
+#: model:ir.model.fields,field_description:somconnexio.field_contract_category_service_technology__service_technology_id
+#: model:ir.model.fields,field_description:somconnexio.field_contract_contract__service_technology_id
+msgid "Service Technology"
+msgstr ""
+
+#. module: somconnexio
+#: model:ir.actions.act_window,name:somconnexio.service_technology_service_supplier_action
+msgid "Service Technology - Service Supplier relation"
+msgstr "Tecnologia de servei - Proveïdor de servei Relació"
+
+#. module: somconnexio
+#: model:ir.ui.menu,name:somconnexio.menu_service_technology_supplier
+msgid "Service technology - supplier relation"
+msgstr "Tecnologia de servei - Proveïdor relació"
+
+#. module: easy_my_coop_sponsorship
+#: model:ir.model.fields,field_description:easy_my_coop_sponsorship.field_subscription_request__share_product_id
+#: model:ir.model.fields,field_description:easy_my_coop_sponsorship.field_subscription_upgrade_sponsee__share_product_id
+msgid "Share type"
+msgstr "Tipus de acció"
+
+#. module: somconnexio
+#: selection:res.partner,type:0
+msgid "Shipping address"
+msgstr "Adreça d'enviament "
+
+#. module: easy_my_coop_sponsorship
+#: model:ir.model.fields,field_description:easy_my_coop_sponsorship.field_res_partner__sponsee_ids
+#: model:ir.model.fields,field_description:easy_my_coop_sponsorship.field_res_users__sponsee_ids
+#: model_terms:ir.ui.view,arch_db:easy_my_coop_sponsorship.res_partner_form
+msgid "Sponsees"
+msgstr "Apadrinats"
+
+#. module: easy_my_coop_sponsorship
+#: model:ir.model.fields,field_description:easy_my_coop_sponsorship.field_res_partner__sponsor_id
+#: model:ir.model.fields,field_description:easy_my_coop_sponsorship.field_res_users__sponsor_id
+#: model:ir.model.fields,field_description:easy_my_coop_sponsorship.field_subscription_request__sponsor_id
+msgid "Sponsor"
+msgstr "Padri"
+
+#. modules: easy_my_coop_sponsorship, somconnexio
+#: selection:subscription.request,type:0
+#: selection:subscription.request,type:0
+msgid "Sponsorship"
+msgstr "Apadrinament"
+
+#. modules: easy_my_coop_sponsorship, somconnexio
+#: selection:subscription.request,type:0
+#: selection:subscription.request,type:0
+msgid "Sponsorship Coop Agreement"
+msgstr "Apadrinament amb conveni cooperatiu"
+
+#. module: easy_my_coop_sponsorship
+#: model:ir.model.fields,field_description:easy_my_coop_sponsorship.field_subscription_upgrade_sponsee__start_date
+msgid "Start date"
+msgstr "Data de inici"
+
+#. modules: easy_my_coop_sponsorship, somconnexio
+#: selection:subscription.request,type:0
+#: selection:subscription.request,type:0
+msgid "Subscription"
+msgstr "Subscripció"
+
+#. modules: easy_my_coop_sponsorship, somconnexio
+#: model:ir.model,name:easy_my_coop_sponsorship.model_subscription_request
+#: model:ir.model,name:somconnexio.model_subscription_request
+msgid "Subscription Request"
+msgstr "Petició de Subscripció"
+
+#. module: somconnexio
+#: model:ir.model.fields,field_description:somconnexio.field_product_category_technology_supplier__service_supplier_id
+#: model:ir.model.fields,field_description:somconnexio.field_service_technology_service_supplier__service_supplier_id
+msgid "Supplier"
+msgstr "Proveïdor"
+
+#. module: somconnexio
+#: model:ir.model.fields,field_description:somconnexio.field_product_category_technology_supplier__service_technology_id
+#: model:ir.model.fields,field_description:somconnexio.field_service_technology_service_supplier__service_technology_id
+msgid "Technology"
+msgstr "Tecnologia"
+
+#. module: easy_my_coop_sponsorship
+#: code:addons/easy_my_coop_sponsorship/models/subscription_request.py:52
+#, python-format
+msgid "The checkbox already cooperator is checked please select a cooperator."
+msgstr "El checkbox de cooperant està marcat, si us plau selecciona u cooperant."
+
+#. module: easy_my_coop_sponsorship
+#: code:addons/easy_my_coop_sponsorship/models/subscription_request.py:84
+#, python-format
+msgid "There is two different persons with the same national register number. Please proceed to a merge before to continue"
+msgstr ""
+
+#. module: easy_my_coop_sponsorship
+#: code:addons/easy_my_coop_sponsorship/models/subscription_request.py:89
+#, python-format
+msgid "This contact person is already defined for another company. Please select another contact"
+msgstr "Aqueste person de contacte ja està definida per altra empresa"
+
+#. modules: easy_my_coop_sponsorship, somconnexio
+#: model:ir.model.fields,field_description:easy_my_coop_sponsorship.field_subscription_request__type
+#: model:ir.model.fields,field_description:somconnexio.field_subscription_request__type
+msgid "Type"
+msgstr "Tipus"
+
+#. module: easy_my_coop_sponsorship
+#: model_terms:ir.ui.view,arch_db:easy_my_coop_sponsorship.view_convert_to_member
+msgid "Upgrade partner"
+msgstr "Conversió de partner en soci"
+
+#. module: somconnexio
+#: model:ir.model.fields,help:somconnexio.field_res_partner__type
+#: model:ir.model.fields,help:somconnexio.field_res_users__type
+msgid "Used by Sales and Purchase Apps to select the relevant address depending on the context."
+msgstr ""
+
+#. module: somconnexio
+#: model:ir.model.fields,field_description:somconnexio.field_res_partner__volunteer
+#: model:ir.model.fields,field_description:somconnexio.field_res_users__volunteer
+msgid "Volunteer"
+msgstr "Voluntari"
+
+#. module: somconnexio
+#: model:ir.model,name:somconnexio.model_contract_category
+msgid "contract.category"
+msgstr ""
+
+#. module: somconnexio
+#: model:ir.model,name:somconnexio.model_contract_category_product
+msgid "contract.category.product"
+msgstr ""
+
+#. module: somconnexio
+#: model:ir.model,name:somconnexio.model_contract_category_service_technology
+msgid "contract.category.service.technology"
+msgstr ""
+
+#. module: somconnexio
+#: model:ir.model,name:somconnexio.model_product_category_technology_supplier
+msgid "product.category.technology.supplier"
+msgstr ""
+
+#. module: somconnexio
+#: model:ir.model,name:somconnexio.model_service_supplier
+msgid "service.supplier"
+msgstr ""
+
+#. module: somconnexio
+#: model:ir.model,name:somconnexio.model_service_technology
+msgid "service.technology"
+msgstr ""
+
+#. module: somconnexio
+#: model:ir.model,name:somconnexio.model_service_technology_service_supplier
+msgid "service.technology.service.supplier"
+msgstr ""
+
+#. module: somconnexio
+#: model:ir.model,name:somconnexio.model_somconnexio_module
+msgid "somconnexio.module"
+msgstr ""
+
