@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: dockerscout
+Version: 0.0.1
+Summary: Service to prevent unused docker images filling your disk
+Home-page: https://gitlab.com/inorton/docker-scout
+Author: Ian Norton
+Author-email: inorton@gmail.com
+License: License :: OSI Approved :: MIT License
+Description: Service to prevent unused docker images filling your disk by monitoring docker container startup events
+Platform: any
