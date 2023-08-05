@@ -1,0 +1,16 @@
+monitor/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+monitor/logs.py,sha256=xbAgW-FyajgmT8LhvAauYta1WVqRhbRFZoXOvN_IchY,346
+monitor/scripts.py,sha256=NxJtg4buo5ZfevPtd4iOX9ufTOaEYgmMSQjeNJFNNFs,10233
+monitor/config/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+monitor/config/apache_exporter_err.mtail,sha256=l7_2q2i-VwnTE2r2hPxdqKZgGNt1g6GyHGpIqAyGqkY,556
+monitor/config/filewave_django.mtail,sha256=kD8PQKwOuPCMpEOTOLkIfMB43w3JP0R5thcfxudwX0k,1750
+monitor/config/fwldap.mtail,sha256=s-6DUMgPtplFbWQrGvdYczsg1u_wrLV2iu9795to2tA,309
+monitor/config/monitor-v13.conf,sha256=8XZ21mkvcWkZuRLtGByCuZXhMjjde9JEdeibmbFyTy0,1889
+monitor/config/postgres.mtail,sha256=gTEc6MtzdBr5fLEU838GssDNcC8FwVeaOF2vIyAeW1I,2948
+monitor/config/prometheus.yml,sha256=TJdNnL1_clb2r0BBc5TgcQnVw6K8cKsmqDyCfCyGnQ4,2782
+filewave_monitor_v13-1.0.3rc2.dist-info/LICENSE,sha256=Z4bjWPm6W1VaSHl_-2w0OZCFxxcSVyJdXVU_Rb8oIHI,1069
+filewave_monitor_v13-1.0.3rc2.dist-info/METADATA,sha256=0DK61Cw10OQAyOqbKeX1sfZImq7z0zsa-lXDB7qZZ1Q,2131
+filewave_monitor_v13-1.0.3rc2.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+filewave_monitor_v13-1.0.3rc2.dist-info/entry_points.txt,sha256=LctmAJwZufflVo6t1oKzD_i-eweWVoPjKIaAJ5tglPQ,82
+filewave_monitor_v13-1.0.3rc2.dist-info/top_level.txt,sha256=tGkQDkVeyKgP5Rr7acpp0df83NBAnI8up0sGwRxuuQ4,8
+filewave_monitor_v13-1.0.3rc2.dist-info/RECORD,,
