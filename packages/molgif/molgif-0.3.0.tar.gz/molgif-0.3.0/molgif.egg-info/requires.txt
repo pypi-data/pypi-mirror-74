@@ -1,0 +1,4 @@
+matplotlib
+pillow
+ase>=3.17.0
+click
