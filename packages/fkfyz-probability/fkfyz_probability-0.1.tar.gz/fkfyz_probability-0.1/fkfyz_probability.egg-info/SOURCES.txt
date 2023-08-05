@@ -1,0 +1,10 @@
+setup.py
+fkfyz_probability/Binomialdistribution.py
+fkfyz_probability/Gaussiandistribution.py
+fkfyz_probability/Generaldistribution.py
+fkfyz_probability/__init__.py
+fkfyz_probability.egg-info/PKG-INFO
+fkfyz_probability.egg-info/SOURCES.txt
+fkfyz_probability.egg-info/dependency_links.txt
+fkfyz_probability.egg-info/not-zip-safe
+fkfyz_probability.egg-info/top_level.txt
