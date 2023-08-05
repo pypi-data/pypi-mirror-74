@@ -1,0 +1,9 @@
+README.rst
+pyproject.toml
+setup.py
+idem_salt.egg-info/PKG-INFO
+idem_salt.egg-info/SOURCES.txt
+idem_salt.egg-info/dependency_links.txt
+idem_salt.egg-info/entry_points.txt
+idem_salt.egg-info/requires.txt
+idem_salt.egg-info/top_level.txt
