@@ -1,0 +1,8 @@
+lib/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+lib/detector_prototype.py,sha256=DSQ7rsQ86MqScxczgkDHuHdF-Avl5z5G63LXU1UlohI,21824
+lib/im2rec.py,sha256=yl_q_ysM71sJ1ET7pMJuUXBYTGuLHTslCjiTMjhX48E,15837
+lib/inference_prototype.py,sha256=CTSJNZcGrJP1ep4RMeRXdX3KMsl8uO3wXjb4GKvcKgc,7787
+monk_test1-0.0.7.dist-info/METADATA,sha256=r9jmFzZM4RmvZxrCxKN3kYdILE8A_JP1tubki7ludgQ,2348
+monk_test1-0.0.7.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+monk_test1-0.0.7.dist-info/top_level.txt,sha256=oyXcrLgLICoBS0ILk_wZBhkAAY-M4hbQoMsA1hDsf5c,4
+monk_test1-0.0.7.dist-info/RECORD,,
