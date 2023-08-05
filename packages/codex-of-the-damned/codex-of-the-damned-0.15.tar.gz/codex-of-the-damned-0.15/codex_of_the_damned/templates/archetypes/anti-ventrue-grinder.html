@@ -1,0 +1,108 @@
+{% extends "archetypes/_layout.html" %}
+{% import "archetypes/_layout-erratum.html" as erratum with context %}
+{% import "archetypes/anti-ventrue-grinder.json" as deck_json %}
+
+{% block meta %}
+<meta property="decklist" content='{{ deck_json | tojson }}' />
+{% endblock %}
+
+{% block archetype_name %}
+<h1><img src="{{ url_for('static', filename='img/icons/clan-ventrue-anti.svg') }}"> Anti Ventrue Grinder</h1>
+{% endblock %}
+
+{% block archetype %}
+<h2>Highlights</h2>
+<p>
+    Often spelled <strong>!Ventrue Grinder</strong>
+    (the "!" prefix has been used to denote the antitribu clans for a while),
+    this is a <em>toolbox</em> deck using the Ventrue antitribu clan and their <i>fad</i> disciplines combination.
+</p>
+<p>
+    The idea is to get the highest capacity vampire out,
+    then use {{ card("Govern the Unaligned") }}
+    at superior <i>D</i> to get more vampires out fast and cheap, then later to bleed with the help of
+    {{ card("Conditioning") }} and
+    {{ card("Bonding") }}.
+</p>
+<p>
+    The intercept module uses <i>A</i> for intercept, wakes and bounces, and <i>d</i> for additional
+    bounces with {{ card("Deflection") }}.
+</p>
+<p>
+    The combat module uses <i>f</i> for damage prevention and
+    {{ card("Weighted Walking Stick") }} to deal
+    more damage.
+</p>
+<p>
+    The deck is on the slow side, grinding at the opponents blood and pool reserves during the game until it
+    can finally lunge to oust its prey.
+</p>
+<h2>Tips & Tricks</h2>
+<p>
+    {{ card("Daring the Dawn") }} is kept for the lunge.
+</p>
+<p>
+    The deck has not much stealth, so it uses some <em>powerbleed</em> techniques, like
+    {{ card("Pentex™ Subversion") }} and
+    {{ card("Anarch Troublemaker") }}.
+</p>
+<h2>Variants</h2>
+<p>
+    There are many small variations to this archetype:
+    <li>
+        {{ card("The Coven") }} is a rare inclusion: the deck is supposed
+        to grind the blood out of the table, so giving opponents the opportunity to get some of it back
+        is a bit of a stretch.
+        {{ card("The Rack") }} is more often seen.
+    </li>
+    <li>
+        {{ card("The Kiss of Ra") }},
+        {{ card("Misdirection") }} and
+        {{ card("Seduction") }} can be used to help get the bleed through.
+    </li>
+    <li>
+        {{ card("Abbot") }},
+        {{ card("Bowl of Convergence") }} and permanent intercept
+        locations like {{ card("KRCG News Radio") }}
+        are often included to help with intercept.
+    </li>
+    <li>
+        {{ card("Ivory Bow") }} and
+        {{ card("Target Vitals") }}
+        are often seen in the combat module.
+    </li>
+    <li>
+        {{ card("Freak Drive") }} is sometimes added to increase
+        {{ link("/strategy/fundamentals", _("A&B"), _anchor="AB") }}.
+    </li>
+</p>
+<p>
+    The <strong>Guns Grinder</strong> variant uses
+    {{ card("Concealed Weapon") }} and guns in the combat module,
+    like in {{ link("/deck-search", _("Ravel Zorzal's deck"), twda_id="2016bncsb") }}
+    from the 2016 Brazilian NC.
+</p>
+<p>
+    The <strong>Protean Grinder</strong> variant uses
+    {{ card("Lazverinus, Thrall of Lambach") }} and
+    {{ card("Dylan") }} int the crypt for <i>j</i>, in order to include
+    {{ card("Claws of the Dead") }} and
+    {{ card("Earth Meld") }}.
+    {{ link("/deck-search", _("Jackson Iribarren's deck"), twda_id="2k9sac") }}
+    , won the 2009 SAC with it.
+</p>
+<p>
+    The <strong>Powerbleed</strong> variant focuses on bleed more,
+    using only {{ card("Aura Reading") }} with some
+    <i>f</i> prevention for the combat module.
+    {{ link("/deck-search", _("Bob Joseph's deck"), twda_id="2018nacd2co") }}
+    won the 2018 NAC with it.
+</p>
+{% endblock %}
+
+{% block errata %}
+<div class="warning">
+    <h3>Errata</h3>
+    {{ erratum.pentextmsubversion( 'remove' ) }}
+</div>
+{% endblock %}
