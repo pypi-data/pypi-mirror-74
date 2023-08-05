@@ -1,0 +1,83 @@
+# -*- coding: utf-8 -*-
+
+import sys
+import logging
+from pathlib import Path
+from loguru import logger
+
+from .settings import BASE_DIR, MODULE_LOGGER_CONFIG
+
+__all__ = ['debug_status']
+
+
+default_logger_config = {
+    "directory": f"/tmp/logs/{Path(BASE_DIR).name}",
+    "name": Path(BASE_DIR).name,
+    "debug": True,
+    "backups": 10,
+    # please read loguru format docs
+    "format": "{time:YYYY:MM:DD HH:mm:ss,SSS} | pid:{process} | {name}[line:{line}] | {level} | {message}",
+}
+
+necessary_key = default_logger_config.keys()
+
+
+def __make_module_logger():
+    logger_config = default_logger_config
+    if isinstance(MODULE_LOGGER_CONFIG, dict):
+        for k, v in MODULE_LOGGER_CONFIG.items():
+            logger_config[k] = v
+
+    fmt = logger_config.get('format', default_logger_config['format'])
+    directory = logger_config.get(
+        'directory', default_logger_config['directory'])
+    name = logger_config.get('name', default_logger_config['name'])
+    debug = logger_config.get('debug', True)
+    backups = logger_config.get('backups', 10)
+
+    if not Path(directory).exists():
+        Path(directory).mkdir(parents=True)
+    log_file = Path(directory).joinpath(f"{name}.log")
+    error_log_file = Path(directory).joinpath(f"error_{name}.log")
+
+    LOGGING_LEVEL = logging.DEBUG if debug else logging.INFO
+
+    def debug_filter(record):
+        return record["level"].no < 40 if debug else record["level"].no in [20, 30]
+
+    handlers = [
+        dict(sink=log_file,
+             level=LOGGING_LEVEL,
+             filter=debug_filter,
+             enqueue=True,
+             #  serialize=True,
+             rotation="00:00",
+             retention=f"{backups} days",
+             format=fmt,
+             encoding="utf8",
+             ),
+        dict(sink=error_log_file,
+             level=logging.ERROR,
+             enqueue=True,
+             #  serialize=True,
+             rotation="00:00",
+             retention=f"{backups} days",
+             format=fmt,
+             backtrace=False,
+             diagnose=False,
+             encoding="utf8",
+             ),
+    ]
+    if debug:
+        handlers.append(dict(sink=sys.stderr, level="DEBUG", format=fmt))
+    else:
+        pass
+
+    logger.configure(handlers=handlers)
+
+    return debug
+
+
+debug_status = __make_module_logger()
+
+logger.info(f'* create logger success debug: {debug_status} *')
