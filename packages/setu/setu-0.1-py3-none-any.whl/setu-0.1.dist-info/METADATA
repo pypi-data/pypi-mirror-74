@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: setu
+Version: 0.1
+Summary: Setu API connection package
+Home-page: https://gitlab.com/setu-lobby/setu-pypi
+Author: Setu
+Author-email: devrel@setu.co
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# Setu
+
+Setu package to interact with our APIs. Please go to [setu](https://setu.co) to know how to use this package.
+
