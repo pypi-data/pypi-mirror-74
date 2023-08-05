@@ -1,0 +1,10 @@
+setup.py
+distributions_zardaloo/Binomialdistribution.py
+distributions_zardaloo/Gaussiandistribution.py
+distributions_zardaloo/Generaldistribution.py
+distributions_zardaloo/__init__.py
+distributions_zardaloo.egg-info/PKG-INFO
+distributions_zardaloo.egg-info/SOURCES.txt
+distributions_zardaloo.egg-info/dependency_links.txt
+distributions_zardaloo.egg-info/not-zip-safe
+distributions_zardaloo.egg-info/top_level.txt
