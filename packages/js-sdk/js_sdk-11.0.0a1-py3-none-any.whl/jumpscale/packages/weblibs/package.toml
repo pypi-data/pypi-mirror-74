@@ -1,0 +1,6 @@
+name = "weblibs"
+[[static_dirs]]
+name = "static"
+path_url = "/"
+absolute_path = true
+path_location = "~/sandbox/code/github/jumpscaleX_weblibs/static/"
