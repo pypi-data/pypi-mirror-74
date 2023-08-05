@@ -1,0 +1,11 @@
+# for fwldap
+counter fwldap_logs_total by severity  
+
+# Count of specific types of errors -- notably statement timeouts 
+counter fwldap_errors_total by type  
+
+/^terminate called after throwing an instance of '(?P<exception>.*)'/ {
+	fwldap_logs_total["error"]++    
+	fwldap_errors_total[$exception]++    
+} 
+
