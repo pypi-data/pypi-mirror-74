@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: wttrpy
+Version: 1.1.0b0
+Summary: A little thing on Python that shows you forecast using wttr.in
+Home-page: https://github.com/hasha2982/wttr.py/
+Author: Denisov Artem
+Author-email: hashadev@yandex.ru
+License: UNKNOWN
+Project-URL: Documentation, https://wttrpy.rtfd.io/
+Project-URL: Source Code, https://github.com/hasha2982/wttr.py/
+Project-URL: Issues, https://github.com/hasha2982/wttr.py/issues/
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
+Requires-Dist: requests (<3,>=2)
+
+# wttr.py
+
+![GitHub](https://img.shields.io/github/license/hasha2982/wttr.py)
+![PyPI](https://img.shields.io/pypi/v/wttrpy?label=version)
+![Read the Docs](https://img.shields.io/readthedocs/wttrpy)
+![GitHub Workflow Status](https://img.shields.io/github/workflow/status/hasha2982/wttr.py/Test%20Python%20package?label=tests&logo=github)
+![PyPI - Python Version](https://img.shields.io/pypi/pyversions/wttrpy)
+
+A little thing on Python that shows you forecast using wttr.in
+
+## TODO
+
+- [ ] Make a CLI (in beta since 1.1.0-beta.0)
+
+
