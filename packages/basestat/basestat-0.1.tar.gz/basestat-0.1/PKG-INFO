@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: basestat
+Version: 0.1
+Summary: A simple, light-weight library to use basic Statistics functions like Mean, Median and Mode.
+Home-page: https://github.com/thisisakashmahajan/basestat
+Author: Akash Mahajan
+Author-email: akashmahajan025@gmail.com
+License: MIT
+Download-URL: https://github.com/thisisakashmahajan/basestat/archive/v_0.1.tar.gz
+Description: UNKNOWN
+Keywords: basestat,statistics,python statistics,basic statistics
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
