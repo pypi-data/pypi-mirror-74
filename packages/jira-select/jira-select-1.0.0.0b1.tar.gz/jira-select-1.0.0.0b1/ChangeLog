@@ -1,0 +1,25 @@
+CHANGES
+=======
+
+1.0.0b1
+-------
+
+* Adding 'coalesce' function.  Updating readme
+* Adding support for 'having' clause
+* Adding support for functions
+* Adding a command that makes it easier to find fields and see their types
+* Swapping pyinquirer for prompt-toolkit in 'configuration' command
+* Adding interactive mode
+* Adding pre-commit support
+* Use simpleeval for parsing select definitions
+* Better help text; allow formatters to define their file extension
+* Adding support for pluggable formatters; show progressbar while running query
+* Removing version constant because I can't figure out how to keep that in sync with pbr
+* Use pbr for versioning
+* Manage version number with bumpversion
+* Switching to pbr for setup configuration
+* Adding bumpversion configuration
+* Renaming project from jira-csv to jira-select
+* Titling each of the new feature ideas
+* Adding a 'Future Goals' section to the readme
+* And so it begins..
