@@ -1,0 +1,19 @@
+[console_scripts]
+jira-select = jira_select.cmdline:main
+
+[jira_select.commands]
+build-query = jira_select.commands.build_query:Command
+configure = jira_select.commands.configure:Command
+run-query = jira_select.commands.run:Command
+schema = jira_select.commands.schema:Command
+store-password = jira_select.commands.store_password:Command
+
+[jira_select.formatters]
+csv = jira_select.formatters.csv:Formatter
+
+[jira_select.functions]
+array_item = jira_select.functions.array_item:Function
+array_len = jira_select.functions.array_len:Function
+coalesce = jira_select.functions.coalesce:Function
+sprint_name = jira_select.functions.sprint_name:Function
+
