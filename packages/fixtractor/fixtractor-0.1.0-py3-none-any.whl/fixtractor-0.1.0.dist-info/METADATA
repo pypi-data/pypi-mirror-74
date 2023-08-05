@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: fixtractor
+Version: 0.1.0
+Summary: A simple tool to help you extract files from backup folders or any kind of folders with files that can not be identified.
+Home-page: https://github.com/mrteey/flask-setup
+Author: Nasir Mustapha
+Author-email: nasir@mrteey.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: python-magic
+
+# FIXTRACTOR
+A simple tool to help you extract files from backup folders or any kind of folders with files that can not be identified
+
+
