@@ -1,0 +1,80 @@
+### Introduction
+
+### Usage
+
+Before you begin using `xopera-template-library` tool you have to configure the endpoint and login with your account
+Examples:
+```
+$ xopera-template-library setup
+$ xopera-template-library login --username "username1" --password "password1"
+```
+At any point the `-h`(help) flag is available to display proceeding options.
+Example:
+
+```
+$ xopera-template-library service-template -h
+usage: xopera-template-library service-template [-h]
+                                                {save,get,list,version} ...
+
+positional arguments:
+  {save,get,list,version}
+    save                Save a template to database.
+    get                 Get a template from database.
+    list                List templates from database.
+    version             Version options for templates.
+
+optional arguments:
+  -h, --help            show this help message and exit
+```
+
+Next you can use option `list` to display available templates. Use the flag `--public_access` to display all public
+service or entity templates or without the flag to display all templates that you own. 
+Listing templates allows you to identify the ID of a certain template for future use and to view template information.
+Examples:
+```
+$ xopera-template-library service-template list
+
+$ xopera-template-library entity-template list
+
+$ xopera-template-library service-template list --public_access
+
+$ xopera-template-library entity-template list --name AwsLambda
+$ xopera-template-library entity-template version list --template_name AwsLambda
+```
+
+To download a template you have to provide the `path` to where you want the template to be saved, whenever a template has
+`public access` and one of the 3 possible idefitifers of the template: `template_name`, `template_id` or `version_id`. 
+If you use template name or ID the client will print available versions and ask you to pick one.
+```
+$ xopera-template-library service-template get --template_name DemoBlueprintOpenFaaS --public_access --path example/
+```
+
+
+If the desired template doesn't exist yet you can create and upload your own. You can start by generating a basic file
+structure by running...
+The tool will ask you for your model name and type. Possible types are `data_types`, `artifact_types`,
+ `capability_types`, `requirement`, `relationship_types`, `interface_types`, `node_types`, `group`, `policy_types`,
+  `csar`, `other`.
+Examples:
+```
+$ xopera-template-library create-model
+Model name:Test
+Model type:artifact_types
+
+```
+After the basic files are generated you can edit them and upload your template to the library:
+Examples:
+
+```
+$ xopera-template-library entity-template save --name AwsLambda --path example/AwsLambdaFunction --public_access --version 0.0.1
+```
+
+### Particle to upload structure
+ ```        
+|-- Folder
+        |-- files
+            |-- create.yml
+            |-- undeploy.yml
+        |-- NodeType.tosca
+```
+It is recommended that the user generates empty files with 
