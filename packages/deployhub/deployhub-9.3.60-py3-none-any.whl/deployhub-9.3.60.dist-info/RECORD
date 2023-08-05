@@ -1,0 +1,8 @@
+deployhub/__init__.py,sha256=SQTBW0t7rYyUuZwSU_qDWbi3LPWQqsyXkYNipSBweOA,63
+deployhub/dhapi.py,sha256=NWDfiTbSov199Tw2Q-3IgVdLI_48EcBZWsH8OdTl9lM,27289
+deployhub-9.3.60.data/scripts/dh,sha256=laNdTNthARbAYo9PwOYxRRHtT9sLLtWeXLpVtvDdvoM,20021
+deployhub-9.3.60.dist-info/LICENSE,sha256=bx5iLIKjgAdYQ7sISn7DsfHRKkoCUm1154sJJKhgqnU,35184
+deployhub-9.3.60.dist-info/METADATA,sha256=_0azjpDg1ZuXuH1fXcEx6dqbExoJMk1F0YLa4_JLR6c,1526
+deployhub-9.3.60.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+deployhub-9.3.60.dist-info/top_level.txt,sha256=xT5MIhyO_Y6O5onofECw9oVrFRoAcYWQz7rRVHY_PlM,10
+deployhub-9.3.60.dist-info/RECORD,,
