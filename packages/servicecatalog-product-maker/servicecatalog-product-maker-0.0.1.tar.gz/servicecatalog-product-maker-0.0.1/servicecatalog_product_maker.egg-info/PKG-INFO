@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: servicecatalog-product-maker
+Version: 0.0.1
+Summary: Helpers to make creating AWS Service Catalog products easier
+Home-page: https://github.com/eamonnfaherty/service-catalog-product-maker
+Author: Eamonn Faherty
+Author-email: python-packages@designandsolve.co.uk
+License: UNKNOWN
+Description: ## service catalog product builder
+        
+        builds AWS CloudFormation templates that can be used as a seed for Service Catalog products
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
