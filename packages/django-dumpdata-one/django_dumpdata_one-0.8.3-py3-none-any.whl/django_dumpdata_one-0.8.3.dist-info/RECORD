@@ -1,0 +1,11 @@
+.DS_Store,sha256=MYAt_FqjI39nxENvwGvX7497mBrJWjkY3o38jJQDQ_4,6148
+django_dumpdata_one/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_dumpdata_one/models.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_dumpdata_one/management/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_dumpdata_one/management/commands/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_dumpdata_one/management/commands/dumpdata_one.py,sha256=XbujVY8oT984P4y_VN5EOMVffOCuVteVDa_5oSVfJYQ,2951
+django_dumpdata_one-0.8.3.dist-info/LICENSE,sha256=lWAfxDEwLfhcVoBGOMQRcxvNdxe3Dw6gbizR6Q_TkzI,1536
+django_dumpdata_one-0.8.3.dist-info/METADATA,sha256=98ISVTDj_WZHNt-ZaSRnkWNKMbZ2iRMPmdCd3iEqYx4,3104
+django_dumpdata_one-0.8.3.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+django_dumpdata_one-0.8.3.dist-info/top_level.txt,sha256=9GzJLgh0rZZsOjbAG2ebUal2-mRoJu_7sYatpkr9I4U,20
+django_dumpdata_one-0.8.3.dist-info/RECORD,,
