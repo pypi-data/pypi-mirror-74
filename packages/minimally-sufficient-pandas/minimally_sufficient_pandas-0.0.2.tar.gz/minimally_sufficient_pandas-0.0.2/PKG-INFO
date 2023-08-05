@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: minimally_sufficient_pandas
+Version: 0.0.2
+Summary: A pandas DataFrame accessor limiting methods to a minimally sufficient subset
+Home-page: https://github.com/dexplo/minimally_sufficient_pandas
+Author: Ted Petrou
+Author-email: petrou.theodore@gmail.com
+License: BSD
+Description: # Minimally Sufficient Pandas - The Library
+        
+        This library is intended to help simplify the usage of pandas DataFrames by limiting the number of available methods to just those that are the most powerful. It also adds a few convenience methods not previously available and enhances some already existing methods.
+        
+        ## Installation
+        
+        `pip install minimally_sufficient_pandas`
+Keywords: pandas DataFrame minimally sufficient
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
