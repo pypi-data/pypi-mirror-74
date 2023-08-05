@@ -1,0 +1,11 @@
+bioconda2biocontainer/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bioconda2biocontainer/biocontainer.py,sha256=9klzjKEMFst7t6mlY9kRobZ_YjIXDS5fdXctbQszag0,2348
+bioconda2biocontainer/entry_point.py,sha256=nF7pgNCchvveA0cK_93QQj1czCACo678DmuvjgNV90M,3438
+bioconda2biocontainer/entry_point_search.py,sha256=k8C5gXKUhubQdhYaWnln9ytoD4_SV7kMoE4N1RPhf5A,1427
+bioconda2biocontainer-0.0.2.data/data/README.md,sha256=4pxbYebmvi8vH-4FcSzupHJzdnXDl11YXq7Ar6psqrg,13496
+bioconda2biocontainer-0.0.2.dist-info/LICENSE,sha256=4dXeufGUNb6WU0Ayv3MCzp5gQhR-25Fpoif0ClmlJBM,961
+bioconda2biocontainer-0.0.2.dist-info/METADATA,sha256=gFt-V7ME4T6tJzv22NPFdWJOD_OCfpFWHjrgaxZnCYE,14820
+bioconda2biocontainer-0.0.2.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+bioconda2biocontainer-0.0.2.dist-info/entry_points.txt,sha256=CABUARZnKym8V7WBW_bXq8dqT9xfedpUYEyVsE7rgeI,151
+bioconda2biocontainer-0.0.2.dist-info/top_level.txt,sha256=NKl5ZhP7yQ0FSpw6Sthgi890fnwzOCfnjm3AG9DJiW4,22
+bioconda2biocontainer-0.0.2.dist-info/RECORD,,
