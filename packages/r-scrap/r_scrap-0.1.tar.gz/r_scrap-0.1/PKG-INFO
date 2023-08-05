@@ -1,0 +1,18 @@
+Metadata-Version: 1.1
+Name: r_scrap
+Version: 0.1
+Summary: A quick reddit scrapper to get subreddits and submissions (PRAW doesn`t provide a good solution for that)
+Home-page: https://github.com/independentvariable2/r_scrap
+Author: independent.variable2
+Author-email: independent.variable2@gmail.com
+License: MIT
+Description: UNKNOWN
+Keywords: Reddit,subreddit,submission,PRAW
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries
+Classifier: License :: Freeware
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
