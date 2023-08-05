@@ -1,0 +1,27 @@
+Metadata-Version: 1.1
+Name: gns3-webclient-pack
+Version: 1.0.0b3
+Summary: GNS3 WebClient pack to use with the GNS3 web interface
+Home-page: http://github.com/GNS3/gns3-client-pack
+Author: Jeremy Grossmann
+Author-email: developers@gns3.net
+License: GNU General Public License v3 (GPLv3)
+Description: UNKNOWN
+Platform: any
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: X11 Applications :: Qt
+Classifier: Intended Audience :: Information Technology
+Classifier: Topic :: System :: Networking
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Natural Language :: English
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: Implementation :: CPython

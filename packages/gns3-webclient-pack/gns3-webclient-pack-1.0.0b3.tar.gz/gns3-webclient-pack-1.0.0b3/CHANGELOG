@@ -1,0 +1,21 @@
+# Change Log
+
+## 1.0.0b3 29/05/2020
+
+* Change default config & log location.
+* Log to launcher.log and update README.md
+* Fix install script when launched with /bin/sh. Fixes #8
+* Update the MIME and .desktop databases after installing on Linux.
+* New icons for WebClient. Fixes #11
+
+## 1.0.0b2 06/11/2019
+
+* Update README and bump version to 1.0.0dev2
+* Release v1.0.0b1
+* Packet capture support.
+* Add gns3-webclient.desktop file in setup.py
+
+## 1.0.0a1 10/09/2019
+
+* First alpha release with Windows support.
+
