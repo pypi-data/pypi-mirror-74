@@ -1,0 +1,11 @@
+ayuda/__init__.py,sha256=wamZcQy517mAiSJLFZhcK_iHeNrOJ1AvyUgsFJNqDAw,22
+ayuda/components.py,sha256=d58rqBN4StvznsCyjBeBLEy9AspR1L8979s3i4BIQ04,7659
+ayuda/config.py,sha256=mmS5Smn0UALgsYgb1vmkasqud6madP1qqhJiW6FPxZE,288
+ayuda/main.py,sha256=xonqJ3mlYWdfCdVg7x_ROb1cw7CiywW8XfG3Xso8h0A,16228
+ayuda/messages.py,sha256=ZrVcNWxkstrfS0sPl9fNKnz2JAAcZZ37w8KqUvxq3y8,538
+ayuda/messages/__init__.py,sha256=uWrT7-7Ih0w1hzp-Xnsa36kJjSRFxmoK_qwsUGxFMe8,1006
+ayuda-0.11.dist-info/METADATA,sha256=-W4b20qSZBtpQahO7lwURfGvkVIb3UKzFiSt-Lg1i-4,802
+ayuda-0.11.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+ayuda-0.11.dist-info/entry_points.txt,sha256=Nx82UGHCxcwkhro3ExcXQnp0kr19lOL5CzJhqEkvEm0,61
+ayuda-0.11.dist-info/top_level.txt,sha256=so3SI9a-Pd8h74p5ZTXkCcX89DGbSC-tiWL3KwfIwb8,6
+ayuda-0.11.dist-info/RECORD,,
