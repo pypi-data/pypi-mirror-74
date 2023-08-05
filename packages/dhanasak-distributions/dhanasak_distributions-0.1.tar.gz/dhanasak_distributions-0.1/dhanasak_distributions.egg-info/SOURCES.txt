@@ -1,0 +1,10 @@
+setup.py
+dhanasak_distributions/Binomialdistribution.py
+dhanasak_distributions/Gaussiandistribution.py
+dhanasak_distributions/Generaldistribution.py
+dhanasak_distributions/__init__.py
+dhanasak_distributions.egg-info/PKG-INFO
+dhanasak_distributions.egg-info/SOURCES.txt
+dhanasak_distributions.egg-info/dependency_links.txt
+dhanasak_distributions.egg-info/not-zip-safe
+dhanasak_distributions.egg-info/top_level.txt
