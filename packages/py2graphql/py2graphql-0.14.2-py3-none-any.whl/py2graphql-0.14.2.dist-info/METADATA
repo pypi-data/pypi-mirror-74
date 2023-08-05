@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: py2graphql
+Version: 0.14.2
+Summary: Pythonic GraphQL Client
+Author: Willem Thiart
+Author-email: himself@willemthiart.com
+Requires-Python: >=3.7,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
