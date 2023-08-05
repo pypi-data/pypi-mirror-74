@@ -1,0 +1,11 @@
+javaproperties_cli/__init__.py,sha256=MaEuOka_ZvSuNO9u-MIcia34fENZtlJONXPlOJQDZ-M,662
+javaproperties_cli/__main__.py,sha256=lqBVQzbLWVD7Igc2uqgAqFlFjiu5XGl36cgBcRRn1JQ,17458
+javaproperties_cli/fromjson.py,sha256=rR50LIFbFp2_JXw-sdNRw8AuNzSCxmOBxILeiUy2dno,4292
+javaproperties_cli/tojson.py,sha256=Xt0zh5w3DhZpfhXSvNkUei1So3JdgEuDPU30Z-juYzw,2563
+javaproperties_cli/util.py,sha256=Mev-hEHx-4pfvlPRbBVWGwtvf3odTF3f45HjOVMYUFQ,854
+javaproperties_cli-0.7.0.dist-info/LICENSE,sha256=1OqB0ttCenTfc22XK3-2LXHVPVLDfTS3buwyUoNcz08,1095
+javaproperties_cli-0.7.0.dist-info/METADATA,sha256=h7I-SHXk8g7Z5ZrKmBSc8cDNZq0GpGTeYroLChIT6jM,4442
+javaproperties_cli-0.7.0.dist-info/WHEEL,sha256=8zNYZbwQSXoB9IfXOjPfeNwvAsALAjffgk27FqvCWbo,110
+javaproperties_cli-0.7.0.dist-info/entry_points.txt,sha256=flKDCYn1b60lQpwMkobfXTu2Sa49af4249Cwy9TNZ0U,201
+javaproperties_cli-0.7.0.dist-info/top_level.txt,sha256=V_Aqojl2WsNQlX7A-YomFjO0JWalXAsIsbEaIrpbMTs,19
+javaproperties_cli-0.7.0.dist-info/RECORD,,
