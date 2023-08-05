@@ -1,0 +1,16 @@
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+data_minimization_tools/__init__.py
+data_minimization_tools.egg-info/PKG-INFO
+data_minimization_tools.egg-info/SOURCES.txt
+data_minimization_tools.egg-info/dependency_links.txt
+data_minimization_tools.egg-info/requires.txt
+data_minimization_tools.egg-info/top_level.txt
+data_minimization_tools/cvdi/__init__.py
+data_minimization_tools/cvdi/bin/Dockerfile
+data_minimization_tools/cvdi/bin/LICENSE
+data_minimization_tools/cvdi/bin/cv_di
+data_minimization_tools/cvdi/bin/cv_di.exe
+data_minimization_tools/utils/__init__.py
