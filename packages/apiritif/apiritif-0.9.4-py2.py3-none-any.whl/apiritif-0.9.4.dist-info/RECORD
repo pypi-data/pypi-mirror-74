@@ -1,0 +1,17 @@
+apiritif/__init__.py,sha256=yZgi52sNpysKpq5LKcuoHW0n9_KWvDU6RXeRHvLou4I,1070
+apiritif/__main__.py,sha256=xcBvUthrk0zB3AqvVWFrPyKrWLuiBM1dE_uLTa-iQ_Q,66
+apiritif/csv.py,sha256=m7c11G1IseEaX6t5h-8u6aTCNiYkMoNFkjZVKQZMQ7o,4168
+apiritif/http.py,sha256=uyRd5oYVMhCXqrUx4Xm9Fh4IBLbuu7ksevQQnZ9aosk,29099
+apiritif/loadgen.py,sha256=msddomEWs557pLZC0obtenLT2itU1r-bamownXwRBhU,18338
+apiritif/pytest_plugin.py,sha256=AyEg2anCVgG6RCIVC-p69wZFjzAHaI4SBAwXTd25Cps,2988
+apiritif/samples.py,sha256=EZXcgkFU9a2G5ShxMYckc8SgrtmsS8Ku99h5QdQyxGk,11186
+apiritif/store.py,sha256=I-e7vAuFqQ00y4jLcnVxfjrmdhs_WsBajC3D-TYd-5c,4339
+apiritif/thread.py,sha256=k7cJmNw1Qc5jceRUvupIyIl7sDZ5EMBqX1AEZeIiSrU,2124
+apiritif/utilities.py,sha256=H-XuvyVi_vtkSl9ryy_d4VLWAd7sPgeJ3Dlmn8U1q6A,3640
+apiritif/utils.py,sha256=PxgmJBijPm6RMwDX1OqR7OWVYVuWgvR2_6Hl05YfxrA,2200
+apiritif-0.9.4.dist-info/LICENSE,sha256=tAkwu8-AdEyGxGoSvJ2gVmQdcicWw3j1ZZueVV74M-E,11357
+apiritif-0.9.4.dist-info/METADATA,sha256=GJMvWld9l2xhVLP2A-7FF7eoWmtHCHaKplT40AE7E7Q,5807
+apiritif-0.9.4.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+apiritif-0.9.4.dist-info/entry_points.txt,sha256=lTkU6LMxtg8QORtG3kUyRA-7KX3DV0kpejDKmc65Do0,53
+apiritif-0.9.4.dist-info/top_level.txt,sha256=yuD9lxVyRlTlaYkRB5rs6Z6le-QOBe1hi6qHL7ruDeg,9
+apiritif-0.9.4.dist-info/RECORD,,
