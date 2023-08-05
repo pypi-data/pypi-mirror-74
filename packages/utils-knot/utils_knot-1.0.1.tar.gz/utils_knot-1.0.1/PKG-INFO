@@ -1,0 +1,18 @@
+Metadata-Version: 1.1
+Name: utils_knot
+Version: 1.0.1
+Summary: Exemplo setup.py
+Home-page: https://github.com/pedroknot/utils_knot
+Author: PEDRO HENRIQUE RODRIGUES ALVES
+Author-email: pedroknots@gmail.com
+License: MIT
+Description: # utils_knot
+        Validation functions
+        
+Keywords: exemplo setup.py desenvolvimento
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Education :: Testing
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
