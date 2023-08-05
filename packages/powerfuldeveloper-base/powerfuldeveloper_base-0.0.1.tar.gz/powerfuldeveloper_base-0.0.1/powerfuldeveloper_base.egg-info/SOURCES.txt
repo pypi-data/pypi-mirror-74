@@ -1,0 +1,8 @@
+README.md
+setup.py
+powerfuldeveloper_base/__init__.py
+powerfuldeveloper_base/commands.py
+powerfuldeveloper_base.egg-info/PKG-INFO
+powerfuldeveloper_base.egg-info/SOURCES.txt
+powerfuldeveloper_base.egg-info/dependency_links.txt
+powerfuldeveloper_base.egg-info/top_level.txt
