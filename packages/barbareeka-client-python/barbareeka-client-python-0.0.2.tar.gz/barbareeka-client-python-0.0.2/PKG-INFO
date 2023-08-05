@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: barbareeka-client-python
+Version: 0.0.2
+Summary: barbareeka-client for optimusCloud reporting engine
+Home-page: https://gitlab.com/testvagrant/optimus-pleiades/optimus-cloud/barbareeka-engine-python
+Author: Nishant Sharma
+Author-email: thenishant3@gmail.com
+License: UNKNOWN
+Description: # Barbareeka-engine-python
+        
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
