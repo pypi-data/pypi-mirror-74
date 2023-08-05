@@ -1,0 +1,7 @@
+setup.py
+stadium/__init__.py
+stadium/_version.py
+stadium.egg-info/PKG-INFO
+stadium.egg-info/SOURCES.txt
+stadium.egg-info/dependency_links.txt
+stadium.egg-info/top_level.txt

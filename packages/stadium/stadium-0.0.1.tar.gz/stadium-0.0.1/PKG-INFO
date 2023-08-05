@@ -1,0 +1,22 @@
+Metadata-Version: 1.1
+Name: stadium
+Version: 0.0.1
+Summary: Stadium
+Home-page: UNKNOWN
+Author: Allen Institute for Artificial Intelligence
+Author-email: stadium@allenai.org
+License: Apache
+Description: Stadium
+Platform: UNKNOWN
+Classifier: Intended Audience :: Science/Research
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
