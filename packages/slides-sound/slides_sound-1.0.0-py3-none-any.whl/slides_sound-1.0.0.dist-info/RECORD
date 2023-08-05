@@ -1,0 +1,15 @@
+slides_sound/__init__.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+slides_sound/notes.py,sha256=zKEaODCxCNyQFAqk2QINVWGhAqf4LWY5PWJUDVSFP4A,15439
+slides_sound/slides_util.py,sha256=BWsb94HsVUOuUMZFTL-tqPkp-TXwBrQNt86SWnwvuEk,853
+slides_sound/soundgen.py,sha256=z9uliZ1NADkoV031tpD4lbMmspOCYwwul1NVUXzbF3M,18414
+slides_sound/version.py,sha256=RsZjRjMprNcDm97wqRRSk6rTLgTX8N0GyicZyZ8OsBQ,22
+slides_sound-1.0.0.data/scripts/contact_sheet,sha256=91_dklidwzchL8eKzvsXRbBN1rX7wZWwRxN19CjCwkA,6030
+slides_sound-1.0.0.data/scripts/list_soundfont,sha256=CYoJTLgS5u8OtKDcmVuUyifz5vObLjw4kslxz8Yn4Xs,45
+slides_sound-1.0.0.data/scripts/music,sha256=xBpvKBw1_f9kK3YVY0Gv0v_UtNWte4j6rXMhrol0I14,7271
+slides_sound-1.0.0.data/scripts/rotate_resize,sha256=ZhVNLafHgCEwFQ1ENiY1cuHqQPq-TT20Olqz50_2LPM,3482
+slides_sound-1.0.0.data/scripts/slides,sha256=018zsljG2tw9X7GdHCpqEEx1_G3DGzW1roZmzJP6LhY,6997
+slides_sound-1.0.0.dist-info/LICENSE,sha256=qQXNMm5FTdEqKtjVuYOyVrA4bF2uzDFz8rRHPCRtKtI,1075
+slides_sound-1.0.0.dist-info/METADATA,sha256=TgLbCMjt8Yn6hPy2452BIWf2bTnLY1VshviFuYPsXHE,6232
+slides_sound-1.0.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+slides_sound-1.0.0.dist-info/top_level.txt,sha256=pveuAHPTRamo_-LtR2olJR21_MN0ZI5VNy854OPTAKQ,13
+slides_sound-1.0.0.dist-info/RECORD,,
