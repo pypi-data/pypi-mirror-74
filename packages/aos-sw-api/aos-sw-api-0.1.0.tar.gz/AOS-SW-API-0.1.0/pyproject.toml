@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "AOS-SW-API"
+version = "0.1.0"
+description = "ArubaOS Switch REST API"
+
+authors = ["Kenneth Sølberg <solberg.kenneths94@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+repository = "https://github.com/KennethSoelberg/AOS-SW-API"
+homepage = "https://github.com/KennethSoelberg/AOS-SW-API"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+httpx = "0.13.3"
+pydantic = "1.5.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+pytest-asyncio = "0.14.0"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
