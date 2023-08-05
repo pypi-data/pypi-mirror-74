@@ -1,0 +1,6 @@
+numpy
+scipy
+numba
+matplotlib
+pymultinest
+mpi4py
