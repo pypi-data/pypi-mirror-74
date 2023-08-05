@@ -1,0 +1,2 @@
+avocado-framework-plugin-runner-remote==69.3
+libvirt-python
