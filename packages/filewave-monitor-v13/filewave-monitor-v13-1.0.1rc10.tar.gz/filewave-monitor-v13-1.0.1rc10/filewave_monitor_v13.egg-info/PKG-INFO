@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: filewave-monitor-v13
+Version: 1.0.1rc10
+Summary: An additional module that installs programs/config required to monitor v13 instances via Prometheus.
+Home-page: https://github.com/johncclayton/monitor-fw-13
+Author: John Clayton
+Author-email: johnc@filewave.com
+License: UNKNOWN
+Description: # monitor-fw-13
+        An additional module that installs programs/config required to monitor v13 instances via Prometheus. 
+        
+        # Installation
+        Use pip to install this module first, then run a configuration stage to integrate this module properly into the v13 server. 
+        
+        Ingredients
+        1. A version 13 FileWave Server
+        2. Grafana + Prometheus
+        
+        
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
