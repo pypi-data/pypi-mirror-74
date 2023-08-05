@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: asos-curl
+Version: 1.0.0
+Summary: ASOS executor plugin for HTTP(s) requests
+Home-page: https://github.com/python-asos/asos-curl/
+Author: Pavel Kim
+Author-email: hello@pavelkim.ru
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# asos-curl
+ASOS executor plugin for HTTP(s) requests
+
+
