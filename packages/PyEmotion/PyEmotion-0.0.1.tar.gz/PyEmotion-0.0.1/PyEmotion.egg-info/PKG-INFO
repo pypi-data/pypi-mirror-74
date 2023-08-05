@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: PyEmotion
+Version: 0.0.1
+Summary: A Python package to for facial emotion.
+Home-page: https://github.com/karthick965938/PyEmotion
+Author: Karthick Nagarajan
+Author-email: karthick965938@gmail.com
+License: MIT
+Description: # PyEmotion
+        
+        **PyEmotion** - A Python package to for facial expression
+Keywords: image data datascience emotion PyEmotion expression ML ml machinelearning AI ai
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
