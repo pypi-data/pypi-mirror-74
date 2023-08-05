@@ -1,0 +1,3 @@
+[console_scripts]
+servicecatalog-product-maker = servicecatalog_product_maker.product_maker:cli
+
