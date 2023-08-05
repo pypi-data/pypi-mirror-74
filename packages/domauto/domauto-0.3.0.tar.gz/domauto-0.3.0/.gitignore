@@ -1,0 +1,9 @@
+*~
+*#
+plots/*
+files/*
+*__pycache__*
+*.png
+*.pdf
+*.pickle
+*.txt
