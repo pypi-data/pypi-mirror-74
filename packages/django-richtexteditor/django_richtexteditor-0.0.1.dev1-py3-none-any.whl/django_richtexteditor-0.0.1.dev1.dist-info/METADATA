@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: django-richtexteditor
+Version: 0.0.1.dev1
+Summary: Django Rich Text Editor
+Home-page: https://github.com/cizario/django-richtexteditor/
+Author: Nizar DELLELI
+Author-email: nizar.delleli@gmail.com
+License: BSD 3-Clause
+Project-URL: Documentation, https://github.com/cizario/django-richtexteditor/
+Project-URL: Release notes, https://github.com/cizario/django-richtexteditor/
+Project-URL: Funding, https://github.com/cizario/django-richtexteditor/
+Project-URL: Source, https://github.com/cizario/django-richtexteditor/
+Project-URL: Tracker, https://github.com/cizario/django-richtexteditor/issues
+Keywords: django richtext editor ckeditor tinymce markdown reStructruedText wysiwyg
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: 2.0
+Classifier: Framework :: Django :: 2.1
+Classifier: Framework :: Django :: 2.2
+Classifier: Framework :: Django :: 3.0
+Classifier: Framework :: Django :: 3.1
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Requires-Python: >=3.6
+Description-Content-Type: text/x-rst
+Requires-Dist: Django (>=2.0)
+
+Django Rich Text Editor
+=======================
+
+Under active development ..
+
