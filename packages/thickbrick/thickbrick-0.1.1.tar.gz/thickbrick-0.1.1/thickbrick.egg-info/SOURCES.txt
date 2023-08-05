@@ -1,0 +1,13 @@
+README.md
+setup.py
+thickbrick/__init__.py
+thickbrick/_statisticaldistances.py
+thickbrick/_thickbrick.py
+thickbrick.egg-info/PKG-INFO
+thickbrick.egg-info/SOURCES.txt
+thickbrick.egg-info/dependency_links.txt
+thickbrick.egg-info/requires.txt
+thickbrick.egg-info/top_level.txt
+thickbrick/KernelRegression/_NW_kerreg_1d.py
+thickbrick/KernelRegression/__init__.py
+thickbrick/KernelRegression/_onedim.py
