@@ -1,0 +1,7 @@
+jieba
+
+[tf]
+tensorflow>=2.2.0
+
+[tf-gpu]
+tensorflow-gpu>=2.2.0
