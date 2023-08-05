@@ -1,0 +1,14 @@
+MANIFEST.in
+README.md
+setup.py
+./pokequiz/pokequiz.sqlite
+./pokequiz/seeds.json
+pokequiz/Classes.py
+pokequiz/Question.py
+pokequiz/Quiz.py
+pokequiz/__init__.py
+pokequiz.egg-info/PKG-INFO
+pokequiz.egg-info/SOURCES.txt
+pokequiz.egg-info/dependency_links.txt
+pokequiz.egg-info/entry_points.txt
+pokequiz.egg-info/top_level.txt
