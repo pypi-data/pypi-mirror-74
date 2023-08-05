@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: ipadic
+Version: 0.0.0
+Summary: IPAdic packaged for Python
+Home-page: https://github.com/polm/unidic-lite
+Author: Paul O'Leary McCann
+Author-email: polm@dampfkraft.com
+License: UNKNOWN
+Description: # ipadic-py
+        
+        This is a version of IPAdic packaged for use in Python with
+        [mecab-python3](https://github.com/SamuraiT/mecab-python3) or
+        [fugashi](https://github.com/polm/fugashi). 
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Natural Language :: Japanese
+Description-Content-Type: text/markdown

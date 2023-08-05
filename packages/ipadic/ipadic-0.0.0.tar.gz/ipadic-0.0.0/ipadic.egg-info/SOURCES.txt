@@ -1,0 +1,6 @@
+README.md
+setup.py
+ipadic.egg-info/PKG-INFO
+ipadic.egg-info/SOURCES.txt
+ipadic.egg-info/dependency_links.txt
+ipadic.egg-info/top_level.txt
