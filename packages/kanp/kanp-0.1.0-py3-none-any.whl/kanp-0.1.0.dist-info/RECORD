@@ -1,0 +1,14 @@
+CHANGELOG.md,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+LICENSE,sha256=TMAPDjOsjgibN9ihR0vkQbJjEb3Bb-A1x1tRIBUV9hc,11338
+README.md,sha256=dtNdKmvzNHjS9YTTbIWQpwDb10fJ1x-fdOq096184oI,2228
+kanp/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+kanp/cli.py,sha256=Au3ug6nPIlWYdA-tzZfy9Z6hxID4B3dYRQjOQr4gfCA,1356
+kanp/download.py,sha256=7tOQkZLAOMMK0y9Hh5pIk4A14yVDkrHx1NdIMxzFvRg,2435
+kanp/server.py,sha256=VSGxs5mc-2XvN2rzRKwelUR0LAQdn1PutX_1O_0QOMo,532
+kanp/utils.py,sha256=BzVyP3UN7NfQV902cB4gVz_9WytoqmbHEyeqgOq6Wek,360
+pyproject.toml,sha256=Ku-M6gPLKKQffREWaHaBKHdXBtTIC9Wku6zN0DkS87U,812
+kanp-0.1.0.dist-info/entry_points.txt,sha256=CSZ8xdphZDsJDQEKaHekXUyDxjGlcSBx6M_RTM5K-fY,37
+kanp-0.1.0.dist-info/LICENSE,sha256=TMAPDjOsjgibN9ihR0vkQbJjEb3Bb-A1x1tRIBUV9hc,11338
+kanp-0.1.0.dist-info/WHEEL,sha256=G_NFpzHmv_dUXgCUSAWL0-bLL-eMzYU6DzDeGXbRXUk,83
+kanp-0.1.0.dist-info/METADATA,sha256=in3xCSD4j0DU-4opOo7zOyA7hMbKaHsydKt3lJX-4ko,2938
+kanp-0.1.0.dist-info/RECORD,,
