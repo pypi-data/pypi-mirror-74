@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+Hariteja_Distri/Binomialdistribution.py
+Hariteja_Distri/Gaussiandistribution.py
+Hariteja_Distri/Generaldistribution.py
+Hariteja_Distri/__init__.py
+Hariteja_Distri.egg-info/PKG-INFO
+Hariteja_Distri.egg-info/SOURCES.txt
+Hariteja_Distri.egg-info/dependency_links.txt
+Hariteja_Distri.egg-info/not-zip-safe
+Hariteja_Distri.egg-info/top_level.txt
