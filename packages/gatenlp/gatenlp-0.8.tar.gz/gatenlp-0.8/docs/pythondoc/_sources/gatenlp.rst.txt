@@ -1,0 +1,39 @@
+gatenlp package
+===============
+
+Subpackages
+-----------
+
+.. toctree::
+   :maxdepth: 4
+
+   gatenlp.impl
+   gatenlp.serialization
+
+Submodules
+----------
+
+.. toctree::
+   :maxdepth: 4
+
+   gatenlp.annotation
+   gatenlp.annotation_set
+   gatenlp.changelog
+   gatenlp.document
+   gatenlp.exceptions
+   gatenlp.feature_bearer
+   gatenlp.gate_interaction
+   gatenlp.gateslave
+   gatenlp.lib_stanfordnlp
+   gatenlp.lib_stanza
+   gatenlp.offsetmapper
+   gatenlp.spacy
+   gatenlp.utils
+
+Module contents
+---------------
+
+.. automodule:: gatenlp
+   :members:
+   :undoc-members:
+   :show-inheritance:

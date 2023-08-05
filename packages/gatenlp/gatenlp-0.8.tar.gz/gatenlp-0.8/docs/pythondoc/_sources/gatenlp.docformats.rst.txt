@@ -1,0 +1,19 @@
+gatenlp.docformats package
+==========================
+
+Submodules
+----------
+
+.. toctree::
+   :maxdepth: 4
+
+   gatenlp.docformats.msgpack
+   gatenlp.docformats.simplejson
+
+Module contents
+---------------
+
+.. automodule:: gatenlp.docformats
+   :members:
+   :undoc-members:
+   :show-inheritance:

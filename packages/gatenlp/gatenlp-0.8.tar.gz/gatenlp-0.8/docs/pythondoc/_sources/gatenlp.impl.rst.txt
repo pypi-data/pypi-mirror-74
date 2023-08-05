@@ -1,0 +1,18 @@
+gatenlp.impl package
+====================
+
+Submodules
+----------
+
+.. toctree::
+   :maxdepth: 4
+
+   gatenlp.impl.sortedintvls
+
+Module contents
+---------------
+
+.. automodule:: gatenlp.impl
+   :members:
+   :undoc-members:
+   :show-inheritance:
