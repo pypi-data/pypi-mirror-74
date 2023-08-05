@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: pybrgr
+Version: 0.1
+Summary: A pybrgr python package.
+Home-page: https://github.com/pybrgr/pybrgr
+Author: Chris Pryer
+Author-email: christophpryer@gmail.com
+License: PUBLIC
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+
+![](https://github.com/pybrgr/pybrgr/workflows/build/badge.svg)
+
+# About Me
+Hi! I'm a python package. Install me with `pip install pybrgr`. Talk to me at the command line by running `pybrgr`. 
+
+# About My Owner
+Chris started the [andromia github organization](https://github.com/andromia) to push industry-bridging ideas into the open-sourced world. Please check it out!
+
