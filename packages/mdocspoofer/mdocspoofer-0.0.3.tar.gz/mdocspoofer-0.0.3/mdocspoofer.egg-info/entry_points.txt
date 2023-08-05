@@ -1,0 +1,4 @@
+
+    [console_scripts]
+    mdocspoofer=mdocspoofer.mdoc:cli
+    
