@@ -1,0 +1,15 @@
+COPYING
+COPYING.LESSER
+README.rst
+pyproject.toml
+setup.py
+irpc/__init__.py
+irpc/errors.py
+irpc/irpc.py
+irpc.egg-info/PKG-INFO
+irpc.egg-info/SOURCES.txt
+irpc.egg-info/dependency_links.txt
+irpc.egg-info/top_level.txt
+irpc/native/__init__.py
+irpc/native/carriers.c
+irpc/native/carriers.pyx

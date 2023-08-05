@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: irpc
+Version: 0.0.0.dev1
+Summary: Lightning-fast transport-agnostic RPC with asyncio support
+Home-page: https://github.com/thodnev/irpc
+Author: thodnev
+Author-email: thodnev@xinity.dev
+License: LGPL-3.0-or-later
+Description: =====================================================================================
+        iRPC — lightning-fast transport-agnostic RPC with asyncio support [Under Development]
+        =====================================================================================
+        
+        .. image:: https://api.travis-ci.org/thodnev/irpc.svg
+            :target: https://travis-ci.org/thodnev/irpc
+        
+        .. image:: https://coveralls.io/repos/github/thodnev/irpc/badge.svg
+            :target: https://coveralls.io/github/thodnev/irpc
+        
+        .. image:: https://readthedocs.org/projects/irpc/badge/?version=dev
+            :target: https://irpc.readthedocs.io
+        
+Keywords: some,key,words
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 or later (LGPLv3+)
+Classifier: Development Status :: 1 - Planning
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Internet
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Object Brokering
+Requires-Python: >=3.8
+Description-Content-Type: text/x-rst
