@@ -1,0 +1,3 @@
+[console_scripts]
+gearbox = gearbox.main:main
+

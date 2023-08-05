@@ -1,0 +1,163 @@
+.hll { background-color: @background-color }
+.c { color: @text-color-comment } /* Comment */
+.err { color: @text-color-error; font-weight: underline } /* Error */
+.g { color: @text-color } /* Generic */
+.k { color: #4d97d5; font-weight: bold } /* Keyword */
+.l { color: @text-color } /* Literal */
+.n { color: @text-color } /* Name */
+.o { color: @text-color } /* Operator */
+.x { color: @text-color } /* Other */
+.p { color: @text-color } /* Punctuation */
+.ch { color: @text-color-comment } /* Comment.Hashbang */
+.cm { color: @text-color-comment } /* Comment.Multiline */
+.cp { color: @text-color-keyword } /* Comment.Preproc */
+.cpf { color: @text-color-comment } /* Comment.PreprocFile */
+.c1 { color: @text-color-comment } /* Comment.Single */
+.cs { color: @text-color-comment } /* Comment.Special */
+.gd { color: #8b080b } /* Generic.Deleted */
+.ge { color: @text-color; text-decoration: underline } /* Generic.Emph */
+.gr { color: @text-color } /* Generic.Error */
+.gh { color: @text-color; font-weight: bold } /* Generic.Heading */
+.gi { color: @text-color; font-weight: bold } /* Generic.Inserted */
+.go { color: #44475a } /* Generic.Output */
+.gp { color: @text-color } /* Generic.Prompt */
+.gs { color: @text-color } /* Generic.Strong */
+.gu { color: @text-color; font-weight: bold } /* Generic.Subheading */
+.gt { color: @text-color } /* Generic.Traceback */
+.kc { color: @text-color-keyword } /* Keyword.Constant */
+.kd { color: #8be9fd; font-style: italic } /* Keyword.Declaration */
+.kn { color: @text-color-keyword } /* Keyword.Namespace */
+.kp { color: @text-color-keyword } /* Keyword.Pseudo */
+.kr { color: @text-color-keyword } /* Keyword.Reserved */
+.kt { color: #8be9fd } /* Keyword.Type */
+.ld { color: @text-color } /* Literal.Date */
+.m { color: @text-color-constant } /* Literal.Number */
+.s { color: @text-color-string } /* Literal.String */
+.na { color: @text-color-object-name; font-weight: bold  } /* Name.Attribute */
+.nb { color: #8be9fd; font-style: italic } /* Name.Builtin */
+.nc { color: @text-color-class-name; font-weight: bold } /* Name.Class */
+.no { color: @text-color } /* Name.Constant */
+.nd { color: @text-color-class-name; font-weight: bold } /* Name.Decorator */
+.ni { color: @text-color } /* Name.Entity */
+.ne { color: @text-color } /* Name.Exception */
+.nf { color: @text-color-object-name; font-weight: bold } /* Name.Function */
+.nl { color: #8be9fd; font-style: italic } /* Name.Label */
+.nn { color: @text-color } /* Name.Namespace */
+.nx { color: @text-color } /* Name.Other */
+.py { color: @text-color } /* Name.Property */
+.nt { color: @text-color-keyword } /* Name.Tag */
+.nv { color: #8be9fd; font-style: italic } /* Name.Variable */
+.ow { color: @text-color-keyword } /* Operator.Word */
+.w { color: @text-color } /* Text.Whitespace */
+.mb { color: @text-color-constant } /* Literal.Number.Bin */
+.mf { color: @text-color-constant } /* Literal.Number.Float */
+.mh { color: @text-color-constant } /* Literal.Number.Hex */
+.mi { color: @text-color-constant } /* Literal.Number.Integer */
+.mo { color: @text-color-constant } /* Literal.Number.Oct */
+.sa { color: @text-color-string } /* Literal.String.Affix */
+.sb { color: @text-color-string } /* Literal.String.Backtick */
+.sc { color: @text-color-string } /* Literal.String.Char */
+.dl { color: @text-color-string } /* Literal.String.Delimiter */
+.sd { color: @text-color-string } /* Literal.String.Doc */
+.s2 { color: @text-color-string } /* Literal.String.Double */
+.se { color: @text-color-string } /* Literal.String.Escape */
+.sh { color: @text-color-string } /* Literal.String.Heredoc */
+.si { color: @text-color-string } /* Literal.String.Interpol */
+.sx { color: @text-color-string } /* Literal.String.Other */
+.sr { color: @text-color-string } /* Literal.String.Regex */
+.s1 { color: @text-color-string } /* Literal.String.Single */
+.ss { color: @text-color-string } /* Literal.String.Symbol */
+.bp { color: @text-color; font-style: italic } /* Name.Builtin.Pseudo */
+.fm { color: @text-color-object-name; font-weight: bold } /* Name.Function.Magic */
+.vc { color: #8be9fd; font-style: italic } /* Name.Variable.Class */
+.vg { color: #8be9fd; font-style: italic } /* Name.Variable.Global */
+.vi { color: #8be9fd; font-style: italic } /* Name.Variable.Instance */
+.vm { color: #8be9fd; font-style: italic } /* Name.Variable.Magic */
+.il { color: @text-color-constant } /* Literal.Number.Integer.Long */
+
+QWidget {
+    background: @background-color;
+    color: @text-color;
+}
+
+QTextBrowser {
+    selection-background-color: #444155;
+    inset grey;
+}
+
+/* QTextEdit { */
+/*     selection-background-color: #30ffffff; */
+/*     inset grey; */
+/* } */
+
+QLabel {
+    border-radius: 0px;
+    margin: 0px;
+}
+
+QTabBar::tab {
+    border-right: 2px solid @border-color;
+    padding: 5px;
+}
+
+QTabBar::tab:selected {
+    border-top: 2px solid @border-color;
+}
+
+QTabBar::tab:!selected {
+    border-bottom: 2px solid @border-color;
+}
+
+QLabel[accessibleName="modeline"] {
+    padding: 2px;
+    margin-bottom: 1px;
+    border-bottom: 1px solid @border-color;
+    border-top: 1px solid @border-color;
+    selection-background-color: rgba(219, 158, 0, 255);
+}
+
+QLineEdit {
+    border-radius: 0px;
+    padding: 0px;
+    margin: 0px;
+    selection-background-color: rgba(70, 70, 70, 255);
+    selection-color: @text-color;
+}
+
+QLabel[accessibleName="minibuffer-message"] {
+    padding-left: 10px;
+}
+
+QListView {
+    border: 1px solid rgba(20, 20, 20, 255);
+    show-decoration-selected: 1;
+    padding-top: 4px;
+    selection-background-color: rgba(70, 70, 70, 255);
+}
+
+
+QMenu {
+    border: 1px solid rgba(255, 255, 255, 30);
+}
+
+QMenu::item {
+    padding: 5px 18px 2px;
+    background-color: transparent;
+}
+QMenu::item:selected {
+    color: rgba(98, 68, 10, 255);
+    background-color: rgba(219, 158, 0, 255);
+}
+QMenu::separator {
+    height: 1px;
+    background: rgba(255, 255, 255, 50);
+    margin: 4px 8px;
+}
+
+.indent1 {
+    margin-left: 20;
+}
+
+.indent2 {
+    maring-left: 100;
+}

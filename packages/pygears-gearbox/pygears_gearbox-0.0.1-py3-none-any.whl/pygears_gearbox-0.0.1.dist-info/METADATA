@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: pygears-gearbox
+Version: 0.0.1
+Summary: PyGears visualization GUI
+Home-page: https://github.com/bogdanvuk/gearbox
+Author: Bogdan Vukobratovic
+Author-email: bogdan.vukobratovic@gmail.com
+License: MIT
+Platform: UNKNOWN
+Requires-Python: >=3.6.0
+Requires-Dist: pygears
+Requires-Dist: pexpect
+Requires-Dist: PySide2 (!=5.12.1)
+Requires-Dist: pygraphviz
+Requires-Dist: pygments
+
+UNKNOWN
+
+
