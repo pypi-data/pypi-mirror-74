@@ -1,0 +1,6 @@
+pymongo>=3.6.1
+six>=1.15.0
+
+[testing]
+nose
+mock
