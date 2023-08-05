@@ -1,0 +1,98 @@
+Metadata-Version: 2.1
+Name: anabel
+Version: 0.0.0
+Summary: Anonymous finite elements with analytic derivatives.
+Home-page: https://github.com/claudioperez/anabel
+Author: Claudio M. Perez
+Author-email: claudio_perez@berkeley.edu
+License: UNKNOWN
+Project-URL: Changelog, https://github.com/claudioperez/anabel/blob/master/CHANGELOG.rst
+Project-URL: Issue Tracker, https://github.com/claudioperez/anabel/issues
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: Unix
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Topic :: Utilities
+Requires-Python: >=3.4
+Description-Content-Type: text/markdown
+Provides-Extra: backends
+Requires-Dist: jaxlib (>0.1.51,~=0.1) ; extra == 'backends'
+Requires-Dist: jax (>0.1.72,~=0.1) ; extra == 'backends'
+Requires-Dist: tensorflow-probability (~=0.10) ; extra == 'backends'
+Requires-Dist: tensorflow (~=2.0) ; extra == 'backends'
+Provides-Extra: jax
+Requires-Dist: jax (>0.1.72,~=0.1) ; extra == 'jax'
+Requires-Dist: jaxlib (>0.1.51,~=0.1) ; extra == 'jax'
+Provides-Extra: shellcomplete
+Requires-Dist: click-completion ; extra == 'shellcomplete'
+Provides-Extra: tensorflow
+Requires-Dist: tensorflow (~=2.0) ; extra == 'tensorflow'
+Requires-Dist: tensorflow-probability (~=0.10) ; extra == 'tensorflow'
+
+# anabel
+
+[![Travis-CI Build Status](https://api.travis-ci.org/claudioperez/anabel.svg?branch=master)](https://travis-ci.org/claudioperez/anabel)
+[![Commits since latest release](https://img.shields.io/github/commits-since/claudioperez/anabel/v0.0.0.svg)](https://github.com/claudioperez/anabel/compare/v0.0.0...master)
+
+Composable finite elements with analytic derivatives.
+
+## Installation
+
+> `pip install anabel`
+
+You can also install the in-development version with::
+
+> `pip install https://github.com/claudioperez/anabel/archive/master.zip`
+
+
+## Documentation
+
+To use the project:
+
+```python
+    import anabel
+    anabel.unimplemented_function()
+```
+
+## Development
+
+To run the all tests run:
+
+> `$ tox`
+
+Note, to combine the coverage data from all the tox environments run:
+
+.. list-table::
+    :widths: 10 90
+    :stub-columns: 1
+
+    - - Windows
+      - ::
+
+            set PYTEST_ADDOPTS=--cov-append
+            tox
+
+    - - Other
+      - ::
+
+            PYTEST_ADDOPTS=--cov-append tox
+
+
+Changelog
+=========
+
+0.0.0 (2020-07-13)
+------------------
+
+* First release on PyPI.
+
+
