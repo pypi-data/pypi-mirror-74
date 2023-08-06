@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+hystore/__init__.py
+hystore.egg-info/PKG-INFO
+hystore.egg-info/SOURCES.txt
+hystore.egg-info/dependency_links.txt
+hystore.egg-info/requires.txt
+hystore.egg-info/top_level.txt
