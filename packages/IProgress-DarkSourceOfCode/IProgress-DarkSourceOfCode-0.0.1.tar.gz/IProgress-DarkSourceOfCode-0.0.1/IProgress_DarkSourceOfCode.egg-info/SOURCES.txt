@@ -1,0 +1,8 @@
+README.md
+setup.py
+IProgress/Progress.py
+IProgress/__init__.py
+IProgress_DarkSourceOfCode.egg-info/PKG-INFO
+IProgress_DarkSourceOfCode.egg-info/SOURCES.txt
+IProgress_DarkSourceOfCode.egg-info/dependency_links.txt
+IProgress_DarkSourceOfCode.egg-info/top_level.txt
