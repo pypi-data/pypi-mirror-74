@@ -1,0 +1,10 @@
+ptc_cli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ptc_cli/cli.py,sha256=Rv_xXSYoUx2nCkMhcAbDgSVGSHGXDiWYjG-qekLMWEk,632
+ptc_cli/parser.py,sha256=zApfo8XS0_0fORzD8-g19KyLR-TXX-Kt0eNh4pjwKe4,477
+test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ptc_cli-0.0.1.dev20200721153135.dist-info/LICENSE,sha256=mUv8vrHosVtTsWjjhfD3BhkuvqIVqJ9Xxw5-WZZmjJs,11344
+ptc_cli-0.0.1.dev20200721153135.dist-info/METADATA,sha256=JEh8szoIwSl69qDahF2rYNbB7i6LkJt9cUt5s18BuS8,669
+ptc_cli-0.0.1.dev20200721153135.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+ptc_cli-0.0.1.dev20200721153135.dist-info/entry_points.txt,sha256=A5JmQys9mHnGEtVZXutJ2n80haYEhw-WPdckPL6oMV4,46
+ptc_cli-0.0.1.dev20200721153135.dist-info/top_level.txt,sha256=xljC9EQoMKB9PUSyQEqkVqvEzIRWBvW1frEZfdXtOuI,13
+ptc_cli-0.0.1.dev20200721153135.dist-info/RECORD,,
