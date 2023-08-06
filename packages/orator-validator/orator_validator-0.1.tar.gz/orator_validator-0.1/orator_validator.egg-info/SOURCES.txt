@@ -1,0 +1,9 @@
+README.rst
+setup.cfg
+setup.py
+orator_validator/__init__.py
+orator_validator/validator.py
+orator_validator.egg-info/PKG-INFO
+orator_validator.egg-info/SOURCES.txt
+orator_validator.egg-info/dependency_links.txt
+orator_validator.egg-info/top_level.txt
