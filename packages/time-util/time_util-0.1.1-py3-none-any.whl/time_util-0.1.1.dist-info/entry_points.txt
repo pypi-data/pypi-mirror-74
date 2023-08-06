@@ -1,0 +1,3 @@
+[console_scripts]
+time-util=time_util.cli:cli
+
