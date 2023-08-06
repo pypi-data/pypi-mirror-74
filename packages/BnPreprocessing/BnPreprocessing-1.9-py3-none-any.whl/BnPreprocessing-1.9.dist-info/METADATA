@@ -1,0 +1,63 @@
+Metadata-Version: 2.1
+Name: BnPreprocessing
+Version: 1.9
+Summary: UNKNOWN
+Home-page: https://github.com/Kowsher/Bangla-NLP/tree/master/Bangla%20Feature%20Extraction
+Author: Kowsher Ahmed, Avishek Das
+Author-email: ahmedshuvo969@gmail.com, avishek.das.ayan@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+Bangla Preprocessor (BnPreprocessing)
+==================================
+
+This page gives a basic introduction to the package.
+
+## Installation:
+
+```
+pip install BnPreprocessing
+```
+
+In Python a Bangla Linga is typically written as:
+
+## Usage:
+```python
+import BnPreprocessing as pp
+s =  "আমরা কাজ করবো কিভাবে?😦😦 Document তৈরী করতে আমাদের সবাইকে কি করতে হবে? নিজেদের(গ্রুপ-৬ এর সবাই) মধ্যে  কাজ ভাগ করবো কেমনে?"
+s = pp.remove_punc(s)
+print(s)
+s = pp.remove_nonBangla(s)
+print(s)
+s = pp.remove_emoticons(s)
+print(s)
+s = pp.remove_sw(s)
+print(s)
+```
+Output:
+```
+আমরা কাজ করবো কিভাবে 😦😦 Document তৈরী করতে আমাদের সবাইকে কি করতে হবে  নিজেদের গ্রুপ   এর সবাই  মধ্যে  কাজ ভাগ করবো কেমনে 
+আমরা কাজ করবো কিভাবে 😦😦  তৈরী করতে আমাদের সবাইকে কি করতে হবে  নিজেদের গ্রুপ   এর সবাই  মধ্যে  কাজ ভাগ করবো কেমনে 
+আমরা কাজ করবো কিভাবে   তৈরী করতে আমাদের সবাইকে কি করতে হবে  নিজেদের গ্রুপ   এর সবাই  মধ্যে  কাজ ভাগ করবো কেমনে 
+করবো কিভাবে তৈরী সবাইকে গ্রুপ সবাই করবো কেমনে
+```
+If you want to do all the preprocessings in one step:
+
+## Usage:
+```python
+import BnPreprocessing as pp
+s =  "আমরা কাজ করবো কিভাবে?😦😦 Document তৈরী করতে আমাদের সবাইকে কি করতে হবে? নিজেদের(গ্রুপ-৬ এর সবাই) মধ্যে  কাজ ভাগ করবো কেমনে?"
+s = pp.remove_noise(s)
+print(s)
+
+```
+Output:
+```
+করবো কিভাবে তৈরী সবাইকে গ্রুপ সবাই করবো কেমনে
+```
+
+
