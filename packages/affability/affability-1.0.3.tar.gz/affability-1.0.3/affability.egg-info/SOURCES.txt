@@ -1,0 +1,7 @@
+README.md
+setup.py
+affability.egg-info/PKG-INFO
+affability.egg-info/SOURCES.txt
+affability.egg-info/dependency_links.txt
+affability.egg-info/requires.txt
+affability.egg-info/top_level.txt
