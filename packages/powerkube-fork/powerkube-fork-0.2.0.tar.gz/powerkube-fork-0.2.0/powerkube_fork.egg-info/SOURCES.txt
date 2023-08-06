@@ -1,0 +1,11 @@
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+version.meta
+powerkube_fork/__init__.py
+powerkube_fork.egg-info/PKG-INFO
+powerkube_fork.egg-info/SOURCES.txt
+powerkube_fork.egg-info/dependency_links.txt
+powerkube_fork.egg-info/requires.txt
+powerkube_fork.egg-info/top_level.txt
