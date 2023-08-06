@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+pymonics/Memo_esprit.py
+pymonics/Passive_filters.py
+pymonics/Signal_generator.py
+pymonics/__init__.py
+pymonics.egg-info/PKG-INFO
+pymonics.egg-info/SOURCES.txt
+pymonics.egg-info/dependency_links.txt
+pymonics.egg-info/requires.txt
+pymonics.egg-info/top_level.txt
