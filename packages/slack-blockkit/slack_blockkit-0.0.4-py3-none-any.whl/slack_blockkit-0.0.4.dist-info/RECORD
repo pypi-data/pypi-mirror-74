@@ -1,0 +1,16 @@
+slack_blockkit/__init__.py,sha256=gioNvhsZTChgj33gF0EJIEzFdpFgYIryDJRpRartJvg,221
+slack_blockkit/block.py,sha256=LGclBivaG3psEIfxaMQPZEsyqcFHAN1hNPsi97TP2i8,2775
+slack_blockkit/block_element.py,sha256=dEIN83X4yPnq50CebYheZffAIxDxWiu5B4WywTkPE7k,15955
+slack_blockkit/composition_object.py,sha256=swYuaQ24rWBL9gJKhATAkOYZT7WY-xa-LvuSPVgd7vI,9998
+slack_blockkit/layout_block.py,sha256=JVYzu4gUzTW0eCEwE4U12QK71UNX6a-P5BewkoX3k7c,10447
+slack_blockkit/view_payload.py,sha256=iM6HWlNPz45OLjITiLjaQg9CWXo-Pddg0oyiJAW8uN8,6127
+slack_blockkit/utils/__init__.py,sha256=u_I21wObSaDDOkDkg-5j8A0xZ_P9N4f7vLbIAhZzB2k,84
+slack_blockkit/utils/blocks.py,sha256=KGcKS6Q5jZvkoV0Xza1cvG0_-4czB98aSi4BwiQr1qM,2810
+slack_blockkit/utils/utils.py,sha256=k3b6bcHx2gtch6Nmaos2EmcmqXNUeoYkO0G3-SzNeGo,4591
+sphinx/__init__.py,sha256=qrR999kjZS_BVBU3IagpTe8xE-S-Oj2UE2Gkq7_wOYA,81
+sphinx/conf.py,sha256=3_ShCCXRJD3zJvzqpZtCZSKNipZRVeTMUGDmW-Z8jJY,2129
+slack_blockkit-0.0.4.dist-info/LICENSE,sha256=ZtR7RFry8cIlOSYvZj69Eb3cvK59BlIGr4hoXIxsp5M,1066
+slack_blockkit-0.0.4.dist-info/METADATA,sha256=WjNWuHP7_PcFdWc4na_wSDIvIKQMmU09iY9MaIt6QkY,6941
+slack_blockkit-0.0.4.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+slack_blockkit-0.0.4.dist-info/top_level.txt,sha256=ZRyfre_0WN-b1hENQ6dGi6jWdexzx5yTP6IMiqS3iew,22
+slack_blockkit-0.0.4.dist-info/RECORD,,
