@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: inventaire-obs
+Version: 0.1.1
+Summary: Script d'inventaire OBS
+Author: Thomas Christory
+Author-email: thomas@christory.net
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: click (>=7.1.2,<8.0.0)
+Requires-Dist: netmiko (>=3.1.1,<4.0.0)
+Description-Content-Type: text/markdown
+
+Usage: inventaire_obs.py [OPTIONS]
+
+Options:
+
+  --help               Show this message and exit.
+  
+  -n, --name TEXT      Nom de code du magasin  [required]
+  
+  -f, --fichier TEXT   Nom du fichier avec les IPs  [required] // Une IP par ligne
+  
+  -s, --sortie TEXT    Nom du fichier de sortie
+  
+  -u, --username TEXT  Username  [required]
+  
+  -p, --password TEXT  Password
+  
