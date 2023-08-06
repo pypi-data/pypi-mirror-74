@@ -1,0 +1,6 @@
+README.md
+setup.py
+chemistry_orm.egg-info/PKG-INFO
+chemistry_orm.egg-info/SOURCES.txt
+chemistry_orm.egg-info/dependency_links.txt
+chemistry_orm.egg-info/top_level.txt
