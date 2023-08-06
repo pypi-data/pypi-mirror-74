@@ -1,0 +1,10 @@
+dolores/__init__.py,sha256=hjphc3_s4tmXQTpXGDNMHW1ZTLdRQL8TTODS4Ll8G5M,37
+dolores/dolores.py,sha256=fiZIiF950l7_7BRWlI9pmlToe23v0Lk8oUIe3R-322E,2663
+tests/__init__.py,sha256=2k_ZeqU7FvqZMFqGm-EYRiV98uxUxmiy5wXygvIobPU,13
+tests/conftest.py,sha256=9ssdGY6xXmTjA89hjExX_IzyGm7Rmw5gHAqy0wrNEMg,449
+tests/test_dolores.py,sha256=FDnqFF2sfLD2S76tvf1f0VxZ84X-0K-paepXehvXQ1I,1414
+dolores-0.2.1.dist-info/LICENSE,sha256=7EI8xVBu6h_7_JlVw-yPhhOZlpY9hP8wal7kHtqKT_E,1074
+dolores-0.2.1.dist-info/METADATA,sha256=1aiR0lGAssiTWXzJ6RxiuUXRhMzxeXAT5RDBL-mATWU,8273
+dolores-0.2.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+dolores-0.2.1.dist-info/top_level.txt,sha256=EUSx8wX1I3J0RpFkeFABh8e_x4Mtqs-OOVaxzRrRwV0,14
+dolores-0.2.1.dist-info/RECORD,,
