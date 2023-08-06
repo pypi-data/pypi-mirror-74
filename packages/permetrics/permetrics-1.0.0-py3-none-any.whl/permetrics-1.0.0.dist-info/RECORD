@@ -1,0 +1,9 @@
+examples/RMSE.py,sha256=f1kaob8Ryq5jyIMhyyr6-kV4hKEArRzcQuvuaU8Q1xA,1344
+examples/__init__.py,sha256=zQjw5ii1oyNvPcd_C_d-MvGlDMGnkE0MML4k1ik1b6c,774
+permetrics/__init__.py,sha256=tvR-_K5hUFLDTKkkMbmA29FM3LwRzcV6eSUTeekK9yg,774
+permetrics/regression.py,sha256=GlK3yyqBLnTHG7FCL1RC4Rf4QR9nLFi1GA-iQlWoiKc,16256
+permetrics-1.0.0.dist-info/LICENSE,sha256=iVDrLinMlkIME42zragQMW2jJQ2VN33olFqzcY_-8GY,11346
+permetrics-1.0.0.dist-info/METADATA,sha256=I03FUILR0MPW7ixNLwzLdw2O-GTBC6CpqmI1rQEJSow,3371
+permetrics-1.0.0.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+permetrics-1.0.0.dist-info/top_level.txt,sha256=mXtcxjf_Ewo51vOqBLm8tinKvzPpd6lJU9WTEHecVUg,20
+permetrics-1.0.0.dist-info/RECORD,,
