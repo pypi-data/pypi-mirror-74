@@ -1,0 +1,8 @@
+README.rst
+setup.py
+collage_maker/__init__.py
+collage_maker.egg-info/PKG-INFO
+collage_maker.egg-info/SOURCES.txt
+collage_maker.egg-info/dependency_links.txt
+collage_maker.egg-info/requires.txt
+collage_maker.egg-info/top_level.txt
