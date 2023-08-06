@@ -1,0 +1,10 @@
+setup.py
+rsherer_udacity_gaussian_distributions/Binomialdistribution.py
+rsherer_udacity_gaussian_distributions/Gaussiandistribution.py
+rsherer_udacity_gaussian_distributions/Generaldistribution.py
+rsherer_udacity_gaussian_distributions/__init__.py
+rsherer_udacity_gaussian_distributions.egg-info/PKG-INFO
+rsherer_udacity_gaussian_distributions.egg-info/SOURCES.txt
+rsherer_udacity_gaussian_distributions.egg-info/dependency_links.txt
+rsherer_udacity_gaussian_distributions.egg-info/not-zip-safe
+rsherer_udacity_gaussian_distributions.egg-info/top_level.txt
