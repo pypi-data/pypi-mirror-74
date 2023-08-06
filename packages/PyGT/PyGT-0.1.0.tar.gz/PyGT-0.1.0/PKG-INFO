@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: PyGT
+Version: 0.1.0
+Summary: Python implementation of graph transformation techniques to analyze metastable Markov chains
+Home-page: https://github.com/tomswinburne/PyGT
+Author: TD Swinburne
+Author-email: swinburne@cinam.univ-mrs.fr
+License: UNKNOWN
+Description: # PyGT : Python analysis of metastable Markov models using graph transformation
+        
+        >Tom Swinburne, CNRS-CINaM, 2019, swinburne@cinam.univ-mrs.fr
+        >Deepti Kannan, U Cambridge
+        
+        Docs will be available at readthedocs
+        
+        # INSTALLATION (beta)
+        ```
+        pip install -i https://test.pypi.org/simple/ PyGT-tomswinburne==0.1.0
+        ```
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
