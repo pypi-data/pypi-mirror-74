@@ -1,0 +1,8 @@
+README.md
+setup.py
+cicc_colors/__init__.py
+cicc_colors/colors.py
+cicc_colors.egg-info/PKG-INFO
+cicc_colors.egg-info/SOURCES.txt
+cicc_colors.egg-info/dependency_links.txt
+cicc_colors.egg-info/top_level.txt
