@@ -1,0 +1,10 @@
+setup.py
+dsnd_probability_distributions_shweta/Binomialdistribution.py
+dsnd_probability_distributions_shweta/Gaussiandistribution.py
+dsnd_probability_distributions_shweta/Generaldistribution.py
+dsnd_probability_distributions_shweta/__init__.py
+dsnd_probability_distributions_shweta.egg-info/PKG-INFO
+dsnd_probability_distributions_shweta.egg-info/SOURCES.txt
+dsnd_probability_distributions_shweta.egg-info/dependency_links.txt
+dsnd_probability_distributions_shweta.egg-info/not-zip-safe
+dsnd_probability_distributions_shweta.egg-info/top_level.txt
