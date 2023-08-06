@@ -1,0 +1,7 @@
+README.md
+hn-compare
+setup.py
+human_name_compare.egg-info/PKG-INFO
+human_name_compare.egg-info/SOURCES.txt
+human_name_compare.egg-info/dependency_links.txt
+human_name_compare.egg-info/top_level.txt
