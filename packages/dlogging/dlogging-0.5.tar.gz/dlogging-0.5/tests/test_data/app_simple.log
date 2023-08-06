@@ -1,0 +1,4 @@
+INFO info message
+WARNING warn message
+ERROR error message
+CRITICAL critical message

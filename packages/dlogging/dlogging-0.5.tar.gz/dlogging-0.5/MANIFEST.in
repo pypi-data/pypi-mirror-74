@@ -1,0 +1,7 @@
+include *.in
+include *.txt
+include tox.ini
+recursive-include requirements *.txt
+recursive-include tests *.ini
+recursive-include tests *.log
+recursive-include tests *.py
