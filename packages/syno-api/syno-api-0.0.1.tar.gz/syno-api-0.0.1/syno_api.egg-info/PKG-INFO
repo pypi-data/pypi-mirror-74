@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: syno-api
+Version: 0.0.1
+Summary: Python Synology API Wrapper
+Home-page: https://github.com/migelbd/syno-api
+Author: Mikhail Badrazhan
+Author-email: migel.bd@gmail.com
+License: MIT
+Description: # syno-api
+        
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
