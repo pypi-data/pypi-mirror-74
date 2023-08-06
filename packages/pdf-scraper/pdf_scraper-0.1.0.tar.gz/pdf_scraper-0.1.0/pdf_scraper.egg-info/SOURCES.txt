@@ -1,0 +1,9 @@
+README.md
+setup.py
+pdf_scraper/__init__.py
+pdf_scraper/scraper.py
+pdf_scraper.egg-info/PKG-INFO
+pdf_scraper.egg-info/SOURCES.txt
+pdf_scraper.egg-info/dependency_links.txt
+pdf_scraper.egg-info/requires.txt
+pdf_scraper.egg-info/top_level.txt
