@@ -1,0 +1,3 @@
+[console_scripts]
+stubwheel = stubwheel.__main__:main
+
