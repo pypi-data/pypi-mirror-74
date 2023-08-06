@@ -1,0 +1,8 @@
+README.md
+setup.py
+qaquora/__init__.py
+qaquora.egg-info/PKG-INFO
+qaquora.egg-info/SOURCES.txt
+qaquora.egg-info/dependency_links.txt
+qaquora.egg-info/requires.txt
+qaquora.egg-info/top_level.txt
