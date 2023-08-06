@@ -1,0 +1,11 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.txt
+__init__.py
+setup.py
+rajcalculator.egg-info/PKG-INFO
+rajcalculator.egg-info/SOURCES.txt
+rajcalculator.egg-info/dependency_links.txt
+rajcalculator.egg-info/requires.txt
+rajcalculator.egg-info/top_level.txt
