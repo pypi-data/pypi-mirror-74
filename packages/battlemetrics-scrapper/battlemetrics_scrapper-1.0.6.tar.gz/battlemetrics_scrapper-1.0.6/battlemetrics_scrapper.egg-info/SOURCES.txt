@@ -1,0 +1,11 @@
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+battlemetrics_scrapper/battlemetrics_scrapper.py
+battlemetrics_scrapper.egg-info/PKG-INFO
+battlemetrics_scrapper.egg-info/SOURCES.txt
+battlemetrics_scrapper.egg-info/dependency_links.txt
+battlemetrics_scrapper.egg-info/entry_points.txt
+battlemetrics_scrapper.egg-info/requires.txt
+battlemetrics_scrapper.egg-info/top_level.txt
