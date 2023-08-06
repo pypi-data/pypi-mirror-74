@@ -1,0 +1,7 @@
+MANIFEST.in
+README.md
+setup.py
+zdpytpol8projekt.egg-info/PKG-INFO
+zdpytpol8projekt.egg-info/SOURCES.txt
+zdpytpol8projekt.egg-info/dependency_links.txt
+zdpytpol8projekt.egg-info/top_level.txt
