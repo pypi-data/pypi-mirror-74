@@ -1,0 +1,3 @@
+[console_scripts]
+sctl = spacecontrol.__main__:main
+
