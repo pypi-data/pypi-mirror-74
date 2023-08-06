@@ -1,0 +1,11 @@
+setup.cfg
+setup.py
+udemyproj/Binomialdistribution.py
+udemyproj/Gaussiandistribution.py
+udemyproj/Generaldistribution.py
+udemyproj/__init__.py
+udemyproj.egg-info/PKG-INFO
+udemyproj.egg-info/SOURCES.txt
+udemyproj.egg-info/dependency_links.txt
+udemyproj.egg-info/not-zip-safe
+udemyproj.egg-info/top_level.txt
