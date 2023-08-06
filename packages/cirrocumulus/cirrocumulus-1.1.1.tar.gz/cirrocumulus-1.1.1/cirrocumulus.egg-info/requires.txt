@@ -1,0 +1,12 @@
+anndata
+flask
+flask-compress
+fsspec
+loompy
+natsort
+numpy
+pandas
+scipy
+
+[test]
+pytest
