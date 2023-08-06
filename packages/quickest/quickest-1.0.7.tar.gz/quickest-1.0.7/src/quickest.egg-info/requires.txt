@@ -1,0 +1,13 @@
+marshmallow
+matplotlib
+numpy
+pprint
+pyfiglet
+pyinquirer
+scipy
+
+[dev]
+pylint
+
+[test]
+pytest
