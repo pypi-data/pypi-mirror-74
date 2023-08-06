@@ -1,0 +1,12 @@
+Deep_learning/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+Deep_learning/models.py,sha256=0qZBv8Otmyk28VjPO1Kfn_22gAPJsuY6ds-AjLmrNPs,3620
+Deep_learning/optimzers.py,sha256=xvESHqL_GIJ7qq84Q3BFpSiK3GSFP4blDSX_YUMaumM,534
+Deep_learning/utilities.py,sha256=k9oTRS2Fsf6P1-Fq9Ua90hg6AFG2YsDW9Q9eW9sQFt4,1565
+learning_test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+learning_test/boston_hp-202007201757-base.py,sha256=uTGPQc9aFkfrjnnqwobi3Gzhcc16Hg9MD3uyOZMJntY,13148
+learning_test/boston_hp-202007201757-base2.py,sha256=lSecv5jZaNUwiMswR-JTZgLXMFdLowLEJyCXmRYqEns,6664
+learning_test/boston_hp-202007211516.py,sha256=SmeTejL-o44oyuM4Bzv2unbtAQMJsbM5s0TUtU5goqE,7522
+kk_flow_ocean_888-0.0.1.dist-info/METADATA,sha256=gkTqkSWS4jHHDFDE2RYvzRPXELLmMQ8t8JhubgPvFaE,489
+kk_flow_ocean_888-0.0.1.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+kk_flow_ocean_888-0.0.1.dist-info/top_level.txt,sha256=qLtyk5JDH3O-BH1q7BdUZwgwUPGddRkj0FuzDozIYMg,28
+kk_flow_ocean_888-0.0.1.dist-info/RECORD,,
