@@ -1,0 +1,5 @@
+[console_scripts]
+thumt-scorer = thumt.bin.scorer:cli_main
+thumt-trainer = thumt.bin.trainer:cli_main
+thumt-translator = thumt.bin.translator:cli_main
+
