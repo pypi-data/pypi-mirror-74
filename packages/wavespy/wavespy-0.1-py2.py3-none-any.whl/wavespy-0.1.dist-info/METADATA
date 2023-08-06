@@ -1,0 +1,72 @@
+Metadata-Version: 2.1
+Name: wavespy
+Version: 0.1
+Summary: Waves node API client
+Home-page: https://github.com/DPInvaders/wavespy
+Author: DPInvaders
+Author-email: dp@theinvaders.pro
+License: MIT
+Keywords: waves wavespy api client async
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Description-Content-Type: text/markdown
+Requires-Dist: aiohttp (==3.5.4)
+Requires-Dist: base58 (==1.0.3)
+Requires-Dist: mnemonic (==0.18)
+Requires-Dist: pysha3 (==1.0.2)
+Requires-Dist: python-axolotl-curve25519 (==0.4.1.post2)
+Requires-Dist: requests (==2.21.0)
+Requires-Dist: ujson (==1.35)
+
+# WavesPy
+[![Build Status](https://travis-ci.com/DPInvaders/wavespy.svg?branch=master)](https://travis-ci.com/acrylplatform/wavespy.svg?branch=master)
+[![Documentation Status](https://readthedocs.org/projects/wavespy/badge/?version=latest)](https://wavespy.readthedocs.io/en/latest/?badge=latest)
+
+[Waves](https://wavesexplorer.com/ "Waves Platform") Node API client 
+
+**Full documentation**
+https://wavespy.readthedocs.io/en/latest/
+
+## Installation
+
+Requirements:
+- Python 3.6 and higher
+- Packages from `requirements.txt`
+
+
+From PyPI:
+
+```bash
+pip install wavespy
+```
+
+Or from source:
+
+```bash
+python setup.py install
+```
+
+
+## What's included
+
+- [X] Node API client
+	- [X] Sync
+	- [X] Async
+
+- [X] Generators and validators
+	- [X] Address data
+	- [X] Transactions data
+
+- [X] Matcher API
+
+- [X] Docs
+- [X] Tests
+
+
+
