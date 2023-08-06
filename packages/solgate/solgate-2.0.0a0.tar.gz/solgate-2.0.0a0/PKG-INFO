@@ -1,0 +1,15 @@
+Metadata-Version: 1.2
+Name: solgate
+Version: 2.0.0a0
+Summary: A CLI tool for S3 data synchronizations.
+Home-page: https://github.com/aicoe-aiops/sync-pipelines
+Author: Tom Coufal
+Author-email: tcoufal@redhat.com
+Maintainer: Tom Coufal
+Maintainer-email: tcoufal@redhat.com
+License: GPLv3+
+Description: # Solgate
+        
+        Pre-release
+        
+Platform: UNKNOWN
