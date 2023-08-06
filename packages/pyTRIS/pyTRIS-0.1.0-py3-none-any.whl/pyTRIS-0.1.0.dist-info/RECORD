@@ -1,0 +1,9 @@
+pytris/__init__.py,sha256=lXcUJFr46DxqLCXMPY9ZYgOp3XX4X8wwoEfvvPrnQRw,919
+pytris/areas.py,sha256=--5nqIs0RKIVR5h84-pAkyM20eYIXUSHHZK6qzJZvuU,947
+pytris/errors.py,sha256=GagR-iO7lCvWnpUT248RfKUiy98VJLKeWom9E_5-EJk,51
+pytris/version.py,sha256=L6zbQIZKsAP-Knhm6fBcQFPoVdIDuejxze60qX23jiw,21
+pyTRIS-0.1.0.dist-info/LICENSE,sha256=DFAIzVYqBove9jevSNYwsWC80lO0eaVo9ubRy0BCGu0,1072
+pyTRIS-0.1.0.dist-info/METADATA,sha256=aIcm6Pht2CwC29AMfjAjWILYy47OCaUnvfLqRUs8wSo,869
+pyTRIS-0.1.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+pyTRIS-0.1.0.dist-info/top_level.txt,sha256=ihihjx5OHrcK7qWAfXNV0g1ZyMFqoErbuMc98dELnng,7
+pyTRIS-0.1.0.dist-info/RECORD,,
