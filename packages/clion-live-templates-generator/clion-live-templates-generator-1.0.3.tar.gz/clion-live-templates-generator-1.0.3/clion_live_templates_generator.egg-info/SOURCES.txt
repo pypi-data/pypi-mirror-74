@@ -1,0 +1,9 @@
+README.md
+setup.py
+clion_live_templates_generator/__init__.py
+clion_live_templates_generator/main.py
+clion_live_templates_generator.egg-info/PKG-INFO
+clion_live_templates_generator.egg-info/SOURCES.txt
+clion_live_templates_generator.egg-info/dependency_links.txt
+clion_live_templates_generator.egg-info/entry_points.txt
+clion_live_templates_generator.egg-info/top_level.txt
