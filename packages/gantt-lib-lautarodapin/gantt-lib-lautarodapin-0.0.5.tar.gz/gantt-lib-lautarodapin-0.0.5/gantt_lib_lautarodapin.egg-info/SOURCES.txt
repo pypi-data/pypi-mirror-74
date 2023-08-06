@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+file.svg
+setup.py
+__pycache__/__init__.cpython-37.pyc
+__pycache__/gantt_main.cpython-37.pyc
+gantt_lib/__init__.py
+gantt_lib/gantt_main.py
+gantt_lib/requirements.txt
+gantt_lib_lautarodapin.egg-info/PKG-INFO
+gantt_lib_lautarodapin.egg-info/SOURCES.txt
+gantt_lib_lautarodapin.egg-info/dependency_links.txt
+gantt_lib_lautarodapin.egg-info/requires.txt
+gantt_lib_lautarodapin.egg-info/top_level.txt
