@@ -1,0 +1,6 @@
+diffpy.structure>=3
+h5py
+matplotlib
+numpy
+scipy
+tqdm
