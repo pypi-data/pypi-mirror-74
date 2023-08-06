@@ -1,0 +1,13 @@
+PyGT/GT.py,sha256=AZcPeFTtKdDM_8-Ktdwfxe_L_45xpQ7xC7_m7jKQmXI,9012
+PyGT/__init__.py,sha256=KPTeFXUKHcUnLpmtxPl6JIn0HPc7Tx6SIbzHxTZtQWM,3341
+PyGT/io.py,sha256=YVF3QTojCy5rDsLW_lXpqNu5psqBzME1bHIANffERB4,12452
+PyGT/mfpt.py,sha256=cXiSwUBH9w5QHSd3hS3la5U8LNS9vIP6ExTbVyGD8ME,7467
+PyGT/sample.py,sha256=4hr8jAJr-faGQrRsifeNtUGpucZRrAqnV2E6Q5SavGk,6374
+PyGT/spectral.py,sha256=KEnY65h36G8mnkUtUtD1G-bm8iAZxinjJhNovOlvHuo,8695
+PyGT/stats.py,sha256=1fzr35n9T3-J5M-YUipOWzMRHEh9eLaogFwkAM9zY24,13013
+PyGT/tools.py,sha256=5MASltofmsxL5P7QQ-TozAZi8ygySuUZSmPG_vYMHSE,19154
+PyGT-0.1.0.dist-info/LICENSE,sha256=P1BkiWgPfQ07e8gA_wxi2Vzlp7n_9so3RrN9nU7O1cM,1074
+PyGT-0.1.0.dist-info/METADATA,sha256=UwFoBKDPyjM3ANUGfIQYV6cSS3kbqvSomVH6HdQQ7V8,929
+PyGT-0.1.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+PyGT-0.1.0.dist-info/top_level.txt,sha256=pWlJXnrE_ytrLrR7tC6BsO1f6uXP79gIw7dPfIMv0vE,5
+PyGT-0.1.0.dist-info/RECORD,,
