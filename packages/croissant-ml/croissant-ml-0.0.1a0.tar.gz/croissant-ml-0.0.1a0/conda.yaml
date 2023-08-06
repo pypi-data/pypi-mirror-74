@@ -1,0 +1,13 @@
+name: croissant
+channels:
+  - defaults
+dependencies:
+  - python=3.8
+  - pip
+  - pip:
+      - mlflow
+      - argschema==2.0.1
+      - pandas>=1.0.0
+      - scikit-learn>=0.23.1
+      - numpy
+      - scipy
