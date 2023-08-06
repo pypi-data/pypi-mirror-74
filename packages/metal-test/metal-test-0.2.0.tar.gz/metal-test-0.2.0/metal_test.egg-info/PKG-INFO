@@ -1,0 +1,14 @@
+Metadata-Version: 1.1
+Name: metal-test
+Version: 0.2.0
+Summary: A C/C++ toolset for bare metal & embedded developments
+Home-page: http://pypi.python.org/pypi/metal_test
+Author: Klemens Morgenstern
+Author-email: klemens@metal.ci
+License: APACHE
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Embedded Systems
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
