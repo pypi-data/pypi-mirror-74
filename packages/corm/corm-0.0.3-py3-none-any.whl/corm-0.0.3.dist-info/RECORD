@@ -1,0 +1,12 @@
+corm/__init__.py,sha256=M9LUVhu2oyxE6tcSxM-HtrFgP0tVApr12OWz8T_upGw,440
+corm/constants.py,sha256=Rs7ri355pgvSVUFiSyKrJ6oIa4QkM6HdblyUaroiIfc,422
+corm/entity.py,sha256=8mXZkGsytau1oYFDYk2spEl570jZtZ6NCxQhgsplK5I,2888
+corm/fields.py,sha256=H7ZRmDWjM8RR2fUtBpH_RhARuURWqmUx2SHd-zGuHD8,14913
+corm/hooks.py,sha256=7GdNhn9MkOQegSVTWmgZIfm3kJke4Uy3YJ-knMy2K1M,203
+corm/registry.py,sha256=2lzLwTV__7yFkNLe7o5ANbbsRiHfQ3_IYbN-r_PZhao,619
+corm/storage.py,sha256=CMlx5Cl9tmQt62fO18mrXuUd8qlQFc2wFR1xqUlH_mI,3690
+corm-0.0.3.dist-info/LICENSE,sha256=F_KjooNkoDCCbetrl9oiaq9ffLuYQw_nL1iXGwAgIAQ,1062
+corm-0.0.3.dist-info/METADATA,sha256=oh8cgiYEygaA2XymFeJu6-jTnpg3ex-sODubvG_AyCw,1993
+corm-0.0.3.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+corm-0.0.3.dist-info/top_level.txt,sha256=olQxSWp6Dz0ej_nGrKIH0Qiv1mMcRHARLtimr137HTc,5
+corm-0.0.3.dist-info/RECORD,,
