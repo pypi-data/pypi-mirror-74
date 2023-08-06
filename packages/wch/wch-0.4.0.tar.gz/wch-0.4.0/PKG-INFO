@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: wch
+Version: 0.4.0
+Summary: Runs the provided command on detected file changes.
+Home-page: https://github.com/Peter554/wch#readme
+License: MIT
+Author: Peter
+Author-email: byfield554@gmail.com
+Requires-Python: >=3.6,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: typer (>=0.3.1,<0.4.0)
+Project-URL: Repository, https://github.com/Peter554/wch
+Description-Content-Type: text/markdown
+
+# wch
+
+[![Build Status](https://travis-ci.org/Peter554/wch.svg?branch=master)](https://travis-ci.org/Peter554/wch)
+
+```
+pip install wch
+```
+
+```
+wch --help
+```
+
+```
+Usage: wch [OPTIONS] COMMAND
+
+  Runs the provided command on detected file changes.
+
+  example: wch -d src -d tests -i docs "black --check ."
+
+Arguments:
+  COMMAND  [required]
+
+Options:
+  -d, --directory TEXT  [default: .]
+  -i, --ignore TEXT     [default: ]
+  --help                Show this message and exit.
+```
+
+

@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "wch"
+version = "0.4.0"
+description = "Runs the provided command on detected file changes."
+authors = ["Peter <byfield554@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/Peter554/wch#readme"
+repository = "https://github.com/Peter554/wch"
+
+[tool.poetry.dependencies]
+python = "^3.6"
+typer = "^0.3.1"
+
+[tool.poetry.dev-dependencies]
+black = "^19.10b0"
+flake8 = "^3.8.3"
+isort = "^5.1.3"
+mypy = "^0.782"
+
+[tool.poetry.scripts]
+wch = 'wch.wch:app'
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
