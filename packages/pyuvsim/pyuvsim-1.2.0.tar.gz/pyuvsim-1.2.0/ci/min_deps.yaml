@@ -1,0 +1,18 @@
+name: min_deps
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - astropy>=4.0
+  - coverage
+  - h5py
+  - numpy>=1.15
+  - pip
+  - pytest
+  - pytest-cov
+  - pyuvdata
+  - pyyaml>=5.1
+  - scipy
+  - setuptools_scm
+  - pip:
+    - pyradiosky
