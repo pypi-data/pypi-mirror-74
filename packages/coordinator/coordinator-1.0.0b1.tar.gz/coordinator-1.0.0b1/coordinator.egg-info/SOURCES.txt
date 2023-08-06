@@ -1,0 +1,8 @@
+README.md
+setup.py
+coordinator/__init__.py
+coordinator.egg-info/PKG-INFO
+coordinator.egg-info/SOURCES.txt
+coordinator.egg-info/dependency_links.txt
+coordinator.egg-info/requires.txt
+coordinator.egg-info/top_level.txt
