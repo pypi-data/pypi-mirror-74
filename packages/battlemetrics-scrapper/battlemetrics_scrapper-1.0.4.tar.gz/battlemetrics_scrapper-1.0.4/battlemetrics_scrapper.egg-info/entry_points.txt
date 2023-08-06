@@ -1,0 +1,3 @@
+[console_scripts]
+battlemetrics_scrapper = battlemetrics_scrapper:get_latest_gameserverstat_world
+
