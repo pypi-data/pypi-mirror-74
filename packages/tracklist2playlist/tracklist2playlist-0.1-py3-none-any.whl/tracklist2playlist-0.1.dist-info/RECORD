@@ -1,0 +1,12 @@
+tracklist2playlist/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tracklist2playlist/main.py,sha256=VUlCaxyguQUOSptGREqstiLPlok0h1hbM95D6n5CoV4,1387
+tracklist2playlist/spotitools.py,sha256=Vvyx6BRJJLv3Xo-nBcdywqq3T72mxukxZiTTtzEyqjQ,3318
+tracklist2playlist_sources/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tracklist2playlist_sources/livetracklist.py,sha256=ol788qOgtpN5och_x8AeGCvlXolacf-eu1DqxekzF6s,1119
+tracklist2playlist_sources/thousandonetracklists.py,sha256=v2L34I8H4Hf5LxPfFoFf7A4mhKXLNT6QqFgIvJKu19U,1667
+tracklist2playlist-0.1.dist-info/LICENSE,sha256=r1-BtTkqF5wp4T27Z-V7EErLMB2b2pqEtpdh49wxrMQ,1068
+tracklist2playlist-0.1.dist-info/METADATA,sha256=t48gJsURAvGKyCX6KMzCGY6u7HJOqJwCTO2bDQ3177k,1138
+tracklist2playlist-0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+tracklist2playlist-0.1.dist-info/entry_points.txt,sha256=O7-xf8bmHV-S2eXv85BFz4HensswUdYcAIxckMl9YlQ,54
+tracklist2playlist-0.1.dist-info/top_level.txt,sha256=zHNL7kwcV5TIK7N3vWK-tQGRkou9rb8hb-ufwrZqglo,46
+tracklist2playlist-0.1.dist-info/RECORD,,
