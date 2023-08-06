@@ -1,0 +1,69 @@
+- hosts: all
+  name: Autoconverted job legacy-vitrage-dsvm-api-py27 from old job gate-vitrage-dsvm-api-py27-ubuntu-xenial
+  tasks:
+
+    - name: Ensure legacy workspace directory
+      file:
+        path: '{{ ansible_user_dir }}/workspace'
+        state: directory
+
+    - shell:
+        cmd: |
+          set -e
+          set -x
+          cat > clonemap.yaml << EOF
+          clonemap:
+            - name: openstack/devstack-gate
+              dest: devstack-gate
+          EOF
+          /usr/zuul-env/bin/zuul-cloner -m clonemap.yaml --cache-dir /opt/git \
+              https://opendev.org \
+              openstack/devstack-gate
+        executable: /bin/bash
+        chdir: '{{ ansible_user_dir }}/workspace'
+      environment: '{{ zuul | zuul_legacy_vars }}'
+
+    - shell:
+        cmd: |
+          set -e
+          set -x
+          export PYTHONUNBUFFERED=true
+          export PROJECTS="openstack/python-vitrageclient $PROJECTS"
+          export PROJECTS="openstack/aodh $PROJECTS"
+          export PROJECTS="openstack/mistral $PROJECTS"
+          export PROJECTS="openstack/vitrage $PROJECTS"
+          export PROJECTS="openstack/vitrage-tempest-plugin $PROJECTS"
+
+          export DEVSTACK_GATE_USE_PYTHON3=False
+
+          function pre_test_hook {
+              source $BASE/new/vitrage-tempest-plugin/devstack/pre_test_hook.sh
+          }
+          export -f pre_test_hook
+
+          function gate_hook {
+              source $BASE/new/vitrage/devstack/gate_hook.sh
+          }
+          export -f gate_hook
+
+          function post_test_hook {
+              # use vitrage-tempest-plugin 2.2.0 in stein
+              cd $BASE/new/vitrage-tempest-plugin/
+              git_checkout_tag vitrage-tempest-plugin 2.2.0
+              git cherry-pick d1b2092c8fdb062c8b551fe46047b920ea878adb
+              git config user.email "you@example.com"
+              git config user.name "Your Name"
+              git commit -m"patch"
+              git cherry-pick 9993c6320d95419601dbcb2d3cb920103c536341
+              git commit -m"patch"
+              git cherry-pick 9c315484782e8eb0373970f179a6f5c40de5cf39
+
+              source $BASE/new/vitrage-tempest-plugin/devstack/post_test_hook.sh 'api'
+          }
+          export -f post_test_hook
+
+          cp devstack-gate/devstack-vm-gate-wrap.sh ./safe-devstack-vm-gate-wrap.sh
+          ./safe-devstack-vm-gate-wrap.sh
+        executable: /bin/bash
+        chdir: '{{ ansible_user_dir }}/workspace'
+      environment: '{{ zuul | zuul_legacy_vars }}'
