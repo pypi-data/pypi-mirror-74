@@ -1,0 +1,6 @@
+README.md
+setup.py
+example_pkg_jjbiggins.egg-info/PKG-INFO
+example_pkg_jjbiggins.egg-info/SOURCES.txt
+example_pkg_jjbiggins.egg-info/dependency_links.txt
+example_pkg_jjbiggins.egg-info/top_level.txt
