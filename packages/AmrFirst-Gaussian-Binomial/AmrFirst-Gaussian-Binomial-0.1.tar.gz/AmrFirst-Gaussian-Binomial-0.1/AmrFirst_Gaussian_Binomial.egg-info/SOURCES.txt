@@ -1,0 +1,10 @@
+setup.py
+AmrFirst-Gaussian-Binomial/Binomialdistribution.py
+AmrFirst-Gaussian-Binomial/Gaussiandistribution.py
+AmrFirst-Gaussian-Binomial/Generaldistribution.py
+AmrFirst-Gaussian-Binomial/__init__.py
+AmrFirst_Gaussian_Binomial.egg-info/PKG-INFO
+AmrFirst_Gaussian_Binomial.egg-info/SOURCES.txt
+AmrFirst_Gaussian_Binomial.egg-info/dependency_links.txt
+AmrFirst_Gaussian_Binomial.egg-info/not-zip-safe
+AmrFirst_Gaussian_Binomial.egg-info/top_level.txt
