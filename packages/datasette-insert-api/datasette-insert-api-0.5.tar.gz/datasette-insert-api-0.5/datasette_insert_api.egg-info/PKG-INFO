@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: datasette-insert-api
+Version: 0.5
+Summary: datasette-insert-api is now datasette-insert
+Home-page: UNKNOWN
+License: UNKNOWN
+Description: # datasette-insert-api is now datasette-insert
+        
+        This package has been renamed. Use `pip install datasette-insert` instead.
+        
+        New package: https://pypi.org/project/datasette-insert/
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 7 - Inactive
+Description-Content-Type: text/markdown
