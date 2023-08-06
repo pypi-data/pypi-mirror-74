@@ -1,0 +1,13 @@
+chatbot_builder/__init__.py,sha256=4hgxmRveFjxpN-kctIuqrMDzVQkbnHEyOvvkIz543bo,143
+chatbot_builder/bot_builder.py,sha256=3Giv_QLWDwH19EVIJrq9laUsGq3xDDnDHU7hwZiVlsA,11371
+chatbot_builder/bot_builder_cli.py,sha256=2Tyy3HesFT1-RxqnugWmU2V7YAyAhxoG_tK1WlS5XsU,17145
+chatbot_builder/constants.py,sha256=1BejFXaeQ9sP2DAYbw4QQpSjIfdJC1o2YU590Pr39ME,481
+chatbot_builder/clients/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+chatbot_builder/clients/discord_bot.py,sha256=d9AweHhFptF77PZFTB-RuYHwLEbhoqOTM-jjXFy6pLo,1563
+chatbot_builder/clients/discord_client.py,sha256=5PBHH2nnfGRaweFVH72ylrhxYrYlEgrogliFRWT_bbw,3166
+chatbot_builder-0.5.0.dist-info/DESCRIPTION.rst,sha256=Wdo_MjcTvW9L2u8oXq5jLzRKJfJud2DlxV7V2tziY5U,991
+chatbot_builder-0.5.0.dist-info/METADATA,sha256=UtTAPlYreinH9XEpIknwMCSa5_Dq5-AfYdro2FG-Q6U,1353
+chatbot_builder-0.5.0.dist-info/RECORD,,
+chatbot_builder-0.5.0.dist-info/WHEEL,sha256=rNo05PbNqwnXiIHFsYm0m22u4Zm6YJtugFG2THx4w3g,92
+chatbot_builder-0.5.0.dist-info/metadata.json,sha256=1YSAtFJK4q3GkxnP1XzIr8uISDPjnGour8z9HllfJ9w,560
+chatbot_builder-0.5.0.dist-info/top_level.txt,sha256=Vkl1pOmqlMKjplAP0Nvb0phGV-yFQACAwaaCO3C8HIw,16
