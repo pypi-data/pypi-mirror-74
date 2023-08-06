@@ -1,0 +1,11 @@
+turtlefy/__init__.py,sha256=YE7NsV5QWfthzlNSw3d4Mkx5HLZQeZhaQ0_Ovha6Y6c,71
+turtlefy/__main__.py,sha256=tFExyDeb8kQ7O_a51uQZO6ZFFhwv0ZgJi4B30p6p0wQ,289
+turtlefy/client.py,sha256=-8onJ7bL2Fu__rDYnQoUkAehmUosOnoalixR2znw7x4,1227
+turtlefy/filters.py,sha256=An8_BZaB44vSWMwBp0gZQC3pbU6XaRKQ8hhPr83gDh8,186
+turtlefy/hooks.py,sha256=JYDclq51TiQOqzA0k0A-pN5e80XD4KIMswKT200kmec,563
+turtlefy/resources.py,sha256=XdDLaXMK8WlmPEy4Bn0ihIKME7H0pK61vm9_HQtUTu0,3690
+turtlefy-0.5.0.dist-info/LICENSE,sha256=RJbqxLyy6y4yaHT7UsdPlqBLenqIoczEkW47igA12Rs,1067
+turtlefy-0.5.0.dist-info/METADATA,sha256=9i5i6QmYh2Gllhvwo8BTQJnH75ICI-f5ms1FHS1vqhc,3315
+turtlefy-0.5.0.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+turtlefy-0.5.0.dist-info/top_level.txt,sha256=WWS8By8EMpjuudk9D03XV5QJAs_aHzEMO78avvU2Nkk,9
+turtlefy-0.5.0.dist-info/RECORD,,
