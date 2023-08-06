@@ -1,0 +1,6 @@
+README.md
+setup.py
+src/HLTV.egg-info/PKG-INFO
+src/HLTV.egg-info/SOURCES.txt
+src/HLTV.egg-info/dependency_links.txt
+src/HLTV.egg-info/top_level.txt
