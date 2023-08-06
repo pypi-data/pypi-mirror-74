@@ -1,0 +1,11 @@
+faiss-cpu-noavx2==1.6.3
+tensorflow>=2.2,<3
+efficientnet==1.1.0
+numpy
+tensorflow_datasets
+fire
+pandas
+pyarrow
+dataclasses
+ipython==7.16.1
+ipywidgets==7.5.1
