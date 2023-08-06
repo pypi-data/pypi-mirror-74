@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+yashkulkarni_distributions/Binomialdistribution.py
+yashkulkarni_distributions/Gaussiandistribution.py
+yashkulkarni_distributions/Generaldistribution.py
+yashkulkarni_distributions/__init__.py
+yashkulkarni_distributions.egg-info/PKG-INFO
+yashkulkarni_distributions.egg-info/SOURCES.txt
+yashkulkarni_distributions.egg-info/dependency_links.txt
+yashkulkarni_distributions.egg-info/not-zip-safe
+yashkulkarni_distributions.egg-info/top_level.txt
