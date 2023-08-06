@@ -1,0 +1,4 @@
+[spacy_factories]
+sentencebert_add_model_to_doc = spacy_sentence_bert:AddModelToDoc
+sentencebert_overwrite_vectors = spacy_sentence_bert:OverwriteVectors
+
