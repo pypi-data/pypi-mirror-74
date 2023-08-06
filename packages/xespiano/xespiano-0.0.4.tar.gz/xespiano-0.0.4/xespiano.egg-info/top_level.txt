@@ -1,0 +1,10 @@
+mkpiano
+mkpiano\boards
+mkpiano\boards\base
+mkpiano\boards\mbuild
+mkpiano\comm
+mkpiano\comm\SerialPort
+mkpiano\modules
+mkpiano\modules\mbuild
+mkpiano\protocols
+mkpiano\utils
