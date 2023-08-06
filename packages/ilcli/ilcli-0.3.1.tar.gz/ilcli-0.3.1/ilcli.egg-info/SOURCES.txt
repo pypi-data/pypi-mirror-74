@@ -1,0 +1,14 @@
+README.md
+setup.cfg
+setup.py
+ilcli/__init__.py
+ilcli/actions.py
+ilcli/args.py
+ilcli/command.py
+ilcli.egg-info/PKG-INFO
+ilcli.egg-info/SOURCES.txt
+ilcli.egg-info/dependency_links.txt
+ilcli.egg-info/requires.txt
+ilcli.egg-info/top_level.txt
+test/test_mycmd.py
+test/test_out_err.py
