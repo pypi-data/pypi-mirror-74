@@ -1,0 +1,9 @@
+CHANGELOG.txt
+LICENCE.txt
+README.txt
+__init__.py
+setup.py
+whitecanzelib.egg-info/PKG-INFO
+whitecanzelib.egg-info/SOURCES.txt
+whitecanzelib.egg-info/dependency_links.txt
+whitecanzelib.egg-info/top_level.txt

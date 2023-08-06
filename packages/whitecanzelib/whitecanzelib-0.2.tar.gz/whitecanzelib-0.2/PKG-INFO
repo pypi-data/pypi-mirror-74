@@ -1,0 +1,26 @@
+Metadata-Version: 1.1
+Name: whitecanzelib
+Version: 0.2
+Summary: This is my basic python library.
+Home-page: UNKNOWN
+Author: Phatcharapong Jullamonton
+Author-email: whitecanze123@gmail.com
+License: MIT
+Description: This's my basic python library. 
+        
+        - Basic calculator.
+        - Call current temperature data in JSON format. 
+        
+        Change Log
+        ==========
+        
+        0.2 (19/04/2020)
+        ----------------
+        -Update call current temperature data
+Keywords: whitecanze
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
