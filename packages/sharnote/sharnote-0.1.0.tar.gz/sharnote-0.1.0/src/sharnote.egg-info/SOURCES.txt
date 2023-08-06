@@ -1,0 +1,12 @@
+LICENSE.txt
+MANIFEST.in
+Pipfile
+Pipfile.lock
+README.md
+setup.py
+src/sharnote.py
+src/sharnote.egg-info/PKG-INFO
+src/sharnote.egg-info/SOURCES.txt
+src/sharnote.egg-info/dependency_links.txt
+src/sharnote.egg-info/entry_points.txt
+src/sharnote.egg-info/top_level.txt
