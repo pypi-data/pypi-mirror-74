@@ -1,0 +1,15 @@
+nbformat
+nbconvert
+numpy
+pandas
+
+[doc]
+sphinx
+recommonmark
+
+[ipc]
+jupyter-client
+
+[test]
+pytest
+pytest-mock
