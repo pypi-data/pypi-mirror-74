@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: pynohup
+Version: 1.0.1
+Summary: 后台运行python文件的模块
+Home-page: http://www.nnzhp.cn/archives/646
+Author: HanyangNiu
+Author-email: niuhanyang@163.com
+License: MIT
+Keywords: pynohup python package
+
+后台运行python文件
+
+
