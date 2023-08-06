@@ -1,0 +1,10 @@
+debugtrace/__init__.py,sha256=cg8Vrx2dCv_4HkLLwHen-PFKgloC5ECE2QDm0mDevGQ,251
+debugtrace/_print.py,sha256=Kp8iSEWXhMTNbQ3WGmEkoXjj3UYxQQdNh0flbtFQHAA,260
+debugtrace/log_buffer.py,sha256=rhuIVPFR7JGEhZCKATg61rzt8dVyzbrkRr_jqhwNTCg,3400
+debugtrace/main.py,sha256=gu9HfmP5MmnZ7YplugRgpG5GMjjWj5FEqmzvtKWJ18M,35763
+debugtrace/version.py,sha256=KfZS4UAKhU_oQ25U_K1YI9jsc7KLxL6_MlNDbxK2-ho,56
+debugtrace-1.0.1.dist-info/LICENSE,sha256=0XQdqS1ZUAKRCFOIAwTM9BwViiYjvQ50_0CgSwVLjwU,1070
+debugtrace-1.0.1.dist-info/METADATA,sha256=0tcym_d9ua09Tk7VYHMqn7MXabp6Jlq2Wyj9lhJwNp8,10707
+debugtrace-1.0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+debugtrace-1.0.1.dist-info/top_level.txt,sha256=S7d23_QGs54iQqSKR817rNitMTadpK8TXH9NYlxjzuk,11
+debugtrace-1.0.1.dist-info/RECORD,,
