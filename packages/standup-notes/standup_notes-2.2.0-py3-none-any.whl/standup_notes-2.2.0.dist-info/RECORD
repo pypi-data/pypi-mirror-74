@@ -1,0 +1,12 @@
+standup_notes/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+standup_notes/__main__.py,sha256=Ss8lZU6m9ac6rzeYSFH2FJiPOc6U4y2i2BvNoNSXRwc,10887
+standup_notes/resources/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+standup_notes/resources/config.json,sha256=pmacddz2aUgC-AKxwh3IBKCIVCrqvorindNe_J7htr0,62
+standup_notes/resources/standup-notes.bash,sha256=a9UIERskhIvyQTQwRXnjBB3U2-j1MI4Ct9FX4r8tso4,883
+standup_notes/resources/standup.template,sha256=CYtaF75Aw_hJ5QWFlLN7t0_51aVdTcsiU1NoFO8w_0I,75
+standup_notes-2.2.0.dist-info/LICENSE,sha256=7EI8xVBu6h_7_JlVw-yPhhOZlpY9hP8wal7kHtqKT_E,1074
+standup_notes-2.2.0.dist-info/METADATA,sha256=xzNnVmn9qCRPEJ4TY0NYzXvU-s2HAuuWLz1HVyIPUrk,4869
+standup_notes-2.2.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+standup_notes-2.2.0.dist-info/entry_points.txt,sha256=LObAUGMpF9D_JDmxJ-IGZzmPVG_tjOnLZyFRuKQaPEA,63
+standup_notes-2.2.0.dist-info/top_level.txt,sha256=OB-PfoxUy89daeOltiZCUTmwBvug6sCJeaeQztdmms4,14
+standup_notes-2.2.0.dist-info/RECORD,,
