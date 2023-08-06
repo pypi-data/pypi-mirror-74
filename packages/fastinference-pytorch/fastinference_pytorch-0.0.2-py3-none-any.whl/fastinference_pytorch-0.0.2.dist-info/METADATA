@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: fastinference-pytorch
+Version: 0.0.2
+Summary: Using fastai for inference without fastai
+Home-page: https://github.com/muellerzr/fastinference_pytorch/tree/master/
+Author: Zachary Mueller
+Author-email: muellerzr@gmail.com
+License: Apache Software License 2.0
+Keywords: pytorch fastai
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: torch
+
+# fastinference-pytorch
+> A PyTorch-only version of fastai. 
+
+
+To use this library you **must** export your `Learner` using `fastinference`
+
+## Install
+
+`pip install fastinference_pytorch`
+
+
