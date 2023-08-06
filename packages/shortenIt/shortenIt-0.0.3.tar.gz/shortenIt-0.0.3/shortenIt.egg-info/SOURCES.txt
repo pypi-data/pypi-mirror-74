@@ -1,0 +1,8 @@
+setup.py
+shortenIt/__init__.py
+shortenIt/bot.py
+shortenIt.egg-info/PKG-INFO
+shortenIt.egg-info/SOURCES.txt
+shortenIt.egg-info/dependency_links.txt
+shortenIt.egg-info/requires.txt
+shortenIt.egg-info/top_level.txt
