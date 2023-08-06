@@ -1,0 +1,10 @@
+README.md
+setup.py
+fingafrog/__init__.py
+fingafrog/main.py
+fingafrog.egg-info/PKG-INFO
+fingafrog.egg-info/SOURCES.txt
+fingafrog.egg-info/dependency_links.txt
+fingafrog.egg-info/entry_points.txt
+fingafrog.egg-info/not-zip-safe
+fingafrog.egg-info/top_level.txt
