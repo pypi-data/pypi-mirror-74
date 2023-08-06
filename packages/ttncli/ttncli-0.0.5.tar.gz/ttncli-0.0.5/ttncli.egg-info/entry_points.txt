@@ -1,0 +1,3 @@
+[console_scripts]
+ttn_cli = ttn_cli:main
+
