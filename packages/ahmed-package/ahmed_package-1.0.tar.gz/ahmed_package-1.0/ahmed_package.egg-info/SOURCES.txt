@@ -1,0 +1,10 @@
+setup.py
+ahmed_package/Binomialdistribution.py
+ahmed_package/Gaussiandistribution.py
+ahmed_package/Generaldistribution.py
+ahmed_package/__init__.py
+ahmed_package.egg-info/PKG-INFO
+ahmed_package.egg-info/SOURCES.txt
+ahmed_package.egg-info/dependency_links.txt
+ahmed_package.egg-info/not-zip-safe
+ahmed_package.egg-info/top_level.txt
