@@ -1,0 +1,3 @@
+[console_scripts]
+evm_fm = evm_fm.__main__:main
+
