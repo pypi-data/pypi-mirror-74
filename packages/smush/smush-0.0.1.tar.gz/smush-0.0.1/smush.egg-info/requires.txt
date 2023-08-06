@@ -1,0 +1,7 @@
+PyYAML
+future
+gitpython
+pygithub
+
+[:python_version >= "3.0"]
+builtins
