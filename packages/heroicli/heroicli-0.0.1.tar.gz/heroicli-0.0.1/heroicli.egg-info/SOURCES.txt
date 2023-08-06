@@ -1,0 +1,13 @@
+README.md
+setup.py
+heroicli/__init__.py
+heroicli/cli.py
+heroicli/config_util.py
+heroicli/heroic.py
+heroicli/tags.py
+heroicli.egg-info/PKG-INFO
+heroicli.egg-info/SOURCES.txt
+heroicli.egg-info/dependency_links.txt
+heroicli.egg-info/entry_points.txt
+heroicli.egg-info/requires.txt
+heroicli.egg-info/top_level.txt
