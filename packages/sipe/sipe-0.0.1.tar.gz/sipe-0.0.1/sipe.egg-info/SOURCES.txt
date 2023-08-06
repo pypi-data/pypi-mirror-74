@@ -1,0 +1,6 @@
+README.md
+setup.py
+sipe.egg-info/PKG-INFO
+sipe.egg-info/SOURCES.txt
+sipe.egg-info/dependency_links.txt
+sipe.egg-info/top_level.txt
