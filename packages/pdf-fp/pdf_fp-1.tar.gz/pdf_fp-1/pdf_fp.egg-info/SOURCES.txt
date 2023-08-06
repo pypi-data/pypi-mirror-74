@@ -1,0 +1,10 @@
+setup.py
+pdf_fp/Binomialdistribution.py
+pdf_fp/Gaussiandistribution.py
+pdf_fp/Generaldistribution.py
+pdf_fp/__init__.py
+pdf_fp.egg-info/PKG-INFO
+pdf_fp.egg-info/SOURCES.txt
+pdf_fp.egg-info/dependency_links.txt
+pdf_fp.egg-info/not-zip-safe
+pdf_fp.egg-info/top_level.txt
