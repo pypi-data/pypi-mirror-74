@@ -1,0 +1,10 @@
+MANIFEST.in
+README
+setup.py
+fastdict/__init__.py
+fastdict/fastdict.py
+fastdict.egg-info/PKG-INFO
+fastdict.egg-info/SOURCES.txt
+fastdict.egg-info/dependency_links.txt
+fastdict.egg-info/top_level.txt
+fastdict.egg-info/zip-safe
