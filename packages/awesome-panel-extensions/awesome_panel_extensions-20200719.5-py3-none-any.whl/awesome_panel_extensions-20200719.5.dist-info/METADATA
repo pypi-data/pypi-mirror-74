@@ -1,0 +1,88 @@
+Metadata-Version: 2.1
+Name: awesome-panel-extensions
+Version: 20200719.5
+Summary: A package of awesome panel extensions.
+Home-page: https://github.com/marcskovmadsen/awesome-panel-extensions
+Author: Marc Skov Madsen
+Author-email: marc.skov.madsen@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Financial and Insurance Industry
+Classifier: Intended Audience :: Healthcare Industry
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: Legal Industry
+Classifier: Intended Audience :: Other Audience
+Classifier: Intended Audience :: Science/Research
+Classifier: Natural Language :: English
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Visualization
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Classifier: Topic :: Office/Business
+Classifier: Topic :: Office/Business :: Financial
+Classifier: Topic :: Software Development :: Libraries
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: panel (>=0.9.7)
+Provides-Extra: all
+Requires-Dist: autoflake ; extra == 'all'
+Requires-Dist: invoke ; extra == 'all'
+Requires-Dist: isort ; extra == 'all'
+Requires-Dist: matplotlib ; extra == 'all'
+Requires-Dist: mypy ; extra == 'all'
+Requires-Dist: notebook ; extra == 'all'
+Requires-Dist: pandas ; extra == 'all'
+Requires-Dist: pandas-profiling ; extra == 'all'
+Requires-Dist: pylint ; extra == 'all'
+Requires-Dist: pytest ; extra == 'all'
+Requires-Dist: seaborn ; extra == 'all'
+Requires-Dist: twine ; extra == 'all'
+Provides-Extra: doc
+Requires-Dist: notebook ; extra == 'doc'
+Requires-Dist: pandas-profiling ; extra == 'doc'
+Provides-Extra: examples
+Requires-Dist: notebook ; extra == 'examples'
+Requires-Dist: pandas-profiling ; extra == 'examples'
+Requires-Dist: matplotlib ; extra == 'examples'
+Requires-Dist: pandas ; extra == 'examples'
+Requires-Dist: seaborn ; extra == 'examples'
+Provides-Extra: recommended
+Requires-Dist: notebook ; extra == 'recommended'
+Requires-Dist: pandas-profiling ; extra == 'recommended'
+Provides-Extra: tests
+Requires-Dist: autoflake ; extra == 'tests'
+Requires-Dist: isort ; extra == 'tests'
+Requires-Dist: mypy ; extra == 'tests'
+Requires-Dist: pylint ; extra == 'tests'
+Requires-Dist: pytest ; extra == 'tests'
+Requires-Dist: invoke ; extra == 'tests'
+Requires-Dist: twine ; extra == 'tests'
+
+# Awesome Panel Extensions
+
+[Panel](https://panel.holoviz.org/) as a framework for creating powerful &#128170;, reactive analytics apps in Python using the tools you know &#x1f9e0; and love &hearts;.
+
+This package contains Panel Extensions and Tools that add to the power of Panel.
+
+You can install the package via
+
+```python
+pip install awesome-panel-extensions
+```
+
+Check out the [Package Documentation](https://github.com/marcskovmadsen/awesome-panel-extensions#the-awesome-panel-extensions-package) to learn more about using the extension.
+
+Checkout the [Awesome Panel Extensions Documentation](https://github.com/marcskovmadsen/awesome-panel-extensions) to learn how you can develop your own awesome panel extensions.
+
+Please note
+
+- This package is under rapid development (i.e. **alpha stage**). The api might change or functionality might be moved into Panel or to stand alone packages. If you find a version that works for you please pin it.
+
+
