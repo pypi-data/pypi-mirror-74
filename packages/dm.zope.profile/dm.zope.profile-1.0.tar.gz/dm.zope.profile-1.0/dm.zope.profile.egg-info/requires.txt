@@ -1,0 +1,4 @@
+Zope>=4
+dm.reuse
+setuptools
+z3c.form

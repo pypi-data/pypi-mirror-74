@@ -1,0 +1,16 @@
+<configure xmlns:meta="http://namespaces.zope.org/meta">
+
+  <meta:directives namespace="http://namespaces.zope.org/dm.zope.profile">
+
+    <meta:complexDirective
+        name="config"
+        schema=".metaconfigure.IProfilerConfig"
+        handler=".metaconfigure.ProfilerConfig"
+        >
+      <meta:subdirective
+        name="element"
+        schema=".metaconfigure.IElement" />
+    </meta:complexDirective>
+  </meta:directives>
+</configure>
+	

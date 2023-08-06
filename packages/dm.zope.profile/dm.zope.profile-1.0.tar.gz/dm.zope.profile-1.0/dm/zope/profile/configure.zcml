@@ -1,0 +1,41 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:z3c="http://namespaces.zope.org/z3c"
+    xmlns:browser="http://namespaces.zope.org/browser">
+
+    <include package="zope.annotation" />
+    <include package="z3c.form" file="meta.zcml" />
+    <include package="z3c.form" />
+
+    <permission id="dm.zope.profile.Manage" title="dm.zope.profile: manage" />
+
+    <browser:page
+        for="OFS.interfaces.IApplication"
+        class=".browser.IntegrationForm"
+	permission="dm.zope.profile.Manage" 
+	name="profile"
+	/>
+
+    <adapter factory=".browser.collection_2_field_widget" />
+    <adapter factory=".browser.collection_str_2_field_widget" />
+
+    <adapter factory="z3c.form.converter.MultiConverter"
+       for="zope.schema.interfaces.ICollection
+            z3c.form.interfaces.IMultiWidget" />
+
+  <z3c:widgetTemplate
+      mode="input"
+      widget="z3c.form.interfaces.IMultiWidget"
+      layer=".browser.ILayer"
+      template="multi_input.pt"
+      />
+
+  <configure package="z3c.form.browser">
+    <!-- make it globally available -->
+    <browser:resource
+      name="orderedselect_input.js"
+      file="orderedselect_input.js"
+      />
+  </configure>
+
+</configure>

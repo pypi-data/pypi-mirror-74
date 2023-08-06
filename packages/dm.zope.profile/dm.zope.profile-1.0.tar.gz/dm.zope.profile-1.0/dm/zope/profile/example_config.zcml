@@ -1,0 +1,12 @@
+<!-- the example recreates the default configuration -->
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:dzp="http://namespaces.zope.org/dm.zope.profile"
+    >
+  <include file="meta.zcml" />
+  <dzp:config timer="real time" type="stats" strip_dirs="True">
+    <dzp:element name="exclude" value="@@profile$" />
+    <dzp:element name="sort_by" value="cumulative" />
+    <dzp:element name="restrictions" value="100" />
+  </dzp:config>
+</configure>

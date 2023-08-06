@@ -1,0 +1,125 @@
+<h1 tal:replace="structure here/manage_page_header">Header</h1>
+<h2 tal:condition="view/support_zmi|nothing"
+    tal:replace="structure context/manage_tabs">manage_tabs</h2>
+
+<main class="container-fluid">
+  <form action="" metal:define-macro="master"
+      method="post"
+      enctype="multipart/form-data"
+      id="zc.page.browser_form"
+      tal:define="subforms view/subforms"
+  >
+
+    <i tal:define="status view/combined_status"
+       tal:condition="status" tal:content="status" />
+    <ul tal:define="errors view/combined_errors"
+	tal:condition="errors">
+      <li tal:repeat="error errors">
+        <tal:block condition="error/widget">
+          <tal:block replace="error/widget/label" />:
+        </tal:block>
+        <tal:block replace="structure error/render" />
+      </li>
+    </ul>
+
+      <h1 
+       i18n:translate=""
+       tal:condition="view/label"
+       tal:content="view/label"
+       >Do something</h1>
+  <p tal:content="view/description|nothing" class="form-help">Description</p>
+  <tal:subform repeat="form view/subforms">
+  <div style="display: none"
+       tal:define="form_name form/form_name"
+       tal:attributes="id string:manage-$form_name">
+    <b tal:content="form_name"/>
+    <span tal:content="form/summary|nothing" />
+    <button type="button" tal:attributes="onClick string:manage('$form_name')">Manage</button>
+  </div>
+  <metal:macro define-macro="form_body">
+  <fieldset
+    class="form-group"
+    style="display: block"
+    tal:define="form_name form/form_name|nothing"
+    tal:omit-tag="not: form_name"
+    tal:attributes="id string:fieldset-$form_name">
+    <legend tal:content="form_name"
+            tal:condition="form_name">Form name</legend>
+  <div class="row" tal:repeat="widget form/widgets/values">
+         <div class="col-sm-3" tal:condition="python: widget.mode!='hidden'">
+          <label tal:condition="widget/label"
+             tal:attributes="
+	         for widget/id;
+		 title widget/field/description|nothing;
+		 ">
+            <span i18n:translate=""
+                  tal:content="widget/label">label</span>
+          </label>
+          <span class="fieldRequired" title="Required"
+                tal:condition="widget/required"
+                i18n:translate="label_required"
+                i18n:attributes="title title_required;">
+            *
+          </span>
+	  </div>
+          <div class="col-sm-9 widget" tal:content="structure widget/render" />
+          <div class="col-sm-12"
+	       tal:define="description widget/field/description; error widget/error"
+	  >
+	    <tal:comment tal:condition="nothing">
+	      <!-- The structure keyword is necessary as Invariant strings have a
+	           span tag. It is often useful to set Invariant errors on the
+		   fields they refer to. -->
+	    </tal:comment>
+            <div class="fieldErrorBox" tal:content="structure error/render" tal:condition="error">
+              The Error
+            </div>
+	  </div>
+    </div>
+  <div id="actionsView" class="form-group row zmi-controls">
+    <span class="actionButtons">
+      <input tal:repeat="action form/actions/values"
+             tal:replace="structure action/render"
+             />
+    </span>
+  </div>
+    <button type="button" style="display:none"
+	    tal:condition="form_name"
+	    tal:attributes="
+	      onClick string:unmanage('$form_name');
+	      id string:button-$form_name;
+	      ">Unmanage</button>
+  </fieldset>
+  </metal:macro>
+  </tal:subform>
+  <tal:div define="form nocall: view">
+    <metal:use use-macro="template/macros/form_body"/>
+  </tal:div>
+  </form>
+  <pre tal:content="view/process_stats" />
+</main>
+<script>
+  function update_manage(form) {
+    if (document.getElementsByName("form.widgets." + form)[0].value == "true") {
+      document.getElementById("fieldset-" + form).style.display="block";
+      document.getElementById("manage-" + form).style.display="none";
+    } else {
+      document.getElementById("fieldset-" + form).style.display="none";
+      document.getElementById("manage-" + form).style.display="block";
+    }
+  }
+
+  function manage(form) {
+    document.getElementsByName("form.widgets." + form)[0].value = "true"
+    update_manage(form)
+    }
+  function unmanage(form) {
+    document.getElementsByName("form.widgets." + form)[0].value = "false"
+    update_manage(form)
+    }
+  <tal:subform repeat="form view/subforms">
+    update_manage('<tal:span content="form/form_name"/>');
+    document.getElementById('button-<tal:span content="form/form_name"/>').style.display="block";
+  </tal:subform>
+</script>
+<h1 tal:replace="structure context/manage_page_footer">Footer</h1>
