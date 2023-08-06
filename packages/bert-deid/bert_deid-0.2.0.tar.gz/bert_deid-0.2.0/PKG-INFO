@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: bert_deid
+Version: 0.2.0
+Summary: Remove identifiers from data using BERT
+Home-page: https://github.com/alistairewj/bert-deid
+Author: Alistair Johnson
+Author-email: aewj@mit.edu
+License: Apache 2.0
+Description: UNKNOWN
+Platform: UNKNOWN
