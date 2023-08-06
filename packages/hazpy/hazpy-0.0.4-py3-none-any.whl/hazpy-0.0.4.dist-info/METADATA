@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: hazpy
+Version: 0.0.4
+Summary: FEMA - Hazus Open-Source Library
+Home-page: https://github.com/nhrap-dev/hazpy.git
+Author: James Raines, Ujvala K Sharma
+Author-email: james.rainesii@fema.dhs.gov, usharma@niyamit.com, ujvalak_in@yahoo.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# HazPy (hazpy)
+
+## Official Documentation
+
+- [HazPy Python Package Documentation](https://fema-nhrap.s3.amazonaws.com/Hazus/Python/build/html/index.html)
+
+
