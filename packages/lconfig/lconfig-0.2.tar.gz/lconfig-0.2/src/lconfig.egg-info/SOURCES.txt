@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+src/lconfig/__init__.py
+src/lconfig/config.py
+src/lconfig/config_file.py
+src/lconfig.egg-info/PKG-INFO
+src/lconfig.egg-info/SOURCES.txt
+src/lconfig.egg-info/dependency_links.txt
+src/lconfig.egg-info/top_level.txt
+src/lconfig/tests/__init__.py
+src/lconfig/tests/test_config.py
+src/lconfig/tests/test_config_file.py

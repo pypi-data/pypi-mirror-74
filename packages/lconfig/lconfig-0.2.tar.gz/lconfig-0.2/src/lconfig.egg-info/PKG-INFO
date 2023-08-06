@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: lconfig
+Version: 0.2
+Summary: Helper class to support YAML configuration files
+Home-page: https://github.com/lbacik/python-config
+Author: Łukasz Bacik
+Author-email: mail@luka.sh
+License: LGPLv2.1
+Description: 
+        
+        ![Python application](https://github.com/lbacik/python-config/workflows/Python%20application/badge.svg)
+        ![Upload Python Package](https://github.com/lbacik/python-config/workflows/Upload%20Python%20Package/badge.svg)
+        
+        work in progress...
+        
+Platform: UNKNOWN
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Description-Content-Type: text/markdown
