@@ -1,0 +1,10 @@
+setup.py
+distributions_marsie/Binomialdistribution.py
+distributions_marsie/Gaussiandistribution.py
+distributions_marsie/Generaldistribution.py
+distributions_marsie/__init__.py
+distributions_marsie.egg-info/PKG-INFO
+distributions_marsie.egg-info/SOURCES.txt
+distributions_marsie.egg-info/dependency_links.txt
+distributions_marsie.egg-info/not-zip-safe
+distributions_marsie.egg-info/top_level.txt
