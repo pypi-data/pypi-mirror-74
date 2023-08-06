@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: pymonics
+Version: 0.3
+Summary: A Powersystems harmonic estimation and filter design package for Python
+Home-page: https://github.com/ECOWET-Toolset/Pymonics
+Author: Venkatesh Pampana & Ankit Srivastava
+Author-email: venkatmr.perfect@gmail.com
+License: MIT
+Keywords: harmonics,power systems,harmonic filters,low-pass filter,high-pass filter,Memo
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Description-Content-Type: text/markdown
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: scipy
+
+# Pymonics
+A Powersystems harmonic estimation and filter design package for Python
+Detailed Example tutorial coming soon...
+
+#About the Tool
+
+
+#
+
+
