@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: stormlock
+Version: 0.1.0
+Summary: Simple distributed lock with support for multiple backends
+Author: Thayne McCombs
+Author-email: astrothayne@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Provides-Extra: dynamodb
+Provides-Extra: etcd
+Provides-Extra: postgresql
+Provides-Extra: redis
+Requires-Dist: boto3 (>=1.13.1,<2.0.0); extra == "dynamodb"
+Requires-Dist: etcd3 (>=0.12.0,<0.13.0); extra == "etcd"
+Requires-Dist: psycopg2 (>=2.8.5,<3.0.0); extra == "postgresql"
+Requires-Dist: redis (>=3.4.1,<4.0.0); extra == "redis"
