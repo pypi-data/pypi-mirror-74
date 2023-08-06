@@ -1,0 +1,9 @@
+include LICENSE
+include README.rst
+include MANIFEST.in
+include docs/*
+include tox.ini
+include requirements.txt
+include .travis.yml
+include .coveragerc
+include HISTORY.rst
