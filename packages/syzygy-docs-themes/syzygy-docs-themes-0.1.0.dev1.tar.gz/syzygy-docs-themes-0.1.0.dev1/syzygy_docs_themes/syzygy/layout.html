@@ -1,0 +1,187 @@
+{#
+  Copyright (C) 2020 Pascal Pepe
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+#}
+<!doctype html>
+{%- set reldelim1 = reldelim1 is not defined and ' &#187;' or reldelim1 %}
+{%- set reldelim2 = reldelim2 is not defined and ' |' or reldelim2 %}
+{%- set render_sidebar = (not embedded) and (not theme_nosidebar|tobool) and
+                       (sidebars != []) %}
+{%- set url_root = pathto('', 1) %}
+{# XXX necessary? #}
+{%- if url_root == '#' %}{% set url_root = '' %}{% endif %}
+{%- if not embedded and docstitle %}
+{%- set titlesuffix = " &#8212; "|safe + docstitle|e %}
+{%- else %}
+{%- set titlesuffix = "" %}
+{%- endif %}
+
+{%- macro script() %}
+  <script id="documentation_options" data-url_root="{{ pathto('', 1) }}" src="{{ pathto('_static/documentation_options.js', 1) }}"></script>
+  {%- for js in script_files %}
+  {{ js_tag(js) }}
+  {%- endfor %}
+{%- endmacro -%}
+
+{%- macro css() %}
+  <link rel="stylesheet" href="{{ pathto('_static/' + style, 1)|e }}">
+  <link rel="stylesheet" href="{{ pathto('_static/pygments.css', 1) }}">
+  {%- for css in css_files %}
+    {%- if css|attr("filename") %}
+  {{ css_tag(css) }}
+    {%- else %}
+  <link rel="stylesheet" href="{{ pathto(css, 1)|e }}">
+    {%- endif %}
+  {%- endfor %}
+{%- endmacro -%}
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  {{- metatags }}
+  {%- block htmltitle %}
+  <title>{{ title|striptags|e }}{{ titlesuffix }}</title>
+  {%- endblock %}
+  {%- block css %}
+  {{- css() }}
+  {%- endblock %}
+  {%- if not embedded %}
+  {%- block scripts %}
+  {{- script() }}
+  {%- endblock %}
+  {%- if pageurl %}
+  <link rel="canonical" href="{{ pageurl|e }}">
+  {%- endif %}
+  {%- if use_opensearch %}
+  <link rel="search" type="application/opensearchdescription+xml"
+        title="{% trans docstitle=docstitle|e %}Search within {{ docstitle }}{% endtrans %}"
+        href="{{ pathto('_static/opensearch.xml', 1) }}">
+  {%- endif %}
+  {%- if favicon %}
+  <link rel="shortcut icon" href="{{ pathto('_static/' + favicon, 1)|e }}">
+  {%- endif %}
+  {%- endif %}
+{%- block linktags %}
+  {%- if hasdoc('about') %}
+  <link rel="author" title="{{ _('About these documents') }}" href="{{ pathto('about') }}">
+  {%- endif %}
+  {%- if hasdoc('genindex') %}
+  <link rel="index" title="{{ _('Index') }}" href="{{ pathto('genindex') }}">
+  {%- endif %}
+  {%- if hasdoc('search') %}
+  <link rel="search" title="{{ _('Search') }}" href="{{ pathto('search') }}">
+  {%- endif %}
+  {%- if hasdoc('copyright') %}
+  <link rel="copyright" title="{{ _('Copyright') }}" href="{{ pathto('copyright') }}">
+  {%- endif %}
+  {%- if next %}
+  <link rel="next" title="{{ next.title|striptags|e }}" href="{{ next.link|e }}">
+  {%- endif %}
+  {%- if prev %}
+  <link rel="prev" title="{{ prev.title|striptags|e }}" href="{{ prev.link|e }}">
+  {%- endif %}
+{%- endblock %}
+{%- block extrahead %} {% endblock %}
+</head>
+{% block body_tag %}<body>{% endblock %}
+{%- block header %}
+  <header class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      {% block header_branding %}<a class="navbar-brand" href="{{ pathto('index') }}">{{ project }}</a>{% endblock %}
+      <button class="navbar-toggler" type="button"
+          data-toggle="collapse" data-target="#header-nav"
+          aria-controls="header-nav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <nav class="collapse navbar-collapse" id="header-nav">
+        {%- block header_nav %}
+        <ul class="navbar-nav mr-auto mt-1 mt-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="{{ pathto('index') }}">Docs</a>
+          </li>
+        </ul>
+        {%- endblock %}
+      </nav>
+    </div>
+  </header>
+  <nav class="navbar navbar-light bg-white shadow-sm sticky-xl-top">
+    <div class="container-fluid flex-sm-nowrap">
+      <button class="navbar-toggler d-xl-none" type="button"
+          data-toggle="collapse" data-target="#docs-globaltoc"
+          aria-controls="docs-globaltoc" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="dropdown mr-sm-auto ml-auto ml-sm-2 ml-xl-0">
+        {%- block version_dropdown %}
+        <button class="btn btn-light px-1 px-sm-2 dropdown-toggle" type="button" id="version-dropdown" data-toggle="dropdown" aria-expanded="false">
+          {%- block version_dropdown_title %}{{ project }} ({{ release }}){%- endblock %}
+        </button>
+        <ul class="dropdown-menu dropdown-menu-right dropdown-menu-sm-left shadow" aria-labelledby="version-dropdown">
+          {%- block version_dropdown_items %}
+          <li><h6 class="dropdown-header">{{ project }}</h6></li>
+          <li><a class="dropdown-item active" href="{{ pathto('index') }}">{{ release }}</a></li>
+          {%- endblock %}
+        </ul>
+        {%- endblock %}
+      </div>
+      <form class="d-flex flex-grow-1 flex-sm-grow-0 ml-sm-2 mt-1 mt-sm-0" action="{{ pathto('search') }}" method="get">
+        <div class="input-group">
+          <input type="search" class="form-control border-0 bg-light" name="q" placeholder="Search..." aria-label="Search">
+          <button class="btn btn-light" type="submit"><i class="fas fa-fw fa-search"></i></button>
+        </div>
+      </form>
+    </div>
+  </nav>
+{%- endblock %}
+
+  <div class="container-fluid pb-4">
+    <div class="row">
+      <div class="col-12 col-xl-3 col-xxl-2">
+        <nav class="globaltoc collapse pr-xxl-1" id="docs-globaltoc">
+          {%- include "globaltoc.html" %}
+        </nav>
+      </div>
+      <main class="col-12 col-xl-9 col-xxl-8 document px-xl-5 px-xxl-9 py-5">
+        {%- block document %}
+          {% block body %}{% endblock %}
+        {%- endblock %}
+        {%- include "relations.html" %}
+      </main>
+      <div class="col-xxl-2 d-none d-xxl-block">
+        <nav class="localtoc" id="docs-localtoc">
+          {%- include "localtoc.html" %}
+        </nav>
+      </div>
+    </div>
+  </div>
+
+{%- block footer %}
+  <footer class="footer footer-dark">
+    <div class="footer-inner container-fluid">
+      {%- if show_copyright %}
+        &#169; Copyright {{ copyright }}.
+      {%- endif %}
+      {%- if last_updated %}
+        Last updated on {{ last_updated }}.
+      {%- endif %}
+      {%- if show_sphinx %}
+        Created using <a href="https://www.sphinx-doc.org/" rel="nofollow">Sphinx</a> {{ sphinx_version }} and <a href="https://pascalpepe.gitlab.io/syzygy-docs-themes">Syzygy docs themes</a>.
+      {%- endif %}
+    </div>
+  </footer>
+{%- endblock %}
+  <script src="{{ pathto('_static/syzygy-docs.js', 1) }}"></script>
+</body>
+</html>
