@@ -1,0 +1,8 @@
+README.md
+setup.py
+faceit_friends/__init__.py
+faceit_friends.egg-info/PKG-INFO
+faceit_friends.egg-info/SOURCES.txt
+faceit_friends.egg-info/dependency_links.txt
+faceit_friends.egg-info/requires.txt
+faceit_friends.egg-info/top_level.txt
