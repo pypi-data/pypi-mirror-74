@@ -1,0 +1,21 @@
+Metadata-Version: 2.0
+Name: dappleyPython
+Version: 0.0.1
+Summary: dappley sdk is implemented by python
+Home-page: https://github.com/dappley/dappley-sdk-python
+Author: enjoyass
+Author-email: enjoyass@outlook.com
+License: LGPL v3 Licence
+Keywords: pip,sdk,dappley,dappworks,dappleyPython
+Platform: any
+Requires-Dist: base58 (==1.0.3)
+Requires-Dist: google (==2.0.3)
+Requires-Dist: grpc (~=0.3.post19)
+Requires-Dist: grpcio (==1.28.1)
+Requires-Dist: protobuf (==3.11.3)
+Requires-Dist: pysha3 (==1.0.2)
+Requires-Dist: secp256k1 (~=0.13.2)
+
+dappley sdk is implemented by python ,you can send transaction to dappley blockchain by this sdk
+
+
