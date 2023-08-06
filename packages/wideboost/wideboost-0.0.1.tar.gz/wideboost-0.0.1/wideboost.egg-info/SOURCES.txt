@@ -1,0 +1,9 @@
+README.md
+setup.py
+wideboost/__init__.py
+wideboost.egg-info/PKG-INFO
+wideboost.egg-info/SOURCES.txt
+wideboost.egg-info/dependency_links.txt
+wideboost.egg-info/top_level.txt
+wideboost/tests/__init__.py
+wideboost/tests/test_dummy.py
