@@ -1,0 +1,3 @@
+[console_scripts]
+stream2hop = stream2hop.__main__:main
+

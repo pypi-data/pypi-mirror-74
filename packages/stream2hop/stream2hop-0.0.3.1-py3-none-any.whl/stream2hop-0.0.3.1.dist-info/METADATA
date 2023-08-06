@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: stream2hop
+Version: 0.0.3.1
+Summary: Publish GCNs and TNS to scimma
+Home-page: https://github.com/scimma/gcn2hop
+Author: Ron Tapia
+License: GPLv3+
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Astronomy
+Classifier: Topic :: Scientific/Engineering :: Physics
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Requires-Python: >=3.6.*
+Requires-Dist: adc-streaming (<1.0)
+Requires-Dist: hop-client (>=0.0.5)
+Requires-Dist: pygcn
+Requires-Dist: twisted[tls]
+Requires-Dist: requests
+Requires-Dist: boto3
+Provides-Extra: dev
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: pytest-console-scripts ; extra == 'dev'
+Requires-Dist: pytest-cov ; extra == 'dev'
+Requires-Dist: flake8 ; extra == 'dev'
+Requires-Dist: flake8-black ; extra == 'dev'
+
+UNKNOWN
+
+
