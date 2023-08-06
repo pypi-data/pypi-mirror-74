@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+cerberus_api_client/__init__.py
+cerberus_api_client/client.py
+cerberus_api_client.egg-info/PKG-INFO
+cerberus_api_client.egg-info/SOURCES.txt
+cerberus_api_client.egg-info/dependency_links.txt
+cerberus_api_client.egg-info/not-zip-safe
+cerberus_api_client.egg-info/top_level.txt
