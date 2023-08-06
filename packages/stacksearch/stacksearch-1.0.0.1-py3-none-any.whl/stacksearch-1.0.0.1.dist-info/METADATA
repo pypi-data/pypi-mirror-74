@@ -1,0 +1,57 @@
+Metadata-Version: 2.1
+Name: stacksearch
+Version: 1.0.0.1
+Summary: StackSearch is a python module that provides a way to search StackOverflow.
+Home-page: UNKNOWN
+Author: Bryan Hu
+Author-email: bryan.hu.cn@gmail.com
+License: UNKNOWN
+Project-URL: Source Code, https://github.com/ThatXliner/stacksearch
+Keywords: api stackexchange stackoverflow python webscrape webscrap
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+Requires-Dist: bs4
+Requires-Dist: blessings
+Requires-Dist: lxml
+
+# stacksearch
+
+[![Build Status](https://travis-ci.com/ThatXliner/stacksearch.svg?branch=master)](https://travis-ci.com/ThatXliner/stacksearch) [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black) ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/ThatXliner/stacksearch) [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/ThatXliner/stacksearch/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/ThatXliner/stacksearch/?branch=master) [![Build Status](https://scrutinizer-ci.com/g/ThatXliner/stacksearch/badges/build.png?b=master)](https://scrutinizer-ci.com/g/ThatXliner/stacksearch/build-status/master)
+
+StackSearch is a python module that provides a way to search StackOverflow. The reason this is better than other modules is that this module provides a modern API, a beautiful command-line interface via argparse and blessings, all in pure Python.
+
+## Benefits
+
+TK.
+
+## Downsides
+
+TK.
+
+## Future Features
+
+- Asynchronous StackOverflow requests
+- Documentation
+- Object-oriented APIs
+- Python backwards-compatibility
+- Being able to scrape _all_ StackOverflow sites/pages
+- A better README
+- And more command-line options
+
+## Current Features
+
+- A beautiful, simple, yet powerful command-line interface
+- The ability to crank out raw JSON data to use
+
+
