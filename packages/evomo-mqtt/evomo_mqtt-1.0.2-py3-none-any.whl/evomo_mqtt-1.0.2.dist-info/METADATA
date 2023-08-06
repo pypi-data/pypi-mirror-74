@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: evomo-mqtt
+Version: 1.0.2
+Summary: A Python Library to simplify connection to Evomo IoT Platform
+Home-page: https://github.com/bhaktiyudha/evomo_mqtt
+Author: Evomo Support Team
+Author-email: info@jeager.io
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 2.7
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: paho-mqtt
+
+# Evomo Python
+
+This is a Python library to simplify the connection to Evomo IoT Platform. For more information about the platform itself, please visit the https://evomo.jeager.io.  
+
+## Installation
+Make sure you have Python (2 or 3) and pip installed.
+```
+pip install evomo-mqtt
+```
+
+### Usage Example
+#### Send data
+```python
+from evomo_mqtt import evomo
+
+myData = {
+    'T' : 77,
+    'H' : 10
+}
+
+evomo.send(myData, 'your-client-id', 'your-device-id')
+```
+
+### API Reference
+
+* `send(data, clientID, deviceID)`  
+    Send data to your Evomo project. This can be a python dictionary or string.  
+    return: response data from evomo  
+
+
