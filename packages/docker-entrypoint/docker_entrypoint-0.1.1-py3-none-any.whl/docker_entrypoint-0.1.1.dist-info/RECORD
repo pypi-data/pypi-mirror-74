@@ -1,0 +1,9 @@
+entrypoint/__init__.py,sha256=nNM1C82iyTlJBZXSOB9CFgT1kA9k2ZkPVChomm-SRNA,37
+entrypoint/debug.py,sha256=9k_7SOSat54geKYog_5hqzP8bRyfy3pM5Bndrq4z0sg,4036
+entrypoint/main.py,sha256=X6w73Mds4TGpskCJacs087K1cPQH8TwJfy79v5o22FU,2481
+docker_entrypoint-0.1.1.dist-info/LICENSE.txt,sha256=0G7lTXN66ZkZtydYJftGUMB2X1GYWqJiShqhLFA-iK8,1078
+docker_entrypoint-0.1.1.dist-info/METADATA,sha256=musiYJSr5jvr43TBQX7s-GcZWASdv2QXWkn_qKsQV2E,5723
+docker_entrypoint-0.1.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+docker_entrypoint-0.1.1.dist-info/entry_points.txt,sha256=15xBwYislqcn2nKufdUW36pdnMHae_TVkak-JjzAkV8,71
+docker_entrypoint-0.1.1.dist-info/top_level.txt,sha256=9tG8Z69LxdobacwKPYHsIElCd3Z9WnGe71GAM7Xlnwg,11
+docker_entrypoint-0.1.1.dist-info/RECORD,,
