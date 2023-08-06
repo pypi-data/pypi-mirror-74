@@ -1,0 +1,7 @@
+README.rst
+setup.py
+hfapi.egg-info/PKG-INFO
+hfapi.egg-info/SOURCES.txt
+hfapi.egg-info/dependency_links.txt
+hfapi.egg-info/requires.txt
+hfapi.egg-info/top_level.txt
