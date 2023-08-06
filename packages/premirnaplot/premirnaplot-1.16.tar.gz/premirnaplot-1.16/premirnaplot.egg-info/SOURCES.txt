@@ -1,0 +1,14 @@
+MANIFEST.in
+README
+setup.py
+covcolor/covcolor.py
+premirnaplot/__init__.py
+premirnaplot/extra.py
+premirnaplot/imgparser.py
+premirnaplot/precursor.py
+premirnaplot/premirnaplot
+premirnaplot.egg-info/PKG-INFO
+premirnaplot.egg-info/SOURCES.txt
+premirnaplot.egg-info/dependency_links.txt
+premirnaplot.egg-info/requires.txt
+premirnaplot.egg-info/top_level.txt
