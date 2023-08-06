@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: psdr
+Version: 0.3.1
+Summary: Parameter Space Dimension Reduction Toolbox
+Home-page: UNKNOWN
+Author: Jeffrey M. Hokanson
+Author-email: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: numpy (>=1.15)
+Requires-Dist: scipy (>=1.1.0)
+Requires-Dist: redis
+Requires-Dist: cvxpy
+Requires-Dist: cvxopt
+Requires-Dist: tqdm
+Requires-Dist: dask
+Requires-Dist: distributed
+Requires-Dist: sobol-seq
+Requires-Dist: satyrn (>=0.3.2)
+Requires-Dist: matplotlib
+Requires-Dist: iterprinter
+Requires-Dist: cython
+
+UNKNOWN
+
+
