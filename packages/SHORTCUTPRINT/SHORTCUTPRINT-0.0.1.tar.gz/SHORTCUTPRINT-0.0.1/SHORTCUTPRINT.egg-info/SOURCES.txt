@@ -1,0 +1,12 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+Shortcut.py
+__init__.py
+setup.py
+SHORTCUTPRINT.egg-info/PKG-INFO
+SHORTCUTPRINT.egg-info/SOURCES.txt
+SHORTCUTPRINT.egg-info/dependency_links.txt
+SHORTCUTPRINT.egg-info/top_level.txt
+System/__init__.py
+System/out.py
