@@ -1,0 +1,3 @@
+[console_scripts]
+protobus-server = protobus_server.main:main
+
