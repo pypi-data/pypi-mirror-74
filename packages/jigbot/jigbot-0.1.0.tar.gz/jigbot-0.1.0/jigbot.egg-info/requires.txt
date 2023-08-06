@@ -1,0 +1,7 @@
+nltk
+wikipedia
+validate_email
+chatterbot_corpus
+sklearn
+numpy
+chatterbot==0.8.7
