@@ -1,0 +1,3 @@
+[console_scripts]
+wizprint = wizprint.__main__:main
+
