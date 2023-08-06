@@ -1,0 +1,7 @@
+numpy
+opencv-python
+imutils
+sklearn
+pyyaml
+keyboard
+mouse
