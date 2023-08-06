@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: politylink
+Version: 0.1.1
+Summary: 
+Author: MitsukiUsui
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: pandas (>=1.0.5,<2.0.0)
