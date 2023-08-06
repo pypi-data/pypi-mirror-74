@@ -1,0 +1,15 @@
+README.md
+setup.py
+evalgraph/__init__.py
+evalgraph/graphevaluator.py
+evalgraph/marketscenarios.py
+evalgraph/node_example.py
+evalgraph/nodes.py
+evalgraph/option.py
+evalgraph/scenariocontext.py
+evalgraph/scenarios.py
+evalgraph.egg-info/PKG-INFO
+evalgraph.egg-info/SOURCES.txt
+evalgraph.egg-info/dependency_links.txt
+evalgraph.egg-info/requires.txt
+evalgraph.egg-info/top_level.txt
