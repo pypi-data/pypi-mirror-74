@@ -1,0 +1,11 @@
+target_sources(util
+    PRIVATE
+    Butterworth.cpp
+    Chirp.cpp
+    Differentiator.cpp
+    Filter.cpp
+    Functions.cpp
+    Integrator.cpp
+    TimeFunction.cpp
+    Waveform.cpp
+)
