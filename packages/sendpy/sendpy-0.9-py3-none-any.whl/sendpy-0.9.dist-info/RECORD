@@ -1,0 +1,11 @@
+sendpy/__init__.py,sha256=9_8wL9Scv8_Cs8HJyJHGvx1vwXErsuvlsAqNZLcJQR0,8
+sendpy/__main__.py,sha256=A28uebUF3MiSuQ97Yejq1LGkEcIpVypL0LqeBeA8mYI,21879
+sendpy/configuration.py,sha256=RecpG9q3_ZHoPP4RUHpdhVWP9FvXJEbuPC-tkNqUNwg,3217
+sendpy/send.py,sha256=OzzTa5_mcl7405AmoJ66QG0X9WUnZORBksRo6HkrBM4,9066
+sendpy/usage.py,sha256=FKuSkHwC_ZzTVNhEPt8U3-_hH4wDn9u4dT1d9mykZoY,9899
+sendpy-0.9.data/scripts/sendpy,sha256=jt3xTi5ii7HrJQV8DsNejui8ZTGQIvflWrIx5WZyH08,209
+sendpy-0.9.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+sendpy-0.9.dist-info/METADATA,sha256=uchFsgAk5GHrS-UuhPcWBq_LEY1vM6R9xvHIcZ37m8A,3539
+sendpy-0.9.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+sendpy-0.9.dist-info/top_level.txt,sha256=ljQAEpxYfg_27EX5GE1i0aO3dBDTgXupdFuD8ZOhWGQ,7
+sendpy-0.9.dist-info/RECORD,,
