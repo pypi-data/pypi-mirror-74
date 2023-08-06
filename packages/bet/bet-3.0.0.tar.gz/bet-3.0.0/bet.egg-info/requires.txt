@@ -1,0 +1,6 @@
+matplotlib
+pyDOE
+numpy
+scipy
+pytest
+mpi4py
