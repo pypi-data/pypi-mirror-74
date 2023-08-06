@@ -1,0 +1,12 @@
+MANIFEST.in
+README.md
+setup.py
+zdpytpol8projekt/__init__.py
+zdpytpol8projekt/modul1.py
+zdpytpol8projekt/modul2.py
+zdpytpol8projekt/modul3.py
+zdpytpol8projekt/mojmodul.py
+zdpytpol8projekt.egg-info/PKG-INFO
+zdpytpol8projekt.egg-info/SOURCES.txt
+zdpytpol8projekt.egg-info/dependency_links.txt
+zdpytpol8projekt.egg-info/top_level.txt
