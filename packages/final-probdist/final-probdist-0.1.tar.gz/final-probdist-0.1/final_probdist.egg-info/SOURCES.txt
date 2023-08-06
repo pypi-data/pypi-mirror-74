@@ -1,0 +1,10 @@
+setup.py
+final-probdist/Binomialdistribution.py
+final-probdist/Gaussiandistribution.py
+final-probdist/Generaldistribution.py
+final-probdist/__init__.py
+final_probdist.egg-info/PKG-INFO
+final_probdist.egg-info/SOURCES.txt
+final_probdist.egg-info/dependency_links.txt
+final_probdist.egg-info/not-zip-safe
+final_probdist.egg-info/top_level.txt
