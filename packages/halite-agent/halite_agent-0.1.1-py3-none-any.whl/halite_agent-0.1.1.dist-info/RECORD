@@ -1,0 +1,15 @@
+halite_agent/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+halite_agent/api/KaggleClient.py,sha256=7wyUg6uPjI4wjILAJAEg7H03B645jzgiu8q8RaRewqk,2617
+halite_agent/api/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+halite_agent/data/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+halite_agent/data/fetch_dataset.py,sha256=fBw6v-y3tY3KF-UxRN5yP101_n-yn7W0C9X9xOwBXqA,11071
+halite_agent/data/make_dataset.py,sha256=rCdwSvr_m43hLb_gyzKb9Zmn2Jc5Sv5vE8VilLha1Es,1008
+halite_agent/features/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+halite_agent/features/build_features.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+halite_agent/visualization/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+halite_agent/visualization/visualize.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+halite_agent-0.1.1.dist-info/LICENSE,sha256=2IfjvyldKRllEXe0tdfg6L0abd7UN2L9PSfttLjK2tg,1078
+halite_agent-0.1.1.dist-info/METADATA,sha256=bpYNCfWrzMpdSZCNfKST8uvQVSgL41ANh1yIPzMqlvs,6091
+halite_agent-0.1.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+halite_agent-0.1.1.dist-info/top_level.txt,sha256=TXnDkueL0JfUgZhMbY6VEw4FMLW8o_crIrvECLU_qXQ,13
+halite_agent-0.1.1.dist-info/RECORD,,
