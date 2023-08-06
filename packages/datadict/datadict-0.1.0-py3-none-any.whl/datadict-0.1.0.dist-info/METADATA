@@ -1,0 +1,112 @@
+Metadata-Version: 2.1
+Name: datadict
+Version: 0.1.0
+Summary: Add dictionary-like capabilities to dataclasses
+Home-page: https://github.com/gahjelle/datadict
+License: UNKNOWN
+Keywords: dataclass dict dictionary item access
+Author: Geir Arne Hjelle
+Author-email: geirarne@gmail.com
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: Microsoft
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Software Development :: Code Generators
+Requires-Dist: dataclasses; python_version < '3.7'
+Requires-Dist: black; extra == "dev"
+Requires-Dist: bumpversion; extra == "dev"
+Requires-Dist: flake8; extra == "dev"
+Requires-Dist: flit; extra == "dev"
+Requires-Dist: interrogate; extra == "dev"
+Requires-Dist: isort; extra == "dev"
+Requires-Dist: mypy; extra == "dev"
+Requires-Dist: pre-commit; extra == "dev"
+Requires-Dist: mkdocs; extra == "doc"
+Requires-Dist: black; extra == "test"
+Requires-Dist: flake8; extra == "test"
+Requires-Dist: interrogate; extra == "test"
+Requires-Dist: isort; extra == "test"
+Requires-Dist: mypy; extra == "test"
+Requires-Dist: pytest; extra == "test"
+Requires-Dist: pytest-cov; extra == "test"
+Requires-Dist: tox; extra == "test"
+Provides-Extra: dev
+Provides-Extra: doc
+Provides-Extra: test
+
+# DataDict
+
+_Treat dataclasses like dictionaries_
+
+[![v0.1.0](https://img.shields.io/pypi/v/datadict.svg)](https://pypi.org/project/datadict/)
+[![Python versions](https://img.shields.io/pypi/pyversions/datadict.svg)](https://pypi.org/project/datadict/)
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+[![Interrogate](https://raw.githubusercontent.com/gahjelle/datadict/master/interrogate_badge.svg)](https://interrogate.readthedocs.io/)
+
+
+## Installing DataDict
+
+DataDict is available at [PyPI](https://pypi.org/project/datadict/). You can install it using Pip:
+
+    $ python -m pip install datadict
+
+
+## Using DataDict
+
+You can use a DataDict `dataclass` as a drop-in replacement for `dataclasses.dataclass` in the standard library:
+
+```python
+from datadict import dataclass
+
+@dataclass(order=True)
+class Point:
+    x: int
+    y: int
+```
+
+For instances of the new dataclass, you can access attributes using square brackets, similar to dictionary access:
+
+```python
+>>> point = Point(1, 2)
+>>> point
+Point(x=1, y=2)
+
+>>> point.x
+1
+>>> point["x"]
+1
+
+>>> point["y"] = 3
+>>> point
+Point(x=1, y=3)
+```
+
+You can also convert the dataclass instance to a proper dictionary:
+
+```python
+>>> point.asdict()
+{'x': 1, 'y': 3}
+```
+
+
+## Installing From Source
+
+You can always download the [latest version of DataDict from GitHub](https://github.com/gahjelle/datadict). DataDict uses [Flit](https://flit.readthedocs.io/) as a setup tool.
+
+To install DataDict from the downloaded source, run Flit:
+
+    $ python -m flit install --deps production
+
+If you want to change and play with the DataDict source code, you should install it in editable mode:
+
+    $ python -m flit install --symlink
