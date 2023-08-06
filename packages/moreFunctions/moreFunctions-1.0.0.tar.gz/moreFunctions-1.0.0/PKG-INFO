@@ -1,0 +1,23 @@
+Metadata-Version: 1.1
+Name: moreFunctions
+Version: 1.0.0
+Summary: A compilation of additional functions for use in varying purposes in Python
+Home-page: UNKNOWN
+Author: Rac Elizaga
+Author-email: rac_elizaga@yahoo.com
+License: MIT
+Description: A compilation of additional functions for use in varying purposes in Python
+        
+        Change Log
+        ==========
+        
+        1.0.0 (25/07/2020)
+        ------------------
+        - First Release
+Keywords: functions
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
