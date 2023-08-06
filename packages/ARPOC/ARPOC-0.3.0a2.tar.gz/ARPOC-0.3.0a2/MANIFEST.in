@@ -1,0 +1,7 @@
+graft arpoc
+global-exclude *.py[cod] __pycache__ *.so
+prune arpoc/htmlcov
+prune arpoc/tests
+prune arpoc/.mypy_cache
+exclude arpoc/mypy.ini
+exclude arpoc/.coverage
