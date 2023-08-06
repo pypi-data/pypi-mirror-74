@@ -1,0 +1,9 @@
+cmdict/__init__.py,sha256=GtyBM7X0NTSYWRFoSLN_tiGjB3VwwOXUiLtwAPErF-Q,82
+cmdict/db_connector.py,sha256=kWdBY_aseLgShZ3K0c4lqMfBSN5wG0E3zVqA3iPWdLA,2409
+cmdict/pdf_tools.py,sha256=8PMJDn-mzQwHRrEwoX5yMiwuqBfPRbsHqKjbfvuFRYY,3031
+cmdict/run_script.py,sha256=triH9PkiJFmouP52-44AJuxwnqOrvvEZMK5L12ozAcU,4856
+cmdict-0.1.0.dist-info/entry_points.txt,sha256=4GwVQtZz7rtIniDuNnQcUREsGB4WJaihoj7uSC1i6hY,81
+cmdict-0.1.0.dist-info/LICENSE,sha256=ylQ4Q4780RKO7x-grwLVUnZ7wK2Vai1ajZSQgVkT9wc,1065
+cmdict-0.1.0.dist-info/WHEEL,sha256=G_NFpzHmv_dUXgCUSAWL0-bLL-eMzYU6DzDeGXbRXUk,83
+cmdict-0.1.0.dist-info/METADATA,sha256=FQOs3_lL_ft_vAYfYhZOX3u0xbLyHAh-J5_PFg-8aY8,656
+cmdict-0.1.0.dist-info/RECORD,,
