@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: wdc
+Version: 0.1.2
+Summary: UNKNOWN
+Home-page: https://github.com/dejanfajfar/wdc
+Author: Dejan Fajfar
+Author-email: dejan@fajfar.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Topic :: Utilities
+Classifier: Natural Language :: English
+Classifier: License :: OSI Approved :: GNU General Public License (GPL)
