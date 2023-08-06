@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: mcu_interface
+Version: 0.2.0
+Summary: mcu_interface handles basic communication with MCUs
+Home-page: http://kiibohd.com
+License: UNKNOWN
+Author: Jacob Alexander
+Author-email: haata@kiibohd.com
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: pyudev>=0.22.0
+
+# mcu-interface
+Python MCU interface used to interact with bootloaders (SAM-BA, DFU) and HID-IO
+
