@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: pygt521f32
+Version: 0.1.0
+Summary: An SDK module for the ADH-Tech GT521F32 fingerprint scanner
+Author: Alon
+Author-email: alonlivne@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: Pillow (>=7.2.0,<8.0.0)
+Requires-Dist: cython-sgio (>=1.1.2,<2.0.0)
+Requires-Dist: pyserial (>=3.4,<4.0)
