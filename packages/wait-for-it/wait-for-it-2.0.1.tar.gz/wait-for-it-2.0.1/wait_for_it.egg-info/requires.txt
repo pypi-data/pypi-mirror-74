@@ -1,0 +1,9 @@
+click
+
+[dev]
+black
+click
+flake8
+pytest
+pytest-cov
+twine
