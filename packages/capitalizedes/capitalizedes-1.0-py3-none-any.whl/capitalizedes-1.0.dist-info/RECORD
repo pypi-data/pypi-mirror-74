@@ -1,0 +1,15 @@
+capitalize/capital_mod.py,sha256=X_ANaTnhj9Yj89mj6Al1SJVdl9HVTA5izyWFYTAK9Gg,2468
+capitalize/main.py,sha256=mo6M1CyGcSMQBQYp8nU93GcUGAoStyuxwIIdC0GzWv0,889
+capitalize/data/cap_data.txt,sha256=cRCmpO70YwzNNA8vjqEHPZTJVBJoj4PiKkwDjAJ4hLU,61
+capitalize/test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+capitalize/test/test_capital_mod.py,sha256=XoPqnfDbFuIO4KH7cV4WijpogSh_AODmFVdzA6dK3uw,2622
+capitalizedes/capital_mod.py,sha256=X_ANaTnhj9Yj89mj6Al1SJVdl9HVTA5izyWFYTAK9Gg,2468
+capitalizedes/main.py,sha256=mo6M1CyGcSMQBQYp8nU93GcUGAoStyuxwIIdC0GzWv0,889
+capitalizedes/data/cap_data.txt,sha256=cRCmpO70YwzNNA8vjqEHPZTJVBJoj4PiKkwDjAJ4hLU,61
+capitalizedes/test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+capitalizedes/test/test_capital_mod.py,sha256=XoPqnfDbFuIO4KH7cV4WijpogSh_AODmFVdzA6dK3uw,2622
+capitalizedes-1.0.data/scripts/cap_script.py,sha256=e6n429SO-pOC_vvVYtev2ZMd9Df-LAqrGTSBhIYVNhk,199
+capitalizedes-1.0.dist-info/METADATA,sha256=DRLqv5IP0Kq9WMi4ABqEoDUKuRQJ7p7Q-OjtjEZF-Fc,175
+capitalizedes-1.0.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+capitalizedes-1.0.dist-info/top_level.txt,sha256=as31q44UXPTknetpr9aFZxOO1LHwg5__uoXVkKYsLtE,14
+capitalizedes-1.0.dist-info/RECORD,,
