@@ -1,0 +1,10 @@
+starcli/__init__.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+starcli/__main__.py,sha256=MhKr4wjmDr0WZk53x-kUF93uHtgZ27TGKOAfGfVh3Mo,2625
+starcli/layouts.py,sha256=YykoM3pbzcV8pEh1Wqhb6FzQwIlqHCkw_051IyzS1UA,4805
+starcli/search.py,sha256=WEbLOJON7BAD2RQ6XRINwoBTej6BXgMiznNuh2P0tN0,4301
+starcli-2.10.0.dist-info/LICENSE,sha256=ul0RJWrQ5VfKE7OwXLggKxe4SDwFh2Yk9_RRh3VTGoY,1070
+starcli-2.10.0.dist-info/METADATA,sha256=wTqtpUkPZr8c21VxVKDBbetEvJJPvSzizaQyN80EMsg,9774
+starcli-2.10.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+starcli-2.10.0.dist-info/entry_points.txt,sha256=jiMhTvPlDFGzbpF8AV-DiQo4SrMMlD-rbDMSPD3VRXU,50
+starcli-2.10.0.dist-info/top_level.txt,sha256=nNZj4C2HUlBljmw7BTMD5W8RzxNgiBX1_Gc4r0iEPPA,8
+starcli-2.10.0.dist-info/RECORD,,
