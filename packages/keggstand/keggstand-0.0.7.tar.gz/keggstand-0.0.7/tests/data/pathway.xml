@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<!DOCTYPE pathway SYSTEM "http://www.kegg.jp/kegg/xml/KGML_v0.7.2_.dtd">
+<!-- Creation date: Feb 24, 2016 14:42:27 +0900 (GMT+9) -->
+<pathway name="path:hsa05130" org="hsa" number="05130"
+         title="Pathogenic Escherichia coli infection"
+         image="http://www.kegg.jp/kegg/pathway/hsa/hsa05130.png"
+         link="http://www.kegg.jp/kegg-bin/show_pathway?hsa05130">
+    <entry id="1" name="path:hsa04810" type="map"
+        link="http://www.kegg.jp/dbget-bin/www_bget?hsa04810">
+        <graphics name="Regulation of actin cytoskeleton" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="roundrectangle" x="805" y="460" width="119" height="34"/>
+    </entry>
+    <entry id="2" name="hsa:929" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?hsa:929">
+        <graphics name="CD14" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="414" y="315" width="46" height="17"/>
+    </entry>
+    <entry id="3" name="hsa:23643" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?hsa:23643">
+        <graphics name="LY96, ESOP-1, MD-2, MD2, ly-96" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="368" y="284" width="46" height="17"/>
+    </entry>
+    <entry id="4" name="path:map02040" type="map"
+        link="http://www.kegg.jp/dbget-bin/www_bget?map02040">
+        <graphics name="Flagellar assembly" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="roundrectangle" x="126" y="253" width="113" height="25"/>
+    </entry>
+    <entry id="5" name="hsa:10376 hsa:112714" type="gene"
+        link="http://www.kegg.jp/dbget-bin/www_bget?hsa:10376+hsa:112714">
+        <graphics name="TUBA1B, K-ALPHA-1..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="536" y="351" width="46" height="17"/>
+    </entry>
+    <entry id="6" name="ko:K12789" type="ortholog"
+        link="http://www.kegg.jp/dbget-bin/www_bget?K12789">
+        <graphics name="K12789" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="449" y="879" width="46" height="17"/>
+    </entry>
+    <relation entry1="2" entry2="3" type="PPrel">
+        <subtype name="activation" value="--&gt;"/>
+    </relation>
+    <relation entry1="2" entry2="3" type="PPrel">
+        <subtype name="activation" value="--&gt;"/>
+    </relation>
+    <relation entry1="2" entry2="2" type="ECrel">
+    </relation>
+    <relation entry1="2" entry2="4" type="PPrel">
+        <subtype name="activation" value="--&gt;"/>
+    </relation>
+    <relation entry1="6" entry2="2" type="PPrel">
+        <subtype name="activation" value="--&gt;"/>
+        <subtype name="indirect effect" value="..&gt;"/>
+    </relation>
+</pathway>
