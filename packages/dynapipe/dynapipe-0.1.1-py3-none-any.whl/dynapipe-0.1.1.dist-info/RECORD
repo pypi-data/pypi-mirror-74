@@ -1,0 +1,13 @@
+dynapipe/__init__.py,sha256=OvMhh0J96SHq7by_3x5qTXTzNNDCmWnAUTqHbOa_nyU,88
+dynapipe/autoCV.py,sha256=h8-VC67Wm0D0PixVIOwDuxxbtyNEEb8HWepYjzAq4ow,5696
+dynapipe/autoFS.py,sha256=i_6qH8ZgNY1Ho9lROm4mfRhwolSaqTPWNQe9lNnFV3w,5020
+dynapipe/estimatorCV.py,sha256=VokOEh2D1IZ9lgXNFOoTZSQmIii4HhG8f8CT9Hl_lk8,10443
+dynapipe/parameters.json,sha256=yEIDGBcFF35IweTvG_Fi6HyzfNOG-VeFEjuFzfBjGtQ,1797
+dynapipe/reset_parameters.json,sha256=yEIDGBcFF35IweTvG_Fi6HyzfNOG-VeFEjuFzfBjGtQ,1797
+dynapipe/selectorFS.py,sha256=NqjyY1KBm3v79y3lW8GKiY3WEJ9WOyoW-lKIFyFHs2I,5193
+dynapipe/utilis_func.py,sha256=cltFgDZJpKaoQyZvknroIoIFyhpWem9TVFEoRpxSZ64,3581
+dynapipe-0.1.1.dist-info/LICENSE,sha256=6kbiFSfobTZ7beWiKnHpN902HgBx-Jzgcme0SvKqhKY,1091
+dynapipe-0.1.1.dist-info/METADATA,sha256=PqeqZqbSAYZFEQRhgJnjAX2lfgQ6g4u2nvMX9kfj-BY,10503
+dynapipe-0.1.1.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+dynapipe-0.1.1.dist-info/top_level.txt,sha256=sBQfECZ9jjlKfsflS3LLKKskvPUNW73KTXWFfw9vuqs,9
+dynapipe-0.1.1.dist-info/RECORD,,
