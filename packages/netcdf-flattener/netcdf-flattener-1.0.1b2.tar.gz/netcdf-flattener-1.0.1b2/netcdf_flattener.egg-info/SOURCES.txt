@@ -1,0 +1,15 @@
+README.md
+setup.py
+netcdf_flattener/__init__.py
+netcdf_flattener/flatten.py
+netcdf_flattener.egg-info/PKG-INFO
+netcdf_flattener.egg-info/SOURCES.txt
+netcdf_flattener.egg-info/dependency_links.txt
+netcdf_flattener.egg-info/requires.txt
+netcdf_flattener.egg-info/top_level.txt
+test/test_cell_methods.py
+test/test_flatten.py
+test/test_grid_mapping.py
+test/test_long_names.py
+test/test_slicing.py
+test/test_strict_lax.py
