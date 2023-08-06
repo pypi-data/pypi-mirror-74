@@ -1,0 +1,10 @@
+setup.py
+mengyu_distributions/Binomialdistribution.py
+mengyu_distributions/Gaussiandistribution.py
+mengyu_distributions/Generaldistribution.py
+mengyu_distributions/__init__.py
+mengyu_distributions.egg-info/PKG-INFO
+mengyu_distributions.egg-info/SOURCES.txt
+mengyu_distributions.egg-info/dependency_links.txt
+mengyu_distributions.egg-info/not-zip-safe
+mengyu_distributions.egg-info/top_level.txt
