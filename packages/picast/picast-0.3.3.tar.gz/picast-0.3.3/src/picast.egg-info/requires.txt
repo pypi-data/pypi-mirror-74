@@ -1,0 +1,15 @@
+zeroconf
+ifaddr
+
+[dev]
+coverage
+pyannotate
+pytest
+pytest-asyncio
+pytest-cov
+
+[docs]
+sphinx
+sphinx-intl
+sphinx-py3doc-enhanced-theme
+sphinx_rtd_theme
