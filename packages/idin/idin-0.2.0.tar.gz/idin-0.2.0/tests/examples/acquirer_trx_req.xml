@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AcquirerTrxReq version="1.0.0" productID="NL:BVN:BankID:1.0"
+    xmlns="http://www.betaalvereniging.nl/iDx/messages/Merchant-Acquirer/1.0.0"
+    xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+    <createDateTimestamp>2015-01-01T09:30:00.123Z</createDateTimestamp>
+
+    <Issuer>
+        <issuerID>BANKNL2U</issuerID>
+    </Issuer>
+
+    <Merchant>
+        <merchantID>1234123456</merchantID>
+        <subID>1</subID>
+        <merchantReturnURL>https://merchantwebsite.nl/returnPage.php?param1=true&amp;param2=3</merchantReturnURL>
+    </Merchant>
+
+    <Transaction>
+        <expirationPeriod>PT5M</expirationPeriod>
+        <language>nl</language>
+        <entranceCode>1234567890abcdefghijABCDEFGHIJ1234567890</entranceCode>
+
+        <container>
+            <samlp:AuthnRequest xmlns:samlp="urn:oasis:names:tc:SAML:2.0:protocol"
+                xmlns:saml="urn:oasis:names:tc:SAML:2.0:assertion"
+                AttributeConsumingServiceIndex="21952"
+                ID="REF1234567890"
+                IssueInstant="2015-01-01T09:30:00Z"
+                Version="2.0"
+                ProtocolBinding="nl:bvn:bankid:1.0:protocol:iDx"
+                AssertionConsumerServiceURL="https://merchantwebsite.nl/returnPage.php?param1=true&amp;param2=3">
+                <saml:Issuer>1234123456</saml:Issuer>
+                <samlp:RequestedAuthnContext Comparison="minimum">
+                    <saml:AuthnContextClassRef>nl:bvn:bankid:1.0:loa3</saml:AuthnContextClassRef>
+                </samlp:RequestedAuthnContext>
+            </samlp:AuthnRequest>
+        </container>
+    </Transaction>
+
+    <Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+        <SignedInfo>
+            <CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+            <SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+            <Reference URI="">
+                <Transforms>
+                    <Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+                    <Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
+                </Transforms>
+                <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+                <DigestValue>VW+VjenRyZVFCNfBTeoxDflQ4yfR8KYFvwPVinVPqBs=</DigestValue>
+            </Reference>
+        </SignedInfo>
+        <SignatureValue>IELLwKSGFMk64US23YrpZ8//hJ8DeJEtYht5knlxJvBOr8dcI+aJTBq+YtyzP9ClcK62Obs5aynHBE/GPHZShuMw+8WHq4fCMInOwKURgwjDOz8UYaIMqG0Ojiz8dFYGn+dH2lL0QVss4jmIIAD8MCijb27oqij6PclXw9Y9veI=</SignatureValue>
+        <KeyInfo>
+            <KeyName>7D665C81ABBE1A7D0E525BFC171F04D276F07BF2</KeyName>
+        </KeyInfo>
+    </Signature>
+
+</AcquirerTrxReq>

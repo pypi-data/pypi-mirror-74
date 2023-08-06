@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<awidxma:AcquirerErrorRes xmlns:awdsig="http://www.w3.org/2000/09/xmldsig#" xmlns:awenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:awidxma="http://www.betaalvereniging.nl/iDx/messages/Merchant-Acquirer/1.0.0" xmlns:awsamac="urn:oasis:names:tc:SAML:2.0:ac" xmlns:awsamass="urn:oasis:names:tc:SAML:2.0:assertion" xmlns:awsamdce="urn:oasis:names:tc:SAML:2.0:profiles:attribute:DCE" xmlns:awsamecp="urn:oasis:names:tc:SAML:2.0:profiles:SSO:ecp" xmlns:awsammeta="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:awsamprot="urn:oasis:names:tc:SAML:2.0:protocol" xmlns:awxmlenc="http://www.w3.org/2001/04/xmlenc#" productID="NL:BVN:BankID:1.0" version="1.0.0">
+  <awidxma:createDateTimestamp>2020-01-21T16:04:12.705Z</awidxma:createDateTimestamp>
+  <awidxma:Error>
+    <awidxma:errorCode>SO1000</awidxma:errorCode>
+    <awidxma:errorMessage>Failure in system</awidxma:errorMessage>
+    <awidxma:errorDetail>System generating error: Acquirer</awidxma:errorDetail>
+    <awidxma:consumerMessage>Het is op dit moment niet mogelijk om iDIN te gebruiken. Probeer het later nog een keer.</awidxma:consumerMessage>
+  </awidxma:Error>
+  <Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+    <SignedInfo>
+      <CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+      <SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+      <Reference URI="">
+        <Transforms>
+          <Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+          <Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+        </Transforms>
+        <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+        <DigestValue>pCWXp/+6Ip91GcgCnpsh8UMenMLfKXNiWuur0Z51vms=</DigestValue>
+      </Reference>
+    </SignedInfo>
+    <SignatureValue>Cf18jEkf7hTtQz8fA+f8qfPuMnaduLsrxhF1Rd8GdmIWSTu8mYtmOnSH9OeQ59ei
+PRFj3XRVeE6DgqZlBRAboWO3I/RRdJyshLt0kgzsmE8VIR6PMJ4PURiQKAiWrJy7
+qtco+yPtA8fh5wU+b5jVWFzCFnlDkFTnhoTAXtihle7DcIO2zLlHIxmgXxryvQuW
+3BB/u6o+5guR6K5l8WR+PDp+THel86Bl/esJccoO9b6zkrYQ1TMK+a9WLERtYWR0
+1qWgnFS7xUWoNe3Ub7v7Vgn/0Dlsl2Ktp2J2V0gKQ1rouNmZNDPAYkZ6PCC3Cg5V
+9wKr7r0J1UpNxYrOGdCK8SOoyxlG83WJFxEF3mdt7Lyz1m4qn2HqDAfnvPDsnCAe
+clwd76svFgoZbqYMqlSNFsWV3B73+a62ERp2jdSu/Se44S9SIpqc8BWkbOJEITmv
+jNgLXrJO5BlGEER2JMxBH3E/YuKUwkIBIcIxWo4FHRSGtcWOHebUeKIbA9gskip9
+P2Ajg/HQXtjK0EPby0JY5wSi0jCT8UfuFljRHkMyDdkP9REPmP6i0QJC3M60qmr+
+aP4pNQppBi8jkqg/RuiKspPdjsnnsJml89dqrb6Xwh/pcJ3UCgsw5x9ocMt2jCav
+BJ0ghHYQdCyX8VUgDAxMkiSlnPaafnni0PzNLEHr+iI=</SignatureValue>
+    <KeyInfo>
+      <KeyName/>
+    </KeyInfo>
+  </Signature>
+</awidxma:AcquirerErrorRes>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AcquirerTrxRes xmlns="http://www.betaalvereniging.nl/iDx/messages/Merchant-Acquirer/1.0.0" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0.0" productID="NL:BVN:BankID:1.0">
+    <createDateTimestamp>2001-12-17T09:30:47.123Z</createDateTimestamp>
+    <Acquirer>
+        <acquirerID>1234</acquirerID>
+    </Acquirer>
+    <Issuer>
+        <issuerAuthenticationURL>https://example.org/?foo=true&amp;bar=123456</issuerAuthenticationURL>
+    </Issuer>
+    <Transaction>
+        <transactionID>1234123456789012</transactionID>
+        <transactionCreateDateTimestamp>2001-12-17T09:30:47.123Z</transactionCreateDateTimestamp>
+    </Transaction>
+    <Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+        <SignedInfo>
+            <CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+            <SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+            <Reference URI="">
+                <Transforms>
+                    <Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+                    <Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+                </Transforms>
+                <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+                <DigestValue>pZa7zfnJeC2UPdNh8My4pKNDuANFh1/lBPlGYlhK7uM=</DigestValue>
+            </Reference>
+        </SignedInfo>
+        <SignatureValue>BJ/zEUiYGqJ68oHFcVtmpE/IPjcgnQnn4N9b6S8u1CHGUqAWEQAkHAyhYAgClIIh
+NGkwtWG0z12C5sTtndnbOINH2p+e+/QdbB/gFLNg00I1cWUvpNP9hY3lMSGGhzsu
+v0dqNdgx5mfDeSsgFgkMQmbXPaJzFlP/aI7o335gYZx1sx0Rq6w0Qtwf+RiAJmMx
+UzPX8UzQpOENh559fiBDBZj+QUoTiwd9Y2jlFrmZejwH9YkNIrxf9nXWoSaHzBh4
+AJucnCpIF9pO8qUxYh53VWvUjJL2WLLUdyyt5KhDP81eeIfXhoygedfEFN27Ox3o
+tyF/DUzeHN6WIeUSYqqDt111PhsGHvRk1pMrvVnxM3GoAyYpjtFkm4alAz4Itr0y
+W5u3ClkC9/q1ymIlPUSz5hZlDl/mRiRUT2Em08o8UDPC9Zhyg5px3TNqNloTe0Yo
+2DiFcLhuhqmfkv1T0pMa/+S1PkSZql1h5/fh24xozQHdKOXijDDD+imH/HM4oDvc
+WuErKXOOnWU3rsPr/5NKXdf1kgZA8+vS4f3jcJat63r5QRYgqNYMVdW2oxEAxB7J
+F1LlmdyBYmNdKm+3sYxo/fMGYbZvgxVKPfRuIWDrnF3SIOdk3ECiVjGoXZ6fE9og
+hwKkRYN3wJNveipOoF5QiQ1US7Tg9U8T6neAFxsWoHo=</SignatureValue>
+        <KeyInfo>
+            <KeyName>7D665C81ABBE1A7D0E525BFC171F04D276F07BF2</KeyName>
+        </KeyInfo>
+    </Signature>
+</AcquirerTrxRes>

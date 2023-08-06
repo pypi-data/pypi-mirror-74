@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<awidxma:AcquirerStatusRes xmlns:awidxma="http://www.betaalvereniging.nl/iDx/messages/Merchant-Acquirer/1.0.0"
+    xmlns:awenv="http://schemas.xmlsoap.org/soap/envelope/"
+    xmlns:awsamac="urn:oasis:names:tc:SAML:2.0:ac"
+    xmlns:awsamdce="urn:oasis:names:tc:SAML:2.0:profiles:attribute:DCE"
+    xmlns:awsamecp="urn:oasis:names:tc:SAML:2.0:profiles:SSO:ecp"
+    xmlns:awsammeta="urn:oasis:names:tc:SAML:2.0:metadata"
+    xmlns:awxmlenc="http://www.w3.org/2001/04/xmlenc#"
+    xmlns:ns2="http://www.w3.org/2000/09/xmldsig#"
+    xmlns:saml2="urn:oasis:names:tc:SAML:2.0:assertion"
+    xmlns:saml2p="urn:oasis:names:tc:SAML:2.0:protocol" productID="NL:BVN:BankID:1.0" version="1.0.0">
+    <awidxma:createDateTimestamp>2019-12-18T10:38:05.899Z</awidxma:createDateTimestamp>
+    <awidxma:Acquirer>
+        <awidxma:acquirerID>0123</awidxma:acquirerID>
+    </awidxma:Acquirer>
+    <awidxma:Transaction>
+        <awidxma:transactionID>0000001000000001</awidxma:transactionID>
+        <awidxma:status>Success</awidxma:status>
+        <awidxma:statusDateTimestamp>2019-12-18T10:36:08.701Z</awidxma:statusDateTimestamp>
+        <awidxma:container>
+            <saml2p:Response ID="RES-0050000124617003" InResponseTo="REF1234567890" IssueInstant="2019-12-18T10:38:05.711Z" Version="2.0"
+                xmlns:saml2p="urn:oasis:names:tc:SAML:2.0:protocol">
+                <saml2:Issuer xmlns:saml2="urn:oasis:names:tc:SAML:2.0:assertion">0123</saml2:Issuer>
+                <saml2p:Status>
+                    <saml2p:StatusCode Value="urn:oasis:names:tc:SAML:2.0:status:Requester">
+                        <saml2p:StatusCode Value="urn:oasis:names:tc:SAML:2.0:status:RequestDenied"/>
+                    </saml2p:StatusCode>
+                    <saml2p:StatusMessage>Requested information no longer available</saml2p:StatusMessage>
+                </saml2p:Status>
+            </saml2p:Response>
+        </awidxma:container>
+    </awidxma:Transaction>
+    <Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+        <SignedInfo>
+            <CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+            <SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+            <Reference URI="">
+                <Transforms>
+                    <Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+                    <Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+                </Transforms>
+                <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+                <DigestValue />
+            </Reference>
+        </SignedInfo>
+        <SignatureValue />
+        <KeyInfo>
+            <KeyName />
+        </KeyInfo>
+    </Signature>
+</awidxma:AcquirerStatusRes>

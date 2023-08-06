@@ -1,0 +1,72 @@
+# python-idin
+
+This is a Python library to authenticate users via iDIN
+(https://www.idin.nl/). iDIN is a service offered by banks which allows
+consumers to use their bank’s secure and reliable login methods to either
+identify, login or confirm their age on your platform.
+
+## Requirements
+
+Requires Python 3.7, xmlsec1 and libxml2-dev libraries
+
+## Installation
+
+Not released yet
+
+## Usage
+
+First intialize the idin client object:
+
+```python
+import idin
+
+client = idin.Client(
+    language="nl",
+    merchant_id="<your merchant id>",
+    merchant_sub_id="<optional merchant subaccount id>",
+    endpoint="<endpoint of acquirer>",
+    certificate=idin.Certificate(
+        private_key="<private key (content)>",
+        certificate="<certificate data (content)>",
+        password="<optional private key password>",
+    ),
+    certificate_acquirer=idin.Certificate(
+        certificate="<certificate data (acquirer)>"
+    )
+)
+```
+
+Now you can start a transaction using:
+```python
+transaction = client.start_transaction(
+    issuer="<ISSUER ID>",
+    service_id=idin.ServiceID.ConsumerID | idin.ServiceID.Name,
+    merchant_return_url="<URL to redirect the user to after identification>",
+)
+assert transaction.redirect_url
+assert transaction.transaction_id
+```
+
+After the user finished the transaction you can retrieve the status using:
+```python
+status = client.get_status(
+    transaction_id="<transaction id>",
+    entrance_code="<entrance code>"
+)
+
+print(status.user)
+```
+
+## Error handling
+
+The following exceptions might be raised:
+- `idin.IdinException` - Error raised at the IDIN system
+- `idin.RequesterException` - Invalid request
+- `idin.ValidationError` - The response couldn't be validated
+
+
+## More information
+
+- [Official Implementation Guide EN](https://betaalvereniging.atlassian.net/wiki/spaces/IIDIFMD/pages/588284049/iDIN+Merchant+Implemention+Guide+EN)
+- [Official Implementation Guide NL](https://betaalvereniging.atlassian.net/wiki/spaces/IIDIFMD/pages/588579051/iDIN+Acceptant+Implementatie+Gids+NL)
+- [Python-xmlsec documentation](https://pythonhosted.org/xmlsec/index.html)
