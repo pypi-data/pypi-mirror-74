@@ -1,0 +1,8 @@
+matrixpdf/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+matrixpdf/pdf2image.py,sha256=BOL9YFnMNuGmUt8WrghuQKUMMoBRO7IN4mOsMzaCerg,40
+matrixpdf/pdf2text.py,sha256=8SQDkxhic-QHez0weUpMF-g2XaTKJBxu4A20iUX-6bQ,39
+matrixpdf-1.0.dist-info/LICENSE,sha256=gcuuhKKc5-dwvyvHsXjlC9oM6N5gZ6umYbC8ewW1Yvg,35821
+matrixpdf-1.0.dist-info/METADATA,sha256=AiAybskxfoCGDDlq6OqY6PQGemXt2roL4B5klWV4CWQ,200
+matrixpdf-1.0.dist-info/WHEEL,sha256=kLEF3EYz8BiuNpm1XjbksbLfxLK7XN6GGMrjAjY_XgE,97
+matrixpdf-1.0.dist-info/top_level.txt,sha256=BQF7dIeaWDrAcpd5DB6_nv1aqbaFujjUUwgnRqOa2Fs,10
+matrixpdf-1.0.dist-info/RECORD,,
