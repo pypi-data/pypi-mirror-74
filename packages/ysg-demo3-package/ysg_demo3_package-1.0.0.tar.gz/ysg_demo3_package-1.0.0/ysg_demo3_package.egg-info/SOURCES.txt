@@ -1,0 +1,6 @@
+README.md
+setup.py
+ysg_demo3_package.egg-info/PKG-INFO
+ysg_demo3_package.egg-info/SOURCES.txt
+ysg_demo3_package.egg-info/dependency_links.txt
+ysg_demo3_package.egg-info/top_level.txt

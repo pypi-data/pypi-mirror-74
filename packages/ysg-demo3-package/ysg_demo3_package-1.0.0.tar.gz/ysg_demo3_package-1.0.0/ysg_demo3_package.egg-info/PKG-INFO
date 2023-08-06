@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: ysg-demo3-package
+Version: 1.0.0
+Summary: A simple printer of lists
+Home-page: https://github.com/
+License: UNKNOWN
+Description: hello  ysg!
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
