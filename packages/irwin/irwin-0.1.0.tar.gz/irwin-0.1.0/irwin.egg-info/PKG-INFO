@@ -1,0 +1,32 @@
+Metadata-Version: 1.1
+Name: irwin
+Version: 0.1.0
+Summary:  Plotting data in the terminal.
+Home-page: https://github.com/eerimoq/irwin
+Author: Erik Moqvist
+Author-email: erik.moqvist@gmail.com
+License: MIT
+Description: |buildstatus|_
+        |coverage|_
+        
+        Irwin
+        =====
+        
+        Project homepage: https://github.com/eerimoq/irwin
+        
+        Installation
+        ------------
+        
+        .. code-block:: python
+        
+           $ pip install irwin
+        
+        .. |buildstatus| image:: https://travis-ci.com/eerimoq/irwin.svg?branch=master
+        .. _buildstatus: https://travis-ci.com/eerimoq/irwin
+        
+        .. |coverage| image:: https://coveralls.io/repos/github/eerimoq/irwin/badge.svg?branch=master
+        .. _coverage: https://coveralls.io/github/eerimoq/irwin
+        
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
