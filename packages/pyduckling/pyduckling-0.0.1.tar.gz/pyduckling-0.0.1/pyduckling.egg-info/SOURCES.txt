@@ -1,0 +1,8 @@
+README.md
+duckling.py
+setup.py
+pyduckling.egg-info/PKG-INFO
+pyduckling.egg-info/SOURCES.txt
+pyduckling.egg-info/dependency_links.txt
+pyduckling.egg-info/requires.txt
+pyduckling.egg-info/top_level.txt
