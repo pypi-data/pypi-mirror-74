@@ -1,0 +1,8 @@
+README.md
+setup.py
+otest/__init__.py
+otest/main.py
+otest_oriont.egg-info/PKG-INFO
+otest_oriont.egg-info/SOURCES.txt
+otest_oriont.egg-info/dependency_links.txt
+otest_oriont.egg-info/top_level.txt
