@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: medil
+Version: 0.4.0
+Summary: UNKNOWN
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: numpy
+Provides-Extra: gan
+Requires-Dist: pytorch ; extra == 'gan'
+Provides-Extra: dcor
+Requires-Dist: dcor ; extra == 'dcor'
+Provides-Extra: vis
+Requires-Dist: matplotlib ; extra == 'vis'
+Requires-Dist: networkx ; extra == 'vis'
+
+UNKNOWN
+
+
