@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: skytempy
+Version: 1.0.2
+Summary: A simple package to calculate sky temperatures
+Home-page: https://github.com/respiewak/skytempy
+Author: Renee Spiewak
+Author-email: respiewak@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: argparse
+Requires-Dist: numpy (>=1.16)
+Requires-Dist: scipy
+Requires-Dist: astropy-healpix
+Requires-Dist: astropy (<3.0,>=2.0) ; python_version <= "2.7"
+Requires-Dist: astropy (>=3.2) ; python_version > "3.4"
+
+# SkyTemp
+
+Calculate the Sky Temperature at a given Galactic Latitude and Longitude and frequency, based on the Remazeilles et al. 2014 reprocessing of the Haslam 408 MHz map. 
+
+Example usage:
+```
+python skytemp.py haslam408_ds_Remazeilles2014.fits 10 -35 1284
+```
+
+
