@@ -1,0 +1,154 @@
+[![build](https://gitlab.com/majorspot/libraries/pyllk/badges/master/pipeline.svg)](https://gitlab.com/majorspot/libraries/pyllk/pipelines)
+[![coverage](https://gitlab.com/majorspot/libraries/pyllk/badges/master/coverage.svg)](https://gitlab.com/majorspot/libraries/pyllk/pipelines)
+[![PyPI version](https://badge.fury.io/py/pyllk.svg)](https://badge.fury.io/py/pyllk)
+
+# Pyllk
+
+A python LL(k) parser with a twist where tokens can be any arbitrary objects. The current implementation uses the backtracking algorithm. I'll eventually implement predictive parsing but the API is designed to remain backward compatible.
+
+## Installation
+
+`pip install pyllk`
+
+## Example. A simple calculator
+
+This is an example of the typical calculator. In this case, we use characters as tokens. The idea is to parse things like `((10+2)*15)/(7-2)` and be able to pull the result.
+
+Here are the steps involved in the example:
+
+1. Create the function that converts terminal token definitions into instances of instances of pyllk.TerminalToken
+1. Create the fnuction that converts action definitions into functions to execute
+1. Create the EBNF grammar for the calculator
+1. Execute
+
+### Convert terminal token definitions
+
+In this simple text-based example, terminal tokens are simply a single character. The `matches` function
+simply needs to execute the regular expression to determine if a give character matches this terminal. The token
+definition is set as JSON in the EBNF grammar. The attributes are completely arbitrary and you just need to use
+them here. In this example, we chose to use a single attribute called `regex` that describes the regular expression.
+
+```python
+import os
+import re
+
+import pyllk
+from pyllk.parser import Context, Parser
+from pyllk.token import TerminalToken
+
+
+class CharacterTerminalToken(TerminalToken):
+    def __init__(self, config):
+        self.regex = f"^{config['regex']}$"
+        super(CharacterTerminalToken, self).__init__(self.regex)
+
+    def matches(self, obj):
+        return True if re.search(self.regex, f"{obj}") else False
+
+
+def character_tokenizer(definition: dict) -> CharacterTerminalToken:
+    return CharacterTerminalToken(definition)
+```
+
+### Convert action definition (i.e. dict) into appropriate functions
+
+In this case, we use 5 functions. One that pushes numbers into the stack and four for the various operators we want to support.
+The action definition will be specified as JSON in the EBNF grammar. It's completely arbitrary, in this case, we chose to use
+the `fn` attribute to indicate which function we're trying to execute. It then returns the corresponding function as an action to
+execute when the production rule matches. In order to do this, it uses the context object (an instance of Context, aka a dict) to
+carry the state of the FSM.
+
+```python
+def make_action(definition: dict) -> None:
+    def push_number(ec):
+        s = ""
+        for token in ec.tokens:
+            s = s + token.representation
+        ec.context['stack'].append(float(s))
+
+    def add(e):
+        b = e.context['stack'].pop()
+        a = e.context['stack'].pop()
+        e.parser.log("Ex: {} + {}".format(a, b))
+        e.context['stack'].append(a + b)
+
+    def sub(e):
+        b = e.context['stack'].pop()
+        a = e.context['stack'].pop()
+        e.parser.log("Ex: {} - {}".format(a, b))
+        e.context['stack'].append(a - b)
+
+    def mul(e):
+        b = e.context['stack'].pop()
+        a = e.context['stack'].pop()
+        e.parser.log("Ex: {} x {}".format(a, b))
+        e.context['stack'].append(a * b)
+
+    def div(e):
+        b = e.context['stack'].pop()
+        a = e.context['stack'].pop()
+        e.parser.log("Ex: {} / {}".format(a, b))
+        e.context['stack'].append(a / b)
+
+    if definition["fn"] == 'push_number':
+        return push_number
+    elif definition["fn"] == 'add':
+        return add
+    elif definition["fn"] == 'sub':
+        return sub
+    elif definition["fn"] == 'mul':
+        return mul
+    elif definition["fn"] == 'div':
+        return div
+    else:
+        return None
+```
+
+### The grammar itself
+
+This defines a bunch of terminal tokens. As stated above, it uses JSON with a single attribute called `regex`. Similarly, actions are
+describes as JSON with a single attribute called `fn`. See comments in the above sections. Actions are executed when the production rule they annotate resolves.
+
+```
+DIGIT = { regex: '\d' }
+LPAREN = { regex: '\(' }
+RPAREN = { regex: '\)' }
+
+PLUS = { regex: '\+' }
+MINUS = { regex: '\-' }
+MULT = { regex: '\*' }
+DIV = { regex: '\/' }
+
+parser : calc
+
+number : DIGIT number
+       | DIGIT
+
+expr : LPAREN calc RPAREN
+     | number                      {'fn': 'push_number'}
+
+calc : expr PLUS expr              {'fn': 'add'}
+     | expr MINUS expr             {'fn': 'sub'}
+     | expr MULT expr              {'fn': 'mul'}
+     | expr DIV expr               {'fn': 'div'}
+```
+
+### Execute
+
+```python
+grammar = pyllk.load(path_to_grammar_file, token_fn=character_tokenizer, action_fn=make_action)
+
+context = Context()
+context.stack = []
+parser = Parser(grammar)
+
+parser.parse_string("((10+2)*15)/(7-2)", context)
+result = context.stack.pop()
+
+print(result)
+```
+
+## Dev setup
+
+Run `make init`
+
