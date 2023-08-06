@@ -1,0 +1,12 @@
+pyfoldercheck/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyfoldercheck/configs.py,sha256=O8AaKMnfFE0Y0_3Pg6pd65cOr1yu1gGwx9ctdeT1_II,1253
+pyfoldercheck/version.py,sha256=xaicLy_Vgl-SjlU0FLg3OO79hP7CBOsX3nEoN0SXU28,83
+pyfoldercheck/endpoints/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyfoldercheck/endpoints/group_default.py,sha256=5bXHkO-FC0yNTZEBoNV_QTIcfb02mfS62GVYjqwp0jk,2944
+pyfoldercheck/endpoints/main.py,sha256=qaeaFuV0h9wbv8J7-5P8rw-s1jUJeKDzwcTfI7L0zmE,484
+pyfoldercheck-0.0.3.dist-info/LICENSE,sha256=iwFQQUu2nh_gHEI7WRLvLBV7tl-cWaV5-HRFz4nZ6B0,1069
+pyfoldercheck-0.0.3.dist-info/METADATA,sha256=shHDx66g3kJN975LxYvVN75hvhQi99ke0gmZsBatZWQ,1359
+pyfoldercheck-0.0.3.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+pyfoldercheck-0.0.3.dist-info/entry_points.txt,sha256=Je5KGWDSq8zrWJd608KaqUSsdKWe3LEbmdOls57IJZg,69
+pyfoldercheck-0.0.3.dist-info/top_level.txt,sha256=KkvqpFT61Syvnfz4Q6wf9BHfLuV7hqbSIouoQFQL-oM,14
+pyfoldercheck-0.0.3.dist-info/RECORD,,
