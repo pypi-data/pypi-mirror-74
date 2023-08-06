@@ -1,0 +1,17 @@
+ocrd_browser/__init__.py,sha256=DQiXHqQ3C29f_--ye7aVMDPnITrl9M0zMU42LYY48zE,22
+ocrd_browser/application.py,sha256=Ln-5KaJ81oqusu_IQG74JO6JXNLmE6xUJJzyIiOnrsI,2038
+ocrd_browser/main.py,sha256=9-blNgM693i_44dI_x7B2r989T9DJGPxKubrlnJCm9A,953
+ocrd_browser/ui.gresource,sha256=dHFWJ_DxU0LNiG9c894LZ0SYRu6RSd5l_47tKCPMjqo,27662
+ocrd_browser/views.py,sha256=7fgCKNxNDRJA4cPEZm2-p5hpCyD71qjRTLSUNJsU7ug,5062
+ocrd_browser/window.py,sha256=V_ogXLW1ikRhX1A2j_NwrIyFRL-GlHqdXJsaV4X6Bcw,10062
+ocrd_browser/extensions/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ocrd_browser/extensions/xmlview.py,sha256=vY_PORr2mj0s40DUi-385DPalUyq1yerhhG_csyftOc,2127
+ocrd_browser/image_util/__init__.py,sha256=eA2dUAHNbjTG_qXZu_zC9GK7NJYSEshmWPE-CHm0fHk,2179
+ocrd_browser/model/__init__.py,sha256=WfeRqhwn1LXZgBGX_MbkM-MaFm4oJ_rKYGUkD5W9Gtw,5662
+ocrd_browser/scandriver/__init__.py,sha256=V_-WqLc-HN7hci0ogdg0FXydExbZymzVkEM5ZFPu1DE,4786
+browse_ocrd-0.1.5.dist-info/LICENSE,sha256=e6t4L5enMlVEg2mEI9hFOL9atgJ7zG8p8ZGuKXmnBgM,1061
+browse_ocrd-0.1.5.dist-info/METADATA,sha256=-oRrfYKRftz1VZofV18iWdopw9v2RRCZUm5R2oksR1I,1066
+browse_ocrd-0.1.5.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+browse_ocrd-0.1.5.dist-info/entry_points.txt,sha256=bIBuwuvNw0q-QvGTJlZtzRrXfTImmTSwJDr24Gw4IoY,162
+browse_ocrd-0.1.5.dist-info/top_level.txt,sha256=3k-x67AoRablKdfLfrWIBFb9x6f7nZZaL5dnrbYXHMA,13
+browse_ocrd-0.1.5.dist-info/RECORD,,
