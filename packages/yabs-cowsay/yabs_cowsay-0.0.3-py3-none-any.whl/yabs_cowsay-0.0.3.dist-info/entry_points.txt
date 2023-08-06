@@ -1,0 +1,3 @@
+[yabs.tasks]
+cowsay = yabs_cowsay:register
+
