@@ -1,0 +1,12 @@
+app_skellington/__init__.py,sha256=IH85qqaDYm7et0muMz0vBwhKGRUaykjsQKVm4oN8zvg,114
+app_skellington/_bootstrap.py,sha256=hZejSLRP1gL3f83yeWm7Abq7xoIQmUyrFFm_CR5zxmM,1914
+app_skellington/_util.py,sha256=nOeGgS6xA816p-m8McQn3HoAz7k8z17lCuKTv_38lfg,3819
+app_skellington/app_container.py,sha256=6WqMS8lSs35uYGNdKSZHp_fd8va9Q2eXJnxpCFeUQnU,6401
+app_skellington/cfg.py,sha256=N8DC5nTmKLsYXmX5pTBaev734wxHQKrjM2Abo3ej2sQ,9267
+app_skellington/cli.py,sha256=DhJDwK_L66hF6ZBjKWcy7SzU021Wy2OqkxtCpizC9n4,19574
+app_skellington/log.py,sha256=qe1889uep54WeNQIxXGFbb2OlYdMZZGkBuNJneLif4c,6262
+app_skellington-0.1.1.dist-info/LICENSE.txt,sha256=npChHgA1_l-xApHiNW0WSxflMuptkoI9Yr-a8TPb_MA,1074
+app_skellington-0.1.1.dist-info/METADATA,sha256=-M9KlPHOcEMY3PklE8r924hQy-WDOOnF1q_MoPvWcCc,3612
+app_skellington-0.1.1.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+app_skellington-0.1.1.dist-info/top_level.txt,sha256=HQYSqhYSt8qU15wcXNEET03PY8-0pFE-oRf3P41R7Wg,16
+app_skellington-0.1.1.dist-info/RECORD,,
