@@ -1,0 +1,33 @@
+LICENSE
+MANIFEST.in
+README.rst
+pyproject.toml
+setup.cfg
+setup.py
+rsrcfork/__init__.py
+rsrcfork/__main__.py
+rsrcfork/api.py
+rsrcfork/py.typed
+rsrcfork.egg-info/PKG-INFO
+rsrcfork.egg-info/SOURCES.txt
+rsrcfork.egg-info/dependency_links.txt
+rsrcfork.egg-info/entry_points.txt
+rsrcfork.egg-info/not-zip-safe
+rsrcfork.egg-info/top_level.txt
+rsrcfork/compress/__init__.py
+rsrcfork/compress/common.py
+rsrcfork/compress/dcmp0.py
+rsrcfork/compress/dcmp1.py
+rsrcfork/compress/dcmp2.py
+tests/test_rsrcfork.py
+tests/data/empty.rsrc
+tests/data/testfile.rsrc
+tests/data/unicode.textClipping.rsrc
+tests/data/compress/compressed/Finder Help.rsrc
+tests/data/compress/compressed/Finder.rsrc
+tests/data/compress/compressed/Install.rsrc
+tests/data/compress/compressed/System.rsrc
+tests/data/compress/uncompressed/Finder Help.rsrc
+tests/data/compress/uncompressed/Finder.rsrc
+tests/data/compress/uncompressed/Install.rsrc
+tests/data/compress/uncompressed/System.rsrc
