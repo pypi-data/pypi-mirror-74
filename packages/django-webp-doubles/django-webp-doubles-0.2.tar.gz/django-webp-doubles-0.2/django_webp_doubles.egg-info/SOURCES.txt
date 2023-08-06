@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+django_webp_doubles.egg-info/PKG-INFO
+django_webp_doubles.egg-info/SOURCES.txt
+django_webp_doubles.egg-info/dependency_links.txt
+django_webp_doubles.egg-info/top_level.txt
+webp_doubles/__init__.py
+webp_doubles/apps.py
+webp_doubles/webp_images.py
+webp_doubles/management/__init__.py
+webp_doubles/management/commands/__init__.py
+webp_doubles/management/commands/create_webp_doubles.py
