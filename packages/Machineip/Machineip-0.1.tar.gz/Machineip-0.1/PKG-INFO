@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: Machineip
+Version: 0.1
+Summary: a small python module that returns the hosts public and local IP
+Home-page: UNKNOWN
+Author: pytXploiter
+Author-email: pyXploiter@gmail.com
+License: MIT
+Download-URL: https://github.com/pytXploiter/machineIP/archive/v0.1.tar.gz
+Description: UNKNOWN
+Keywords: WAN IP,LAN IP,Public IP,Local IP
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.8
