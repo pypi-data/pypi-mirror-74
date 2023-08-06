@@ -1,0 +1,8 @@
+README.md
+setup.py
+shapelyutils/__init__.py
+shapelyutils/iterator.py
+shapelyutils.egg-info/PKG-INFO
+shapelyutils.egg-info/SOURCES.txt
+shapelyutils.egg-info/dependency_links.txt
+shapelyutils.egg-info/top_level.txt
