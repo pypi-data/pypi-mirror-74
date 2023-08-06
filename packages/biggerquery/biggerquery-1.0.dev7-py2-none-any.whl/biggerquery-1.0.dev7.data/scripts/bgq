@@ -1,0 +1,4 @@
+#!python
+from biggerquery.cli import cli
+
+cli()
