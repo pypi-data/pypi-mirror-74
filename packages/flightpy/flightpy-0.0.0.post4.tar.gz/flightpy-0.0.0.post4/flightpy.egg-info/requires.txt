@@ -1,0 +1,6 @@
+click
+cerberus
+tabulate
+pyaml
+munch
+werkzeug

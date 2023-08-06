@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: flightpy
+Version: 0.0.0.post4
+Summary: a modern python web framework with super powers
+Home-page: https://github.com/dsikes/flight
+Author: Dan Sikes
+Author-email: dansikes7@gmail.com
+License: UNKNOWN
+Project-URL: Source, https://github.com/dsikes/flight
+Description: # FlightPY | A Modern Python Web Framework
+        
+        FlightPY is heavily inspired by the Express framework.
+        Python is one of my favorite languages, and it deserves to have some updated tooling for web developers.
+        
+        ## Why Another Framework
+        
+        Isn't Flask or Django enough? Probably. But the thing I've found with using those frameworks is that they seem to be on either end of the web development spectrum as far as Python is concerned. 
+        
+        FlightPY will sit somewhere in between Flask and Django. Where Flask is basically BYOE (bring your own everything) and Django is all Batteries included (and you need to know how everything works the Django way), FlightPY will attempt to provide the modularity neccessary for lightweight Python apps (via awesome middlewares), while still providing enough out of the box to get stuff done quickly.
+        
+        ## A Modern Approach
+        
+        A lot of the python frameworks were developed at a time when the web was a very different place. Some of the best features of Python may not have even existed yet. Also, some frameworks were designed and are still maintaining Python2 legacy code that has reached EOL. FlightPY is designed for Python3+ and never plans to support Python2. This allows clear focus to be on the features of the framework and not maintaining legacy code.
+        
+        ## A Modular Middleware Approach
+        
+        There are some very opinionated frameworks out there, like Django. For every opinion it has, it increases the steepness of the learning curve for that framework, along with the amount of time to actually build anything.
+        
+        On the flip side of that, frameworks like Flask are very unopinionated, but they leave it up to you to decide if or what you want to use for almost every part of your project. While its minimialisitic (*yay!*), I've often found myself in the same situation of try to make a decision that I wish the framework would've already made for me.
+        
+        There is a delicate balance to which opinions are important enough to have to provide some level of common functionality, while also not increasing the learning curve of the system as a whole.
+        
+        That is where the FlightPY middlewares come into play. The core framework is very small. Its actually smaller than Flask. The rest of the functionality comes from middlewares. If you don't import them, they won't bloat your project.
+        
+Keywords: python,framework,web framework
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
