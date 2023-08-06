@@ -1,0 +1,10 @@
+README.md
+setup.py
+pysnoonotes/__init__.py
+pysnoonotes/auth.py
+pysnoonotes/core.py
+pysnoonotes/errors.py
+pysnoonotes.egg-info/PKG-INFO
+pysnoonotes.egg-info/SOURCES.txt
+pysnoonotes.egg-info/dependency_links.txt
+pysnoonotes.egg-info/top_level.txt
