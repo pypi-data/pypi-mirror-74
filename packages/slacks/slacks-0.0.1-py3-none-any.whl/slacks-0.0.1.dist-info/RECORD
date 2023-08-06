@@ -1,0 +1,8 @@
+slacks/__init__.py,sha256=hUdzw7apkNK65MoWxZdCqCxmXrVDc8DhYeaz_FF4mgU,15
+slacks/custom_exceptions.py,sha256=N_dWhUsA7yHy7bVxsj9ldQEkHj72wt4ubhat-sVVh3A,412
+slacks/slacks.py,sha256=mZtBZnDnnamu-iW4ltXthgKNakJlMEAMa88opRMJI48,4225
+slacks-0.0.1.dist-info/LICENSE,sha256=6kbiFSfobTZ7beWiKnHpN902HgBx-Jzgcme0SvKqhKY,1091
+slacks-0.0.1.dist-info/METADATA,sha256=kGD6UnW8DirCiH4QfPoCFEMN2aRwe4tym_pwRW4gJ84,1638
+slacks-0.0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+slacks-0.0.1.dist-info/top_level.txt,sha256=MohvzgB1dltADuhiw07wC30n6OQxZEfwhRKtd6z-iuM,7
+slacks-0.0.1.dist-info/RECORD,,
