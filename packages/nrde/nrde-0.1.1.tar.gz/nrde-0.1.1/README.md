@@ -1,0 +1,44 @@
+# dashboard-exporter
+A Python client to export a New Relic dashboard PDF or image programmatically.
+
+## Installation
+
+This is available on the Python Package Index (PyPI). You can install using pip.
+
+```
+virtualenv env
+source env/bin/activate
+pip install nrde
+```
+
+To install the development version, run:
+
+```
+pip install https://github.com/AnthonyBloomer/dashboard-exporter/archive/dev.zip
+```
+
+## Usage
+
+The first step is export your Personal API Key as an environment variable.
+
+```
+export NEW_RELIC_PERSONAL_API_KEY = "YOUR_API_KEY"
+```
+
+If you have an EU based account, you will also need to export the `NEW_RELIC_REGION` environment variable:
+
+```
+export NEW_RELIC_REGION = "EU"
+```
+
+Then pass the GUID of a given Dashboard to the `exporter` function to download a snapshot of your dashboard. You can get the GUID by pressing the `info` button in your dashboard.
+
+
+
+```python
+from dashboard_exporter import exporter
+output = exporter(guid="The New Relic dashboard GUID.", file_type="PDF",)
+print(output)
+```
+
+
