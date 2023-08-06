@@ -1,0 +1,8 @@
+dockerwrapper/__init__.py,sha256=mPeMhp_jJWETJRedc59CJQM13fXipO7SGFY9BZyZYyc,31
+dockerwrapper/__version__.py,sha256=OHw1u5vHPBK1BKmgaeNZseG_4VpLE1H1xfaNyDGGKVQ,1321
+dockerwrapper/core.py,sha256=vTF-azYR8vzknJA2q2vrzk0-4pWQR8L_f0g_Xbyf_C0,5836
+tl_dockerwrapper-1.0.0.dist-info/LICENSE,sha256=KAKc9oH_F3sq5pPdHflH0PadvRUBI-kOyAqunqLSMpU,1059
+tl_dockerwrapper-1.0.0.dist-info/METADATA,sha256=U-UdOu2i4rIg9s6IR7xlbd-jzVkhikl4cBHZBQNr5Jc,684
+tl_dockerwrapper-1.0.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+tl_dockerwrapper-1.0.0.dist-info/top_level.txt,sha256=3cbxXHksAsoAtojG62rJFOo2J6tQilNlWt3rupYMXoQ,14
+tl_dockerwrapper-1.0.0.dist-info/RECORD,,
