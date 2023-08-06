@@ -1,0 +1,36 @@
+GET  https://auth.globus.org/v2/api/clients/d3a66776-759f-4316-ba55-21725fe37323
+Authorization: Basic d3a66776-759f-4316-ba55-21725fe37323:2KKsiNbo0SUWeESApAaBt8eulddhtlUyDphEsCTpFeo=
+
+###
+GET  https://auth.globus.org/v2/api/scopes/ba5926ba-eb3e-4e1b-8c42-504bee13ef7a
+Authorization: Basic d3a66776-759f-4316-ba55-21725fe37323:2KKsiNbo0SUWeESApAaBt8eulddhtlUyDphEsCTpFeo=
+
+
+###
+POST  https://auth.globus.org/v2/api/clients/d3a66776-759f-4316-ba55-21725fe37323/scopes
+Authorization: Basic d3a66776-759f-4316-ba55-21725fe37323:2KKsiNbo0SUWeESApAaBt8eulddhtlUyDphEsCTpFeo=
+
+{
+    "scope": {
+        "name": "My Second Scope",
+        "description": "A secondary scope we can use with our Action Provider",
+        "scope_suffix": "secondary_scope",
+        "dependent_scopes": [
+            {
+                "scope": "80fa5a88-ae26-4db7-be3a-c5f4cf4ac8d2",
+                "optional": false,
+                "requires_refresh_token": false
+            }
+        ]
+    }
+}
+
+###
+POST http://localhost:5000/run
+
+{
+    "request_id": "123456",
+    "body": {
+        "utc_offset": 2
+    }
+}
