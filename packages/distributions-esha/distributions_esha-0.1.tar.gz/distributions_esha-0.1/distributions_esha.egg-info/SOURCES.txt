@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+distributions_esha/Binomialdistribution.py
+distributions_esha/Gaussiandistribution.py
+distributions_esha/Generaldistribution.py
+distributions_esha/__init__.py
+distributions_esha.egg-info/PKG-INFO
+distributions_esha.egg-info/SOURCES.txt
+distributions_esha.egg-info/dependency_links.txt
+distributions_esha.egg-info/not-zip-safe
+distributions_esha.egg-info/top_level.txt
