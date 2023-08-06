@@ -1,0 +1,8 @@
+numpy
+pybind11>=2.2.3
+requests
+scipy
+networkx
+matplotlib>=2.2.3
+setuptools>=40.1.0
+sympy
