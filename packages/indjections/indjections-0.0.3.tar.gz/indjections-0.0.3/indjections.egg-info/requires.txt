@@ -1,0 +1,7 @@
+django
+toml
+
+[dev]
+pytest
+pytest-cov
+pytest-django
