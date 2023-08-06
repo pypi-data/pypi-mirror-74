@@ -1,0 +1,9 @@
+README.rst
+setup.cfg
+setup.py
+gwr_inversion.egg-info/PKG-INFO
+gwr_inversion.egg-info/SOURCES.txt
+gwr_inversion.egg-info/dependency_links.txt
+gwr_inversion.egg-info/not-zip-safe
+gwr_inversion.egg-info/requires.txt
+gwr_inversion.egg-info/top_level.txt
