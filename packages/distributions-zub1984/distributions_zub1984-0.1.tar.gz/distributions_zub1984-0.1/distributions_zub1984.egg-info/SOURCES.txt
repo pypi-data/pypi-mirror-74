@@ -1,0 +1,10 @@
+setup.py
+distributions_zub1984/Binomialdistribution.py
+distributions_zub1984/Gaussiandistribution.py
+distributions_zub1984/Generaldistribution.py
+distributions_zub1984/__init__.py
+distributions_zub1984.egg-info/PKG-INFO
+distributions_zub1984.egg-info/SOURCES.txt
+distributions_zub1984.egg-info/dependency_links.txt
+distributions_zub1984.egg-info/not-zip-safe
+distributions_zub1984.egg-info/top_level.txt
