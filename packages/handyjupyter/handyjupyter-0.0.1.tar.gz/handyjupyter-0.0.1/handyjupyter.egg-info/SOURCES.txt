@@ -1,0 +1,9 @@
+README.md
+setup.py
+handyjupyter/__init__.py
+handyjupyter.egg-info/PKG-INFO
+handyjupyter.egg-info/SOURCES.txt
+handyjupyter.egg-info/dependency_links.txt
+handyjupyter.egg-info/top_level.txt
+handyjupyter/visual/__init__.py
+handyjupyter/visual/visual.py
