@@ -1,0 +1,12 @@
+docdoc/__init__.py,sha256=tA5uq-H5OiL1l0a_6agRpQiUcJgwhwHbMh__0etKGRc,333
+docdoc/matching.py,sha256=p5nhu33WIV40o8Cy9goCJEOmnq5JmyFDbf1hZpwETcM,3175
+docdoc/postprocessing.py,sha256=ipLoqLC5rkTMG-2SbYqF0kXdlG7mDrMD5ra8damLKp4,2806
+docdoc/preprocessing.py,sha256=vLW5GnORYGBmSXvMjTT1mTWhkykQEL1pRPptksFnuwo,2033
+docdoc/tokenization.py,sha256=GdOc44bpiCGfKxuWwoM6jSYumHowE-qoh3E3bU1qMA8,4135
+docdoc/resource/custom_english_non_breaking_prefixes.txt,sha256=RZDoJORkx5CU7vA9G4WApBf6TBoYU_na-YycqoseRJk,17
+docdoc/resource/stopwords.txt,sha256=L67zGBVaMNfpHDneP1H94utEo_4k4K2wxQT9Ncet2Ig,935
+docdoc-0.1.1.dist-info/LICENSE,sha256=WI5JtXXhjcqnIcPllDA1ZtuxNnZ515xjElcILo7z28o,1073
+docdoc-0.1.1.dist-info/METADATA,sha256=ppoLBjGD-7E3sqkLYKa9MppOFp-m-oiGcrtmpqrdEv8,614
+docdoc-0.1.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+docdoc-0.1.1.dist-info/top_level.txt,sha256=PkE2d02NFVUpwNuZXUKyY0r8s_JLrUFbTkRB2P0mxPA,7
+docdoc-0.1.1.dist-info/RECORD,,
