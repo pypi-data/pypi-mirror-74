@@ -1,0 +1,7 @@
+cluster_task_mag/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cluster_task_mag-1.0.1.data/scripts/kill_cluster_job.py,sha256=HzRXMC10bDe7t4Dmq4vWEjy3Pmd8_0TWrqIKWWbHi7E,1434
+cluster_task_mag-1.0.1.data/scripts/submit_cluster_job.py,sha256=QN2UmDMbRwMYzb3OtREji2KPmD7BQEpKuVX97BioCxI,1924
+cluster_task_mag-1.0.1.dist-info/METADATA,sha256=4IDJlj_oDrSI6-XYIqOrmeIKhvJefkpUgcZTxCH4bgs,219
+cluster_task_mag-1.0.1.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+cluster_task_mag-1.0.1.dist-info/top_level.txt,sha256=DyEWQ_O9_G_kg1varnifxfiNXmrAyrZtJDpgla94ad4,17
+cluster_task_mag-1.0.1.dist-info/RECORD,,
