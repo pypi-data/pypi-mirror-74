@@ -1,0 +1,3 @@
+[console_scripts]
+spotify_playlist_additions = spotify_playlist_additions.cli:main
+
