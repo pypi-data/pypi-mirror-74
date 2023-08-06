@@ -1,0 +1,14 @@
+
+[benchmark]
+orjson
+python-rapidjson
+simplejson
+
+[dev]
+pybind11
+m2r
+sphinx
+ghp-import
+bumpversion
+pytest
+pytest-benchmark
