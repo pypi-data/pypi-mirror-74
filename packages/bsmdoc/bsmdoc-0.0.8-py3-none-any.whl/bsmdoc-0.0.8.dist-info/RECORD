@@ -1,0 +1,15 @@
+bsmdoc/__init__.py,sha256=lGy_B3BCDz8WA5e7PC47-qZKwYtSu9yId3kz7mxRgUk,22
+bsmdoc/bsmdoc.py,sha256=VWIsINjKQymkrYGN_rU8qJQ_YVvcYJxV6ajlavLjPME,58901
+bsmdoc/parsetab.py,sha256=aJDbdXfxFLjqSqaQ4Upn-5mpsNKYe1PoaKx9NlDmQ0U,19937
+bsmdoc/template/template.bsmdoc,sha256=P3J1ws3s-iVj7BaW-Pel1Ol0Ppc9PppYWWNhQezWQQc,212
+bsmdoc/template/css/bsmdoc.css,sha256=2cJr96U0V2RcuNSgFrtshPdFDLQQWbQ-a-9c5hEQLiA,20250
+bsmdoc/template/css/menu.css,sha256=1vjgHuNt6uVtZIgl7U7Q12W3_mbqpvng1Eb-VDC_HuU,2964
+bsmdoc/template/js/bsmdoc.js,sha256=K8Nh2o_TkYjx1Ozce8ZLoqoC76GCHbuSJOD_KQq7I3U,4253
+bsmdoc/template/js/menu.js,sha256=ISrCECxUngzNGPVqMrYwGwAskw33URT33ECNV7jJaNE,1869
+bsmdoc-0.0.8.dist-info/DESCRIPTION.rst,sha256=-vU3NjKHhWU2gIzUqGX6O0VKyjrBcZQPbP-V4PzEBQo,100
+bsmdoc-0.0.8.dist-info/METADATA,sha256=ldZR8-OGERfgUKbSvu9dQkl6oGMmHlYmiap7CHSi54Y,420
+bsmdoc-0.0.8.dist-info/RECORD,,
+bsmdoc-0.0.8.dist-info/WHEEL,sha256=rNo05PbNqwnXiIHFsYm0m22u4Zm6YJtugFG2THx4w3g,92
+bsmdoc-0.0.8.dist-info/entry_points.txt,sha256=HYYxOoGxGkmmw2i_rhZE2I36Mr4frjSM9Kay-JZhZTA,66
+bsmdoc-0.0.8.dist-info/metadata.json,sha256=GEPhgVsEldiUfmdOwKCQR5JaKVxVrkmqwAU0Eeq4aeA,659
+bsmdoc-0.0.8.dist-info/top_level.txt,sha256=DVj07zCFqnefGE-eAVy4XFmOdVbp9SPh4hLk5LNTOYw,7
