@@ -1,0 +1,16 @@
+.DS_Store
+LICENSE.txt
+MANIFEST
+README.md
+setup.cfg
+setup.py
+ReadabilityLola.egg-info/PKG-INFO
+ReadabilityLola.egg-info/SOURCES.txt
+ReadabilityLola.egg-info/dependency_links.txt
+ReadabilityLola.egg-info/top_level.txt
+readabilitylola/__init__.py
+readabilitylola/bahasa.py
+readabilitylola/hindi.py
+test/bahasa.txt
+test/hindi.txt
+test/test.py
