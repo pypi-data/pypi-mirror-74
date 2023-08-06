@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: build-server-client
+Version: 0.1.1
+Summary: Python client for a simple build server
+Home-page: https://github.com/GIT_USER/build-server-client
+Author: Matthew D. Scholefield
+Author-email: matthew331199@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Keywords: build server client
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
