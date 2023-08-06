@@ -1,0 +1,13 @@
+pandas
+numpy
+deflate_dict>=1.0.7
+numba
+
+[test]
+pytest
+pytest-cov
+coveralls
+validate_version_code
+random_dict
+codacy-coverage
+tqdm
