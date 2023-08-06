@@ -1,0 +1,66 @@
+[build-system]
+requires = ["flit"]
+build-backend = "flit.buildapi"
+
+[tool.flit.metadata]
+module = "po4"
+author = "Kale Kundert"
+author-email = "kale@thekunderts.net"
+home-page = 'https://github.com/kalekundert/po4'
+description-file = 'README.rst'
+requires-python = "~=3.8"
+requires = [
+  'appdirs',
+  'autoprop',
+  'autosnapgene',
+  'Biopython',
+  'configurator',
+  'docopt',
+  'inform>=1.21',
+  'more_itertools>=8.0',
+  'pandas',
+  'setuptools',
+  'stepwise',
+  'stepwise_mol_bio',
+  'tabulate',
+  'toml',
+  'tqdm',
+  'voluptuous',
+  'xlrd>=1.0',
+]
+classifiers = [
+  'Programming Language :: Python :: 3',
+  'License :: OSI Approved :: MIT License',
+]
+
+[tool.flit.scripts]
+po4 = "po4.cli.main:main"
+
+[tool.flit.entrypoints."po4.databases"]
+excel = "po4.loaders.excel"
+
+[tool.flit.entrypoints."stepwise.protocols"]
+protocols = "po4.stepwise:Plugin"
+
+[tool.flit.metadata.requires-extra]
+tests = [
+  'pytest',
+  'pytest-cov',
+  'coveralls',
+]
+docs = [
+  'sphinx',
+  'sphinx_rtd_theme',
+  'autoclasstoc',
+]
+
+[tool.flit.metadata.urls]
+'Documentation' = 'https://phosphatedb.readthedocs.io/en/latest/'
+'Version Control' = 'https://github.com/kalekundert/phosphatedb'
+'Bug Tracker' = 'https://github.com/kalekundert/phosphatedb/issues'
+'Continuous Integration' = 'https://github.com/kalekundert/phosphatedb/actions'
+'Test Coverage' = 'https://coveralls.io/github/kalekundert/phosphatedb'
+
+[tool.semantic_release]
+version_variable = 'po4/__init__.py:__version__'
+build_command = 'python -m pip install flit && flit build'
