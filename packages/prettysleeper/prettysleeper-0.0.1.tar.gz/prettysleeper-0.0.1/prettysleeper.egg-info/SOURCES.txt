@@ -1,0 +1,9 @@
+README.md
+setup.py
+prettysleeper/__init__.py
+prettysleeper/__main__.py
+prettysleeper.egg-info/PKG-INFO
+prettysleeper.egg-info/SOURCES.txt
+prettysleeper.egg-info/dependency_links.txt
+prettysleeper.egg-info/entry_points.txt
+prettysleeper.egg-info/top_level.txt
