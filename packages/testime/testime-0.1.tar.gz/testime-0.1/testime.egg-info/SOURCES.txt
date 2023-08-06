@@ -1,0 +1,11 @@
+MANIFEST.in
+README.txt
+setup.cfg
+setup.py
+testime/__init__.py
+testime/somePython.py
+testime.egg-info/PKG-INFO
+testime.egg-info/SOURCES.txt
+testime.egg-info/dependency_links.txt
+testime.egg-info/requires.txt
+testime.egg-info/top_level.txt
