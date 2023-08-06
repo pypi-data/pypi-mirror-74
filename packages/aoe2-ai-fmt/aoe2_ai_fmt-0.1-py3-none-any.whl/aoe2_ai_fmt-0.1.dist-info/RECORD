@@ -1,0 +1,14 @@
+aoe2_ai_fmt-0.1.data/scripts/format.py,sha256=HW1JfCBWLv67xy02Efxhb3918FgmCeoYDOPOXWgUSyU,1178
+performat/__init__.py,sha256=kCtJ8hKMjuB9gmQOA-OvKDiN2hZDR9AQwOgFWZPb1yU,86
+performat/comment_spooler.py,sha256=eQX7iKsulgaBIvnIM5IbVVXE4koGU9GI3DAcby7W6BI,1005
+performat/formatted_per_listener.py,sha256=fVR9fiallQ_fucxWCM1141CAib86UD-0gXfL6BIdK1c,9662
+performat/formatter.py,sha256=UhC0f5QC915KEn0AZpL7jI1rrhiwi5PuBGVoxG--dTc,623
+performat/perparse/PERLexer.py,sha256=GqqzMvJUSXzzR2y4LCkjQAc5fyo-IosGJVLsGo5sV1I,10038
+performat/perparse/PERListener.py,sha256=K661WjFT9mXiGNEuS23LohO64QkJpg0Fa9t6Ha0FLUI,6587
+performat/perparse/PERParser.py,sha256=NdegAhUonRH2pvRIxS2E4RL5HnwaTU8dIL0Cgu5gcNQ,66133
+performat/perparse/__init__.py,sha256=BSi_p2hh4xRVxx_vviEZRfzjm8w5W1rOIgfhXXvkXSU,101
+aoe2_ai_fmt-0.1.dist-info/LICENSE.txt,sha256=uTrk0z6Q-6SBYhkEk3gfmumikArsfGcph6NcMPwderM,1069
+aoe2_ai_fmt-0.1.dist-info/METADATA,sha256=_bbZJ8OLnehd_jzq2RG34xY0tyc3P_onh-DlL0XZvbw,3776
+aoe2_ai_fmt-0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+aoe2_ai_fmt-0.1.dist-info/top_level.txt,sha256=qWjPN-jpMNt9aAXcmWCw5SGje5nG9lmyx3gGhxok59M,10
+aoe2_ai_fmt-0.1.dist-info/RECORD,,
