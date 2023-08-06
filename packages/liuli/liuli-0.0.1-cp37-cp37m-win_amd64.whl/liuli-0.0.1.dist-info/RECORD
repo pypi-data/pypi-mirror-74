@@ -1,0 +1,10 @@
+liuli/__init__.py,sha256=CEKeM7S5AnM-53EkHqGNwL37Vkz1AW5Pm9RmnLRibw4,378
+liuli/cyliuli.cp37-win_amd64.pyd,sha256=M_JqdJ3ERiPFmi695hxJSe4vJtJOVzN3cGfekK3f64I,115712
+liuli/liuli.py,sha256=NRYbl2MS3g4A_s-b-88-T5Rs5uFKUs3YZpGNOiTnvIk,1995
+liuli/tokenizer.py,sha256=MROn6QYGIYJXVuLRT2qPYYFN-B7HGgmODzWAZH_rK4o,7331
+liuli/vocab.py,sha256=tFNscnYt29N3WzEOesH5xUAGt54vHkCQyPgvgMxsSTo,5144
+liuli-0.0.1.dist-info/LICENSE,sha256=k2eCPDvdckWQiEMuacl11tgUL304QwYKHTh_kBz_1Js,1087
+liuli-0.0.1.dist-info/METADATA,sha256=kRam6QnDtkK7lw_REwALWfUDIiGzX3PjM0A-ThjZlrA,913
+liuli-0.0.1.dist-info/WHEEL,sha256=QOmb-VuQJwuZ7Av_Q2839PCv6qsn6RGHIrt6Y0esFDg,106
+liuli-0.0.1.dist-info/top_level.txt,sha256=pVmzNJkfihem4QN1hDSlLEerocyVvMEtboB3VyRJCPI,6
+liuli-0.0.1.dist-info/RECORD,,

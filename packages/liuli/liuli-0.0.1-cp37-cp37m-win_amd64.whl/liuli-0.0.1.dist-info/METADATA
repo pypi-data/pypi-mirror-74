@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: liuli
+Version: 0.0.1
+Summary: liuli is better than jieba.
+Home-page: https://github.com/lixiepeng/liuli
+Author: Xiepeng Li
+Author-email: phiedulxp@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+Requires-Dist: jieba
+
+# liuli
+
+liuli is better than jieba.
+流利比结巴好。
+
+## 使用
+
+- `pip install liuli`
+
+```
+>>> import liuli
+>>> liuli.lcut('南京市长江大桥')
+['南京市', '长江大桥']
+>>> liuli.lcut('南京市长江大桥', cut_all=True)
+['南京', '南京市', '京市', '市长', '长江', '长江大桥', '大桥']
+>>> liuli.lcut_for_search('南京市长江大桥')
+['南京', '南京市', '京市', '长江', '长江大桥', '大桥']
+```
+
+## 性能测试
+   - `liuli 1x < jieba 1.5x < cyliuli 2x`
+   - [详见](./benchmark.ipynb) 
+
+
