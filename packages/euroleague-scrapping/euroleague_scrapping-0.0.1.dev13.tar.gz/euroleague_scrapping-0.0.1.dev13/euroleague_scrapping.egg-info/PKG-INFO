@@ -1,0 +1,13 @@
+Metadata-Version: 1.2
+Name: euroleague-scrapping
+Version: 0.0.1.dev13
+Summary: Euroleague and Eurocup scrapping
+Home-page: https://github.com/newstatseu/euroleague-scrapping
+Author: Newstats.eu
+Author-email: euroleague.dataguy@gmail.com
+License: UNKNOWN
+Description: Test!
+        
+        
+Platform: UNKNOWN
+Requires-Python: >=3.6
