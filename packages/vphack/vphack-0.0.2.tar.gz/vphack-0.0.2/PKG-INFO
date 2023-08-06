@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: vphack
+Version: 0.0.2
+Summary: A Tools Viper Hacker @onehack
+Home-page: https://github.com/NRTnarathip/vphackez.git
+Author: Viper Hacker
+Author-email: viperhackerth@gmail.com
+License: License.txt
+Description: thanks for download goodluck
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Description-Content-Type: text/markdown
