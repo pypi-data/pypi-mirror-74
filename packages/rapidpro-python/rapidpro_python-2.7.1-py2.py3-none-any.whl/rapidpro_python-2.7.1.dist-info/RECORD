@@ -1,0 +1,15 @@
+temba_client/__init__.py,sha256=ql8h39S9sQ_EyA1RdmDQQoKEu28-5_M1bk8QNHC0HbE,55
+temba_client/base.py,sha256=5icb4VOW9oAOWfPtA2ctdjbX5tpLBh1vP9dqsccIDc8,9210
+temba_client/clients.py,sha256=5icb4VOW9oAOWfPtA2ctdjbX5tpLBh1vP9dqsccIDc8,9210
+temba_client/exceptions.py,sha256=-Y_ktJA6-V5KGBv3SN78wZx0DrAZ6KEsMXWYpcT3AnY,1690
+temba_client/serialization.py,sha256=aPdecUr500-KecxDyu51lJesVuruq4UbsgCm2ut7luU,4660
+temba_client/tests.py,sha256=rGliprV4B9EXg50zPZRTA6G9xR43EMTHhaVaXXgFqqg,11751
+temba_client/utils.py,sha256=hgTwpHsq7fCHeHhDih5Xp-mid4dX_DlmrQvQACYesMY,851
+temba_client/v2/__init__.py,sha256=ZzbUvhtnv3Yr0kS7Eh4VffyWFpDtycOCbGk6in-kmL4,24142
+temba_client/v2/tests.py,sha256=LiSrW4BHAlr4M9DkNLbE0xg7DEwrpG7_m5ivn138P-w,54223
+temba_client/v2/types.py,sha256=zyqSGn0f4uV03WUiZIaunhDSJgQOkrabzdmdXVmu1r0,6798
+rapidpro_python-2.7.1.dist-info/LICENSE,sha256=JK8UdPHuPI-Fp7wANS6qs47Y33jbuftUc1VxVnqrZJM,1476
+rapidpro_python-2.7.1.dist-info/METADATA,sha256=MotEFkJqLcYY_FS5sAuyrlWxYZZ3ln9f63c4-EiEKkM,2096
+rapidpro_python-2.7.1.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+rapidpro_python-2.7.1.dist-info/top_level.txt,sha256=gWZ9QeyVxR-Ins4IjWxrf7cxi7amKmfAjm9rmCiEgc8,13
+rapidpro_python-2.7.1.dist-info/RECORD,,
