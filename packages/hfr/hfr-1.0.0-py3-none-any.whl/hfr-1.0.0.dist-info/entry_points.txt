@@ -1,0 +1,3 @@
+[console_scripts]
+realpython = hash_sentences.__main__:main
+
