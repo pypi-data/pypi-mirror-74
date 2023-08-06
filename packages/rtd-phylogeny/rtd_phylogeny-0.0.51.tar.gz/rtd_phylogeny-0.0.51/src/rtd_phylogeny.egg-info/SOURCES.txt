@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+_config.yml
+requirements.txt
+setup.py
+data/Mumps.fa
+data/RTD_Phylogeny.jpeg
+src/rtd_phylogeny.py
+src/rtd_phylogeny.egg-info/PKG-INFO
+src/rtd_phylogeny.egg-info/SOURCES.txt
+src/rtd_phylogeny.egg-info/dependency_links.txt
+src/rtd_phylogeny.egg-info/requires.txt
+src/rtd_phylogeny.egg-info/top_level.txt
+tests/test_rtd_phylogeny.py
