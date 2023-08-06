@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: relogic00
+Version: 0.0.1
+Summary: Natural Language Processing Toolkits
+Home-page: https://github.com/Impavidity/relogic
+Author: Peng Shi
+Author-email: peng_shi@outlook.com
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: boto3
+Requires-Dist: Cython
+Requires-Dist: spacy
+Requires-Dist: pyjnius
+
+UNKNOWN
+
+
