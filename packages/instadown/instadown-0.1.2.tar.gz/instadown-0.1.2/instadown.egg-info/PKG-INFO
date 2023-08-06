@@ -1,0 +1,55 @@
+Metadata-Version: 2.1
+Name: instadown
+Version: 0.1.2
+Summary: Download all the public posts of a public Instagram account
+Home-page: https://github.com/IamStefin/Instagram-Image-Downloader
+Author: Stef
+Author-email: sstefin@bk.ru
+License: MIT
+Description: 
+        [![Build Status](https://travis-ci.org/IamStefin/Instagram-Image-Downloader.svg?branch=master)](https://travis-ci.org/IamStefin/Instagram-Image-Downloader)
+        
+        # Instagram Image Downloader
+        
+        This application  will download all the image from an Instagram public profile
+        
+        ## How to get a query_hash
+        
+        https://github.com/mineur/instagram-parser/blob/master/docs/setup.md#how-to-get-your-query-hash-old-query-id
+        
+        ## How to use ?
+        
+        ```bash
+        git clone https://github.com/IamStefin/Instagram-Image-Downloader.git
+        cd Instagram-Image-Downloader
+        python3 -m venv venv
+        source venv/bin/activate
+        pip install -r requirements.txt
+        python main.py github `your query hash`
+        ```
+        This will download all post from Github instagram page
+        
+        Threading is available in `threading` branch
+        
+        ## Running in Docker
+        
+        In interactive mode
+        
+        `docker run -it  -v $(pwd):/app/POSTS/ iamstefin/instadown github {your_query_hash}`
+        
+        In background mode
+        
+        `docker run -d  -v $(pwd):/app/POSTS/ iamstefin/instadown github {your_query_hash}`
+        
+        
+        Feel free to make this code better :)
+        
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.6.0
+Description-Content-Type: text/markdown
