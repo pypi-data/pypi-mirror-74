@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: battlemetrics_scrapper
+Version: 1.0.3
+Summary: Battlemetrics scrapper
+Home-page: https://github.com/nathmo/battlemetrics_scrapper
+Author: NMorand + ARamushi
+Author-email: natmo@hotmail.ch
+License: UNKNOWN
+Project-URL: Bug Reports, https://github.com/nathmo/battlemetrics_scrapper/issues
+Project-URL: Source, https://github.com/nathmo/battlemetrics_scrapper/sampleproject/
+Description: this package allow you to scrap the advertised server on battlemetrics.
+                             it return the number of server up, down and dead in each country and the number of player connected to thoses servers
+                             to use it : 
+                             
+                             import battlemetrics_scrapper
+                             from iso3166 import countries
+                             
+                             for country in countries: # iterarate over all the country ISO code
+                                 print(battlemetrics_scrapper.get_latest_gameserverstat_country(country, saveascsv=None))
+                            
+                            
+                             
+Keywords: scrapper,battlemetrics,steam
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Python: >=3.5, <4
+Description-Content-Type: text/plain; charset=UTF-8
