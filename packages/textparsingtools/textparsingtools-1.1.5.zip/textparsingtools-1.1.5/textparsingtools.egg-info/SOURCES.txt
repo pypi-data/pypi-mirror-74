@@ -1,0 +1,10 @@
+MANIFEST.in
+README.md
+setup.py
+docs/textparsingtools.html
+example/textparsingtools_demo.py
+textparsingtools.egg-info/PKG-INFO
+textparsingtools.egg-info/SOURCES.txt
+textparsingtools.egg-info/dependency_links.txt
+textparsingtools.egg-info/requires.txt
+textparsingtools.egg-info/top_level.txt
