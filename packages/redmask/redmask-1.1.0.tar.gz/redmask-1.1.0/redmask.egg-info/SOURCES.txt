@@ -1,0 +1,12 @@
+README.md
+setup.py
+redmask/__init__.py
+redmask/__main__.py
+redmask/gpl.py
+redmask/redmask.py
+redmask.egg-info/PKG-INFO
+redmask.egg-info/SOURCES.txt
+redmask.egg-info/dependency_links.txt
+redmask.egg-info/entry_points.txt
+redmask.egg-info/requires.txt
+redmask.egg-info/top_level.txt
