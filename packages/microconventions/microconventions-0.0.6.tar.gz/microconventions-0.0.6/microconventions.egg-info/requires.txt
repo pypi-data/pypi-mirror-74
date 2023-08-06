@@ -1,0 +1,5 @@
+muid>=0.4.6
+getjson
+pymorton
+numpy
+scipy
