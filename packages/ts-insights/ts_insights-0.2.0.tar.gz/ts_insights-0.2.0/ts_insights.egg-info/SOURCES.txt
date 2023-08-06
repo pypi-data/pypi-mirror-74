@@ -1,0 +1,10 @@
+setup.cfg
+setup.py
+ts_insights/__init__.py
+ts_insights/ts_insights.py
+ts_insights.egg-info/PKG-INFO
+ts_insights.egg-info/SOURCES.txt
+ts_insights.egg-info/dependency_links.txt
+ts_insights.egg-info/not-zip-safe
+ts_insights.egg-info/requires.txt
+ts_insights.egg-info/top_level.txt

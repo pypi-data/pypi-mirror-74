@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: ts-insights
+Version: 0.2.0
+Summary: Python package to get time series insights
+Home-page: UNKNOWN
+Author: Nikhil Bankar
+Author-email: bankarniikhiil@gmail.com
+License: MIT
+Description: from ts_insights import trend_identification   help(trend_identification)
+Keywords: time series,insights,analysis
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
