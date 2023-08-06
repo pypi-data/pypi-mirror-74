@@ -1,0 +1,11 @@
+croissant/__init__.py,sha256=508eDu4nPCyqYyg_NQBRjRZmK_68ggYywDmqDMXRF1I,24
+croissant/features.py,sha256=z54SS3jH_AmG4iB94EXhDCYIELnYP1gwgM3XZKwLkHU,8260
+croissant/ingest.py,sha256=RzlWWkhLdV_ku7IkZ7yfKCXqlxDqNQyFloRWSk1WKBw,11688
+croissant/roi.py,sha256=dzmJu7RNJxRtasVm94l_ubGK2Ki-ShspJJI1DUQAZ-E,2068
+croissant/train.py,sha256=yoOZrDhmdPK4OWeQhkR6GWvVwNgWYXYZuQENdvxYigs,5806
+croissant/utils.py,sha256=5_r2_ZN5KJeb8FB60h3S_kpXF9Z9pSopkqDmU1nHRcY,1619
+croissant_ml-0.0.1a0.dist-info/LICENSE.md,sha256=TGSwVmrnep47GIhrsq2dAmgLRDCcUay2OCNGxTZdYu0,1956
+croissant_ml-0.0.1a0.dist-info/METADATA,sha256=YdkKcv4EGbfXXDpkPFP1Khkw7fP6ZnZz2LlTt8nGeV0,866
+croissant_ml-0.0.1a0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+croissant_ml-0.0.1a0.dist-info/top_level.txt,sha256=4TEd2PFsqGiZz71T1yOlLbe3H-ltjOIn2XOI4RCu_B4,10
+croissant_ml-0.0.1a0.dist-info/RECORD,,
