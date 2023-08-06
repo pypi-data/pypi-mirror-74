@@ -1,0 +1,12 @@
+README.md
+setup.py
+compynieshouse/__init__.py
+compynieshouse/company_query.py
+compynieshouse/officer_appointments.py
+compynieshouse/officer_query.py
+compynieshouse/significant_control_query.py
+compynieshouse.egg-info/PKG-INFO
+compynieshouse.egg-info/SOURCES.txt
+compynieshouse.egg-info/dependency_links.txt
+compynieshouse.egg-info/requires.txt
+compynieshouse.egg-info/top_level.txt
