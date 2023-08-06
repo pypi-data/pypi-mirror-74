@@ -1,0 +1,6 @@
+README.md
+setup.py
+stockquote_pkg_jjbiggins.egg-info/PKG-INFO
+stockquote_pkg_jjbiggins.egg-info/SOURCES.txt
+stockquote_pkg_jjbiggins.egg-info/dependency_links.txt
+stockquote_pkg_jjbiggins.egg-info/top_level.txt
