@@ -1,0 +1,13 @@
+[build-system]
+requires = [
+    "flit",
+    "statsmodels"
+]
+build-backend = "flit.buildapi"
+
+[tool.flit.metadata]
+module = "pypungi"
+author = "James Otterson"
+author-email = "jjotterson@gmail.com"
+home-page = "https://github.com/jjotterson"
+
