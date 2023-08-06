@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: linkcutter
+Version: 0.0.1a1
+Summary: Make link shorter using cutt.ly API
+Home-page: UNKNOWN
+License: UNKNOWN
+Author: Ilia Fedorovich
+Author-email: workplaceilfed@gmail.com
+Classifier: License :: OSI Approved :: MIT License
