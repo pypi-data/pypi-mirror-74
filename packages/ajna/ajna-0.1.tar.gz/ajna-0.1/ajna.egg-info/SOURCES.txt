@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+ajna/Binomialdistribution.py
+ajna/Gaussiandistribution.py
+ajna/Generaldistribution.py
+ajna/__init__.py
+ajna.egg-info/PKG-INFO
+ajna.egg-info/SOURCES.txt
+ajna.egg-info/dependency_links.txt
+ajna.egg-info/not-zip-safe
+ajna.egg-info/top_level.txt
