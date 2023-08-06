@@ -1,0 +1,10 @@
+setup.py
+mitro_distributions_test/Binomialdistribution.py
+mitro_distributions_test/Gaussiandistribution.py
+mitro_distributions_test/Generaldistribution.py
+mitro_distributions_test/__init__.py
+mitro_distributions_test.egg-info/PKG-INFO
+mitro_distributions_test.egg-info/SOURCES.txt
+mitro_distributions_test.egg-info/dependency_links.txt
+mitro_distributions_test.egg-info/not-zip-safe
+mitro_distributions_test.egg-info/top_level.txt
