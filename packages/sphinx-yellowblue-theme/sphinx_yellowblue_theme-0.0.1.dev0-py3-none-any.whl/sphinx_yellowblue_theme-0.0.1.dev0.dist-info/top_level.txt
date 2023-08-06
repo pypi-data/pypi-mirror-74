@@ -1,0 +1,1 @@
+sphinx_yellowblue_theme
