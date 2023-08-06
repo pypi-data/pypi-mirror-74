@@ -1,0 +1,11 @@
+macaetr/__init__.py,sha256=fxZu8w7fe8_OI5azmB-rRiwqFtEHOGdlSC06Xxxm2_M,243
+macaetr/maca.py,sha256=MQjRda8Nb_Pd0-1yrBpwmhDmaomKgHdpHwPdZQqOUxY,13838
+macaetr/metadata/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+macaetr/metadata/livneh_cell_data.csv,sha256=O8SebjQ2Od6eRaTL6j-XSNWi86-l1kBII99qOxs_JDg,8495434
+macaetr/metadata/macav2_cell_data.csv,sha256=2DEk2mgfl8ny4XL1sn2LcZ6mpgKkuMneo-1kZea68G4,25257773
+macaetr-0.0.3.post1.dist-info/LICENSE,sha256=CYl-SqGbDgBhJdhzH5gQPJJ2xpzRPG-wGEPkTUjNLQs,11339
+macaetr-0.0.3.post1.dist-info/LICENSE~,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+macaetr-0.0.3.post1.dist-info/METADATA,sha256=mhWlLR-HCRsOtVJW9MhP9tnQQL9CW3JiWNC61iPir40,2293
+macaetr-0.0.3.post1.dist-info/WHEEL,sha256=8zNYZbwQSXoB9IfXOjPfeNwvAsALAjffgk27FqvCWbo,110
+macaetr-0.0.3.post1.dist-info/top_level.txt,sha256=7uDYxwXv9pPx6LnJY9i93MhUNQdkpyhG4O9GcnBcR9w,8
+macaetr-0.0.3.post1.dist-info/RECORD,,
