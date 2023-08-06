@@ -1,0 +1,16 @@
+django>=2.0
+djangorestframework>=3.10
+jsonschema
+huscy.pseudonyms
+
+[development]
+psycopg2-binary
+
+[docs]
+
+[release]
+twine
+
+[testing]
+tox
+watchdog
