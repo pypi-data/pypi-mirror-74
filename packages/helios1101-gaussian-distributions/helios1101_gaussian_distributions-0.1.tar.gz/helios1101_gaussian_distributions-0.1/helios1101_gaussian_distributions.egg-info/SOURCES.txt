@@ -1,0 +1,10 @@
+setup.py
+helios1101_gaussian_distributions/Binomialdistribution.py
+helios1101_gaussian_distributions/Gaussiandistribution.py
+helios1101_gaussian_distributions/Generaldistribution.py
+helios1101_gaussian_distributions/__init__.py
+helios1101_gaussian_distributions.egg-info/PKG-INFO
+helios1101_gaussian_distributions.egg-info/SOURCES.txt
+helios1101_gaussian_distributions.egg-info/dependency_links.txt
+helios1101_gaussian_distributions.egg-info/not-zip-safe
+helios1101_gaussian_distributions.egg-info/top_level.txt
