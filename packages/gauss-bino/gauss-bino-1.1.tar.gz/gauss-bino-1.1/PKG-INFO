@@ -1,0 +1,17 @@
+Metadata-Version: 1.0
+Name: gauss-bino
+Version: 1.1
+Summary: Gaussian and Binomial distributions Utility Package from Majf Technologies.
+Home-page: https://github.com/Anwar-Faiz
+Author: Mohd Anwar Jamal Faiz (www.majftech.com / www.w3lc.com)
+Author-email: toughjamy@yahoo.com
+License: MIT
+Description-Content-Type: text/markdown
+Description: Copyright: Majf Technologies (www.majftech.com)
+        Author: Mohd Anwar Jamal Faiz
+        Email: Toughjamy@yahoo.com
+        
+        
+        Gaussian and Binomial distributions Utility Package from Majf Technologies.
+Keywords: gaussian,distribution,binomaial,statistics,scikit,python,package,mathematics,majftech,india,aligarh university,owasp,ieee,anwar jamal faiz,ghazipur,lucknow
+Platform: any
