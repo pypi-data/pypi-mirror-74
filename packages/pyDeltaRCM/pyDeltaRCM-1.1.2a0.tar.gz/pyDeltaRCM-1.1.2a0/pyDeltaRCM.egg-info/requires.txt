@@ -1,0 +1,7 @@
+matplotlib
+netCDF4
+basic-modeling-interface
+scipy
+numpy
+pyyaml
+numba
