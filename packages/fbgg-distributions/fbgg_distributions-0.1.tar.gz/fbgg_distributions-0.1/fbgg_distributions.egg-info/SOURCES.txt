@@ -1,0 +1,10 @@
+setup.py
+fbgg_distributions/Binomialdistribution.py
+fbgg_distributions/Gaussiandistribution.py
+fbgg_distributions/Generaldistribution.py
+fbgg_distributions/__init__.py
+fbgg_distributions.egg-info/PKG-INFO
+fbgg_distributions.egg-info/SOURCES.txt
+fbgg_distributions.egg-info/dependency_links.txt
+fbgg_distributions.egg-info/not-zip-safe
+fbgg_distributions.egg-info/top_level.txt
