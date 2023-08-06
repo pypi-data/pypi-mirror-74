@@ -1,0 +1,6 @@
+README.rst
+setup.py
+rstgen.egg-info/PKG-INFO
+rstgen.egg-info/SOURCES.txt
+rstgen.egg-info/dependency_links.txt
+rstgen.egg-info/top_level.txt
