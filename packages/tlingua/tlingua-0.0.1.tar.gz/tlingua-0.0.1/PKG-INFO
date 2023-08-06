@@ -1,0 +1,58 @@
+Metadata-Version: 2.1
+Name: tlingua
+Version: 0.0.1
+Summary: A little library for text/grammar processing.
+Home-page: https://github.com/LudwigVonChesterfield/TLingua
+Author: Luduk
+Author-email: ningawent@gmail.com
+License: MIT
+Download-URL: https://github.com/LudwigVonChesterfield/TLingua/archive/v_000.000.001.tar.gz
+Description: # TLingua
+        
+        TLingua is a token-based language/grammar/text processing library built to simulate rule-governed recursively replicatable grammar.
+        
+        ### Tech
+        
+        Currently the implementation depends only on basic(pre-installed) python packages, without any fancy-special tech introduction.
+        
+        And of course Lingua itself is open source with a [public repository][TLingua]
+         on GitHub.
+        
+        ### Installation
+        
+        Lingua is published and distributed via PyPI.
+        
+        ```sh
+        pip install tlingua
+        ```
+        
+        ### Plugins
+        
+        Lingua doesn't have plugins as it's too no-name of a package to begin with. Probably never going to even receive an update or security-issue-related bump.
+        
+        ### To-dos
+        
+         - Write tests.
+         - Make usable.
+         - Make better.
+        
+        License
+        ----
+        
+        MIT
+        
+        
+        **Free Software, Hell Yeah!**
+        
+        [//]: #
+           [TLingua]: <https://github.com/LudwigVonChesterfield/TLingua>
+           [git-repo-url]: <https://github.com/LudwigVonChesterfield/TLingua.git>
+        
+Keywords: TAGS,STRINGS,GRAMMAR,LANGUAGE
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Description-Content-Type: text/markdown

@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+tlingua/__init__.py
+tlingua/global_vars.py
+tlingua/irregularVerbs.py
+tlingua/lingua.py
+tlingua/token_types.py
+tlingua.egg-info/PKG-INFO
+tlingua.egg-info/SOURCES.txt
+tlingua.egg-info/dependency_links.txt
+tlingua.egg-info/top_level.txt
