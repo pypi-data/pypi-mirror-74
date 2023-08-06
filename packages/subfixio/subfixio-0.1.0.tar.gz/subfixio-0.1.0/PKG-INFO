@@ -1,0 +1,67 @@
+Metadata-Version: 2.1
+Name: subfixio
+Version: 0.1.0
+Summary: A simple subtitle encoding fixer.
+Home-page: https://github.com/mononobi/subfix
+Author: Mohamad Nobakht
+Author-email: mohamadnobakht@gmail.com
+Maintainer: Mohamad Nobakht
+Maintainer-email: mohamadnobakht@gmail.com
+License: GPL-3.0
+Project-URL: Code, https://github.com/mononobi/subfix
+Project-URL: Issue tracker, https://github.com/mononobi/subfix/issues
+Description: # Subfix
+        
+        A simple subtitle encoding fixer.
+        
+        Subfix is a utility package which helps to convert subtitle file encodings.
+        
+        # Features
+        
+        - Single File Conversion
+        - Batch Conversion
+        
+        # Installing
+        
+        **Install using pip**:
+        
+        **`pip install subfix`**
+        
+        # Example:
+        
+        *Single:*
+        ```python
+        from subfix.converter.manager import converter_manager
+        
+        
+        converter_manager.convert('/home/user/movies/system-crasher-2019/english_sub.srt')
+        ```
+        *Batch:*
+        ```python
+        from subfix.converter.manager import converter_manager
+        
+        
+        converter_manager.batch_convert('/home/user/movies/system-crasher-2019')
+        ```
+        *Both methods accept extra optional inputs to customize the conversion.*
+        <br>
+        *Read the docstrings for more information on extra options.*
+Keywords: subfix subfixio python movie subtitle encoding utf-8 converter batch-converter srt
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Plugins
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Utilities
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
+Provides-Extra: tests

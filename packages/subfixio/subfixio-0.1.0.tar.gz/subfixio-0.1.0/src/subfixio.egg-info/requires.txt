@@ -1,0 +1,7 @@
+chardet>=3.0.4
+
+[tests]
+chardet>=3.0.4
+pytest
+pytest-cov
+pygments
