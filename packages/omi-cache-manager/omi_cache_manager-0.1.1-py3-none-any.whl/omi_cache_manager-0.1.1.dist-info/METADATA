@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: omi-cache-manager
+Version: 0.1.1
+Summary: an async cache manage implemention with aio backend
+Home-page: UNKNOWN
+Author: limc
+Author-email: limc@ohs-sys.com
+License: Apache License
+Keywords: ache_manager,redis,async
+Platform: any
+Requires-Dist: pydantic
+Requires-Dist: asyncio
+Requires-Dist: aioredis
+Requires-Dist: aredis
+
+an cache manage implemention with aio backend
+
+
