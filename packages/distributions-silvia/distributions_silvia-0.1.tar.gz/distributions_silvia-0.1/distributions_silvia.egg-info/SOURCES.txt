@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+distributions_silvia/Binomialdistribution.py
+distributions_silvia/Gaussiandistribution.py
+distributions_silvia/Generaldistribution.py
+distributions_silvia/__init__.py
+distributions_silvia.egg-info/PKG-INFO
+distributions_silvia.egg-info/SOURCES.txt
+distributions_silvia.egg-info/dependency_links.txt
+distributions_silvia.egg-info/not-zip-safe
+distributions_silvia.egg-info/top_level.txt
