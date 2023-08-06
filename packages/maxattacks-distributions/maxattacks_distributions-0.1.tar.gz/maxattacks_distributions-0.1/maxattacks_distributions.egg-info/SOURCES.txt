@@ -1,0 +1,10 @@
+setup.py
+maxattacks_distributions/Binomialdistribution.py
+maxattacks_distributions/Gaussiandistribution.py
+maxattacks_distributions/Generaldistribution.py
+maxattacks_distributions/__init__.py
+maxattacks_distributions.egg-info/PKG-INFO
+maxattacks_distributions.egg-info/SOURCES.txt
+maxattacks_distributions.egg-info/dependency_links.txt
+maxattacks_distributions.egg-info/not-zip-safe
+maxattacks_distributions.egg-info/top_level.txt
