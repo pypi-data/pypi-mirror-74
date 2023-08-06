@@ -1,0 +1,3 @@
+[console_scripts]
+mpl2nc = mpl2nc:main
+
