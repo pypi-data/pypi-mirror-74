@@ -1,0 +1,3 @@
+[console_scripts]
+logjammer = logjammer.__main__:main
+
