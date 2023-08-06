@@ -1,0 +1,10 @@
+setup.py
+distributions_dasda/Binomialdistribution.py
+distributions_dasda/Gaussiandistribution.py
+distributions_dasda/Generaldistribution.py
+distributions_dasda/__init__.py
+distributions_dasda.egg-info/PKG-INFO
+distributions_dasda.egg-info/SOURCES.txt
+distributions_dasda.egg-info/dependency_links.txt
+distributions_dasda.egg-info/not-zip-safe
+distributions_dasda.egg-info/top_level.txt
