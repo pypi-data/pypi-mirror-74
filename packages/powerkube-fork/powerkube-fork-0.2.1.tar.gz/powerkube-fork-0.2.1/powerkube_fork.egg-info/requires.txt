@@ -1,0 +1,2 @@
+kubernetes-py>=1.10.7.4
+powerline-status>=2.7
