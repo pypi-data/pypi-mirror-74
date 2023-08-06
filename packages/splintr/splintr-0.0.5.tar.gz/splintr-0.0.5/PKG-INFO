@@ -1,0 +1,13 @@
+Metadata-Version: 1.1
+Name: splintr
+Version: 0.0.5
+Summary: One-Line Single-Machine Multi-GPU DNN Training
+Home-page: https://github.com/splintr-ml/splintr
+Author: splintr-ml
+Author-email: splintrml@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: GPU
+Classifier: Programming Language :: Python :: 3
