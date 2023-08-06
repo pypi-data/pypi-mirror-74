@@ -1,0 +1,9 @@
+pyTigerGraph/__init__.py,sha256=ZAsjcbA8-TuH3BKGf1a33Vzl8K05Vi3m1YQw0xOUpg0,137
+pyTigerGraph/graphML.py,sha256=tg9vPVAive3vA3wT9Q_v8O0m4s9IjRmSVJonUMI4ujc,2463
+pyTigerGraph/gsql.py,sha256=1YGPOxa87DoHnmx4Ud-43apzL78Lbc-D6ywSJpgnFxs,3303
+pyTigerGraph/pyTigerGraph.py,sha256=B4DouPV9lLU-tf41BFqfZc24VQBK-SvJ66GFP25bgt4,64019
+pyTigerGraph-0.0.6.9.dist-info/LICENSE,sha256=uSc4lw_CmbQNGNUncyf2tt7veoSHOmtW7yoJH5bLR4I,1072
+pyTigerGraph-0.0.6.9.dist-info/METADATA,sha256=hOvONjGChGXfjCn0hDajn5Dh2IxJcToZNzsRLZnzrhI,3126
+pyTigerGraph-0.0.6.9.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+pyTigerGraph-0.0.6.9.dist-info/top_level.txt,sha256=alQCrzMfTfz98SjXRmdQH8CRl6xfJ3EHy8R1Hzhj8ss,13
+pyTigerGraph-0.0.6.9.dist-info/RECORD,,
