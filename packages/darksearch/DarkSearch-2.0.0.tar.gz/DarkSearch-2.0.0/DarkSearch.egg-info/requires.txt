@@ -1,0 +1,9 @@
+requests
+pprint
+
+[dev]
+twine
+pytest
+pytest-console-scripts
+flake8
+mypy
