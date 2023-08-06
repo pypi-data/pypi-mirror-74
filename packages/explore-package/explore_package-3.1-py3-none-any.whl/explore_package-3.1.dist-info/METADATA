@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: explore-package
+Version: 3.1
+Summary: Official Python Package for Explore
+Home-page: https://www.github.com/KILLinefficiency/Explore
+Author: Shreyas Sable
+Author-email: shreyas.sable2166@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Natural Language :: English
+Requires-Python: >=3.6
+Requires-Dist: requests
+
+UNKNOWN
+
+
