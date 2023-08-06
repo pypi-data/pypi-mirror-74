@@ -1,0 +1,8 @@
+README.md
+setup.py
+src/helloworld.py
+src/helloworldjcap.egg-info/PKG-INFO
+src/helloworldjcap.egg-info/SOURCES.txt
+src/helloworldjcap.egg-info/dependency_links.txt
+src/helloworldjcap.egg-info/requires.txt
+src/helloworldjcap.egg-info/top_level.txt
