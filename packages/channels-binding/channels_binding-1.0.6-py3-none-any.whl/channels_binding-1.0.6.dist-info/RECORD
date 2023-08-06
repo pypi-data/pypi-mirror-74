@@ -1,0 +1,13 @@
+channels_binding/__init__.py,sha256=fhN7fqR7tbHPqppuwY219LHp21B-RoHjRrJl_y3II8E,384
+channels_binding/actions.py,sha256=8rhCYqEs3FtIH3UaoDqdtGNbPw4MOFHdfYro1egZzsg,598
+channels_binding/authentification.py,sha256=8o2JLEgDzfzk_fN0wN-V4_lMFRW-jpSO0K65PqycqHc,108
+channels_binding/binding.py,sha256=plvjolH_W_Xo0IIpHB0ETRbQbwcayLNZ_M9OYNA4LQ0,5260
+channels_binding/consumer.py,sha256=sBlqssMGp--7dREX5OsDM2n6uOSl9A9DEgxAhBIXJrI,5457
+channels_binding/permissions.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+channels_binding/routing.py,sha256=Dj_xzR6bOdqVxQSuWAAvUnbqvCuloHOPZbGqvNsRjgw,947
+channels_binding/settings.py,sha256=2vsUwJKBMnQwzwzdbBRTqJe1AstQiuJteaaVkADkhwg,1527
+channels_binding-1.0.6.dist-info/LICENSE,sha256=Tw_oJf61njZF_H2f_YMwZl9XJiXTYIKytoVsTFBpskk,1093
+channels_binding-1.0.6.dist-info/METADATA,sha256=faZt1oPsQtm69r1MVNjSZCGjPOCO6TC2JMeq8bsIXnU,745
+channels_binding-1.0.6.dist-info/WHEEL,sha256=_NOXIqFgOaYmlm9RJLPQZ13BJuEIrp5jx5ptRD5uh3Y,92
+channels_binding-1.0.6.dist-info/top_level.txt,sha256=nID8H3_NwLVXrF5pQrpaphNKPwGCTWLYfOzuXeEXvbE,17
+channels_binding-1.0.6.dist-info/RECORD,,
