@@ -1,0 +1,18 @@
+dill==0.3.2
+slackclient==2.7.3
+apscheduler==3.6.3
+blinker-alt==1.5
+clint==0.5.1
+dacite==1.5.1
+requests==2.24.0
+
+[:python_version < "3.7"]
+dataclasses==0.7
+
+[hbase]
+Cython==0.29.6
+happybase
+
+[redis]
+redis
+hiredis
