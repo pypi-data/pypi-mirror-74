@@ -1,0 +1,18 @@
+#!python
+import sys
+
+import click
+from versionpy import get_version
+
+
+@click.command()
+@click.option('-p', 'package_name')
+def main(package_name=None):
+    """ Usage: bump [bugfix,minor,major,1.0.1] [-p package_name]
+    """
+    v = get_version(package_name, silent=True)
+    sys.stderr.write(f'{v}\n')
+
+
+if __name__ == '__main__':
+    main()
