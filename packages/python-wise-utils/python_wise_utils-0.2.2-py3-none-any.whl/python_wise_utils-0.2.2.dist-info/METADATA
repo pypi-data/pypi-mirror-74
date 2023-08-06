@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: python-wise-utils
+Version: 0.2.2
+Summary: Python interpreter convenience utilities
+Author: Wisdom Wolf
+Author-email: wisdomwolf@gmail.com
+Requires-Python: >=3.6.0,<4.0.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: pyyaml (>=5.3.1,<6.0.0)
