@@ -1,0 +1,11 @@
+ricco/__init__.py,sha256=SFtNeXZZo5AyAO4PfBLlH0a46_FtZYVgoRy9hT8e63I,616
+ricco/coord_trans.py,sha256=FRjdRnf02jvJyDIHOYLiMTfCZMOgd9Lwl3moLX1WMNQ,9552
+ricco/geocode_bd.py,sha256=HDzPSuJSmZN-qUTMkK9iqjMM_FGvnLDm6cdgudDfeHo,3214
+ricco/geocode_selenium.py,sha256=NRgKC3uvJso2iJUSk1AfckUE_RJ_hBAz3qHUJkbICA0,2236
+ricco/gis_tools.py,sha256=yjSaGtAK9gqe6oaAV4PLbTndT81Q181bB3OsVy62rPA,19294
+ricco/isochrone.py,sha256=X92wRvjjEzExsHGAegyY1XzrAYeSomkYocA3mvGIMlg,3045
+ricco/util.py,sha256=wGuJ23nnX5nNuxmJKkv-YXtJEdtNS96C4m89ODPtLp4,8730
+ricco-0.1.9.dist-info/METADATA,sha256=pIHiae4SK9-cuZr8RDFYv6aTt3L1Z40V9lzSjhSUbpY,6119
+ricco-0.1.9.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+ricco-0.1.9.dist-info/top_level.txt,sha256=urGYTJ-e5XOzoC2oCFwnJtRPYFqwiTi9UcbvY7Lp8hk,6
+ricco-0.1.9.dist-info/RECORD,,
