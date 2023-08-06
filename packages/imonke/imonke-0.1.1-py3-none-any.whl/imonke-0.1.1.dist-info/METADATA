@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: imonke
+Version: 0.1.1
+Summary: a iMonke api wrapper
+Home-page: https://github.com/TobiisDumb/iMonke
+Author: Tobi
+Author-email: tobiisdumb@gmail.com
+License: unlicense
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+UNKNOWN
+
+
