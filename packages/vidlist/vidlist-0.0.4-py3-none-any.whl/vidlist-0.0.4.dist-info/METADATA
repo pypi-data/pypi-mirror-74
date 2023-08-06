@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: vidlist
+Version: 0.0.4
+Summary: A python utility for generating a listing of all the videos in the subfolders so that you can watch them in browser
+Home-page: https://github.com/sharadcodes/vidlist
+Author: Sharad Raj Singh Maurya
+Author-email: iamsharadraj@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# VidList
+
+A python utility for generating a listing of all the videos in the subfolders so that you can watch them in browser.
+
+# Installation
+
+```
+pip3 install vidlist
+```
+
+# Usage
+
+### For generating vidlist.html
+
+Navigate to the directory where the subdirectories containing video files are present, then run
+
+```
+vidlist
+```
+
+Now open the vidlist.html file in browser.
+
