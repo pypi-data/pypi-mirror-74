@@ -1,0 +1,9 @@
+commonutils/__init__.py,sha256=X-SFWN0zr4mr1-kRT_m-LtQlY3_USVIcNSePRsZzw0I,70
+commonutils/serialport.py,sha256=eBu1E5FfXhcP0gV_29uZ0zSh_zRzU6H8nc1QiU7BpXg,2391
+commonutils/staticutils.py,sha256=Efl15WrboWw0uoppjDz_MLkKYfCei1RSIZnoGZzoFvU,4668
+commonutils/version.py,sha256=cID1jLnC_vj48GgMN6Yb1FA3JsQ95zNmCHmRYE8TFhY,22
+simple_common_utils-0.6.0.dist-info/LICENSE,sha256=Eo-TVBK69muhKXOVe-oIVdwFW1IiFT0HcqXX6KVdb4A,1067
+simple_common_utils-0.6.0.dist-info/METADATA,sha256=3eYMLfYn210XLLPw6ad6ayHDl0iMVlVj1yShVGxSap0,457
+simple_common_utils-0.6.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+simple_common_utils-0.6.0.dist-info/top_level.txt,sha256=RXqKA9Ck0XYunz5hK6G6ZiuZLWfWcBh6oTcIYU6zKX4,12
+simple_common_utils-0.6.0.dist-info/RECORD,,
