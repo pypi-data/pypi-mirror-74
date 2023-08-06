@@ -1,0 +1,9 @@
+setup.py
+neural_networks_tfw1/NN_model.py
+neural_networks_tfw1/__init__.py
+neural_networks_tfw1/utils.py
+neural_networks_tfw1.egg-info/PKG-INFO
+neural_networks_tfw1.egg-info/SOURCES.txt
+neural_networks_tfw1.egg-info/dependency_links.txt
+neural_networks_tfw1.egg-info/not-zip-safe
+neural_networks_tfw1.egg-info/top_level.txt
