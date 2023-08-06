@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: pyloto
+Version: 0.3
+Summary: a python implementation of the Local Topological comparison of GRNs algorithm using weights
+Home-page: https://github.com/Cold7/pyLoTo
+Author: J. Sebastian Contreras-Riquelme
+Author-email: contrerasriquelme.sebastian@gmail.com
+License: UNKNOWN
+Download-URL: https://github.com/Cold7/pyLoLo/tarball/0.3
+Description: UNKNOWN
+Keywords: graphlets,local topological comparison,networks
+Platform: UNKNOWN
