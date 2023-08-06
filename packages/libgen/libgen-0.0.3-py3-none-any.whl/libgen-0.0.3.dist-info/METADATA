@@ -1,0 +1,59 @@
+Metadata-Version: 2.1
+Name: libgen
+Version: 0.0.3
+Summary: Command line tool for downloading files from library genesis
+Home-page: https://github.com/amalshaji/libgen-cli
+Author: Amal Shaji
+Author-email: amalshajid@tutanota.com
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+Requires-Dist: beautifulsoup4
+Requires-Dist: pprint
+Requires-Dist: argparse
+Requires-Dist: tqdm
+
+# libgen :- A command line tool for downloading files from library genesis
+
+1. Install
+
+```bash
+pip install libgen --upgrade
+```
+
+2. Usage
+
+Search for books using title
+
+```bash
+libgen --search "Machine Learning"
+
+{'author': 'Christopher M. Bishop',
+  'format': 'pdf',
+  'id': '640',
+  'lang': 'English',
+  'link': 'http://93.174.95.29/main/6B552B24CAE380BB656F7AAEF7F81B46',
+  'name': 'Information science and statisticsPattern Recognition and Machine '
+          'Learning [1st ed. 2006. Corr. 2nd printing] 9780387310732, '
+          '0387310738',
+  'publisher': 'Springer',
+  'size': '5 Mb',
+  'year': '2006'}
+  .....
+```
+
+Download files using "link" obtained from search
+
+```bash
+libgen --download http://93.174.95.29/main/6B552B24CAE380BB656F7AAEF7F81B46
+
+Downloading: 224a7d51-d75b-4aac-a4ff-ba01355551dfpdf:  21%|███████████████████████▌                                                                                          | 956k/4.52M [00:10<00:32, 116kB/s]
+```
+
+You can specify the output file name using `--output`
+
