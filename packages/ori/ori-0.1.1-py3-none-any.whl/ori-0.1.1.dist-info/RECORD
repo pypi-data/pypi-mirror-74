@@ -1,0 +1,10 @@
+ori/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ori/asyncio.py,sha256=2iI3XqHNiGnH-4Krz0VqFsmBX9R9_VVpLD8oUwqCoRk,1548
+ori/concurrency.py,sha256=hQnRJSBuWN0DRAwEq910P5MVC4drm5EdZRYZDqo0nmM,4214
+ori/errors.py,sha256=Hz5egRSHmhKUrWS4dCxFxDBCq8GxhvV5PZqHrZHRNlA,213
+ori/poolchain.py,sha256=Pp1yudLOzpqO38AtVjLDCh-aLBAEDLIk2fTn_WB0IvM,12884
+ori/subprocess.py,sha256=ny-ngT8GpKWMSZxyPnEOYFz8PsiV05bP8MFvv7LEenM,4072
+ori-0.1.1.dist-info/LICENSE,sha256=HhTaacsQUHUSgeFjxOcbLTXrv6UQhwcVFA8UaPmD1MY,1077
+ori-0.1.1.dist-info/WHEEL,sha256=G_NFpzHmv_dUXgCUSAWL0-bLL-eMzYU6DzDeGXbRXUk,83
+ori-0.1.1.dist-info/METADATA,sha256=6S2plVmN56CTXdazmgBlkNXvlH9SOVZCc0N02bawDCE,2096
+ori-0.1.1.dist-info/RECORD,,
