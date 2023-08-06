@@ -1,0 +1,10 @@
+setup.py
+ammu_distributions/Binomialdistribution.py
+ammu_distributions/Gaussiandistribution.py
+ammu_distributions/Generaldistribution.py
+ammu_distributions/__init__.py
+ammu_distributions.egg-info/PKG-INFO
+ammu_distributions.egg-info/SOURCES.txt
+ammu_distributions.egg-info/dependency_links.txt
+ammu_distributions.egg-info/not-zip-safe
+ammu_distributions.egg-info/top_level.txt
