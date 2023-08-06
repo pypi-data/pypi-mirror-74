@@ -1,0 +1,9 @@
+praw
+mkepub
+bs4
+lxml
+requests
+dulwich
+jsonpickle
+svgwrite
+confuse
