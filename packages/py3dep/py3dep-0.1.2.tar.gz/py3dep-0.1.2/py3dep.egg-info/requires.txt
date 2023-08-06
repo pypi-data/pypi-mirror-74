@@ -1,0 +1,7 @@
+dataclasses
+pip
+pygeoogc
+rasterio
+scipy
+shapely
+xarray
