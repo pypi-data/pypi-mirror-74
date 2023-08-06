@@ -1,0 +1,11 @@
+numpy
+
+[GAN]
+pytorch
+
+[dcor]
+dcor
+
+[vis]
+matplotlib
+networkx
