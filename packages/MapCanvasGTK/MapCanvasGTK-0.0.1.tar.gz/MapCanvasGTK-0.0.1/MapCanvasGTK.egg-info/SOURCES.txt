@@ -1,0 +1,9 @@
+README.md
+setup.py
+MapCanvasGTK/MapCanvas.py
+MapCanvasGTK/__init__.py
+MapCanvasGTK.egg-info/PKG-INFO
+MapCanvasGTK.egg-info/SOURCES.txt
+MapCanvasGTK.egg-info/dependency_links.txt
+MapCanvasGTK.egg-info/requires.txt
+MapCanvasGTK.egg-info/top_level.txt
