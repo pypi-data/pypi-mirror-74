@@ -1,0 +1,4 @@
+pycefsharp
+pycefsharp/cefsharp
+pycefsharp/cefsharp/locales
+pycefsharp/cefsharp/swiftshader
