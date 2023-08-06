@@ -1,0 +1,14 @@
+README.md
+setup.cfg
+setup.py
+darbird/Authy.py
+darbird/MMS.py
+darbird/SMS.py
+darbird/Service.py
+darbird/Voice.py
+darbird/__init__.py
+darbird.egg-info/PKG-INFO
+darbird.egg-info/SOURCES.txt
+darbird.egg-info/dependency_links.txt
+darbird.egg-info/requires.txt
+darbird.egg-info/top_level.txt
