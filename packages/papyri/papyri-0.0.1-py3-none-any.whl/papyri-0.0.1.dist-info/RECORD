@@ -1,0 +1,12 @@
+papyri/__init__.py,sha256=gu8fTdoFTrCmZN6rj1AGpNW78KueB8gnKoVapu9wymA,916
+papyri/config.py,sha256=aAbkF4Kvj4Dx_FGRC0YQ4Ac57bbCzafOsoPHP2Z8TLs,378
+papyri/core.tpl.j2,sha256=W7OLexrAmDfK1NNOvLYlwPSdOtHzL3A4-VvIQZJsvZM,4583
+papyri/crosslink.py,sha256=dsQ8I2KFyQvM4Qxx4MAUUslWOifZNW-rGfXVu_Wv0k4,3661
+papyri/gen.py,sha256=gmOhoC9TGJAisx1y2XHTvVYQaltk747lyETAUKBFxTM,7136
+papyri/render.py,sha256=ZCh97d5mlZAtnwt850pbFvVnz9HNY9HMcCzlztFtPRU,4953
+papyri/take2.py,sha256=zoJdNIFlqRKYoVySpxIX528TRwL_yYHUe1ZQoH5WN7k,10849
+papyri-0.0.1.dist-info/entry_points.txt,sha256=POjkC6_PtCF-DyVRSMoMd3AmyHmwcN5Ftlp6e3RWbBI,38
+papyri-0.0.1.dist-info/LICENSE,sha256=6ZR5KMqLC_sbNPgv6kC2tAojgVNum0qo3Oc3wD7i5yA,1086
+papyri-0.0.1.dist-info/WHEEL,sha256=GLESb-AiO9TFjbXrEA7UrNl4dwWlkXoKZg6N6Vg0OJg,81
+papyri-0.0.1.dist-info/METADATA,sha256=CM1Byp8CVVplyJw2FZ6juT9o1NfN_dat8pm-7d2MH1g,4426
+papyri-0.0.1.dist-info/RECORD,,
