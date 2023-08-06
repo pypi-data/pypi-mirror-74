@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: faceit-friends
+Version: 1.0.1
+Summary: Scraps friend's friends from Faceit.
+Home-page: https://github.com/PavelBorsh/faceit_friends
+Author: Pavel Borshchevsky
+Author-email: 3410914@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: psutil (>=5)
+Requires-Dist: selenium (>=3)
+Requires-Dist: urllib3 (>=1.25)
+
+#### Chromedriver
+
+You need to download chromedriver and include the ChromeDriver location in your PATH environment variable first.
+
+#### Getting faceit friends
+
+```
+import faceit_friends as ff
+
+ff.get_friends('name')  # returns all friends for 'name'
+```
+
+Return all similar friends for name's friends
+
+```
+ff.similar_friends('name')
+```
+
+Print similar names for name1's and name2's friends. There can be as many names as u want.
+
+```
+ff.similar_friends('name1', 'name2')
+```
+
+
+
