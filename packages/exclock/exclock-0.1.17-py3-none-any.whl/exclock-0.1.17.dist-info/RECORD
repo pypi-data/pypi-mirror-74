@@ -1,0 +1,15 @@
+exclock/__init__.py,sha256=U32lb7ovPAxRxli4hCj13IZj5eHbEWQmuuVI-XKOshs,133
+exclock/assets/clock/3m.json5,sha256=IGUjQOFeqaZJxxqAzFxiBlTp9aOlKN3k0PN-xsWCzFY,162
+exclock/assets/clock/5m.json5,sha256=jHcUJFvzD3SVVe9Bm0dmwSSeWIlbY_pm_c--_VAY3TE,161
+exclock/assets/clock/pomodoro.json5,sha256=mJB0snwqkd_fO5dTFjUQh2LV10g7qiHjrCMZCtwFmeM,1078
+exclock/assets/clock/warning.json5,sha256=UWEOZs6fauefBq4xDrfdOL3dizA0Nw235xfVdjYeMnA,111
+exclock/assets/sound/silent.mp3,sha256=eYS5sAOsxzqeDbcI6uEUxQm0HvV1eMP6ivbxry714vk,4365
+exclock/assets/sound/warning.mp3,sha256=zMHxszUhmWC7OzdotcTqWWbTAvtCMflu6raOZV26VSU,54587
+exclock/entities.py,sha256=mi3Dz38AlCiBFkhLmFMmkDRkwIJPJMULVJe5XS5OosQ,3142
+exclock/main.py,sha256=1JRnkbVv98IK6Us1IzHlzUUggS7fggBpCjd4lmCc0s8,6682
+exclock/util.py,sha256=lu8Z-fk_FvrNdXgzLUHtkHSzPg6cJT8G8vx08kHcMf0,4269
+exclock-0.1.17.dist-info/entry_points.txt,sha256=mZ6cGF-Ji8M-gJChcPVHzDGgAGeRv25AY0oRM1zhFt0,45
+exclock-0.1.17.dist-info/LICENSE,sha256=tT76e0atDka9tSC8WsXYrMdQUe6WhJaoStO4IBfzIzk,11092
+exclock-0.1.17.dist-info/WHEEL,sha256=G_NFpzHmv_dUXgCUSAWL0-bLL-eMzYU6DzDeGXbRXUk,83
+exclock-0.1.17.dist-info/METADATA,sha256=N8Z26dd-amJlqu1hei-_8v6KXdIF7keYpauiIiTOHiE,6750
+exclock-0.1.17.dist-info/RECORD,,
