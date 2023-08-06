@@ -1,0 +1,1 @@
+clion_live_templates_generator

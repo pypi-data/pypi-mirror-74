@@ -1,0 +1,3 @@
+[console_scripts]
+lt-generate = clion_live_templates_generator.main:main
+
