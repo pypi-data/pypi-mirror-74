@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: heroicli
+Version: 0.0.1
+Summary: UNKNOWN
+Home-page: https://github.com/sjoeboo/heroicli
+Author: sjoeboo
+Author-email: sjoeboo@sjoeboo.com
+Maintainer: sjoeboo
+Maintainer-email: sjoeboo@sjoeboo.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: click
+Requires-Dist: requests
+Requires-Dist: pyyaml
+
+UNKNOWN
+
+

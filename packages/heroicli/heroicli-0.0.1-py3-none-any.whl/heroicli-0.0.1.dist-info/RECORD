@@ -1,0 +1,15 @@
+brave/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+brave/cli.py,sha256=A_qCxyvIYe_0nElG5tItelBIosGA5xhYZi_7dTEqQcU,1627
+brave/config_util.py,sha256=DWOZ5nMzwEsmvEc0L-jzDXnxB6c1lG5C7oKSKNZa75U,215
+brave/heroic.py,sha256=dEvQKsCG4_ozG2RkTKhQOlQvo2tFfdRX_rpBlKp5umQ,374
+brave/tags.py,sha256=eKmx7p0IzLgUTfUaXqGXlSqPU5QUU3AwT9xZbF4XhkQ,2649
+heroicli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+heroicli/cli.py,sha256=A_qCxyvIYe_0nElG5tItelBIosGA5xhYZi_7dTEqQcU,1627
+heroicli/config_util.py,sha256=DWOZ5nMzwEsmvEc0L-jzDXnxB6c1lG5C7oKSKNZa75U,215
+heroicli/heroic.py,sha256=dEvQKsCG4_ozG2RkTKhQOlQvo2tFfdRX_rpBlKp5umQ,374
+heroicli/tags.py,sha256=eKmx7p0IzLgUTfUaXqGXlSqPU5QUU3AwT9xZbF4XhkQ,2649
+heroicli-0.0.1.dist-info/METADATA,sha256=d6AcrUP7s6G1U0d-s-2SSDWhkCe7O39U1bXIEjWtQQo,337
+heroicli-0.0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+heroicli-0.0.1.dist-info/entry_points.txt,sha256=OpC2074x7gs11pdltW__1MkDFX7wxU_lxtOXEq3uKPU,47
+heroicli-0.0.1.dist-info/top_level.txt,sha256=oSh9gpfxFz78a6pFE2LSG4dXTzl8Wc73o20HjLEfZS4,9
+heroicli-0.0.1.dist-info/RECORD,,
