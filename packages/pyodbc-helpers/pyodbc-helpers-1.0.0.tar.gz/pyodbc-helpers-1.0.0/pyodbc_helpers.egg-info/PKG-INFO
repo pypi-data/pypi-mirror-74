@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: pyodbc-helpers
+Version: 1.0.0
+Summary: Additional features related to pyodbc.
+Home-page: https://github.com/srianbury/pyodbc-helpers
+Author: srianbury
+License: MIT
+Description: ## pyodbc-helpers
+        
+        #### Additional features related to pyodbc
+        - assert successful run of stored procedure
+        
+        ### Getting started
+        0. install `pip install pyodbc-helpers`
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
