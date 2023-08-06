@@ -1,0 +1,9 @@
+README.md
+setup.py
+source/__init__.py
+source/class_conversions.py
+source/class_nfc.py
+yongshi_pynfc.egg-info/PKG-INFO
+yongshi_pynfc.egg-info/SOURCES.txt
+yongshi_pynfc.egg-info/dependency_links.txt
+yongshi_pynfc.egg-info/top_level.txt
