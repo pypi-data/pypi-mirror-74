@@ -1,0 +1,14 @@
+last_shout/__init__.py,sha256=q-J0bTe787R0bvh-7ZvxyFFKsWLs1_0C5rOUhZFGdDA,127
+last_shout/main.py,sha256=7yJhiQxOdIbacJ5mN731aIvZZQ7jahPVixKaRxrTmnc,5844
+last_shout/libshout/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+last_shout/libshout/lastfm.py,sha256=C6y0tsjAn4SaIwYhgCe50OySWx8XxcvF55UNnS2SB-E,363
+last_shout/libshout/options.py,sha256=-fRE6iiufCrk9T7r3tXMO3X4BWr3_Z-4F7L4jlxMZrg,2273
+last_shout/libshout/settings.py,sha256=qavbkYjLfluEEKwdHkl7YrxvXOxQyHGDMRNGZZxZ-RU,4265
+last_shout/libshout/twitter.py,sha256=HXjaVh-cMlaSvuGgGrJ90HDWEUjUCMHJnyvB0xvf23w,721
+last_shout/libshout/utils.py,sha256=d4LmZzmYh4rfJL2zNVK1sswr7s1uIrJYbpb71rku4Sk,1027
+last_shout-0.6.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+last_shout-0.6.0.dist-info/METADATA,sha256=dbQGJO2HTerlCr54t0UhYNSyHoOpa981Bqbey8PvDBk,4830
+last_shout-0.6.0.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+last_shout-0.6.0.dist-info/entry_points.txt,sha256=WCUlGm5UgjolRifQ94ID6d3goGyj8hym-Sf8YLDkkBM,53
+last_shout-0.6.0.dist-info/top_level.txt,sha256=u_44TcMjmKavdEK8pgaITDwzpDLFi9SZdk-_36yUSkQ,11
+last_shout-0.6.0.dist-info/RECORD,,
