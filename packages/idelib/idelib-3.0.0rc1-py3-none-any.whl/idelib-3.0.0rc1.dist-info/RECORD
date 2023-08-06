@@ -1,0 +1,15 @@
+idelib/__init__.py,sha256=rpnS7tIXiV2KS7QcLpRlkPmNmL8mUKMknFasV-_oZto,361
+idelib/dataset.py,sha256=u3XOnBgHJux6P9-sPijKHcgcBIHhaVZ082dbGq1kFZs,147574
+idelib/importer.py,sha256=dY7gDVxQG2TyUbx575koyTscKoRbuWTpC3gPw_yling,24732
+idelib/matfile.py,sha256=wze6nqrDXhPtslUI9_-Awh1VaNZaGi5LSA92rvn1Mic,29696
+idelib/multi_importer.py,sha256=8wGm7cWnapa5Zf4w6970l9rNxk9llo56FU6Q3UKeDfM,6059
+idelib/parsers.py,sha256=UQi-AW27nkpUteiMejnbmW9nOGZ8qWfQW4v5LQ1jEJk,57657
+idelib/transforms.py,sha256=BLOe797s7Rx7wnjBHwD0s3AXtUMyy1o0f1Q_FAhdeYs,29041
+idelib/unit_conversion.py,sha256=kH_HS-hJakcj0dUdVM8UrOJoYcPM5L3UkJPqhcBDULA,11345
+idelib/util.py,sha256=As7PbAfo2ePw1YMBwvjX21XmM6l_x6QHjZ7nhbZ15WE,4090
+idelib/schemata/mide_ide.xml,sha256=jC0-0yKkF--T20thwSyQzEyF2WgEQfaKypPQwcoGlzo,50277
+idelib-3.0.0rc1.dist-info/LICENSE,sha256=tKKvNEFfh2r-VKCePYRloF-VZgvZomOXYN-q6XrX8lw,1099
+idelib-3.0.0rc1.dist-info/METADATA,sha256=7CQBTYmXy4BSJXwEWtf-blBYwXNmdIFgzD4ldGVHGb0,8475
+idelib-3.0.0rc1.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+idelib-3.0.0rc1.dist-info/top_level.txt,sha256=YkqXvamZ97aTKwkEhz5GomtA2xOqK4JE_955dkiCqdc,7
+idelib-3.0.0rc1.dist-info/RECORD,,
