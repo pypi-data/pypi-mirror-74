@@ -1,0 +1,116 @@
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>{{ chant.metadata.name }}</title>
+  <style type="text/css">
+    body {
+        font-family: sans-serif;
+    }
+    main {
+        margin: auto;
+        width: 100%;
+        max-width: 700px;
+        padding-bottom: 3em;
+    }
+    header {
+        line-height: 1.5em;
+        margin-bottom: 2em;
+        padding-top: 3em;
+        color: #333;
+    }
+    .properties {
+        list-style: none;
+        padding: 0;
+    }
+    .properties span {
+        display: inline-block;
+        width: 7em;
+        font-weight: bold;
+        margin-right: 1em;
+    }
+    .displayOptions {
+        margin-top: 1em;
+        margin-bottom: 2em;
+    }
+    .credits {
+        font-size: 10px;
+        color: #999;
+        margin-top: 4em;
+    }
+    a, a:visited {
+        color:inherit;
+    }
+  </style>
+</head>
+<body>
+    <main>
+        <header>
+            <h1>
+                {% if 'name' in chant.metadata %}
+                    {{ chant.metadata.name }}
+                {% elif 'incipit' in chant.metadata %}
+                    {{ chant.metadata.incipit }}
+                {% endif %}
+            </h1>
+            <ul class="properties">
+                {% set fields = [
+                    'office-part',
+                    'occasion',
+                    'meter',
+                    'commentary',
+                    'arranger',
+                    'author',
+                    'date',
+                    'manuscript',
+                    'manuscript-reference',
+                    'manuscript-storage-place',
+                    'book',
+                    'language',
+                    'transcriber',
+                    'transcription-date',
+                    'mode',
+                    'user-notes',
+                    'annotation',
+                    'cantus_id',
+                    'siglum'
+                    ]
+                %}
+                {% for key, value in chant.metadata.items() %}
+                    {%- if key in fields %}
+                    <li><span>{{ key }}</span> {{ value|e }}</li>
+                    {%- endif %}
+                {% endfor %}
+                {% if '_gregobase_id' in chant.metadata %}
+                    <li>
+                        <span>GregoBase ID</span>
+                        <a href="{{chant.metadata._gregobase_url}}" target="_blank">
+                            {{chant.metadata._gregobase_id}}
+                        </a>
+                    </li> 
+                {% endif %}
+                {% if 'drupal_path' in chant.metadata %}
+                    <li>
+                        <span>Cantus</span>
+                        <a href="{{chant.metadata.drupal_path}}" target="_blank">
+                            {{chant.metadata.drupal_path}}
+                        </a>
+                    </li> 
+                {% endif %}
+            </ul>
+        </header>
+        
+        {% set chantId = '1' %}
+        <div id="chantContainer-{{chantId}}">
+        {% if showOptions %}
+        {% include 'displayOptions.html' %}
+        {% endif %}
+        {% include 'chant.html' %}
+        </div>
+
+        <p class="credits">
+            Generated with <a href="https://github.com/bacor/chant21/" target="_blank">
+                Chant21 v{{ chant.metadata['chant21version'] }}</a>, a Python library for plainchant.
+        </p>
+    </main>
+</body>
+</html>

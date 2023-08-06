@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: chant21
+Version: 0.4.6
+Summary: Plainchant in Python
+Home-page: https://github.com/bacor/chant21
+Author: Bas Cornelissen
+License: MIT License
+Description: Chant21 is a library for plainchant in Python. It contains converters from [GABC](http://gregorio-project.github.io/gabc/index.html) and Volpiano (as used by the [Cantus Database](cantus.uwaterloo.ca/)) to [music21](https://web.mit.edu/music21/). It represents the textual structure of the chant, and allows you to interactively explore this in Jupyter notebooks. For details, refer to the [GitHub repository](https://github.com/bacor/chant21) or the [documentation](https://chant21.readthedocs.io/).
+Platform: UNKNOWN
+Classifier: Environment :: Console
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Multimedia :: Sound/Audio :: Conversion
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
