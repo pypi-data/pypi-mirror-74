@@ -1,0 +1,18 @@
+version: '3'
+
+services:
+  service1:
+    build: ./service1
+    ports:
+      - 5001:5000
+
+  service2:
+    build: ./service2
+    ports:
+      - 5002:5000
+
+  rabbitmq:
+    image: rabbitmq:3.8.5
+    environment:
+      RABBITMQ_DEFAULT_USER: user
+      RABBITMQ_DEFAULT_PASSWORD: password
