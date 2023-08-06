@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: pydantic-kms-secrets
+Version: 0.1.0
+Summary: Utility to decrypt and encrypt secrets using AWS KMS keys that is compatible with pydantic models
+Home-page: UNKNOWN
+Author: Nick Plutt
+Author-email: nplutt@gmail.com
+License: MIT
+Platform: UNKNOWN
+
+# pydantic-kms-secrets
+Utility to decrypt and encrypt secrets using AWS KMS keys that is compatible with Pydantic models
+
+![Upload Python Package](https://github.com/nplutt/pydantic-kms-secrets/workflows/Upload%20Python%20Package/badge.svg)
+
+
