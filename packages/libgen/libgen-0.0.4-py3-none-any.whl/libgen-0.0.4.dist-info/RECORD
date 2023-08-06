@@ -1,0 +1,9 @@
+libgen/__init__.py,sha256=lPAEC-W5Tt4Kj1nyv_r23kNxhtDiy3UtGutafq9_f_Y,34
+libgen/main_program.py,sha256=5lgGC6S4R9eqXB5Xrjvap9GRt-ifgC7JFZQo26JgwUA,1946
+libgen/scraper.py,sha256=MjJhSV1qQwwEx6eymFaKaxd5GTpprhaK7PPXyGzDlp4,1991
+libgen-0.0.4.dist-info/LICENSE.txt,sha256=c2tC21VXeaq5bSg7CccDfnh375m8VUZzv09bqvok1Wo,1067
+libgen-0.0.4.dist-info/METADATA,sha256=JPajD_VjeDA-_l8GMdUI_qz0sFr_U1-v5J_bwjkNJd8,1807
+libgen-0.0.4.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+libgen-0.0.4.dist-info/entry_points.txt,sha256=HSbq80QB8dF4jEgSPV3e1y8GNNrAQl9nqrEuAIXTYqY,53
+libgen-0.0.4.dist-info/top_level.txt,sha256=qYmsH11N6zaV8qGLssY0DwdR7bbM6eeb8h2U7Gcq_9s,7
+libgen-0.0.4.dist-info/RECORD,,
