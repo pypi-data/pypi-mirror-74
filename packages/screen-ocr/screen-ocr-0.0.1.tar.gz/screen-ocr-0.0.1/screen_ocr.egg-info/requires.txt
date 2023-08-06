@@ -1,0 +1,6 @@
+fuzzywuzzy[speedup]
+numpy
+pandas
+pillow
+pytesseract
+scikit-image
