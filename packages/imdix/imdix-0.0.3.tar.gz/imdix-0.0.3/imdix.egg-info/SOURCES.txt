@@ -1,0 +1,12 @@
+README.md
+setup.py
+imdix/__init__.py
+imdix/main.py
+imdix/utils.py
+imdix.egg-info/PKG-INFO
+imdix.egg-info/SOURCES.txt
+imdix.egg-info/dependency_links.txt
+imdix.egg-info/entry_points.txt
+imdix.egg-info/not-zip-safe
+imdix.egg-info/requires.txt
+imdix.egg-info/top_level.txt
