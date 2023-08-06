@@ -1,0 +1,16 @@
+ncbi_cds_from_protein/__init__.py,sha256=by9R0VbUG5y1G3OW3CWVIklGxvEaSVDg3O55KaYNG-U,1876
+ncbi_cds_from_protein/caches.py,sha256=3EtUz8g2GOsRCOE1GDYN5dup1pRdwNaM-J4F3C-PV48,15182
+ncbi_cds_from_protein/entrez.py,sha256=djBUGy-9Yfh-rhVgr8cEkeUOjEb58cDxSeTIPfr6fiI,13767
+ncbi_cds_from_protein/logger.py,sha256=LBrt7RqFm8YfEDdWxFjdekS1PvUdTyfuF_3POzcMeWs,3622
+ncbi_cds_from_protein/ncfp_tools.py,sha256=lERyTwuFZmdyguVIl-oTRkSbv8EepbmQ2tB6zPqjDVU,2014
+ncbi_cds_from_protein/sequences.py,sha256=b5bMDbG_94NYwxTkGGpsSxfykEuGI4MyILKXpcjw1UY,7508
+ncbi_cds_from_protein/scripts/__init__.py,sha256=YsXZA0LNZDOE0RoIFd6gjvY9OGt64m-OF-k-cFQqdps,1578
+ncbi_cds_from_protein/scripts/logger.py,sha256=ql3osvtE3e0gjYpNr71HUp0JDOwLrDsEGyjVeTVOAuU,2940
+ncbi_cds_from_protein/scripts/ncfp.py,sha256=97s5bwMPWHVarjbEa2W670KdyyCLSQlyvOGoqvZlM7s,13434
+ncbi_cds_from_protein/scripts/parsers.py,sha256=5oZ5P4XrGdb2ZksNlZ1S-lKB5va14wHKeW8-p8xTILw,4703
+ncfp-0.2.0.dist-info/LICENSE,sha256=lkYxSOU4jsUOBllPNU6Tq3o2y2za1HL_KYFtqSeB-1Q,1145
+ncfp-0.2.0.dist-info/METADATA,sha256=h8QsKLwkCv6W0l7OlgOMPFB4Rr8pT10JTpFV6xmZuW8,6061
+ncfp-0.2.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+ncfp-0.2.0.dist-info/entry_points.txt,sha256=uzeCpDN-fW-qifp7xQyuXeB_2pNBiWXZWQlHdpy1Mm4,70
+ncfp-0.2.0.dist-info/top_level.txt,sha256=T501_foGNo-oovfPvK7_oGpR5SfO_MCVsPP5c2R-J5Q,22
+ncfp-0.2.0.dist-info/RECORD,,
