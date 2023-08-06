@@ -1,0 +1,15 @@
+MANIFEST.in
+README.md
+setup.py
+docdoc/__init__.py
+docdoc/matching.py
+docdoc/postprocessing.py
+docdoc/preprocessing.py
+docdoc/tokenization.py
+docdoc.egg-info/PKG-INFO
+docdoc.egg-info/SOURCES.txt
+docdoc.egg-info/dependency_links.txt
+docdoc.egg-info/requires.txt
+docdoc.egg-info/top_level.txt
+docdoc/resource/custom_english_non_breaking_prefixes.txt
+docdoc/resource/stopwords.txt
