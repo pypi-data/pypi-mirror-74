@@ -1,0 +1,9 @@
+numpy
+pandas
+h5py
+
+[dev]
+bumpversion
+pre-commit
+ipython
+jupyter
