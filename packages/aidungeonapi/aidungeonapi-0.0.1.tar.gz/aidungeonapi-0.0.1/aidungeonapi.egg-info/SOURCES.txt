@@ -1,0 +1,12 @@
+README.md
+setup.py
+aidungeonapi/__init__.py
+aidungeonapi/aidadventure.py
+aidungeonapi/aidclient.py
+aidungeonapi/aidscenario.py
+aidungeonapi/aobject.py
+aidungeonapi.egg-info/PKG-INFO
+aidungeonapi.egg-info/SOURCES.txt
+aidungeonapi.egg-info/dependency_links.txt
+aidungeonapi.egg-info/requires.txt
+aidungeonapi.egg-info/top_level.txt
