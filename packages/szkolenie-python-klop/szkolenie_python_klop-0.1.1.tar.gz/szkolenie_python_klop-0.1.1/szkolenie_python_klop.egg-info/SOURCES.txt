@@ -1,0 +1,7 @@
+MANIFEST.in
+README.md
+setup.py
+szkolenie_python_klop.egg-info/PKG-INFO
+szkolenie_python_klop.egg-info/SOURCES.txt
+szkolenie_python_klop.egg-info/dependency_links.txt
+szkolenie_python_klop.egg-info/top_level.txt
