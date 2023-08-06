@@ -1,0 +1,16 @@
+pgtrigger/__init__.py,sha256=XlfkGFjg_lAoCwnI7ObNLMRLX9VtJKrB7LPWRON_LZs,1473
+pgtrigger/apps.py,sha256=L8EX8YVjwiPEmdU5UtNf3owpgL5l-vzEASL8sYze6RY,542
+pgtrigger/core.py,sha256=2hM1m7P41NoteSGIYmUStEX9JRtRMOylN0_lnfyiTGs,25926
+pgtrigger/models.py,sha256=ngv9eg-_jGXObb_6-TtTnKLiEWclX9tZxsLgs3Cv4Sw,105
+pgtrigger/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pgtrigger/tests/migrations/0001_initial.py,sha256=VsjIKh6FZ_bHtHF0L3jAD3MTGSm1keQDFCYcC0Qz5QI,3916
+pgtrigger/tests/migrations/0002_logentry_tologmodel.py,sha256=DQF6VmIa0bMG3DRBQirQdK2CqjJl4JmWjScnP7e6m7s,1144
+pgtrigger/tests/migrations/0003_auto_20200718_0938.py,sha256=FgSf4YCXLoNvGc2hEG_4aEIGLxSFmXoAGj3Bn0qTgcw,566
+pgtrigger/tests/migrations/0004_fsm.py,sha256=jdJGYSjqtVX2bWKqP3HxnLBZMVPP9Ph4mF-l5c90UTg,692
+pgtrigger/tests/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pgtrigger/tests/models.py,sha256=oXuNAANM8UlWOMqJoVfVHrCHo6lVF5oqioLCbt14B_c,3573
+pgtrigger/tests/test_core.py,sha256=_oR_B4Jw4KLCscJEWriHk9dFxwQAOjFKfyuACiPV5ic,21965
+django_pgtrigger-1.3.0.dist-info/LICENSE,sha256=ATAAz7-sFSHiH8Y6SUVs-yU0oUJjrPCZPpbYAdkc3WY,1474
+django_pgtrigger-1.3.0.dist-info/WHEEL,sha256=Q99itqWYDhV793oHzqzi24q7L7Kdiz6cb55YDfTXphE,84
+django_pgtrigger-1.3.0.dist-info/METADATA,sha256=T3bPyjEewMiQ4gCq-v7bwmb3LTxOdu-ycpJR6xa8qIQ,5077
+django_pgtrigger-1.3.0.dist-info/RECORD,,
