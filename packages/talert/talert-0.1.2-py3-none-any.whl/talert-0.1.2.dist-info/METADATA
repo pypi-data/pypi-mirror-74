@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: talert
+Version: 0.1.2
+Summary: Telegram bot for workalert
+Home-page: UNKNOWN
+Author: Junghoon Jung
+Author-email: jh.jung@uos.ac.kr
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: python-telegram-bot
+Requires-Dist: ipykernel
+
+UNKNOWN
+
+
