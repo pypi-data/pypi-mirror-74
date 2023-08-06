@@ -1,0 +1,8 @@
+pipelinewise-singer-python==1.*
+zenpy==2.0.0
+
+[test]
+ipdb
+pylint
+nose
+nose-watch
