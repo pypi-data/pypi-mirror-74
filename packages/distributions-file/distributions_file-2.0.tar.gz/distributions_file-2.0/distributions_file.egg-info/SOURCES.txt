@@ -1,0 +1,7 @@
+setup.py
+distributions_file/__init__.py
+distributions_file.egg-info/PKG-INFO
+distributions_file.egg-info/SOURCES.txt
+distributions_file.egg-info/dependency_links.txt
+distributions_file.egg-info/not-zip-safe
+distributions_file.egg-info/top_level.txt
