@@ -1,0 +1,10 @@
+setup.py
+algoritmo_di_ma_ghoche/Binomialdistribution.py
+algoritmo_di_ma_ghoche/Gaussiandistribution.py
+algoritmo_di_ma_ghoche/Generaldistribution.py
+algoritmo_di_ma_ghoche/__init__.py
+algoritmo_di_ma_ghoche.egg-info/PKG-INFO
+algoritmo_di_ma_ghoche.egg-info/SOURCES.txt
+algoritmo_di_ma_ghoche.egg-info/dependency_links.txt
+algoritmo_di_ma_ghoche.egg-info/not-zip-safe
+algoritmo_di_ma_ghoche.egg-info/top_level.txt
