@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: receipt-parser
+Version: 0.0.14
+Summary: Allow receipt parsing
+Home-page: https://github.com/slgero/receipt_parser
+Author: Savvov Sergey
+Author-email: sersavvov@yandex.ru
+License: UNKNOWN
+Keywords: receipt parser,product parser,nlp
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Classifier: Natural Language :: Russian
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: beautifulsoup4 (>=4.8.2)
+Requires-Dist: numpy (>=1.18.3)
+Requires-Dist: pandas (>=1.0.3)
+Requires-Dist: pymystem3 (>=0.2.0)
+Requires-Dist: selenium (>=3.141.0)
+Requires-Dist: xlrd (>=1.2.0)
+
+# check_parser
+Allow parsing Russians checks
+
+
