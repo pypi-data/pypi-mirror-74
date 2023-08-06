@@ -1,0 +1,12 @@
+generalvector/__init__.py,sha256=XNgAAd1aVikmWavHvhCn6sZfa48yIK2z9YdA6VHLEQw,80
+generalvector/general.py,sha256=tiFmN3D_Xwv26JvhkS8E2CPBog-Cw7nLKtZinxaOyAg,3838
+generalvector/vector.py,sha256=0zN2mhP4aVH4BCsl7wCpejRLX6VzAzeEKzwtTtuTwmU,5884
+generalvector/vector2.py,sha256=bBHeUshGW5BwywPE2n32o_fwrcw_bH8HtPrprIcyzlo,5369
+test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test/test_vector.py,sha256=wXewFjoYZVBQVH2gSGNHAleG22OuiYtkNx_bh4tjxXM,13064
+test/test_vector2.py,sha256=oJtNPN9sP2CvUncAXEJj7PUTNi82kxbTdaV7y4pK8Vk,11165
+generalvector-1.3.0.dist-info/LICENSE,sha256=UC8s1sao5BR40Jj2e61gOcp_q3TLMSYTiO5YZnSbd4k,1101
+generalvector-1.3.0.dist-info/METADATA,sha256=coD1lYMLpV3P1A_o8t1cAu-QjPiXRfgmSVRuMg-Sk78,1564
+generalvector-1.3.0.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+generalvector-1.3.0.dist-info/top_level.txt,sha256=oSYGUJ9AGiwxsyNlIt67Ron3XHp6q97B91QLWNIzbfU,19
+generalvector-1.3.0.dist-info/RECORD,,
