@@ -1,0 +1,15 @@
+lapymod/__init__.py,sha256=-0cXAkdvL-zQuzEuIXjRf8OeEgipfQBzozhmvA0Vuc0,124
+lapymod/configs/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+lapymod/configs/cosmetics.json,sha256=5y7Gh2HQ5jyteAlvOF-7w0tZNeSRAwtuMGvufpw2udQ,2078
+lapymod/configs/emotes.json,sha256=PwgjC7aQY4ACC6MnpMH8ABs7lLVuyMz59lzHMgoqKs0,8390
+lapymod/configs/roles.json,sha256=q_EEPe8OKqUrWEPPxhXbvot6Bgnmcbrs0Rk2ZfZehww,623
+lapymod/configs/stickers.json,sha256=u_XfZ7Q0j-rHm51lJNUO3oRuuJ3hY67AHKQdNq4Lbnk,366
+lapymod/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+lapymod/utils/humanize.py,sha256=MavogzjEJP3QVtrI3MC00GMID48bBTUJvIrrx-Y_y08,898
+lapymod/utils/labymod.py,sha256=RYC5aI2vjwQRoHpuGmY7KAez8NGRVAZIHwZXZIOJXig,646
+lapymod/utils/user.py,sha256=rG6NpGBiTynoHYR0qfUw_lWgd0B2vsiz48SOKrp0Huk,1804
+lapymod-1.0.4.dist-info/LICENSE,sha256=YPm9q2agj2x0i-LtGfn_-pGyqNYoTwDyQth8OqHO8n4,1083
+lapymod-1.0.4.dist-info/METADATA,sha256=59Tnr-l44a78fr6PGV60vEI078rjMmAEdmLz1hbsRf8,525
+lapymod-1.0.4.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+lapymod-1.0.4.dist-info/top_level.txt,sha256=P0ImQgJHBfglqvljTzBxxJ1e2oWKrsKzTfB1Qr07Y3s,8
+lapymod-1.0.4.dist-info/RECORD,,
