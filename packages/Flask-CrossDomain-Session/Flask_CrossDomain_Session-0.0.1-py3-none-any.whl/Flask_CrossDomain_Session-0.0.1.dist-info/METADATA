@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: Flask-CrossDomain-Session
+Version: 0.0.1
+Summary: UNKNOWN
+Home-page: https://github.com/02JanDal/Flask-CrossDomain-Session
+Author: Jan Dalheimer
+Author-email: jan@dalheimer.de
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Flask
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Internet :: WWW/HTTP
+Requires-Python: ~=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: Flask (>=1.0.0)
+
+# Flask-CrossDomain-Session
+
+## About
+
+Flask-CrossDomain-Session is a Flask extension that simplifies the task of keeping sessions spanning multiple domains.
+
+## Installation
+
+Simply run:
+
+```bash
+pip install Flask-CrossDomain-Session
+```
+
+## Usage
+
+
+## Development and Testing
+
+1.  Get the code: `git clone https://github.com/02JanDal/Flask-CrossDomain-Session.git`
+2.  Do your changes
+3.  Test the result: `tox -e py`
+
+

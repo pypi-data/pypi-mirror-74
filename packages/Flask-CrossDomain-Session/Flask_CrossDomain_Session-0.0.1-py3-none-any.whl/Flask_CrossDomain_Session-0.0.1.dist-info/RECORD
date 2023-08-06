@@ -1,0 +1,11 @@
+flask_crossdomain_session/__init__.py,sha256=_noG9sFAoeANEs5XUhZyJmDbqGKvWwEOuPnRDni5-a8,8082
+flask_crossdomain_session/injection.html,sha256=PwmH0RWOyiFYY6RmR30k7XzgPCYK4IBvt0wvZhxLjOg,1564
+flask_crossdomain_session/model.py,sha256=rUZMOOLQLOxdhmB2jmPYriyT6-RsSUniiSUQOg--_nA,5675
+flask_crossdomain_session/session_interface.py,sha256=peEQ7E1GbGpDaFrvjOMuUn5C34_jKrDY24D9Jn0Zegg,2805
+flask_crossdomain_session/version.py,sha256=IYVuaRW3OD09k1LqGVPqaPFVUii2bJVRMPZNX4VEgcA,116
+Flask_CrossDomain_Session-0.0.1.dist-info/LICENSE,sha256=-PNaqI90NgIA8--vXfQ_zouzTJvI-gJ-jULZQo654Ac,1070
+Flask_CrossDomain_Session-0.0.1.dist-info/METADATA,sha256=zu-Yf9LFzvhol-zHrhorYiRPmxQnMi7A81Jc6qMQ1so,1157
+Flask_CrossDomain_Session-0.0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+Flask_CrossDomain_Session-0.0.1.dist-info/top_level.txt,sha256=4KiJs6OBN0LyJLw6G3tOdyuyDg-LbJSbvVe_Bt0OLfg,26
+Flask_CrossDomain_Session-0.0.1.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+Flask_CrossDomain_Session-0.0.1.dist-info/RECORD,,
