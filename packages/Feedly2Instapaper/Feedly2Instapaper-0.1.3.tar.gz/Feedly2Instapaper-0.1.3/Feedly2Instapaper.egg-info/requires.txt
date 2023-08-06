@@ -1,0 +1,4 @@
+setuptools
+instapaper
+feedly-client
+PyYAML

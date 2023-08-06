@@ -1,0 +1,10 @@
+README.md
+setup.py
+Feedly2Instapaper.egg-info/PKG-INFO
+Feedly2Instapaper.egg-info/SOURCES.txt
+Feedly2Instapaper.egg-info/dependency_links.txt
+Feedly2Instapaper.egg-info/requires.txt
+Feedly2Instapaper.egg-info/top_level.txt
+feedly2instapaper/__init__.py
+feedly2instapaper/feedly2instapaper.py
+feedly2instapaper/settings.yaml
