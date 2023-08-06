@@ -1,0 +1,9 @@
+README.md
+setup.py
+AFK/__init__.py
+AFK/afk.py
+AFKer.egg-info/PKG-INFO
+AFKer.egg-info/SOURCES.txt
+AFKer.egg-info/dependency_links.txt
+AFKer.egg-info/requires.txt
+AFKer.egg-info/top_level.txt
