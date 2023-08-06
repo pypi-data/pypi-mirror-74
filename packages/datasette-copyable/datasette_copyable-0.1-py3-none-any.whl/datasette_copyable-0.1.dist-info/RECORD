@@ -1,0 +1,7 @@
+datasette_copyable/__init__.py,sha256=-ktTGDlLftdtsHZ-Z3NvtgT1Ou9YFMavBI-i1OfN4l4,1462
+datasette_copyable/templates/copyable.html,sha256=4GV7IyNrVb1mI9ktzD-pLVXtWJ8WwyRKRKdus9IlVFk,909
+datasette_copyable-0.1.dist-info/METADATA,sha256=0UfLmcbGIuBg_R4zYaXBpGgnMnsFqRvVNyoynAAw2wo,2106
+datasette_copyable-0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+datasette_copyable-0.1.dist-info/entry_points.txt,sha256=TXTpfNZmNDbB0xWKIqVnanaOBVWr-VQa7C3AcPxrV9Q,43
+datasette_copyable-0.1.dist-info/top_level.txt,sha256=wWbVb1yd6woz94Cv18HLQssk8IbfbwMNj0hksViIbWw,19
+datasette_copyable-0.1.dist-info/RECORD,,
