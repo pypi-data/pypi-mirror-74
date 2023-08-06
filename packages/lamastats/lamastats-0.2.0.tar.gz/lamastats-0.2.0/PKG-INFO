@@ -1,0 +1,26 @@
+Metadata-Version: 1.1
+Name: lamastats
+Version: 0.2.0
+Summary: Simple visitor analytics application for presenting usage statistics on several components included in LaMachine.
+Home-page: https://github.com/proycon/lamastats
+Author: Maarten van Gompel
+Author-email: proycon@anaproy.nl
+License: GPL
+Description: Simple tracking solution based on analysis of apache/nginx logs. Focusses on several components in a LaMachine installation:
+        
+        * CLAM
+        * FLAT
+        * Generic software tracking using badges in READMEs
+        * LaMachine tracking
+        
+Keywords: analytics
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Topic :: Text Processing :: Linguistic
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Operating System :: POSIX
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)

@@ -1,0 +1,3 @@
+[console_scripts]
+lamastats = lamastats.lamastats:main
+
