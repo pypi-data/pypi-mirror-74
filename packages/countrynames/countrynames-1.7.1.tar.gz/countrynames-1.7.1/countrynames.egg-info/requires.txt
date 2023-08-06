@@ -1,0 +1,4 @@
+normality
+pyicu
+python-Levenshtein
+pyyaml
