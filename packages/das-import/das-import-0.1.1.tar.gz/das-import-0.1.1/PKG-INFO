@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: das-import
+Version: 0.1.1
+Summary: Decks Against Society card importer
+Home-page: https://github.com/chaosk/das-import
+Author: Krzysztof Socha
+Author-email: github+das-import@ksocha.com
+License: UNKNOWN
+Description: # Decks Against Society card importer
+        
+        ## Usage
+        
+        Install using pipsi:
+        ```shell
+        $ pipsi install das-import
+        ```
+        
+        Prepare separate CSV files for black and white cards, each card text in separate line[^1] and run:
+        ```
+        $ das-import -u <your username> -p <password> -e <target deck ID> -c <card color> <path to file>
+        ```
+        
+        [^1]: Multiline cards need to be wrapped in double quotes.
+        
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Description-Content-Type: text/markdown
