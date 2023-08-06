@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+distributions_ellen/Binomialdistribution.py
+distributions_ellen/Gaussiandistribution.py
+distributions_ellen/Generaldistribution.py
+distributions_ellen/__init__.py
+distributions_ellen.egg-info/PKG-INFO
+distributions_ellen.egg-info/SOURCES.txt
+distributions_ellen.egg-info/dependency_links.txt
+distributions_ellen.egg-info/not-zip-safe
+distributions_ellen.egg-info/top_level.txt
