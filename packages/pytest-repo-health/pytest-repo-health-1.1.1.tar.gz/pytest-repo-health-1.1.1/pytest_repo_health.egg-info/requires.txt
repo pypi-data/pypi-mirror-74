@@ -1,0 +1,5 @@
+pyyaml
+GitPython
+github.py
+pytest
+pytest-aiohttp
