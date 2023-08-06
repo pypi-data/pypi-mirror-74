@@ -1,0 +1,10 @@
+README.md
+setup.py
+nltp/Patterns.py
+nltp/Preprocessor.py
+nltp/__init__.py
+nltp.egg-info/PKG-INFO
+nltp.egg-info/SOURCES.txt
+nltp.egg-info/dependency_links.txt
+nltp.egg-info/not-zip-safe
+nltp.egg-info/top_level.txt
