@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/wenvkernel/__init__.py
+src/wenvkernel/_core.py
+src/wenvkernel/_logos.py
+src/wenvkernel/install.py
+src/wenvkernel.egg-info/PKG-INFO
+src/wenvkernel.egg-info/SOURCES.txt
+src/wenvkernel.egg-info/dependency_links.txt
+src/wenvkernel.egg-info/not-zip-safe
+src/wenvkernel.egg-info/requires.txt
+src/wenvkernel.egg-info/top_level.txt
