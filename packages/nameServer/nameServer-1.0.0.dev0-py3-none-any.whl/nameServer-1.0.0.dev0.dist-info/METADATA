@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: nameServer
+Version: 1.0.0.dev0
+Summary: one web server FrameWork
+Home-page: UNKNOWN
+Author: Mr.G
+Author-email: gjlove666@hotmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: Werkzeug (>=0.15)
+Requires-Dist: Jinja2 (>=2.10.1)
+Requires-Dist: itsdangerous (>=0.24)
+Requires-Dist: click (>=5.1)
+Provides-Extra: dotenv
+Requires-Dist: python-dotenv ; extra == 'dotenv'
+
+# nameServer
+
+one web server like flask
+
