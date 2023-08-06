@@ -1,0 +1,10 @@
+setup.py
+Binomial_Gaussian_practice/Binomialdistribution.py
+Binomial_Gaussian_practice/Gaussiandistribution.py
+Binomial_Gaussian_practice/Generaldistribution.py
+Binomial_Gaussian_practice/__init__.py
+Binomial_Gaussian_practice.egg-info/PKG-INFO
+Binomial_Gaussian_practice.egg-info/SOURCES.txt
+Binomial_Gaussian_practice.egg-info/dependency_links.txt
+Binomial_Gaussian_practice.egg-info/not-zip-safe
+Binomial_Gaussian_practice.egg-info/top_level.txt
