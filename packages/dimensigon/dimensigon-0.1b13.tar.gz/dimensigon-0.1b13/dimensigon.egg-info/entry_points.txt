@@ -1,0 +1,3 @@
+[console_scripts]
+dshell = dm.dshell.batch.dshell:main
+
