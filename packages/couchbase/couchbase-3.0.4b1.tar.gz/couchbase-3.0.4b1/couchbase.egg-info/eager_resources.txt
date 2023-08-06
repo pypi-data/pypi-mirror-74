@@ -1,0 +1,1 @@
+/home/couchbase/jenkins/workspace/python/sdk/python-scripted-build-pipeline@2/couchbase-python-client/couchbase_core/libcouchbase.so.6
