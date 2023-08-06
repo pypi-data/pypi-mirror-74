@@ -1,0 +1,21 @@
+runtime: python
+env: flex
+entrypoint: gunicorn -b :$PORT --timeout 300 alge.wsgi
+
+beta_settings:
+    cloud_sql_instances: clinicapp-alge:us-central1:alge-db-a
+
+runtime_config:
+  python_version: 3
+
+env_variables:
+  ALGE_GC_RUN: true
+  ALGE_PUBLIC_ENDPOINT: clinicapp-alge.appspot.com
+  ALGE_DB_NAME: postgres
+  ALGE_DB_USER: postgres
+  ALGE_DB_PASSWORD: UWWNL6%z?3<MV\.~%htN=9+$
+  ALGE_DB_PORT: 5432
+  ALGE_HOST: /cloudsql/clinicapp-alge:us-central1:alge-db-a
+  ALGE_DB_TABLES: alge-tables-a
+  ALGE_APP_STATIC_FILES_BUCKET: alge-static-a
+  ALGE_APP_SECRET_KEY: 4dbgj9((dey#0!1ie@spppfbvj!2av6s1-16)1xp70ss

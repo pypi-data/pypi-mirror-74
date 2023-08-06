@@ -1,0 +1,104 @@
+{% extends "layout.html" %}
+{% block title %}Models{% endblock %}
+
+{% block body %}
+    <div class="row">
+        <div class="container">
+            <table class="table responsive table-bordered" id="table-models">
+
+                <thead class="active">
+                <tr>
+                    <th scope="col">name</th>
+                    <th scope="col">owner</th>
+                    <th scope="col">started_at</th>
+                    <th scope="col">label</th>
+                    <th scope="col">carbon_footprint</th>
+                    <th scope="col">AUC</th>
+                    <th scope="col">Accuracy</th>
+                    <th scope="col">Recall</th>
+                    <th scope="col">MSE</th>
+                    <th scope="col">MAE</th>
+                    <th scope="col">#features</th>
+                    <th scope="col">#train</th>
+                    <th scope="col">#test</th>
+
+                </tr>
+                </thead>
+                <tbody>
+                {% for m in  models %}
+                    <tr>
+                        <td>
+                            <a href="/model/{{ m.model_id }}">{{ m.name }}</a>
+                        </td>
+                        <td>
+                            {{ m.run.user.username }}
+                        </td>
+                        <td>
+                            {{ m.started_at }}
+                        </td>
+                        <td>
+                            {{ m.run.label }}
+                        </td>
+                        <td>
+                            {{ m.sustainability.carbon_footprint }}
+                        </td>
+                        <td>
+                            {% if m.modelmetrics.roc_auc %}
+                                {{ m.modelmetrics.roc_auc }}%
+                            {% else %}
+                                -
+                            {% endif %}
+                        </td>
+                        <td>
+                            {% if m.modelmetrics.accuracy %}
+                                {{ m.modelmetrics.accuracy }}%
+                            {% else %}
+                                -
+                            {% endif %}
+                        </td>
+                        <td>
+                            {% if m.modelmetrics.recall %}
+                                {{ m.modelmetrics.recall }}%
+                            {% else %}
+                                -
+                            {% endif %}
+                        </td>
+                        <td>
+                            {% if m.modelmetrics.mean_squared_error %}
+                                {{ m.modelmetrics.mean_squared_error }}
+                            {% else %}
+                                -
+                            {% endif %}
+                        </td>
+                        <td>
+                            {% if m.modelmetrics.mean_absolute_error %}
+                                {{ m.modelmetrics.mean_absolute_error }}
+                            {% else %}
+                                -
+                            {% endif %}
+                        </td>
+                        <td>
+                            {{ m.run.selected_features|wordcount }}
+                        </td>
+                        <td>
+                            {{ m.run.n_train }}
+                        </td>
+                        <td>
+                            {{ m.run.n_test }}
+                        </td>
+
+                    </tr>
+
+                {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <script>
+        $(document).ready( function () {
+            $('#table-models').bdt();
+        });
+    </script>
+
+{% endblock %}

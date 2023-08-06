@@ -1,0 +1,51 @@
+<br><br>
+
+<h5>General Information</h5>
+
+{% if run.selection_method %}
+    The feature selection method applied was {{ model.run.selection_method }} which reduced the number of columns from
+    <u data-toggle="tooltip"
+       data-placement="bottom"
+       title="{{ model.run.features }}">
+        {{ model.run.features|wordcount }}
+    </u> to
+    <u data-toggle="tooltip"
+       data-placement="bottom"
+       title="{{ model.run.selected_features }}">
+        {{ model.run.selected_features|wordcount }}
+    </u> features.
+    </div>
+{% else %}
+    No feature selection method was applied and the models ran with
+    <u data-toggle="tooltip"
+       data-placement="bottom"
+       title="{{ model.run.selected_features }}">
+        {{ model.run.selected_features|wordcount }}
+    </u> features.
+{% endif %}
+
+<br>
+
+
+{% if model.run.filter %}
+    The filter {{ model.run.filter }} was applied to the dataset and the {{ model.run.n_train }}
+    rows were used to train the model and {{ model.run.n_test }} were used to validate the models. The split is
+    stratified by number the response variable.
+{% else %}
+    No filter was applied to the dataset and the {{ run.datastats.n_train }}
+    records were used to train the model and {{ run.n_test }} were used to validate the models.
+    {% if problem_type == 'classification' %}The split is stratified by the response variable.{% endif %}
+{% endif %}
+
+<br>
+
+{% if model.run.oversampling %}
+    Oversampling was applied to the unbalanced dataset.
+{% endif %}
+
+<br>
+
+This model started at {{ model.started_at }} and finished at {{ model.finished_at }}. Other models with the same setup can be found <a href="/run/{{ model.run.run_id }}">here</a>.
+
+
+

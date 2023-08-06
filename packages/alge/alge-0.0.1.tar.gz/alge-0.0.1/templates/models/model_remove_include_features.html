@@ -1,0 +1,15 @@
+<div id="add_remove_features" position="relative">
+    {% if include.feature_name %}
+        {% if include.improvement > 0 %}
+        <p style="font-size:15px;">Adding <b>{{ include.feature_name }}</b> might improve your results.</p>
+        {% endif %}
+    {% endif %}
+
+    {% if remove.feature_name %}
+        {% if remove.improvement > 0 %}
+        <p style="font-size:15px;">Removing <b>{{ remove.feature_name }}</b> might improve your results.</p>
+        {% endif %}
+    {% endif %}
+</div>
+
+

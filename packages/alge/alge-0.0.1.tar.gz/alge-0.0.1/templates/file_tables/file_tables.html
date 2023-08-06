@@ -1,0 +1,72 @@
+{% extends "layout.html" %}
+{% block title %}Tables{% endblock %}
+
+{% block body %}
+    <div class="row">
+        <div class="container">
+            <div>
+                <a href="/upload_table">
+                    <input type="button" class="btn btn-primary active" value="Upload New Table" />
+                </a>
+            </div>
+        <br><br>
+            <table class="table responsive table-bordered" id="table-tables">
+
+                <thead class="active">
+                <tr>
+                    <th scope="col">name</th>
+                    <th scope="col">user</th>
+                    <th scope="col">created_at</th>
+                    <th scope="col">last_update_at</th>
+                    <th scope="col">active</th>
+                    <th scope="col">n_rows</th>
+                    <th scope="col">n_cols</th>
+                    <th scope="col">features</th>
+                    <th scope="col">labels</th>
+                </tr>
+                </thead>
+                <tbody>
+                {% for t in file_tables %}
+                        <tr>
+                            <td data-table-header="name">
+                                <a href="/table/{{ t.name }}">{{ t.name }}</a>
+                            </td>
+                            <td data-table-header="user">
+                                {{ t.user }}
+                            </td>
+                            <td data-table-header="created_at">
+                                {{ t.created_at }}
+                            </td>
+                            <td data-table-header="last_update_at">
+                                {{ t.last_update_at }}
+                            </td>
+                            <td data-table-header="active">
+                                {{ t.active }}
+                            </td>
+                            <td data-table-header="n_rows">
+                                {{ t.n_rows }}
+                            </td>
+                            <td data-table-header="n_cols">
+                                {{ t.n_cols }}
+                            </td>
+                            <td data-table-header="n_labels">
+                                {{ t.n_cols }}
+                            </td>
+                            <td data-table-header="n_features">
+                                {{ t.n_cols }}
+                            </td>
+                        </tr>
+                {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+    </div>
+
+    <script>
+        $(document).ready( function () {
+            $('#table-tables').bdt();
+        });
+    </script>
+
+{% endblock %}

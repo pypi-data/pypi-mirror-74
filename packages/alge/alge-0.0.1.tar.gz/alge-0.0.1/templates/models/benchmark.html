@@ -1,0 +1,95 @@
+{% extends "layout.html" %}
+{% load static %}
+{% block title %}Alg-E{% endblock %}
+
+
+{% block body %}
+
+    <script>$(function () {
+        $('.selectpicker').selectpicker();
+    });
+
+    var specs = {{ forms.specs | safe }};
+
+    function change_file(file_id, label_id) {
+        file_obj = document.getElementById(file_id);
+        label_obj = document.getElementById(label_id);
+        label_obj.innerHTML = "";
+
+        var newLabels = specs[file_obj.value]['labels'];
+
+        var newLabelsGrouped = newLabels.reduce(function (rv, x) {
+            (rv[x[1]] = rv[x[1]] || []).push(x[0]);
+            return rv
+        }, {});
+
+        $('#label').selectpicker('destroy');
+        $('#label').selectpicker();
+        var $cont = $('#label');
+        $cont.innerHTML = "";
+        for (group in newLabelsGrouped) {
+            $('<optgroup/>').attr('label', group).appendTo($cont);
+            for (itemPos in newLabelsGrouped[group]) {
+                $cont.find('optgroup').last().append('<option>' + newLabelsGrouped[group][itemPos] + '</option>');
+            }
+
+        }
+    }
+    </script>
+
+
+    <div class="container py-5">
+        <div class="row">
+
+            <div class="container">
+
+                <div id="#forms">
+
+                    <form method="post" id="form_program" action="/benchmark"> {% csrf_token %}
+
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <label for="file">File</label><br>
+                                <select class="selectpicker form-control"
+                                        name="file"
+                                        title="Choose a file..."
+                                        onchange="change_file('file', 'label')"
+                                        id="file">
+                                    {% for file in forms.files %}
+                                        <option value="{{ file|first }}">{{ file|first }} ({{ file|last }} records)
+                                        </option>
+                                    {% endfor %}
+                                </select>
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="label">Label</label><br>
+                                <select class="selectpicker form-control"
+                                        name="label"
+                                        title="What did you predict"
+                                        id="label"
+                                        data-live-search="true">
+                                </select>
+                                <br>
+                            </div>
+                        </div>
+
+                        <div style='float: right;'>
+                            <button id="submit" type="submit" class="btn btn-primary active"
+                                    form="form_program" value="Submit" aria-pressed="true">Submit
+                            </button>
+                        </div>
+
+                    </form>
+                </div>
+                {% if graph %}
+                <div style="width:1000;height:500">
+                    {{ graph|safe }}
+                </div>
+                {% endif %}
+            </div>
+        </div>
+
+    </div>
+
+
+{% endblock %}

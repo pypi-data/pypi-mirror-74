@@ -1,0 +1,36 @@
+{% extends "layout.html" %}
+{% block title %}{{ table_id }}{% endblock %}
+{% load mathfilters %}
+
+{% block body %}
+
+
+    {% if message %}
+
+        <div><strong style="color: red;">{{ message|safe }}</strong></div>
+
+    {% else %}
+
+        <form method="post" action="" id="form-upload" enctype="multipart/form-data"/>{% csrf_token %}
+
+            <input  type="file" name="table" accept=".csv">
+
+                <button id="submit-csv" type="submit" class="btn btn-primary active"
+                        form="form-upload" value="submit" aria-pressed="true">Upload CSV
+                </button>
+
+
+        </form>
+
+
+    {% endif %}
+
+<ul>
+    <li>.csv format split by `,`</li>
+    <li>all columns must be named</li>
+    <li>date fields might crash the data upload</li>
+    <li>it is possible to deactivate the table whenever</li>
+    <li>it is possible to refresh the file whenever</li>
+</ul>
+
+{% endblock %}

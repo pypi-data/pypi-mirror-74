@@ -1,0 +1,81 @@
+{% extends "layout.html" %}
+{% block title %}Runs{% endblock %}
+
+{% block body %}
+    <div class="row">
+        <div class="container">
+            <table class="table responsive table-bordered" id="table-runs">
+
+                <thead class="active">
+                <tr>
+                    <th scope="col">run_id</th>
+                    <th scope="col">owner</th>
+                    <th scope="col">started_at</th>
+                    <th scope="col">label</th>
+                    <th scope="col">filter</th>
+                    <th scope="col">#features</th>
+                    <th scope="col">feature_selection</th>
+                    <th scope="col">#features_used</th>
+                    <th scope="col">#train</th>
+                    <th scope="col">#test</th>
+                    <th scope="col">#models</th>
+                </tr>
+                </thead>
+                <tbody>
+                {% for r in  runs %}
+                    {% if r.mlmodel_set.values|length > 0 %}
+                    <tr>
+                        <td data-table-header="run_id">
+                            <a href="/run/{{ r.run_id }}">{{ r.run_id }}</a>
+                        </td>
+                        <td data-table-header="user">
+                            {{ r.user.username }}
+                        </td>
+                        <td data-table-header="started_at">
+                            {{ r.started_at }}
+                        </td>
+                        <td data-table-header="label">
+                            {{ r.label }}
+                        </td>
+                        <td data-table-header="filter">
+                            {{ r.filter }}
+                        </td>
+                        <td data-table-header="#features">
+                                {{ r.features|wordcount }}
+                        </td>
+                        <td data-table-header="selection_method">
+                            {% if r.selection_method %}
+                                {{ r.selection_method }}
+                            {% else %}
+                                -
+                            {% endif %}
+                        </td>
+                        <td data-table-header="#features used">
+                                {{ r.selected_features|wordcount }}
+                        </td>
+                        <td data-table-header="#train">
+                            {{ r.n_train }}
+                        </td>
+                        <td data-table-header="#test">
+                            {{ r.n_test }}
+                        </td>
+                        <td data-table-header="#models">
+                            {{ r.mlmodel_set.values|length }}
+                        </td>
+
+                    </tr>
+                    {% endif %}
+                {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+    </div>
+
+    <script>
+        $(document).ready( function () {
+            $('#table-runs').bdt();
+        });
+    </script>
+
+{% endblock %}

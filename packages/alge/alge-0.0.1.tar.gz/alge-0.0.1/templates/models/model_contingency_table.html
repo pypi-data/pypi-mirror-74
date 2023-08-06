@@ -1,0 +1,59 @@
+<button type="button"
+        class="btn btn-primary"
+        data-toggle="modal"
+        data-target="#modal_contingency">Contingency Table
+</button>
+
+<div id="modal_contingency" class="modal fade bd-example-modal-lg" role="dialog">
+    <div class="modal-dialog modal-lg">
+
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title">Contingency Table {{ model.name }}</h4>
+            </div>
+            <div class="modal-body" id="contingency_table_{{ model.short_name }}">
+                <table class="table table-hover table-bordered" style="width:20%; height:100px;">
+                    <thead class="active">
+                    <tr>
+                        <th scope="col"></th>
+                        <th scope="col">ClassifiedPositive</th>
+                        <th scope="col">ClassifiedNegative</th>
+                        <th scope="col">Total</th>
+                    </tr>
+                    <tbody>
+                    <tr>
+                        <td><b>RealPositive</b></td>
+                        <td>{{ contingency.true_positive }}</td>
+                        <td>{{ contingency.false_positive }}</td>
+                        <td>{{ contingency.true_positive|add:contingency.false_positive }}</td>
+                    </tr>
+                    <tr>
+                        <td><b>RealNegative</b></td>
+                        <td>{{ contingency.false_negative }}</td>
+                        <td>{{ contingency.true_negative }}</td>
+                        <td>{{ contingency.false_negative|add:contingency.true_negative }}</td>
+                    </tr>
+                    <tr>
+                        <td><b>Total</b></td>
+                        <td>{{ contingency.true_positive|add:contingency.false_negative }}</td>
+                        <td>{{ contingency.false_positive|add:contingency.true_negative }}</td>
+                        <td>{{ contingency.true_positive|add:contingency.false_positive|add:contingency.false_negative|add:contingency.true_negative }}</td>
+                    </tr>
+                    </tbody>
+                    </thead>
+                </table>
+            </div>
+
+            <div class="modal-footer">
+                <a href="https://en.wikipedia.org/wiki/Contingency_table" target="_blank">More about contingency
+                    table</a>
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+
