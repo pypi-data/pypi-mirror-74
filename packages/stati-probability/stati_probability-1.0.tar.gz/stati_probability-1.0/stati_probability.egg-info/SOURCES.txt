@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+stati_probability/Binomialdistribution.py
+stati_probability/Gaussiandistribution.py
+stati_probability/Generaldistribution.py
+stati_probability/__init__.py
+stati_probability.egg-info/PKG-INFO
+stati_probability.egg-info/SOURCES.txt
+stati_probability.egg-info/dependency_links.txt
+stati_probability.egg-info/not-zip-safe
+stati_probability.egg-info/top_level.txt
