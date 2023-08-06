@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: dynamix
+Version: 0.1.0
+Summary: UNKNOWN
+Home-page: https://github.com/silx-kit/dynamix
+Author: Pierre Paleo, Jerome Kieffer
+Author-email: pierre.paleo@esrf.fr
+Maintainer: Pierre Paleo, Jerome Kieffer
+Maintainer-email: pierre.paleo@esrf.fr
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: numpy
+Requires-Dist: pyopencl
+
+
+dynamix - software for X-ray photon correlation spectroscopy
+
+
