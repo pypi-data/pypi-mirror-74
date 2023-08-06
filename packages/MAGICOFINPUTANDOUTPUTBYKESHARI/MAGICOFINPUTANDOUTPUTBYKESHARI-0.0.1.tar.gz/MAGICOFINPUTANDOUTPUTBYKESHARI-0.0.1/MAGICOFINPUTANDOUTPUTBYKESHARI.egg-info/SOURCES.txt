@@ -1,0 +1,12 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+Shortcut.py
+__init__.py
+setup.py
+MAGICOFINPUTANDOUTPUTBYKESHARI.egg-info/PKG-INFO
+MAGICOFINPUTANDOUTPUTBYKESHARI.egg-info/SOURCES.txt
+MAGICOFINPUTANDOUTPUTBYKESHARI.egg-info/dependency_links.txt
+MAGICOFINPUTANDOUTPUTBYKESHARI.egg-info/top_level.txt
+System/__init__.py
+System/out.py
