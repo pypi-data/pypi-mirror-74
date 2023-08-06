@@ -1,0 +1,1 @@
+include spacy_sentece_bert/meta/*.json
