@@ -1,0 +1,15 @@
+truegaze/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+truegaze/cli.py,sha256=zPbk1bzUM1l-KOus6NqgBO3lOjQmxiGmLV44kSXFVsY,4016
+truegaze/utils.py,sha256=G-7XIY8RmrN78CZugBdNEcnetJ_qqzxmvN3JJB0VS5s,4015
+truegaze/data/adobe_mobile_sdk.schema,sha256=pMg6CiZO2XO4IkOsNy7v-pu11356RxyZIMAYRWiui6I,2040
+truegaze/plugins/__init__.py,sha256=UxV9ktZIbXmlSbyxNLLyfPApUh9bNU73IpLvUC1qtU8,388
+truegaze/plugins/adobe_mobile_sdk.py,sha256=78L4K6THFkDPI_r2pwnPjyGdDiVtbsc5VMlEbwTHMXE,4564
+truegaze/plugins/base.py,sha256=Sh5u3KaZREh9y1bKXZw4qJ09gxAd0q6cddMFg1kZmhw,2636
+truegaze/plugins/firebase.py,sha256=dzV-t9-0XRJf_JkOOUCSDAuoUBNeomJdCN5PkI_pJWc,3557
+truegaze/plugins/weak_key.py,sha256=6PldxZNz6oW-4MrmUS_aVaVdAwICwXH3NH0vrKyZAc4,6325
+truegaze-0.1.6.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+truegaze-0.1.6.dist-info/METADATA,sha256=fnaVzejQdfjAZZZvNUgvSJATVV4nGLVVIWiE3NQBQco,5903
+truegaze-0.1.6.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+truegaze-0.1.6.dist-info/entry_points.txt,sha256=3XdRQxyoT50eq3O0WnHwEbJ6cUTweuXaq_0aDj-bQfA,47
+truegaze-0.1.6.dist-info/top_level.txt,sha256=HiPHxogXWgTFk5vBjwiQ-Yb3bmP43Fviup8WDLSRT90,9
+truegaze-0.1.6.dist-info/RECORD,,
