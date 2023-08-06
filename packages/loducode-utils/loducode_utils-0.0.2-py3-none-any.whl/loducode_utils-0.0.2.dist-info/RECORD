@@ -1,0 +1,12 @@
+loducode_utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+loducode_utils/admin.py,sha256=5vJ5aS-BjaKr5xwFCFgGKgOrmuzF0J45clBBvcDMt7M,460
+loducode_utils/models.py,sha256=nMXNFzZ9BJ9wvmsi1gRz0YK9oztzpHGjtS0rAnGizrU,3467
+loducode_utils/tasks.py,sha256=uaDBQggt6V3947QDvhhxvYoyWT588Qq_G1ng6MMr-sM,255
+loducode_utils/urls_api.py,sha256=irT_QkPbsZTwz6ekIhu-AIpQRms-3SWw_MomfNBjpgk,347
+loducode_utils/utils.py,sha256=rmZo_pliDz2-yG15wqRm4A3XgOQI-Bx6GexqMs2E_Is,1086
+loducode_utils/views_api.py,sha256=EN5l-r5wqsU_U7gm_Xi0vBAe2c3fA7d8TG4zuuW4DTU,5494
+loducode_utils-0.0.2.dist-info/LICENCE.txt,sha256=ZDT2lfH8u8V5SDqjtx22kTzfuEj6Kj2wytGzZYMLClI,1073
+loducode_utils-0.0.2.dist-info/METADATA,sha256=N8S8D5Xnbg2b-EPjqTou0ShaQFwtcnKa45lmaakA52o,1284
+loducode_utils-0.0.2.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+loducode_utils-0.0.2.dist-info/top_level.txt,sha256=3Z0i4iFzJ1zVXz53RisCbw8-h0-2fIk2_uIqEugIoWg,15
+loducode_utils-0.0.2.dist-info/RECORD,,
