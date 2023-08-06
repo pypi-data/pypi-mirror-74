@@ -1,0 +1,10 @@
+README.md
+setup.py
+discord/ext/rx/__init__.py
+discord/ext/rx/bot.py
+discord/ext/rx/utils.py
+discord_ext_rx.egg-info/PKG-INFO
+discord_ext_rx.egg-info/SOURCES.txt
+discord_ext_rx.egg-info/dependency_links.txt
+discord_ext_rx.egg-info/requires.txt
+discord_ext_rx.egg-info/top_level.txt

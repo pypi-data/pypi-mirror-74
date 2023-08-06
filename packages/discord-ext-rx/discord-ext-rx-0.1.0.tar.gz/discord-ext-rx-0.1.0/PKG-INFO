@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: discord-ext-rx
+Version: 0.1.0
+Summary: Combine RxPy with discord.py.
+Home-page: https://github.com/NCPlayz/discord-ext-rx
+Author: NCPlayz
+Author-email: chowdhurynadir0@outlook.com
+License: MIT
+Description: # discord-ext-rx
+        
+        > Work In Progress!
+        
+        Combine [RxPy](https://github.com/ReactiveX/RxPy) with [discord.py](https://github.com/Rapptz/discord.py).
+        
+        ## Example
+        
+        ```py
+        from discord.ext.rx import RxBot, _
+        from rx import operators as ops
+        
+        bot = RxBot()
+        
+        bot.messages.pipe(
+            ops.filter(lambda m: m.author.id == 121678432504512512),
+            ops.filter(lambda m: m.content == '418'),
+            ops.map(lambda m: m.channel)
+        ).subscribe(
+            _(lambda c: c.send("I'm a teapot!"))
+        )
+        
+        bot.run('token')
+        ```
+        
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Internet
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Utilities
+Requires-Python: >=3.6.0
+Description-Content-Type: text/markdown
