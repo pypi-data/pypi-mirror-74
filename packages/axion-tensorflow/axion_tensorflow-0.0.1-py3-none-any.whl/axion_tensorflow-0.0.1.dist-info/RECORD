@@ -1,0 +1,13 @@
+axion_tensorflow/__init__.py,sha256=ywb7MMNfUFy_ioKj6zdShl6xpgctXar9dseU3YAK7Xg,49
+axion_tensorflow/converter.py,sha256=DkmR_yI-oOjFDkwTopcHsPM9b6ZxUoaRjyyJds9IKjM,7552
+axion_tensorflow/fake_quant.py,sha256=NEGkdGkhrznSq4y-dKXRuwmPa_jOlUlN-gAruZPswyo,1433
+axion_tensorflow/layers/__init__.py,sha256=hLWbtMDLCHP_9UBMZc1rsAJaaIaA30efCUi0wjJ1bVU,156
+axion_tensorflow/layers/activation.py,sha256=hXDi_vct5GspbuVhR4AZqFg2Z-e77uorW7Qrvh6tXRE,2087
+axion_tensorflow/layers/conv2d.py,sha256=7ykYNnINKapCdO_krA5ykcQlqHi1GIpzF93JOvY9bHU,3546
+axion_tensorflow/layers/dense.py,sha256=kSSB9hQ4EoCrBTMHCP19GVd_4Rkf5fpIjqaB095POls,2568
+axion_tensorflow/layers/local_conv2d.py,sha256=n8BONz698TuWoHs-Hs9XPOEHiERabp2HtqjdlvvYgoU,4475
+axion_tensorflow-0.0.1.dist-info/LICENSE,sha256=V9v_sgcZX7ZLMcFhbgbXCr7xZB_J6m8vqxVlTpDtn1w,9513
+axion_tensorflow-0.0.1.dist-info/METADATA,sha256=8bD-FiVJrL5646Gu-6Wq9w-5ECWrbXTuMQZcEPOX-LI,949
+axion_tensorflow-0.0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+axion_tensorflow-0.0.1.dist-info/top_level.txt,sha256=Kva-rC1QdMH6zMirUfUNrOcJPdhhA_Y8ZO6IgyImCAE,17
+axion_tensorflow-0.0.1.dist-info/RECORD,,
