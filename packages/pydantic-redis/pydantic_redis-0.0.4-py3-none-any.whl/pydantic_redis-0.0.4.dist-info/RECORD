@@ -1,0 +1,11 @@
+pydantic_redis/__init__.py,sha256=zFTUa4hxZv_RlD499x-luzgkIHJJHkHE5Qpv0tXFq_Q,135
+pydantic_redis/abstract.py,sha256=I2vROWfc3XH82lgHH4aGnDIybLtwLwKYUXlA-Vhnqq0,2151
+pydantic_redis/config.py,sha256=T6uDaFKPB5h9pLKxV8yRdKi-iJp5rVJmV8jU4iwFhrQ,220
+pydantic_redis/model.py,sha256=OOXUfIHLIrb6b2fkK6QOiy-C-lnr-Z9twjrb00TJpPQ,4843
+pydantic_redis/store.py,sha256=nlKlxu6fTvQ9lkdrFExYhTFSXPbrFJgk8ViEKgvn5Mw,1309
+pydantic_redis/utils.py,sha256=ZfuTY_c5QdFLDz-KqiGNpaT_FaouGFGUC0-Vq2UQ_2M,178
+pydantic_redis-0.0.4.dist-info/LICENSE,sha256=j5xpuOdo-ZQUB_WweumZmGoFMvKBxi_28Ak9wNZ5SNU,1072
+pydantic_redis-0.0.4.dist-info/METADATA,sha256=Yqd-cP6Y9MrqfbzK6xztMtZWt4veRhGbzH48nPqIzPg,4453
+pydantic_redis-0.0.4.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+pydantic_redis-0.0.4.dist-info/top_level.txt,sha256=__4BECVczpbpOyRjABa6vRjG2ubzXq16nPXsUIDLcTA,15
+pydantic_redis-0.0.4.dist-info/RECORD,,
