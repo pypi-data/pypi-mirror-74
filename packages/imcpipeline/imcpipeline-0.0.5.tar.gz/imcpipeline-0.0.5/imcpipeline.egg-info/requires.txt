@@ -1,0 +1,12 @@
+requests
+pandas>=1.0.1
+imctools==1.0.6
+tifffile==2020.6.3
+
+[dev]
+pylint
+git-lint
+black[d]
+mypy
+pytest
+twine
