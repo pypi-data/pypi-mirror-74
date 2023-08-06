@@ -1,0 +1,15 @@
+python-readability/readability/__init__.py,sha256=ZvKT0eeyWb1gdZP3MDxgQMSxUJoKHJzN3TK_rPsdovY,57
+python-readability/readability/browser.py,sha256=wUokLlGmb03uO_mUB55k4b4Y2cGCwLqjiq_Dr3h1d70,652
+python-readability/readability/cleaners.py,sha256=XD2pTtzQ_uwi-lEUOmdBFV_6akMCtq7tU3AB52HW9ho,1236
+python-readability/readability/compat/__init__.py,sha256=GlHzRQlnXSt8HNyEOqpbRO6tVOkcu0ZX0_Mz9IX-ihU,564
+python-readability/readability/compat/three.py,sha256=K71fX5O0U2LwHR_ShW7d1DffLZsS9kLgz4p7jHCNuhQ,284
+python-readability/readability/compat/two.py,sha256=WWB9Ww3hKGyH0E_VZWkmXsRnwUlUMtMrU7mEQOBks4k,275
+python-readability/readability/debug.py,sha256=jZxNh-XdBR2f4idCeKcmFJFw8Uu9OIdLGXMI_tYNhGU,1309
+python-readability/readability/encoding.py,sha256=i564JF7Fv5DvG0hrUmO7neUB32yfvVGBaHHWdJz2mZk,2051
+python-readability/readability/htmls.py,sha256=smHw7_0ZrbMkrL6KSi5xWyWfFpPvvwcFz7a4BCKdN8E,3992
+python-readability/readability/readability.py,sha256=xfQQTO58xxkpcvL31UvRyqcWvF7zQzmcuHIqEDqmQJw,28683
+r2k-0.4.11.dist-info/entry_points.txt,sha256=MxmpLL-QtaKAzJJ5k9s5-7MwhBIBB8P3NmgfEJ0RGN8,36
+r2k-0.4.11.dist-info/LICENSE,sha256=hKIVfy3DeEI-md9l6JeKf9Ilsf4HxQs-txbcRD1ETdM,1070
+r2k-0.4.11.dist-info/WHEEL,sha256=xSvaL1DM8LOHfdyo0cCcwjZu1tC6CnCsRGWUgazvlbM,83
+r2k-0.4.11.dist-info/METADATA,sha256=waF5dkr05V9GFoCInQN08Bl4v9gQ_8-AWjwuvq6UHQQ,5322
+r2k-0.4.11.dist-info/RECORD,,
