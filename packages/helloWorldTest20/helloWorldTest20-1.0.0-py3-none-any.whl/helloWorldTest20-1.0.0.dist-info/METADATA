@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: helloWorldTest20
+Version: 1.0.0
+Summary: A small example package
+Home-page: UNKNOWN
+Author: Mike
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+Example Package
+
+This is a simple example package.
+
