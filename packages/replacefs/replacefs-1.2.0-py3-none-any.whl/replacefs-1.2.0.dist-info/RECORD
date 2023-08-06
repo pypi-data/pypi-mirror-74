@@ -1,0 +1,11 @@
+replacefs/__init__.py,sha256=ci9rI_T0leKs7MODx6teS7qS-ZoD1jtSx_ntWWpvWT4,19
+replacefs/__main__.py,sha256=hVWBEwMEGor3TWXTdyuKet74EzUWwNX2ZmtxYaRqTCQ,109
+replacefs/colors.py,sha256=YAWdaiYDb6rq0KXMN2SLN-qERIrPDqpOA8oKOcHr3YE,231
+replacefs/log.py,sha256=AdzY5-Yxo9oy9LvprdA1tJP6-PFw58zReJnb4rg1P9I,1710
+replacefs/replacefs.py,sha256=CFIBwJz5o2qAfi4xdK8V5LlfMief4muA9i7RcAIewEo,50885
+replacefs-1.2.0.dist-info/LICENSE,sha256=S-8Zv74D-1nNFNRCRj2uOY42XaKcXoFhndDK9hGDj_s,1056
+replacefs-1.2.0.dist-info/METADATA,sha256=2d844XEDHLSPcVW-lgK10PPNc0HitLCWrAPJyJB0VD0,7742
+replacefs-1.2.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+replacefs-1.2.0.dist-info/entry_points.txt,sha256=HqVTXXCeJkzVj4NXgTfy8rgtLVP-qiorUq51zUOjOjw,84
+replacefs-1.2.0.dist-info/top_level.txt,sha256=Jr4Wa68J88AD-CT3_apW-0_yWfXc0g1whNf9A4hFvno,10
+replacefs-1.2.0.dist-info/RECORD,,

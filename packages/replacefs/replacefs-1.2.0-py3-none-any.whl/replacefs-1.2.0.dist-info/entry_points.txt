@@ -1,0 +1,4 @@
+[console_scripts]
+replacefs = replacefs.__main__:main
+rp = replacefs.__main__:main
+
