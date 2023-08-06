@@ -1,0 +1,11 @@
+MANIFEST.in
+README.rst
+pyproject.toml
+setup.py
+wordpiece/__init__.py
+wordpiece.egg-info/PKG-INFO
+wordpiece.egg-info/SOURCES.txt
+wordpiece.egg-info/dependency_links.txt
+wordpiece.egg-info/entry_points.txt
+wordpiece.egg-info/requires.txt
+wordpiece.egg-info/top_level.txt
