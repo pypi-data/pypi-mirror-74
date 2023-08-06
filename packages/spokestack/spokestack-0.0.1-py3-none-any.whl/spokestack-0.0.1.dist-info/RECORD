@@ -1,0 +1,9 @@
+spokestack/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_dummy.py,sha256=jGJuxoVSM-7nToNBtEKelk4FpjOXEF_Qw2TKinBpk8Y,51
+tools/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+spokestack-0.0.1.dist-info/LICENSE.txt,sha256=aypnul-XqpINSfkB2kXzgn75P9JLv0lLSlT3_-bHax4,11343
+spokestack-0.0.1.dist-info/METADATA,sha256=0klNTfoY46hQ462lYSLzgRENopD9rosW35BD6d-usHY,1121
+spokestack-0.0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+spokestack-0.0.1.dist-info/top_level.txt,sha256=9yGOLIXWMWMXRZ-RNwTt_Zr54ARn3cVB1YbHF7z24_c,23
+spokestack-0.0.1.dist-info/RECORD,,
