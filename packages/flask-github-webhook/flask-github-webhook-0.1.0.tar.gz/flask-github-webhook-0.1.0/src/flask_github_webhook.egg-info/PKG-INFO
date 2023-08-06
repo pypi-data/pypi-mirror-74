@@ -1,0 +1,21 @@
+Metadata-Version: 1.1
+Name: flask-github-webhook
+Version: 0.1.0
+Summary: Flask extension for github-webhooks
+Home-page: https://github.com/shawalli/flask-github-webhook
+Author: Shawn Wallis
+Author-email: shawn.p.wallis@gmail.com
+License: Apache 2.0
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Framework :: Flask
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Software Development :: Version Control :: Git
