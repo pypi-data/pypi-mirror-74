@@ -1,0 +1,11 @@
+django_cloud_tasks/__init__.py,sha256=x-4UNebG3BQQgNMk8o4YJtbHjacdf4MAU7W6_ZXxJEw,73
+django_cloud_tasks/apps.py,sha256=hXe_o1ZCTM3bYzMVgsOXFcQR6rvvkXXn-_PzwnbahdY,2075
+django_cloud_tasks/client.py,sha256=tuo-iHaF2S89wyrWDxo9gZNyZpalfRcVXLhPlqN6p7o,3112
+django_cloud_tasks/exceptions.py,sha256=RoLPDpJzUkW_PxzcgT62uuqgNF9hPz7MYJjBAcipcAM,195
+django_cloud_tasks/tasks.py,sha256=QiMsLpyupqomElUH4ule7DHHyBn8c0zxAHjA8p_2cz4,1133
+django_cloud_tasks/urls.py,sha256=ggLX4CHHJlahRbJDl8qPhlzgCNufY-u5sz_BrKune3o,178
+django_cloud_tasks/views.py,sha256=uur-hDL8bvouz2MuYnFwgeUmoHT9IYAyYuVAvhwnjFw,947
+django_google_cloud_tasks-0.0.1a2.dist-info/LICENSE.md,sha256=CUvt2ilcBwKAfRAnoA4RNPTLcdUj3En21LPK9YkFMGg,11358
+django_google_cloud_tasks-0.0.1a2.dist-info/WHEEL,sha256=Q99itqWYDhV793oHzqzi24q7L7Kdiz6cb55YDfTXphE,84
+django_google_cloud_tasks-0.0.1a2.dist-info/METADATA,sha256=cSW-Zhh4DDNr8YoLPkG2ghgTmz2d4WNnT7GD9s3lkI4,351
+django_google_cloud_tasks-0.0.1a2.dist-info/RECORD,,
