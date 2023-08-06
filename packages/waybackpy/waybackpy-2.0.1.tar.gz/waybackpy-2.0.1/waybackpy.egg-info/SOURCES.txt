@@ -1,0 +1,10 @@
+setup.cfg
+setup.py
+waybackpy/__init__.py
+waybackpy/__version__.py
+waybackpy/exceptions.py
+waybackpy/wrapper.py
+waybackpy.egg-info/PKG-INFO
+waybackpy.egg-info/SOURCES.txt
+waybackpy.egg-info/dependency_links.txt
+waybackpy.egg-info/top_level.txt
