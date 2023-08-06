@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+yabs_cowsay.py
+yabs_cowsay.egg-info/PKG-INFO
+yabs_cowsay.egg-info/SOURCES.txt
+yabs_cowsay.egg-info/dependency_links.txt
+yabs_cowsay.egg-info/entry_points.txt
+yabs_cowsay.egg-info/top_level.txt
