@@ -1,0 +1,8 @@
+cloudcomponents/cdk_container_registry/__init__.py,sha256=UBsTTVI8YBREplqTCLsRQV14yALVk4Nt2F0i3cYe9PQ,11918
+cloudcomponents/cdk_container_registry/py.typed,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+cloudcomponents/cdk_container_registry/_jsii/__init__.py,sha256=fd_4yH7pOQELG4MYAcriZUBDxh46HNjc9by93ljn6vI,613
+cloudcomponents/cdk_container_registry/_jsii/cdk-container-registry@1.0.20.jsii.tgz,sha256=dUVADQZ0NxxZDBR1xbSfSf23LgC6YtXNrM0ZHI8JwcY,14042
+cloudcomponents.cdk_container_registry-1.0.20.dist-info/METADATA,sha256=itvZbSwcgAHqLxTI3KD7tuFawLgeYyVk9QHXJGLSn3g,3539
+cloudcomponents.cdk_container_registry-1.0.20.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+cloudcomponents.cdk_container_registry-1.0.20.dist-info/top_level.txt,sha256=B4EWas985OPzDPLZgw2jcOsscXpuQJyowJnB5pl9rpQ,16
+cloudcomponents.cdk_container_registry-1.0.20.dist-info/RECORD,,
