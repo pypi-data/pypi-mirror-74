@@ -1,0 +1,3 @@
+[console_scripts]
+wbia = wbia.__main__:run_wbia
+
