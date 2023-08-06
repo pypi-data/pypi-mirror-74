@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: padb
+Version: 1.0.1
+Summary: pyadb tools
+Home-page: https://hawksjamesf.github.io/pyadb/
+Author: hawksjamesf
+Author-email: hawksjamesf@gmail.com
+License: Apache2
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Description-Content-Type: text/markdown
+Requires-Dist: flask
+
+hi , pyadb
+
+## get start
+
+## package source code
+- pip3 install setuptools  ; pip3 install wheel
+- python3 setup.py sdist bdist_wheel
+## upload package
+- pip3 install twine
+- twine upload dist/*
+## reference:
+[awesome adb](http://adbcommand.com/awesome-adb/cn)
+

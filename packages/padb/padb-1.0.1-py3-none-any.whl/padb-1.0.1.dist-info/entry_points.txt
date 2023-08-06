@@ -1,0 +1,3 @@
+[console_scripts]
+padb = pyadb:create_pyadb
+
