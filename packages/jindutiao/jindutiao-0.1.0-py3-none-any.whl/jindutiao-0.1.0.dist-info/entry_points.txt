@@ -1,0 +1,3 @@
+[console_scripts]
+jindutiao = jindutiao:progress_bar
+
