@@ -1,0 +1,10 @@
+README.md
+setup.py
+spacy_syncha/__init__.py
+spacy_syncha/syncha.py
+spacy_syncha/syncha2ud.sh
+spacy_syncha.egg-info/PKG-INFO
+spacy_syncha.egg-info/SOURCES.txt
+spacy_syncha.egg-info/dependency_links.txt
+spacy_syncha.egg-info/requires.txt
+spacy_syncha.egg-info/top_level.txt
