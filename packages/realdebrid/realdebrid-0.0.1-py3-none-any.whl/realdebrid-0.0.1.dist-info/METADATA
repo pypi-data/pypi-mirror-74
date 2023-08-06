@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: realdebrid
+Version: 0.0.1
+Summary: RealDebrid REST API library
+Home-page: https://github.com/xwhiz/realdebrid
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Operating System :: OS Independent
+Requires-Dist: requests
+
+UNKNOWN
+
+
