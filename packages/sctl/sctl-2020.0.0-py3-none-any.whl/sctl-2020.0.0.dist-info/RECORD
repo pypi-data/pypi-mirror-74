@@ -1,0 +1,9 @@
+spacecontrol/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+spacecontrol/__main__.py,sha256=BBCpRf7O7domrMnHuY_MPNnEJXK7xJQRrNUzE0YJMWk,158
+spacecontrol/__version__.py,sha256=8pcVmdrwsjNXhN5f8mqgmjFQhKmmM4W3Z8iuLFrrZJE,208
+spacecontrol/sctl.py,sha256=3fpBrfZZvH1C5n4Xmn9DVce4WcFC9ojKnImHq32zz5Y,3125
+sctl-2020.0.0.dist-info/METADATA,sha256=0ClIuuVRojKjgHCX-HvNP-RoO8BnvS9gSefu1KLEp5Y,2596
+sctl-2020.0.0.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+sctl-2020.0.0.dist-info/entry_points.txt,sha256=b9_lHM49dmzzxpCQVWzKHgmD5SiH6EXvNRa9N7biAF0,53
+sctl-2020.0.0.dist-info/top_level.txt,sha256=LeVyFbs2ooO3s5JBj_pVk-DEqglIH3q9-iUCm8dVNXw,13
+sctl-2020.0.0.dist-info/RECORD,,
