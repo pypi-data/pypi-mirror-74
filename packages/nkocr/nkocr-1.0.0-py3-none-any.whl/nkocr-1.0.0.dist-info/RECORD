@@ -1,0 +1,9 @@
+auxiliary.py,sha256=shZH493BlRL_I2L6pnox5ZgHfVRbfEuBiy9XKk6Fhws,6063
+nkocr.py,sha256=1rHoMnZhv5Vmllgnv5bqCmim7hVVGW7MLs5IhZuAloY,242
+ocr_product.py,sha256=X77hobFCMeMHVT5skPJ2omGZeAK8104Q9Bm6o64dXpo,1971
+ocr_table.py,sha256=sE64HsZabXYND3e4K94W7IOqnF8Wnz1QQs4o-77KugM,4123
+nkocr-1.0.0.dist-info/LICENSE,sha256=RvzXthE1BV6auB_VjqTncWFKnSC_u-06znJW5tM_Cjs,10294
+nkocr-1.0.0.dist-info/METADATA,sha256=GIcSMulVpIyOygdiqQsBmlK7b8yMjdS8VzQUfvR11VY,2984
+nkocr-1.0.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+nkocr-1.0.0.dist-info/top_level.txt,sha256=C01wjgOPgKyfaOyqJq3_EH3jEZKppCdsqstp88ypLcc,38
+nkocr-1.0.0.dist-info/RECORD,,
