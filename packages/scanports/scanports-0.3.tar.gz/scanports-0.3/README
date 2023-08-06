@@ -1,0 +1,12 @@
+
+Created thanks to Ivan_Medik.
+
+Hello!
+
+For the library to work, you must have the colorama library installed.
+
+
+Documentation
+
+
+There are two methods in the library - scan_a_specific_port and scan_base_ports.
