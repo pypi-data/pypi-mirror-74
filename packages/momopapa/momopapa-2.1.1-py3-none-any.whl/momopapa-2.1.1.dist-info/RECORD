@@ -1,0 +1,15 @@
+momopapa/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+momopapa/db.py,sha256=SySVTEVUUYkPPpA837Yl0K-v-osBEs7IzyCYQUYUs18,12453
+momopapa/util.py,sha256=aiwecDcUBmThEkxJmfEmuQ1_jAHwuWdbjkqDBaPALAI,4013
+momopapa/bot/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+momopapa/bot/slack.py,sha256=PRYEdKG0be_W58rl9OsnBzTYB0KcrYgmyljbtnWZnss,643
+momopapa/pandabase/__init__.py,sha256=lpS0G8i1CZjplufQS7-7mcXWuMai-nkfBSq0NiUKWWA,151
+momopapa/pandabase/companda.py,sha256=oGddhzV3VWKm5tMDSFitXCaHUPIAG-MrzFWHPdAZnqk,6453
+momopapa/pandabase/helpers.py,sha256=X2dDzQL06NemcVe3kv94JVNPczPbKANf45BHjsebJ2o,9866
+momopapa/pandabase/sql.py,sha256=8qR_Qk4Dkbk07yypAfNgop3sEF6fPSyc_8L9_hjAyx8,21136
+momopapa/pandabase/util.py,sha256=xJHyV2iSnDWQfdJSjuUlulf5E0ASORA7MaPsTj8gi1o,2843
+momopapa-2.1.1.dist-info/LICENSE,sha256=EnFVmTpN3OLplglXL3EFybtwxguMaS73MIlYFzxIEtY,3332
+momopapa-2.1.1.dist-info/METADATA,sha256=IezGw37YdCK3zSIaASifJ2p4lzT_aRX6sh_3vNp1YtA,1562
+momopapa-2.1.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+momopapa-2.1.1.dist-info/top_level.txt,sha256=NM1cXnNaisN4Uq5LNWxSlcH0b-psfoKw4MEyQVgrXLg,9
+momopapa-2.1.1.dist-info/RECORD,,
