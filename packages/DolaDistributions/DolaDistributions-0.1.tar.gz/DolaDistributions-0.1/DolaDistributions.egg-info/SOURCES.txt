@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+DolaDistributions/Binomialdistribution.py
+DolaDistributions/Gaussiandistribution.py
+DolaDistributions/Generaldistribution.py
+DolaDistributions/__init__.py
+DolaDistributions.egg-info/PKG-INFO
+DolaDistributions.egg-info/SOURCES.txt
+DolaDistributions.egg-info/dependency_links.txt
+DolaDistributions.egg-info/not-zip-safe
+DolaDistributions.egg-info/top_level.txt
