@@ -1,0 +1,8 @@
+click
+pygtail
+
+[dev]
+setuptools
+wheel
+pytest
+pytest-cov
