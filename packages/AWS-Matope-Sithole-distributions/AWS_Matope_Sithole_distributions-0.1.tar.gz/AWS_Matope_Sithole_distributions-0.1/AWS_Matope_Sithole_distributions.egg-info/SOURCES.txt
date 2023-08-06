@@ -1,0 +1,10 @@
+setup.py
+AWS_Matope_Sithole_distributions/Binomialdistribution.py
+AWS_Matope_Sithole_distributions/Gaussiandistribution.py
+AWS_Matope_Sithole_distributions/Generaldistribution.py
+AWS_Matope_Sithole_distributions/__init__.py
+AWS_Matope_Sithole_distributions.egg-info/PKG-INFO
+AWS_Matope_Sithole_distributions.egg-info/SOURCES.txt
+AWS_Matope_Sithole_distributions.egg-info/dependency_links.txt
+AWS_Matope_Sithole_distributions.egg-info/not-zip-safe
+AWS_Matope_Sithole_distributions.egg-info/top_level.txt
