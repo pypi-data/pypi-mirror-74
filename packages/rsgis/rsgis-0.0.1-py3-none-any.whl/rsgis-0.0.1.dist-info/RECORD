@@ -1,0 +1,10 @@
+rsgis/__init__.py,sha256=GfSACmE66dOisxnMnqicLkLb0JQOJWbPdT799CpoKpA,60
+rsgis/main.py,sha256=JcPjaiyvbe9FtfMnRwoipefjzJGjKlqx60AWrSdP2vk,464
+rsgis/metadata.py,sha256=Cei0FM-NEnxqQuaSyIOK4a42dCVnytkdnkQzUY3ruBs,7978
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/metadata_test.py,sha256=XdiWOBVQaJSQTZEFeHAjX5G8lS6oSxNV43ZE31yMY8I,647
+rsgis-0.0.1.dist-info/LICENSE,sha256=HrhfyXIkWY2tGFK11kg7vPCqhgh5DcxleloqdhrpyMY,11558
+rsgis-0.0.1.dist-info/METADATA,sha256=w03l9oTxO0Iozgvp1xLxHOBBOrvBtdazu5cYeEu3nTU,1580
+rsgis-0.0.1.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+rsgis-0.0.1.dist-info/top_level.txt,sha256=35gFaomVcLPgxtdvyBrkMG1wPrHVoQmk5wSKvdsK1a8,12
+rsgis-0.0.1.dist-info/RECORD,,
