@@ -1,0 +1,12 @@
+README.md
+setup.py
+markkk/__init__.py
+markkk.egg-info/PKG-INFO
+markkk.egg-info/SOURCES.txt
+markkk.egg-info/dependency_links.txt
+markkk.egg-info/top_level.txt
+markkk/pyutils/__init__.py
+markkk/pyutils/check_text_encoding.py
+tests/__init__.py
+tests/test_check_text_encoding.py
+tests/resources/__init__.py
