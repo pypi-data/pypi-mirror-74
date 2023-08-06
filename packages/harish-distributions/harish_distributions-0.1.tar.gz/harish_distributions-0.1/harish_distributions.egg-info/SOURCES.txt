@@ -1,0 +1,10 @@
+setup.py
+harish_distributions/Binomialdistribution.py
+harish_distributions/Gaussiandistribution.py
+harish_distributions/Generaldistribution.py
+harish_distributions/__init__.py
+harish_distributions.egg-info/PKG-INFO
+harish_distributions.egg-info/SOURCES.txt
+harish_distributions.egg-info/dependency_links.txt
+harish_distributions.egg-info/not-zip-safe
+harish_distributions.egg-info/top_level.txt
