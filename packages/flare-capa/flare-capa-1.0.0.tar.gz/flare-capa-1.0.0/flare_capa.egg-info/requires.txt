@@ -1,0 +1,22 @@
+six
+tqdm
+pyyaml
+tabulate
+colorama
+termcolor
+ruamel.yaml
+enum34
+vivisect
+viv-utils
+networkx==2.2
+
+[dev]
+pytest
+pytest-sugar
+pytest-instafail
+pytest-cov
+pycodestyle
+isort
+
+[dev:python_version > "3.0"]
+black
