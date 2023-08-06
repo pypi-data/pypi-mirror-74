@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: base-logger
+Version: 0.0.3
+Summary: UNKNOWN
+Home-page: https://github.com/Claudio-Enoch/base-logger
+Author: Claudio Ortiz
+Author-email: claudio.enoch@gmail.com
+License: MIT
+Platform: any
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+
+UNKNOWN
+
+
