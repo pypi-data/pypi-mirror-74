@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: sqlanalyzer
+Version: 0.4.6
+Summary: A tool to parse and analyze the structure for Postgres sql queries.
+Home-page: https://github.com/mathilda0902/sqlanalyzer
+Author: Vicky Kwan
+Author-email: vickyj.fan2016@gmail.com
+License: MIT
+Description: This is a Python package that parses a given sql query, matches the column and tables within your given metastore, and analyzes the query to generate a list of referenced columns within the metastore.
+        
+        [Upload instructions](https://packaging.python.org/tutorials/packaging-projects/)
+        `python3 -m pip install --user --upgrade setuptools wheel twine`
+        `python3 setup.py sdist bdist_wheel`
+        `twine upload dist/*`
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Development Status :: 3 - Alpha
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
