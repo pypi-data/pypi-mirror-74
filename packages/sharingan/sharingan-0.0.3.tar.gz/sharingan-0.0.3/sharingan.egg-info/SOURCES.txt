@@ -1,0 +1,14 @@
+README.md
+setup.py
+sharingan/__init__.py
+sharingan/__main__.py
+sharingan/common.py
+sharingan/extract.py
+sharingan/log.py
+sharingan/models.py
+sharingan/sharingan.py
+sharingan.egg-info/PKG-INFO
+sharingan.egg-info/SOURCES.txt
+sharingan.egg-info/dependency_links.txt
+sharingan.egg-info/requires.txt
+sharingan.egg-info/top_level.txt
