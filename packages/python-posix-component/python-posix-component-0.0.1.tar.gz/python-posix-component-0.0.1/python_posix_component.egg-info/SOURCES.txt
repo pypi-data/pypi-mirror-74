@@ -1,0 +1,8 @@
+README.md
+setup.py
+ppc/__init__.py
+ppc/exceptions.py
+python_posix_component.egg-info/PKG-INFO
+python_posix_component.egg-info/SOURCES.txt
+python_posix_component.egg-info/dependency_links.txt
+python_posix_component.egg-info/top_level.txt
