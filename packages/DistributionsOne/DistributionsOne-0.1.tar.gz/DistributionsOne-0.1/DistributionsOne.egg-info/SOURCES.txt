@@ -1,0 +1,10 @@
+setup.py
+DistributionsOne/Binomialdistribution.py
+DistributionsOne/Gaussiandistribution.py
+DistributionsOne/Generaldistribution.py
+DistributionsOne/__init__.py
+DistributionsOne.egg-info/PKG-INFO
+DistributionsOne.egg-info/SOURCES.txt
+DistributionsOne.egg-info/dependency_links.txt
+DistributionsOne.egg-info/not-zip-safe
+DistributionsOne.egg-info/top_level.txt
