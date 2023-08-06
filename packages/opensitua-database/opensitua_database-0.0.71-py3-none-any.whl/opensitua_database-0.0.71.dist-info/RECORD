@@ -1,0 +1,12 @@
+opensitua_database/__init__.py,sha256=FYeeWMxqvzAqw-IcX_yx99x4Rvqmnn-IPk51OA4TlH4,1181
+opensitua_database/module.py,sha256=ZDTDiLvXOHjuAZHKHUuCN-7HvLm37oTt-kDLk3VvhFY,1017
+opensitua_database/postgresdb.py,sha256=c5NCr26HY8iQ33H438onaD3k-jhKwCF8_AVR_2NP8gU,7818
+opensitua_database/settingsdb.py,sha256=RvbaVO-6caD74M5zM5C4KQlhCKHwjUZpC_BqwzaTz-4,2922
+opensitua_database/sqlite_utils.py,sha256=cbEc1pphKhQ6B104QG4gPHyA7qkAHi30XwmM8bbid3I,1216
+opensitua_database/sqlitedb.py,sha256=Kmv_oxVy7BfvvG9yCFFqNM3YNynP7MnpRRZsj_WtSbc,11649
+opensitua_database/usersdb.py,sha256=21yOJIhgAuEt31qzyTWKrTSNtuATrcmIYZuBhPqi9-A,7746
+opensitua_database-0.0.71.dist-info/LICENSE,sha256=djyKbJMN4U8g5Xuc34qSLM6hoBP4OLVITS8OfKi7uq4,1091
+opensitua_database-0.0.71.dist-info/METADATA,sha256=XK3FXrnPNBo5DKDjCo2MT_3hrrWtCyJDotk1SbYGb54,477
+opensitua_database-0.0.71.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+opensitua_database-0.0.71.dist-info/top_level.txt,sha256=Wc-lZJCbLiUPmruYG4iwCNnHs3rItRohXZaGXtUQbdk,19
+opensitua_database-0.0.71.dist-info/RECORD,,
