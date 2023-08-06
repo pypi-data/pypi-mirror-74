@@ -1,0 +1,10 @@
+README.rst
+ez_setup.py
+setup.py
+aegis/__init__.py
+aegis/aegis.py
+aegis_latex.egg-info/PKG-INFO
+aegis_latex.egg-info/SOURCES.txt
+aegis_latex.egg-info/dependency_links.txt
+aegis_latex.egg-info/requires.txt
+aegis_latex.egg-info/top_level.txt
