@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: naipyext
+Version: 0.5.0
+Summary: Nasy IPython Extensions.
+Home-page: https://github.com/nasyxx/naipyext
+License: GPL-v3
+Author: Nasy
+Author-email: nasyxx+python@gmail.com
+Requires-Python: >=3.7
+Requires-Dist: better-exceptions
+Requires-Dist: bs4
+Requires-Dist: httpx
+Requires-Dist: ipython
+Requires-Dist: jupyter
+Requires-Dist: jupyter-qtconsole-colorschemes
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: pdir2
+Requires-Dist: pendulum
+Requires-Dist: requests-html
+Requires-Dist: rich
+Requires-Dist: stackprinter
+Requires-Dist: sympy
+Requires-Dist: tqdm
