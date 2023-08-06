@@ -1,0 +1,12 @@
+PyAudioStream/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+PyAudioStream/audiostream.py,sha256=mlmmxtumpczoVCzxLDXjnyXwglr2dp3EHPFxvfh_1bo,25985
+Tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+Tests/test_audioproperties.py,sha256=sYm7GRFuVPMvIxNBFrePjacRngO4-TCE7vnFXT0mPSc,1858
+Tests/test_client.py,sha256=nI_WAUYWrXq0dWmLx5ELrhAl7FhA1aWsw7m7ihQ412A,2249
+Tests/test_message_composing_decomposing.py,sha256=Mv2W86u1L6JRxYgTBSMxooyT1f_tRmEMQIzGkZoEC6s,479
+Tests/test_server.py,sha256=PEdBbKd06TELf5H13JSFUCyW7RDGASXfLjpv8dymogU,2481
+PyAudioStream_TouwaStar-0.0.2.dist-info/LICENSE,sha256=X-a8Te-Q-Pv_x94x50PNPZJIQi5NIYcYD4_P2ppgRhE,1087
+PyAudioStream_TouwaStar-0.0.2.dist-info/METADATA,sha256=1YS6iS-gqZrDn5aWWkeKpaH6p-q4S4HamZiDYgGcnoY,3893
+PyAudioStream_TouwaStar-0.0.2.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+PyAudioStream_TouwaStar-0.0.2.dist-info/top_level.txt,sha256=-U8rpCZTSmuu6Gt38Nc0u0eMj-iZmu7kd-fp-qFpA7s,20
+PyAudioStream_TouwaStar-0.0.2.dist-info/RECORD,,
