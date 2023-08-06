@@ -1,0 +1,8 @@
+aws_cdk/aws_fsx/__init__.py,sha256=dvvtF475lgwJZohW8OnwCO18rkoHAmOweu8yzMluNWY,80824
+aws_cdk/aws_fsx/py.typed,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+aws_cdk/aws_fsx/_jsii/__init__.py,sha256=YQ7ZmCevc5kY_K7GcgqbpxzUPfwbGJ7IqA7-_Wkh-g0,444
+aws_cdk/aws_fsx/_jsii/aws-fsx@1.52.0.jsii.tgz,sha256=rOUm-iMI3x2EcLG247kw_or6GGsycgee0zMWVN8IWOo,67173
+aws_cdk.aws_fsx-1.52.0.dist-info/METADATA,sha256=j7jYiYtY2XKUgLcUdNrzsG-9BQ3SD9PLUGxCIVW7Udw,8401
+aws_cdk.aws_fsx-1.52.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+aws_cdk.aws_fsx-1.52.0.dist-info/top_level.txt,sha256=1TALAKbuUGsMSrfKWEf268lySCmcqSEO6cDYe_XlLHM,8
+aws_cdk.aws_fsx-1.52.0.dist-info/RECORD,,
