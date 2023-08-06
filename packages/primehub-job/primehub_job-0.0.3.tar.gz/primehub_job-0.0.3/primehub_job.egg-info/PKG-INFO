@@ -1,0 +1,16 @@
+Metadata-Version: 1.2
+Name: primehub-job
+Version: 0.0.3
+Summary: Submit PrimeHub jobs easier
+Home-page: UNKNOWN
+License: Apache License 2.0
+Description: This is still in the Pre-Alpha stage.
+        
+        # PrimeHub Job
+        
+        Submit PrimeHub jobs easier
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3
