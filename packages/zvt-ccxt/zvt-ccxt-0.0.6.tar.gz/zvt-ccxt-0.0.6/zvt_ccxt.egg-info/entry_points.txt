@@ -1,0 +1,3 @@
+[zvt]
+ccxt = zvt_ccxt
+
