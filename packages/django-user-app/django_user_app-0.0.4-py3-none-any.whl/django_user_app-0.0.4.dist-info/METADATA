@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: django-user-app
+Version: 0.0.4
+Summary: A user app for Django3
+Home-page: https://github.com/Couapy/django-user-app
+Author: Couapy
+Author-email: contact@marchand.cloud
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# django-user-app
+
+This package contains a user app for Django 3 projects.
+
+
