@@ -1,0 +1,3 @@
+[console_scripts]
+battlemetrics_scrapper = battlemetrics_scrapper:main
+

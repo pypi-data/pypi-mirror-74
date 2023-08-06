@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: battlemetrics-scrapper
+Version: 1.0.2
+Summary: Battlemetrics scrapper
+Home-page: https://github.com/nathmo/battlemetrics_scrapper
+Author: NMorand + ARamushi
+Author-email: natmo@hotmail.ch
+License: UNKNOWN
+Project-URL: Bug Reports, https://github.com/nathmo/battlemetrics_scrapper/issues
+Project-URL: Source, https://github.com/nathmo/battlemetrics_scrapper/sampleproject/
+Description: this package allow you to scrap the advertised server on battlemetrics
+Keywords: scrapper,battlemetrics,steam
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Python: >=3.5, <4
+Description-Content-Type: text/plain; charset=UTF-8
