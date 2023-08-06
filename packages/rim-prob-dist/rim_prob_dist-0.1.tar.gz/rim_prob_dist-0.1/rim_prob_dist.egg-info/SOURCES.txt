@@ -1,0 +1,10 @@
+setup.py
+rim_prob_dist/Binomialdistribution.py
+rim_prob_dist/Gaussiandistribution.py
+rim_prob_dist/Generaldistribution.py
+rim_prob_dist/__init__.py
+rim_prob_dist.egg-info/PKG-INFO
+rim_prob_dist.egg-info/SOURCES.txt
+rim_prob_dist.egg-info/dependency_links.txt
+rim_prob_dist.egg-info/not-zip-safe
+rim_prob_dist.egg-info/top_level.txt
