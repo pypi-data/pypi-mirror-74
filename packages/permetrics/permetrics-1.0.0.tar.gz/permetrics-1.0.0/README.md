@@ -1,0 +1,80 @@
+# Optimization Function in Numpy (OpFuNu)
+[![GitHub release](https://img.shields.io/badge/release-1.0.0-yellow.svg)]()
+[![Wheel](https://img.shields.io/pypi/wheel/gensim.svg)](https://pypi.python.org/pypi/permetrics) 
+[![PyPI version](https://badge.fury.io/py/permetrics.svg)](https://badge.fury.io/py/permetrics)
+[![DOI version](https://zenodo.org/badge/DOI/10.5281/zenodo.3620960.svg)](https://badge.fury.io/py/permetrics)
+[![License](https://img.shields.io/packagist/l/doctrine/orm.svg)]()
+
+## Installation
+
+Install the [current PyPI release](https://pypi.python.org/pypi/permetrics):
+
+```bash
+pip install permetrics
+```
+
+Or install the development version from GitHub:
+
+```bash
+pip install git+https://github.com/thieunguyen5991/permetrics
+```
+
+
+## Example
++ All you need to do is: (Make sure your solution is a numpy 1-D array)
+
+```python 
+
+## CEC-2013 (2 ways to use depend on your purpose)
+
+import numpy as np
+from opfunu.cec.cec2013.unconstraint import Model as M13
+from opfunu.cec.cec2014.unconstraint2 import Model as MD2
+
+problem_size = 10
+solution = np.random.uniform(0, 1, problem_size)
+
+
+obj = MD2(problem_size)             # Object style solve different problems with different functions
+print(obj.F1(solution))
+print(obj.F2(solution))
+
+obj = M13(solution)                 # Object style solve same problem with every functions
+print(obj.F1())
+print(obj.F2())
+
+...
+```
+
+## References
+
+#### Publications
++ If you see my code and data useful and use it, please cites my works here
+```code 
+@software{thieu_nguyen_2020_3711682,
+  author       = {Thieu Nguyen},
+  title        = {A framework of un-constrained Optimization Functions in Numpy (OpFuNu) for global optimization
+ problems},
+  month        = march,
+  year         = 2020,
+  publisher    = {Zenodo},
+  doi          = {10.5281/zenodo.3620960},
+  url          = {https://doi.org/10.5281/zenodo.3620960.}
+}
+
+@article{nguyen2019efficient,
+  title={Efficient Time-Series Forecasting Using Neural Network and Opposition-Based Coral Reefs Optimization},
+  author={Nguyen, Thieu and Nguyen, Tu and Nguyen, Binh Minh and Nguyen, Giang},
+  journal={International Journal of Computational Intelligence Systems},
+  volume={12},
+  number={2},
+  pages={1144--1161},
+  year={2019},
+  publisher={Atlantis Press}
+}
+```
+ 
++ This project related to my another projects which are "meta-heuristics" and "neural-network", check it here
+    + https://github.com/thieunguyen5991/metaheuristics
+    + https://github.com/chasebk
+

@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+examples/RMSE.py
+examples/__init__.py
+permetrics/__init__.py
+permetrics/regression.py
+permetrics.egg-info/PKG-INFO
+permetrics.egg-info/SOURCES.txt
+permetrics.egg-info/dependency_links.txt
+permetrics.egg-info/requires.txt
+permetrics.egg-info/top_level.txt
