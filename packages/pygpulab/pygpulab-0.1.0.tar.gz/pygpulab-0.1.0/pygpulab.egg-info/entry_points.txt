@@ -1,0 +1,6 @@
+[console_scripts]
+pygpulab = pygpulab.__main__:main
+
+[microapp.projects]
+pygpulab = pygpulab
+
