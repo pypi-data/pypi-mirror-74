@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+distributions_raptvin/BaseDistribution.py
+distributions_raptvin/BinomialDistribution.py
+distributions_raptvin/GaussianDistribution.py
+distributions_raptvin/__init__.py
+distributions_raptvin.egg-info/PKG-INFO
+distributions_raptvin.egg-info/SOURCES.txt
+distributions_raptvin.egg-info/dependency_links.txt
+distributions_raptvin.egg-info/not-zip-safe
+distributions_raptvin.egg-info/top_level.txt
