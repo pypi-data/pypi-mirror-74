@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: pypinot
+Version: 0.1.0
+Summary: Python DB-API for Apache Pinot.
+Home-page: https://github.com/blcksrx/pypinot
+Author: Hossein Torabi
+Author-email: blcksrx@gmail.com
+License: Apache
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Dist: requests (==2.24.0)
+Requires-Dist: six (==1.15.0)
+Provides-Extra: dev
+Requires-Dist: black (==19.10b0) ; extra == 'dev'
+Requires-Dist: isort (==5.1.4) ; extra == 'dev'
+Requires-Dist: tox (==3.18.0) ; extra == 'dev'
+
+UNKNOWN
+
+
