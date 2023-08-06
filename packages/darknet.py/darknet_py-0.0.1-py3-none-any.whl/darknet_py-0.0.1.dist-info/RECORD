@@ -1,0 +1,16 @@
+darknet/__init__.py,sha256=8EMWWlgJZPXs9aA0zmubrKF2nI1TZCM5UU8JuPxXpVc,108
+darknet/py/__init__.py,sha256=X7hqRfiX1i7d9ntGbBnbbgrAV9yf-3x5dfmVOY1vGjo,313
+darknet/py/__main__.py,sha256=S7995JAUV3PeURKq0SLjNZsXF2NDaMwmR3uDRmXjxC4,27
+darknet/py/_version.py,sha256=IYVuaRW3OD09k1LqGVPqaPFVUii2bJVRMPZNX4VEgcA,116
+darknet/py/classifier.py,sha256=IuAWRwTZ4wn72Zo9des8NBvppfpca67betYBSsatqRw,1405
+darknet/py/cli.py,sha256=iaPFMzKsB_HyoiJ04WCP1-WQpmA9CQbQk6xT7KOn2_8,423
+darknet/py/detector.py,sha256=Bmc0HGvUy2WUCyLU-lHbUvkgR-dk3Z17awJVepDpb2k,962
+darknet/py/network.pyx,sha256=7qzHLIj-CfeYJIm0SFiRStirKJc9IiA2s32ZdEzCLxk,4022
+darknet/py/util.py,sha256=2loh658NbqOemyvbKCshMQZH7g3lgjElI8QCCBqvb2Q,1115
+libdarknet/__init__.pxd,sha256=woaTHmlCV-u8kP-PHYkDsNiNSiYEyrgkT8O1SNqCXyU,2008
+darknet_py-0.0.1.dist-info/LICENSE,sha256=VL64-Ks2oXjuCqmLck37cTpZFNUHgptujdjhT-dP0Ws,1073
+darknet_py-0.0.1.dist-info/METADATA,sha256=vZhs7CP-A45pWplOQRh1lCFgHzwH7z6Rft_7SFQcu2s,2795
+darknet_py-0.0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+darknet_py-0.0.1.dist-info/entry_points.txt,sha256=33TfVXSQMxS3rIidkjs20bIhh8Elp9XYyt7qwqJ5PF8,38
+darknet_py-0.0.1.dist-info/top_level.txt,sha256=0C-xiz1cP9evzogEmERnm4rGP2noaWGADgrunNWIoiQ,19
+darknet_py-0.0.1.dist-info/RECORD,,
