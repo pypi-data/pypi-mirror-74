@@ -1,0 +1,15 @@
+ocrd_browser/__init__.py,sha256=r_cKr7sbAG8wXvZQ-5WkC2eXGKMDWp6Xe_hNXu43MT0,21
+ocrd_browser/application.py,sha256=TeSN2veP2uJKq6nYjzmATLseN7iQahGMzsC1mIUXe4c,1837
+ocrd_browser/main.py,sha256=xz2r2txX2VX-Bffo3ZLOuRgJXLjn1XgI5cnDl8AqCFs,894
+ocrd_browser/ui.gresource,sha256=dmm84EbzfJTZDcl9cMQLlA8qfMC9wZK_3h9cN6oegFM,22563
+ocrd_browser/views.py,sha256=lzwsKumyg1fsBGjmx6P-YvF7Vzq1e4jA24zwoFXA1vE,4665
+ocrd_browser/window.py,sha256=0i3nquSHYvsSOex5FLReOrU9Qz66Zx8yHR9nB5-j5Eg,9167
+ocrd_browser/image_util/__init__.py,sha256=SP5zSLNfDVva8VX4fyDbLQAzxJpvow2I4F5osy6u7m4,2304
+ocrd_browser/model/__init__.py,sha256=WXYgQmphdxGm0GQ9U3Hvx5C19HxwjeX6kk55cu3eHl8,5230
+ocrd_browser/scandriver/__init__.py,sha256=UILKOlewxzKhdUU-r_VU7ZIvkQ2oT0AlkUzXJNwpim8,4557
+browse_ocrd-0.1.2.dist-info/LICENSE,sha256=e6t4L5enMlVEg2mEI9hFOL9atgJ7zG8p8ZGuKXmnBgM,1061
+browse_ocrd-0.1.2.dist-info/METADATA,sha256=PrS82R7Nr9X4OPu3Lbaaro0lH1USqg26AD9j4pva3y0,1130
+browse_ocrd-0.1.2.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+browse_ocrd-0.1.2.dist-info/entry_points.txt,sha256=7_IjEaIuoOeHBSCmeKgRVe0V5DoXC1Zs1y-A0IJEsIU,56
+browse_ocrd-0.1.2.dist-info/top_level.txt,sha256=3k-x67AoRablKdfLfrWIBFb9x6f7nZZaL5dnrbYXHMA,13
+browse_ocrd-0.1.2.dist-info/RECORD,,
