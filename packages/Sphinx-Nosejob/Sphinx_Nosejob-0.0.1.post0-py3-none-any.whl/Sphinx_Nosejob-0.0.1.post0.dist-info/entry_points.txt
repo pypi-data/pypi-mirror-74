@@ -1,0 +1,3 @@
+[console_scripts]
+nosejob = sphinxcontrib.nosejob.__main__:main
+
