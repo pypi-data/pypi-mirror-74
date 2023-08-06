@@ -1,0 +1,9 @@
+README.md
+setup.py
+deeptranslit/__init__.py
+deeptranslit/deeptranslit.py
+deeptranslit.egg-info/PKG-INFO
+deeptranslit.egg-info/SOURCES.txt
+deeptranslit.egg-info/dependency_links.txt
+deeptranslit.egg-info/requires.txt
+deeptranslit.egg-info/top_level.txt
