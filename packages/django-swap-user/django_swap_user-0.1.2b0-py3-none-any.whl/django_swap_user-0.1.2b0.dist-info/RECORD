@@ -1,0 +1,16 @@
+swap_user/__init__.py,sha256=30cwNiLZjWEqRgAE2PdgpbEZEUVUIwuSNjZAIYnt8k4,987
+swap_user/apps.py,sha256=xNnOyCtu45d42B7oGYz7NKt8ULynxwzJXRfzT4PF_No,135
+swap_user/forms/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+swap_user/forms/email.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+swap_user/forms/phone.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+swap_user/managers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+swap_user/managers/email.py,sha256=Zxjgnu17tbn3Nq1xgO2XcOTBskWGrMkpIdFq7sI3ROA,1000
+swap_user/managers/phone.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+swap_user/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+swap_user/models/__init__.py,sha256=4cl84LehdKGrbMRUjUihy4cegeawICTsB-kEEmYdZEk,29
+swap_user/models/email.py,sha256=6ZcnCsd9XBMKU_oZbKFjgUdDE_ZRRdEwUBmJNu4OSOw,1766
+swap_user/models/phone.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_swap_user-0.1.2b0.dist-info/LICENSE,sha256=b4RO2xVKRMyKodzgdO3bFltjJyeboPQiHUexMQinkN4,1074
+django_swap_user-0.1.2b0.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+django_swap_user-0.1.2b0.dist-info/METADATA,sha256=N2F-mghvHIox02Xiz_EanJ4qddkMlYNGS5eUaO5qo7g,863
+django_swap_user-0.1.2b0.dist-info/RECORD,,
