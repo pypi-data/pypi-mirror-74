@@ -1,0 +1,17 @@
+pdom/__init__.py,sha256=ZyWuXdyhcvNDLvbqfdXbF2sHpVVkblZDdYanbuOvvPE,173
+pdom/cli.py,sha256=e3aIfIxOIgnt_-T12iOxhn1z_L7txybgtHvk9DY2jCI,12211
+pdom/core.py,sha256=_XTAgjvwK2CQu8x6neNFixa854yUz2qsZ_SKGEQ3qgQ,24510
+pdom/export.py,sha256=My3VHxB4ZjqIGn3TQwhrizo2C_JT7MaQyD40cdU6_DE,23946
+pdom/module_info.py,sha256=IUXhpXis2XuDoIUBPtJvubd-lZHgcw0m-KMy25i7pIg,209
+pdom/molecule.py,sha256=5UmvZpp4G39WUeNHlwD1cexvbuFAFWDrmrQZYuIxgMc,15670
+pdom/data/__init__.py,sha256=pqhropPSpgEkhaJvWVDA2xSjHtjiY6T3JVm7iv3CIYk,29949
+pdom/data/default_config.json,sha256=gqXcz29Fb5AQVsVJ9smfzlKyKwBrP2m8QiGv9TstqNI,5771
+pdom/data/standard_atomic_weight.json,sha256=11jyxROjema2NdX3zm72eqmAt0NCIom9K4Lbftf6Xo8,2394
+pdom/data/van_der_waals_radii.json,sha256=tAUCdSEIO96sXWzIuEu4sNt3yD0YOckiJtMr2NCbfg8,2014
+pdom-1.0.0.dist-info/LICENSE.txt,sha256=1NLyiz8UBgKuqzF4F1FboScV2lfVaBhvDzUZOrfnKzA,1068
+pdom-1.0.0.dist-info/METADATA,sha256=zYxPpbvRMwEa99iuS1dwgDcb6xcDz8oa1XF0Hwho5D4,3552
+pdom-1.0.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+pdom-1.0.0.dist-info/entry_points.txt,sha256=8AF8Kg66NLme3SHKQVnylShlDR0NTQrAAktzWZsrsX0,86
+pdom-1.0.0.dist-info/top_level.txt,sha256=f8L0mi4oIEIJdwUOclRBeebL_A4tUOSMK1Yr9AWarNs,5
+pdom-1.0.0.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+pdom-1.0.0.dist-info/RECORD,,
