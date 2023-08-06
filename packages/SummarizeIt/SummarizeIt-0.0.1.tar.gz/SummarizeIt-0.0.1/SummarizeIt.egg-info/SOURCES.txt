@@ -1,0 +1,8 @@
+setup.py
+SummarizeIt/__init__.py
+SummarizeIt/bot.py
+SummarizeIt.egg-info/PKG-INFO
+SummarizeIt.egg-info/SOURCES.txt
+SummarizeIt.egg-info/dependency_links.txt
+SummarizeIt.egg-info/requires.txt
+SummarizeIt.egg-info/top_level.txt
