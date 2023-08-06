@@ -1,0 +1,11 @@
+addict
+appdirs
+lxml
+pillow
+pyqt5
+pyqtgraph
+python-dateutil
+pyyaml
+scipy
+simpleitk
+toml
