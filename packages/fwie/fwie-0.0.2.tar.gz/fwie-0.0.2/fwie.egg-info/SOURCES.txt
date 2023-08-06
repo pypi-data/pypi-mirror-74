@@ -1,0 +1,16 @@
+CONTRIBUTING.md
+LICENSE
+MANIFEST.in
+README.md
+settings.ini
+setup.py
+fwie/__init__.py
+fwie/_nbdev.py
+fwie/core.py
+fwie/fwie.py
+fwie.egg-info/PKG-INFO
+fwie.egg-info/SOURCES.txt
+fwie.egg-info/dependency_links.txt
+fwie.egg-info/entry_points.txt
+fwie.egg-info/not-zip-safe
+fwie.egg-info/top_level.txt
