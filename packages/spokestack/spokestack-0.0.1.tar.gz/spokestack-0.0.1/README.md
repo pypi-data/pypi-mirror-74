@@ -1,0 +1,14 @@
+# spokestack-python
+
+## Status
+
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+[![CircleCI](https://circleci.com/gh/pylon/streamp3.svg?style=shield)](https://circleci.com/gh/spokestack/spokestack-python)
+[![Coverage Status](https://coveralls.io/repos/github/spokestack/spokestack-python/badge.svg?branch=master)](https://coveralls.io/github/spokestack/spokestack-python?branch=master)
+
+## Instructions
+
+### TFLite Interpreter
+
+Install TFLite Interpreter for your platform
+[TFLite Interpreter Only](https://www.tensorflow.org/lite/guide/python#install_just_the_tensorflow_lite_interpreter)
