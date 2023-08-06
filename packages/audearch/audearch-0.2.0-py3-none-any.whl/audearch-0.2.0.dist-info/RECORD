@@ -1,0 +1,16 @@
+audearch/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+audearch/analyzer-librosa.py,sha256=8tNqIeqD07DBhLW9oHy5yiW6x21AZDbOlkiFmyuRe2w,439
+audearch/analyzer.py,sha256=vO5RhniL5CwZJ_HS2-41gx8xu46e0ChhOOh12cegsdA,2165
+audearch/database.py,sha256=BIt26kpUnAOnfW80hWt3KA-umnYBDrU4k54O3a6tCMw,1580
+audearch/register.py,sha256=4TX1Ik-M19zuNZGAkJ0ccg79PNzEKvNxSV39sAMC9-w,216
+audearch/search.py,sha256=habs5Y7Gidvhc6RN6l5XrxM24vaJxR0PFaoUXmE8HfI,348
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/conftest.py,sha256=vG1NdHrbmugJd6QFXeGsK_drbpqRp_EKYHHfGu-ZGXM,188
+tests/test_analyzer.py,sha256=VVlpk9kmbdFqDAgr084Sm2OFe_aym2BXOmIcHlnjmX4,1969
+tests/test_database.py,sha256=fDMwVG_KkT1qB7gahjYNxJW9JbtwbGzjoP21J9l9dJk,618
+tests/test_register.py,sha256=cChb5eOhoeBuTARH7H5tXmJxMft3HF_hIYPKsT4bOV4,456
+audearch-0.2.0.dist-info/LICENCE,sha256=DOoxUbeKVkdyIDHbssnLe7huICGD49vKXz6ff6OiG8A,1062
+audearch-0.2.0.dist-info/METADATA,sha256=iO6Df989IPd8uU0tpBK1YbtMGNk71gfiZ-p69AKd46k,1626
+audearch-0.2.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+audearch-0.2.0.dist-info/top_level.txt,sha256=aOqJ9GjrbKvE9O86JagCNwu7yP84Xy-J7votJm17a18,15
+audearch-0.2.0.dist-info/RECORD,,
