@@ -1,0 +1,10 @@
+setup.py
+GaussAndNomial_distribution/Binomialdistribution.py
+GaussAndNomial_distribution/Gaussiandistribution.py
+GaussAndNomial_distribution/Generaldistribution.py
+GaussAndNomial_distribution/__init__.py
+GaussAndNomial_distribution.egg-info/PKG-INFO
+GaussAndNomial_distribution.egg-info/SOURCES.txt
+GaussAndNomial_distribution.egg-info/dependency_links.txt
+GaussAndNomial_distribution.egg-info/not-zip-safe
+GaussAndNomial_distribution.egg-info/top_level.txt
