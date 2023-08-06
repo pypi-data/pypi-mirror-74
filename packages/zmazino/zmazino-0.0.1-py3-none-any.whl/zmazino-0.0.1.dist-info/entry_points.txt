@@ -1,0 +1,3 @@
+[console_scripts]
+zconfig = zmazino.config:gen_mysql_config
+
