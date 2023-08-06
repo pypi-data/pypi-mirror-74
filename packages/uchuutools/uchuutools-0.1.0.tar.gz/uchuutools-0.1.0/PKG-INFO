@@ -1,0 +1,33 @@
+Metadata-Version: 1.2
+Name: uchuutools
+Version: 0.1.0
+Summary: A collection of utility functions created for the Uchuu Project
+Home-page: https://uchuutools.readthedocs.io
+Author: Manodeep Sinha
+Author-email: manodeep@gmail.com
+License: MIT
+Description: uchuutools
+        ===========
+        A python package for converting the raw simulation data products into more user-friendly datasets. Developed by Manodeep Sinha (@manodeep) as part of the Uchuu project
+        
+Keywords: uchuu mergertrees darkmatter simulation
+Platform: Windows
+Platform: Mac OS-X
+Platform: Linux
+Platform: Unix
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: Unix
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Utilities
+Requires-Python: >=3.6, <4
