@@ -1,0 +1,3 @@
+[console_scripts]
+microcrawler = microcrawler.__main__:main
+
