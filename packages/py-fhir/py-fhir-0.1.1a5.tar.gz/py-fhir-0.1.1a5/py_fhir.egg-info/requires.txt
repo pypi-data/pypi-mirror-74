@@ -1,0 +1,10 @@
+python-dateutil
+formencode
+jsondiff
+packaging
+pyyaml
+termcolor
+xmldiff
+
+[dev]
+twine
