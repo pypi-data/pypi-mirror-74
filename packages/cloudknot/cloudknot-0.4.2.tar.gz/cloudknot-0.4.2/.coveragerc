@@ -1,0 +1,13 @@
+[run]
+branch = True
+source = cloudknot/*
+include = cloudknot/*
+omit = */setup.py
+    cloudknot/due.py
+    cloudknot/config.py
+    cloudknot/version.py
+    cloudknot/_meta.py
+    cloudknot/data/*/*/*.py
+    cloudknot/tests/*.py
+[report]
+include = cloudknot/*
