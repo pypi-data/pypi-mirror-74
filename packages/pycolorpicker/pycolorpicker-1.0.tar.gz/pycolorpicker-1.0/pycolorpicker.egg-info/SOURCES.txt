@@ -1,0 +1,9 @@
+README.md
+setup.py
+pycolorpicker/__init__.py
+pycolorpicker.egg-info/PKG-INFO
+pycolorpicker.egg-info/SOURCES.txt
+pycolorpicker.egg-info/dependency_links.txt
+pycolorpicker.egg-info/entry_points.txt
+pycolorpicker.egg-info/requires.txt
+pycolorpicker.egg-info/top_level.txt

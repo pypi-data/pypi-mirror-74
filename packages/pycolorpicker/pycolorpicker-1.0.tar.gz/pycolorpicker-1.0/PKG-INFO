@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: pycolorpicker
+Version: 1.0
+Summary: Python Color Picker
+Home-page: https://github.com/lolei/pycolorpicker
+Author: Lorenz Leitner
+Author-email: lrnz.ltnr@gmail.com
+License: UNKNOWN
+Description: # pycolorpicker
+        
+        The simplest color picker for the command line written in Python.
+        
+        ## Installation
+        ```
+        pip install pycolorpicker
+        ```
+        
+        ## Usage
+        ```
+        $ pycolorpicker
+        Click to copy the current color to the clipboard.
+        Press Ctrl-C to quit.
+        X: 1707 Y:  633 RGB: (250, 251, 237)
+        Color:
+        rgb (250, 251, 237)
+        hex #fafbed
+        Copied to clipboard.
+        ```
+        
+        * Start it once, move your cursor over the desired color, click to copy it to the clipboard.
+        * Selection can be done multiple times.
+        * Features live preview of the current color on which the cursor is.
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
