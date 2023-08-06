@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: BnSentiment
+Version: 0.4
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: Kowsher Ahmed, Avishek Das
+Author-email: ahmedshuvo969@gmail.com, avishek.das.ayan@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+Bengali Sentiment Classifier(BnSentiment)
+===========================================
+
+This page gives a basic introduction to the package.
+
+## Installation:
+
+```
+pip install BnSentiment
+```
+
+In Python a BnSentiment is typically written as:
+
+## Usage:
+```python
+import BnSentiment as bs
+s = "যতবারই এখানে আসি খুব ভালো লাগে"
+s = bs.predict(s)
+print(s)
+s = "শারীরিক অসুস্থতার কারনে যাওয়া হয়নি"
+s = bs.predict(s)
+print(s)
+```
+Output:
+```
+Positive
+Negative
+```
+
+
