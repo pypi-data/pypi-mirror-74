@@ -1,0 +1,10 @@
+autoplotter/__init__.py,sha256=Xy5HzfL3rjn-exJ3yXz3WaQ87HRHmLSme6UcIm1mIRU,47
+autoplotter/app.py,sha256=YBThxVCXSqRkCyoLiHTP0Pj0UD0AZqqYvMJBzNdY3Uo,8005
+autoplotter/data_exploration.py,sha256=4hxKBW08YqZGFR3ngb7iJLi8Ek90Zh7Iik6MW1iHPNs,6723
+autoplotter/homepage.py,sha256=fKu8Cs2jtjnsWiyYKyCQ2mpijLQKJexz7zxkxLdkMsg,955
+autoplotter/navbar.py,sha256=1XHPJmQvJelR0bAyz_mEqZzQYscxzAizf281OSCTaZc,690
+autoplotter/plots.py,sha256=UjG-RlPFEjmwwiRcxaICeA3vF4RN0cBhb8AeIeMJWLg,13779
+autoplotter-0.0.1.dist-info/METADATA,sha256=uYoM9UUy9LF3rNdtV6a8cArXjpRbs3NFB-CDrn6Oco0,2121
+autoplotter-0.0.1.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+autoplotter-0.0.1.dist-info/top_level.txt,sha256=t7qVQFkD-so5BfEV1DM9RPxKHj3x50uD6TA1-dMo0Ao,12
+autoplotter-0.0.1.dist-info/RECORD,,
