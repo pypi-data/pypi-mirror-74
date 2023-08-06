@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: networktools
+Version: 1.2.2
+Summary: NetworkTools are some special functions to help with software developing
+Home-page: http://www.gitlab.com/dpineda/networktools
+Author: David Pineda Osorio
+Author-email: dpineda@csn.uchile.cl
+License: GPL3
+Description: Networktools Module
+        =======================
+        
+        This module has a lot of different little functions to operate in the differents needed cases
+        
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
