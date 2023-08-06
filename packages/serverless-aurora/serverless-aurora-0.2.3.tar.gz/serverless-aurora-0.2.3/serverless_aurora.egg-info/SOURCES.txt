@@ -1,0 +1,12 @@
+README.rst
+setup.cfg
+setup.py
+serverless_aurora/__init__.py
+serverless_aurora/exceptions.py
+serverless_aurora/mysql_error_codes.py
+serverless_aurora.egg-info/PKG-INFO
+serverless_aurora.egg-info/SOURCES.txt
+serverless_aurora.egg-info/dependency_links.txt
+serverless_aurora.egg-info/requires.txt
+serverless_aurora.egg-info/top_level.txt
+test/test.py
