@@ -1,0 +1,13 @@
+tsktsk/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tsktsk/__main__.py,sha256=Ir8LnGj9uiFOm7b7zEyAMJRdC9UTZRoL9-1JcU4hxuc,235
+tsktsk/commands.py,sha256=A_WvdU15v-myOgYdlR-1afvGe-_pLps0DfhIPcHjoVE,3517
+tsktsk/task.py,sha256=vNjh6Assouzd_Xbxd-Vpw802D-BKs_uPxhQNoV0cZ6Q,1779
+tsktsk/repository/__init__.py,sha256=kfDLaWgoYMsj5rOTiQ-9u4Db636f0T1GVKTRctbKgls,455
+tsktsk/repository/file.py,sha256=cX-YYINR8K6KLl03j0_TCtWDghc70HMHtIlQuglN9n8,1100
+tsktsk/repository/github.py,sha256=YxRyEPV_1EQBYu0VjpA9SqPGQ0F1FkBzrS6zC9lweFI,3045
+tsktsk-0.2.0.dist-info/LICENSE.md,sha256=RSNMl6xPa9SlCmXwo4Y34BFa6QYbWXQ6SIleNgvnRB4,1070
+tsktsk-0.2.0.dist-info/METADATA,sha256=e1wkH1uj1VLn4iW1mkyxAqgzSnAXS3kXcqC0J_rrpaM,584
+tsktsk-0.2.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+tsktsk-0.2.0.dist-info/entry_points.txt,sha256=9G6p9VcgEu8-9aWEqhQGmhLKyVRCzzCU9HLXDzSLpc0,81
+tsktsk-0.2.0.dist-info/top_level.txt,sha256=Rd8B9xda8VHVDcanfOou358pjcDth6yGwMf_FNdRhpQ,7
+tsktsk-0.2.0.dist-info/RECORD,,
