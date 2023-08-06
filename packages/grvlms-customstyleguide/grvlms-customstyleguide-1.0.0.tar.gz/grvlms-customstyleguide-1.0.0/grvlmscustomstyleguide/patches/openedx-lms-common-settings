@@ -1,0 +1,2 @@
+MKTG_URL_LINK_MAP['STYLEGUIDE'] = 'styleguide'
+MKTG_URLS['STYLEGUIDE'] = '/styleguide'

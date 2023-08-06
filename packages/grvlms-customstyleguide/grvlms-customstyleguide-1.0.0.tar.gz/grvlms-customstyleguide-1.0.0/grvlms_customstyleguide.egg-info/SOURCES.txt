@@ -1,0 +1,17 @@
+MANIFEST.in
+README.rst
+setup.py
+grvlms_customstyleguide.egg-info/PKG-INFO
+grvlms_customstyleguide.egg-info/SOURCES.txt
+grvlms_customstyleguide.egg-info/dependency_links.txt
+grvlms_customstyleguide.egg-info/entry_points.txt
+grvlms_customstyleguide.egg-info/requires.txt
+grvlms_customstyleguide.egg-info/top_level.txt
+grvlmscustomstyleguide/__about__.py
+grvlmscustomstyleguide/__init__.py
+grvlmscustomstyleguide/plugin.py
+grvlmscustomstyleguide/patches/.gitignore
+grvlmscustomstyleguide/patches/openedx-lms-common-settings
+grvlmscustomstyleguide/templates/customstyleguide/apps/.gitignore
+grvlmscustomstyleguide/templates/customstyleguide/build/.gitignore
+grvlmscustomstyleguide/templates/customstyleguide/hooks/.gitignore
