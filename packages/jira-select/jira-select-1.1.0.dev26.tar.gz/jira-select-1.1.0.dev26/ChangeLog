@@ -1,0 +1,52 @@
+CHANGES
+=======
+
+* Import literal from typing\_extensions instead of typing
+* Updating test runner script
+* Updating gitignore
+* Adding tests
+* Removing an unused import
+* Adding support for github acitons
+* Use getpass for 'store-password' instead of the interactive dialog
+* Adding a command that will display information about available functions
+* Updating store-password to use prompt-toolkit
+* Removing one-offed functions that can be handled with standard python syntax
+* Adding 'field\_by\_name' function allowing you to not memorize Jira field ids
+* Allow grouping on expressions, too
+* Break progressbar out into multiple phases; add support for ordering
+* Add lots of functions to the default set
+* Adding documentation covering grouping/aggregation
+* Moving progressbar logic into the query class itself; it's really the only place we actually know how about all of the issues because we might not emit records if those records are grouped or filtered via having
+* Adding support for 'group\_by' statements & (theoretically) aggregation functions
+* Bumping version number
+* Adding a comment to explain why there's a progressbar wrapping nothing
+* Show a progressbar when counting rows, too
+* Adding note to readme about the future w/r/t aggregation functions
+* Updating help text slightly
+* Changing name of 'find-field' to 'schema' and adding support for arbitrary 'having' expressions
+* Adding support for limits; adding documentation covering limit and expand
+* Return all fields from original search query using "\*all" "field" expansion; the jira-python docs suggest that this is the default, but the default is in fact "\*navigable"
+* Adding more commentary to the readme
+
+1.0.0b1
+-------
+
+* Adding 'coalesce' function.  Updating readme
+* Adding support for 'having' clause
+* Adding support for functions
+* Adding a command that makes it easier to find fields and see their types
+* Swapping pyinquirer for prompt-toolkit in 'configuration' command
+* Adding interactive mode
+* Adding pre-commit support
+* Use simpleeval for parsing select definitions
+* Better help text; allow formatters to define their file extension
+* Adding support for pluggable formatters; show progressbar while running query
+* Removing version constant because I can't figure out how to keep that in sync with pbr
+* Use pbr for versioning
+* Manage version number with bumpversion
+* Switching to pbr for setup configuration
+* Adding bumpversion configuration
+* Renaming project from jira-csv to jira-select
+* Titling each of the new feature ideas
+* Adding a 'Future Goals' section to the readme
+* And so it begins..
