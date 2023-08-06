@@ -1,0 +1,5 @@
+click>=7
+names==0.3.0
+pytest
+pytest-cov
+codecov
