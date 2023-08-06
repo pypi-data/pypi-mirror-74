@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: pyrustic
+Version: 0.0.1
+Summary: Short description
+Home-page: https://github.com/pyrustic/pyrustic
+Author: Alex Rustic
+Author-email: pyrustic@protonmail.com
+License: UNKNOWN
+Description: # Example Package
+        
+        Hello World !
+        
+        
+        --> [Here](https://pyrustic.github.io)
+        
+        
+        (package made just to avoid cybersquatting. will put the good package later !)
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3
+Description-Content-Type: text/markdown

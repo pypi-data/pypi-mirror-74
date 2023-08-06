@@ -1,0 +1,8 @@
+README.md
+setup.py
+pyrustic/__init__.py
+pyrustic/main.py
+pyrustic.egg-info/PKG-INFO
+pyrustic.egg-info/SOURCES.txt
+pyrustic.egg-info/dependency_links.txt
+pyrustic.egg-info/top_level.txt
