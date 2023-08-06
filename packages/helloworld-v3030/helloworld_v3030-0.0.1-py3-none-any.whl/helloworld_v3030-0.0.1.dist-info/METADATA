@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: helloworld-v3030
+Version: 0.0.1
+Summary: Say Hello!
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+
+# Hello World
+
+Example project.
+
+## Installation 
+Run the following to install:
+
+```python
+pip install helloworld
+```
+
+## Usage
+
+```python
+from helloworld import say_hello
+
+# Generate "hello, World!"
+say_hello()
+```
+
+# Developing Hello World
+
+To install helloworld, along with the tools you need to develop and run tests,
+run the following in your virtualenv:
+
+```bash
+$ pip install -e .[dev]
+```
+
+
