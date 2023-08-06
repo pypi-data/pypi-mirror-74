@@ -1,0 +1,7 @@
+grpcio==1.28.1
+google==2.0.3
+protobuf==3.11.3
+base58==1.0.3
+grpc~=0.3.post19
+secp256k1~=0.13.2
+pysha3==1.0.2

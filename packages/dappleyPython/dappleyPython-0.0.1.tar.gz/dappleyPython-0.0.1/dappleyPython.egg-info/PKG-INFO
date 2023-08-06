@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: dappleyPython
+Version: 0.0.1
+Summary: dappley sdk is implemented by python
+Home-page: https://github.com/dappley/dappley-sdk-python
+Author: enjoyass
+Author-email: enjoyass@outlook.com
+License: LGPL v3 Licence
+Description: dappley sdk is implemented by python ,you can send transaction to dappley blockchain by this sdk
+Keywords: pip,sdk,dappley,dappworks,dappleyPython
+Platform: any
