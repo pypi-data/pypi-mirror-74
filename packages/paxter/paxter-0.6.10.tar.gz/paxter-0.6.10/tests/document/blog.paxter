@@ -1,0 +1,60 @@
+@python##"
+    def foo():
+        pass
+"##
+
+@h1{My Blog!}
+
+Hello, World!
+
+@h2{Source Code}
+
+Please visit @link["https://github.com"]{GitHub} to see
+the @bold{source} @bold{code} for this project.
+
+@numbered_list[
+    {This is the first item.},
+    {This is the second item.},
+    {This is the third item.},
+    {
+        This is the @italic{last} item, first paragraph.
+
+        This is another paragraph within an item.
+
+        @blockquote{No way!}
+    },
+]
+
+@blockquote{
+    @bulleted_list[
+        ##{Left {word}}##,
+        ##{Right {word}}##,
+        "Another word",
+    ]
+
+    Cool!
+}
+
+@blockquote{
+    This is one paragraph.
+}
+
+@blockquote{
+    This is @italic{the} first paragraph.
+
+    This is @italic{the} second paragraph.
+}
+
+@hrule
+
+@h2{Do you know?}
+
+Do you know that 2 > 1?
+
+@paragraph{@code{This paragraph is entirely in monospaced.}}
+
+See the lovely @uline{image} below.
+
+@image["images/hello.png", alt="hello image"]
+
+@foo[]
