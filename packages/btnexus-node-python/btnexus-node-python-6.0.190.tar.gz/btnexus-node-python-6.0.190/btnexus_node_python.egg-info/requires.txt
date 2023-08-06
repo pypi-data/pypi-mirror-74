@@ -1,0 +1,10 @@
+pyyaml
+six>=1.9.0
+certifi
+backports.ssl_match_hostname
+requests
+python-engineio
+python-socketio
+Twisted
+pyOpenSSL
+service_identity
