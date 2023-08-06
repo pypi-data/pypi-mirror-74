@@ -1,0 +1,5 @@
+setup.py
+Serpens.egg-info/PKG-INFO
+Serpens.egg-info/SOURCES.txt
+Serpens.egg-info/dependency_links.txt
+Serpens.egg-info/top_level.txt
