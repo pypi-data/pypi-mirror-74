@@ -1,0 +1,3 @@
+[console_scripts]
+hit=zabuza.coba:run
+
