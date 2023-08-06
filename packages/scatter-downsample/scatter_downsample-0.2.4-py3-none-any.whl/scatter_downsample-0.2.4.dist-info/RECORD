@@ -1,0 +1,10 @@
+scatter_downsample/__init__.py,sha256=NpnlgGPV0St_A-8B-1XBY-UbAOJtU2qlkH-AzdZy9q4,129
+scatter_downsample/__main__.py,sha256=hmA3L6DeaegTwRPC9YDYMOyGlN2L_tZFbrScSCv-lCM,1841
+scatter_downsample/function.py,sha256=bZKLaf9QNHgML20NWIQXWTS5ilbyCzQXLf986n018HU,13163
+scatter_downsample/helpers.py,sha256=k7mroNHk42kQzuXyAGSSbN0H4GHOxN-dUTiBn4kW54U,5242
+scatter_downsample-0.2.4.dist-info/LICENSE,sha256=F3u7j8HWhFXLCiSvrMXvlxXdGG68xkfgsLO24dcoYIE,11551
+scatter_downsample-0.2.4.dist-info/METADATA,sha256=uIO4bIYUfJWVY4VNTb_PyYFZo-qixPqUMULSNPLUi9c,2103
+scatter_downsample-0.2.4.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+scatter_downsample-0.2.4.dist-info/entry_points.txt,sha256=J9hLg5TNvRdu7QieXo9tMpEFNuNUyvpl5x1JcMMWPZg,73
+scatter_downsample-0.2.4.dist-info/top_level.txt,sha256=ShhdK_ymtccUpDik-DGmgM4uYwCcUofYnt3_tnFFv6E,19
+scatter_downsample-0.2.4.dist-info/RECORD,,
