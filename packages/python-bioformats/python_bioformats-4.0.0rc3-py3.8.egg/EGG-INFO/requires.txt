@@ -1,0 +1,6 @@
+boto3
+future
+python-javabridge
+
+[test]
+pytest
