@@ -1,0 +1,3 @@
+[console_scripts]
+proofit = proofit.__main__:main
+
