@@ -1,0 +1,5 @@
+PyQt5<5.16,>=5.14
+pynput
+fonttools
+psutil
+cairosvg
