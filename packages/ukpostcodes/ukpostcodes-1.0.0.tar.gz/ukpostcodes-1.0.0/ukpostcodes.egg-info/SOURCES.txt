@@ -1,0 +1,9 @@
+README.md
+setup.py
+ukpostcodes/__init__.py
+ukpostcodes/ukpostcodes.py
+ukpostcodes.egg-info/PKG-INFO
+ukpostcodes.egg-info/SOURCES.txt
+ukpostcodes.egg-info/dependency_links.txt
+ukpostcodes.egg-info/requires.txt
+ukpostcodes.egg-info/top_level.txt
