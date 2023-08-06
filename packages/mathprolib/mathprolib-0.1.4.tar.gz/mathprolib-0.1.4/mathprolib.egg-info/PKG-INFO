@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: mathprolib
+Version: 0.1.4
+Summary: 一个专门用于数学运算的库
+Home-page: https://gitee.com/LAI_PYTHON/pymathprolib
+Author: 2097152,LAI-1048576,Toby-lai
+Author-email: cookies_wrmdcxy@126.com
+License: MIT
+Description: 
+        本分支是Python的mathprolib包。更多请见其它分支
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.7.0
+Description-Content-Type: text/markdown
