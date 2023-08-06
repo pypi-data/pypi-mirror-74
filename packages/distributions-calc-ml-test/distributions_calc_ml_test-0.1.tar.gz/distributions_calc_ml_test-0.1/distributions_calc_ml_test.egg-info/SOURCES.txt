@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+distributions_calc_ml_test/Binomialdistribution.py
+distributions_calc_ml_test/Gaussiandistribution.py
+distributions_calc_ml_test/Generaldistribution.py
+distributions_calc_ml_test/__init__.py
+distributions_calc_ml_test.egg-info/PKG-INFO
+distributions_calc_ml_test.egg-info/SOURCES.txt
+distributions_calc_ml_test.egg-info/dependency_links.txt
+distributions_calc_ml_test.egg-info/not-zip-safe
+distributions_calc_ml_test.egg-info/top_level.txt
