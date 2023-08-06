@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: bucket-gcp
+Version: 1.2
+Summary: A simple Django app to upload or download files from gcp bucket.
+Home-page: UNKNOWN
+Author: iraj majeed, abeera riaz
+Author-email: iraj@shopdev.co, abeera@shopdev.co
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
