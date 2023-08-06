@@ -1,0 +1,57 @@
+# Color values of all the 16 predefined colors used in the Amethyst interface.
+
+# Background color of the main Amethyst body.
+background_main: '#002b36'
+
+# An alternative background color for the main Amethyst body.
+background_alternate: '#073642'
+
+# Text color of standard gems
+gem_text: '#586e75'
+
+# Text color of special gems, such as parent, grand[*]-parent, and Amethyst menu.
+gem_special_text: '#657b83'
+
+# Text color of important gems (as defined by modules creators), which means that the action of
+# these gems leads to important changes for the user.that are defined by module creators.
+gem_important_text: '#839496'
+
+# Text color of keyboard shortcuts hints
+key_text: '#93a1a1'
+
+# Color of all borders
+border: '#eee8d5'
+
+# Background color of keyboard shortcuts hints
+key_background: '#fdf6e3'
+
+# The color of gems icon, if the icon is monochrome.
+gem_icon: '#b58900'
+
+# --- gems background ---
+
+# Background color of standard gems.
+gem_background: '#cb4b16'
+
+# Background color of the home gem, that displays the current action.
+gem_home_background: '#dc322f'
+
+# Background color of special gems, such as parent, grand[*]-parent, and Amethyst menu.
+gem_special_background: '#d33682'
+
+# Background color of alternative-color gems, which can be defined by modules creator;
+# for instance to group some gems by color.
+gem_alternate_background: '#6c71c4'
+
+# Background color of important gems.
+# (as defined by modules creators), which means that the action
+# of these gems leads to important changes for the user.
+gem_important_background: '#268bd2'
+
+# Background color of static gems, which does not make the Amethyst interface disapear.
+# For instance, it can be '+' and '-' gems used to set some numeric value.
+gem_static_background: '#2aa198'
+
+# Background color of submodule gems, which open a new Amethyst interface allowing the user to select
+# other gems, instead of directly exiting Amethyst a executing some action.
+gem_submodule_background: '#859900'
