@@ -1,0 +1,5 @@
+[console_scripts]
+metal-flags = metal.flags:print_flags
+metal-serial-generate = metal.serial.generate:main
+metal-serial-interpret = metal.serial.interpret:main
+
