@@ -1,0 +1,13 @@
+stork/__init__.py,sha256=k5MTx1ilWxz60Bf7grQu6t7KVBlhmiOYKhKiEl7q5-o,125
+stork/_version.py,sha256=Ys8n4as2Wcnr8Aq6OV-e59RKmKVeyh9Oh2nzJ2FZPFk,22
+stork/cli.py,sha256=T32Ouy60LOs-ozTyFVc4QSj04rIruQvMLA6X38nGkt4,522
+stork/cli_commands.py,sha256=pNhCDOipyW4BKH8_VpOlBwnHC7YBQ14DVatJxTwbdUM,4206
+stork/configure.py,sha256=EW__AXX86ps2Ia7GQwVYnRRe919qujhY2ylEt8RGtT8,2625
+stork/update_databricks_library.py,sha256=-JLqOEQOzcDfxSq_HXN4psf8-T93LZXZnv6nALi9_jY,19018
+stork-3.0.1.data/data/LICENSE.txt,sha256=kaxi5XW7ToYf_l8Szypf-yeflw0BoHNs2ONkjtUl4ak,1460
+stork-3.0.1.dist-info/LICENSE.txt,sha256=kaxi5XW7ToYf_l8Szypf-yeflw0BoHNs2ONkjtUl4ak,1460
+stork-3.0.1.dist-info/METADATA,sha256=xT0KXw5PkaaLMqLbAkEZiMM1H7gZK8StesWbKuLVs1E,6586
+stork-3.0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+stork-3.0.1.dist-info/entry_points.txt,sha256=M45ORXmjhxCpqLB1PYgB2UxVxpmG5SMQ74p0l1zYpIU,41
+stork-3.0.1.dist-info/top_level.txt,sha256=uBjS81hJ5oaJOuOrakhPj-AQeN5ZMjuRl2hqmSlj8dc,6
+stork-3.0.1.dist-info/RECORD,,
