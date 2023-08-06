@@ -1,0 +1,9 @@
+README.md
+setup.py
+matrixpdf/__init__.py
+matrixpdf/pdf2image.py
+matrixpdf/pdf2text.py
+matrixpdf.egg-info/PKG-INFO
+matrixpdf.egg-info/SOURCES.txt
+matrixpdf.egg-info/dependency_links.txt
+matrixpdf.egg-info/top_level.txt
