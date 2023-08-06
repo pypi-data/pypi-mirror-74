@@ -1,0 +1,8 @@
+README.md
+setup.py
+johnpackagetest/__init__.py
+johnpackagetest.egg-info/PKG-INFO
+johnpackagetest.egg-info/SOURCES.txt
+johnpackagetest.egg-info/dependency_links.txt
+johnpackagetest.egg-info/not-zip-safe
+johnpackagetest.egg-info/top_level.txt
