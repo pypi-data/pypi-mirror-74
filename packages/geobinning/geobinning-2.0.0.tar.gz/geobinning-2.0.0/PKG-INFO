@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: geobinning
+Version: 2.0.0
+Summary: A package to bin coordinate data in geojson shapes.
+Home-page: https://kapastor.github.io/
+Author: Kyle Pastor
+Author-email: kyleanthonypastor@gmail.com
+License: MIT
+Description: # Package Description #
+        
+        Use `geobinning` to bucket [lng,lat] points based on a geojson geometry.  Any geojson that contains ID and polygon geometries will work, and the function returns back a dataframe with (ID,bins).
+        
+        
+        ### Installation ###
+        `$ pip install geobinning`
+        
+        ### Usage ###
+        `import geopandas as gpd
+        import requests
+        import geobinning as gb
+        
+        df_places  = gpd.read_file('https://opendata.arcgis.com/datasets/af500b5abb7240399853b35a2362d0c0_0.geojson')
+        
+        polygons = []
+        for shp in df_places['geometry']:
+            lng,lat = shp.exterior.coords.xy
+            lng= list(lng)
+            lat= list(lat)
+            coords = list(map(list,zip(*[lng,lat])))
+            polygons.append(coords)
+        
+        bins = gb.geobin(polygons,[[-79,43],[-78,43.22]])`
+        
+        
+        ### Example ###
+        
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
