@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: easytune
+Version: 0.1
+Summary: Simple framework for hyperparameters optimization
+Home-page: https://github.com/raver119/easytune
+Author: Vyacheslav Kokorin
+Author-email: raver119@gmail.com
+License: apache-2.0
+Download-URL: https://github.com/raver119/easytune/archive/v0.1.tar.gz
+Description: UNKNOWN
+Keywords: hyperparameters,hyperparams,optimization
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
