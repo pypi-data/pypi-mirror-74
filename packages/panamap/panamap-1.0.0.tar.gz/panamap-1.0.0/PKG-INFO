@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: panamap
+Version: 1.0.0
+Summary: Python object mapper
+Home-page: https://github.com/kirillsulim/panamap
+Author: Kirill Sulim
+Author-email: kirillsulim@gmail.com
+License: MIT
+Description: # panamap
+        
+Keywords: object mapper
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: MIT License
+Description-Content-Type: text/markdown
