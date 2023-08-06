@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: clion-live-templates-generator
+Version: 1.0.1
+Summary: Generate CLion's Live templates from a library of competitive programming
+Home-page: https://github.com/habara-k/clion-live-templates-generator
+Author: Keigo Habara
+Author-email: k.habara.aa@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Description-Content-Type: text/markdown
+
+![](https://github.com/habara-k/clion-live-templates-generator/workflows/CI/badge.svg) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+
+
+# clion-live-templates-generator
+Generate CLion's Live templates from a library of competitive programming
+
+
