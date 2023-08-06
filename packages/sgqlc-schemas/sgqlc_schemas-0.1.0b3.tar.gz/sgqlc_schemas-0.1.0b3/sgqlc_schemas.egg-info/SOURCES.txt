@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+sgqlc_schemas/__init__.py
+sgqlc_schemas.egg-info/PKG-INFO
+sgqlc_schemas.egg-info/SOURCES.txt
+sgqlc_schemas.egg-info/dependency_links.txt
+sgqlc_schemas.egg-info/requires.txt
+sgqlc_schemas.egg-info/top_level.txt
+sgqlc_schemas/github/__init__.py
+sgqlc_schemas/github/schema.py
+sgqlc_schemas/monday/__init__.py
+sgqlc_schemas/monday/schema.py

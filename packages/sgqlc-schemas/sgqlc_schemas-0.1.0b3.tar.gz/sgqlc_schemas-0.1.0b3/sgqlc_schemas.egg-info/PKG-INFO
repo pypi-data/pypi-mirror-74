@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: sgqlc-schemas
+Version: 0.1.0b3
+Summary: A set of schemas for sgqlc package
+Home-page: https://github.com/Mogost/sgqlc-schemas
+Author: Alexandr Artemyev
+Author-email: mogost@aartemyev.ru
+License: MIT
+Description: ## About
+        
+        This package was created so that using [sgqlc (Simple GraphQL Client)](https://github.com/profusion/sgqlc "sgqlc (Simple GraphQL Client)") you do not need to create a schema for popular APIs.
+        
+        ## Current schemes
+        
+        - [GitHub](http://github.com "GitHub")
+        - [Monday.com](http://monday.com "Monday.com")
+        
+        ## Contribution
+        This package welcomes any new contribution. Please create [pull requests on GitHub](https://github.com/Mogost/sgqlc-schemas/pulls "pull requests on GitHub").
+        
+Keywords: sgqlc,schema,schemas,github,monday
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Software Development
+Classifier: Topic :: Utilities
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
