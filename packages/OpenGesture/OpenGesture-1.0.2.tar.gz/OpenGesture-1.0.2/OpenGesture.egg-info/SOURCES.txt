@@ -1,0 +1,10 @@
+README.md
+setup.py
+OpenGesture.egg-info/PKG-INFO
+OpenGesture.egg-info/SOURCES.txt
+OpenGesture.egg-info/dependency_links.txt
+OpenGesture.egg-info/entry_points.txt
+OpenGesture.egg-info/requires.txt
+OpenGesture.egg-info/top_level.txt
+opengesture/__init__.py
+opengesture/numberrecog.py
