@@ -1,0 +1,18 @@
+Metadata-Version: 1.1
+Name: wf-graphql-client-python
+Version: 0.0.1
+Summary: A simple GraphQL client for Python
+Home-page: https://github.com/WildflowerSchools/wf-graphql-client-python
+Author: Theodore Quinn
+Author-email: ted.quinn@wildflowerschools.org
+License: UNKNOWN
+Description: # graphql_client
+        
+        A simple GraphQL client for Python
+        
+Keywords: GraphQL,interface
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python

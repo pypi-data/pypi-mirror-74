@@ -1,0 +1,13 @@
+MANIFEST.in
+README.md
+VERSION
+setup.py
+graphql_client/__init__.py
+graphql_client/client.py
+graphql_client/core.py
+graphql_client/utils.py
+wf_graphql_client_python.egg-info/PKG-INFO
+wf_graphql_client_python.egg-info/SOURCES.txt
+wf_graphql_client_python.egg-info/dependency_links.txt
+wf_graphql_client_python.egg-info/requires.txt
+wf_graphql_client_python.egg-info/top_level.txt
