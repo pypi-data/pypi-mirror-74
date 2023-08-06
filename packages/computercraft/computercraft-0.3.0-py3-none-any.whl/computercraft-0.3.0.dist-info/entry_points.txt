@@ -1,0 +1,3 @@
+[console_scripts]
+computercraft = computercraft.server:main
+
