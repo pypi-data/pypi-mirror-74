@@ -1,0 +1,10 @@
+site_name: Metabolomics INTegratior
+site_url: https://github.com/soerendip/ms-mint
+site_author: Soren Wacker
+nav:
+  - Home: 'index.md'
+  - Installation: 'install.md'
+  - Peaklists: 'peaklists.md'
+  - GUI: 'gui.md'
+  - Python: 'python.md'
+  - Jupyter: 'jupyter.md'
