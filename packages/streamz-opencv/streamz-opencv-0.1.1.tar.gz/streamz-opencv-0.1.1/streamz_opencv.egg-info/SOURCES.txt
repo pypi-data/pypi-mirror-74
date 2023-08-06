@@ -1,0 +1,14 @@
+.gitignore
+README.md
+requirements-dev.in
+requirements-dev.txt
+requirements.txt
+setup.cfg
+setup.py
+streamz_opencv/__init__.py
+streamz_opencv.egg-info/PKG-INFO
+streamz_opencv.egg-info/SOURCES.txt
+streamz_opencv.egg-info/dependency_links.txt
+streamz_opencv.egg-info/requires.txt
+streamz_opencv.egg-info/top_level.txt
+tests/test_webcam.py
