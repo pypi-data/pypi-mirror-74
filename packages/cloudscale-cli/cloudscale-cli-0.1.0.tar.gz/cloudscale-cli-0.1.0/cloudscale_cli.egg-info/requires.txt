@@ -1,0 +1,9 @@
+click>=7.0.0
+cloudscale-sdk
+jmespath
+pygments
+tabulate
+yaspin
+
+[highlight]
+pygments
