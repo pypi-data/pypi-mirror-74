@@ -1,0 +1,186 @@
+Metadata-Version: 2.1
+Name: lmstfy
+Version: 0.0.1
+Summary: Let Me Search That For You
+Home-page: http://www.grantjenks.com/docs/lmstfy/
+Author: Grant Jenks
+Author-email: contact@grantjenks.com
+License: Apache 2.0
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: Implementation :: CPython
+
+Let Me Search That For You
+==========================
+
+`lmstfy`_ is an Apache2 licensed Python CLI for searching for error messages.
+
+
+TODO
+----
+
+* Support stdout and stderr output.
+* Filter output to only error messages.
+* Filter output to last N error messages.
+
+
+Quickstart
+----------
+
+1. Install `pipx`_.
+2. Then install `lmstfy`_.
+
+
+System Requirements
+...................
+
+Python 3.6+ is required to install `lmstfy`_. Don't have Python 3.6 or later?
+See the `Python 3 Installation & Setup Guide`_.
+
+You also need to have pip installed on your machine for python3. Installing it
+varies from system to system. Consult pip's installation instructions.
+Installing on Linux works best with a Linux Package Manager.
+
+
+Installing via Python
+.....................
+
+.. code-block:: shell
+
+   $ python3 -m pip install --user pipx
+   $ python3 -m pipx ensurepath
+   $ python3 -m pipx install lmstfy
+
+
+Installing via Brew
+...................
+
+Pipx works on MacOS, Linux, and Windows.
+
+Pipx can be installed on macOS using `brew`_.
+
+.. code-block:: shell
+
+   $ brew install pipx
+   $ pipx ensurepath
+   $ pipx install lmstfy
+
+
+Tutorial
+--------
+
+Follow the `Installation` steps to install `lmstfy`_.
+
+
+Running Commands
+................
+
+Invoke a build system using the "run" subcommand:
+
+.. code-block:: shell
+
+   $ lmstfy run make
+   $ lmstfy run cmake
+   $ lmstfy run gradlew build
+   $ lmstfy run maven mypackage
+
+Invoke a hot-reloading webserver using the "run" subcommand:
+
+.. code-block:: shell
+
+   $ lmstfy run python3 manage.py runserver
+
+Invoke an interpreter using the "run" subcommand:
+
+.. code-block:: shell
+
+   $ lmstfy run python3
+
+The stdin, stdout, and stderr streams are wrapped around the executed
+process. Signals are also passed to the subprocess.
+
+
+Piping Input
+............
+
+Pipe output to `lmstfy`_.
+
+.. code-block:: shell
+
+   $ ./script.sh | grep -i -C 10 error | lmstfy pipe
+
+It's also possible to provide metadata:
+
+.. code-block:: shell
+
+   $ ./script.sh | lmstfy pipe --hint language=python3
+
+
+Parsing Output
+..............
+
+Parse log files using cat:
+
+.. code-block:: shell
+
+   $ lmstfy cat log.txt
+
+Or parse log files using curl:
+
+.. code-block:: shell
+
+   $ lmstfy curl https://path/to/log.txt
+
+Or parse the output in your terminal:
+
+.. code-block::
+
+   CMD-a CMD-c
+   $ lmstfy pipe << EOF
+   CMD-v EOF RET
+
+
+Reference
+---------
+
+* `lmstfy Documentation`_
+* `lmstfy at PyPI`_
+* `lmstfy at GitHub`_
+* `lmstfy Issue Tracker`_
+
+.. _`lmstfy Documentation`: http://www.grantjenks.com/docs/lmstfy/
+.. _`lmstfy at PyPI`: https://pypi.python.org/pypi/lmstfy/
+.. _`lmstfy at GitHub`: https://github.com/grantjenks/lmstfy/
+.. _`lmstfy Issue Tracker`: https://github.com/grantjenks/lmstfy/issues/
+
+
+License
+-------
+
+Copyright 2020 Grant Jenks
+
+Licensed under the Apache License, Version 2.0 (the "License"); you may not use
+this file except in compliance with the License.  You may obtain a copy of the
+License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software distributed
+under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR
+CONDITIONS OF ANY KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations under the License.
+
+.. _`lmstfy`: http://www.grantjenks.com/docs/lmstfy/
+.. _`pipx`: https://pipxproject.github.io/pipx/
+.. _`brew`: https://brew.sh/
+.. _`python 3 installation & setup guide`: https://realpython.com/installing-python/
+
+
