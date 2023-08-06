@@ -1,0 +1,3 @@
+[console_scripts]
+galau=galau:main
+
