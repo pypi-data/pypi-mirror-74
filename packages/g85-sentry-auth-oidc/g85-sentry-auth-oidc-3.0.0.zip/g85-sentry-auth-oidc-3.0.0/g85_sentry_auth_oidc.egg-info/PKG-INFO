@@ -1,0 +1,14 @@
+Metadata-Version: 1.1
+Name: g85-sentry-auth-oidc
+Version: 3.0.0
+Summary: OpenID Connect authentication provider for Sentry
+Home-page: UNKNOWN
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: Apache 2.0
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development
