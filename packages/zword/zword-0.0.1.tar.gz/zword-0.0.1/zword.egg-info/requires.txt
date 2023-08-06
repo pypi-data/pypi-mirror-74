@@ -1,0 +1,5 @@
+zstandard
+tqdm
+gensim
+opencc
+fire
