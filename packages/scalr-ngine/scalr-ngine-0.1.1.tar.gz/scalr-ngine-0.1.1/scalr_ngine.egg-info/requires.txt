@@ -1,0 +1,8 @@
+hcloud
+cloudscale-sdk
+pyyaml
+python-dotenv
+apscheduler
+requests==2.23
+uvicorn
+fastapi
