@@ -1,0 +1,16 @@
+sqlalchemy
+
+[dev]
+profilehooks
+psutil
+click
+pre-commit
+yapf
+prospector
+pylint
+pytest
+pytest-cov
+memory-profiler
+
+[dev:platform_system == "Windows"]
+pywin32
