@@ -1,0 +1,7 @@
+beautifulsoup4>=4.7
+html5lib
+pillow>=5.3
+requests
+selenium
+tld
+urllib3
