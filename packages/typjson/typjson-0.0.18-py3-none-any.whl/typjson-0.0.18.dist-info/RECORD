@@ -1,0 +1,7 @@
+typjson/__init__.py,sha256=IMjkMO3twhQzluVTo8Z6rE7Eg-9U79_LGKMcsWLKBkY,22
+typjson/encoding.py,sha256=zVUuItBlYPsFn_tugWZ4UG_kVPoeYJNLK3Fzn1RgUIA,10978
+typjson/json.py,sha256=znEz_s8g2oDSzzKSFIe25ZATTkOsaLfE3w8HFPGrYQs,1707
+typjson/typing.py,sha256=pKqZIPZ1YfwniR0xh9ZZ9zZlVVOkvxlxMaf7TUAMgw0,172
+typjson-0.0.18.dist-info/WHEEL,sha256=G_NFpzHmv_dUXgCUSAWL0-bLL-eMzYU6DzDeGXbRXUk,83
+typjson-0.0.18.dist-info/METADATA,sha256=MBTpac2g7gI1LUNnxAxuU3TtrN5RfBgfMblBRjlHT2M,535
+typjson-0.0.18.dist-info/RECORD,,
