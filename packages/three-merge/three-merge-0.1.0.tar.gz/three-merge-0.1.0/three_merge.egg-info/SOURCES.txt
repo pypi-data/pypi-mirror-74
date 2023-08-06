@@ -1,0 +1,13 @@
+CHANGELOG.md
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+three_merge/__init__.py
+three_merge/merge.py
+three_merge.egg-info/PKG-INFO
+three_merge.egg-info/SOURCES.txt
+three_merge.egg-info/dependency_links.txt
+three_merge.egg-info/requires.txt
+three_merge.egg-info/top_level.txt

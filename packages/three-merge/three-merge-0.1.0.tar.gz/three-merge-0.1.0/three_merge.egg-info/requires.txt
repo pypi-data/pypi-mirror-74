@@ -1,0 +1,7 @@
+diff-match-patch
+
+[test]
+pytest
+pytest-cov
+flaky
+pytest-timeout
