@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: anuvaad_etl_error_manager
+Version: 0.0.3
+Summary: A package to standardize and manage errors in anuvaad dataflow pipeline by Tarento
+Home-page: https://www.tarento.com
+Author: Vishal Mahuli
+Author-email: vishal.mahuli@tarento.com
+License: MIT
+Download-URL: https://github.com/mahulivishal/anuvaad_error_manager/archive/0.0.3.tar.gz
+Description: UNKNOWN
+Keywords: ANUVAAD,ERROR,MANAGER,TARENTO
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.7
