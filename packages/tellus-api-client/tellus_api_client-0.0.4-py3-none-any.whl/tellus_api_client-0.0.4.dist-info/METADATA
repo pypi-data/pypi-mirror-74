@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: tellus-api-client
+Version: 0.0.4
+Summary: Unofficial Tellus API Client
+Home-page: https://github.com/regonn/tellus-api-client
+Author: regonn
+Author-email: programmer@haizine.art
+License: MIT
+Project-URL: Bug Reports, https://github.com/regonn/tellus-api-client/issues
+Project-URL: Source, https://github.com/regonn/tellus-api-client
+Requires-Dist: scikit-image (==0.15.0)
+Requires-Dist: requests (==2.22.0)
+
+# Tellus Api Client
+
+
