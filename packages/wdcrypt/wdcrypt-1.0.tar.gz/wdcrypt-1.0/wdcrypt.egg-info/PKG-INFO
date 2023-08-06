@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: wdcrypt
+Version: 1.0
+Summary: Encrypt all the files and folder in your current working directory.
+Home-page: https://github.com/IamStefin/wdcrypt
+Author: Stef
+Author-email: sstefin@bk.ru
+License: MIT
+Description: 
+        ![Upload Python Package](https://github.com/IamStefin/wdcrypt/workflows/Upload%20Python%20Package/badge.svg)
+        # wdcrypt
+        A Python package to encrypt your working directory with a simple command.
+        
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.6.0
+Description-Content-Type: text/markdown
