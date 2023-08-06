@@ -1,0 +1,58 @@
+Metadata-Version: 2.1
+Name: discum
+Version: 0.1.1
+Summary: A Discord Self-Bot API
+Home-page: https://github.com/Merubokkusu/Discord-S.C.U.M
+Author: Merubokkusu
+Author-email: loser@merubokkusu.com
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.6.0
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+Requires-Dist: requests-toolbelt
+
+
+### A Discord Selfbot Api - discum
+
+![https://files.catbox.moe/3ns003.png](https://files.catbox.moe/3ns003.png)
+
+[![PyPI version](https://badge.fury.io/py/discum.svg)](https://badge.fury.io/py/discum)
+
+
+## Install
+from PyPI:      
+```python
+pip install discum 
+```
+
+from source (this is up-to-date with recent changes):        
+`git clone https://github.com/Merubokkusu/Discord-S.C.U.M.git`    
+`cd Discord-S.C.U.M`     
+`cd discum`       
+(now you can use python and import discum)       
+
+# Usage
+## [Read the Wiki](https://github.com/Merubokkusu/Discord-S.C.U.M/wiki)
+
+# Example
+```python
+import discum     
+bot = discum.Client(email,password) #if you want to input your token instead, read discum.py for a how-to
+bot.sendMessage("383003333751856129","Hello You :)")
+```
+# To Do
+- [x] Sending basic text messages
+- [X] Sending Images
+- [x] Sending Embeds
+- [X] Sending Requests (Friends etc)
+- [ ] Everything
+- [ ] Update PyPI
+
+
