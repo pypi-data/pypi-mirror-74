@@ -1,0 +1,12 @@
+optimusbeez/PSO.py,sha256=3DKynHcRfhjkEnOiMKwLr1beDdXmQ4sWNp4ksC66Xb4,14156
+optimusbeez/__init__.py,sha256=XuyUc_CAm3CeL5O3zlN-pY_bcmx5uXCVdB1ia7ojUxI,371
+optimusbeez/evaluate.py,sha256=mSXUebQCp9lJMif3Q-0zWANVPyOefzgRiLJq_ni-hOg,426
+optimusbeez/function_info.txt,sha256=nitvnsOd0UM8k6j1E6p3m8T4C-7QYmq1C6Bgo2oc3uU,111
+optimusbeez/optimal_constants.txt,sha256=YIu8JKzqJwTSBzhM8W8fTCSkfdZap_Murdj4LiyWrVc,79
+optimusbeez/tests/__init__.py,sha256=vTPUlXrsjzD2UKb_DE4CclSoBxh8nN8zayzCIaverD0,472
+optimusbeez/tests/test_evaluate.py,sha256=Hr7uBUt_BgX7mvdn_hdXSQPs5fXQDKdxIY5y_-h4U_w,172
+optimusbeez-0.0.8.dist-info/LICENSE.txt,sha256=WxT9p_NGWNFXbZ8KCR8eQJM3lmmPDlm1aG_DiG8vnDc,1070
+optimusbeez-0.0.8.dist-info/METADATA,sha256=Rb4f6xLXaNquffTeK_TPRFFlRDDM0S3oPPgAKSWvNJk,2419
+optimusbeez-0.0.8.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+optimusbeez-0.0.8.dist-info/top_level.txt,sha256=808MdknnhEs8drrkDV7u4ss21aNhPjDBr_2_eGU0hTo,12
+optimusbeez-0.0.8.dist-info/RECORD,,
