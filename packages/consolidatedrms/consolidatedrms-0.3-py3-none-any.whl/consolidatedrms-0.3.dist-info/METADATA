@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: consolidatedrms
+Version: 0.3
+Summary: Python library for Zerodha RMS consolidated scrips
+Home-page: https://github.com/zerodhatech/rms-consolidated-scrips-status
+Author: Rakesh R
+Author-email: rrrakesh265@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Topic :: Software Development :: Libraries
+Requires-Dist: pandas
+
+# rms-consolidated-scrips-status
+
+A utility that parse [ZerodhaRMS Consolidated google spreadsheet](https://docs.google.com/spreadsheets/d/1ZTyh6GiHTwA1d-ApYdn5iCmRiBLZoAtwigS7VyLUk_Y/edit#gid=0) and render category-wise scrip details(margins, multiplier, etc). 
+
+# Installation
+
+``` 
+pip install consolidatedrms
+```
+
+
+
