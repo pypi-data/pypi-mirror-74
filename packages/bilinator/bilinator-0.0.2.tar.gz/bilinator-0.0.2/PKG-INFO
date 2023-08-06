@@ -1,0 +1,25 @@
+Metadata-Version: 1.1
+Name: bilinator
+Version: 0.0.2
+Summary: Creates bil files from fits files via tiff files. 
+Home-page: https://github.com/YatinAdityaT/bilinator
+Author: Yatin Aditya Tekumalla
+Author-email: yatint5@gmail.com
+License: MIT
+Description: # bilinator
+        Creates bil files from fits files via tiff files. 
+        
+        
+        Change Log
+        ==========
+        
+        0.0.1 (21/07/20)
+        ------------------
+        - First Release
+Keywords: bil
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3

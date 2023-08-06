@@ -1,0 +1,11 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.md
+bilinator.py
+setup.py
+bilinator.egg-info/PKG-INFO
+bilinator.egg-info/SOURCES.txt
+bilinator.egg-info/dependency_links.txt
+bilinator.egg-info/requires.txt
+bilinator.egg-info/top_level.txt
