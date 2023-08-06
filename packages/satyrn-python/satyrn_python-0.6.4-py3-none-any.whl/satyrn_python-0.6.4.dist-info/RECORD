@@ -1,0 +1,12 @@
+satyrnCLI/__init__.py,sha256=DWAFlDN0EOy1OoqZuS0ZokXRWl_xTr0cVuMzxzVYUvY,30
+satyrnCLI/__main__.py,sha256=pZF8pFxC9EGtTa-12VD7a9nnRQK77gi9WGwdiQnla4s,71
+satyrnCLI/interpreter.py,sha256=f3r4fZhw4lzT13WuzkCVG3nsINTCkWKhKu2ZpPMX4rk,25876
+satyrn_python/__init__.py,sha256=DWAFlDN0EOy1OoqZuS0ZokXRWl_xTr0cVuMzxzVYUvY,30
+satyrn_python/__main__.py,sha256=pZF8pFxC9EGtTa-12VD7a9nnRQK77gi9WGwdiQnla4s,71
+satyrn_python/interpreter.py,sha256=wWfz-0qYj1OBuEs6fgfb-MtlzJdGLJPY44hlSc4i7d0,25634
+satyrn_python-0.6.4.dist-info/LICENSE,sha256=sqNVTtUpJ0ikX-tz0aXgmi3AGO9FXdPETfjOC_AzVU8,1072
+satyrn_python-0.6.4.dist-info/METADATA,sha256=Lal-BZmoKKUUMqOas6UVytzb4flpef3PsOE1il3PeNY,5116
+satyrn_python-0.6.4.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+satyrn_python-0.6.4.dist-info/entry_points.txt,sha256=BdjpE-I-l7To3IoB8dwDk7w9NH_Er0ARAKENoRqgK2I,95
+satyrn_python-0.6.4.dist-info/top_level.txt,sha256=zJd6XaeRbIwPKOan_f7gtM6lJPEIdXV5jjwQOt5h_bo,10
+satyrn_python-0.6.4.dist-info/RECORD,,
