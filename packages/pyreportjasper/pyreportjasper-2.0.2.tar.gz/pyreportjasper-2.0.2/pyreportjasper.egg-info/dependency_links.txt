@@ -1,0 +1,1 @@
+https://github.com/bcdev/jpy/archive/master.zip#egg=jpy
