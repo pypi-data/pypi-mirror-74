@@ -1,0 +1,10 @@
+pfmisc
+nibabel
+pydicom
+numpy
+matplotlib
+pillow
+pandas
+re
+imagio
+time
