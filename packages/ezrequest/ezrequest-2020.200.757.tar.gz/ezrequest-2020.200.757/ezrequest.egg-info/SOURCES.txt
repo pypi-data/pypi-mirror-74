@@ -1,0 +1,12 @@
+README.md
+setup.py
+ezrequest/__init__.py
+ezrequest/_version.py
+ezrequest/ezrequest.py
+ezrequest.egg-info/PKG-INFO
+ezrequest.egg-info/SOURCES.txt
+ezrequest.egg-info/dependency_links.txt
+ezrequest.egg-info/requires.txt
+ezrequest.egg-info/top_level.txt
+tests/__init__.py
+tests/test_ezrequest.py
