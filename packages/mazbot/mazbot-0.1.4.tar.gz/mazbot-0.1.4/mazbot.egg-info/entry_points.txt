@@ -1,0 +1,3 @@
+[console_scripts]
+mazbot = mazbot.cli:main
+
