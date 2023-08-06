@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: Modelpair
+Version: 1.5
+Summary: This is a Python package that is designed to compare different machine learning model performance on a dataset. Currently it can only deal with csv file dataset in a certain format, and it only has a few models available. It is still in progress
+Home-page: UNKNOWN
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
