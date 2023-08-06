@@ -1,0 +1,8 @@
+aws_cdk/aws_robomaker/__init__.py,sha256=yAPZuVxLklr-m9DSaJgaWVPJHOLNQfefr0SJJ_LwkhI,71092
+aws_cdk/aws_robomaker/py.typed,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+aws_cdk/aws_robomaker/_jsii/__init__.py,sha256=HLpFNtYHAtEctk0ZQPGc9hSjDanbrlaay5VJcke4k5w,369
+aws_cdk/aws_robomaker/_jsii/aws-robomaker@1.53.0.jsii.tgz,sha256=f9AL6zOBGgrI6vBf8AJfmZVqEmOvobMM8JZB4kXgaLg,38596
+aws_cdk.aws_robomaker-1.53.0.dist-info/METADATA,sha256=p6CPMxeu0zaBnYduiyyE6xFKGJa3MwhZjmkCeqyzN9k,1584
+aws_cdk.aws_robomaker-1.53.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+aws_cdk.aws_robomaker-1.53.0.dist-info/top_level.txt,sha256=1TALAKbuUGsMSrfKWEf268lySCmcqSEO6cDYe_XlLHM,8
+aws_cdk.aws_robomaker-1.53.0.dist-info/RECORD,,
