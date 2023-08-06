@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+unrest_schema/__init__.py
+unrest_schema/urls.py
+unrest_schema/utils.py
+unrest_schema/views.py
+unrest_schema.egg-info/PKG-INFO
+unrest_schema.egg-info/SOURCES.txt
+unrest_schema.egg-info/dependency_links.txt
+unrest_schema.egg-info/requires.txt
+unrest_schema.egg-info/top_level.txt
