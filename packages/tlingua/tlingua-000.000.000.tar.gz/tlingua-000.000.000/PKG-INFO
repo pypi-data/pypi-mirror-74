@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: tlingua
+Version: 000.000.000
+Summary: A little library for text/grammar processing.
+Home-page: https://github.com/LudwigVonChesterfield/TLingua
+Author: Luduk
+Author-email: ningawent@gmail.com
+License: MIT
+Download-URL: https://github.com/LudwigVonChesterfield/TLingua/archive/v_000.000.000.tar.gz
+Description: UNKNOWN
+Keywords: TAGS,STRINGS,GRAMMAR,LANGUAGE
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
