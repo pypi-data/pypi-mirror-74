@@ -1,0 +1,7 @@
+structs/numpy.py,sha256=g_Uhcj7CfhCFgWSi0GA3wYQFxRDLsNgGYo_Yi57OqdA,6213
+structs/struct.py,sha256=_BxO2EGvw7fVymwouJKIK5w4MeS2BqDOYY0jdiXJuoM,9873
+structs/torch.py,sha256=z4vPoKtYwl6o4p_gxbdx6ZPxlgF1-4L2DAWq0PPnt6Y,6558
+py_structs-0.0.4.dist-info/METADATA,sha256=RZM49X9Az8nKknnKa9o0R8PDNkb_hakKAiphBjijlfk,426
+py_structs-0.0.4.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+py_structs-0.0.4.dist-info/top_level.txt,sha256=9BU2AxUTdMCRNC2i43132HQ4UxLohyH7cuyiSjEXEmc,8
+py_structs-0.0.4.dist-info/RECORD,,
