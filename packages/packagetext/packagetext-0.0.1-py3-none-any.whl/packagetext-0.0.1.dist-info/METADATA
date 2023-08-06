@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: packagetext
+Version: 0.0.1
+Summary: This is cool
+Home-page: UNKNOWN
+Author: Amey
+Author-email: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: nltk (>=0.3)
+
+UNKNOWN
+
+
