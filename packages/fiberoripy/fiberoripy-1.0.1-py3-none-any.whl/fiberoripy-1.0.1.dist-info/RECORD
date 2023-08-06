@@ -1,0 +1,12 @@
+fiberoripy/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fiberoripy/aspect_ratios.py,sha256=Z5sCxN0jighjJI7CrgUjN2yU4kLKo590zf6nQad0j2I,1124
+fiberoripy/closures.py,sha256=b1wLlJg_ijuk2yQ-j-ISe3fEN7XgsHbz_ixsJ4VAZlI,11893
+fiberoripy/constants.py,sha256=xPZ5n_K24XuPL621aycBaBwtCQuUYpLC_sRAibrmgAc,172
+fiberoripy/fit.py,sha256=yfguQExVIrPzEP7J659svC01mjm8VWZT0xjt3iShQG8,1140
+fiberoripy/orientation.py,sha256=oYcw7V55dl-PJpdEm2VI1WhcE-jLiuZRuW-rUnbr54U,18487
+fiberoripy/tensorplot.py,sha256=aoIb9q3qmv990vGw_bOraPRA3bx5nKo8u3reoaNzgvU,4293
+fiberoripy-1.0.1.dist-info/LICENSE,sha256=il3P9QYqMJN48OBPXNOgO3JdsWXVfpkj8OMaY_Q71As,1067
+fiberoripy-1.0.1.dist-info/METADATA,sha256=zWQoX-7Wx-yH7LMD3HMvMkz3Ijluqevl8g4rC9x23N0,3442
+fiberoripy-1.0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+fiberoripy-1.0.1.dist-info/top_level.txt,sha256=Hg4h3UxqTprn_uf0jbqqg98AY_5oiLz1e5Q70JY7tZg,11
+fiberoripy-1.0.1.dist-info/RECORD,,
