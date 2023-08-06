@@ -1,0 +1,7 @@
+astropy
+cython
+numpy
+blimpy>=2.0.0
+pandas
+dask
+dask[bag]
