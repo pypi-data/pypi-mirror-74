@@ -1,0 +1,6 @@
+README.md
+setup.py
+code_snippets_pkg_jjbiggins.egg-info/PKG-INFO
+code_snippets_pkg_jjbiggins.egg-info/SOURCES.txt
+code_snippets_pkg_jjbiggins.egg-info/dependency_links.txt
+code_snippets_pkg_jjbiggins.egg-info/top_level.txt
