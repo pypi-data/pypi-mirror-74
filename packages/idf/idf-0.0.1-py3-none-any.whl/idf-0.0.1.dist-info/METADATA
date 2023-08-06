@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: idf
+Version: 0.0.1
+Summary: Interface Definition Framework: specify how codes talk to each other and auto-generate corresponding code.
+Home-page: https://github.com/jonathanschilling/idf
+Author: Jonathan Schilling
+Author-email: jonathan.schilling@mail.de
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+
+# idf
+Interface Definition Framework: specify how codes talk to each other and auto-generate corresponding code
+
+
