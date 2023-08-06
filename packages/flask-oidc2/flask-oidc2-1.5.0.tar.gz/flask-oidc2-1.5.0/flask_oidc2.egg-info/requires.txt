@@ -1,0 +1,4 @@
+flask
+itsdangerous
+oauth2client
+six

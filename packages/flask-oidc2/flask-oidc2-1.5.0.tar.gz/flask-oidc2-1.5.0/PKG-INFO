@@ -1,0 +1,72 @@
+Metadata-Version: 2.1
+Name: flask-oidc2
+Version: 1.5.0
+Summary: OpenID Connect extension for Flask
+Home-page: https://github.com/vishnu667/flask-oidc2
+Author: Vishnu Prasad, Patrick Uiterwijk
+Author-email: vishnu667@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/vishnu667/flask-oidc2/issues
+Project-URL: Documentation, https://flask-oidc2.readthedocs.io/
+Project-URL: Source Code, https://github.com/vishnu667/flask-oidc2/
+Description: flask-oidc2
+        ===========
+        
+        .. image:: https://img.shields.io/pypi/v/flask-oidc2.svg?style=flat
+          :target: https://pypi.python.org/pypi/flask-oidc2
+        
+        .. image:: https://img.shields.io/pypi/dm/flask-oidc2.svg?style=flat
+          :target: https://pypi.python.org/pypi/flask-oidc2
+        
+        .. image:: https://readthedocs.org/projects/flask-oidc2/badge/?version=latest
+           :target: http://flask-oidc2.readthedocs.io/en/latest/?badge=latest
+           :alt: Documentation Status
+        
+        .. image:: https://github.com/vishnu667/flask-oidc2/workflows/Build/badge.svg?branch=master
+           :alt: Build
+        
+        `OpenID Connect <https://openid.net/connect/>`_ support for `Flask <http://flask.pocoo.org/>`_.
+        
+        This library should work with any standards compliant OpenID Connect provider.
+        
+        It has been tested with:
+        
+        * `Google+ Login <https://developers.google.com/accounts/docs/OAuth2Login>`_
+        * `Ipsilon <https://ipsilon-project.org/>`_
+        
+        
+        Installation
+        ------------
+        
+        .. code-block:: bash
+        
+           $ pip install flask-oidc2
+        
+        
+        Documentation
+        -------------
+        
+        `flask-oidc2.readthedocs.io <http://flask-oidc2.readthedocs.io/en/latest/>`_
+        
+        
+        Project status
+        --------------
+        
+        This is a fork of the project `puiterwijk/flask-oidc <https://github.com/puiterwijk/flask-oidc>`_
+        
+        This project is in active development.
+        
+Platform: UNKNOWN
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Flask
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Description-Content-Type: text/x-rst
