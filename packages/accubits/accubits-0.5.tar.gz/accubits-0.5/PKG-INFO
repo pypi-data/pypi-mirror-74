@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: accubits
+Version: 0.5
+Summary: CLI Tool to create front end web apps from boilerplate code
+Home-page: UNKNOWN
+Author: Nithi
+Author-email: bearnithi@gmail.com
+License: MIT
+Download-URL: https://github.com/accubits-tech/accubits-cli/archive/0.5.tar.gz
+Description: # Accubits CLI
+        
+        A command line tool to create web apps using boiler plate codes.
+        
+        ### Installation
+        Install python 3 in your system and run the below command
+        
+        ```sh
+        $ pip install accubitscli
+        ```
+        
+        # Create an Angular app with Boilerplate
+        
+        ```sh
+        $ accubits create ng yourangularappname
+        ```
+        
+Keywords: Accubits Cli,Front end boilerplates,angular boilerplate
+Platform: UNKNOWN
+Description-Content-Type: text/markdown

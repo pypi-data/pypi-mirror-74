@@ -1,0 +1,4 @@
+
+        [console_scripts]
+        accubits=accubits.main:cli
+    
