@@ -1,0 +1,197 @@
+Metadata-Version: 2.1
+Name: graviti
+Version: 0.1.2
+Summary: Graviti TensorBay python SDK
+Home-page: UNKNOWN
+Author: graviti
+Author-email: pypi@graviti.cn
+License: MIT
+Description: # Graviti python SDK
+        
+        ## Installation
+        
+        ```bash
+        pip3 install graviti
+        ```
+        
+        ## Usage
+        
+        #### Get accessKey
+        
+        AccessKey is required when upload data.
+        
+        Use your username and password to login to [Graviti website](https://gas.graviti.cn/),
+        and get accessKey on profile page.
+        
+        #### Upload data
+        
+        This sample is for uploading dataset which only contains data collected from a single sensor.
+        
+        ```python
+        #!/usr/bin/env python3
+        
+        from graviti import GAS
+        
+        ACCESS_KEY = "Accesskey-****"
+        DATA_SET_NAME = "TestDataSet"
+        
+        gas = GAS(ACCESS_KEY)
+        
+        data_set = gas.get_or_create_data_set(DATA_SET_NAME)  # create dataset
+        
+        # single-thread upload
+        for filename in FILE_LIST:
+            data_set.upload_data(filename, "remote_path")
+        
+        # # multi-thread uploading
+        # # when use multi-thread uploading
+        # # uncomment the following code and comment single-thread uploading code
+        
+        # from concurrent.futures import ThreadPoolExecutor
+        
+        # THREAD_NUM = 8 # number of threads
+        
+        # with ThreadPoolExecutor(THREAD_NUM) as executor:
+        #     for filename in FILE_LIST:
+        #         executor.submit(data_set.upload_data, filename, "remote_path")
+        ```
+        
+        #### Upload multisensor data
+        
+        This sample is for uploading dataset which contains data collected from multi sensors.
+        
+        ```python
+        #!/usr/bin/env python3
+        
+        from graviti import GAS
+        from graviti import Sensor, Frame
+        
+        ACCESS_KEY = "Accesskey-****"
+        DATA_SET_NAME = "TestMultisensorDataSet"
+        
+        gas = GAS(ACCESS_KEY)
+        
+        data_set = gas.get_or_create_data_set(DATA_SET_NAME, is_multisensor=True)  # create multisensor dataset
+        
+        for sensor_name in SENSOR_LIST:
+            sensor = Sensor(sensor_name, Sensor.CAMERA)
+            sensor.set_description("This is a camera")
+            sensor.set_translation(x=1.1, y=2.2, z=3.3)
+            sensor.set_rotation(w=1.1, x=2.2, y=3.3, z=4.4)
+            sensor.set_camera_matrix(fx=1.1, fy=2.2, cx=3.3, cy=4.4)
+            sensor.set_distortion_coefficient(p1=1.1, p2=2.2, k1=3.3, k2=4.4, k3=5.5)
+        
+            data_set.upload_sensor(sensor)
+        
+        # single-thread uploading
+        for frame_info in FRAME_LIST:
+            frame = Frame()
+            for sensor_name in SENSOR_LIST:
+                frame.add_data(sensor_name, frame_info.filename, "remote_path", frame_info.timestamp)
+        
+            data_set.upload_frame(frame)
+        
+        # # multi-thread uploading
+        # # when use multi-thread uploading
+        # # uncomment the following code and comment single-thread uploading code
+        
+        # from concurrent.futures import ThreadPoolExecutor
+        
+        # THREAD_NUM = 8  # number of threads
+        
+        # with ThreadPoolExecutor(THREAD_NUM) as executor:
+        # for frame_info in FRAME_LIST:
+        #     frame = Frame()
+        #     for sensor_name in SENSOR_LIST:
+        #         frame.add_data(sensor_name, frame_info.filename, "remote_path", frame_info.timestamp)
+        
+        #         executor.submit(data_set.upload_frame, frame)
+        ```
+        
+        #### Command line
+        
+        We also provide `gas` command to call SDK APIs.
+        
+        Use `gas` in terminal to see the available commands as follows.
+        
+        ```bash
+        gas config
+        gas create
+        gas delete
+        gas publish
+        gas ls
+        gas cp
+        gas rm
+        ```
+        
+        ##### accessKey config
+        
+        ```bash
+        gas config [accessKey]
+        
+        # this command writes accesskey into config file
+        ```
+        
+        ##### create dataset
+        
+        ```bash
+        gas create [dataset_name]
+        ```
+        
+        ##### delete dataset
+        
+        ```bash
+        gas delete [dataset_name]
+        ```
+        
+        ##### publish dataset
+        
+        ```bash
+        gas publish [dataset_name]
+        ```
+        
+        ##### list data
+        
+        ```bash
+        gas ls [dataset_name]://[remote_path]
+        ```
+        
+        ##### upload data
+        
+        ```bash
+        gas cp [Options] [local_path1] [local_path2] ...  [dataset name]://[remote_path]
+        
+        Options:
+          -r, --recursive     Copy directories recursively.
+          -j, --jobs INTEGER  The number of threads.
+        
+        # if only upload one file and [remote path] doesn't end with '/'
+        # then the file will be uploaded and renamed as [remote_path]
+        
+        # multi-thread upload: -j THREAD_NUM
+        ```
+        
+        ##### delete data
+        
+        ```bash
+        gas rm [Options] [dataset name]://[remote_path]
+        
+        Options:
+          -r, --recursive  Remove directories recursively.
+        
+        # one single command can only delete one remote path
+        # if '-r' then all the paths under [remote_path] and itself will be deleted
+        ```
+        
+Keywords: graviti,dataset
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
