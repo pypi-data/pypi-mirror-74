@@ -1,0 +1,3 @@
+[console_scripts]
+bytebird = ByteBird.game:main
+
