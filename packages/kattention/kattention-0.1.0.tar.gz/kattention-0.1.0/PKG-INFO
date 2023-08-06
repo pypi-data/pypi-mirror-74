@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: kattention
+Version: 0.1.0
+Summary: Package implementing different attention mechanisms as tf.keras layers
+Home-page: https://github.com/sofienealouini/kattention
+Author: Sofiene ALOUINI
+Author-email: sofiene.alouini@gmail.com
+License: UNKNOWN
+Description: # Kattention
+        
+        This package implements different Attention mechanisms as Keras layers.
+        
+        ## Setup
+        
+        ```
+        pip install kattention
+        ```
+        
+        ## Usage
+        
+        ```
+        from tensorflow.keras.models import Sequential
+        from tensorflow.keras.layers import Flatten, Dense, Softmax
+        from kattention.layers import Transformer 
+        
+        SEQUENCE_LENGTH = 4
+        EMBEDDING_SIZE = 300
+        CLASSES_TO_PREDICT = 5
+        ATT_HEADS = 2
+        
+        model = Sequential()
+        model.add(Transformer(attention_heads=ATT_HEADS, input_shape=(SEQUENCE_LENGTH, EMBEDDING_SIZE)))
+        model.add(Transformer(attention_heads=ATT_HEADS))
+        model.add(Flatten())
+        model.add(Dense(CLASSES_TO_PREDICT))
+        model.add(Softmax())
+        
+        print(model.summary())
+        ```
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
