@@ -1,0 +1,4 @@
+[console_scripts]
+dbdnssplit = dnssplitter.scripts.dbdnssplit:main
+dnssplit = dnssplitter.scripts.dnssplit:main
+
