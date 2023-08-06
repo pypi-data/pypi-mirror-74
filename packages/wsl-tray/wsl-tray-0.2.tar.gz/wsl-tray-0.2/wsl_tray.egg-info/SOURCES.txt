@@ -1,0 +1,13 @@
+README.md
+setup.py
+src/__init__.py
+src/app.py
+src/pyi_patch.py
+src/wsl_operations.py
+src/systray/__init__.py
+src/systray/traybar.py
+src/systray/win32_adapter.py
+wsl_tray.egg-info/PKG-INFO
+wsl_tray.egg-info/SOURCES.txt
+wsl_tray.egg-info/dependency_links.txt
+wsl_tray.egg-info/top_level.txt
