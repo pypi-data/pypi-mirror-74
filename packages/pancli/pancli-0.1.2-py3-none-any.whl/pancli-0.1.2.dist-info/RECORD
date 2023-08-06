@@ -1,0 +1,17 @@
+pancli/VERSION,sha256=VKRsZExOtvEo-Z9_CENJGGF7MbaAUi7UrLV8lCQ3KCc,5
+pancli/__init__.py,sha256=ecIBfU6eSqxTCu0fAnpMQbTehygFW68SKTxEfg9VQao,98
+pancli/cli.py,sha256=LjE-q_jcvhxyfkQiM5JB5fW-F3umDLtq3t1M1aMAQTc,1651
+pancli/plugin.py,sha256=u6cYPK18s71KdvONnsPwoSBYVQPxX0y4ylvP-rLwkpc,11357
+pancli/runner.py,sha256=wc6Z3yaf1My8pjlj4x_dTLNjpQ97vXrOZFcJ-wuO580,2970
+pancli/runner2.py,sha256=NSsG9R9pJeUZoU7MZx0ejARNH3d8u4h5yH9K0MWKQWc,8021
+pancli/commands/__init__.py,sha256=L9xt6F16lB48fkEGI-mHPNZxwLM7_h9e7YXFBncAfTM,70
+pancli/commands/crawl.py,sha256=QfRS6dA1Nxq5f5VFI0hSPCgXGvTBdQ-xE06f9bEIPn8,2997
+pancli/commands/list.py,sha256=L7TKtlLZuvx-14aek0sNLWn65PiD_Lor9_sGklh6n2A,628
+pancli/commands/package.py,sha256=uv2qfd6p8fWJsnqrK7bswaX42eNEkKoson_gtRQiJ2k,2211
+pancli/commands/plugin.py,sha256=-zvqBMOtvF_it4R-FIzhrTp0j7maXc5Cp0eDhJEcbKM,587
+pancli-0.1.2.dist-info/LICENSE,sha256=HrhfyXIkWY2tGFK11kg7vPCqhgh5DcxleloqdhrpyMY,11558
+pancli-0.1.2.dist-info/METADATA,sha256=7lSS3vZ36QHGwCESd56ddmy1DUr4rOhCh2cVMdYOTIM,251
+pancli-0.1.2.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+pancli-0.1.2.dist-info/entry_points.txt,sha256=_jZr6IwMRUs_GV9dv_3G8gsq6Mxc7O8fGWkXzyPgoZQ,68
+pancli-0.1.2.dist-info/top_level.txt,sha256=J5UP5ceFy73By9yX4qT6tbrtJBvMM8QRuptVmBDrwzs,7
+pancli-0.1.2.dist-info/RECORD,,
