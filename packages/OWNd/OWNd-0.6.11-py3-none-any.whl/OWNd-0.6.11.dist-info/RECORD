@@ -1,0 +1,11 @@
+OWNd/__init__.py,sha256=WAW-bfIrNx18qYeBN4lihEQibyosiKElDt_p7DfZELo,22
+OWNd/__main__.py,sha256=PFQciGdPnUAQprXXXg3QG_JjHNTP4X1y7fO_MFJl6YU,3479
+OWNd/connection.py,sha256=IVLmFc3Yl9KRNm7CgNX_tyhMaPNdQ55u0GS4pAAF9JA,15409
+OWNd/daemon.py,sha256=sh0mjAGi8GRtaOvOTy3xN5Fqsy01LzgY9tlAAA05DoA,1507
+OWNd/discovery.py,sha256=zHmgMiJh5MvtjvrM0ZzMROPSyGMXjMRfH2XgO-bFbGE,9757
+OWNd/message.py,sha256=AsQs4slhBa5Mc5zyh-BFZZShWvAFGrQO99PNK05amwo,34627
+OWNd-0.6.11.dist-info/LICENSE,sha256=fTqV5eBpeAZO0_jit8j4Ref9ikBSlHJ8xwj5TLg7gFk,7817
+OWNd-0.6.11.dist-info/METADATA,sha256=AEDvivCITHu0ndu3ASSPbwlPElcLJNxUy89kkUilEyM,915
+OWNd-0.6.11.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+OWNd-0.6.11.dist-info/top_level.txt,sha256=D92FFLTdbtC4i0MpYlggWGn3Eh7A3vrgBajWbJzlJc0,5
+OWNd-0.6.11.dist-info/RECORD,,
