@@ -1,0 +1,58 @@
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
+
+[tool.poetry]
+name = "deepqmc"
+version = "0.1.0"
+description = "Deep-learning quantum Monte Carlo for electrons in real space"
+authors = [
+    "Jan Hermann <jan.hermann@fu-berlin.de>",
+    "Zeno Schätzle <zenoone@physik.fu-berlin.de>",
+]
+packages = [
+    { include = "deepqmc", from = "src" },
+]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+toml = "^0.10.0"
+uncertainties = "^3.1.2"
+numpy = "^1.16"
+torch = "^1.2"
+scipy = { version = "^1.2", optional = true }
+pyscf = { version = "^1.6", optional = true }
+pytest = { version = "^4.4", optional = true }
+coverage = { version = "^4.5", optional = true }
+tensorboard = { version = "^2.0", optional = true }
+tqdm = { version = "^4.31", optional = true }
+h5py = { version = "^2.10.0", optional = true }
+sphinx = { version = "^2.2", optional = true }
+Pillow = { version = "^7", optional = true }
+sphinxcontrib-katex = { version = "^0.5.1", optional = true }
+click = { version = "^7.0", optional = true }
+
+[tool.poetry.extras]
+wf = ["scipy", "pyscf"]
+test = ["pytest", "coverage"]
+train = ["tensorboard", "tqdm", "h5py", "Pillow"]
+cli = ["click"]
+doc = ["sphinx", "sphinxcontrib-katex"]
+all = ["scipy", "pyscf", "pytest", "coverage", "tensorboard", "tqdm", "h5py", "Pillow", "click"]
+
+[tool.poetry.dev-dependencies]
+flake8 = "^3.5"
+flake8-bugbear = ">=18.8"
+flake8-comprehensions = ">=1.4"
+flake8-quotes = "^2"
+black = ">=19-beta.0"
+pep8-naming = ">=0.7"
+isort = "^4.3"
+pydocstyle = "^5.0.1"
+
+[tool.poetry.scripts]
+deepqmc = "deepqmc.cli:cli"
+
+[tool.black]
+target-version = ["py37"]
+skip-string-normalization = true
