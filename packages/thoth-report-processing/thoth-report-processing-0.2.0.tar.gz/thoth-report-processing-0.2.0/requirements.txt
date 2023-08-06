@@ -1,0 +1,2 @@
+thoth-storages >=0.24.1
+pandas
