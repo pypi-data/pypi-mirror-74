@@ -1,0 +1,10 @@
+MANIFEST.in
+README.md
+setup.py
+mpl_styles/__init__.py
+mpl_styles.egg-info/PKG-INFO
+mpl_styles.egg-info/SOURCES.txt
+mpl_styles.egg-info/dependency_links.txt
+mpl_styles.egg-info/requires.txt
+mpl_styles.egg-info/top_level.txt
+mpl_styles/styles/seb.mplstyle

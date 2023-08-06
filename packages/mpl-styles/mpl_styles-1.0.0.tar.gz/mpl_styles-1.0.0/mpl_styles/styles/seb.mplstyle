@@ -1,0 +1,51 @@
+# Matplotlib style sebassdc
+
+# Set color cycle: blue, green, yellow, red, violet, gray
+axes.prop_cycle : cycler('color', ['00aeef', '7fc349', '3d505a', '6dcff6', '9da6b1', '004e6f', 'b2f57d'])
+
+# Set default figure size
+figure.figsize : 10, 6
+
+# Set x axis
+xtick.major.size : 0
+xtick.major.width : 1
+xtick.minor.size : 3
+xtick.minor.width : 1
+xtick.minor.visible : False
+xtick.top : False
+
+# Set y axis
+ytick.major.size : 0
+ytick.major.width : 1
+ytick.minor.size : 3
+ytick.minor.width : 2
+ytick.minor.visible : False
+ytick.right : False
+
+# Fontsizes
+xtick.labelsize : 12
+ytick.labelsize : 12
+legend.fontsize : 12
+legend.title_fontsize : 12
+axes.titlesize : 12
+axes.labelsize : 12
+
+# Set line widths
+axes.linewidth : 1
+grid.linewidth : 1
+lines.linewidth : 2.
+
+# Remove legend frame
+legend.frameon : False
+
+# Always save as 'tight'
+savefig.bbox : tight
+savefig.pad_inches : 0.05
+
+# Use serif fonts
+font.serif : Times New Roman
+font.family : serif
+mathtext.fontset : dejavuserif
+
+# Use LaTeX for math formatting
+text.usetex : False

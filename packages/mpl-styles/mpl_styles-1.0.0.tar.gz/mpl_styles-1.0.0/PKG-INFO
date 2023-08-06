@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: mpl_styles
+Version: 1.0.0
+Summary: Add stylesheets to matplotlib
+Home-page: UNKNOWN
+Author: Sebastian Hurtado
+License: UNKNOWN
+Description: # Mpl styles test
+        
+        This is a test package where i create styles for the matplotlib package
+        
+Keywords: matplotlib-styles,python
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
