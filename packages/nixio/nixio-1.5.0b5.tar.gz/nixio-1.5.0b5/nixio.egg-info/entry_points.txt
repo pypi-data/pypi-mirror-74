@@ -1,0 +1,4 @@
+[console_scripts]
+nixio-upgrade = nixio.cmd.upgrade:main
+nixio-validate = nixio.cmd.validate:main
+
