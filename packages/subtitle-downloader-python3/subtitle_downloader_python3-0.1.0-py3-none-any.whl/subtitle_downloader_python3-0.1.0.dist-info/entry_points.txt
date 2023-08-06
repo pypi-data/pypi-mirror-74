@@ -1,0 +1,3 @@
+[console_scripts]
+subtitle-downloader-python3 = subtitle_downloader_python3:main
+
