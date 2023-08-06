@@ -1,0 +1,12 @@
+Metadata-Version: 1.0
+Name: statsdist
+Version: 1.2
+Summary: A simple custom package for working with Statistical distributions. 
+Currently works with Binomial and Gaussian distributions
+Home-page: UNKNOWN
+Author: Oluwadewalade Ade-Onojobi
+Author-email: adewalade@gmail.com
+License: UNKNOWN
+Description-Content-Type: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
