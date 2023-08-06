@@ -1,0 +1,10 @@
+setup.py
+distributions_shivani_781/Binomialdistribution.py
+distributions_shivani_781/Gaussiandistribution.py
+distributions_shivani_781/Generaldistribution.py
+distributions_shivani_781/__init__.py
+distributions_shivani_781.egg-info/PKG-INFO
+distributions_shivani_781.egg-info/SOURCES.txt
+distributions_shivani_781.egg-info/dependency_links.txt
+distributions_shivani_781.egg-info/not-zip-safe
+distributions_shivani_781.egg-info/top_level.txt
