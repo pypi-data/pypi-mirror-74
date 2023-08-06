@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: feature-graph
+Version: 0.2.0
+Summary: A simple DAG orchestrator built specifically for machine learning feature generation
+Author: Murray Vanwyk
+Requires-Python: >=3.7,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: google-cloud-bigquery (>=1.25.0,<2.0.0)
+Requires-Dist: graphviz (>=0.14.1,<0.15.0)
+Requires-Dist: loguru (>=0.5.1,<0.6.0)
