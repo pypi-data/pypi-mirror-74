@@ -1,0 +1,10 @@
+setup.py
+gitmodistributions/Binomialdistribution.py
+gitmodistributions/Gaussiandistribution.py
+gitmodistributions/Generaldistribution.py
+gitmodistributions/__init__.py
+gitmodistributions.egg-info/PKG-INFO
+gitmodistributions.egg-info/SOURCES.txt
+gitmodistributions.egg-info/dependency_links.txt
+gitmodistributions.egg-info/not-zip-safe
+gitmodistributions.egg-info/top_level.txt
