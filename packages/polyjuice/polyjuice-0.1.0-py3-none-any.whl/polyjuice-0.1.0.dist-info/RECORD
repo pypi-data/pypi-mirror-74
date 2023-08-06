@@ -1,0 +1,8 @@
+polyjuice/__init__.py,sha256=vJ_9H4xRFDRI7A8deWC7oLeZxtje6iQfJvu0aXuuCjk,1108
+polyjuice/errors.py,sha256=IwxQMBWqaslJXbrUPX3GvRROdJDrnULDsPlZR_MXTcE,1523
+polyjuice/fields.py,sha256=CDWnHCMyQI4qENru-WpuS5n4OpOqegFItg_64hjsNo4,1415
+polyjuice/options.py,sha256=A3hFjEUYMYFWTmLLOi4MdeugPh9IuXRBrtGxTcn9eoc,1085
+polyjuice/related_fields.py,sha256=PNr0KNAgm7EYRyNkLzcwd4kaexME4Mb1QGKUd9oiguM,1195
+polyjuice-0.1.0.dist-info/WHEEL,sha256=G_NFpzHmv_dUXgCUSAWL0-bLL-eMzYU6DzDeGXbRXUk,83
+polyjuice-0.1.0.dist-info/METADATA,sha256=fxI7n7fe1Ip95K6Lcc-wQWOV5kvQs3LrbEsQaE1zwMg,3529
+polyjuice-0.1.0.dist-info/RECORD,,
