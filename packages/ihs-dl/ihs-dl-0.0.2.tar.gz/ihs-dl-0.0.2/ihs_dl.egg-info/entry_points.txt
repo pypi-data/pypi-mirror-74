@@ -1,0 +1,3 @@
+[console_scripts]
+ihs-dl = ihs_dl:backend
+
