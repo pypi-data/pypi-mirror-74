@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: protox_encoding
+Version: 0.0.2
+Summary: Protox encoding library written in Cython
+Home-page: http://github.com/sergey-tikhonov/protox_encoding
+Author: Sergey Tikhonov
+Author-email: srg.tikhonov@gmail.com
+License: MIT
+Description: # Protox encoding
+        Encoding functions written in Cython to make [protox](https://github.com/sergey-tikhonov/protox) a bit faster
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
