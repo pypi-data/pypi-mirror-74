@@ -1,0 +1,10 @@
+README.md
+setup.py
+web/__init__.py
+web/cli.py
+wkweb.egg-info/PKG-INFO
+wkweb.egg-info/SOURCES.txt
+wkweb.egg-info/dependency_links.txt
+wkweb.egg-info/entry_points.txt
+wkweb.egg-info/requires.txt
+wkweb.egg-info/top_level.txt
