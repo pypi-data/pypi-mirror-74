@@ -1,0 +1,7 @@
+requests==2.22.0
+appdirs==1.4.3
+requests-async==0.6.2
+websocket-client
+deprecation
+nest-asyncio==1.0.0
+pandas
