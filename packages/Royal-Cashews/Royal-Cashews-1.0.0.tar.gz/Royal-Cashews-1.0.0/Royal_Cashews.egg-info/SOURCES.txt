@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+Retail_Management/__init__.py
+Retail_Management/admin.py
+Retail_Management/apps.py
+Retail_Management/models.py
+Retail_Management/tests.py
+Retail_Management/views.py
+Retail_Management/migrations/0001_initial.py
+Retail_Management/migrations/__init__.py
+Royal_Cashews.egg-info/PKG-INFO
+Royal_Cashews.egg-info/SOURCES.txt
+Royal_Cashews.egg-info/dependency_links.txt
+Royal_Cashews.egg-info/top_level.txt
