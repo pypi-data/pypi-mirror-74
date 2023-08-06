@@ -1,0 +1,7 @@
+README.md
+setup.py
+botol6/__init__.py
+botol6.egg-info/PKG-INFO
+botol6.egg-info/SOURCES.txt
+botol6.egg-info/dependency_links.txt
+botol6.egg-info/top_level.txt
