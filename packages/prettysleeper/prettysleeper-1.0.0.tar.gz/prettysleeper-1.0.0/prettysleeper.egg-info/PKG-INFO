@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: prettysleeper
+Version: 1.0.0
+Summary: slpr; A sleep function with Emoji's. It shows a countdown, progress clock (switching emoji's), and my favorite, the Wizard.
+Home-page: https://github.com/NamasteJasutin/wizprint
+Author: NamasteJasutin
+Author-email: justin.duijn@outlook.com
+License: MIT
+Description: # ðŸ•› prettysleeper 
+        ## A Small Gimmick that makes waiting just a bit more fun by introducing a Wizard and a countdown timer to show the current waiting time with a running clock, emoji's and memes.
+        
+        ### How to use:
+        ```
+        # -*- coding: utf-8 -*-
+        from prettysleeper import slpr
+        slpr(10)
+        ```
+        **This will ouput something like this:**
+        ```
+        ðŸ§™   ðŸ•› sleeping for 5 
+        ```
+        When it's done, the message is replaced with an alert:
+        ```
+        ðŸ§™   Done!
+        ```
+        Standard messages show a simple countdown and an alert message after, which can be customized using:
+        ```
+        slpr(1, alert="YEET!")
+        ```
+        **... will look like this:**
+        ```
+        ðŸ§™   ðŸ•› sleeping for 1 
+        ðŸ§™   YEET!
+        True
+        ```
+        
+        *All options:
+        slpr(time, alert="Done!", final=True, wiz="w"):
+        Try loading as module ;)
+        ```
+        python -m wizprint
+        ```
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown

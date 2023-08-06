@@ -1,0 +1,3 @@
+[console_scripts]
+NamasteJasutin = prettysleeper.__main__:main
+
