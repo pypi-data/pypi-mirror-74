@@ -1,0 +1,10 @@
+omi_async_http_client/__init__.py,sha256=nef-37gJm42WmPiFPul9BOtKW0w1EwIdxyPuJrfcpBs,256
+omi_async_http_client/_exceptions.py,sha256=bXQpeVNK67wIsy09x3hsagZ0phiwlADr7Oh2C7KO3ig,928
+omi_async_http_client/_model.py,sha256=K4Cwx_ao2GR8r0ysBAMftnxSSlYktosSLwsJKCj5wOc,2307
+omi_async_http_client/_status_code.py,sha256=fcUQjbWb1cR1MLWU5TWoAWoDRBeX6eUZnfPCb4SI4O8,5191
+omi_async_http_client/aiohttp_backend.py,sha256=bSZPpBT40nFW9pBVuoAxf5r6mKCnypt17OPuOXZuyX8,7697
+omi_async_http_client/async_http_client.py,sha256=rfAEKQyyOKnzOe8OqJcYuL0ENlUbOF7HddJN3VOmPrM,33829
+omi_async_http_client-0.1.1.dist-info/METADATA,sha256=bKD_CC87D-bdssg5qjJCuicUGpYNiSsdrZu98F7iOhQ,399
+omi_async_http_client-0.1.1.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+omi_async_http_client-0.1.1.dist-info/top_level.txt,sha256=2b8F1Jw7MXJ4gs8KbNjeOPcaKgrlPRmDuq0PknYFeFk,22
+omi_async_http_client-0.1.1.dist-info/RECORD,,
