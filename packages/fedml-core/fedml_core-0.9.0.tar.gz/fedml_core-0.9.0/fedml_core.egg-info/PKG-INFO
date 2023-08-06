@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: fedml-core
+Version: 0.9.0
+Summary: FedML
+Home-page: https://github.com/chaoyanghe/fedml
+Author: Chaoyang He
+Author-email: chaoyanghe.com@gmail.com
+License: UNKNOWN
+Description: FedML: A Flexible and Generic Federated Machine Learning Library and Benchmark
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
