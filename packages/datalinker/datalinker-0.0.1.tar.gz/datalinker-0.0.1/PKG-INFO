@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: datalinker
+Version: 0.0.1
+Summary: Data sharing mechanism between the Python files across the process
+Home-page: https://github.com/TBD
+Author: Satish Chougule
+Author-email: satishrajc@gmail.com
+License: UNKNOWN
+Description: this package helps you to share the data across teh Python files.
+        Once you set the data in any files and you wnat to fetch it in any other 
+        Python file then you can do it easily with this package.
+        
+        
+        ## Installation
+        Run the following to install
+        
+        ```
+        pip install datalinker
+        ```
+        
+        ## Usage
+        #### Import
+        ```
+        import datalinker
+        data_linker = datalinker.DataLinker().run()
+        ```
+        #### Setting the data
+        ```
+        data_linker.set("varible_name", "variable_value")
+        ```
+        
+        #### Getting the data
+        ```
+        data_linker.get("varible_name")
+        ```
+        
+        We need to import the files in all the Python files.
+        Once we import then we do *get/set* the data.
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
