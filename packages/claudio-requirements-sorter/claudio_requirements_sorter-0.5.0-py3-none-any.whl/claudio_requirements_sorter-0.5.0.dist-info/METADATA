@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: claudio-requirements-sorter
+Version: 0.5.0
+Summary: Sort requirements file for python 
+Home-page: https://github.com/1elie21356/claudio-sorter
+Author: Elie
+Author-email: 1elie21356@gmail.com
+License: MIT license
+Keywords: claudio_requirements_sorter
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.8
+Requires-Dist: click (==7.1.2)
+
+# claudio-requirements-sorter
+
+## The way requirements files should look 
+
+### Install
+pip install claudio_requirements_sorter
+
+### Usage
+claudio_requirements_sorter requirements.txt requirements.txt
+
+
