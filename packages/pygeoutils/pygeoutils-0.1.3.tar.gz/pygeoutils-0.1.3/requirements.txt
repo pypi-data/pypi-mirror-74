@@ -1,0 +1,7 @@
+geopandas
+pygeoogc
+rasterio
+setuptools
+shapely
+simplejson
+xarray
