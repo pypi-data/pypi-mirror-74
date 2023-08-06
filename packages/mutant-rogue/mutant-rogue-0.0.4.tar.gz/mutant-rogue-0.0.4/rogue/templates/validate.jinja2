@@ -1,0 +1,9 @@
+Errors: {{errors}}
+Warnings: {{warnings}}
+{% for item in states %}
+{{item.name}}: {{item.status}} 
+{%- for msg in item.messages %}
+    {{ msg }}
+{% endfor -%}
+
+{% endfor %}
