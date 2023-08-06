@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: decoratemethod
+Version: 0.1.0
+Summary: Let function decorator decorate the bound method of per instance.
+Home-page: https://github.com/Cologler/decoratemethod-python
+License: MIT
+Author: Cologler
+Author-email: skyoflw@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Project-URL: Repository, https://github.com/Cologler/decoratemethod-python
+Description-Content-Type: text/markdown
+
+# decoratemethod-python
+
+Let function decorator decorate the bound method of per instance.
+
+## Examples
+
+### lru_cache
+
+To make per instance has they own lru cache:
+
+``` py
+from functools import lru_cache
+from decoratemethod import decorate
+
+class Foo:
+    @decorate(lru_cache)
+    def decorated_method(self, x):
+        ...
+```
+
