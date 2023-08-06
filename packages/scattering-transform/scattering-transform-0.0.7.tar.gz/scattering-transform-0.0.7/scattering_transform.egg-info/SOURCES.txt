@@ -1,0 +1,9 @@
+README.md
+setup.py
+scattering_transform/__init__.py
+scattering_transform/scattering_transform.py
+scattering_transform.egg-info/PKG-INFO
+scattering_transform.egg-info/SOURCES.txt
+scattering_transform.egg-info/dependency_links.txt
+scattering_transform.egg-info/requires.txt
+scattering_transform.egg-info/top_level.txt
