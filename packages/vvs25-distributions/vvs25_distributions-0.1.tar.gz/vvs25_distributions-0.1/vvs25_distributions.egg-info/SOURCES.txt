@@ -1,0 +1,10 @@
+setup.py
+vvs25_distributions/Binomialdistribution.py
+vvs25_distributions/Gaussiandistribution.py
+vvs25_distributions/Generaldistribution.py
+vvs25_distributions/__init__.py
+vvs25_distributions.egg-info/PKG-INFO
+vvs25_distributions.egg-info/SOURCES.txt
+vvs25_distributions.egg-info/dependency_links.txt
+vvs25_distributions.egg-info/not-zip-safe
+vvs25_distributions.egg-info/top_level.txt
