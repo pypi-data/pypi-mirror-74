@@ -1,0 +1,10 @@
+README.md
+setup.py
+src/osm_clipper.py
+src/osm_clipper.egg-info/PKG-INFO
+src/osm_clipper.egg-info/SOURCES.txt
+src/osm_clipper.egg-info/dependency_links.txt
+src/osm_clipper.egg-info/entry_points.txt
+src/osm_clipper.egg-info/not-zip-safe
+src/osm_clipper.egg-info/requires.txt
+src/osm_clipper.egg-info/top_level.txt
