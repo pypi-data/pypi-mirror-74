@@ -1,0 +1,8 @@
+README.md
+setup.py
+folding_at_home.egg-info/PKG-INFO
+folding_at_home.egg-info/SOURCES.txt
+folding_at_home.egg-info/dependency_links.txt
+folding_at_home.egg-info/entry_points.txt
+folding_at_home.egg-info/requires.txt
+folding_at_home.egg-info/top_level.txt
