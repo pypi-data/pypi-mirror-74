@@ -1,0 +1,9 @@
+ocr4all-pixel-classifier~=0.4
+tqdm
+pypagexml
+
+[tf_cpu]
+tensorflow<2.1.0,>=2.0.0
+
+[tf_gpu]
+tensorflow-gpu<2.1.0,>=2.0.0

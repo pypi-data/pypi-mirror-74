@@ -1,0 +1,3 @@
+ocr4all-pixel-classifier~=0.4
+tqdm
+pypagexml
