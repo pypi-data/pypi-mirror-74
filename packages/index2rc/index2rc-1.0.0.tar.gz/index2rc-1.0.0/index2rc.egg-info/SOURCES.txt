@@ -1,0 +1,7 @@
+setup.py
+index2rc/__init__.py
+index2rc.egg-info/PKG-INFO
+index2rc.egg-info/SOURCES.txt
+index2rc.egg-info/dependency_links.txt
+index2rc.egg-info/entry_points.txt
+index2rc.egg-info/top_level.txt

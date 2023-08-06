@@ -1,0 +1,11 @@
+Metadata-Version: 1.2
+Name: index2rc
+Version: 1.0.0
+Summary: Creates illumina samplesheet with the reverse complement of the second index (index2).
+Home-page: https://github.com/ssi-dk/index2rc
+Author: Martin Basterrechea
+Author-email: mbas@ssi.dk
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6
