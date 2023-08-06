@@ -1,0 +1,3 @@
+[console_scripts]
+reco_ai=reco_ai.script:main
+
