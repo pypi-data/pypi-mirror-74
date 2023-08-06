@@ -1,0 +1,3 @@
+[console_scripts]
+sway-xkb-switcher=sway_xkb_switcher.switcher:main
+
