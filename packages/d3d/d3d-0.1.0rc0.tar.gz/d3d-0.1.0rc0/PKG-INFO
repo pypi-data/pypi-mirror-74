@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: d3d
+Version: 0.1.0rc0
+Summary: Customized tools for 3D object detection
+Home-page: https://github.com/cmpute/d3d
+Author: Jacob Zhong
+Author-email: cmpute@gmail.com
+License: BSD-3-Clause
+Download-URL: https://github.com/cmpute/d3d/archive/master.zip
+Description: (see project homepage)
+Keywords: detection,3d
+Platform: UNKNOWN
+Classifier: Programming Language :: C++
+Classifier: Programming Language :: Cython
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Topic :: Scientific/Engineering
+Provides-Extra: test
