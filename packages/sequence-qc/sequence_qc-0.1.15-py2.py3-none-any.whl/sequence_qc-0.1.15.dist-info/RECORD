@@ -1,0 +1,10 @@
+sequence_qc/__init__.py,sha256=ZbFxKcUsv9ni8Yb5I2gPTR09RPGypu-5JBHNgyBfNzc,129
+sequence_qc/cli.py,sha256=AJTXRiw_tCu4dDjRoVMJRQLVH63gaOq2d1WNzUxwxu0,1664
+sequence_qc/noise.py,sha256=HdlEpgqqPoWFS4hEBJqyPZNzRtLWvvQPdZb7CW1XZsc,7799
+sequence_qc-0.1.15.dist-info/AUTHORS.rst,sha256=o7MdL5jVXEV1BVqtsE6YIjYaT608F5hGYX6C3UVcCFg,155
+sequence_qc-0.1.15.dist-info/LICENSE,sha256=-3LDkxvDDnxpYgorsfccDAEuK7Tr8UAPGX4pkm87LZ8,582
+sequence_qc-0.1.15.dist-info/METADATA,sha256=ge-gKWLOYGV5xLadjxbcegPLJObeY7v45kDXI2MHchM,1796
+sequence_qc-0.1.15.dist-info/WHEEL,sha256=8zNYZbwQSXoB9IfXOjPfeNwvAsALAjffgk27FqvCWbo,110
+sequence_qc-0.1.15.dist-info/entry_points.txt,sha256=LmuLntIY3mHUo0iOpafDauq5gDD1D2DhYAC3IJhdbxY,69
+sequence_qc-0.1.15.dist-info/top_level.txt,sha256=bNnaYGqJPNTQgD_BF5f45fKk0gFnRi8ZixDtxub_qxc,12
+sequence_qc-0.1.15.dist-info/RECORD,,
