@@ -1,0 +1,7 @@
+pytest
+pytest-html
+pytest-orderingselenium
+jmespath
+requests
+pyyaml
+Appium-Python-Client
