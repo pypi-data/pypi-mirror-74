@@ -1,0 +1,9 @@
+README.md
+setup.py
+libgen/__init__.py
+libgen/scraper.py
+libgen.egg-info/PKG-INFO
+libgen.egg-info/SOURCES.txt
+libgen.egg-info/dependency_links.txt
+libgen.egg-info/requires.txt
+libgen.egg-info/top_level.txt
