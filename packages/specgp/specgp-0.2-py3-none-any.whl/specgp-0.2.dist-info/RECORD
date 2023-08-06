@@ -1,0 +1,8 @@
+specgp/__init__.py,sha256=UshY6W-8v0Y5jcvBgwhHY6YUQbYjmWq_72ut3nNvXt8,102
+specgp/distributions.py,sha256=JsAfWB9T_ExkL4-LEgPHHn3NM1ElearoBgiwwwqQXCU,651
+specgp/means.py,sha256=ltmKYwHWonUaOq05Qhj9jWsKUKMVO2yRFqe-E21r8K0,509
+specgp/terms.py,sha256=k07grT5_rSoc6ih3ycAPrE7vJTwYRLH4K3VGvK-8aYE,8622
+specgp-0.2.dist-info/METADATA,sha256=3Wu0r-jbnp_0wShYxli7y8D7i5E5uGu2Wi8ivqLgQ-M,724
+specgp-0.2.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+specgp-0.2.dist-info/top_level.txt,sha256=pZ_pPt5rA8GCw3bogaU1MX-EOgXccmZtYeDQbnn4MM0,7
+specgp-0.2.dist-info/RECORD,,
