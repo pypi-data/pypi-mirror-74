@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: nectarine
+Version: 0.0.1
+Summary: Library to load configuration from various sources
+Home-page: https://github.com/doom/nectarine
+Author: Clément Doumergue
+Author-email: clement.doumergue@etna.io
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Provides-Extra: yaml
+Requires-Dist: PyYAML ; extra == 'yaml'
+
+UNKNOWN
+
+
