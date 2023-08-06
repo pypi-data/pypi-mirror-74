@@ -1,0 +1,4 @@
+[console_scripts]
+arpoc = arpoc.__main__:main
+foobar = arpoc.__main__:main
+
