@@ -1,0 +1,7 @@
+Metadata-Version: 1.1
+Name: datadict
+Version: 0.1.0
+Summary: Add dictionary-like capabilities to dataclasses
+Home-page: https://github.com/gahjelle/datadict
+Author: Geir Arne Hjelle
+Author-email: geirarne@gmail.com
