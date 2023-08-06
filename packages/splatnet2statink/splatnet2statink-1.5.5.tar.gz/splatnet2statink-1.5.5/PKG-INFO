@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: splatnet2statink
+Version: 1.5.5
+Summary: Upload battle data from to stat.ink from SplatNet2
+Home-page: http://github.com/wkentaro/splatnet2statink
+Author: frozenpandaman
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3 :: Only
+Description-Content-Type: text/markdown
