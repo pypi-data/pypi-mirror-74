@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+app/__init__.py
+app/admin.py
+app/apps.py
+app/models.py
+app/tests.py
+app/views.py
+my_first_project.egg-info/PKG-INFO
+my_first_project.egg-info/SOURCES.txt
+my_first_project.egg-info/dependency_links.txt
+my_first_project.egg-info/top_level.txt
