@@ -1,0 +1,43 @@
+# Downsampling high resolution images using the scattering transform
+Atlasing high resolution data,Scattering transform, Visualization of imges, Downsampling with multiple methods
+
+# Usage
+`python3 -m scatter_downsample -i IMAGE -n NUMBER OF DOWNSAMPLE [-s] [filtered standard deviation channels] [-d] [directions for gaussian] [-m] [methods]`
+
+or 
+
+`import scatter_downsample` in python3 environment
+
+## ScatterDown(img,ndown2,filtered_std=2,method=1,direction=2):
+Input:
+
+    - img: input image
+    - ndown2: how many times to downsample by a factor of 2
+    - filtered_std: how many standard deviations maximum should not get filtered out (default 2)
+    - direction numbers: for gaussian downsampling (default 2)
+    - method: (default 1)
+        - 2*2 mean and standard deviation (1)
+        - 2*2 mean and standard deviation with directions (2)
+        - Gaussian filtering (3)
+
+Output: 
+
+    - high dimensional image in ndarray form
+    - labels for each channel
+    - an example visualization that you save as a png file
+
+# Tests
+installed by: `python -m unittest tests/testcase.py`
+
+- an example image to test for the shape of output image and labels for method 1 (mean and std)
+
+# Versions
+## 0.2.4
+- Add options for Gaussian Downsampling
+- Add Gaussian Flipping and Rotations methods
+- Setup requirements.txt for auto download required modules
+
+## 0.2.0
+Add in updated methods (mean/std with directions and gaussian filtering), add command line interfaces with argparse
+
+
