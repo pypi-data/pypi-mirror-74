@@ -1,0 +1,3 @@
+[console_scripts]
+rusyll=rusyll.rusyll:main
+
