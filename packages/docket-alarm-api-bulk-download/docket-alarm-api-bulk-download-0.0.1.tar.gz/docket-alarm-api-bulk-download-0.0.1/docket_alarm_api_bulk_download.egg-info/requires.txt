@@ -1,0 +1,10 @@
+stdiomask
+colorama
+progress
+pandas
+tqdm
+requests
+retrying
+PyPDF2
+PySimpleGUI
+openpyxl
