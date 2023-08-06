@@ -1,0 +1,10 @@
+pyyaml
+tpDcc-libs-python
+tpDcc-core
+tpDcc-libs-qt
+
+[dev]
+wheel
+
+[test]
+pytest
