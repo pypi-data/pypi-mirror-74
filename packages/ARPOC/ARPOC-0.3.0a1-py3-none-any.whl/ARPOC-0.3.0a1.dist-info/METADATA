@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: ARPOC
+Version: 0.3.0a1
+Summary: An Authentication Reverse Proxy using OpenID Connect
+Home-page: https://git.scc.kit.edu/m-team/arpoc/
+Author: Konstantin Zangerle
+Author-email: info@konstantinzangerle.de
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Natural Language :: English
+Classifier: Topic :: System :: Systems Administration
+Requires-Python: >=3.7
+Requires-Dist: cherrypy
+Requires-Dist: jinja2
+Requires-Dist: lark-parser
+Requires-Dist: oic (>=1.1.2)
+Requires-Dist: pyjwkest (>=1.4.2)
+Requires-Dist: pyyaml
+Requires-Dist: routes
+
+UNKNOWN
+
+
