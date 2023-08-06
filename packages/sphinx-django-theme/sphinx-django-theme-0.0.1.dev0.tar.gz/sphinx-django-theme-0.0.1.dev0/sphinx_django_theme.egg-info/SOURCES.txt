@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+sphinx_django_theme/__init__.py
+sphinx_django_theme.egg-info/PKG-INFO
+sphinx_django_theme.egg-info/SOURCES.txt
+sphinx_django_theme.egg-info/dependency_links.txt
+sphinx_django_theme.egg-info/not-zip-safe
+sphinx_django_theme.egg-info/top_level.txt
