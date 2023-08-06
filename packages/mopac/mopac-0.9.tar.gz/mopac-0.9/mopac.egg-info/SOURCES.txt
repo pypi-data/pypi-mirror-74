@@ -1,0 +1,10 @@
+README.md
+setup.py
+mopac/__init__.py
+mopac/mopac.py
+mopac.egg-info/PKG-INFO
+mopac.egg-info/SOURCES.txt
+mopac.egg-info/dependency_links.txt
+mopac.egg-info/entry_points.txt
+mopac.egg-info/requires.txt
+mopac.egg-info/top_level.txt
