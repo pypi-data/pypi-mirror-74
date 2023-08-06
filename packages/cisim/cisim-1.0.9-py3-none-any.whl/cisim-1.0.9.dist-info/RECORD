@@ -1,0 +1,10 @@
+cisim/__init__.py,sha256=NtdUe7aKhZdDs_uzoFjxB9lUnIfl327lbzt8p0fjjHQ,21
+cisim/core.py,sha256=6hlIyWGU4x-psfgzuDT_IKHg0G5Y09U9L5DU4d82hNk,202
+cisim/helpers.py,sha256=mqOZRGnOl9QuWUl07BDBWYxCypATJxO8xn0MDXVJLEg,59
+cisim/schemas.py,sha256=7Cq2aN-aszzR-4hqjrLL3iGSUly0YPFUfPxbET4D8x8,535
+cisim/stats.py,sha256=TgP5CYs7UxmP_IXYg2XF-y5GczVMQ95gPd1olXLbl_c,5544
+cisim-1.0.9.dist-info/LICENSE,sha256=QJqAAuPmGxBy5eUxCc4QjGmaNq0SfhsG7hhivCFhPGE,1055
+cisim-1.0.9.dist-info/METADATA,sha256=V2IXnXcjd1HZqJcd9l9FzuX5uGDX1dVGjamAk9QDkKk,577
+cisim-1.0.9.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+cisim-1.0.9.dist-info/top_level.txt,sha256=f1K-b46gAIUyoQ68FkqO_ONuxKTNrmN5RMavEhmECWA,6
+cisim-1.0.9.dist-info/RECORD,,
