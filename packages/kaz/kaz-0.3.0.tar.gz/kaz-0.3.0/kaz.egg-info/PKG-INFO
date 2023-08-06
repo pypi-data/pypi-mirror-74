@@ -1,0 +1,11 @@
+Metadata-Version: 1.2
+Name: kaz
+Version: 0.3.0
+Summary: A simple storage cli
+Home-page: https://github.com/clabe45/kaz
+Author: Caleb Sacks
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/clabe45/kaz/issues
+Description: UNKNOWN
+Keywords: storage cli
+Platform: UNKNOWN
