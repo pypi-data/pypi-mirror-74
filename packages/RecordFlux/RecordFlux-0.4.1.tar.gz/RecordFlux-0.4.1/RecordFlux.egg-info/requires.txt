@@ -1,0 +1,15 @@
+icontract<3,>=2.3.4
+pydotplus<3,>=2
+pyparsing<3,>=2.4.0
+z3-solver<5,>=4
+
+[devel]
+black
+coverage<5,>=4
+flake8<4,>=3
+isort<5,>=4
+mypy>=0.770
+pyicontract-lint<3,>=2.0.0
+pylint<3,>=2.5.0
+pytest<6,>=5
+pytest-xdist<2,>=1
