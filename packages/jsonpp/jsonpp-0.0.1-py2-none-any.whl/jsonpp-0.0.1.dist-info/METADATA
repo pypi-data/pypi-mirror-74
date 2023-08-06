@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: jsonpp
+Version: 0.0.1
+Summary: JSON prettyprint in commandline
+Home-page: https://github.com/sahil865gupta/jsonpp
+Author: Sahil Gupta
+Author-email: sahil865gupta@gmail.com
+License: MIT
+Keywords: command-line,pretty-print,colorful
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: Pygments (==2.5.2)
+
+# jsonpp
+> JSON commandline prettifier
+
+
+## Install
+```shell script
+$ pip install jsonpp
+```
+
+## Usage
+
+ ```shell script
+$ echo '{"userId": 1,"id": 1,"title": "foo bar","completed": false}' | jsonpp  
+```
+![echo](https://github.com/sahil865gupta/jsonpp/blob/master/assets/echo.png)
+
+```shell script
+$ curl  https://jsonplaceholder.typicode.com/todos/1 | jsonpp   
+```
+
+![curl](https://github.com/sahil865gupta/jsonpp/blob/master/assets/curl.png)
+
+
