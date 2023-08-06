@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: xlOil
+Version: 0.3.2
+Summary: Excel interop for Python and Jupyter
+Home-page: https://gitlab.com/stevecu/xloil
+Author: Steven Cunnane
+Author-email: my-surname@gmail.com
+License: Apache
+Download-URL: https://gitlab.com/stevecu/xloil/-/releases/
+Project-URL: Documentation, https://xloil.readthedocs.io
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: C++
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Office/Business :: Financial :: Spreadsheet
+Classifier: Framework :: Jupyter
+Classifier: Operating System :: Microsoft :: Windows
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+
+# xlOil
+
+xlOil is a framework for building Excel language bindings. That is, a way to write functions in a language of your choice and have them appear in Excel.
+
+xlOil is designed to have very low overheads when calling your own worksheet functions.
+
+xlOil supports different languages via plugins. The languages currently supported are:
+
+- C++
+- Python
+- SQL
+
+See the documentation at https://xloil.readthedocs.io
+
+
+
