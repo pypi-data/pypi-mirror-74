@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: yadirstat
+Version: 1.0.1
+Summary: Получение статистики из Яндекс Директ
+Home-page: https://github.com/Lubiviy/yadirstat
+Author: Lubiviy Alexander
+Author-email: lybiviyalexandr@gmail.com
+License: UNKNOWN
+Description: Это бибилиотека для получения статистики из Яндекс Директ.
+        С помощью нее можно получить статистику по кампаниям, ключам, запросам
+Platform: UNKNOWN
