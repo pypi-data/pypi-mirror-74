@@ -1,0 +1,10 @@
+pillow
+matplotlib
+sklearn
+seaborn
+dnspython
+pandas
+pymongo
+numpy
+IPython
+graphviz
