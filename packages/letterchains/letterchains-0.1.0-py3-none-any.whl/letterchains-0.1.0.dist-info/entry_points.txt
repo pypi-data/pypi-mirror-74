@@ -1,0 +1,3 @@
+[console_scripts]
+letterchains=letterchains.main:cli
+
