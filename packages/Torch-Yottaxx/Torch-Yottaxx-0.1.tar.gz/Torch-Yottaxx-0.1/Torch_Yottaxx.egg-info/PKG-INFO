@@ -1,0 +1,14 @@
+Metadata-Version: 1.2
+Name: Torch-Yottaxx
+Version: 0.1
+Summary: a simple autograd library
+Home-page: https://github.com/Yottaxx
+Author: Yotta
+Author-email: xiaoz987@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
