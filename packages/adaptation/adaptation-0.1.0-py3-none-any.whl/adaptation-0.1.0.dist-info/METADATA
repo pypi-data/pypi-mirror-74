@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: adaptation
+Version: 0.1.0
+Summary: Awesome Domain Adaptation Package Toolbox
+Home-page: https://github.com/antoinedemathelin/adapt.git
+Author: Antoine de Mathelin
+Author-email: antoine.de_mathelin@cmla.ens-cachan.fr
+License: BSD-2
+Platform: UNKNOWN
+Requires-Dist: numpy (>=1.16)
+Requires-Dist: scipy (>=1.0)
+Requires-Dist: tensorflow (>=2.0)
+Requires-Dist: scikit-learn (>=0.2)
+
+UNKNOWN
+
+
