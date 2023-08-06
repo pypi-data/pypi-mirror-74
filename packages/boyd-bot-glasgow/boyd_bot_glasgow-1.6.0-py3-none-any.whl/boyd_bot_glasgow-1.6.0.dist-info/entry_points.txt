@@ -1,0 +1,3 @@
+[console_scripts]
+boyd_bot = boyd_bot.__main__:main
+
