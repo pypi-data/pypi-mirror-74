@@ -1,0 +1,22 @@
+Metadata-Version: 1.1
+Name: USCrimes
+Version: 0.4
+Summary: Quick and easy access to atrocities committed by the US Government.
+Home-page: https://github.com/Ocramoi/USCrimes
+Author: Marco Antonio Ribeiro de Toledo
+Author-email: marcoantonioribeirodetoledo@gmail.com
+License: MIT
+Download-URL: https://github.com/Ocramoi/USCrimes/archive/v0.3.tar.gz
+Description: UNKNOWN
+Keywords: us,atrocities,politics
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
