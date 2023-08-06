@@ -1,0 +1,8 @@
+classifier
+fouriertrf
+geneticalg
+marketdata
+montecarlo
+neuralnets
+statistics
+timeseries
