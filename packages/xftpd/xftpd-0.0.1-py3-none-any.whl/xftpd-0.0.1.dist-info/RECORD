@@ -1,0 +1,10 @@
+xftpd/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+xftpd/ftp_server/__init__.py,sha256=PTIHTqXkjWFektrrTXoMSzkcKtHNnAii43ueiLaBTYA,2270
+xftpd/ftps_server/__init__.py,sha256=VVXRMy7XERNbVBDs7NmGk8vYcdo-phQOYCNJplE93B4,2153
+xftpd/sftp_server/__init__.py,sha256=cJ5ibTffe4eE9pbVIrZhrl4oSMbO8AyieiP4z2iDLJ0,5087
+xftpd/tftp_server/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+xftpd-0.0.1.dist-info/LICENSE,sha256=zkrJNNPH3_8MicOXgFoARDnU0BDZ4iQZWiqYddk-n9E,1066
+xftpd-0.0.1.dist-info/METADATA,sha256=HIpAh6B0tlWwjfxj8Waw3HTKPnQccJ5wxK_PQdhqNKQ,3468
+xftpd-0.0.1.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+xftpd-0.0.1.dist-info/top_level.txt,sha256=5-cNgmlDllF6yFqTDe-ivQEiZoDfO5rUf0sGd7jVta8,6
+xftpd-0.0.1.dist-info/RECORD,,
