@@ -1,0 +1,8 @@
+anchors/__init__.py,sha256=7fSZF4vpGefSV6rhqsTBZQcyH4Iu5KXaTyYcVc12kcU,182
+anchors/core.py,sha256=atzUMYsHNL20ApX_xuBAE8sMzQ1G13EZR_qtIwC9x38,31270
+anchors/objc_plus.py,sha256=aRC-bcY5qigd0n9zGjf40481Slp06lZZ-tkZRTgsZXM,5255
+anchors/observer.py,sha256=ebx4dtZJvtoA5y4EBANBubqm-zravCX6-uq4WGrDiGk,1643
+anchors/safe_area.py,sha256=Tc02jeezyb4dWWClpgqeao-W7tiIbhZKHuDB4xG5FRE,1254
+pythonista_anchors-2020.7.24.dist-info/WHEEL,sha256=VCdoNBk3hWpF-6e5lKoFTDe2J_z3c2Yvza9_dZz7drc,99
+pythonista_anchors-2020.7.24.dist-info/METADATA,sha256=hjAkuGns0SB4uB9qbamH0Tjb5Q1bfPyMVXx7Sp8gPPk,9280
+pythonista_anchors-2020.7.24.dist-info/RECORD,,
