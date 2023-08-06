@@ -1,0 +1,5 @@
+prettytable<1
+ipython>=1.0
+influxdb-client
+six
+ipython-genutils>=0.1.0
