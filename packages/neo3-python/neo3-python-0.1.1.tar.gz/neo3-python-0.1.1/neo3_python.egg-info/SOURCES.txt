@@ -1,0 +1,12 @@
+README.rst
+setup.cfg
+setup.py
+neo3/__init__.py
+neo3/blockchain.py
+neo3_python.egg-info/PKG-INFO
+neo3_python.egg-info/SOURCES.txt
+neo3_python.egg-info/dependency_links.txt
+neo3_python.egg-info/entry_points.txt
+neo3_python.egg-info/not-zip-safe
+neo3_python.egg-info/requires.txt
+neo3_python.egg-info/top_level.txt
