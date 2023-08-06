@@ -1,0 +1,14 @@
+nindo/__init__.py,sha256=9Z5OqUwoI-uiRvNCm1JKt1Rgp7pAjbqJipuK1_21zEU,3863
+nindo/artist.py,sha256=1DL-1ig2OdKWV65LFJxs7warLSVlgyJPJI-V7RRV1tM,187
+nindo/brand.py,sha256=LjLRXPvVM_ZzP9t6DyGfg-okc3V-lvO0SPbRY6i_wNo,287
+nindo/channel.py,sha256=cenkNF72j_T90roIsWiSBvEkTIvhSpK94gFPaDmbwTY,251
+nindo/charts.py,sha256=zQ8bkSg2uSmS8N9OybEJofESeYv4mM7l2ucOzgoxUUw,349
+nindo/coupon.py,sha256=cPGno_0bcMt6nGv4J1tAZskLPUS1vPz31Vj_u298JlE,530
+nindo/milestone.py,sha256=mk9YVGDo53spxWMhamkCMEzayoO_RHUTvPaobwGntJ4,384
+nindo/post.py,sha256=ASxQfaVzL3m2B5CRa2t8joueDM88O8VVR3TdBt1jk1I,572
+nindo/types.py,sha256=KkBviePBQ7mjGsVHAmM-gha06IfyFJzBnodUGRT546E,465
+nindo/viral.py,sha256=bzgkTRFCxNe9Lyai0U4RWEV1yEfMhUnsVnmZUJAFwkI,312
+nindo-0.0.2.dist-info/METADATA,sha256=zcMtDvxdyFUWNuB-_zyvXdOQ7WeFc95hD4dp_5RpwRk,2853
+nindo-0.0.2.dist-info/RECORD,,
+nindo-0.0.2.dist-info/WHEEL,sha256=pZyAqgNAylOf0KG_hPHMtuuY08rV3WzWwZu2OTsNnnw,97
+nindo-0.0.2.dist-info/top_level.txt,sha256=Bm0JS0jsZQwpNw8kIyT3u98HmV6q6jP4hgYPOjS3rPM,6
