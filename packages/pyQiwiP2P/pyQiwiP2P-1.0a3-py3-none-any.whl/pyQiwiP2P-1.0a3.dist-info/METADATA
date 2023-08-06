@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: pyQiwiP2P
+Version: 1.0a3
+Summary: pyQiwiP2P
+Home-page: https://github.com/WhiteApfel/pyQiwiP2P
+Author: WhiteApfel pfel.cc
+Author-email: white@pfel.ru
+License: Mozilla Public License 2.0
+Project-URL: Документальное чтиво, https://pyqiwip2p.readthedocs.io/ru/latest/
+Project-URL: На морожешку и кофеёк, https://rocketbank.ru/whiteapfel
+Project-URL: Оставить пару ласковых, https://saythanks.io/to/white%40pfel.ru
+Project-URL: Это сделано из этого, https://github.com/pypa/sampleproject/
+Project-URL: А поговорить можно тут, https://t.me/apfel
+Platform: UNKNOWN
+Requires-Dist: cherrypy
+Requires-Dist: phonenumbers
+Requires-Dist: email-validator
+
+UNKNOWN
+
+
