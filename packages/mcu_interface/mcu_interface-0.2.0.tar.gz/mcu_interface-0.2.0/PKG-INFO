@@ -1,0 +1,7 @@
+Metadata-Version: 1.1
+Name: mcu_interface
+Version: 0.2.0
+Summary: mcu_interface handles basic communication with MCUs
+Home-page: http://kiibohd.com
+Author: Jacob Alexander
+Author-email: haata@kiibohd.com
