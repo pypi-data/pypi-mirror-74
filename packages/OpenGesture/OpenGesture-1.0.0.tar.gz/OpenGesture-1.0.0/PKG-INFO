@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: OpenGesture
+Version: 1.0.0
+Summary: Customizable numerical hand recognition
+Home-page: https://gitlab.com/esrh/cvgesture-functions
+Author: Gatlen Culp, Eshan Ramesh
+License: UNKNOWN
+Description: Customizable numerical gesture recognition
+        
+        Developed as the final project for YSOP 2020.
+        
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown

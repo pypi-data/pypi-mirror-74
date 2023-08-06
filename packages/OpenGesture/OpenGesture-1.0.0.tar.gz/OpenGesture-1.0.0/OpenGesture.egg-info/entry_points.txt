@@ -1,0 +1,3 @@
+[console_scripts]
+opengesture = opengesture.numberrecog:main
+
