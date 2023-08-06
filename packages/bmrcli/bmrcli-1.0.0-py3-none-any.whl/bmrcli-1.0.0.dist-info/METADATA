@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: bmrcli
+Version: 1.0.0
+Summary: BMR HC64 command-line tool
+Home-page: http://github.com/dankeder/bmrcli
+Author: Dan Keder
+Author-email: dan.keder@protonmail.com
+License: UNKNOWN
+Keywords: bmr hc64 heating home-automation
+Platform: UNKNOWN
+Requires-Dist: cachetools (==4.1.0)
+Requires-Dist: certifi (==2020.6.20)
+Requires-Dist: chardet (==3.0.4)
+Requires-Dist: idna (==2.9)
+Requires-Dist: pybmr (==0.7.1)
+Requires-Dist: requests-toolbelt (==0.9.1)
+Requires-Dist: requests (==2.24.0)
+Requires-Dist: ruamel.yaml.clib (==0.2.0)
+Requires-Dist: ruamel.yaml (==0.16.10)
+Requires-Dist: urllib3 (==1.25.9)
+
+UNKNOWN
+
+
