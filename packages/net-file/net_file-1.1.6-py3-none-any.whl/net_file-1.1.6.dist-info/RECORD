@@ -1,0 +1,15 @@
+examples/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+examples/tutorial.py,sha256=Oj69nMFAij06lvAuiVr-c37sNUY5vY0IGL_PgqB3umY,1623
+net_file/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+net_file/common.py,sha256=vdJkIhbi5cgH7ih0lnfhJEFET0qzvL_WzkcBQDcDO_4,673
+net_file/http_file.py,sha256=TBklfsa9lbwz1M3QyZln-ykNv8JX-NvqHdqCbY7v-Q8,3465
+net_file/local_file.py,sha256=N3Y8Yynr5a18mvUyEZkt3VLKxVsd6F5V3Q2S6NQTaeo,3240
+net_file/net_file.py,sha256=7KpoXN_DADC9KJwVAYw26kxhVGlGVb2tev-8Ix8wYGo,1141
+net_file/sftp_file.py,sha256=vsw3J-oDYlWN-JMk60Wf-oTSysmn-HloTFiCOFJNWDE,3190
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_read_local_file.py,sha256=BS__DnxzW1pcSvwvdxQ-XaNwDTUgh9GZYPp7eTePT0c,583
+net_file-1.1.6.dist-info/LICENSE,sha256=r3XkCGMX8w2A3xu_JM1qtpQt43STNNi_0INlqvwEMO8,1069
+net_file-1.1.6.dist-info/METADATA,sha256=cwd3Ios1oQzW1OUrBLSHTlpqv2NKTANV1IvH51fP9m4,1838
+net_file-1.1.6.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+net_file-1.1.6.dist-info/top_level.txt,sha256=Wl1IzPu3DqecO-5KmYrG2xE4HyYfwuaEYLPAdyVLLD4,24
+net_file-1.1.6.dist-info/RECORD,,
