@@ -1,0 +1,6 @@
+README.md
+setup.py
+opendt.egg-info/PKG-INFO
+opendt.egg-info/SOURCES.txt
+opendt.egg-info/dependency_links.txt
+opendt.egg-info/top_level.txt
