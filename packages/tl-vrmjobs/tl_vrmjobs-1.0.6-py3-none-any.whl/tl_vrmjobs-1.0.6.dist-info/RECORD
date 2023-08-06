@@ -1,0 +1,15 @@
+vrmjobs/__init__.py,sha256=bTWg7iRUyg-954v5OdGZbzechh6EDQpuEN2syNBLcAo,277
+vrmjobs/__version__.py,sha256=mhB8JtqIl12fOJjPR5coXgJMdnacczT4aBjlwAZYoNo,954
+vrmjobs/collector_info.py,sha256=26vZmi1UwrimRjg9of3NchT5RreJQZ8Uz6OynGTPLNo,780
+vrmjobs/metric_info.py,sha256=Vgdwe2-vrW_pImQLwXK1-aVreNhkpzvvcU-DnDarqac,920
+vrmjobs/metric_init.py,sha256=BXf3XenLIrzwdyQLI7x8oJDnEQlMF0HmMZghM8epxzc,670
+vrmjobs/port_info.py,sha256=-kRo4w_PXeVtIp4L3KlpOXYFrBarV8QfExnSzUzh3AM,511
+vrmjobs/probe_ack.py,sha256=ah6Rs64mL1ftSDokaWS2gdLE4o6tzdRhaaAPSgyyF54,704
+vrmjobs/probe_init.py,sha256=AtV3l-Cw9JPVaeTTvW85bPmEs9pScvhpZ_ZTWrAUzeI,696
+vrmjobs/vrm_type.py,sha256=6mpw4FzUSQFhXb-w15HJ79EbPoDWTdcs2u7T-xJ3WIA,111
+vrmjobs/worker_info.py,sha256=QDUqQq3viFTjBWcGcLwMMXw5PSzG4Evn-rxF2Dl0AFY,1109
+tl_vrmjobs-1.0.6.dist-info/LICENSE,sha256=5NN5SMjqALGstT0X6GeaulDlItQkP3PvFDlZEUE4-MA,1047
+tl_vrmjobs-1.0.6.dist-info/METADATA,sha256=1CVKGqAP4H9JeB4V7vD0IzNV4RahGnZYc5TE_3dI-c4,757
+tl_vrmjobs-1.0.6.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+tl_vrmjobs-1.0.6.dist-info/top_level.txt,sha256=pk8ThZ-xW2AJ_Yo4pqdDp32jjqdfDMNX8EHOFgRxZwg,8
+tl_vrmjobs-1.0.6.dist-info/RECORD,,
