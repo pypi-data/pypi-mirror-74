@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: sciscripts
+Version: 3.0.0
+Summary: Scripts for controlling devices/running experiments/analyzing data
+Home-page: https://gitlab.com/malfatti/SciScripts
+Author: T Malfatti
+Author-email: malfatti@disroot.org
+License: UNKNOWN
+Description: # SciScripts  
+        Scripts for controlling devices/running experiments/analyzing data  
+        
+        ## Dependencies
+        1) System:
+            - Linux
+            - Portaudio
+            - sounddevice
+            - Open-ephys analysis-tools [at github.com/open-ephys/analysis-tools]
+        2) Python:
+            - numpy
+            - scipy
+            - pandas
+            - matplotlib
+            - pyserial
+            - rpy
+            - h5py
+            - asdf
+        
+        Also, some environment variables are expected to be set. You can add it to `~/.bashrc`, or `~/.profile`, or wherever your desktop environment searches for exported variables:
+        ```bash
+        export DATAPATH=~/Data
+        export ANALYSISPATH=~/Analysis
+        ```
+        changing the path to where you find appropriate.
+        
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: POSIX :: Linux
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown

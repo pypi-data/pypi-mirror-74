@@ -1,0 +1,7 @@
+README.md
+setup.py
+sciscripts/__init__.py
+sciscripts.egg-info/PKG-INFO
+sciscripts.egg-info/SOURCES.txt
+sciscripts.egg-info/dependency_links.txt
+sciscripts.egg-info/top_level.txt
