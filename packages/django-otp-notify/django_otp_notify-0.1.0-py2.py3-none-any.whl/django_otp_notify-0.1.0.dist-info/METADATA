@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: django-otp-notify
+Version: 0.1.0
+Summary: A django-otp plugin that delivers tokens via Notify's SMS service.
+Home-page: https://github.com/django-otp/django-otp-notify
+Author: Pierre-Paul Lefebvre, Peter Sagerson
+Author-email: pierre-paul.lefebvre@cds-snc.ca
+License: BSD
+Project-URL: Documentation, https://django-otp-notify.readthedocs.io/
+Project-URL: Source, https://github.com/django-otp/django-otp-notify
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Programming Language :: Python :: 3
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Topic :: Security
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Framework :: Django
+Requires-Dist: django-otp (>=0.9.0)
+Requires-Dist: requests
+Requires-Dist: notifications-python-client
+
+.. image:: https://img.shields.io/pypi/v/django-otp-notify?color=blue
+   :target: https://pypi.org/project/django-otp-notify/
+   :alt: PyPI
+.. image:: https://img.shields.io/readthedocs/django-otp-notify
+   :target: https://django-otp-notify.readthedocs.io/
+   :alt: Documentation
+.. image:: https://img.shields.io/badge/github-django--otp--notify-green
+   :target: https://github.com/django-otp/django-otp-notify
+   :alt: Source
+
+This is a django-otp plugin that delivers tokens via Notify's `SMS
+<https://www.notifications.service.gov.uk>`_ service.
+
+See `django-otp <https://pypi.org/project/django-otp>`_ for more information
+on the OTP framework.
+
+This project is heavily inspired by `django-otp-twilio <https://pypi.org/project/django-otp-twilio/>`_.
+
+
