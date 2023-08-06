@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: django-rest-social-email-allauth
+Version: 0.1.0
+Summary: This is an authentication module template with social (Oauth2) Authentication, knox-rest and email account verification with password reset framework.
+Home-page: https://github.com/hacknd/django-rest-social-email-auth
+Author: HackND
+Author-email: benkaranja43@gmail.com
+License: MIT
+Description: Welcome to django-rest-social-email-auth's documentation!
+        ==========================================================
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Framework :: Django
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python
+Description-Content-Type: text/markdown
