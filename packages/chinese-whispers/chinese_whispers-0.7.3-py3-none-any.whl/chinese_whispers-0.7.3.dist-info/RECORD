@@ -1,0 +1,11 @@
+chinese_whispers/__init__.py,sha256=DB1sDDLqLCpZSrbJdtsKAOLBkP6IEhBRC3pPpXCUSV4,309
+chinese_whispers/__main__.py,sha256=QqSBa0yAtywoQAT_Blywuah8c5n4lQ5dNdIlpxvYxwg,1257
+chinese_whispers/chinese_whispers.py,sha256=naUoIJDKmy8C-fOKl636AxCZDrS7wzAKFEBXXVLbHoc,4140
+chinese_whispers/test_chinese_whispers.py,sha256=tqZ8CeW_MrnBFEEd3_mmOuKMZRedAzlpr6j-1IJlsxI,1551
+chinese_whispers-0.7.3.dist-info/LICENSE,sha256=xI_btVDVXnozepaVfF0HInU0bcnrJDPq6WYJUD1UdAo,1067
+chinese_whispers-0.7.3.dist-info/METADATA,sha256=CoYwDcKGQjXUJr9yFOI6RSYkGOb1CW8URjW-stf3v3Q,3900
+chinese_whispers-0.7.3.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+chinese_whispers-0.7.3.dist-info/entry_points.txt,sha256=L5WBvisLi9g-LEahJ5OggM7-fc70g1XMotoStSo5E9A,69
+chinese_whispers-0.7.3.dist-info/top_level.txt,sha256=tKf67lt9lHcyfZkZU8jlycR5yK4Az4OR0ySQllvEEPg,17
+chinese_whispers-0.7.3.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+chinese_whispers-0.7.3.dist-info/RECORD,,
