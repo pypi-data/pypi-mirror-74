@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+distributions_robinlamb_test/Binomialdistribution.py
+distributions_robinlamb_test/Gaussiandistribution.py
+distributions_robinlamb_test/Generaldistribution.py
+distributions_robinlamb_test/__init__.py
+distributions_robinlamb_test.egg-info/PKG-INFO
+distributions_robinlamb_test.egg-info/SOURCES.txt
+distributions_robinlamb_test.egg-info/dependency_links.txt
+distributions_robinlamb_test.egg-info/not-zip-safe
+distributions_robinlamb_test.egg-info/top_level.txt
