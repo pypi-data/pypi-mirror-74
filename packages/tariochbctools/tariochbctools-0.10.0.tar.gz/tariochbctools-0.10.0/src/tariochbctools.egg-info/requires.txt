@@ -1,0 +1,13 @@
+beancount
+bitstampclient
+mt-940
+pyyaml
+tabula-py
+ibflex
+requests
+camelot-py[cv]
+
+[testing]
+pytest
+pytest-cov
+flake8
