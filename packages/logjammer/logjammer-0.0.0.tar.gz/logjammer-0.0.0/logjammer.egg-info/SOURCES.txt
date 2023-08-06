@@ -1,0 +1,8 @@
+README.md
+setup.py
+logjammer.egg-info/PKG-INFO
+logjammer.egg-info/SOURCES.txt
+logjammer.egg-info/dependency_links.txt
+logjammer.egg-info/entry_points.txt
+logjammer.egg-info/requires.txt
+logjammer.egg-info/top_level.txt
