@@ -1,0 +1,15 @@
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+splatnet2statink/__init__.py
+splatnet2statink/__main__.py
+splatnet2statink/dbs.py
+splatnet2statink/iksm.py
+splatnet2statink/salmonrun.py
+splatnet2statink.egg-info/PKG-INFO
+splatnet2statink.egg-info/SOURCES.txt
+splatnet2statink.egg-info/dependency_links.txt
+splatnet2statink.egg-info/entry_points.txt
+splatnet2statink.egg-info/requires.txt
+splatnet2statink.egg-info/top_level.txt
