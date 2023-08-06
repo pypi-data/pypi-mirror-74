@@ -1,0 +1,10 @@
+README.md
+setup.py
+pyTRIS.egg-info/PKG-INFO
+pyTRIS.egg-info/SOURCES.txt
+pyTRIS.egg-info/dependency_links.txt
+pyTRIS.egg-info/top_level.txt
+pytris/__init__.py
+pytris/areas.py
+pytris/errors.py
+pytris/version.py
