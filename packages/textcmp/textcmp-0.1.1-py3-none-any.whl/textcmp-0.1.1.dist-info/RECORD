@@ -1,0 +1,8 @@
+textcmp/pyproject.toml,sha256=F6X7IrIkcqMc644RWcs256imDYhfySjibpoW9Qb9UFE,429
+textcmp/README.rst,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+textcmp/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+textcmp/tests/test_textcmp.py,sha256=cvLgSrZ7yALBnfOlMji96zPCYf_yWd5yBF4Jh9aktLk,93
+textcmp/textcmp/__init__.py,sha256=1ofMb0d1swku7vGjKw6pLoEg6rcXB-HYl_E5ulkTNmw,1150
+textcmp-0.1.1.dist-info/WHEEL,sha256=G_NFpzHmv_dUXgCUSAWL0-bLL-eMzYU6DzDeGXbRXUk,83
+textcmp-0.1.1.dist-info/METADATA,sha256=Me_cNY8B-iQKTyW0at-NZ7kobJsDO8f6rT73WZxzOac,402
+textcmp-0.1.1.dist-info/RECORD,,

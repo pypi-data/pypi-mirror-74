@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: textcmp
+Version: 0.1.1
+Summary: 陈沁开发的两文本比较工具，高亮颜色显示差异
+Home-page: https://poetry.chenqin.io/
+Author: 陈沁
+Requires-Python: >=3.6.7,<4.0.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: python-docx (>=0.8.10,<0.9.0)
