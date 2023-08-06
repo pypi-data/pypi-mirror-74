@@ -1,0 +1,8 @@
+mmtapi/__init__.py,sha256=ARPXXFkdIhj9q3iFCmzLok3APO6vF1dMEcmOO7ZT8eE,21
+mmtapi/mmtapi.py,sha256=hiTCGNIB11b3H1w-X3lWtU7oMVGXq-TVnRbAzQzjJMU,10551
+mmtapi/test.py,sha256=jzvfAkGCciz2ouQivDpPKR9xkZNSPDZXIjEuw1kSQ3I,837
+mmtapi/upload_test.py,sha256=h3CEdQCpRbeeUsoCSyRkAynaXBdI8nTWz4YE399lDS4,148
+mmtapi-0.0.1.dist-info/METADATA,sha256=4H6QP7EcRtxiMcM_7CYULjO-1BUYofniienDW0VS56o,4813
+mmtapi-0.0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+mmtapi-0.0.1.dist-info/top_level.txt,sha256=A9u7Vo0XUn_4-wkddnnRD-va0EwCEkkhiHAREX_uWm4,7
+mmtapi-0.0.1.dist-info/RECORD,,
