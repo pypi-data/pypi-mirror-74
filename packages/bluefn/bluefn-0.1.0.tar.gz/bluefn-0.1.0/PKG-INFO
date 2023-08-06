@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: bluefn
+Version: 0.1.0
+Summary: toolset for bluechain
+Author: Samlet Wu
+Author-email: xiaofei.wu@gmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: fire (>=0.3.1,<0.4.0)
+Requires-Dist: mako (>=1.1.3,<2.0.0)
+Requires-Dist: typer (>=0.3.1,<0.4.0)
