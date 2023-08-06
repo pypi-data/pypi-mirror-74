@@ -1,0 +1,11 @@
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/settingstest.py,sha256=YNgHPflMFHohbtlaPjb6qBfKwKVas31UaRRvujTzZ0Y,66
+tests/settingstest_1.py,sha256=Er3ux1uEVoTidE-3kCF1iklGPmWeB18lv-bTezAJuEE,34
+tests/test_conf.py,sha256=ehu2fyN1wnOVz1sR_mHIbDNc9VzX_f4ylbF1wIoEGYo,1793
+tests/test_dotenv.py,sha256=wVCSpBfK0kgLNrq6jBM8asTK1tjw0UgJCnkgwSO5CHw,3516
+tests/test_environment.py,sha256=N40LXxxLtX8eU-m7NAuKAUCWTF2igRURB1TtWW4kypA,1074
+hiddenv-2020.7.1.dist-info/LICENSE,sha256=XrXrw-RUOMeEzEPZRhxfuhQjuR-WS14BokSFftulrzU,1089
+hiddenv-2020.7.1.dist-info/METADATA,sha256=gjL8UVmnfU27DF-e_V8dw2Wl0CyHaK952z8gt05Xv6o,1716
+hiddenv-2020.7.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+hiddenv-2020.7.1.dist-info/top_level.txt,sha256=EdW7283x-lr_cbuivW8Ij7ANAP-ZJ9sLtILQseEPxXg,6
+hiddenv-2020.7.1.dist-info/RECORD,,
