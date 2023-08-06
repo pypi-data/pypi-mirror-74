@@ -1,0 +1,9 @@
+logutil/__init__.py,sha256=m8PhJ_U06UBNaTNLjB8k_KPEsQLeJIyf3uTKdfQSK24,195
+logutil/src/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+logutil/src/init_logging.py,sha256=_mfIRFShhKv375Otn7HZx34qvEuBUNLkRWoED7vgQMM,3593
+logutil/src/init_loguru.py,sha256=WIMPOw_ND3iYfKplMkJiN5HEtup5teqEQLcWGT2X7O0,2837
+logutil-0.1.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+logutil-0.1.0.dist-info/METADATA,sha256=Co_CcLQWHmzbVLD1wZ0HrBRaFcV6IFCRzJZiFVAKFAA,1939
+logutil-0.1.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+logutil-0.1.0.dist-info/top_level.txt,sha256=IO0yuPuWVrHx7L3gMIaAyVxhwkNhe6OWTwp3btwoGbc,8
+logutil-0.1.0.dist-info/RECORD,,
