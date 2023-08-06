@@ -1,0 +1,10 @@
+nam/__init__.py,sha256=GOKVDJuMa8lbyij3GcJlpwGTa23sWF908sXyD4OgG80,86
+nam/__main__.py,sha256=xBPmXZfGuBZH7Kw4lvISjovMp0-lt4cfdsBT0WvxUmE,1567
+nam/config.txt,sha256=AKF04cFj8HDxHzCKH5DCvtWEc8jUqSIOQS0jx6T24DY,130
+nam/download.py,sha256=0DzssFzf1eVxRxw7Q2NWwHpHWHWFCr7cq6urkEoERto,16
+nam/upload.py,sha256=3rc4LkFWMOCd60N6ax6CcClIGm4VzyZWwDbkHWLLvs4,3463
+nexus_artifact_manager-1.1.4.dist-info/METADATA,sha256=gpxGXxAERz6wqBoGVF3O1oU_U3F_xKnjubndYcPfmVw,1225
+nexus_artifact_manager-1.1.4.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+nexus_artifact_manager-1.1.4.dist-info/entry_points.txt,sha256=dJeHfiGsFXlZo7a_LSRscISnTCyGT77KpxXQicXoZSI,54
+nexus_artifact_manager-1.1.4.dist-info/top_level.txt,sha256=Kr2aaRbClvWc_nQh2Nwo0oQzIZo7jidF6B3KtbnpNKc,4
+nexus_artifact_manager-1.1.4.dist-info/RECORD,,
