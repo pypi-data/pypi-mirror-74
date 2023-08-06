@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: grundzeug
+Version: 0.1.0
+Summary: Grundzeug Dependency Injection container and configuration management framework
+Home-page: https://grundzeug.nickguletskii.com/
+Author: Nick Guletskii
+Author-email: nick@nickguletskii.com
+License: Apache License 2.0
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Utilities
+Requires-Python: >=3.7
+Requires-Dist: typing-extensions (>=3.7.4.1)
+
+UNKNOWN
+
+
