@@ -1,0 +1,120 @@
+Metadata-Version: 2.1
+Name: insights-sandbox
+Version: 0.1.0
+Summary: bubblewrap sandbox for insights components.
+Home-page: https://github.com/RedHatInsights/insights-sandbox
+Author: Red Hat, Inc.
+Author-email: insights@redhat.com
+License: Apache 2.0
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Description-Content-Type: text/markdown
+Requires-Dist: dill (==0.3.2)
+Requires-Dist: insights-core
+Requires-Dist: pyzmq (==19.0.0)
+Provides-Extra: develop
+Requires-Dist: sphinx-rtd-theme (==0.5.0) ; extra == 'develop'
+Requires-Dist: Sphinx (==3.1.2) ; extra == 'develop'
+Requires-Dist: setuptools (==41.6.0) ; extra == 'develop'
+Requires-Dist: IPython (==7.16.1) ; extra == 'develop'
+Requires-Dist: wheel (==0.34.2) ; extra == 'develop'
+Requires-Dist: pytest (==5.4.3) ; extra == 'develop'
+Requires-Dist: black (==19.10b0) ; extra == 'develop'
+Requires-Dist: flake8 (==3.8.3) ; extra == 'develop'
+Provides-Extra: docs
+Requires-Dist: sphinx-rtd-theme (==0.5.0) ; extra == 'docs'
+Requires-Dist: Sphinx (==3.1.2) ; extra == 'docs'
+
+Insights Sandbox
+================
+Run rules with access only to necessary binaries and the archive working
+directory.
+
+
+Strategy
+--------
+- Create a sandbox using [bubblewrap (bwrap)](https://github.com/containers/bubblewrap).
+    - Enable only required linux namespaces (see `man namespaces` for more info).
+- Communicate with the sandbox using [zeromq](https://zeromq.org/languages/python/) over named pipes.
+    - zmq hides underlying buffer details (`man 7 pipe` for fifos).
+
+
+Architecture
+------------
+```
+Client <-> runner adapter proxy <-> named pipes <-> [controller <-> runner adapter <-> runner]
+```
+
+The `Client` creates named pipes and a child process that uses `bwrap` to
+invoke `insights_sandbox.consumer`.
+
+The client creates a `RunnerAdapterProxy` and configures it with `zmq`
+functions for sending and recieving messages over the pipes. The proxy is
+used to setup the `Runner` via the `Controller` and `RunnerAdapter`.
+
+
+Installation
+------------
+```
+CentOS 7:
+yum install epel-release
+yum install bubblewrap
+
+Fedora:
+dnf install epel-release
+dnf install bubblewrap
+
+Both:
+python3 -m venv .
+. bin/activate
+pip install -e .[develop]
+
+```
+
+
+Test an archive
+------------
+```
+./driver.py -p examples.rules <archive>
+```
+
+Example Code
+------------
+```python
+#!/usr/bin/env python3
+"""
+This script is only for testing the sandbox.
+"""
+import argparse
+
+from insights import dr, parse_plugins
+from insights_sandbox.client import Client
+
+
+def parse_args():
+    p = argparse.ArgumentParser()
+    p.add_argument("--plugins", "-p", help="plugins to load", default="")
+    p.add_argument("archive", help="pass an archive to analyze.")
+    return p.parse_args()
+
+
+def main():
+    args = parse_args()
+    broker = dr.Broker()
+    packages = parse_plugins(args.plugins)
+    with Client(packages=packages) as client:
+        doc = client.process(args.archive, broker=broker)
+        print(doc["results"].decode("utf-8"))
+
+
+if __name__ == "__main__":
+    main()
+```
+
