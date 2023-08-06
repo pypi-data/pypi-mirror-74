@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: sway-xkb-switcher
+Version: 0.2.1
+Summary: Keyboard layout switcher for sway windows
+Home-page: https://github.com/nmukhachev/sway-xkb-switcher
+License: MIT
+Author: Innokenty Lebedev
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: i3ipc (>=2.1.1,<3.0.0)
+Project-URL: Repository, https://github.com/nmukhachev/sway-xkb-switcher
+Description-Content-Type: text/markdown
+
+sway-xkb-switcher
+===============
+
+## Description
+
+This app records keyboard layout for a sway windows when you leave them.
+And when you come back it is restore keyboard layout.
+
+This project is forked from https://github.com/inn0kenty/i3-xkb-switcher
+and adapted to work with sway window manager.
+
+This project is under construction yet.
+
+## Install not ready yet
+
+```bash
+$ pip install sway-xkb-switcher
+```
+
+Also you can download compiled binary from [release page](https://github.com/nmukhachev/sway-xkb-switcher/releases).
+
+## Usage
+
+```bash
+$ sway-xkb-switcher
+```
+
+To enable debug mode run with `--debug` key.
+
+By default it writes logs to stdout. You can specify path by `--log-path` option.
+
