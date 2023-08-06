@@ -1,0 +1,6 @@
+python-dateutil
+six
+stix2-patterns>=1.0.0
+
+[:python_version < "3.5" and python_version >= "3"]
+typing
