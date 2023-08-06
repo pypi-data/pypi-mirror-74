@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+Jakaria08_distributions.egg-info/PKG-INFO
+Jakaria08_distributions.egg-info/SOURCES.txt
+Jakaria08_distributions.egg-info/dependency_links.txt
+Jakaria08_distributions.egg-info/not-zip-safe
+Jakaria08_distributions.egg-info/top_level.txt
+jakaria08_distributions/Binomialdistribution.py
+jakaria08_distributions/Gaussiandistribution.py
+jakaria08_distributions/Generaldistribution.py
+jakaria08_distributions/__init__.py
