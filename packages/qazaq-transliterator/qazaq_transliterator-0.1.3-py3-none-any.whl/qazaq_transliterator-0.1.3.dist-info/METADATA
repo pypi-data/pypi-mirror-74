@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: qazaq-transliterator
+Version: 0.1.3
+Summary: Transliteration of the old Kazakh alphabet into a new one
+Home-page: https://github.com/altynbek07/python-qazaq-transliterator
+Author: Altynbek
+Author-email: altynbek.kazezov.97@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: transliterate (>=1.10.2)
+
+# Example Package
+
+This is a simple example package. You can use
+[Github-flavored Markdown](https://guides.github.com/features/mastering-markdown/)
+to write your content.
+
