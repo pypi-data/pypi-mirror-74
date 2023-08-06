@@ -1,0 +1,9 @@
+numpy
+pandas-datareader
+pytrends
+pandas==0.25.3
+requests
+scikit-learn
+keras
+tensorflow
+matplotlib
