@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: wch
+Version: 0.2.7
+Summary: Runs the provided command on detected file changes.
+Home-page: https://github.com/Peter554/wch#readme
+License: MIT
+Author: Peter
+Author-email: byfield554@gmail.com
+Requires-Python: >=3.6.8,<4.0.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Project-URL: Repository, https://github.com/Peter554/wch
+Description-Content-Type: text/markdown
+
+# wch
+
+```
+pip install wch
+```
+
+```
+wch --help
+```
+
+```
+usage: wch [options] -- <command>
+
+Runs the provided command on detected file changes.
+
+positional arguments:
+  command
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -d DIRECTORY, --directory DIRECTORY
+                        Directory to watch. Defaults to current working directory.
+  -i IGNORE, --ignore IGNORE
+                        Directory to ignore.
+
+Examples:
+  wch -d src -d tests -- pytest
+  wch -i docs -- black .
+```
+
+
