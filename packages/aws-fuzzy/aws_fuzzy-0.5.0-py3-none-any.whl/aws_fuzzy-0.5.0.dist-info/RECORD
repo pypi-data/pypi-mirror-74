@@ -1,0 +1,16 @@
+aws_fuzzy/VERSION,sha256=oK1QZAE5pST4ZZEVcUW_HUZ06pwGW_6iFVjw97BEMMg,6
+aws_fuzzy/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aws_fuzzy/cli.py,sha256=9ECvtNlNR0qEstvCatcimg3SCQ0ZvLqxzDmHL7Shdmk,2296
+aws_fuzzy/common.py,sha256=D_ntTyLT3LIjIb1qmGKjKHSGkQX0e7rEG1uwEx7aXKs,7851
+aws_fuzzy/query.py,sha256=OMNN5_RuoD2Tght69Xbw4oUZ33eAv_cZIYz4WGJ8aWk,5206
+aws_fuzzy/commands/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aws_fuzzy/commands/cmd_inventory.py,sha256=b0KMgF2mcsdKPU56NgtLk_g3kNwOPYiLR1KxMtJw36Y,11035
+aws_fuzzy/commands/cmd_plot.py,sha256=Yl0LWvEOIgcq5hDubn7Ez3PasBOoDaTVPRoH5fMY_ng,2222
+aws_fuzzy/commands/cmd_ssh.py,sha256=-tcdpS5YaGHhPAMUfXCBGxNBIzEP6siZf3CMaFeB71k,3159
+aws_fuzzy/commands/cmd_sso.py,sha256=ML3XFRso_DDWGPgvEsD0GPyPTZtKcWOeIPIJu8HsH10,6838
+aws_fuzzy-0.5.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+aws_fuzzy-0.5.0.dist-info/METADATA,sha256=70Apuw4HvyYR2m1jKOtiI5Vcz64_jzIjhw83V50Y8Uw,308
+aws_fuzzy-0.5.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+aws_fuzzy-0.5.0.dist-info/entry_points.txt,sha256=y5MzPWYnZGCfbXlQ9dPSUEYx64VSq6HzntU3XDbzAoI,67
+aws_fuzzy-0.5.0.dist-info/top_level.txt,sha256=M67jQfz0FQWhst8hDtJ77TMhhqVOM0VuUzoGQWGEzFg,10
+aws_fuzzy-0.5.0.dist-info/RECORD,,
