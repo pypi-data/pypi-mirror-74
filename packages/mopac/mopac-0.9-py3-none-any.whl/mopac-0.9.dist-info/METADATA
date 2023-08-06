@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: mopac
+Version: 0.9
+Summary: Check Mopac Fast Lane Prices
+Home-page: https://github.com/mbanders/mopac_checker
+Author: Michael Anderson
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >3.5.0
+Requires-Dist: requests
+Requires-Dist: pytz
+
+UNKNOWN
+
+
