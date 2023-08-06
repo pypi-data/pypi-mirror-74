@@ -1,0 +1,12 @@
+d2l/__init__.py,sha256=dJcb63iPrEdGSOVBXl9AGaaRUfrQEsHNRsv0nLML46Q,264
+d2l/mxnet.py,sha256=yhZkaIUZsbv6hOPjlKylI3-6PQhUL8qyxjkdqT5aD9c,108629
+d2l/tensorflow.py,sha256=sM1qTsgrjG_CILqw87vW7OUi1EB7nqTa0-nDlqcr2ug,20350
+d2l/torch.py,sha256=lCtO1kEuOq0PaUdhWLVprp4958vLtRqjMDrisDk5apI,42625
+d2l-0.14.1.dist-info/LICENSE,sha256=o5pLPQ9BGoIXt8bdNdyLBgA3hM4y01k9DS14Cn6cL4w,14849
+d2l-0.14.1.dist-info/LICENSE-SAMPLECODE,sha256=3fm12d0v3tGGU-DKTFk0AI1PrqEWHXVEk7VKI8JerBQ,931
+d2l-0.14.1.dist-info/LICENSE-SUMMARY,sha256=FCv9uQVi1klIsHAJ5VOT1I6h6jW0U_2k2Q7a1Nz6K9Y,333
+d2l-0.14.1.dist-info/METADATA,sha256=zgJUPfDnlfr0vTQzeSZ8xv1TT5hOJUgWMXKSE4jHih4,322
+d2l-0.14.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+d2l-0.14.1.dist-info/top_level.txt,sha256=dvtvwCUdQtPkozYjmFSlAAbBN0SDAKtrG7l5fdQ90aE,4
+d2l-0.14.1.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+d2l-0.14.1.dist-info/RECORD,,
