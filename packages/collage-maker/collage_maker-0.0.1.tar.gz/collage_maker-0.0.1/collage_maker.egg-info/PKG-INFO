@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: collage-maker
+Version: 0.0.1
+Summary: image collage maker
+Home-page: https://github.com/mtroym/image_collage_maker
+Author: Yiming Mao
+Author-email: maoym.troy@gmail.com
+License: MIT Licence
+Description: # image_collage_maker
+Keywords: image,image collage
+Platform: any
+Requires-Python: >=3.7.0
+Description-Content-Type: text/markdown
