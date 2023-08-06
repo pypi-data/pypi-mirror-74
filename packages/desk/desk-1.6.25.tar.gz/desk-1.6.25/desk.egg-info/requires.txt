@@ -1,0 +1,6 @@
+astropy
+numpy
+scipy
+tqdm
+ipdb
+sphinx_automodapi

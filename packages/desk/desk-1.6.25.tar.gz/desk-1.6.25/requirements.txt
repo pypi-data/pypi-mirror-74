@@ -1,0 +1,12 @@
+astropy
+numpy
+ipdb
+tqdm
+matplotlib
+sklearn
+h5py
+wheel
+twine
+sphinx
+sphinx_automodapi
+pytest-cov
