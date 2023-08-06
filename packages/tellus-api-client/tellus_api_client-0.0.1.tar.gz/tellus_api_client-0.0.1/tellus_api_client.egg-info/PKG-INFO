@@ -1,0 +1,18 @@
+Metadata-Version: 1.1
+Name: tellus-api-client
+Version: 0.0.1
+Summary: Unofficial Tellus API Client
+Home-page: https://github.com/regonn/tellus-api-client
+Author: regonn
+Author-email: programmer@haizine.art
+License: MIT
+Description: UNKNOWN
+Keywords: Tellus,API
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Framework :: Jupyter
