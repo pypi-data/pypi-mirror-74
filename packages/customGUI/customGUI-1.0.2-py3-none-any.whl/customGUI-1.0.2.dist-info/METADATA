@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: customGUI
+Version: 1.0.2
+Summary: Maker for custom-built GUI for Python
+Home-page: https://github.com/Jaswar/Custom-GUI-Project
+Author: Jan Warchocki
+Author-email: janwarchocki@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: pygame
+
+A simple package to create your own GUI.
+
+
