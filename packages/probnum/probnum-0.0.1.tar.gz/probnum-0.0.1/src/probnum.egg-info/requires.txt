@@ -1,0 +1,8 @@
+numpy
+scipy>=1.4
+GPy
+matplotlib
+
+[testing]
+pytest
+pytest-cov
