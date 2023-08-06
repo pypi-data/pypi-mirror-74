@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+dist_kk9/Binomialdistribution.py
+dist_kk9/Gaussiandistribution.py
+dist_kk9/Generaldistribution.py
+dist_kk9/__init__.py
+dist_kk9.egg-info/PKG-INFO
+dist_kk9.egg-info/SOURCES.txt
+dist_kk9.egg-info/dependency_links.txt
+dist_kk9.egg-info/not-zip-safe
+dist_kk9.egg-info/top_level.txt
