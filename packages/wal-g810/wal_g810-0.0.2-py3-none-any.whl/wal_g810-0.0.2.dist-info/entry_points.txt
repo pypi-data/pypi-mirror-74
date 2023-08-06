@@ -1,0 +1,3 @@
+[console_scripts]
+wal-g810 = wal_g810:main
+
