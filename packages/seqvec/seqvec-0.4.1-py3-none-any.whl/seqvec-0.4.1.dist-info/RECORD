@@ -1,0 +1,7 @@
+seqvec/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+seqvec/seqvec.py,sha256=cuslIfGrUD2eUnDptcN1FHMt_4jULUyjRQxNm4jIaMg,15139
+seqvec-0.4.1.dist-info/entry_points.txt,sha256=vaewycfOdxsCoZsBRmBEzrOx0TfmpYDOFPAJb5zPY9I,45
+seqvec-0.4.1.dist-info/LICENSE,sha256=bwSh4CV3RPAfBdIs2lXcfYlUzXO39AhAuZX3lFZr_MQ,1089
+seqvec-0.4.1.dist-info/WHEEL,sha256=G_NFpzHmv_dUXgCUSAWL0-bLL-eMzYU6DzDeGXbRXUk,83
+seqvec-0.4.1.dist-info/METADATA,sha256=L6ftKkiM0KpftWagOnqmQMdYDSg7Khr8nnDoxtCzYZ8,9024
+seqvec-0.4.1.dist-info/RECORD,,
