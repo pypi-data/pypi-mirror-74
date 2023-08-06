@@ -1,0 +1,6 @@
+{
+  "html": "<p>Install our Sentry SDK in the\u00a0<code class=\"highlighter-rouge\">requirements.txt</code>\u00a0section:</p>\n<pre class=\"highlight\"><code><span class=\"n\">sentry_sdk</span>\n</code></pre>\n\n<p>You can use the GCP Functions integration for the Python SDK like this:</p>\n<pre class=\"highlight\"><code><span class=\"kn\">import</span> <span class=\"nn\">sentry_sdk</span>\n<span class=\"kn\">from</span> <span class=\"nn\">sentry_sdk.integrations.serverless</span> <span class=\"kn\">import</span> <span class=\"n\">serverless_function</span>\n\n<span class=\"n\">sentry_sdk</span><span class=\"o\">.</span><span class=\"n\">init</span><span class=\"p\">(</span><span class=\"n\">dsn</span><span class=\"o\">=</span><span class=\"s\">\"___PUBLIC_DSN___\"</span><span class=\"p\">)</span>\n\n<span class=\"o\">@</span><span class=\"n\">serverless_function</span>\n<span class=\"k\">def</span> <span class=\"nf\">my_function</span><span class=\"p\">(</span><span class=\"o\">...</span><span class=\"p\">):</span> <span class=\"o\">...</span>\n</code></pre>", 
+  "link": "https://docs.sentry.io/platforms/python/gcp_cloud_functions/", 
+  "id": "python-pythongcpfunctions", 
+  "name": "GCP Cloud Functions"
+}

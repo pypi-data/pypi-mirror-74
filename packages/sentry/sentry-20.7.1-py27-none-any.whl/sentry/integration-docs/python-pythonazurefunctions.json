@@ -1,0 +1,6 @@
+{
+  "html": "<p>Create a .venv in the local machine on VS Code, create a Python function, and install the sentry SDK:</p>\n<pre class=\"highlight\"><code><span class=\"n\">sentry_sdk</span>\n</code></pre>\n\n<p>Add DSN value in <code class=\"highlighter-rouge\">__init__.py</code>:</p>\n<pre class=\"highlight\"><code><span class=\"kn\">import</span> <span class=\"nn\">sentry_sdk</span>\n<span class=\"kn\">from</span> <span class=\"nn\">sentry_sdk.integrations.serverless</span> <span class=\"kn\">import</span> <span class=\"n\">serverless_function</span>\n\n<span class=\"n\">sentry_sdk</span><span class=\"o\">.</span><span class=\"n\">init</span><span class=\"p\">(</span><span class=\"n\">dsn</span><span class=\"o\">=</span><span class=\"s\">\"___PUBLIC_DSN___\"</span><span class=\"p\">)</span>\n\n<span class=\"o\">@</span><span class=\"n\">serverless_function</span>\n<span class=\"k\">def</span> <span class=\"nf\">my_function</span><span class=\"p\">(</span><span class=\"o\">...</span><span class=\"p\">):</span> <span class=\"o\">...</span>\n</code></pre>", 
+  "link": "https://docs.sentry.io/platforms/python/azure_functions/", 
+  "id": "python-pythonazurefunctions", 
+  "name": "Azure Functions"
+}
