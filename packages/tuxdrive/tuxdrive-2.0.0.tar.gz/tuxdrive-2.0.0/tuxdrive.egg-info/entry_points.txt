@@ -1,0 +1,3 @@
+[console_scripts]
+tuxdrive = tuxdrive.tuxdrive:main
+
