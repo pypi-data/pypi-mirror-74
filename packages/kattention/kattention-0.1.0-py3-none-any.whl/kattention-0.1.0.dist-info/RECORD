@@ -1,0 +1,10 @@
+kattention/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+kattention/layers/__init__.py,sha256=1tiKGwrsyDhcwwmC--5FpJgFH4IKwuyc6DKQp46UQus,132
+kattention/layers/multi_head_attention.py,sha256=MklXXBj10TMgqhU3HtUwCX4pWaTG_0iOZeWa7RK4_Sg,817
+kattention/layers/self_attention.py,sha256=RrTi2tPWUzwLK2NNIoAUWyjYFYPtAQtCQqTlPXqfR1M,1276
+kattention/layers/transformer.py,sha256=IOhIgmfy_dvmS5y62cqkQSAITPW8YnirPe5PdAURGss,1216
+kattention-0.1.0.dist-info/LICENSE,sha256=RJFrlkLu2nnA_LnHI6XZAB0PMskXU2RxQJicMyOGWzU,1072
+kattention-0.1.0.dist-info/METADATA,sha256=8GPCQgU5Xq73m10Fa6tXP5Mq8NOkPGbCmcwNs0CQ4Lo,1183
+kattention-0.1.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+kattention-0.1.0.dist-info/top_level.txt,sha256=zi8YJNvHXumNK25ER3uSHW-JyV5HE46a9rEvBYSAkZ0,11
+kattention-0.1.0.dist-info/RECORD,,
