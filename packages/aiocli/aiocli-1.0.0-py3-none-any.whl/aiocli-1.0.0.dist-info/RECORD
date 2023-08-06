@@ -1,0 +1,10 @@
+LICENSE,sha256=7mV63gXJp1dKhm7pvOby6BaAVIeet6_Qs8L5uAX_k2w,1065
+README.md,sha256=SzrVXxqwUu2grtSj_0_Sw97AX_cEfYIbg-1c5_kXals,2105
+aiocli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aiocli/commander.py,sha256=5DMOg_NQFJcyo4mSQnF0XypllzUOys38xPO-oQQ8ce0,3814
+aiocli/commander_app.py,sha256=gsaI2lXwvMGkqGOEhuJE6sZ_tsaw9wXaDbNbDJBG5xo,3164
+aiocli/test_utils.py,sha256=qQMH8wYteG7oZlUYh0Mab_UKoK98DzvZAjSTFDPCcM0,2806
+aiocli-1.0.0.dist-info/LICENSE,sha256=7mV63gXJp1dKhm7pvOby6BaAVIeet6_Qs8L5uAX_k2w,1065
+aiocli-1.0.0.dist-info/WHEEL,sha256=G_NFpzHmv_dUXgCUSAWL0-bLL-eMzYU6DzDeGXbRXUk,83
+aiocli-1.0.0.dist-info/METADATA,sha256=fphVVlqcTfi4yXOLEZs0x2aVvmzafXIQcoMma6CrxPU,2828
+aiocli-1.0.0.dist-info/RECORD,,
