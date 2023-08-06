@@ -1,0 +1,15 @@
+Metadata-Version: 2.0
+Name: my-test-distributions
+Version: 0.1
+Summary: Gaussian distributions
+Home-page: UNKNOWN
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: UNKNOWN
+Description-Content-Type: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: matplotlib
+
+UNKNOWN
+
+
