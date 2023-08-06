@@ -1,0 +1,8 @@
+README.md
+setup.py
+s3seek/__init__.py
+s3seek.egg-info/PKG-INFO
+s3seek.egg-info/SOURCES.txt
+s3seek.egg-info/dependency_links.txt
+s3seek.egg-info/requires.txt
+s3seek.egg-info/top_level.txt
