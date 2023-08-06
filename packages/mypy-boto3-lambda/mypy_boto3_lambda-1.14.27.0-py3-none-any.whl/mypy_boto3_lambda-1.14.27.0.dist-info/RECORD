@@ -1,0 +1,12 @@
+mypy_boto3_lambda/__init__.py,sha256=03SOXwPOdmD-YgbvLkOhj9gObJDeILEc2xCP1Rhtfn8,2868
+mypy_boto3_lambda/__main__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mypy_boto3_lambda/client.py,sha256=NWS8Zf4yx1hTHulrpm-LYQSaquBCWv3R7sFHtSVe4Cg,31550
+mypy_boto3_lambda/paginator.py,sha256=erW8plJK37CyCN2iAly6JUrijln54rs4w5DdtatCpVY,8824
+mypy_boto3_lambda/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mypy_boto3_lambda/type_defs.py,sha256=r0liGkUB_P_KC1VDCfqm6GKIQPI8ZUGU3eRi9ynQn4M,16694
+mypy_boto3_lambda/version.py,sha256=xJrd5aecBY6d6OGgsK7iuSZWS1qP2h0gn9yknWJJazQ,57
+mypy_boto3_lambda/waiter.py,sha256=b3-ohM5wG7q-Vtsez6LEl3BQSBQmEQUnISuCQAO7yj8,2500
+mypy_boto3_lambda-1.14.27.0.dist-info/METADATA,sha256=AbBrB74E72zNmQWTTeH7kSETvxKsh0yskPV0xas9LqE,6412
+mypy_boto3_lambda-1.14.27.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+mypy_boto3_lambda-1.14.27.0.dist-info/top_level.txt,sha256=6ItRxDbJflxmQK3EHbqgMxnFEy8qYqPgL4JrTfH4mMs,18
+mypy_boto3_lambda-1.14.27.0.dist-info/RECORD,,
