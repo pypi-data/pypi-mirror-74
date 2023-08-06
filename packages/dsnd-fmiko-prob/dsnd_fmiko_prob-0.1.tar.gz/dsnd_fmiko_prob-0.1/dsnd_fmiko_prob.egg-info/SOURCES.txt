@@ -1,0 +1,10 @@
+setup.py
+dsnd_fmiko_prob/Binomialdistribution.py
+dsnd_fmiko_prob/Gaussiandistribution.py
+dsnd_fmiko_prob/Generaldistribution.py
+dsnd_fmiko_prob/__init__.py
+dsnd_fmiko_prob.egg-info/PKG-INFO
+dsnd_fmiko_prob.egg-info/SOURCES.txt
+dsnd_fmiko_prob.egg-info/dependency_links.txt
+dsnd_fmiko_prob.egg-info/not-zip-safe
+dsnd_fmiko_prob.egg-info/top_level.txt
