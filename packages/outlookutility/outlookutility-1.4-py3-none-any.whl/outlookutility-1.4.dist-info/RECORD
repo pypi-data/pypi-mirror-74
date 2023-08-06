@@ -1,0 +1,13 @@
+outlookutility/__init__.py,sha256=J6czYEcdFC-yz7Pyb6WQMXYNZcuMBnfpXddiGD1S66s,448
+outlookutility/default_table_style.py,sha256=CHOKudfIRSepiQcTIBai4bCFtT2y-LCLSQMOlut2NfI,2239
+outlookutility/display_email.py,sha256=EeUeFrVRvVbKtHV1iTEttiTzfG2I3mT8ZDQeVfVRp38,1000
+outlookutility/display_email_with_attachments.py,sha256=GF39BRiwYhS7iThdI4mtD6iwc89kFHXohbMAajLE-yM,1549
+outlookutility/email_with_attachments.py,sha256=MN4dBf9JLHHws122wh1nkKOicPCA3b2slQmNDU4s_EY,1510
+outlookutility/email_without_attachment.py,sha256=1PUMqFnXiuI9XhhPGJl2lnkg8p5cvlV7DehL5uHLDUg,1004
+outlookutility/multi_table_style.py,sha256=zkG-Nv85_FyLmt0BIxawGI7yQ6igkByIFy59Jy1YeUk,2539
+outlookutility/notify_error.py,sha256=DViLVX6cmemAiXGTUF3oX1BotEhpnMp-fWffx7zl8lA,1381
+outlookutility-1.4.dist-info/LICENSE,sha256=F1DbdVSSHZfh9FpQImCoraAgcSkt5w39hR_OWJ1jEXM,1092
+outlookutility-1.4.dist-info/METADATA,sha256=CXWmJzWyN7ytcZLFquVCrfAumNT6SZfW7xr1s8RCvUw,6913
+outlookutility-1.4.dist-info/WHEEL,sha256=v8slff5hmCpvciQ3G55d2d1CnOBupjDFJHDE2dUb1Ao,97
+outlookutility-1.4.dist-info/top_level.txt,sha256=vXUHt8WWPFYiSqaKw9Dq_3FompGYzbiMuKRzEeG_6QU,15
+outlookutility-1.4.dist-info/RECORD,,
