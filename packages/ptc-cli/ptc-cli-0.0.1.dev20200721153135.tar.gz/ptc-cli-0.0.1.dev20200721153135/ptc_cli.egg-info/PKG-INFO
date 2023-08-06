@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: ptc-cli
+Version: 0.0.1.dev20200721153135
+Summary: Command Line Interface for Pulse Tool Calibration library
+Home-page: https://rozum.com
+Author: Rozum Robotics
+Author-email: dev@rozum.com
+License: Apache License 2.0
+Description: 
+        # Command line interface for Pulse Tool Calibration utility
+        
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Description-Content-Type: text/markdown
