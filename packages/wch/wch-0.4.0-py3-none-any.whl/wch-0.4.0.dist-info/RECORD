@@ -1,0 +1,9 @@
+wch/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+wch/change_detector.py,sha256=X9_rt7eERFQ9jQIcs8DUh0xNrKjPYwtiqG1GE1sVaIQ,2279
+wch/watcher.py,sha256=mvCY5XV4fe2SbFYHiA625G-13bEOoF4uhak0Jey2Uys,1382
+wch/wch.py,sha256=3A_Znm77R2hiX9EOgl3_HRT40NkYwYJFFvjBlS3Sxuk,838
+wch-0.4.0.dist-info/entry_points.txt,sha256=5JBHetekZznqk2ALxD9VNx0S8Oq1UQKiwTNsBShPG9U,35
+wch-0.4.0.dist-info/LICENSE,sha256=lZq9RagN3FQV3aFSSBDz2OVmTnOFYZyACmO88ShfLik,1069
+wch-0.4.0.dist-info/WHEEL,sha256=G_NFpzHmv_dUXgCUSAWL0-bLL-eMzYU6DzDeGXbRXUk,83
+wch-0.4.0.dist-info/METADATA,sha256=DIEHXKJUyBuP1Lyowr3OIgaACkQfDmqyrHB0mC-MUJM,1115
+wch-0.4.0.dist-info/RECORD,,
