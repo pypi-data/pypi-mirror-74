@@ -1,0 +1,13 @@
+Metadata-Version: 1.1
+Name: cryptodataaccess-athanikos
+Version: 0.0.6
+Summary: A set of rest api methods used for calculating statistics and applying models for football data 
+Home-page: UNKNOWN
+Author: Nikos Athanasakis
+Author-email: athanikos@gmail.com
+License: MIT License
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
