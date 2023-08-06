@@ -1,0 +1,16 @@
+texturize/__init__.py,sha256=y9RG6r_6NHeqKlg_Xoe40yeb5IKE01K00wRN2Fxv6uM,111
+texturize/__main__.py,sha256=hW8vFxyYXeun3oqn82gjw0zlQ-NyKqudxQFaoaLBrvA,7425
+texturize/api.py,sha256=XxtWgVfZc0o2IDBz5TB75PQwGPwjjUFjYq1fTDneu7A,3848
+texturize/app.py,sha256=BqFVaHI3dy_VlYREOAomcQJhXpLPEG80lAezLFU04Zk,4776
+texturize/commands.py,sha256=lSuF6Wt1A7dm_SaAcy6Pk62CcnN_qeiymMaa43xuzPU,9392
+texturize/critics.py,sha256=mbStK6yFUohkaGj1r2w2e4FtPD66Aal9rwqn7GHbyMc,6753
+texturize/io.py,sha256=cnRUvgu0WSZ8JhFVaiDigOrwTe8ofyXfKmjmJtGnty8,6125
+texturize/logger.py,sha256=bSKwSGGjHKye0k5i3InbWsEZMGwi34X5loCAzoSHwAg,3189
+texturize/match.py,sha256=RFJZfm8PitulCw8LtL7U-MosR_624DRojpyBtNDSOCw,21260
+texturize/patch.py,sha256=jIB5uTAIU8ivqsGTLT9HldCiYTEFfFjV--D8HxpYhiI,1176
+texturize/solvers.py,sha256=4P4_jLD4RlIAKmvnLtWrXfbIbGB39Fjpu-ODAzkbzog,8147
+texturize-0.12.dist-info/entry_points.txt,sha256=UH5BgGa4DSpkq0QbPyx8CxrGjaWI4HZEqycCXt0txWU,53
+texturize-0.12.dist-info/LICENSE,sha256=dql8h4yceoMhuzlcK0TT_i-NgTFNIZsgE47Q4t3dUYI,34520
+texturize-0.12.dist-info/WHEEL,sha256=Q99itqWYDhV793oHzqzi24q7L7Kdiz6cb55YDfTXphE,84
+texturize-0.12.dist-info/METADATA,sha256=BmIW-EkmIcPA4bexVtg_BfNLhjhUBOsI5oPc-f7rul4,2825
+texturize-0.12.dist-info/RECORD,,
