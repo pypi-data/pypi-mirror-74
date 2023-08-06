@@ -1,0 +1,58 @@
+Metadata-Version: 2.1
+Name: MGEmasker
+Version: 0.1.3
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: Anthony Underwood
+Author-email: au3@sanger.ac.uk
+License: GPLv3
+Description: ## MGE Masker
+        
+        This package finds MGEs based on annotations in a rich sequence file (Genbank or EMBL).
+        There are 3 subcommands
+        
+        1. **find_mges** Search a rich sequence file for features annotated with text that suggests a MGE-associated element
+        2. **mask_mges** Mask regions from a pseudogenome alignment with the regions in a GFF file produced using the find_mges command
+        1. **default_matches** Show the default regex patterns used when searching for MGEs. This can be overridden by providing a similarly formatted file using the -m parameter with the find_mges command
+        
+        ### Deafult patterns matched
+        ```
+        .*\b[tT]ranspos
+        .*\b[pP]hage
+        .*\b[rR]epeat
+        .*\b[rR]eptitive
+        .*\b[iI]nsertion sequence
+        .*\bIS
+        .*\b[tT]n
+        .*\b[iI]ntegr
+        ```
+        
+        ### Usage
+        ```
+        usage: mge_masker [-h] {find_mges,mask_mges,default_matches} ...
+        
+        A module to find MGEs in a rich sequence file and mask regions corresponding to the MGEs in a pseudogenome alignment.
+        
+        The find_mges command searches a gbk or embl file for features that have MGE-associated annotations.
+        It writes a GFF file containing the positions of the matched features.
+        
+        The mask_mges command takes a GFF file produced using the find_mges command and masks those regions in all sequences of a pseudogenome alignment based on the reference sequence used to find MGEs.
+        
+        positional arguments:
+        {find_mges,mask_mges,default_matches}
+                                The following commands are available. Type mge_masker
+                                <COMMAND> -h for more help on a specific commands
+            find_mges           Search a rich sequence file for features annotated
+                                with text that suggests a MGE-associated element
+            mask_mges           Mask regions from a pseudogenome alignment with the
+                                regions in a GFF file produced using the find_mges
+                                command
+            default_matches     Show the default regex patterns used when searching
+                                for MGEs
+        
+        optional arguments:
+        -h, --help            show this help message and exit
+        ```
+Platform: UNKNOWN
+Requires-Python: >=3
+Description-Content-Type: text/markdown
