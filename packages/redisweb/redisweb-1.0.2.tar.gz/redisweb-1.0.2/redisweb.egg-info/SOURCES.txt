@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+redisweb/__init__.py
+redisweb/constant.py
+redisweb/main.py
+redisweb/redisboard.py
+redisweb/utils.py
+redisweb.egg-info/PKG-INFO
+redisweb.egg-info/SOURCES.txt
+redisweb.egg-info/dependency_links.txt
+redisweb.egg-info/entry_points.txt
+redisweb.egg-info/not-zip-safe
+redisweb.egg-info/requires.txt
+redisweb.egg-info/top_level.txt
