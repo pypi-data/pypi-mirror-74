@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+monoclparse/__init__.py
+monoclparse/_version.py
+monoclparse/util.py
+monoclparse.egg-info/PKG-INFO
+monoclparse.egg-info/SOURCES.txt
+monoclparse.egg-info/dependency_links.txt
+monoclparse.egg-info/not-zip-safe
+monoclparse.egg-info/requires.txt
+monoclparse.egg-info/top_level.txt
