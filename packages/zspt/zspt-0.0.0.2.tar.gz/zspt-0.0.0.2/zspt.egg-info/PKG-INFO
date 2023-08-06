@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: zspt
+Version: 0.0.0.2
+Summary: A powerful and graceful blog system built by python.
+Home-page: https://github.com/Peiiii/zspt
+Author: Wang Pei
+Author-email: 1535376447@qq.com
+License: UNKNOWN
+Description: # zspt -- A powerful and graceful blog system built by python
+        
+        ### Install
+        ```cmd
+        pip3 install zspt
+        ```
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.0
+Description-Content-Type: text/markdown
