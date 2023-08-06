@@ -1,0 +1,4 @@
+pydantic
+asyncio
+aioredis
+aredis
