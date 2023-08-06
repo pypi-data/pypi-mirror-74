@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: gerapy-rabbitmq
+Version: 0.0.1
+Summary: Distribution Support for Scrapy & Gerapy using RabbitMQ
+Home-page: https://github.com/Gerapy/GerapyRabbitMQ
+Author: Germey
+Author-email: cqc@cuiqingcai.com
+License: MIT
+Description: 
+        # Gerapy RabbitMQ
+        
+        This is a package for supporting distribution in Scrapy using RabbitMQ, also this
+        package is a module in [Gerapy](https://github.com/Gerapy/Gerapy).
+        
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.5.0
+Description-Content-Type: text/markdown
