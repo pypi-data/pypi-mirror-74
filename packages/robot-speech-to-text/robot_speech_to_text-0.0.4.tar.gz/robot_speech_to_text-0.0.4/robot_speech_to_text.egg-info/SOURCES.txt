@@ -1,0 +1,9 @@
+setup.py
+robot_speech_to_text/__init__.py
+robot_speech_to_text/executor.py
+robot_speech_to_text/main.py
+robot_speech_to_text.egg-info/PKG-INFO
+robot_speech_to_text.egg-info/SOURCES.txt
+robot_speech_to_text.egg-info/dependency_links.txt
+robot_speech_to_text.egg-info/requires.txt
+robot_speech_to_text.egg-info/top_level.txt
