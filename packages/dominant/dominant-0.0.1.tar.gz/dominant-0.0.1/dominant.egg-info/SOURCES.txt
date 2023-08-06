@@ -1,0 +1,7 @@
+README.md
+setup.py
+dominant/__init__.py
+dominant.egg-info/PKG-INFO
+dominant.egg-info/SOURCES.txt
+dominant.egg-info/dependency_links.txt
+dominant.egg-info/top_level.txt
