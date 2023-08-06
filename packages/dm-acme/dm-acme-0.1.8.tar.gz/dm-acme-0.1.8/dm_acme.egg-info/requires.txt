@@ -1,0 +1,32 @@
+absl-py
+dm_env
+dm-tree
+numpy
+pillow
+
+[envs]
+bsuite@ git+git://github.com/deepmind/bsuite.git#egg=bsuite
+dm-control
+gym
+gym[atari]
+
+[jax]
+jax
+jaxlib
+dm-haiku
+rlax@ git+git://github.com/deepmind/rlax.git#egg=rlax
+dataclasses
+
+[reverb]
+dm-reverb-nightly==0.1.0.dev20200708
+tf-nightly==2.4.0.dev20200708
+
+[testing]
+pytype
+pytest-xdist
+
+[tf]
+tf-nightly==2.4.0.dev20200708
+tfp-nightly==0.12.0.dev20200717
+dm-sonnet
+trfl
