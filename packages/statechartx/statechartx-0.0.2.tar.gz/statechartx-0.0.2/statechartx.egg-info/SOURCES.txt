@@ -1,0 +1,10 @@
+README.md
+setup.py
+statechartx/__init__.py
+statechartx/example.py
+statechartx/statechartx.py
+statechartx.egg-info/PKG-INFO
+statechartx.egg-info/SOURCES.txt
+statechartx.egg-info/dependency_links.txt
+statechartx.egg-info/not-zip-safe
+statechartx.egg-info/top_level.txt
