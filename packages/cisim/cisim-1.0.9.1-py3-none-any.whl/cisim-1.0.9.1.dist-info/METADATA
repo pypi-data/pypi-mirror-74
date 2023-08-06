@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: cisim
+Version: 1.0.9.1
+Summary: Package for simulating confidence interval of Binomial distribution and Hypergeometric distribution
+Home-page: https://github.com/KeisukeNagakawa/cisim
+Author: Keisuke Nagakawa
+Author-email: keisuke.n.37@gmail.com
+License: MIT
+Platform: UNKNOWN
+Description-Content-Type: text/x-rst
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: cerberus
+
+A module to calculate confidence interval for a Hypergeometric distribution.
+
+For more details, check out `our repository <https://github.com/KeisukeNagakawa/cisim>`_.
+
+
