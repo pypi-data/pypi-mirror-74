@@ -1,0 +1,8 @@
+jieba
+numpy
+strsimpy
+fake_useragent
+requests
+
+[tf]
+tensorflow>=2.2.0
