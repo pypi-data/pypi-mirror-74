@@ -1,0 +1,6 @@
+setup.cfg
+setup.py
+yale.egg-info/PKG-INFO
+yale.egg-info/SOURCES.txt
+yale.egg-info/dependency_links.txt
+yale.egg-info/top_level.txt
