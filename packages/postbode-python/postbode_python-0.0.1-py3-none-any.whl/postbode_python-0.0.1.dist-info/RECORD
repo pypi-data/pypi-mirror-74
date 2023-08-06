@@ -1,0 +1,9 @@
+postbode/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+postbode/client.py,sha256=ZuSf_ql0RNMaWoDWIcBdEoZYToEcN5dyIUUvb_usZFE,4567
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_client.py,sha256=Wo0PtBTEjsfLZkEN-VPkDCuG3krzx7aa5LUyf_L7wEU,100
+postbode_python-0.0.1.dist-info/LICENSE,sha256=qKgZjDvvcOLv6NfdTWf11J7qag4FMLYHRvWZEc0x4TQ,1057
+postbode_python-0.0.1.dist-info/METADATA,sha256=RFs9m3DVZUkDB56ZPfeyjmHcm8khuwEFJRHTVROguTA,1976
+postbode_python-0.0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+postbode_python-0.0.1.dist-info/top_level.txt,sha256=3d-zV-SW0IopKjoIcsJuP3xO1ffqsjUdQmqrqlHL6Ic,15
+postbode_python-0.0.1.dist-info/RECORD,,
