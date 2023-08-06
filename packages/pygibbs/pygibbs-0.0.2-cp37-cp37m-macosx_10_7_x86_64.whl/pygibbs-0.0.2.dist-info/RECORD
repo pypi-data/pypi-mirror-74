@@ -1,0 +1,9 @@
+pygibbs/__init__.py,sha256=2YjhGFmyewzgDNOQ3NYEHLRAWpJ5Uve6tA3duitPXcE,114
+pygibbs/dms.cpython-37m-darwin.so,sha256=I0AK51z6KdKk_wAYmRA1Ya-YlhzLm3EpynJgAgkyi5M,293688
+pygibbs/solvers.cpython-37m-darwin.so,sha256=8IMSjY8FNsjq42_Z-ox8VDPKU1zYelfCKbWJP3grgpI,263448
+pygibbs/utils.cpython-37m-darwin.so,sha256=ywV3110a_BGIosHzFfOMuLIUqgWtsuDV-aGMtZiIejo,403396
+pygibbs-0.0.2.dist-info/LICENSE,sha256=qPhFnvfBY0tjgZYOgxzvHj63jtVDyEcd7MoQRNW78cM,1080
+pygibbs-0.0.2.dist-info/METADATA,sha256=WiN5nMd-i2OARZpEZ9DIX2HLxbvd-CjzH9s5gwW5J8U,3864
+pygibbs-0.0.2.dist-info/WHEEL,sha256=nwkAFz8_dz9CJKDh7koJ-e7PWuFRVmHPgrJxVGv4MRQ,110
+pygibbs-0.0.2.dist-info/top_level.txt,sha256=fqy4Gnit1o3UtPzqiiSUEshb18606O74tE534F9ibEI,8
+pygibbs-0.0.2.dist-info/RECORD,,
