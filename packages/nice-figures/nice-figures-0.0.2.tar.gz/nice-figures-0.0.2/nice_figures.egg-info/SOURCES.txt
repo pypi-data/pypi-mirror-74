@@ -1,0 +1,13 @@
+README.md
+setup.py
+nice_figures/__init__.py
+nice_figures/add_border.py
+nice_figures/add_numbering.py
+nice_figures/load_cols.py
+nice_figures/load_style.py
+nice_figures/version.py
+nice_figures.egg-info/PKG-INFO
+nice_figures.egg-info/SOURCES.txt
+nice_figures.egg-info/dependency_links.txt
+nice_figures.egg-info/requires.txt
+nice_figures.egg-info/top_level.txt
