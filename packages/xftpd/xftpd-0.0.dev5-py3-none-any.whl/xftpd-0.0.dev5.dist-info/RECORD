@@ -1,0 +1,10 @@
+xftpd/__init__.py,sha256=4qGMHPEn6f8c97cki8A3kSNkMJG_-oo-3ouFnrh-GbA,14324
+xftpd/ftp_server/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+xftpd/ftps_server/__init__.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+xftpd/sftp_server/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+xftpd/tftp_server/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+xftpd-0.0.dev5.dist-info/LICENSE,sha256=zkrJNNPH3_8MicOXgFoARDnU0BDZ4iQZWiqYddk-n9E,1066
+xftpd-0.0.dev5.dist-info/METADATA,sha256=vU1miT0qHs3vmhDKfsbHW4kjTpGep1TavpKx7HivaZM,2442
+xftpd-0.0.dev5.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+xftpd-0.0.dev5.dist-info/top_level.txt,sha256=5-cNgmlDllF6yFqTDe-ivQEiZoDfO5rUf0sGd7jVta8,6
+xftpd-0.0.dev5.dist-info/RECORD,,
