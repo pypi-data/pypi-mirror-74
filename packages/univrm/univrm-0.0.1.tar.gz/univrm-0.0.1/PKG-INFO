@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: univrm
+Version: 0.0.1
+Summary: A very minimal script packaged as a cli which can both files and directories
+Home-page: UNKNOWN
+Author: Icelain
+Author-email: xerneas965@gmail.com
+License: UNKNOWN
+Description: univrm is a simple command line tool which can delete both file and directories(whether empty or full).
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.2
+Description-Content-Type: text/markdown

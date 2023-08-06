@@ -1,0 +1,3 @@
+[console_scripts]
+univrm = univrm_main.univrm:main
+
