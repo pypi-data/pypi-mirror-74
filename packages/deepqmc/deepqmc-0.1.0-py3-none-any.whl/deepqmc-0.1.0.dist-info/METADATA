@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: deepqmc
+Version: 0.1.0
+Summary: Deep-learning quantum Monte Carlo for electrons in real space
+Author: Jan Hermann
+Author-email: jan.hermann@fu-berlin.de
+Requires-Python: >=3.7,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Provides-Extra: all
+Provides-Extra: cli
+Provides-Extra: doc
+Provides-Extra: test
+Provides-Extra: train
+Provides-Extra: wf
+Requires-Dist: Pillow (>=7,<8); extra == "train" or extra == "all"
+Requires-Dist: click (>=7.0,<8.0); extra == "cli" or extra == "all"
+Requires-Dist: coverage (>=4.5,<5.0); extra == "test" or extra == "all"
+Requires-Dist: h5py (>=2.10.0,<3.0.0); extra == "train" or extra == "all"
+Requires-Dist: numpy (>=1.16,<2.0)
+Requires-Dist: pyscf (>=1.6,<2.0); extra == "wf" or extra == "all"
+Requires-Dist: pytest (>=4.4,<5.0); extra == "test" or extra == "all"
+Requires-Dist: scipy (>=1.2,<2.0); extra == "wf" or extra == "all"
+Requires-Dist: sphinx (>=2.2,<3.0); extra == "doc"
+Requires-Dist: sphinxcontrib-katex (>=0.5.1,<0.6.0); extra == "doc"
+Requires-Dist: tensorboard (>=2.0,<3.0); extra == "train" or extra == "all"
+Requires-Dist: toml (>=0.10.0,<0.11.0)
+Requires-Dist: torch (>=1.2,<2.0)
+Requires-Dist: tqdm (>=4.31,<5.0); extra == "train" or extra == "all"
+Requires-Dist: uncertainties (>=3.1.2,<4.0.0)
