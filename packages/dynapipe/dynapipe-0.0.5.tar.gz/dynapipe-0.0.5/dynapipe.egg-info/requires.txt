@@ -1,0 +1,8 @@
+pandas
+scikit-learn
+statsmodels
+scipy
+joblib
+logging
+xgboost
+IPython
