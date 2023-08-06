@@ -1,0 +1,107 @@
+Metadata-Version: 2.1
+Name: ptc
+Version: 0.0.1.dev20200721152952
+Summary: Pulse Tool Calibration library
+Home-page: https://rozum.com
+Author: Rozum Robotics
+Author-email: dev@rozum.com
+License: Apache License 2.0
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
+Requires-Dist: numpy (==1.18.1)
+Requires-Dist: scipy (==1.4.1)
+
+
+# Pulse Tool Calibration Library
+
+Utility library (ptc) and command line interface (ptc-cli) to calculate tool 
+offset for Pulse Robotic Arm.
+
+## Installation
+
+Standalone library:
+
+`pip3 install -U ptc`
+
+Command line interface and library:
+
+`pip3 install -U ptc-cli`
+
+## Usage
+Basic usage, assuming that you have followed installation step and installed the
+`ptc-cli` package.
+
+In order to determine the tool offset, you MUST provide at least 4 different 
+positions, that represent the same point in space with tool installed.
+The more points you give the better calibration precision could be achived.
+
+The positions could be obtained using the `get_position()` method from 
+`pulse-api` library and should be provided in a text file in the following 
+order:
+
+`x`, `y`, `z`, `roll`, `pitch`, `yaw`
+
+Each position MUST be on a separate line and the values MUST be separated with
+comas.
+
+Calculation is performed using following command in terminal:
+
+`ptc-cli --file /absolute/path/to/your/positions/file`
+
+The output will be the calculated tool offset:
+
+[`x_offset`, `y_offset`, `z_offset`]
+
+This output could be used in the `change_tool_info` method of the `pulse-api`
+library.
+
+## Example
+
+Sample file with robot positions located at `/home/user/sample.csv`:
+```csv
+0.4000000016853294, -0.39999999880983755, 0.3000000025723091, -3.1415926381331523, 2.188741009988131e-08, 2.6794896299132232e-08
+0.4000000029422969, -0.2999999962803114, 0.19999999804274032, 1.5707963642922351, 3.757424773546488e-15, 7.285142337505987e-08
+0.3292893264445241, -0.4707106768261343, 0.2000000019309496, -1.5707963309948643, 0.7853981633974412, -5.0320115533448106e-08
+0.47071067682613615, -0.32928932644452064, 0.19999999806904972, 1.570796322594932, -0.7853981633974498, 5.363765550429646e-08
+```
+
+Terminal command:
+
+`ptc-cli --file /home/user/sample.csv`
+
+Output:
+
+```Calculated TCP offset: [0.00027102 0.00027103 0.10055737]```
+
+To get more detailed output:
+
+`ptc-cli --file /home/user/sample.csv --verbose`
+
+Output:
+
+```
+Calculated TCP offset: [0.00027102 0.00027103 0.10055737]
+More detailed calibration info:
+ active_mask: array([0., 0., 0.])
+        cost: 5.770939282001564e-13
+         fun: array([5.31035219e-07, 7.68248630e-07, 5.31035183e-07])
+        grad: array([1.27999602e-09, 1.28000956e-09, 2.89674021e-09])
+         jac: array([[1.62617755e-03, 3.03639571e-12, 1.11474501e-03],
+       [5.42062087e-04, 5.42079840e-04, 2.22948991e-03],
+       [1.68880868e-11, 1.62617750e-03, 1.11474494e-03]])
+     message: '`gtol` termination condition is satisfied.'
+        nfev: 11
+        njev: 10
+  optimality: 2.8967402130836482e-09
+      status: 1
+     success: True
+           x: array([0.00027102, 0.00027103, 0.10055737])
+```
+
+
