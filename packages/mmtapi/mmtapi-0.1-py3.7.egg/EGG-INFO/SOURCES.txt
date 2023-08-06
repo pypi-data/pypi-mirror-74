@@ -1,0 +1,6 @@
+README.md
+setup.py
+mmtapi.egg-info/PKG-INFO
+mmtapi.egg-info/SOURCES.txt
+mmtapi.egg-info/dependency_links.txt
+mmtapi.egg-info/top_level.txt
