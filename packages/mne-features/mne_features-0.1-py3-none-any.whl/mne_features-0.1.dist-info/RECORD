@@ -1,0 +1,11 @@
+mne_features/__init__.py,sha256=VFnnIHYvzFm0l3tWHpmt02GZJlvAIoQ6BNqQgQIBBIk,631
+mne_features/bivariate.py,sha256=Ay1riSfSGqk6vkfCW_QkUSE4zkkjilwv_Pjdwz_krnA,12624
+mne_features/feature_extraction.py,sha256=EBdQrxUv2uhcNJweyXIChCy4PTaD7VaognYKXdlo2iQ,17124
+mne_features/mock_numba.py,sha256=PZqhXXwS2nPno0UIQWP84qwG9-d88GhyX5THFpr5L6M,1034
+mne_features/univariate.py,sha256=v8XN5a63hZi0cHj52PQ371F7otqGZvi697R24FnaSyU,48109
+mne_features/utils.py,sha256=MindmCahMU3TFNDEdiHHqE3ss8f44-veTZXverQtE40,11374
+mne_features-0.1.dist-info/LICENSE,sha256=DmeILEbAZj2cmJ-bUKiHorU1jX5o0nrItAMb3zc5C-k,1482
+mne_features-0.1.dist-info/METADATA,sha256=wMJWfKkqU-JZQhITyxatiiV0cd6tNIAswGV6c7-LhKc,2465
+mne_features-0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+mne_features-0.1.dist-info/top_level.txt,sha256=ydPMrvUb7G_ICO5vvD0mQ3q3eeiv_d_EPZdiILtHSp4,13
+mne_features-0.1.dist-info/RECORD,,
