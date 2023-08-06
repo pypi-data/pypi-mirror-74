@@ -1,0 +1,13 @@
+examples/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+examples/test_drive.py,sha256=tfbU-nA8iZUjik8CnpgbWKps_NNd1QaFr0UaMb8Hg6M,1220
+inpromptu/__init__.py,sha256=SQ8fhMkcrHlnKKL4cGYGkPea34OmTKvdzi7ZtX9ahiI,106
+inpromptu/inpromptu.py,sha256=KG1udi0oklw32C5EHi3BofCPGS8KvUEIiBhalCu0MFA,18996
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/completion_tests.py,sha256=jVauclJQvNGqmxZ9Jnr_ezZFs2gSauuIDkSzFbU3vB8,1102
+tests/decorator_tests.py,sha256=e_XuyBbhN740SNPn7A-YaTPOHvoy_yOrK0gwG4Hl36U,1605
+tests/inheritance_tests.py,sha256=amrznmnaeDkY6r6QKWPRDzBAjh_aVEX41b3GAkvfYjE,941
+inpromptu-0.0.5.dist-info/LICENSE.txt,sha256=VjaRidXymtMFrd3aj8LUrc2fibwR9FuUmnayRrOGKoM,1054
+inpromptu-0.0.5.dist-info/METADATA,sha256=YzigYigKNr5oDYu2Pj3tgqBVL_dyGiwg_hzEdJdg6LU,4849
+inpromptu-0.0.5.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+inpromptu-0.0.5.dist-info/top_level.txt,sha256=xB5uS6kLVMBbwINVHnEZbRW0nW-Z5LaZ8gQ1ODgT9wo,25
+inpromptu-0.0.5.dist-info/RECORD,,
