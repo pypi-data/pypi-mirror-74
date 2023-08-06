@@ -1,0 +1,3 @@
+[console_scripts]
+resolution = take_resolution.run:run_package
+
