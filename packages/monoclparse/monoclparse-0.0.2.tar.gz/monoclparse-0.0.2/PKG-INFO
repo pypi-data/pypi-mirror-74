@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: monoclparse
+Version: 0.0.2
+Summary: Parse Monocl Excel business report documents and intersect them!
+Home-page: https://github.com/clintval/monoclparse
+Author: clintval
+Author-email: valentine.clint@gmail.com
+License: MIT
+Download-URL: https://github.com/clintval/monoclparse/archive/v0.0.2.tar.gz
+Project-URL: Documentation, https://monoclparse.readthedocs.io
+Project-URL: Issue Tracker, https://github.com/clintval/monoclparse/issues
+Description: # monoclparse
+        
+        [![Testing Status](https://travis-ci.com/clintval/monoclparse.svg?branch=master)](https://travis-ci.com/github/clintval/monoclparse)
+        [![codecov](https://codecov.io/gh/clintval/monoclparse/branch/master/graph/badge.svg)](https://codecov.io/gh/clintval/monoclparse)
+        [![Documentation Build Status](https://readthedocs.org/projects/monoclparse/badge/?version=latest)](https://monoclparse.readthedocs.io/en/latest/?badge=latest)
+        [![PyPi Release](https://badge.fury.io/py/monoclparse.svg)](https://badge.fury.io/py/monoclparse)
+        [![Python Versions](https://img.shields.io/pypi/pyversions/monoclparse.svg)](https://pypi.python.org/pypi/monoclparse/)
+        [![MyPy Checked](http://www.mypy-lang.org/static/mypy_badge.svg)](http://mypy-lang.org/)
+        [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/ambv/black)
+        
+        Parse [Monocl](https://www.monocl.com/) Excel business report documents and intersect them!
+        
+        ```bash
+        ❯ pip install monoclparse
+        ```
+        
+        Features:
+        
+        - Read Monocl Excel reports into Pandas dataframes
+        - Intersect multiple Monocl reports
+        - Plot the intersection of Monocl reports
+        
+        Read the documentation at: [monoclparse.readthedocs.io](http://monoclparse.readthedocs.io/)
+        
+        ```python
+        import monoclparse as mp
+        ```
+        
+Keywords: monocl business report
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
