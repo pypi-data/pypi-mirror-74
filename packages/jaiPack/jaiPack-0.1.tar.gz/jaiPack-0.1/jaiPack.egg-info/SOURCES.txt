@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+jaiPack/__inti__.py
+jaiPack/functions.py
+jaiPack/greet.py
+jaiPack.egg-info/PKG-INFO
+jaiPack.egg-info/SOURCES.txt
+jaiPack.egg-info/dependency_links.txt
+jaiPack.egg-info/top_level.txt
