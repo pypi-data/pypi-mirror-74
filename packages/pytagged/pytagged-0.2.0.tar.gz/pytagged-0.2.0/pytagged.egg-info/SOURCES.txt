@@ -1,0 +1,17 @@
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+pytagged/__init__.py
+pytagged/_files_utils.py
+pytagged/_mode.py
+pytagged/_utils.py
+pytagged/app.py
+pytagged/cli.py
+pytagged/nline.py
+pytagged/options.py
+pytagged.egg-info/PKG-INFO
+pytagged.egg-info/SOURCES.txt
+pytagged.egg-info/dependency_links.txt
+pytagged.egg-info/entry_points.txt
+pytagged.egg-info/top_level.txt

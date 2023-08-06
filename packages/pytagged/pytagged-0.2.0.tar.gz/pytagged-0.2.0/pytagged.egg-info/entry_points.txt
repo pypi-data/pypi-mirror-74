@@ -1,0 +1,3 @@
+[console_scripts]
+pytag = pytagged.cli:main
+
