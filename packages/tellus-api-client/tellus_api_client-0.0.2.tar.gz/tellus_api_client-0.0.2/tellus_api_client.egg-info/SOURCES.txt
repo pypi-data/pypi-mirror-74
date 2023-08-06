@@ -1,0 +1,9 @@
+README.md
+setup.py
+tellus_api_client/__init__.py
+tellus_api_client/main.py
+tellus_api_client.egg-info/PKG-INFO
+tellus_api_client.egg-info/SOURCES.txt
+tellus_api_client.egg-info/dependency_links.txt
+tellus_api_client.egg-info/requires.txt
+tellus_api_client.egg-info/top_level.txt
