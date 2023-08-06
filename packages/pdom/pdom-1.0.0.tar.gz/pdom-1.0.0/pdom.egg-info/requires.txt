@@ -1,0 +1,7 @@
+appdirs
+numpy
+scipy
+matplotlib
+Pillow
+PubChemPy
+scikit-image
