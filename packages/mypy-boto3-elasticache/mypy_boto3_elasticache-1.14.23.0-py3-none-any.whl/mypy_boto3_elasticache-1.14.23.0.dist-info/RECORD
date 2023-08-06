@@ -1,0 +1,12 @@
+mypy_boto3_elasticache/__init__.py,sha256=9utrUI-jPjMBQCYyjvy8XkoAuYq8_sLEZNi6Q8fD8UY,5349
+mypy_boto3_elasticache/__main__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mypy_boto3_elasticache/client.py,sha256=JceieWf2lSB8l495ohWgb7q9GrMu9exsMMFBZ36EP-w,44413
+mypy_boto3_elasticache/paginator.py,sha256=KXK9nsncGcJn1Ro5KVHYAIgPho8QuXgv9NH4LKize0I,16720
+mypy_boto3_elasticache/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mypy_boto3_elasticache/type_defs.py,sha256=uNpZWSNO9lV-rxq-LQeMTGFMEXTrUcbg-jffgnOyLhM,30614
+mypy_boto3_elasticache/version.py,sha256=_Ig8WPdK4iClPSC8AWS8_F65r7Vr2dSf8XM8Pyu3A94,57
+mypy_boto3_elasticache/waiter.py,sha256=kvZOrIVzwa1NoI4tLU3keWGS-lrJiJ1zTt33PagWcOc,4095
+mypy_boto3_elasticache-1.14.23.0.dist-info/METADATA,sha256=i7d978SuINCKbiD9Ga0ld05KhzT_93UjWUgukOx2kdE,8179
+mypy_boto3_elasticache-1.14.23.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+mypy_boto3_elasticache-1.14.23.0.dist-info/top_level.txt,sha256=DrUtQ_VzKvPEa35H-FvoRXiEIGvgliTHEqekRdFXN7o,23
+mypy_boto3_elasticache-1.14.23.0.dist-info/RECORD,,
