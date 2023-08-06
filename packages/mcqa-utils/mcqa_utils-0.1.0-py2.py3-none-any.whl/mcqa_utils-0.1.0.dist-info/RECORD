@@ -1,0 +1,17 @@
+mcqa_utils/__init__.py,sha256=Qc5AkQqeITUWgcDSwbU662LywBq-OL_Eh6VSxmiZs-0,137
+mcqa_utils/answer.py,sha256=NRKoIVe_uTYldp38xpJNQd7OuWlsyU7KM2_jZ_2qmDk,1397
+mcqa_utils/dataset.py,sha256=2THwzmsz0c-3jsd_oDY5evvdXYylL2Et6ly6VGy_Auk,2661
+mcqa_utils/evaluator.py,sha256=5fCQacj8g5vkonya7ONgeR17nc1N8ZL5b-1DjNU0CH8,2634
+mcqa_utils/example.py,sha256=NzryIrGzl4AHDfpeWWkdPSDO-CwTn3nDVXVRnZOBYb8,2378
+mcqa_utils/mcqa_utils.py,sha256=z2AbNLZWFYe4drNZB8era8GaMXfGW8WtulBbBFDMEKA,2397
+mcqa_utils/metric.py,sha256=PEF0pLOnbbE_O_sZchR6H2-7Rws4-94C631qGDJW6mg,627
+mcqa_utils/question_answering.py,sha256=XQow8x1CQRk1n8UxzUPU5zT0xrR75of1Oyab65qHllo,1570
+mcqa_utils/threshold.py,sha256=Ap1C9T8lENP5ei9cpqnBOM9XAG3ceOF8odIe23VMaMU,1959
+mcqa_utils/utils.py,sha256=UcCSOISM4aNaneqLVDwMOMyemdWLQlmKDrxjwLGG-v0,914
+mcqa_utils-0.1.0.dist-info/AUTHORS.rst,sha256=CLBCcamhVUAoXMDo3Gb6rDu9Y3-3UZDDd7WFVvrKCh0,165
+mcqa_utils-0.1.0.dist-info/LICENSE,sha256=3xyhpYSAmM5_6-rulNyoCBPBLgchkFKSxMQrg-XOvaw,1078
+mcqa_utils-0.1.0.dist-info/METADATA,sha256=qgA7bZDHdP78qpepaDp8MGKr6ECT1aAnxtXhW_YfXwg,1824
+mcqa_utils-0.1.0.dist-info/WHEEL,sha256=8zNYZbwQSXoB9IfXOjPfeNwvAsALAjffgk27FqvCWbo,110
+mcqa_utils-0.1.0.dist-info/entry_points.txt,sha256=R9scEIj7OpSLatahdsRjbWUFSwHHvjLnGS4NmDVLb8o,59
+mcqa_utils-0.1.0.dist-info/top_level.txt,sha256=GZm5ZVNiyndDpm9iJJy5xhJ63EA8QOFH1YXxHmGtHyo,11
+mcqa_utils-0.1.0.dist-info/RECORD,,
