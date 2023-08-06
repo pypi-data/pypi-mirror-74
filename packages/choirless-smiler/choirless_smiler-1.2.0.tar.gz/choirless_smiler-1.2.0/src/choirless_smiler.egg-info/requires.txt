@@ -1,0 +1,5 @@
+numpy
+tensorflow
+dlib
+imutils
+opencv-python
