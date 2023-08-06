@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: cdmaoapi
+Version: 1.0.1
+Summary: 获取/提交编程猫官方数据
+Home-page: http://doc.viyrs.com/cdmaoapi.html
+Author: 冷鱼花茶
+Author-email: 2991883280@qq.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: Apache Software License
+Description-Content-Type: text/markdown
+Requires-Dist: requests (==2.23.0)
+Requires-Dist: lxml (==4.5.1)
+
+# cdmaoapi
+集合大量接口，简化大量requests步骤，只需要一行函数，就可获取资料！ 
+不仅是获取，还可以与官方后台交互，如：回复评论，作品收藏，作品点赞等。 
+你可以用本库来开发更多有趣的功能哦！ 
+
