@@ -1,0 +1,11 @@
+README.md
+setup.py
+distributions_sarish/Binomialdistribution.py
+distributions_sarish/Gaussiandistribution.py
+distributions_sarish/Generaldistribution.py
+distributions_sarish/__init__.py
+distributions_sarish.egg-info/PKG-INFO
+distributions_sarish.egg-info/SOURCES.txt
+distributions_sarish.egg-info/dependency_links.txt
+distributions_sarish.egg-info/not-zip-safe
+distributions_sarish.egg-info/top_level.txt
