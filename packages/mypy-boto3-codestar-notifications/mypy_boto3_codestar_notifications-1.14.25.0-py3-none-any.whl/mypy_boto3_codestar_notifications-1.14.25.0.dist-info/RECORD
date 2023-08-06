@@ -1,0 +1,11 @@
+mypy_boto3_codestar_notifications/__init__.py,sha256=q0_hQn3IhcSJ69QDdzHwnl_ftwrFiUjlmBdcMnMAsZc,1266
+mypy_boto3_codestar_notifications/__main__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mypy_boto3_codestar_notifications/client.py,sha256=eR2orrlWKzVtH9HT2r67GpkZXGrOXduJhw3ns07HX4A,9000
+mypy_boto3_codestar_notifications/paginator.py,sha256=ySg_Rn3KPWLvQ5UxV0Fsol3AcO0QfS98ydgjeQP0EFg,3443
+mypy_boto3_codestar_notifications/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mypy_boto3_codestar_notifications/type_defs.py,sha256=breULWxseM2qkfe_jDtqqPSiCUHTtpOIaUMqezBf4vw,4448
+mypy_boto3_codestar_notifications/version.py,sha256=gqmtAja7FbgqbcsFtJzLExOxEw5Ty3_g3XtsR5T3ZM0,57
+mypy_boto3_codestar_notifications-1.14.25.0.dist-info/METADATA,sha256=2Au02kcWkR2wiOKU0Q9z9TW5RQpdAVfqyhvkNn9OWT0,5424
+mypy_boto3_codestar_notifications-1.14.25.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+mypy_boto3_codestar_notifications-1.14.25.0.dist-info/top_level.txt,sha256=CPGxQNuvN50o3S1Y3sk7v-x8pcK5Bj-8EZgjCLbChrg,34
+mypy_boto3_codestar_notifications-1.14.25.0.dist-info/RECORD,,
