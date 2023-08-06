@@ -1,0 +1,4 @@
+[console_scripts]
+main=skstyle_bot.__main__:main
+set_data=skstyle_bot.data_manager:change_data
+
