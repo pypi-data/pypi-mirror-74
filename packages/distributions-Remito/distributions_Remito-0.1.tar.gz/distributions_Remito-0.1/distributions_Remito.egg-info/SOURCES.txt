@@ -1,0 +1,11 @@
+README.md
+setup.cfg
+setup.py
+distributions/Binomialdistribution.py
+distributions/Gaussiandistribution.py
+distributions/Generaldistribution.py
+distributions_Remito.egg-info/PKG-INFO
+distributions_Remito.egg-info/SOURCES.txt
+distributions_Remito.egg-info/dependency_links.txt
+distributions_Remito.egg-info/not-zip-safe
+distributions_Remito.egg-info/top_level.txt
