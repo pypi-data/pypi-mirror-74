@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: pyevolution
+Version: 0.1.0
+Summary: PyTorch based framework for training artificial agents in bio-inspired environments
+Home-page: https://github.com/Project-DC/pyevolve
+Author: Siddhartha Dhar Choudhury
+Author-email: sdharchou@gmail.com
+License: GNU General Public License v3
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.6
+Description-Content-Type: text/markdown
+Requires-Dist: pygame
+Requires-Dist: numpy
+Requires-Dist: torch
+
+# PyEvolution
+
+PyEvolution is a deep reinforcement learning framework for evolution simulation environments. PyEvolution provides a high level API for training agents using standard Deep Reinforcement Learning Algorithms in environments with in-built neural networks for performing policy evaluation. Users can thus focus on the main problem - to observe interesting patterns amongst these artificial species in various simulated environments.
+
+Currently we have a single environment consisting of a single species called "Prima Vita" as a proof of concept. The details of this environment can be found below.
+
+## Prima Vita
+
+Prima Vita is a species of artificially simulated beings created as part of Project DC. This repository holds a simulation environment created in pygame which is to be used with Deep Reinforcement Learning algorithms to find out the evolution of Prima Vita.
+
+
+
