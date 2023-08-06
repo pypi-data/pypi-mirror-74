@@ -1,0 +1,11 @@
+mdutils==1.2.2
+GitPython==3.0.5
+gitdb2==2.0.6
+parameters-validation==1.1.5
+pyspark==3.0.0
+PyYAML==5.3
+cassandra-driver==3.22.0
+
+[h3]
+cmake==3.16.3
+h3==3.4.2
