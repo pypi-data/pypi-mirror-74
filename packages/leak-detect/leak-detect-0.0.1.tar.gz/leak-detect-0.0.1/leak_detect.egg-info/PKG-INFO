@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: leak-detect
+Version: 0.0.1
+Summary: Detect leakage in ML datasets using complex numbers and NANs
+Home-page: https://github.com/abhayspawar/leak-detect
+Author: Abhay Pawar
+Author-email: abhayspawar@gmail.com
+License: UNKNOWN
+Description: Leak-detect helps with detecting data leakages in your data creation pipeline using complex numbers and NANs. It enables you to test for data leakage with ease and high accuracy, while treating your data creation pipeline as a black-box.
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 2
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
