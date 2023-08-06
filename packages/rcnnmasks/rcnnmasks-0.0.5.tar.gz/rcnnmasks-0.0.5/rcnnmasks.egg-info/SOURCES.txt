@@ -1,0 +1,16 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+rcnnmasks/__init__.py
+rcnnmasks/config.py
+rcnnmasks/model.py
+rcnnmasks/parallel_model.py
+rcnnmasks/utils.py
+rcnnmasks/visualize.py
+rcnnmasks.egg-info/PKG-INFO
+rcnnmasks.egg-info/SOURCES.txt
+rcnnmasks.egg-info/dependency_links.txt
+rcnnmasks.egg-info/top_level.txt
