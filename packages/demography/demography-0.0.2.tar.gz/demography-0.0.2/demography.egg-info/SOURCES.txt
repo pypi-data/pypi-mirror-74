@@ -1,0 +1,15 @@
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+demography/__init__.py
+demography.egg-info/PKG-INFO
+demography.egg-info/SOURCES.txt
+demography.egg-info/dependency_links.txt
+demography.egg-info/requires.txt
+demography.egg-info/top_level.txt
+demography/data/uk/encodings.json
+demography/data/uk/groups.json
+demography/data/uk/map.json
+demography/data/uk/regex
+demography/data/uk/tree.json
