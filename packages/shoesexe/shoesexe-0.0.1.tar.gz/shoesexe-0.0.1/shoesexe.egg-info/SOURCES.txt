@@ -1,0 +1,8 @@
+README.md
+setup.py
+shoesexe/__init__.py
+shoesexe/exe.py
+shoesexe.egg-info/PKG-INFO
+shoesexe.egg-info/SOURCES.txt
+shoesexe.egg-info/dependency_links.txt
+shoesexe.egg-info/top_level.txt
