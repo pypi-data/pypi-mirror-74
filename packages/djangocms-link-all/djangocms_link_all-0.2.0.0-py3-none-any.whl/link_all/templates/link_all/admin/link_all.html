@@ -1,0 +1,40 @@
+{% extends "admin/change_form.html" %}
+
+{% load static %}
+
+
+{% block admin_change_form_document_ready %}
+    {{ block.super }}
+
+    <script>
+        window.LINK_ALL_CONTENT_TYPES_NAMES = {
+            {% for selectable_model in selectable_models %}
+                {{ selectable_model.content_type_pk }}: '{{ selectable_model.verbose_name }}',
+            {% endfor %}
+        };
+        window.LINK_ALL_INSTANCES = {
+            {% for selectable_model in selectable_models %}
+                {{ selectable_model.content_type_pk }}: {
+                    {% for selectable_model_instance in selectable_model.instances %}
+                        {{ selectable_model_instance.pk }}: {
+                            pk: '{{ selectable_model_instance.pk }}',
+                            label: '{{ selectable_model_instance.label }}',
+                            url: '{{ selectable_model_instance.url }}',
+                            isShowUrlInSelect: {{ selectable_model_instance.is_show_url_in_select|lower }},
+                        },
+                    {% endfor %}
+                },
+            {% endfor %}
+        };
+    </script>
+
+    {% if settings.DIVIO_ENV.value == 'local' %}
+        <script data-is-reload-on-page-edit defer src="http://localhost:8080/chunk-vendors.js"></script>
+        <script data-is-reload-on-page-edit defer src="http://localhost:8080/app.js"></script>
+    {% else %}
+        <script data-is-reload-on-page-edit defer src="{% static 'link_all/dist/chunk-vendors.js' %}"></script>
+        <script data-is-reload-on-page-edit defer src="{% static 'link_all/dist/app.js' %}"></script>
+        <link rel="stylesheet" href="{% static 'link_all/dist/app.css' %}">
+    {% endif %}
+
+{% endblock %}

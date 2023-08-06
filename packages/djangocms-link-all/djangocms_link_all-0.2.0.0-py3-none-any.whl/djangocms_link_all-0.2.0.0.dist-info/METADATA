@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: djangocms-link-all
+Version: 0.2.0.0
+Summary: UNKNOWN
+Home-page: https://gitlab.com/what-digital/djangocms-link-all
+Author: Victor Yunenko
+Author-email: victor@what.digital
+License: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: django (<3,>=2.2)
+Requires-Dist: django-cms (<4,>=3.7)
+Requires-Dist: django-filer
+
+![](/docs/screenshot.png)
+
+In order to add more link types add to your `settings.py` `LINK_ALL_MODELS`, eg
+
+```python
+from link_all.dataclasses import LinkAllModel
+
+
+LINK_ALL_MODELS = [
+    LinkAllModel(app_label='djangocms_blog', model_name='Post'),
+    LinkAllModel(app_label='djangocms_blog', model_name='BlogCategory'),
+    LinkAllModel(app_label='cms', model_name='Page'),
+]
+```
+
+Those models must have `get_absolute_url` method.
+
+You can also add link all field to your plugin by using the `LinkAllMixin` model mixin and inheriting from `LinkAllPlugin` setup in `link_all.cms_plugins`.
+
+
+### Frontend commands
+- `cd link_all/static/link_all`
+- `yarn install`
+- `yarn serve` or `yarn build`
+
+

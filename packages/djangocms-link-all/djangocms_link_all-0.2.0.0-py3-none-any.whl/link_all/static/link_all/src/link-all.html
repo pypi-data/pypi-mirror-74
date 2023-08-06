@@ -1,0 +1,38 @@
+<div class="link-all-component">
+    <div class="field">
+        <div class="field-title">Link</div>
+        <div class="field-inputs">
+            <label v-for="(linkTypeLabel, linkTypePk) in window.LINK_ALL_CONTENT_TYPES_NAMES">
+                <input type="radio"
+                       name="typeSelected"
+                       v-model="linkType"
+                       v-bind:value="linkTypePk"
+                       v-on:input="selectLinkType($event.target.value)"
+                >
+                {{linkTypeLabel}}
+            </label>
+        </div>
+    </div>
+
+    <div v-if="linkType === LINK_TYPE_URL_PK" class="field-type-input">
+        <input type="text"
+               placeholder="https://google.com"
+               v-model="url"
+               v-on:input="setUrl($event.target.value)"
+        >
+    </div>
+
+    <div v-for="(_, lintInstanceTypePk) in window.LINK_ALL_INSTANCES">
+        <div class="field-type-input" v-if="lintInstanceTypePk === linkType">
+            <select v-model="instance"
+                    v-on:input="djangoInstanceInput.value = $event.target.value"
+            >
+                <option v-for="linkInstance in window.LINK_ALL_INSTANCES[lintInstanceTypePk]"
+                        v-bind:value="linkInstance.pk"
+                >
+                    {{linkInstance.label}} <span v-if="linkInstance.isShowUrlInSelect">({{linkInstance.url}})</span>
+                </option>
+            </select>
+        </div>
+    </div>
+</div>
