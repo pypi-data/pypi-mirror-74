@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: covid_mx_data
+Version: 0.1
+Summary: Descarga archivos de datos de Covid 19 de la Dirección General de Epidemiología (DGE) de la Secretaría de Salud del Gobierno de México.
+Home-page: https://github.com/ivan-fouilloux/CovidMxData
+Author: Iván Fouilloux
+Author-email: contacto@ivanfouilloux.com
+License: MIT
+Download-URL: https://github.com/ivan-fouilloux/CovidMxData/archive/v_01.tar.gz
+Description: UNKNOWN
+Keywords: COVID,MEXICO,DGE,SSA,GOB,MX,COVID19,COVIDMX
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
