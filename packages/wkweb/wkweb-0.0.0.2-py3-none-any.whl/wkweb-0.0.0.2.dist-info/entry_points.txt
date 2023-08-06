@@ -1,0 +1,3 @@
+[console_scripts]
+wwb = web.cli:main
+
