@@ -1,0 +1,11 @@
+README.md
+setup.py
+tests/__init__.py
+tests/bijection_test.py
+word_identifiers/__init__.py
+word_identifiers/converter.py
+word_identifiers/wordlist.py
+word_identifiers.egg-info/PKG-INFO
+word_identifiers.egg-info/SOURCES.txt
+word_identifiers.egg-info/dependency_links.txt
+word_identifiers.egg-info/top_level.txt

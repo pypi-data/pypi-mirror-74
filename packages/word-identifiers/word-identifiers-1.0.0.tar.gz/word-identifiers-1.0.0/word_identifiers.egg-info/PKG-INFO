@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: word-identifiers
+Version: 1.0.0
+Summary: Provides a bijection between numbers and lists of english words.
+Home-page: https://github.com/kavigupta/word-identifiers
+Author: Kavi Gupta
+Author-email: word_identifiers@kavigupta.org
+License: UNKNOWN
+Description: 
+        # word_identifiers
+        
+        This is a bijection between non-negative integers and lists of words, in English. This is useful to quickly make urls or tokens.
+        
+        ## Usage
+        
+        ```python
+        >>> from word_identifiers import words_to_id, id_to_words
+        >>> id_to_words(76985270495720357)
+        ['head', 'dance', 'bully', 'race', 'gate', 'color']
+        >>> words_to_id(['head', 'dance', 'bully', 'race', 'gate', 'color'])
+        76985270495720357
+        ```
+        
+        ## Wordlist
+        
+        The wordlist used is [this public domain wordlist](https://raw.githubusercontent.com/MichaelWehar/Public-Domain-Word-Lists/master/5000-more-common.txt), compiled by [Michael Wehar](https://github.com/MichaelWehar/Public-Domain-Word-Lists).
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
