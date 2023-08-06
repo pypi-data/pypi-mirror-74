@@ -1,0 +1,55 @@
+Metadata-Version: 2.1
+Name: psycaio
+Version: 0.2
+Summary: Asyncio psycopg2 mixin
+Home-page: https://github.com/blenq/psycaio
+Author: Bart Lengkeek
+Author-email: github@lengkeek.com
+License: MIT License
+Description: # psycaio
+        
+        A Python asyncio wrapper around psycopg2
+        
+        ## Example
+        
+        ```Python
+        import asyncio
+        
+        from psycaio import connect
+        
+        
+        async def test_conn():
+            cn = await connect(dbname='postgres')
+            cr = cn.cursor()
+            await cr.execute("SELECT 42")
+            print(cr.fetchone()[0])
+            cr = cn.cursor()
+            await cr.execute("SELECT 42")
+            print(cr.fetchone()[0])
+        
+        
+        if __name__ == '__main__':
+            loop = asyncio.get_event_loop()
+            loop.run_until_complete(test_conn())
+            loop.close()
+        
+        ```
+        
+        
+        ## About
+        
+        This package is meant as a minimal asyncio mixin for psycopg2.
+        
+Keywords: asyncio,postgresql,psycopg2
+Platform: any
+Classifier: Framework :: AsyncIO
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Database :: Front-Ends
+Description-Content-Type: text/markdown
