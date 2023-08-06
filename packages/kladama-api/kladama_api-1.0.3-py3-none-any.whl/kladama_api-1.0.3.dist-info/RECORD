@@ -1,0 +1,13 @@
+kladama/__init__.py,sha256=cBF85w0XcmCznVChrumfxLSDeHX6flWQSMYQjKR1NXA,589
+kladama/context.py,sha256=CPBdZdfbLNJbccTu6TBvWDl3wNohGyKSvoScug2Ho_E,2136
+kladama/entities.py,sha256=qgQ4wE2qNsbYLISAilZdTMR4thHuCU-QIrX9xSPh0DM,5724
+kladama/loader.py,sha256=O6bSKR8nrXpvVWLVOtRcXhlRpBKVb3KavrfmJrbnkuo,5069
+kladama/queries.py,sha256=kZabyAwcy_uUZeBIUsrcmvwsPVCmGLTQIw-XlOPaQ4Q,10057
+kladama/services.py,sha256=w2F-5LeHmvFYJCLG0rPhDCqwCm3d4ldK-ps4WXlaOWA,971
+kladama/transactions.py,sha256=Sh34T5oBvBmvptaVAL0rRgmfZ9Ik8NHLrCeHAjs9pko,9928
+kladama/web.py,sha256=BLz91_OGlY7B7hvFsfGcLDWbOFn9vSeE1zW3DRGfCQE,2083
+kladama_api-1.0.3.dist-info/LICENSE,sha256=JwJQFxhvFeRspBxdxv2exU5V0oZavCGbHJAH0hLF8-w,1063
+kladama_api-1.0.3.dist-info/METADATA,sha256=gezq70OGD3Ov8eGtLiLNhXNju93TcYDgJTpFxaWmhMM,5691
+kladama_api-1.0.3.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+kladama_api-1.0.3.dist-info/top_level.txt,sha256=ESH-QZ1RP4UMXhr0AR2FgU6l3SuUZ7st9o1CzFPznjE,8
+kladama_api-1.0.3.dist-info/RECORD,,
