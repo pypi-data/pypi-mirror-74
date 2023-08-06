@@ -1,0 +1,6 @@
+[sphinx.html_themes]
+caperea = syzygy_docs_themes.caperea
+kogia = syzygy_docs_themes.kogia
+stenella = syzygy_docs_themes.stenella
+syzygy = syzygy_docs_themes.syzygy
+

@@ -1,0 +1,50 @@
+Syzygy docs themes
+Copyright (C) 2020 Pascal Pepe
+
+This project redistributes third-party works:
+
+- Bootstrap: MIT
+- Font Awesome Free: code MIT, fonts OFL-1.1
+- Noto Sans JP: OFL-1.1
+- Popper: MIT
+
+
+Bootstrap
+=========
+
+- Home: https://getbootstrap.com/
+- License:
+  MIT
+  Copyright (c) 2011-2020 Twitter, Inc.
+  Copyright (c) 2011-2020 The Bootstrap Authors
+- More information: docs/about/third-party-licenses/LICENSE-BOOTSTRAP.txt
+
+
+Font Awesome Free
+=================
+
+- Home: https://fontawesome.com
+- License:
+  Code MIT
+  Fonts OFL-1.1
+- More information: syzygy_docs_themes/syzygy/static/assets/vendor/fontawesome-free/LICENSE.txt
+
+
+Noto Sans JP
+============
+
+- Home: https://fonts.google.com/specimen/Noto+Sans+JP
+- License:
+  OFL-1.1
+  Copyright 2012 Google Inc. All Rights Reserved.
+- More information: syzygy_docs_themes/syzygy/static/assets/vendor/noto-sans-jp/OFL.txt
+
+
+Popper
+======
+
+- Home: https://popper.js.org/
+- License:
+  MIT
+  Copyright (c) 2019 Federico Zivolo
+- More information: docs/about/third-party-licenses/LICENSE-POPPER.txt

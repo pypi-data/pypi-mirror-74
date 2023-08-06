@@ -1,0 +1,78 @@
+Metadata-Version: 2.1
+Name: syzygy-docs-themes
+Version: 0.1.0.dev1
+Summary: Sphinx themes for the documentation of Kogia, Caperea and Stenella.
+Home-page: https://pascalpepe.gitlab.io/syzygy-docs-themes
+Author: Pascal Pepe
+Author-email: contact@pascalpepe.fr
+License: Apache-2.0
+Project-URL: Documentation, https://pascalpepe.gitlab.io/syzygy-docs-themes
+Project-URL: Source code, https://gitlab.com/pascalpepe/syzygy-docs-themes
+Project-URL: Issue tracker, https://gitlab.com/pascalpepe/syzygy-docs-themes/issues
+Keywords: sphinx docs theme kogia caperea stenella
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Sphinx
+Classifier: Framework :: Sphinx :: Theme
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Documentation
+Classifier: Topic :: Documentation :: Sphinx
+Classifier: Topic :: Internet
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Internet :: WWW/HTTP :: Site Management
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Documentation
+Description-Content-Type: text/x-rst
+
+==================
+Syzygy docs themes
+==================
+
+.. image:: https://img.shields.io/badge/license-Apache--2.0-blue.svg
+   :alt: Apache-2.0
+   :target: https://gitlab.com/pascalpepe/syzygy-docs-themes/blob/nebula/LICENSE
+
+Sphinx themes for the documentation of Kogia, Caperea and Stenella.
+
+:Documentation: https://pascalpepe.gitlab.io/syzygy-docs-themes
+:Source code: https://gitlab.com/pascalpepe/syzygy-docs-themes
+:Issue tracker: https://gitlab.com/pascalpepe/syzygy-docs-themes/issues
+
+
+License
+=======
+
+Source code
+-----------
+
+This project is licensed under the `Apache License, Version 2.0 <http://www.apache.org/licenses/LICENSE-2.0>`_.
+
+Documentation
+-------------
+
+The documentation of this project is licensed under a
+`Creative Commons Attribution-ShareAlike 4.0 International License <https://creativecommons.org/licenses/by-sa/4.0/>`_.
+
+Code samples and snippets found in the documentation are licensed under
+the Apache License, Version 2.0, just like the project source code.
+
+Logo
+----
+
+The project logo is Copyright (C) 2017-2020 Pascal Pepe.
+See https://gitlab.com/pascalpepe/assets for more information.
+
+
