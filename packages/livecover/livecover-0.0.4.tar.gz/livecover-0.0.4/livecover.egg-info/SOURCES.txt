@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+livecover/__init__.py
+livecover/manager.py
+livecover.egg-info/PKG-INFO
+livecover.egg-info/SOURCES.txt
+livecover.egg-info/dependency_links.txt
+livecover.egg-info/requires.txt
+livecover.egg-info/top_level.txt
