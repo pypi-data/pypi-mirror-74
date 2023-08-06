@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: docker_healthchecker
+Version: 0.0.1
+Summary: Wait for Docker health checks
+Home-page: https://github.com/nvllsvm/docker-healthchecker
+Author: Andrew Rabert
+Author-email: ar@nullsum.net
+License: UNKNOWN
+Description: # Docker Healthchecker
+        Wait for Docker healthchecks to be healthy
+        
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
