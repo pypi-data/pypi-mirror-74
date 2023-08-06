@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: nameServer
+Version: 1.0.0.dev0
+Summary: one web server FrameWork
+Home-page: UNKNOWN
+Author: Mr.G
+Author-email: gjlove666@hotmail.com
+License: UNKNOWN
+Description: # nameServer
+        
+        one web server like flask
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Provides-Extra: dotenv
