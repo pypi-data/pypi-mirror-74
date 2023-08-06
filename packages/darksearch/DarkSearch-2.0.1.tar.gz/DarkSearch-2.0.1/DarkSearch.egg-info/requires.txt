@@ -1,0 +1,10 @@
+requests
+pprint
+
+[dev]
+twine
+flake8
+mypy
+pytest
+pytest-console-scripts
+pytest-httpserver
