@@ -1,0 +1,12 @@
+libsonata-0.1.4.dist-info/WHEEL,sha256=lcFHRL9nxOeSwmwIxlbY5bPkh5a_GtD4XbV-xJYB-ZU,111
+libsonata-0.1.4.dist-info/COPYING,sha256=5X8cMguM-HmKfS_4Om-eBqM6A1hfbgZf6pfx2G24QFI,35150
+libsonata-0.1.4.dist-info/top_level.txt,sha256=lbZhDOeoJcQjLCSQj5ZIzG9jajJ9P6zb_pPWA8GtkEM,10
+libsonata-0.1.4.dist-info/COPYING.LESSER,sha256=GkWx0KhgPf4s_GRPnauXCxdi-Sur4qrG6y9dRXLEpoA,7653
+libsonata-0.1.4.dist-info/METADATA,sha256=XR3SPpYie5X9IVko-SODNeuVXjQVVQju31knZqWoFwg,11116
+libsonata-0.1.4.dist-info/RECORD,,
+libsonata/__init__.py,sha256=SftE_-sSpT7B2i8uyWEChil6Duc52aEJWfUaHDXBpGU,889
+libsonata/_libsonata.cpython-38-x86_64-linux-gnu.so,sha256=AXBB9tMu9Pd8t33Cx3_1T_jOT7QKgB3PP2p0CHloZUc,2563376
+libsonata.libs/libaec-45e2c24f.so.0.0.10,sha256=I_M7vqeWlIxorKAgUv5gm9FU0Hwpgpm8VKKhJhcMIA4,37696
+libsonata.libs/libsz-d2243dd7.so.2.0.1,sha256=c2qg93vvejX6-GdBYlLBliTStSPv-p135JH7PZ5S9go,20880
+libsonata.libs/libhdf5-3804a004.so.103.1.0,sha256=N1006minkwnrfA65OOwBGMHfZmv4-W5Eu_HBm735kKk,4355752
+libsonata.libs/libz-eb09ad1d.so.1.2.3,sha256=J5v9FALEH3CNbOUOLz0XHG_FiJvYj96SHQSEhiXJULc,92080
