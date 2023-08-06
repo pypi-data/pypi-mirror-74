@@ -1,0 +1,14 @@
+tutuka_client/__init__.py,sha256=BwH1rKpe4NoznyFKGTXijPjBHB7kf48AELQdXmgJkCc,62
+tutuka_client/client.py,sha256=ljf5tfNClqFIdSGHG6E_lFp5zAf1COTvJA9cTYDcvfw,9989
+tutuka_client/errors.py,sha256=ZVaB7_JkOz0XLT3esumEliDbmAvrKOcZ2B-dQUJc4W0,1771
+tutuka_client/response_codes.py,sha256=6wNjh1-m2l-mx5_DjXf6UyiyCLf8OaSYeOxFJL93kho,880
+tutuka_client/stop_reasons.py,sha256=BkyzCBxYUeiaCTr5y-SULvxqb_AeDTpxiNJYqX6UKNo,276
+tutuka_client/utils/__init__.py,sha256=Pn6hCoFCTwqAMU5Zzb4DwXPHlzqUzLOoeCwyQcUp6Ec,284
+tutuka_client/utils/datetime_iso8601.py,sha256=-zd1pc4Ib_YSJ-IfQ-0ooqGnAnyaHVrktx5ZlfdZQYk,260
+tutuka_client/utils/hash_content.py,sha256=RmyJSc-dMNWF4Kp_NQXq8D7w6tHQTGaDHGnELyXtugY,381
+tutuka_client/utils/normalize_argument.py,sha256=gOXNdSlCQSAbhYVnjRIFtBYl4BaIamYXye19lq1vX00,385
+python_tutuka_client-1.0.0.dist-info/LICENSE,sha256=K_7KpSAwiDbJqPPJXVpEh-MsBkwTX2QOz76RgC5Qtc0,1067
+python_tutuka_client-1.0.0.dist-info/METADATA,sha256=udWfEPcrcem6FhZY_kYsKiAR87ZsXZCvTiG52mG1GJM,2692
+python_tutuka_client-1.0.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+python_tutuka_client-1.0.0.dist-info/top_level.txt,sha256=7AQjfYVasddUC2uO12O_qcGRhyO-9WFY5_czwcBz2ec,14
+python_tutuka_client-1.0.0.dist-info/RECORD,,
