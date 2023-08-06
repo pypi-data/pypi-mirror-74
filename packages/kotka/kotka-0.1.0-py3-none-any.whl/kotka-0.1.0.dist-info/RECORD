@@ -1,0 +1,14 @@
+kotka/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+kotka/hangul.py,sha256=pZIsYCpfhuMrK-6qgpz_RdRXi5t6apwIEGYXiMydGwc,201
+kotka/lipogram/__init__.py,sha256=zJ3pdfr_CM3lT8iJ4_O6hahwk3oB_uYmo9SD1k5gWLo,441
+kotka/lipogram/rules.py,sha256=Ou5vqDq1yC3n1C5U6XHgiNDT9Mh8MSv980BZQbQIR58,2678
+kotka/lipogram/typing.py,sha256=y7el2nTz-YUJzqRZQAclEhyX7KbhTxV8iCtdTZqIQC8,98
+kotka/lipogram/utils.py,sha256=2I0EWzLbhnO0X8bweqr6JHM4dG-zm-ZWwiE3EAP2S2M,982
+kotka/shredder/__init__.py,sha256=8f-P2tjWvbp8l5_wToul8OlCbLg5xKZ_Ajmz2u-GGOk,364
+kotka/yaminizer/__init__.py,sha256=Hy_ikdZLz5MmGmqY3U7TqklTT3-eQT-kOwcZ19gy7JY,3590
+kotka/yaminizer/utils.py,sha256=AnaOprIg8Jg3SP5ZC2yGJtHalbgqg7cqm14ENT-mh1k,630
+kotka-0.1.0.dist-info/LICENSE,sha256=A_LtpLSkBsS7HyouMWC4-RRCfk8CpnLKqrR14g1kLeY,1091
+kotka-0.1.0.dist-info/METADATA,sha256=Nh5kDN_s1lOtoGWf2TijQAaRGg6ttXsWUHb2_eemx3g,218
+kotka-0.1.0.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+kotka-0.1.0.dist-info/top_level.txt,sha256=8PtQFKszuwU6phKCPjeympaS0TTlVKkSYSQP57Ist3o,6
+kotka-0.1.0.dist-info/RECORD,,
