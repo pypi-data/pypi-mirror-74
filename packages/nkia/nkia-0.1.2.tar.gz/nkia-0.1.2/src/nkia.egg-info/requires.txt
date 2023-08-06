@@ -1,0 +1,8 @@
+tensorflow==2.2.0
+numpy==1.19.0
+tensorflow-datasets==3.2.1
+Unidecode==1.1.1
+nltk==3.5
+
+[dev]
+pytest>=3.7
