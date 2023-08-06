@@ -1,0 +1,10 @@
+setup.py
+dsnd_probability_shahid/Binomialdistribution.py
+dsnd_probability_shahid/Gaussiandistribution.py
+dsnd_probability_shahid/Generaldistribution.py
+dsnd_probability_shahid/__init__.py
+dsnd_probability_shahid.egg-info/PKG-INFO
+dsnd_probability_shahid.egg-info/SOURCES.txt
+dsnd_probability_shahid.egg-info/dependency_links.txt
+dsnd_probability_shahid.egg-info/not-zip-safe
+dsnd_probability_shahid.egg-info/top_level.txt
