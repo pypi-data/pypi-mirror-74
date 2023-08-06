@@ -1,0 +1,11 @@
+# description
+include README.rst
+
+# license
+include LICENSE
+
+# requirements
+include requirements.txt
+
+# Google API authorization
+gdoc_down/client.json
