@@ -1,0 +1,15 @@
+language: python
+python:
+- '3.6'
+install:
+- pip install -r requirements.txt
+- pip install -r test-requirements.txt
+- pip install .
+script: pytest --flake8
+deploy:
+  provider: pypi
+  username: "__token__"
+  password:
+    secure: yFLDZp40hcvWdRglOSw9Y6nGZrv7kIrlG536c3d2MxA+dY7d3eQxlTe1D+5yVg52JgmdRAr+eVLsS4F6gpMZWk1MPHuxFGNvFc85bWGg2Ezpk3S0EtL6+aT8dtYPjMmzMxh1J03r6XB3EpzTKb9gxFyXYs1oxqraL6L/SX61qqhqjqjlnBtM6lE1j9hS4VXmHkhE+Adi3PblFvrUzq4i+I3jDEMLb+VoHC+vtJGnqNZaOb6F3pxPJ5988yJc0FoOVRpxX+eS75cKzi8yWAboxgnkiffKzbPUxNPNIE+8nKIAc/mQgAh9nRX5uID3Xw6zdseHw0Br6mIUbQ1A65B8Vy92Wu3wf7/BYWTKUJw9NKCJRaR7ismhyZRe8vu5iRXqskgM9xSPFtNHlfZJXWBaYW8HkX7tfGWLZE11puqnxpgal0uism8/+xWZw+8rgHJ1d08zcgencecJaZ99yvsPwXfNQ1/UEd9AmLaOdGqaixZb9OoSsNHqTLSYmfi05ZeLYeafKdLOorms40lNaPyTP0q4lFOSZgurx95627Wr6NpsINPEoinuMSsWj+qwj/hiVTKV6ORaPicW7j5j7UaJKfvHTFSVgpyr8A98zaW2Szunxt6w1B7Poo6s77X2lfKeMeby7aD3VvwiYESjRuG8ZIgvt3kEFUnWfl6qAwl1zbY=
+  on:
+    tags: true

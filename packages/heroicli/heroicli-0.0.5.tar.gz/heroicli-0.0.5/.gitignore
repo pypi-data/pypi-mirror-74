@@ -1,0 +1,8 @@
+*.pyc
+*.egg-info
+.tox 
+.python-version
+.venv
+.vscode
+dist
+build
