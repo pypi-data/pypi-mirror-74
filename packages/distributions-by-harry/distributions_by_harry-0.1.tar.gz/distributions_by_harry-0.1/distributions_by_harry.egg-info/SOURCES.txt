@@ -1,0 +1,10 @@
+setup.py
+distributions_by_harry/Binomialdistribution.py
+distributions_by_harry/Gaussiandistribution.py
+distributions_by_harry/Generaldistribution.py
+distributions_by_harry/__init__.py
+distributions_by_harry.egg-info/PKG-INFO
+distributions_by_harry.egg-info/SOURCES.txt
+distributions_by_harry.egg-info/dependency_links.txt
+distributions_by_harry.egg-info/not-zip-safe
+distributions_by_harry.egg-info/top_level.txt
