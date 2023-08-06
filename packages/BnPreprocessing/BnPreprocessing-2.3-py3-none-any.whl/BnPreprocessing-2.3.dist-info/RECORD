@@ -1,0 +1,9 @@
+BnPreprocessing/__init__.py,sha256=OfhwyW8YIRnptxpBL4_UjdcI9zJPqIZmMwoNsqE6L-I,1913
+BnPreprocessing/bn_stopwords.txt,sha256=mLWQZFGWHvARjc-dmebnNRJmEmvMNnibFwcN7NOUWRs,5443
+BnPreprocessing/example.py,sha256=lFjJKDbYUddxsMAWLfpAwIaQd8ng9sWpfkFyRrMHSsE,465
+BnPreprocessing/processing.py,sha256=2QGXRjZNwYpk0S8tnaebDkMjtHn3rTns83CeFltVD_0,1062
+BnPreprocessing-2.3.dist-info/LICENSE,sha256=6kbiFSfobTZ7beWiKnHpN902HgBx-Jzgcme0SvKqhKY,1091
+BnPreprocessing-2.3.dist-info/METADATA,sha256=G90QRXXXFFI32cREiZhzCCbhRvt3v_XgIWygPBHy1P8,3789
+BnPreprocessing-2.3.dist-info/WHEEL,sha256=v8slff5hmCpvciQ3G55d2d1CnOBupjDFJHDE2dUb1Ao,97
+BnPreprocessing-2.3.dist-info/top_level.txt,sha256=0UAJ4MLvSpkpjEgIS_RV1DTryVjvjsXoqg21_6Kn1T4,16
+BnPreprocessing-2.3.dist-info/RECORD,,
