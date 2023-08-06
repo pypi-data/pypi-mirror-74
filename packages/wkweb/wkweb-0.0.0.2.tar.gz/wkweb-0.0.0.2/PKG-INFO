@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: wkweb
+Version: 0.0.0.2
+Summary: A python devkit for web development, based on flask.
+Home-page: https://github.com/Peiiii/wkweb
+Author: Wang Pei
+Author-email: 1535376447@qq.com
+License: UNKNOWN
+Description: "# wkweb -- A Python Devkit For Web Development, Based On Flask" 
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.0
+Description-Content-Type: text/markdown
