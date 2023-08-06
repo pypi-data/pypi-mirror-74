@@ -1,0 +1,10 @@
+setup.py
+distributionsoudacity/Binomialdistribution.py
+distributionsoudacity/Gaussiandistribution.py
+distributionsoudacity/Generaldistribution.py
+distributionsoudacity/__init__.py
+distributionsoudacity.egg-info/PKG-INFO
+distributionsoudacity.egg-info/SOURCES.txt
+distributionsoudacity.egg-info/dependency_links.txt
+distributionsoudacity.egg-info/not-zip-safe
+distributionsoudacity.egg-info/top_level.txt
