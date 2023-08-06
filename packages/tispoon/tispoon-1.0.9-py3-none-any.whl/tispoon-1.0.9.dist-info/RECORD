@@ -1,0 +1,11 @@
+tispoon/__about__.py,sha256=0iXgNtIz7CZ3-dx2TbObiIHZRZfDCVBZBdhcSjHmYBA,340
+tispoon/__init__.py,sha256=Gp_Vp7GZNpgtEVMhyHczukdjmuNGbnTfNeEx1r2T3Y8,399
+tispoon/__main__.py,sha256=cEl5W1o3x7RY3pSJsizkZPRkIx5MSfUeZqEGHft7Mn8,415
+tispoon/cli.py,sha256=fN7RgE8NqnjcESR78zclZr6a3_n3y0JMYLRxswq9S4g,12937
+tispoon/core.py,sha256=maj76jbney0PsmeuNnctRRVxw1JKRLhrRWgsRgXeoLE,30233
+tispoon-1.0.9.dist-info/LICENSE,sha256=FHfDdOGz2cBkG1CAPs5ESgOfVUH9vOq8b2ghwgDYhT0,1082
+tispoon-1.0.9.dist-info/METADATA,sha256=v9wGni9suG9e4dQv2KGcCIsX7vUgQO48Lq4vYgPjCH4,3804
+tispoon-1.0.9.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+tispoon-1.0.9.dist-info/entry_points.txt,sha256=jvVZIMp52ggRdtn6aQN_LTvHcp28jWMsVF-r5DiyTHM,64
+tispoon-1.0.9.dist-info/top_level.txt,sha256=Bi_rmZQ93u3myZmLfYd8-lY64trQJkcMnq6iilOLRMw,8
+tispoon-1.0.9.dist-info/RECORD,,
