@@ -1,0 +1,9 @@
+README.md
+setup.py
+stuoe_extensions/__init__.py
+stuoe_extensions.egg-info/PKG-INFO
+stuoe_extensions.egg-info/SOURCES.txt
+stuoe_extensions.egg-info/dependency_links.txt
+stuoe_extensions.egg-info/not-zip-safe
+stuoe_extensions.egg-info/requires.txt
+stuoe_extensions.egg-info/top_level.txt
