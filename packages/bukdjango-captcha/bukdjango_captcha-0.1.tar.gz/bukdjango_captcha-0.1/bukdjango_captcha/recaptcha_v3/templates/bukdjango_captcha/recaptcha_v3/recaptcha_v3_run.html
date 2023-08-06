@@ -1,0 +1,10 @@
+<script>
+    grecaptcha.ready(function() {
+        grecaptcha.execute('{{ RECAPTCHA_V3_SITE }}', {action: '{{ ACTION_NAME }}'}).then(function(token) {
+            document.querySelectorAll('input.recaptcha_v3_input').forEach(function (x) {
+                x.value = token;
+            });
+            return token;
+        });
+    });
+</script>
