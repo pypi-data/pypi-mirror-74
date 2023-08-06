@@ -1,0 +1,9 @@
+graphql_client/__init__.py,sha256=TJpBD_zHnsCd0iqkDGOvz04KY3aGlKqdof1abQUIZRQ,105
+graphql_client/client.py,sha256=OR3-vuH9JPmZVoRejYKutYzUF-mTYfx4T9yo2DRraYc,4052
+graphql_client/core.py,sha256=NdZsaqpWlduN1pD5lNoehCsUkgZn1VXslgbEsbyVbZ0,5012
+graphql_client/utils.py,sha256=ZPA87AeNNv_icJfrnoHGSse89c_8Z6KdsQ3Mw0bIeTA,509
+wf_graphql_client_python-0.0.1.dist-info/LICENSE,sha256=VV4EHqsjRsZIw9RC6SYL63Tm9kzPQsYaZn7a1cT9X3w,1088
+wf_graphql_client_python-0.0.1.dist-info/METADATA,sha256=VEp3rH-hn6Zk7A1aoIPAuEk256rJ28Nx5Mz4OVeNV0s,627
+wf_graphql_client_python-0.0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+wf_graphql_client_python-0.0.1.dist-info/top_level.txt,sha256=IzskGVXL94ObsZosWiMDtvoZk413_iYJpfoUNshYnr0,15
+wf_graphql_client_python-0.0.1.dist-info/RECORD,,
