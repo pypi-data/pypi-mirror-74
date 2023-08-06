@@ -1,0 +1,10 @@
+sgpv/__init__.py,sha256=kwwJNRUqjwYjMxExAF8uqhKUMBdNb-Ni1CaV10lufJ4,784
+sgpv/data.py,sha256=YpE3y-hq21q41zKjHgf7CBrRM_rOjAWXjyA0-sz2KbQ,2056
+sgpv/leukstats.csv,sha256=577_ftxyVy9JMfp6IuJ8t4tI_FTv71Kta27kbrK286I,897942
+sgpv/sgpv.py,sha256=qmClf6rOhwdL6b3w7PWzXlaNF9EP5cSHqAoF1hVvvS0,45680
+sgpv/sgpv_test.py,sha256=F_rB7ShRs4c2n0wXHuY2mX1An6n7fqQtGDs9VgP4pS4,182
+sgpv-1.0.3.post1.dist-info/LICENSE,sha256=6kbiFSfobTZ7beWiKnHpN902HgBx-Jzgcme0SvKqhKY,1091
+sgpv-1.0.3.post1.dist-info/METADATA,sha256=aWiFxac1PJomW0plO4DSZjBsMh5NIh6bMCxmmERihYg,6728
+sgpv-1.0.3.post1.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+sgpv-1.0.3.post1.dist-info/top_level.txt,sha256=buiNm9OwHtXpXwRrs7-32cguwnzvzlAYC7whSf3qQuk,5
+sgpv-1.0.3.post1.dist-info/RECORD,,
