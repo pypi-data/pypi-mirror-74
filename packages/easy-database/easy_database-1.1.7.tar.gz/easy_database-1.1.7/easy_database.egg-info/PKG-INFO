@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: easy-database
+Version: 1.1.7
+Summary: abstraction for ETL Database interaction
+Home-page: https://github.com/bclipp/easy_database
+Author: Brian Lipp
+Author-email: bclipp770@gmail.com
+License: MIT
+Description: ![Python](https://github.com/bclipp/easy_database/workflows/Python/badge.svg)
+        
+        ## easy_database
+        
+        ### description
+        This is a personal package used to hold code patterns used for relational ETL database access.
+        
+        ### Usage
+        
+        environment setup
+        ```
+        pyenv install 3.8.0
+        pyenv virtualenv 3.8.0 app_3.8
+        pyenv activate app_3.8
+        
+        # for integration tests
+        export PASSWORD=testing1234
+        export USERNAME=testing1234
+        export DATABASE=testing1234
+        export TABLE=customers
+        export INTEGRATION_TEST=True
+        export DB_IP_ADDRESS=127.0.0.1
+        export DATABASE_TYPE=postgresql
+        sudo --preserve-env docker-compose up
+        ```
+        
+        python 
+        ```
+        import easy_database.database as db
+        
+        database_manager = db.database_factory("postgresql")
+        database_manager.set_connection_string("...")
+        database_manager.open_conn()
+        database_manager.send_sql("SELECT * FROM TEST;")
+        database_manager.close_conn()
+        ```
+        
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
