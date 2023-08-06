@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "wch"
+version = "0.2.3"
+description = ""
+authors = ["Peter <byfield554@gmail.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+[tool.poetry.dev-dependencies]
+black = "^19.10b0"
+
+[tool.poetry.scripts]
+wch = 'wch.wch:cli_sync'
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
