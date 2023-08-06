@@ -1,0 +1,15 @@
+
+[dev]
+flake8
+black
+isort
+mypy
+mypy-extensions
+pyre-check
+pyre-extensions
+typing-extensions
+typing-inspect
+
+[tests]
+pytest
+coverage
