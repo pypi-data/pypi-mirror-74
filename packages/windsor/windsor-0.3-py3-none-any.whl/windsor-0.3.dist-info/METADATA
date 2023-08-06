@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: windsor
+Version: 0.3
+Summary: Bootstrap your AWS CDK project resources by running CLI commands
+Home-page: https://github.com/westpoint-io/windsor
+Author: Westpoint
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: cookiecutter
+Requires-Dist: fire
+
+# Windsor
+> Bootstrap your AWS CDK project resources by running CLI commands.
+
+### Installing
+`pip install windsor`
+
+### How to use
+Bootstrap a lambda function
+
+`windsor generate --resource lambda-function --function-name HelloWorld --runtime PYTHON_3_7`
+
+After the command finishes your project will have a new file located under the folder `constructs`. This file contains a construct class that can be used to build the lambda function.
+
+
