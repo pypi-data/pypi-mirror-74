@@ -1,0 +1,8 @@
+printp/__init__.py,sha256=JTPdrcyDE7WLQj14m-VLeItAoWHTUnGi9ekQKlTF_Ug,61
+printp/cli.py,sha256=fu5DUtVjb_LR6ttievEEydSZMSVAUgfrPEIWe7vyzj8,800
+printp/pprint_custom.py,sha256=_XBOq9x9HSHcHPgCoJg3iiADyD9abgsD7rtBPfyOgfg,22532
+printp/printp.py,sha256=mXhLZ1QVF_Sh0FZ0PYld4w6sQP4y3kcc5IBz0W53pkc,212
+printp-0.1.4.dist-info/entry_points.txt,sha256=1tvjXo6rfByXuk1-EU-MuGBOoDn66uBvX71EPTbtX7E,41
+printp-0.1.4.dist-info/WHEEL,sha256=G_NFpzHmv_dUXgCUSAWL0-bLL-eMzYU6DzDeGXbRXUk,83
+printp-0.1.4.dist-info/METADATA,sha256=zGbUNMOb1rJMhadh2-SUpGey_k6vgYRnUyFSUWvkH04,614
+printp-0.1.4.dist-info/RECORD,,
