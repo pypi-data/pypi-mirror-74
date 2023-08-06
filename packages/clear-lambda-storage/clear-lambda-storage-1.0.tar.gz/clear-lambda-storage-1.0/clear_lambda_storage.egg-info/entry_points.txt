@@ -1,0 +1,3 @@
+[console_scripts]
+clear_lambda_storage = clear_lambda_storage:main
+
