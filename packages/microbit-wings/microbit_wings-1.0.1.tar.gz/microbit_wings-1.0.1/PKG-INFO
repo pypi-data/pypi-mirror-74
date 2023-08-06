@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: microbit_wings
+Version: 1.0.1
+Summary: micro:bit communication driver
+Home-page: https://www.wings.ch/content/produktvorstellung-computertechnik-und-programmierung
+Author: Pascal Helfenstein
+License: UNKNOWN
+Description: # Kommunikationstreiber für den micro:bit
+        
+        [Wings Lernmedien](https://www.wings.ch/content/produktvorstellung-computertechnik-und-programmierung)
+        
+Keywords: education learning microbit wings-lernmedien
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
