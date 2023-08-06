@@ -1,0 +1,10 @@
+analyzer/__init__.py,sha256=O580hDvOoJ0Kiwo_fDU-3ipdamfNpRXxA9Lsdin0D9E,139
+analyzer/convexity_checker.py,sha256=ivFZrblNa5tZGqq5IswSnrX3De8saD497cVmf-i0olg,2437
+analyzer/solvers.py,sha256=6Rjn3znIgzVKkmuQmsZueb2gLJAH23Ew0Y-d6P-LalI,2599
+analyzer/tech_support.py,sha256=sCZKkXwhKwX6jq8ZW995UOCe5Ib4BBjuOE6SOSoyVFc,3697
+analyzer/version.py,sha256=q4yAvvptCmrQy0GgwP7LD4z4qoIj5a-nDdREIkgG6_8,959
+cvxpyanalyzer-0.0.2.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+cvxpyanalyzer-0.0.2.dist-info/METADATA,sha256=mjp8eAcRhc64uu1RobZ4xNGVQAWg7W9EbjmzNqc3CVY,642
+cvxpyanalyzer-0.0.2.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+cvxpyanalyzer-0.0.2.dist-info/top_level.txt,sha256=I-E2oBIpz7J6XSW5buCmMgs8-jlOL_6zacxMXHxETO8,9
+cvxpyanalyzer-0.0.2.dist-info/RECORD,,
