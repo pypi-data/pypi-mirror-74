@@ -1,0 +1,8 @@
+MANIFEST.in
+README.txt
+setup.py
+Sesam_JackTop.egg-info/PKG-INFO
+Sesam_JackTop.egg-info/SOURCES.txt
+Sesam_JackTop.egg-info/dependency_links.txt
+Sesam_JackTop.egg-info/top_level.txt
+Sesam_JakTop/__init__.py
