@@ -1,0 +1,22 @@
+Metadata-Version: 1.2
+Name: teUtils
+Version: 0.87
+Summary: Utilities for Tellurium
+Home-page: http://tellurium.analogmachine.org
+Author: H M Sauro
+Author-email: hsauro@uw.edu
+License: MIT
+Description: Utilities for Tellurium
+        
+        This repo includes a number of useful utilities for Tellurium users.
+        Modules are described below.
+        
+        
+        
+        
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
