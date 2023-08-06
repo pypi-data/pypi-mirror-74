@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: mnist-utils
+Version: 0.0.1
+Summary: A small package for working with MNIST data.
+Home-page: https://github.com/raghavp96/mnist_utils
+Author: Raghavprasanna Rajagopalan
+Author-email: raghavp96@gmail.com
+License: UNKNOWN
+Description: # MNIST Utils
+        
+        This is a simple package for working with MNIST Images. If you have a physical mnist style gz file, you can use this package to load the images from the file. 
+        
+        This is useful for when you want to run a trained model for example and provide a PNG to the model. The model likely is trained on a numpy array -> this just handles the conversion from PNG to grayscale numpy array.
+        
+        
+        ### Installation
+        
+        
+        
+        
+        ### Working on the project
+        
+        To build: `python setup.py sdist bdist_wheel`
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
