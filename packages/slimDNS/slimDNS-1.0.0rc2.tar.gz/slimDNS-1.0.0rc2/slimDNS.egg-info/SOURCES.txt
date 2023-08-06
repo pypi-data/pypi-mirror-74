@@ -1,0 +1,7 @@
+README.md
+setup.py
+slimDNS/__init__.py
+slimDNS.egg-info/PKG-INFO
+slimDNS.egg-info/SOURCES.txt
+slimDNS.egg-info/dependency_links.txt
+slimDNS.egg-info/top_level.txt
