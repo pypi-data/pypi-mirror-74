@@ -1,0 +1,114 @@
+# Nindo
+This is an unofficial API for the [nindo.de](https://nindo.de) website.
+# Getting Started
+To get started you will have to import the Api and initialise it.
+```python
+from nindo import NindoApi
+Api = NindoApi()
+```
+When thats done you can use the Api as follows:
+```python
+from nindo import NindoApi
+Api = NindoApi()
+
+Api.getVirals()
+```
+
+# Functions
+
+## .getVirals()
+Returns a list of the currently Viral Posts.
+
+## .getCharts(platform)
+Returns a list of the current Charts for the given platform.
+
+## .getCoupons()
+Returns a list of Coupons.
+
+## .getUpcomingMilestones()
+Returns a list of Milestones that haven't been surpassed yet.
+
+## .getPastMilestones()
+Returns a list of Milestones that have already been surpassed. 
+
+
+# Classes
+
+## Artist
+`Artist.name` (String)\
+`Artist.id` (String)
+
+## Channel
+`Channel.id` (String)\
+`Channel.avatar` (String)\
+`Channel.last_post_id` (String)
+
+## Post
+`Post.id` (String)\
+`Post.platform` (String)\
+`Post.timestamp` (String)\
+`Post.title` (String or None)\
+`Post.age_restricted` (Boolean)\
+`Post.clickbait_score` (String)\
+`Post.shitstorm_score` (String)\
+`Post.shitstorm_score` (String)
+
+`Post.artist` (Artist)\
+`Post.channel` (Channel)
+
+## Chart
+`Chart.id` (String)\
+`Chart.rank` (Integer)\
+`Chart.artists` (Artist)\
+`Chart.rank` (Integer)\
+`Chart.type` (String)
+
+## Viral
+`Viral.id` (String)\
+`Viral.platform` (String)\
+`Viral.timestamp` (String)\
+`Viral.type` (String)\
+`Viral.value` (Integer)
+
+## Milestone
+`Milestone.current_subs` (Integer)\
+`Milestone.expected_time` (String)\
+`Milestone.surpassed` (Boolean)\
+`Milestone.channel` (Channel)\
+`Milestone.artist` (Artist)
+
+## Brand
+`Brand.id` (Integer)\
+`Brand.name` (String)\
+`Brand.url` (String)\
+`Brand.branch` (String)\
+`Brand.color` (String)
+
+## Coupon
+`Coupon.id` (Integer)\
+`Coupon.timestamp` (String)\
+`Coupon.discount` (String)\
+`Coupon.code` (String)\
+`Coupon.valid` (Boolean)\
+`Coupon.validUntil` (String)\
+`Coupon.url` (String)\
+`Coupon.terms` (String)\
+`Coupon.artist` (Artist)\
+`Coupon.brand` (Brand)
+
+## TYPES
+The TYPES class is not like the other classes, it is used to work with the functions that the API provides. e. g.
+
+```python
+from nindo import TYPES, NindoApi
+Api = NindoApi()
+Api.getCharts(TYPES.Charts.YOUTUBE)
+```
+
+`TYPES.Chart.YOUTUBE` (String)\
+`TYPES.Chart.INSTAGRAM` (String)\
+`TYPES.Chart.TWITTER` (String)\
+`TYPES.Chart.TWITCH` (String)\
+`TYPES.Chart.TIKTOK` (String)\
+`TYPES.Chart.DISPLAY` (Dictionary)
+    
