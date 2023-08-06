@@ -1,0 +1,11 @@
+README.md
+setup.py
+PyStruct_williamstella.egg-info/PKG-INFO
+PyStruct_williamstella.egg-info/SOURCES.txt
+PyStruct_williamstella.egg-info/dependency_links.txt
+PyStruct_williamstella.egg-info/top_level.txt
+StructPy/__init__.py
+StructPy/node.py
+StructPy/queue.py
+StructPy/stack.py
+StructPy/tree.py

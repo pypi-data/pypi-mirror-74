@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: PyStruct-williamstella
+Version: 0.0.1
+Summary: A small data-structures library in Python
+Home-page: https://github.com/wastella/PyStruct
+Author: William Stella
+Author-email: william.a.stella@gmail.com
+License: UNKNOWN
+Description: # StructPy (Python Data-Structures package)
+        
+        This is my solution for implementing Data-Structures in Python. I made this for my Calculator Project in which I had to implement Queues and Stacks.
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
