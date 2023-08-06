@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+pyalmond/__init__.py
+pyalmond.egg-info/PKG-INFO
+pyalmond.egg-info/SOURCES.txt
+pyalmond.egg-info/dependency_links.txt
+pyalmond.egg-info/requires.txt
+pyalmond.egg-info/top_level.txt
