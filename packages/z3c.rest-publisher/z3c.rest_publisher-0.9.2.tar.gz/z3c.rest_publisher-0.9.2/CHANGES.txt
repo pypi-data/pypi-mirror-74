@@ -1,0 +1,22 @@
+Changelog
+=========
+
+0.9.2 (15.07.20)
+----------------
+
+- Redesign code.
+- Improved the documentation
+- Added a complete example
+
+0.8 (08.05.20)
+--------------
+
+- Added the built-in documentation (default: /help) for the REST API
+- Fixed interfaces
+
+
+0.4 (01.05.20)
+--------------
+
+- Initial release
+

@@ -1,0 +1,13 @@
+global-include *.txt
+include *.txt
+include locker.py
+include *.py
+include buildout.cfg
+include testing.cfg
+recursive-include src *.csv
+recursive-include src *.jpg
+recursive-include src *.json
+recursive-include src *.png
+recursive-include src *.pt
+recursive-include src *.vcf
+recursive-include src *.zcml
