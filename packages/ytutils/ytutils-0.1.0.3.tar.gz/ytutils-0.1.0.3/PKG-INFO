@@ -1,0 +1,55 @@
+Metadata-Version: 2.1
+Name: ytutils
+Version: 0.1.0.3
+Summary: YouTube Extractor
+Home-page: https://github.com/SanjayDevTech/ytutils
+Author: Sanjay Developer
+Author-email: sureshsanjay805@gmail.com
+License: MIT
+Description: # ytutils
+        YouTube video details extractor
+        
+        ## Features
+        	- Extract video details
+        	
+        ## Installation
+        ```
+        pip install ytutils
+        ```
+        
+        ## Importing
+        ```
+        from ytutils.Video import Video
+        ```
+        
+        ## Step-1
+        ```
+        api_key = "YOUR API KEY"
+        vid = Video(api_key)
+        ```
+        
+        ## Step-2
+        ```
+        try:
+        	vid.start(video_url="https://youtube.com?watch=544gh5gK")
+        except:
+        	pass
+        	# Error occurred
+        ```	
+        
+        ## Step-3
+        ```
+        details = vid.result()
+        print(details)
+        ```
+Keywords: youtube,youtube video,youtube channel
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Description-Content-Type: text/markdown
