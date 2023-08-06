@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: nanny-kolenkainc
+Version: 0.0.1
+Summary: A small example package
+Home-page: https://github.com/kolenkainc/Nanny
+Author: Kolenka Inc
+Author-email: dmitry@romashov.tech
+License: UNKNOWN
+Description: # Helper
+        scripts to ease work with github, jira, jenkins
+        
+        ## TODO (currently linux only)
+        
+        ## Prerequisites
+        - linux
+        - bash
+        - make
+        - python 3
+        - [get jira token](https://id.atlassian.com/manage-profile/security/api-tokens)
+        - [get github token](https://github.com/settings/tokens) (with scope 'repo')
+        
+        ## install
+        - `make install` - installs virtualenv and all dependencies (locally)
+        - `cp settings_global.py settings_user.py`
+        - fill settings_user.py
+        
+        ## usage
+        - `source login.sh` 
+        - `python3 -m create_pr <branch-name> --reviewers user1 user2`
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
