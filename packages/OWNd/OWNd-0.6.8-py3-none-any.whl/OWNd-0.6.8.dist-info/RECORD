@@ -1,0 +1,11 @@
+OWNd/__init__.py,sha256=qbWTdDuFyvScwNj95KArnOcQph9tiLZZ8rgNJYlJ4AE,21
+OWNd/__main__.py,sha256=PFQciGdPnUAQprXXXg3QG_JjHNTP4X1y7fO_MFJl6YU,3479
+OWNd/connection.py,sha256=DucXne8Vh_97WVK_VUptfE7lHOdCxSk12IEe2YyjfUo,15420
+OWNd/daemon.py,sha256=sh0mjAGi8GRtaOvOTy3xN5Fqsy01LzgY9tlAAA05DoA,1507
+OWNd/discovery.py,sha256=zHmgMiJh5MvtjvrM0ZzMROPSyGMXjMRfH2XgO-bFbGE,9757
+OWNd/message.py,sha256=AsQs4slhBa5Mc5zyh-BFZZShWvAFGrQO99PNK05amwo,34627
+OWNd-0.6.8.dist-info/LICENSE,sha256=fTqV5eBpeAZO0_jit8j4Ref9ikBSlHJ8xwj5TLg7gFk,7817
+OWNd-0.6.8.dist-info/METADATA,sha256=8aAOgXKg5DAldhDz5vvYeARtRYey7WumoKZZB5VqSAw,914
+OWNd-0.6.8.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+OWNd-0.6.8.dist-info/top_level.txt,sha256=D92FFLTdbtC4i0MpYlggWGn3Eh7A3vrgBajWbJzlJc0,5
+OWNd-0.6.8.dist-info/RECORD,,
