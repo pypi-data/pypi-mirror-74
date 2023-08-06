@@ -1,0 +1,15 @@
+qencode/__init__.py,sha256=yLdyFZmWGGbMw-OXpKA7X0gy92Yp2LyTYbWMC1ipYyA,901
+qencode/client.py,sha256=AUkc0lxSiImfyBdehF1ecBwSajgStn87PQNMVreqjKQ,1509
+qencode/const.py,sha256=hx4Ukj8MHWHmD-pLIDoAYNOv47PdCJnw5leQ0JNZaRI,515
+qencode/custom_params.py,sha256=NpI5ajbhu4bU_-GqqtVjf-mdvKyvIQKTpou0wHWvwow,3475
+qencode/exeptions.py,sha256=kh2u3rqwMKUDOOybpOCPECDLk-SJ-q5lklp7ry8m6Dg,498
+qencode/httptools.py,sha256=n_-wrsSmniRnvBYrTZuFefYwmvZlA647B3Q9lJyaKGQ,1477
+qencode/metadata.py,sha256=JPESppX2ZTL9aPogKnTFzC8e7ZT4fpamqpAgNHPSJ2w,1066
+qencode/task.py,sha256=KTbvAcYPJzaIULxk8kx4uO1dP7KJbI3d9DSn1f2DTUo,5754
+qencode/tus_uploader.py,sha256=u8ntA8cDAPGhsMgwAtuVYixjEpA-sGMSDll29IcdrGE,970
+qencode/utils.py,sha256=PeKuSbLtXZV3__ox-xfKsjTXyWKwbLKoqJZvnErbFNA,2007
+qencode-1.0.dist-info/LICENSE,sha256=PUEcdl5LH3wIqY9o0Z4qANwBA3_tp4sN4XcepSokxyc,1070
+qencode-1.0.dist-info/METADATA,sha256=rhAZqU-7kD8paAMyWJ9uk0MlQZB4qYKAqeHXezIp6uo,1483
+qencode-1.0.dist-info/WHEEL,sha256=HX-v9-noUkyUoxyZ1PMSuS7auUxDAR4VBdoYLqD0xws,110
+qencode-1.0.dist-info/top_level.txt,sha256=WOwfyx2TG1qy5Iurr5dxD-9oRHnLOT2d92eILezSl3U,8
+qencode-1.0.dist-info/RECORD,,
