@@ -1,0 +1,62 @@
+Metadata-Version: 2.1
+Name: prettysleeper
+Version: 1.1.0
+Summary: psleep; A sleep function with Emoji's. It shows a countdown, progress clock (switching emoji's), and my favorite, the Wizard.
+Home-page: https://github.com/NamasteJasutin/wizprint
+Author: NamasteJasutin
+Author-email: justin.duijn@outlook.com
+License: MIT
+Description: # ðŸ•› prettysleeper 
+        ## A Small Gimmick that makes waiting just a bit more fun by introducing a Wizard and a countdown timer to show the current waiting time with a running clock, emoji's and memes.
+        
+        ### How to install:
+        Download from pip:
+        ```
+        python -m pip install prettysleeper
+        ```
+        
+        ### How to use:
+        ```
+        # -*- coding: utf-8 -*-
+        from prettysleeper import psleep
+        psleep(10)
+        ```
+        **This will ouput something like this:**
+        ```
+        ðŸ§™   ðŸ•› sleeping for 10 
+        ```
+        When it's done, the message is replaced with an alert:
+        ```
+        ðŸ§™   Done!
+        ```
+        Standard messages show a simple countdown and an alert message after, which can be customized using:
+        ```
+        psleep(1, alert="YEET!")
+        ```
+        **... will first like this:**
+        ```
+        ðŸ§™   ðŸ•› sleeping for 1 
+        ```
+        **... then:**
+        ```
+        ðŸ§™   YEET!
+        ```
+        
+        *All options:
+        psleep(time, alert="Done!", final=True, wiz="w"):
+        When final is set to False, there won't be a final True output after the alert.
+        Try loading as module ;)
+        ```
+        python -m prettysleeper
+        ```
+        
+        For console usage, see:
+        ```
+        psleep -h
+        ```
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
