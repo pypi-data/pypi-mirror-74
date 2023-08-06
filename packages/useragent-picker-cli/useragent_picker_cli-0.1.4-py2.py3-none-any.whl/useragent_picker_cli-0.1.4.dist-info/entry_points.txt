@@ -1,0 +1,3 @@
+[console_scripts]
+uagen = ua_gen.cli:main
+

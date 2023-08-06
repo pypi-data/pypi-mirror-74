@@ -1,0 +1,12 @@
+ua_gen/__init__.py,sha256=8mhR8y1fbuGOpwOmu5s4_kv4_9kwuOUxDDvCoQMcv9o,30
+ua_gen/cli.py,sha256=QjmwLn0fvfnz6HBx59Oe8ywAJBCbebVuGm_XSciOtYg,6233
+ua_gen/consts.py,sha256=L6Pu0S1dQe5Vtz0EEZsUOgsgb7Im2CmSl8va9VlvSKs,432
+ua_gen/db_manager.py,sha256=9BwQ2StwxHRFBR8Av1gHAnEqwbuLHTqldoKIywl8oOU,4809
+ua_gen/exceptions.py,sha256=Jqld3qb6iM1a_riXwkMHTF_CTtAbxQIx-3JZnWD-Zw0,54
+ua_gen/logging.py,sha256=_ySRi_47jvTTEi3w3KC2v42ZZKWndBlOGaaoLNC9WCw,110
+ua_gen/ua_rules.py,sha256=g48KdWQe8Vp63JsHzc_IYxAx-t7hmYLjCduJccNGwrs,1992
+useragent_picker_cli-0.1.4.dist-info/METADATA,sha256=StfDQEmzTjeYv99LmsBCBonBf7_Tv6EGkDKa0izIYnA,4782
+useragent_picker_cli-0.1.4.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+useragent_picker_cli-0.1.4.dist-info/entry_points.txt,sha256=Pd7GUevfWkx5UpsH780AHuoJGKTHBlYOQR2Nlo6W8Q8,43
+useragent_picker_cli-0.1.4.dist-info/top_level.txt,sha256=SQMKB7Zg6ToNrYvifOokWynbnq_eQqnOtH-B9Nbb6wA,7
+useragent_picker_cli-0.1.4.dist-info/RECORD,,
