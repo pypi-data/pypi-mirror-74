@@ -1,0 +1,3 @@
+[console_scripts]
+jicaiautoTimer = jicaiauto.jicaiautoTimer:main
+
