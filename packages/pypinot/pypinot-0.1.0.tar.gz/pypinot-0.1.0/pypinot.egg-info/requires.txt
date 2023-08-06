@@ -1,0 +1,7 @@
+requests==2.24.0
+six==1.15.0
+
+[dev]
+black==19.10b0
+isort==5.1.4
+tox==3.18.0

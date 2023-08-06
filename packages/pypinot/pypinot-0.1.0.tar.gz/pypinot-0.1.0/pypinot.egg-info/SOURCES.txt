@@ -1,0 +1,7 @@
+README.md
+setup.py
+pypinot.egg-info/PKG-INFO
+pypinot.egg-info/SOURCES.txt
+pypinot.egg-info/dependency_links.txt
+pypinot.egg-info/requires.txt
+pypinot.egg-info/top_level.txt
