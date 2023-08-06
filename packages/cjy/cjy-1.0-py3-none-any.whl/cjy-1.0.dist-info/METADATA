@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: cjy
+Version: 1.0
+Summary: Make your own character using radical sequences!
+Home-page: https://github.com/JinGyeSetBirdsFree/RadicalMaker
+Author: FudanOCR team
+Author-email: 19210240232@fudan.edu.cn
+License: MIT
+Platform: UNKNOWN
+Classifier: Topic :: Games/Entertainment 
+Classifier: Topic :: Games/Entertainment :: Puzzle Games
+Classifier: Topic :: Games/Entertainment :: Board Games
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Description-Content-Type: text/markdown
+Requires-Dist: pillow
+Requires-Dist: numpy
+Requires-Dist: opencv-python
+
+Make your own character using radical sequences!
+
+
