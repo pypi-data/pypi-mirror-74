@@ -1,0 +1,11 @@
+sphinxcontrib_xlsxtable-1.0.0-py3.7-nspkg.pth,sha256=YYcv3GPokof0Lzq3hZHkJIlfNzBys5lF7Lt7JGRAP04,575
+sphinxcontrib/xlsxtable/__init__.py,sha256=WwAThK4V2K8A2YVuV82gIgqJ-UwsOOvPpcKZ4A2NvbE,151
+sphinxcontrib/xlsxtable/__main__.py,sha256=GghdlaMme1rSjsLlY2h_sY2n8CXXUb7WyvuqLDfT3CQ,55
+sphinxcontrib/xlsxtable/xlsx2gridtable.py,sha256=XATHZWTxcBlnlsn7kyBEa3hAdQ5NZVVN03W3PwOU5-Q,8710
+sphinxcontrib/xlsxtable/xlsxtable.py,sha256=vnT7mNwCYBLbAhcZjJ16a9mBDhQRnrwh0m6I0BeROC4,2381
+sphinxcontrib_xlsxtable-1.0.0.dist-info/LICENSE,sha256=62lXDu3F7CKfBXBq3nR1kqww8G14zO4hKD4gmIuXcv8,1087
+sphinxcontrib_xlsxtable-1.0.0.dist-info/METADATA,sha256=NWiML4Kd7suJGEXfEvCuvF7CZL-nD4KhzzcnKlSD_fo,4231
+sphinxcontrib_xlsxtable-1.0.0.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+sphinxcontrib_xlsxtable-1.0.0.dist-info/namespace_packages.txt,sha256=VJrV3_vaiKQVgVpR0I1iecxoO0drzGu-M0j40PVP2QQ,14
+sphinxcontrib_xlsxtable-1.0.0.dist-info/top_level.txt,sha256=VJrV3_vaiKQVgVpR0I1iecxoO0drzGu-M0j40PVP2QQ,14
+sphinxcontrib_xlsxtable-1.0.0.dist-info/RECORD,,
