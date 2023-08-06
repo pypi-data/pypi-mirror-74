@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: itaewon
+Version: 0.1.1
+Summary: A personal python library to speed up my workflow
+Home-page: https://github.com/benjcabalona1029/itaewon
+Author: Benjamin Cabalona Jr
+Author-email: benjcabalonajr@gmail.com
+License: MIT License
+Description: A personal python library to speed up my workflow
+        
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
