@@ -1,0 +1,6 @@
+README.rst
+setup.py
+zqygis.egg-info/PKG-INFO
+zqygis.egg-info/SOURCES.txt
+zqygis.egg-info/dependency_links.txt
+zqygis.egg-info/top_level.txt
