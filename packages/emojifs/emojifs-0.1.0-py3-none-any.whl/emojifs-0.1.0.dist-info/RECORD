@@ -1,0 +1,11 @@
+LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+emojifs/__init__.py,sha256=vqzTzsiotC7Z_XYG9o2zBY19v7CR1GMbRAJWb03OvuA,823
+emojifs/__main__.py,sha256=0aahntdLbkhD3LxsBVcLFJLkm0pIXSVavGvefauKwf8,5898
+emojifs/muxer.py,sha256=FlPZt6T-taEzgs3VjCPwOi4gUt_KoA_I87swtlmXf5M,5964
+emojifs/slack.py,sha256=UuYgJemK-ByaEm4sNOTVuQTeENjBdIhN59Z5SLxIIug,16559
+emojifs/utils.py,sha256=rG32mRzBYKTplOfHJCR_w4X2t5tmcvnk8Efvj2ALoWY,264
+emojifs-0.1.0.dist-info/entry_points.txt,sha256=EmHoIcvhjEtbDv4mCqK2KARI_vbk7S0T9FgSc53g2xM,49
+emojifs-0.1.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+emojifs-0.1.0.dist-info/WHEEL,sha256=G_NFpzHmv_dUXgCUSAWL0-bLL-eMzYU6DzDeGXbRXUk,83
+emojifs-0.1.0.dist-info/METADATA,sha256=ZUuiAiEwzFDOw_7oN3D3gp9RWTX6q--s6Y_xCvKtGdM,6824
+emojifs-0.1.0.dist-info/RECORD,,
