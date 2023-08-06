@@ -1,0 +1,11 @@
+HISTORY.rst
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+dynapipe/__init__.py
+dynapipe.egg-info/PKG-INFO
+dynapipe.egg-info/SOURCES.txt
+dynapipe.egg-info/dependency_links.txt
+dynapipe.egg-info/requires.txt
+dynapipe.egg-info/top_level.txt
