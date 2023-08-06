@@ -1,0 +1,9 @@
+requests
+orjson
+aiohttp
+pyhumps
+inflection
+jmespath
+pyppeteer
+colored
+tqdm
