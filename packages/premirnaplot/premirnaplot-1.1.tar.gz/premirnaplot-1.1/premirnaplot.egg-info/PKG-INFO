@@ -1,0 +1,14 @@
+Metadata-Version: 1.1
+Name: premirnaplot
+Version: 1.1
+Summary: pre-miRNA secondary structure prediction image generator
+Home-page: https://github.com/igrorp/pre-miRNA-plot
+Author: Igor Paim
+Author-email: igorpaim8@gmail.com
+License: GPL
+Description: UNKNOWN
+Keywords: pre-miRNA
+Platform: UNKNOWN
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Classifier: Programming Language :: Python :: 3
