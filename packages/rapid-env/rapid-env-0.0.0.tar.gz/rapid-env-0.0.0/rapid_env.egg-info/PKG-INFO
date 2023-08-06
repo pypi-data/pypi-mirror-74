@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: rapid-env
+Version: 0.0.0
+Summary: library with helpers for rapid development environment ramp up, build and distribution.
+Home-page: UNKNOWN
+License: UNKNOWN
+Description: # rapid-env
+        library with helpers for rapid development environment ramp up, build and distribution. 
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown

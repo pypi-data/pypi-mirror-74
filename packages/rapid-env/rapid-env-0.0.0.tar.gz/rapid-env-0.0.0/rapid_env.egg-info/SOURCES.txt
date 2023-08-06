@@ -1,0 +1,8 @@
+README.md
+setup.py
+rapid_env.egg-info/PKG-INFO
+rapid_env.egg-info/SOURCES.txt
+rapid_env.egg-info/dependency_links.txt
+rapid_env.egg-info/top_level.txt
+rapidenv/__init__.py
+rapidenv/conan.py
