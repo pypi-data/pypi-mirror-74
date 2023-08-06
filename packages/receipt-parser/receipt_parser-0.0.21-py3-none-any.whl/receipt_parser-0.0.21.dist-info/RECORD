@@ -1,0 +1,10 @@
+receipt_parser/__init__.py,sha256=5mg6lYy26CKY4dI6DgfTILDT9I_iM0PqSQ9NsYbdTTU,249
+receipt_parser/dicts.py,sha256=rEMbe8W_klvdtGRghgNopCqNRE7YW60gELvq3I6upOc,17181
+receipt_parser/finder.py,sha256=QAF253BGNsA343khhY2-32gzd9yoFSN4Hi2IFkVyuOg,11811
+receipt_parser/normalizer.py,sha256=vCNj29NlFkW09IItKGDhHu0PX-5t715MwRQP05c1FbQ,6398
+receipt_parser/receipt_parser.py,sha256=PO4dkDgHGdq5wqvGe1MPq3AS8kGKHzKCM0o44U7nSDI,5007
+receipt_parser-0.0.21.dist-info/LICENSE,sha256=Ncx2JDzSa5wKyYohl9WNKu6cHSeaxWA__sdEHDq4YEk,1070
+receipt_parser-0.0.21.dist-info/METADATA,sha256=5QXznpkXBY3bs1yJRXE4nCpkfwYPRqnSvbvRSY63MG0,4939
+receipt_parser-0.0.21.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+receipt_parser-0.0.21.dist-info/top_level.txt,sha256=_ImuM1eFSjXq6TdBj9JIDHAPipW4aupfDDj_g1YcghE,15
+receipt_parser-0.0.21.dist-info/RECORD,,
