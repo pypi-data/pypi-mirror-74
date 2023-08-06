@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: bwapy
+Version: 0.1.4
+Summary: Bindings to bwa alinger.
+Home-page: https://github.com/ACEnglish/bwapy
+Author: cwright
+Author-email: cwright@nanoporetech.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN

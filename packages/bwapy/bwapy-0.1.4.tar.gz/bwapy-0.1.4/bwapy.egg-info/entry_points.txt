@@ -1,0 +1,3 @@
+[console_scripts]
+bwamempy = bwapy.libbwa:main
+
