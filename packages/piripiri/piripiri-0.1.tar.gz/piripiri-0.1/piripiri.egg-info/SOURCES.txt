@@ -1,0 +1,10 @@
+setup.py
+piripiri/Binomialdistribution.py
+piripiri/Gaussiandistribution.py
+piripiri/Generaldistribution.py
+piripiri/__init__.py
+piripiri.egg-info/PKG-INFO
+piripiri.egg-info/SOURCES.txt
+piripiri.egg-info/dependency_links.txt
+piripiri.egg-info/not-zip-safe
+piripiri.egg-info/top_level.txt
