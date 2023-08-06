@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: sorting-gym
+Version: 0.0.1
+Summary: OpenAI Gym Environments for Sorting based
+Home-page: https://github.com/hardbyte/sorting-gym
+Author: Brian Thorne
+Author-email: brian@hardbyte.nz
+Requires-Python: >3.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: gym (>=0.17.2,<0.18.0)
+Requires-Dist: numpy (>=1.19.0,<2.0.0)
+Project-URL: Repository, https://github.com/hardbyte/sorting-gym
