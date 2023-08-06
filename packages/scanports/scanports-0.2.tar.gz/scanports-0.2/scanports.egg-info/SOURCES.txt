@@ -1,0 +1,9 @@
+README
+setup.cfg
+setup.py
+scanports/scanports.py
+scanports.egg-info/PKG-INFO
+scanports.egg-info/SOURCES.txt
+scanports.egg-info/dependency_links.txt
+scanports.egg-info/not-zip-safe
+scanports.egg-info/top_level.txt
