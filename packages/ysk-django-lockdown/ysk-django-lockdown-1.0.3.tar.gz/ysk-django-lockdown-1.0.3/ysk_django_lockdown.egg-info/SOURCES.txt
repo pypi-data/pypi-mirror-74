@@ -1,0 +1,8 @@
+README.rst
+setup.cfg
+setup.py
+ysk_django_lockdown.egg-info/PKG-INFO
+ysk_django_lockdown.egg-info/SOURCES.txt
+ysk_django_lockdown.egg-info/dependency_links.txt
+ysk_django_lockdown.egg-info/requires.txt
+ysk_django_lockdown.egg-info/top_level.txt
