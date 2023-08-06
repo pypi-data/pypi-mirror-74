@@ -1,0 +1,68 @@
+Metadata-Version: 2.1
+Name: pinax-types
+Version: 2.0.0
+Summary: <project description> for the Django web framework
+Home-page: http://github.com/pinax/pinax-types/
+Author: Pinax Team
+Author-email: team@pinaxproject.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: 2.2
+Classifier: Framework :: Django :: 3.0
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Dist: django (>=2.2)
+Requires-Dist: python-dateutil (>=2.8.1)
+
+
+.. image:: http://pinaxproject.com/pinax-design/patches/pinax-types.svg
+    :target: https://pypi.python.org/pypi/pinax-types/
+
+===========
+Pinax Types
+===========
+
+.. image:: https://img.shields.io/pypi/v/pinax-types.svg
+    :target: https://pypi.python.org/pypi/pinax-types/
+
+
+.. image:: https://img.shields.io/circleci/project/github/pinax/pinax-types.svg
+    :target: https://circleci.com/gh/pinax/pinax-types
+.. image:: https://img.shields.io/codecov/c/github/pinax/pinax-types.svg
+    :target: https://codecov.io/gh/pinax/pinax-types
+.. image:: https://img.shields.io/github/contributors/pinax/pinax-types.svg
+    :target: https://github.com/pinax/pinax-types/graphs/contributors
+.. image:: https://img.shields.io/github/issues-pr/pinax/pinax-types.svg
+    :target: https://github.com/pinax/pinax-types/pulls
+.. image:: https://img.shields.io/github/issues-pr-closed/pinax/pinax-types.svg
+    :target: https://github.com/pinax/pinax-types/pulls?q=is%3Apr+is%3Aclosed
+
+
+.. image:: http://slack.pinaxproject.com/badge.svg
+    :target: http://slack.pinaxproject.com/
+.. image:: https://img.shields.io/badge/license-MIT-blue.svg
+    :target: https://opensource.org/licenses/MIT/
+
+
+Supported Django and Python Versions
+------------------------------------
+
++-----------------+-----+-----+-----+
+| Django / Python | 3.6 | 3.7 | 3.8 |
++=================+=====+=====+=====+
+|  2.2            |  *  |  *  |  *  |
++-----------------+-----+-----+-----+
+|  3.0            |  *  |  *  |  *  |
++-----------------+-----+-----+-----+
+
+
