@@ -1,0 +1,14 @@
+[baseband.io]
+hdf5 = baseband_tasks.io.hdf5
+
+[baseband.tasks]
+channelize = baseband_tasks.channelize:__all__
+combining = baseband_tasks.combining:__all__
+conversion = baseband_tasks.conversion:__all__
+convolution = baseband_tasks.convolution:__all__
+dispersion = baseband_tasks.dispersion:__all__
+functions = baseband_tasks.functions:__all__
+integration = baseband_tasks.integration:__all__
+sampling = baseband_tasks.sampling:__all__
+shaping = baseband_tasks.shaping:__all__
+
