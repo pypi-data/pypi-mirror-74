@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: livecover
+Version: 0.0.5
+Summary: The livecover python package
+Home-page: https://github.com/rafalstapinski/livecover-py
+Author: Rafal Stapinski
+Author-email: stapinskirafal@gmail.com
+License: BSD
+Download-URL: https://github.com/rafalstapinski/livecover-py/archive/0.0.5.tar.gz
+Description: # livecover-py
+        
+        ## Installation
+        
+        ```
+        pip install livecover
+        ```
+        
+        ## Quickstart
+        
+        ### Tornado
+        
+        ```python
+        
+        from livecover import get_coverage
+        
+        class MyHandler(RequestHandler):
+        
+            def prepare(self):
+                super().prepare()
+                self.coverage = get_coverage(ratio=0.1, entrypoint=self.__class__.__name__)
+        
+            def before_finish(self, my_data):
+                self.coverage.finish()
+                self.finish(...)
+        ```
+        
+Keywords: live code coverage
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Quality Assurance
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3.8
+Description-Content-Type: text/markdown
