@@ -1,0 +1,6 @@
+.aws_tunnel.ini
+.vscode
+__pycache__
+.setting.ini
+dist
+*.egg-info
