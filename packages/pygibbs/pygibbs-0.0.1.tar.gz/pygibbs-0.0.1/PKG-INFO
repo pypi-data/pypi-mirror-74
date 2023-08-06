@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: pygibbs
+Version: 0.0.1
+Summary: PyGL is a numerical library for simulations of field theories in Python.
+Home-page: https://github.com/rajeshrinet/pygibbs
+Author: The PyGibbs team
+License: MIT
+Description: UNKNOWN
+Platform: tested on LINUX and macOS
+Provides-Extra: plotting
+Provides-Extra: notebook
