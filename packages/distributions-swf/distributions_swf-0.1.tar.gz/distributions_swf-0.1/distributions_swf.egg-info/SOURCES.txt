@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+distributions_swf/Binomialdistribution.py
+distributions_swf/Gaussiandistribution.py
+distributions_swf/Generaldistribution.py
+distributions_swf/__init__.py
+distributions_swf.egg-info/PKG-INFO
+distributions_swf.egg-info/SOURCES.txt
+distributions_swf.egg-info/dependency_links.txt
+distributions_swf.egg-info/not-zip-safe
+distributions_swf.egg-info/top_level.txt
