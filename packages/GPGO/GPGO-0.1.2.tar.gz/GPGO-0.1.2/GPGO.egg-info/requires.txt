@@ -1,0 +1,14 @@
+matplotlib
+numpy
+scikit-learn
+scipy
+
+[DIRECT]
+DIRECT
+
+[all]
+DIRECT
+smt
+
+[smt]
+smt
