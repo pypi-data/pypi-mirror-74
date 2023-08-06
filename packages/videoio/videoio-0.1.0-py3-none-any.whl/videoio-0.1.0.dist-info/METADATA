@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: videoio
+Version: 0.1.0
+Summary: Module for saving and loading images and depth as H.264 video
+Home-page: https://github.com/vguzov/videoio
+Author: Vladimir Guzov
+Author-email: guzov.mail@gmail.com
+License: UNKNOWN
+Keywords: mp4,png,h264,video,image,depth,ffmpeg
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: numpy
+Requires-Dist: ffmpeg-python
+
+
+videoio: save/load image sequence as H.264 video
+A small library for saving and loading RGB and uint16 (depth) frames as H.264 encoded video.
+
+Github: https://github.com/vguzov/videoio
+
+
