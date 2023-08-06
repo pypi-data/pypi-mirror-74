@@ -1,0 +1,4 @@
+python-vlc
+json5
+notify-py
+tqdm
