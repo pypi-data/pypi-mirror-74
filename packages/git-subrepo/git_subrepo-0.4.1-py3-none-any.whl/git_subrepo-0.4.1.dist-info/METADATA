@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: git-subrepo
+Version: 0.4.1
+Summary: Python package for installing git subrepo extension.
+Home-page: https://github.com/flashdagger/git-subrepo-pypi
+Author: flashdagger
+Author-email: flashdagger@googlemail.com
+License: MIT
+Platform: any
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Requires-Python: >=3.6
+
+Python package for installing git subrepo extension.
+
+
