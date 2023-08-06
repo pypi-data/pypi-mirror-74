@@ -1,0 +1,17 @@
+configparser
+pyyaml
+yamlordereddictloader
+comtypes
+docutils
+six
+pathlib2
+python-json-logger
+
+[:python_version <= "3.4"]
+aenum
+
+[dev]
+wheel
+
+[test]
+pytest
