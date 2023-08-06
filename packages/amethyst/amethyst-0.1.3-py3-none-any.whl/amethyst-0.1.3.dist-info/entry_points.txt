@@ -1,0 +1,4 @@
+[console_scripts]
+amethyst=amethyst.main:main
+amy=amethyst.main:main
+
