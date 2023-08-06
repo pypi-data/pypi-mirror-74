@@ -1,0 +1,14 @@
+pandas
+requests
+requests_cache
+
+[dev]
+commitizen
+flake8
+flake8-bugbear
+flake8-docstrings
+mypy
+pre-commit
+pytest
+pytest-cov
+requests_cache
