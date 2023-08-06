@@ -1,0 +1,99 @@
+Metadata-Version: 2.1
+Name: BnPreprocessing
+Version: 2.0
+Summary: UNKNOWN
+Home-page: https://github.com/Kowsher/Bangla-NLP/tree/master/Bangla%20Feature%20Extraction
+Author: Kowsher Ahmed, Avishek Das
+Author-email: ahmedshuvo969@gmail.com, avishek.das.ayan@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+Bangla Preprocessor (BnPreprocessing)
+==================================
+
+This page gives a basic introduction to the package.
+
+## Installation:
+
+```
+pip install BnPreprocessing
+```
+
+In Python a Bangla Linga is typically written as:
+
+## Usage:
+```python
+import BnPreprocessing as pp
+s =  "আমরা কাজ করবো কিভাবে?😦😦 Document তৈরী করতে আমাদের সবাইকে কি করতে হবে? নিজেদের(গ্রুপ-৬ এর সবাই) মধ্যে  কাজ ভাগ করবো কেমনে?"
+s = pp.remove_punc(s)
+print(s)
+s = pp.remove_digits(s)
+print(s)
+s = pp.remove_nonBangla(s)
+print(s)
+s = pp.remove_emoticons(s)
+print(s)
+s = pp.remove_sw(s)
+print(s)
+```
+Output:
+```
+আমরা কাজ করবো কিভাবে  😦😦   Document তৈরী করতে আমাদের সবাইকে কি করতে হবে  ৫ ৬ জন আমরা  কঠিন হবে   
+আমরা কাজ করবো কিভাবে  😦😦   Document তৈরী করতে আমাদের সবাইকে কি করতে হবে    জন আমরা  কঠিন হবে   
+আমরা কাজ করবো কিভাবে  😦😦    তৈরী করতে আমাদের সবাইকে কি করতে হবে    জন আমরা  কঠিন হবে   
+আমরা কাজ করবো কিভাবে      তৈরী করতে আমাদের সবাইকে কি করতে হবে    জন আমরা  কঠিন হবে   
+করবো কিভাবে তৈরী সবাইকে কঠিন
+```
+If you want to do all the preprocessings in one step:
+
+## Altogether:
+```python
+import BnPreprocessing as pp
+s =  "আমরা কাজ করবো কিভাবে?😦😦 Document তৈরী করতে আমাদের সবাইকে কি করতে হবে? নিজেদের(গ্রুপ-৬ এর সবাই) মধ্যে  কাজ ভাগ করবো কেমনে?"
+s = pp.remove_noise(s)
+print(s)
+```
+Output:
+```
+করবো কিভাবে তৈরী সবাইকে গ্রুপ সবাই করবো কেমনে
+```
+
+## How to apply to Dataframe!!!
+```python
+import BnPreprocessing as pp
+#import your dataframe
+df['Text'] = df['Text'].apply(pp.remove_noise) #use any of the functions above
+print(s)
+```
+
+## Bonus Features
+
+### English to Bangla Digit Conversion
+```python
+import BnPreprocessing as pp
+s = "আমাকে 010126004597078 নাম্বারে কল দিবেন"
+s = pp.numBTE(s)
+print(s)    
+```
+Output:
+```
+আমাকে ০১০১২৬০০৪৫৯৭০৭৮ নাম্বারে কল দিবেন
+```
+
+
+### Bangla to English Digit Conversion
+```python
+import BnPreprocessing as pp
+s = "আমাকে ০১০১২৬০০৪৫৯৭০৭৮ নাম্বারে কল দিবেন"
+s = pp.numBTE(s)
+print(s)    
+```
+Output:
+```
+আমাকে 010126004597078 নাম্বারে কল দিবেন
+```
+
