@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: datagovutils
+Version: 1.0.0
+Summary: Utilities for data.gov
+Home-page: https://github.com/aminnj/datagovutils
+Author: Nick Amin
+Author-email: amin.nj@gmail.com
+License: BSD
+Download-URL: https://github.com/aminnj/datagovutils/tarball/1.0.0
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: yajl
+Requires-Dist: ijson
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: requests
+Requires-Dist: tqdm
+
+See github for fully rendered README
+
+
