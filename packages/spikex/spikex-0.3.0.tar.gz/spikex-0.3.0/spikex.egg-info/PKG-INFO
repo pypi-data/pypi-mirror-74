@@ -1,0 +1,22 @@
+Metadata-Version: 1.2
+Name: spikex
+Version: 0.3.0
+Summary: SPIKEX - SpaCy Pipes for Knowledge Extraction
+Home-page: https://github.com/erre-quadro/spikex
+Author: Erre Quadro srl
+Author-email: paolo.arduin@errequadrosrl.com
+License: Apache Software License 2.0
+Description: # SPIKEX - SpaCy Pipes for Knowledge Extraction
+        
+        Docs soon...
+        
+Keywords: spikex
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.6
