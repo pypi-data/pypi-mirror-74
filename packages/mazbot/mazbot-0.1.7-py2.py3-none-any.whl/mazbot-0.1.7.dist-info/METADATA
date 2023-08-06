@@ -1,0 +1,132 @@
+Metadata-Version: 2.1
+Name: mazbot
+Version: 0.1.7
+Summary: Control Bot in a grid without self-destructing
+Home-page: https://github.com/flatwhitecuppa/mazbot
+Author: Flat White
+Author-email: flatwhitecuppa@gmail.com
+License: MIT license
+Keywords: mazbot
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.5
+Requires-Dist: Click (>=7.0)
+
+======
+mazbot
+======
+
+Introduction
+-------------
+This repository implements a robot that responds to commands once placed on a table of size 5x5. The robot will ignore all commands until it is placed on the table. It will also not execute a command that will make it fall off the table. 
+
+- The commands that can be provided to the robot are PLACE, MOVE, LEFT, RIGHT, and REPORT. 
+
+- The robot has both a position (x,y) coordinates, as well as an orientation (NORTH, EAST, SOUTH, WEST). 
+
+- The MOVE command will move the robot one step in the direction it is currently facing. 
+
+- The LEFT and RIGHT commands will rotate the robot 90 degrees in the respective direction. 
+
+- The REPORT command will print out the current location of the robot, along with its orientation to standard output. 
+
+For example, a file with content::
+
+    PLACE 0,0,NORTH
+    MOVE
+    REPORT
+
+will output::
+
+   0,1,NORTH
+
+to standard out.
+
+
+Prerequisites
+-------------
+This repository requires Python v3.6 or higher to run, as well as its dependencies (defined in `requirements_dev.txt`) installed (see `Usage` section).
+
+
+Usage
+-------
+First install dependencies defined in the `requirements_dev.txt` file (ideally in a new virtual environment)::
+
+    pip install -r requirements_dev.txt
+
+The input to mazbot should be provided in a text file (for sample files check the inside of the input_files directory). The path to the input file needs to be provided as a command line argument (see below). 
+
+To run mazbot as a CLI tool::
+
+    python -m mazbot --input-file <input_path_in_quotes>
+
+e.g.::
+
+    python -m mazbot --input-file 'input_files/input_file_1.txt'
+
+Use::
+
+    pytest
+
+from the root directory to run all tests on the package
+
+Change::
+
+    conf/logging_conf.py 
+
+to change the logging configuration for the package
+
+For Developers
+--------------
+- You may run the tests for the package by running `pytest` in the root. Running `tox` will run tests for all python versions 3.8, 3,7 and 3.6
+- You may also access useful commands through the `Makefile`. For example, run `make coverage` to generate a coverage report, and `make docs` to use Sphinx to generate documentation (including API documentation using in-built docstrings)
+- The Travis CI pipeline will run all tests on pushes to all branches, and will build and push to  the PyPI repository on a *tagged* merge to master.
+- You can autogenerate version numbers and tags using the `bump2version` command (e.g. `bump2version patch` will increment a patch version and apply the incremented tag based on the current version)
+- The repository is integrated with `PyPI` for repository build indexing, `readthedocs` for online documentation, and `pyup` for keeping dependencies up to date automatically. These functionalities are either partially or not currently working ever since the repository was made private on GitHub.
+
+Changes
+--------
+The repository follows a Feature Branch workflow. Modifications to the repository should happen in a feature branch, with the branch name having `feature/` prepended (e.g. `feature/refactoring`). Merges to master should only occur on a Pull Request submitted with at least one approval.
+
+Known issues and limitations
+----------------------------
+ - The robot only supports a 5x5 grid at present. Support for other sizes (e.g. through command line arguments) was deprioritized since the problem statement specifically asks for those dimensions, though the implementation code has been written in an agnostic fashion
+ - Integrations with `PyPI`, `readthedocs`, `pyup` are either partially or not currently working ever since the repository was made private on GitHub.
+
+Other
+-------
+* Free software: MIT license
+* Documentation: https://mazbot.readthedocs.io. (not updated ever since GitHub project moved to be private)
+
+Credits
+-------
+
+This package was created with Cookiecutter_ and the `audreyr/cookiecutter-pypackage`_ project template.
+
+.. _Cookiecutter: https://github.com/audreyr/cookiecutter
+.. _`audreyr/cookiecutter-pypackage`: https://github.com/audreyr/cookiecutter-pypackage
+
+
+=======
+History
+=======
+
+0.1.0 (2020-07-18)
+------------------
+
+* First release on PyPI.
+
+0.1.6 (2020-07-19)
+------------------
+
+* Robot functional end-to-end (reading from file path provided through CLI to output to stdout)
+* readthedocs, pyup, pypi integrations working
+
