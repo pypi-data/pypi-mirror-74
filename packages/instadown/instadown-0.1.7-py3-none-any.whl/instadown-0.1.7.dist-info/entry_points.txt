@@ -1,0 +1,3 @@
+[console_scripts]
+instadown = instadown.ig:main
+
