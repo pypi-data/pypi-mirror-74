@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: dcube
+Version: 1.0.0
+Summary: stock data
+Home-page: https://datacube.foundersc.com/
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: UNKNOWN
+Keywords: Financial Data
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 2.6
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.2
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: License :: OSI Approved :: BSD License
+Requires-Dist: requests (>=2.0.0)
+Requires-Dist: pandas (>=0.16.0)
+Requires-Dist: protobuf
+
+
+PingAn API 
+===============
+
+pingan stock data api
+
+
+
