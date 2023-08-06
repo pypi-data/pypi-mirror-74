@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: bet
+Version: 3.0.0
+Summary: A toolkit for data-consistent stochastic problems.
+Home-page: https://github.com/UT-CHG/BET
+Author: Steven Mattis
+Author-email: steve.a.mattis@gmail.com
+License: GNU LGPL
+Platform: UNKNOWN
+Requires-Dist: matplotlib
+Requires-Dist: pyDOE
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: pytest
+Requires-Dist: mpi4py
+
+UNKNOWN
+
+
