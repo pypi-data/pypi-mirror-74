@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: seeed-python-mlx9064x
+Version: 1.1.4
+Summary: Python library for the Grove - Thermal Imaging Camera(MLX9064x) is an thermal sensor. 
+Home-page: https://github.com/Seeed-Studio/Seeed_Python_MLX9064x
+Author: Hanson
+Author-email: 595355940@qq.com
+License: MIT
+Requires-Dist: Seeed-grove.py
+
+# seeed MLX9064x
+
+
