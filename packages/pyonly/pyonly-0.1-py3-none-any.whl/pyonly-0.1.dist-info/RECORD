@@ -1,0 +1,9 @@
+pyonly/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyonly/document.py,sha256=cS4D63c2lVqOYDu5oY8BELGKmA3xogI3DVwXAyntAy4,5924
+pyonly/handler.py,sha256=yo912yNyY4xg68hBf3dMo-2q7fMU9RcZOCH3FrNdPv4,11818
+pyonly-0.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+pyonly-0.1.dist-info/METADATA,sha256=0WNt3kL-yRTcsen-ZLsPXTr68ZIiSjwPJG94LCOqKbI,1186
+pyonly-0.1.dist-info/NOTICE.txt,sha256=6FJy8xJ5VcIjouXjQ0BceaKwVxYpbfzCGdmW1Dpm1qU,289
+pyonly-0.1.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+pyonly-0.1.dist-info/top_level.txt,sha256=5LY8bYSTHVi9RexjktocBHhME5aeHAPB8WL_OUaASk4,7
+pyonly-0.1.dist-info/RECORD,,
