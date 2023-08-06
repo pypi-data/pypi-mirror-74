@@ -1,0 +1,13 @@
+README.md
+setup.cfg
+setup.py
+remotedroid/__init__.py
+remotedroid/app.py
+remotedroid/cmd.py
+remotedroid.egg-info/PKG-INFO
+remotedroid.egg-info/SOURCES.txt
+remotedroid.egg-info/dependency_links.txt
+remotedroid.egg-info/entry_points.txt
+remotedroid.egg-info/not-zip-safe
+remotedroid.egg-info/requires.txt
+remotedroid.egg-info/top_level.txt

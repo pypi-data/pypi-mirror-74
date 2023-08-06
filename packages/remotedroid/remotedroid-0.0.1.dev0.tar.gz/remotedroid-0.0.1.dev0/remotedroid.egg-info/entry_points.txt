@@ -1,0 +1,3 @@
+      [console_scripts]
+      remotedroid = remotedroid.cmd:main
+      
