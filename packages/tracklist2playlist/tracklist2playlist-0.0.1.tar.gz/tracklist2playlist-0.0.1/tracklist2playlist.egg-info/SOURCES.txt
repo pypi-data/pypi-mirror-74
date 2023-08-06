@@ -1,0 +1,14 @@
+README.md
+setup.py
+tracklist2playlist/__init__.py
+tracklist2playlist/main.py
+tracklist2playlist/spotitools.py
+tracklist2playlist.egg-info/PKG-INFO
+tracklist2playlist.egg-info/SOURCES.txt
+tracklist2playlist.egg-info/dependency_links.txt
+tracklist2playlist.egg-info/entry_points.txt
+tracklist2playlist.egg-info/requires.txt
+tracklist2playlist.egg-info/top_level.txt
+tracklist2playlist_sources/__init__.py
+tracklist2playlist_sources/livetracklist.py
+tracklist2playlist_sources/thousandonetracklists.py
