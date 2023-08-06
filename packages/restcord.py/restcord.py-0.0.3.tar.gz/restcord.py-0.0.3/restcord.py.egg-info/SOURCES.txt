@@ -1,0 +1,13 @@
+README.md
+setup.py
+restcord/__init__.py
+restcord/client.py
+restcord/errors.py
+restcord/http.py
+restcord/models.py
+restcord/utils.py
+restcord.py.egg-info/PKG-INFO
+restcord.py.egg-info/SOURCES.txt
+restcord.py.egg-info/dependency_links.txt
+restcord.py.egg-info/requires.txt
+restcord.py.egg-info/top_level.txt
