@@ -1,0 +1,9 @@
+LICENSE.md,sha256=_7dAUQQ5Ph_x1hcFXhi9aHBcqq9H11zco12eO4B3Cyg,1504
+drift/__init__.py,sha256=0RjvgP-8kmryIfB6qyOJw_FchiUBZsf06Ft1Vs4gar8,413
+drift/adaptors.py,sha256=yVHwv-o4lAF3obYi2A1gRYMeKPFtVI_L5BKINTMc0Uo,1392
+drift/drift.py,sha256=F_2fpxEv1ff5jQcvQf8ua4E73swnA8L7kJhLb4tGRss,20157
+drift/exceptions.py,sha256=dVuxxNvWCzMAoDHA8u-Et94Y_WmSgJHs8x8txynAiYM,613
+sdss_drift-0.1.0.dist-info/LICENSE.md,sha256=_7dAUQQ5Ph_x1hcFXhi9aHBcqq9H11zco12eO4B3Cyg,1504
+sdss_drift-0.1.0.dist-info/WHEEL,sha256=G_NFpzHmv_dUXgCUSAWL0-bLL-eMzYU6DzDeGXbRXUk,83
+sdss_drift-0.1.0.dist-info/METADATA,sha256=ZUGP34PBoUkeBEGceQwVeMxxgYHV7g8lzxZaOe2CjJQ,2938
+sdss_drift-0.1.0.dist-info/RECORD,,
