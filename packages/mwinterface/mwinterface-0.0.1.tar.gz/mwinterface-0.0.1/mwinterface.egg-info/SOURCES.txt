@@ -1,0 +1,8 @@
+README.md
+setup.py
+api/__init__.py
+api/rest.py
+mwinterface.egg-info/PKG-INFO
+mwinterface.egg-info/SOURCES.txt
+mwinterface.egg-info/dependency_links.txt
+mwinterface.egg-info/top_level.txt
