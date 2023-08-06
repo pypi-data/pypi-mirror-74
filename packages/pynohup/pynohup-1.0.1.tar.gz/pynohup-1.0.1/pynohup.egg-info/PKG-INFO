@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: pynohup
+Version: 1.0.1
+Summary: 后台运行python文件的模块
+Home-page: http://www.nnzhp.cn/archives/646
+Author: HanyangNiu
+Author-email: niuhanyang@163.com
+License: MIT
+Description: 后台运行python文件
+Keywords: pynohup python package
+
+关于当前包的一些关键字，方便PyPI进行分类。
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
