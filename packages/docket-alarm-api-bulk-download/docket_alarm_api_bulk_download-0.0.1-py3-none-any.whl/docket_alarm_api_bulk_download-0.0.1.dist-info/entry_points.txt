@@ -1,0 +1,3 @@
+[console_scripts]
+docket-alarm-api-bulk-download = docket_alarm_api_bulk_download.__main__:run
+
