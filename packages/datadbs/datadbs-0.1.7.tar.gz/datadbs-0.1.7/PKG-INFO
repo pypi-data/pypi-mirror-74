@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: datadbs
+Version: 0.1.7
+Summary: DataDBS are some class to manage data NoSQL type
+Home-page: http://www.gitlab.com/dpineda/datadbs
+Author: David Pineda Osorio
+Author-email: dpineda@csn.uchile.cl
+License: GPLv3
+Description: Changuelog
+        ==========
+        
+        
+        Rethinkdb module for Rethinkdb 2.4!
+        
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
