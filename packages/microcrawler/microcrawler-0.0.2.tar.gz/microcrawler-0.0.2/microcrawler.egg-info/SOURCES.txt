@@ -1,0 +1,10 @@
+README.md
+setup.py
+microcrawler/__init__.py
+microcrawler/arrivals.py
+microcrawler.egg-info/PKG-INFO
+microcrawler.egg-info/SOURCES.txt
+microcrawler.egg-info/dependency_links.txt
+microcrawler.egg-info/entry_points.txt
+microcrawler.egg-info/requires.txt
+microcrawler.egg-info/top_level.txt
