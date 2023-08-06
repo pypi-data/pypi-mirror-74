@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: cloudimage
+Version: 0.0.1
+Summary: Cloudimage python library
+Home-page: https://www.cloudimage.io
+Author: Scaleflex SAS
+Author-email: hello@scaleflex.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# Cloudimage python library
+
+`cloudimage` is the name of python library that will give automatically functions to use Cloudimage services.
+Install by:
+
+> pip3 install cloudimage
+
+# Usage
+
+```
+from cloudimage.URLBuilder import URLBuilder
+
+urlBuilder = URLBuilder("demo", domain="cloudimg.io", version="v6")
+#urlBuilder.printinfo()
+
+path = "http://www.fmwconcepts.com/imagemagick/smartcrop/images/sofa_cat_small.jpg"
+url = urlBuilder.createURL(path, filters={"fcontrast": "50", "fbright": 50})
+print(url)
+```
+
