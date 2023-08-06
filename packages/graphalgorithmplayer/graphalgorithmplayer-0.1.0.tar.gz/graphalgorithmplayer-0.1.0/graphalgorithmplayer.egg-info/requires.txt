@@ -1,0 +1,7 @@
+timer
+ipywidgets
+valueplayerwidget
+networkx
+traitlets
+bqplot
+matplotlib

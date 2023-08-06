@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: graphalgorithmplayer
+Version: 0.1.0
+Summary: A Player to display graph processing
+Home-page: https://gitlab.u-psud.fr/edwige.gros/GraphAlgorithmPlayer/tree/master/GraphAlgorithmPlayer
+Author: Edwige Gros
+Author-email: edwige.gros@laposte.net
+License: UNKNOWN
+Description: # GraphAlgorithmPlayer
+        Visualize how a graph is processed by an algorithm with either networkx or bqplot thanks to a player.
+        
+        For each step of your algorithm and using the Networkx view you may change the color and label of each node and edge.
+        BQPlot only allows the user to change the color of nodes.
+        
+        
+        Binder :  [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/git/https%3A%2F%2Fgitlab.u-psud.fr%2Fedwige.gros%2FGraphAlgorithmPlayer/master?filepath=GraphAlgorithmPlayer.ipynb)
+        
+        
+        Dependencies:
+        * valueplayerwidget
+        * bqplot
+        * matplotlib
+        * networkx
+        * ipywidgets
+        * traitlets
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
