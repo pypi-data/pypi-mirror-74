@@ -1,0 +1,11 @@
+Metadata-Version: 1.2
+Name: forecastflow
+Version: 4.2.3
+Summary: ForecastFlow Python API
+Home-page: https://gri.jp
+Author: GRI, Inc
+Author-email: forecastflow@gri.jp
+License: UNKNOWN
+Description: ForecastFlow Python API
+Platform: UNKNOWN
+Requires-Python: >=3.6.0
