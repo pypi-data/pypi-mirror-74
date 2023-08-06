@@ -1,0 +1,57 @@
+Metadata-Version: 2.1
+Name: logutil
+Version: 0.1.0
+Summary: Easy initialization of standard python logging and loguru
+Home-page: UNKNOWN
+Author: Yaroslav Kopotilov
+Author-email: datascience@tuta.io
+License: Apache License, Version 2.0
+Description: # Logutil
+        
+        (Extremely) easy initialization for `logging` and `loguru`
+        
+        ## Why
+        
+        This packages makes initialization of `logging` and `loguru` with stream, file, sentry and pushover handlers (extremely) easy.
+        
+        ## Installation
+        
+        - Logging only: `pip install logutil`
+        - ... + loguru: `pip install logutil[loguru]`
+        - ... + notifiers/sentry: `pip install logutil[notifiers]`
+        - ... + loguru + notifiers/sentry: `pip install logutil[all]`
+        
+        ## Examples
+        
+        ```python
+        # standard python logging
+        from logutil import init_logging, get_logging_logger
+        init_logging('sub1')
+        logger = get_logging_logger('sub1')
+        logger.info('Test INFO message (logging)')
+        logger.warning('Test WARNING message (logging)')
+        ```
+        
+        ```python
+        # loguru
+        from logutil import init_loguru, get_loguru_logger
+        init_loguru()
+        logger = get_loguru_logger()
+        logger.info('Test INFO message (loguru)')
+        logger.warning('Test WARNING message (loguru)')
+        ```
+        
+Keywords: logging loguru
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Provides-Extra: loguru
+Provides-Extra: notifiers
+Provides-Extra: all
