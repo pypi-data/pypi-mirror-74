@@ -1,0 +1,18 @@
+Metadata-Version: 1.2
+Name: powerkube-fork
+Version: 0.2.0
+Summary: A powerline segment to show kubernetes context items, with toggling and alert color functionality
+Home-page: https://github.com/d2iq-shadowbq/powerkube-fork
+Author: Scott MacGregor
+Author-email: shadowbq@gmail.com
+License: Copyright
+Download-URL: https://github.com/d2iq-shadowbq/powerkube-fork/tarball/0.2.0
+Description: UNKNOWN
+Keywords: kubernetes_py,k8s,powerline,powerkube
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Topic :: Terminals
+Requires-Python: >=3.6
