@@ -1,0 +1,7 @@
+setup.cfg
+setup.py
+tdw.egg-info/PKG-INFO
+tdw.egg-info/SOURCES.txt
+tdw.egg-info/dependency_links.txt
+tdw.egg-info/requires.txt
+tdw.egg-info/top_level.txt
