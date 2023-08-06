@@ -1,0 +1,10 @@
+README.md
+setup.py
+gbdny/Binomialdistribution.py
+gbdny/Gaussiandistribution.py
+gbdny/Generaldistribution.py
+gbdny/__init__.py
+gbdny.egg-info/PKG-INFO
+gbdny.egg-info/SOURCES.txt
+gbdny.egg-info/dependency_links.txt
+gbdny.egg-info/top_level.txt

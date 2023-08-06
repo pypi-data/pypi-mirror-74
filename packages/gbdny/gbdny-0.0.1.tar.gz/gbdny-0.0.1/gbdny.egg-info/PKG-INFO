@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: gbdny
+Version: 0.0.1
+Summary: A small example package for gaussian and binomial distributions.
+Home-page: UNKNOWN
+Author: Nicolas yanez
+Author-email: n.yanez615@gmail.com
+License: UNKNOWN
+Description: # Gaussian and Binomial Distributions Package
+        
+        This is a simple example package for Gaussian and Binomial Distributions made during the Udacity AWS Fundamentals of Machine Learning course.
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
