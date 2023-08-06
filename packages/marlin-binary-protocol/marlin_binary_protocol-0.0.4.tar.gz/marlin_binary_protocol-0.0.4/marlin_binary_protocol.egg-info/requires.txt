@@ -1,0 +1,3 @@
+heatshrink2>-0.9
+heatshrink>=0.3.2
+pyserial>=3.4
