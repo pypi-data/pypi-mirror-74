@@ -1,0 +1,13 @@
+README.md
+setup.py
+wiki_txt
+zscat
+zword/__init__.py
+zword/title2word.py
+zword/zs.py
+zword.egg-info/PKG-INFO
+zword.egg-info/SOURCES.txt
+zword.egg-info/dependency_links.txt
+zword.egg-info/requires.txt
+zword.egg-info/top_level.txt
+zword.egg-info/zip-safe
