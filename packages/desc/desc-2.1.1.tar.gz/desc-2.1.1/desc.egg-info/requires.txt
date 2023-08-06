@@ -1,0 +1,7 @@
+matplotlib>=2.2pydot
+tensorflow
+scanpy
+louvain
+python-igraph
+h5py
+pandas
