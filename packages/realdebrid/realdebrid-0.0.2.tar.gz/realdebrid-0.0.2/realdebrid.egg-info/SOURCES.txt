@@ -1,0 +1,7 @@
+setup.py
+realdebrid/__init__.py
+realdebrid.egg-info/PKG-INFO
+realdebrid.egg-info/SOURCES.txt
+realdebrid.egg-info/dependency_links.txt
+realdebrid.egg-info/requires.txt
+realdebrid.egg-info/top_level.txt
