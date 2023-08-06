@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+distributions_achal/Binomialdistribution.py
+distributions_achal/Gaussiandistribution.py
+distributions_achal/Generaldistribution.py
+distributions_achal/__init__.py
+distributions_achal.egg-info/PKG-INFO
+distributions_achal.egg-info/SOURCES.txt
+distributions_achal.egg-info/dependency_links.txt
+distributions_achal.egg-info/not-zip-safe
+distributions_achal.egg-info/top_level.txt
