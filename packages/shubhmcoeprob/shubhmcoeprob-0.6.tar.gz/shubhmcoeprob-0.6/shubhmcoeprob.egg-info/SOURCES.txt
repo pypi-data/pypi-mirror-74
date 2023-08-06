@@ -1,0 +1,11 @@
+setup.cfg
+setup.py
+shubhmcoeprob/Binomialdistribution.py
+shubhmcoeprob/Gaussiandistribution.py
+shubhmcoeprob/Generaldistribution.py
+shubhmcoeprob/__init__.py
+shubhmcoeprob.egg-info/PKG-INFO
+shubhmcoeprob.egg-info/SOURCES.txt
+shubhmcoeprob.egg-info/dependency_links.txt
+shubhmcoeprob.egg-info/not-zip-safe
+shubhmcoeprob.egg-info/top_level.txt
