@@ -1,0 +1,6 @@
+include requirements/base.in
+include requirements/demo.in
+include requirements/test.in
+include LICENSE
+include README.rst
+include version.log
