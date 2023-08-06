@@ -1,0 +1,8 @@
+README.md
+setup.py
+instadown.egg-info/PKG-INFO
+instadown.egg-info/SOURCES.txt
+instadown.egg-info/dependency_links.txt
+instadown.egg-info/entry_points.txt
+instadown.egg-info/requires.txt
+instadown.egg-info/top_level.txt
