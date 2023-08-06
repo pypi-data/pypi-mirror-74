@@ -1,0 +1,12 @@
+Change Log
+==========
+
+0.0.3 (23/07/2020)
+-------------------
+-Adaugarea modulului config_util.py
+
+-Modificarea modulului Mail.py
+
+-Adaugarea in modulul Utility.py functionalul din PingIPAddress.py
+
+-Stergerea modululelor PingIPAddress.py si setingApp.py
