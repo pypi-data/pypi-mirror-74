@@ -1,0 +1,10 @@
+README.md
+setup.py
+memes/__init__.py
+memes/__version__.py
+memes/cli.py
+memes.egg-info/PKG-INFO
+memes.egg-info/SOURCES.txt
+memes.egg-info/dependency_links.txt
+memes.egg-info/requires.txt
+memes.egg-info/top_level.txt
