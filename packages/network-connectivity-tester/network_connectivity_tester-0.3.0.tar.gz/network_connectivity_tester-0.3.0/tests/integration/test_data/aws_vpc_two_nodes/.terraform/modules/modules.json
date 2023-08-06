@@ -1,0 +1,1 @@
+{"Modules":[{"Key":"node1","Source":"../../../../integrations/terraform/aws/","Dir":"../../../../integrations/terraform/aws"},{"Key":"node2","Source":"../../../../integrations/terraform/aws/","Dir":"../../../../integrations/terraform/aws"},{"Key":"vpc","Source":"terraform-aws-modules/vpc/aws","Version":"2.44.0","Dir":".terraform/modules/vpc"},{"Key":"","Source":"","Dir":"."}]}
