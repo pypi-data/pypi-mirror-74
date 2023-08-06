@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: elad
+Version: 0.0.1
+Summary: My elad package
+Home-page: https://elad.com
+Author: elad
+Author-email: elad@elad.com
+License: MIT License
+Description: UNKNOWN
+Keywords: elad
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 3 - Alpha
+Description-Content-Type: text/markdown

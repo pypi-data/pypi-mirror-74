@@ -1,0 +1,6 @@
+setup.cfg
+setup.py
+elad.egg-info/PKG-INFO
+elad.egg-info/SOURCES.txt
+elad.egg-info/dependency_links.txt
+elad.egg-info/top_level.txt
