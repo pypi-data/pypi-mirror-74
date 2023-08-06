@@ -1,0 +1,226 @@
+Metadata-Version: 2.1
+Name: exclock
+Version: 0.1.8.4
+Summary: exclock is a cui extended timer.
+Home-page: https://gitlab.com/yassu/exclock
+Author: yassu
+Author-email: yasu0320.dev@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: Implementation
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Multimedia :: Sound/Audio :: Players :: MP3
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Software Development :: Version Control :: Git
+Classifier: Topic :: Software Development
+Classifier: Topic :: Terminals
+Classifier: Topic :: Utilities
+Requires-Dist: python-vlc
+Requires-Dist: json5
+Requires-Dist: notify-py
+Requires-Dist: tqdm
+
+Exclock
+================================================================================
+
+.. image:: https://gitlab.com/yassu/exclock/badges/master/pipeline.svg
+  :target: https://gitlab.com/yassu/exclock/pipelines/latest
+
+.. image:: https://gitlab.com/yassu/exclock/badges/master/coverage.svg
+  :target: https://gitlab.com/yassu/exclock/-/commits/master
+
+
+`exclock` is a cui extended timer.
+
+Required
+----------
+
+* vlc
+* `notify-py <https://pypi.org/project/notify-py/>`_ for
+
+  * Windows 10
+
+  * MaxOS 10 >= 10.10
+
+  * Linux with libnotify
+
+Usage
+----------
+
+::
+
+    $ exclock [options] {clock-filename}
+
+Features
+--------------------------------------------------------------------------------
+
+* Sound an alarm at a specified time.
+* Sound the alarm after the specified time has elapsed.
+* You can flexibly set the alarm.
+
+Options
+--------------------------------------------------------------------------------
+
+* `--version`: show program's version number and exit
+* `-h, --help`: show this help message and exit
+* `-l, --list`: show clock names in your PC and exit
+* `-t, --time`: Time which spends until or to specified
+
+How to sound an alarm at a specified time
+--------------------------------------------------------------------------------
+
+Enter
+
+::
+
+    $ exclock -t {time}
+
+format command.
+
+Where time is given in the `%H:%m` or `%H:%m:%S` format.
+
+Ex.
+
+::
+
+    $ exclock -t "1:00"
+    $ exclock -t "1:00:20"
+
+How to sound the alarm after the specified time has elapsed
+--------------------------------------------------------------------------------
+
+Enter
+
+::
+
+    $ exclock -t {time}
+
+format command.
+
+Where time is given in the `%S`, `%Ss`, `%mm` or `%mm%ss`.
+
+Ex.
+
+::
+
+    $ exclock -t 3
+    $ exclock -t 3s
+    $ exclock -t 2m
+    $ exclock -t 2m3s
+
+How to flexibly set the alarm
+--------------------------------------------------------------------------------
+
+Enter
+
+::
+
+    $ exclock {clock-filename}
+
+format command.
+Although `{clock-filename}` can be omitted as descrived below.
+
+clock-file should be a file in json5 format.
+
+Official page for json5 format is `Here <https://json5.org/>`_.
+
+clock file format
+--------------------------------------------------------------------------------
+
+::
+
+    {
+      "title": "title(optional)",
+      "sounds": {
+        "time1": {
+          "message": "message1",
+          "sound_filename": "sound_filename1",
+        },
+        "time2":{
+        "message": "message2",
+        "sound_filename": "sound_filename2",
+        },
+        ...
+      },
+      "loop": loop_number
+    }
+
+* title: string which be used for notification. This is the optional option. Then the property is computed from clock-filename.
+* sounds: dictionary from time to dictionary which includes message and sound_filename.
+
+  - time format is "{sec}", "{sec}s", "{min}m" or "{min}m{sec}s" format.
+
+  - message is a string which be used for notification and terminal output.
+
+  - sound_filename is a string which be used for play the sound.
+
+* loop: number of iterations for above clock timer. If this is nil, this means repeatation a number of times.
+
+There are sample files in `sample dir in gitlab <https://gitlab.com/yassu/exclock/-/tree/master/exclock/assets/clock>`_.
+
+How to omit clock filename
+--------------------------------------------------------------------------------
+
+Clock filename can be omitted for some case.
+
+Rules are
+
+* If extension of clock filename is .json5, extension can be omitted(ex: pomodoro.json5 => pomodoro).
+* If dir is in the specified directory(~/.exclock/clock/), dir is omitted (ex: ~/.exclock/clock/abc.json5 => abc).
+* Buitin clock file can be accessed. There are in `sample dir in gitlab`_ (ex: 3m or pomodoro).
+
+How to omit sound filename
+--------------------------------------------------------------------------------
+
+Sound filename can be omitted for some case.
+
+Rules are
+
+* If dir is in the specified directory(~/.exclock/sound/), dir is omitted (ex: ~/.exclock/sound/abc.mp3 => abc.mp3).
+* Buitin sound file can be accessed. There are in `sample sound dir in gitlab <https://gitlab.com/yassu/exclock/-/tree/master/exclock/assets/sound>`_ (ex: silent.mp3 or warning.mp3).
+
+LICENSE
+-------
+
+`Apache 2.0 <https://gitlab.com/yassu/exclock/blob/master/LICENSE>`_
+
+Todo
+-------
+
+* Icon作成
+
+  * [ ] アイコン作成
+
+  * [ ] プロジェクトのアイコンをそれにする
+
+  * [ ] notifyのデフォルトのアイコンもそれにして 変更できるようにする
+
+* [x] 環境にあるclock一覧を表示するコマンドを追加
+* Exception対応
+
+  * [x] 'Error: No available formula with the name "vlc"'対応
+
+* [x] 指定された時間になったらタイマーを発火させるコマンドを追加
+* [x] 0病後にSoundが指定されていた場合 そのSoundのとき tqdmを使わない
+* [x] プログレスバーの出力をいい感じにする
+* [ ] Add n variable
+* [x] secの変数名を_secというようにする
+* [x] KeyboardInteraptのエラー処理を書く
+* [x] 🐛  二つ同じ名前がなくても一つしか表示されないようにする
+* [x] 🎨 main関数のテストを追加
+* [-] is_bgm flag
+* [ ] poetry導入
+* [ ] warningの音を設定できるような項目を追加する
+* [x] setup.pyでPipenvのpackagesを使うようにする
+* [x] 真面目にdocumentを書く
+
+
