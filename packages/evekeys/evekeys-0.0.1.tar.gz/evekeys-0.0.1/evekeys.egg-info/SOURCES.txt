@@ -1,0 +1,9 @@
+README.md
+setup.py
+evekeys/__init__.py
+evekeys/evekeys.py
+evekeys.egg-info/PKG-INFO
+evekeys.egg-info/SOURCES.txt
+evekeys.egg-info/dependency_links.txt
+evekeys.egg-info/requires.txt
+evekeys.egg-info/top_level.txt
