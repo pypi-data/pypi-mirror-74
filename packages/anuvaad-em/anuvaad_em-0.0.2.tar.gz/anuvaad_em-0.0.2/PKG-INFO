@@ -1,0 +1,18 @@
+Metadata-Version: 1.1
+Name: anuvaad_em
+Version: 0.0.2
+Summary: A package to standardize and manage errors in anuvaad dataflow pipeline by Tarento
+Home-page: https://www.tarento.com
+Author: Vishal Mahuli
+Author-email: vishal.mahuli@tarento.com
+License: MIT
+Download-URL: https://github.com/project-anuvaad/anuvaad-em/archive/0.0.1.tar.gz
+Description: A package to standardize and manage errors in anuvaad dataflow pipeline by EkStep 
+        Visit the following repo for more details: https://github.com/project-anuvaad/anuvaad-em
+Keywords: ANUVAAD,ERROR,MANAGER,TARENTO,EKSTEP,SUVAAS
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.7
