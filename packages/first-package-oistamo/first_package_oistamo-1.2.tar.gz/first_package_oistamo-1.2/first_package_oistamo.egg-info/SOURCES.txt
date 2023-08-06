@@ -1,0 +1,10 @@
+setup.py
+first_package_oistamo/Binomialdistribution.py
+first_package_oistamo/Gaussiandistribution.py
+first_package_oistamo/Generaldistribution.py
+first_package_oistamo/__init__.py
+first_package_oistamo.egg-info/PKG-INFO
+first_package_oistamo.egg-info/SOURCES.txt
+first_package_oistamo.egg-info/dependency_links.txt
+first_package_oistamo.egg-info/not-zip-safe
+first_package_oistamo.egg-info/top_level.txt
