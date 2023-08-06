@@ -1,0 +1,11 @@
+README.md
+setup.py
+problib/Binomialdistribution.py
+problib/Gaussiandistribution.py
+problib/Generaldistribution.py
+problib/__init__.py
+problib.egg-info/PKG-INFO
+problib.egg-info/SOURCES.txt
+problib.egg-info/dependency_links.txt
+problib.egg-info/not-zip-safe
+problib.egg-info/top_level.txt
