@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: alpha-compiler-vk
+Version: 0.1.2.0
+Summary: Python tools for quantitative finance. [VK branch]
+Home-page: https://github.com/vk643/alpha-compiler-vk/
+Author: Peter Harrington
+Author-email: peter.b.harrington@gmail.com
+Maintainer: Vyacheslav Klyuchnikov
+License: UNKNOWN
+Platform: UNKNOWN
+Requires: pandas
+Requires: zipline
+Requires: numpy
+
+UNKNOWN
+
+
