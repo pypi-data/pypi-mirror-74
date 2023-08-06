@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: omi-async-http-client
+Version: 0.1.1
+Summary: an async http client implemention with aio backend
+Home-page: https://github.com/limccn/omi_async_http_client
+Author: limc
+Author-email: limc@ohs-sys.com
+License: Apache License
+Description: an async http client implemention with aio backend
+Keywords: http_client,aio,async
+Platform: any
