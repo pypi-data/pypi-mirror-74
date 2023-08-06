@@ -1,0 +1,6 @@
+README.md
+setup.py
+nirtools.egg-info/PKG-INFO
+nirtools.egg-info/SOURCES.txt
+nirtools.egg-info/dependency_links.txt
+nirtools.egg-info/top_level.txt
