@@ -1,0 +1,55 @@
+# txtcn_wiki
+
+安装方法如下，请用 python3
+
+```
+pip install txtcn_wiki
+```
+
+使用有问题请到 [github.com/txtcn/wiki](https://github.com/txtcn/wiki) 发帖。
+
+## 从维基百科抽取中文语料
+
+维基百科语料下载地址 : [dumps.wikimedia.org/zhwiki](https://dumps.wikimedia.org/zhwiki/)
+
+有很多链接，下载比如 `https://dumps.wikimedia.org/zhwiki/20200701/zhwiki-20200701-pages-articles.xml.bz2`
+
+下载后运行类似如下的命令来抽取中文语料
+
+```
+txtcn_wiki /share/wiki/zhwiki-20200701-pages-articles.xml.bz2
+```
+
+小技巧：维基百科打包打包很大，但是不需要完全下载也可以运行以上命令（会报错，但能部分输出，方便开发）
+
+会在bz2的同目录输出两个文件
+
+* 条目正文：zhwiki-20200701-pages-articles.title.txt.zd
+* 条目标题：zhwiki-20200701-pages-articles.txt.zd
+
+这两个文件是`Zstandard`压缩后的纯文本文件 ( 参见 [Zstandard：一种新的无损压缩算法](https://t.cn/A6yuA29f) )
+
+使用本软件包附带的 `zdcat` 命令可以查看， 比如：
+
+```
+zdcat /share/wiki/zhwiki-20200701-pages-articles.title.txt.zd
+```
+
+在条目正文中，条目的标题以 "➜ " 开头。
+
+在程序中读取`zd`文件，可用如下方法（zd可以单独安装，比如`pip install zd`，源码见[gitee.com/znlp/zd](https://gitee.com/znlp/zd)）
+
+```
+import zd
+
+with zd.open(
+  "/share/wiki/zhwiki-20200701-pages-articles.txt.zd"
+) as f:
+  for i in f:
+    print(i)
+```
+
+## 特别感谢
+
+代码改编自 [《获取并处理中文维基百科语料 - 科学空间|Scientific Spaces》](https://t.cn/A6yuwEkk)
+

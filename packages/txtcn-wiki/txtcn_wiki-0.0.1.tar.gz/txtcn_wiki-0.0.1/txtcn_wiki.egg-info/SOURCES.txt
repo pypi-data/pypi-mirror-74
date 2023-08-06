@@ -1,0 +1,10 @@
+README.md
+setup.py
+bin/txtcn_wiki
+txtcn_wiki/__init__.py
+txtcn_wiki.egg-info/PKG-INFO
+txtcn_wiki.egg-info/SOURCES.txt
+txtcn_wiki.egg-info/dependency_links.txt
+txtcn_wiki.egg-info/requires.txt
+txtcn_wiki.egg-info/top_level.txt
+txtcn_wiki.egg-info/zip-safe
