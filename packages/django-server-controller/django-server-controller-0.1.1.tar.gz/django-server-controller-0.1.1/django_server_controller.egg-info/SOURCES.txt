@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+django_server_controller.py
+requirements.txt
+setup.py
+django_server_controller.egg-info/PKG-INFO
+django_server_controller.egg-info/SOURCES.txt
+django_server_controller.egg-info/dependency_links.txt
+django_server_controller.egg-info/requires.txt
+django_server_controller.egg-info/top_level.txt
