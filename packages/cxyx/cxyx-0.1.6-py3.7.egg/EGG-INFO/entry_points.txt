@@ -1,0 +1,3 @@
+[console_scripts]
+cxyx = cxyx.__main__:cxyx
+
