@@ -1,0 +1,9 @@
+pyACS/__init__.py,sha256=dVUu57KHXlxtQQ9u_6mRl3JCfkDTgSHcPMwD3zAHpyo,41
+pyACS/__main__.py,sha256=HjUVUN1nnvoIQpIkovdsuwXqdGIjCWkYLq9HzaP5Cqk,1214
+pyACS/acs.py,sha256=Q-FdS2-j3nh2IayLgajQMy8ogiYYzAJ3i8I7x2nYXVk,20059
+pyACS/test.py,sha256=jgTkd36i_ZxVIWZenSjfBEgB_0D8DozOKxOw4ujqVug,11613
+pyACS-0.0.2.dist-info/LICENSE,sha256=A5ScIkAs4PfJSwb6mXUioE1K7FQ6lXmpI9u527hK8Lc,1070
+pyACS-0.0.2.dist-info/METADATA,sha256=N_Mqo5PC6V8d602zT7HQP7AG66D3OJpr7b8oWHnxCBc,2315
+pyACS-0.0.2.dist-info/WHEEL,sha256=_NOXIqFgOaYmlm9RJLPQZ13BJuEIrp5jx5ptRD5uh3Y,92
+pyACS-0.0.2.dist-info/top_level.txt,sha256=IBYABM2MJ7ZmI801wbotMF3l1YmaB9pYUArtZU4M4p8,6
+pyACS-0.0.2.dist-info/RECORD,,
