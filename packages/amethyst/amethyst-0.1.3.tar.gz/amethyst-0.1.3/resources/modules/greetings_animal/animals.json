@@ -1,0 +1,36 @@
+{
+  "gems": {
+    "north": {
+      "label": "M. Fox",
+      "icon-emoji": "fox"
+    },
+    "north-east": {
+      "label": "Mrs. Horse",
+      "icon-emoji": "horse"
+    },
+    "east": {
+      "label": "M. Unicorn",
+      "icon-emoji": "unicorn"
+    },
+    "south-east": {
+      "label": "Mrs. Cow",
+      "icon-emoji": "cow"
+    },
+    "south": {
+      "label": "M. Elephant",
+      "icon-emoji": "elephant"
+    },
+    "south-west": {
+      "label": "Mrs. Rabbit",
+      "icon-emoji": "rabbit"
+    },
+    "west": {
+      "label": "M. Cat",
+      "icon-emoji": "cat"
+    },
+    "north-west": {
+      "label": "Mrs. Pig",
+      "icon-emoji": "pig"
+    }
+  }
+}

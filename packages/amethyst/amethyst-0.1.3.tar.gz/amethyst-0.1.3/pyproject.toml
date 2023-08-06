@@ -1,0 +1,46 @@
+[tool.poetry]
+name = "amethyst"
+version = "0.1.3"
+description = "A general-purpose keyboard-based launcher."
+authors = ["Nathanaël Jourdane <roipoussiere@protonmail.com>"]
+license = "MIT"
+readme = "README.md"
+repository = "https://framagit.org/roipoussiere/amethyst"
+documentation = "https://roipoussiere.frama.io/amethyst/amethyst.1.html"
+keywords = ["launcher", "ui", "desktop", "rofi", "dmenu"]
+classifiers = ["Intended Audience :: End Users/Desktop", "Topic :: Desktop Environment"]
+include = ["assets/**/*", "resources/**/*"]
+
+[tool.poetry.urls]
+"Bug Tracker" = "https://framagit.org/roipoussiere/amethyst/-/issues"
+
+[tool.poetry.dependencies]
+python = "^3.6"
+# PyQt5 5.14 is used to avoid a bug on Python 3.6. See https://stackoverflow.com/questions/59711301/install-pyqt5-5-14-1-on-linux
+PyQt5 = { version = "==5.14", optional = true }
+PyYAML = "^5.3"
+appdirs = "^1.4"
+click = "^7.1.2"
+pyglet = "^1.5.7"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.4"
+pylint = "^2.5"
+anybadge = "^1.7"
+mkdocs = "^1.1"
+nltk = "^3.5"
+mkdocs-material = "^5.4"
+pytest-cov = "^2.10"
+requests = "^2.24"
+click-man = "^0.4.1"
+
+[tool.poetry.scripts]
+amethyst = "amethyst.main:main"
+amy = "amethyst.main:main"
+
+[tool.poetry.extras]
+qt = ["PyQt5", "PyQt5-stubs"]
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"

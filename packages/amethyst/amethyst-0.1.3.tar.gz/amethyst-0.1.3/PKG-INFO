@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: amethyst
+Version: 0.1.3
+Summary: A general-purpose keyboard-based launcher.
+Home-page: https://framagit.org/roipoussiere/amethyst
+License: MIT
+Keywords: launcher,ui,desktop,rofi,dmenu
+Author: Nathanaël Jourdane
+Author-email: roipoussiere@protonmail.com
+Requires-Python: >=3.6,<4.0
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Desktop Environment
+Provides-Extra: qt
+Requires-Dist: PyQt5 (==5.14); extra == "qt"
+Requires-Dist: PyYAML (>=5.3,<6.0)
+Requires-Dist: appdirs (>=1.4,<2.0)
+Requires-Dist: click (>=7.1.2,<8.0.0)
+Requires-Dist: pyglet (>=1.5.7,<2.0.0)
+Project-URL: Bug Tracker, https://framagit.org/roipoussiere/amethyst/-/issues
+Project-URL: Documentation, https://roipoussiere.frama.io/amethyst/amethyst.1.html
+Project-URL: Repository, https://framagit.org/roipoussiere/amethyst
+Description-Content-Type: text/markdown
+
+# Amethyst
+
+*A general-purpose keyboard-centric launcher with a radial menu.*
+
+Please read the [Amethyst documentation](https://roipoussiere.frama.io/amethyst) for more information about Amethyst, how to use it and how to contribute.
+
