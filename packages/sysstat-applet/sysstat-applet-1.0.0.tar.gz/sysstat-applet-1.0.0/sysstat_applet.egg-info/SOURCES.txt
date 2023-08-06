@@ -1,0 +1,14 @@
+README.md
+setup.py
+sysstat-applet
+sysstat_applet.egg-info/PKG-INFO
+sysstat_applet.egg-info/SOURCES.txt
+sysstat_applet.egg-info/dependency_links.txt
+sysstat_applet.egg-info/requires.txt
+sysstat_applet.egg-info/top_level.txt
+sysstatapplet/__init__.py
+sysstatapplet/cpu.py
+sysstatapplet/disk.py
+sysstatapplet/mem.py
+sysstatapplet/sysstat.py
+sysstatapplet/util.py
