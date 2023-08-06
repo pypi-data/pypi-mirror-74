@@ -1,0 +1,16 @@
+LICENSE
+README.rst
+pyproject.toml
+setup.cfg
+hangul_names/__init__.py
+hangul_names/defs.py
+hangul_names/transliterator.py
+hangul_names/words.py
+hangul_names.egg-info/PKG-INFO
+hangul_names.egg-info/SOURCES.txt
+hangul_names.egg-info/dependency_links.txt
+hangul_names.egg-info/top_level.txt
+hangul_names/dramawiki/__init__.py
+hangul_names/dramawiki/rules.py
+tests/__init__.py
+tests/test_romanization.py
