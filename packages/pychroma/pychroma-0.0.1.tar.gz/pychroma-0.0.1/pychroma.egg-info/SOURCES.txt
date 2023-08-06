@@ -1,0 +1,12 @@
+README.md
+setup.py
+pychroma/Autocomplete.py
+pychroma/Connection.py
+pychroma/Controller.py
+pychroma/Device.py
+pychroma/Sketch.py
+pychroma/__init__.py
+pychroma.egg-info/PKG-INFO
+pychroma.egg-info/SOURCES.txt
+pychroma.egg-info/dependency_links.txt
+pychroma.egg-info/top_level.txt
