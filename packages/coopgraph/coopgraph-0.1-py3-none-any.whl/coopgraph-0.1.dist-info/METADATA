@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: coopgraph
+Version: 0.1
+Summary: Logical Graph Builder that can be used for various problems that can be modeled as a graph data structure
+Home-page: https://github.com/tylertjburns/coopgraph
+Author: tburns
+Author-email: tyler.tj.burns@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Intended Audience :: Developers
+Requires-Python: >3.5
+
+# coopgraph
+Logical Graph Builder that can be used for various problems that can be modeled as a graph data structure
+
+
+
