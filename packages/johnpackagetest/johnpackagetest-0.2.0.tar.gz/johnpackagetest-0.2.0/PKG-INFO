@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: johnpackagetest
+Version: 0.2.0
+Summary: hello world test package
+Home-page: http://github.com/jritsema/johnpackagetest
+Author: John Ritsema
+Author-email: john_ritsema@yahoo.com
+License: MIT
+Description: # johnpackagetest
+        
+        hello world test package
+        
+        ### usage
+        
+        ```
+        pip install johnpackagetest
+        ```
+        
+        ```
+        import johnpackagetest
+        
+        johnpackagetest.hello()
+        ```
+        
+Keywords: test package learning education
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
