@@ -1,0 +1,13 @@
+README.md
+setup.py
+WAM_Core.egg-info/PKG-INFO
+WAM_Core.egg-info/SOURCES.txt
+WAM_Core.egg-info/dependency_links.txt
+WAM_Core.egg-info/top_level.txt
+wam-core/__init__.py
+wam-core/class_components.py
+wam-core/class_hierarchy.py
+wam-core/methods_database_from.py
+wam-core/methods_database_to.py
+wam-core/methods_engine.py
+wam-core/methods_json.py
