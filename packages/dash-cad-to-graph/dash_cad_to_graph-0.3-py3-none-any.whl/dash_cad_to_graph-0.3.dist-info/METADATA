@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: dash-cad-to-graph
+Version: 0.3
+Summary: Import CAD files to plotly dash figures
+Home-page: https://github.com/mottmacdonaldglobal/dash_cad_to_graph
+Author: Jon Robinson
+Author-email: jonrobinson1980@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Scientific/Engineering
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
+Requires-Dist: cad-to-shapely
+Requires-Dist: dash
+
+# Import CAD files to Ployly Dash graphs
+
+See example plotly dash app in `app.py` for example of use.
+
