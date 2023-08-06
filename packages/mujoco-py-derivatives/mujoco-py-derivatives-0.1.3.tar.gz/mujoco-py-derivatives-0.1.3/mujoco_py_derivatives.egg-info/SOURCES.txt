@@ -1,0 +1,17 @@
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+/home/dsuo/src/mujoco-py-derivatives/src/mujoco_derivatives_struct.c
+/home/dsuo/src/mujoco-py-derivatives/src/mujoco_py_derivatives.c
+mujoco_py_derivatives.egg-info/PKG-INFO
+mujoco_py_derivatives.egg-info/SOURCES.txt
+mujoco_py_derivatives.egg-info/dependency_links.txt
+mujoco_py_derivatives.egg-info/requires.txt
+mujoco_py_derivatives.egg-info/top_level.txt
+src/mujoco_derivatives_struct.c
+src/mujoco_derivatives_struct.h
+src/mujoco_py_derivatives.c
+src/mujoco_py_derivatives.pyx
+src/pxd/cmujoco_jacobian_struct.pxd
