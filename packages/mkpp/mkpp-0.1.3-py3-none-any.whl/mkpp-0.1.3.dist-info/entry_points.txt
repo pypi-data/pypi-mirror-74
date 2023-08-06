@@ -1,0 +1,3 @@
+[console_scripts]
+mkpm=mkpp.main:main
+
