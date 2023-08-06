@@ -1,0 +1,10 @@
+setup.py
+mabs_distributions/Binomialdistribution.py
+mabs_distributions/Gaussiandistribution.py
+mabs_distributions/Generaldistribution.py
+mabs_distributions/__init__.py
+mabs_distributions.egg-info/PKG-INFO
+mabs_distributions.egg-info/SOURCES.txt
+mabs_distributions.egg-info/dependency_links.txt
+mabs_distributions.egg-info/not-zip-safe
+mabs_distributions.egg-info/top_level.txt
