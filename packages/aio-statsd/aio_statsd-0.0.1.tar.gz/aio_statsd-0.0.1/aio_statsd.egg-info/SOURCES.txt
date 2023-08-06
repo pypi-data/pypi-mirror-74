@@ -1,0 +1,12 @@
+README.md
+setup.py
+aio_statsd/__init__.py
+aio_statsd/client.py
+aio_statsd/connection.py
+aio_statsd/pool.py
+aio_statsd/protocol.py
+aio_statsd/transport_layer_protocol.py
+aio_statsd.egg-info/PKG-INFO
+aio_statsd.egg-info/SOURCES.txt
+aio_statsd.egg-info/dependency_links.txt
+aio_statsd.egg-info/top_level.txt
