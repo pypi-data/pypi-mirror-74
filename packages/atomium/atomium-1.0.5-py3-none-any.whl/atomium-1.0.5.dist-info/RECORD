@@ -1,0 +1,13 @@
+atomium/__init__.py,sha256=L0j8EI2zfajO68n5gS8uCDye0h-JiAIREBfXVEu2yIA,161
+atomium/base.py,sha256=H6zqu6gBN9gaSdbzsxnRyMm8kLlHWq8Essqqo5OriVY,6945
+atomium/data.py,sha256=JhsRImO4ZkqnsgzHPIzy4_TAcsYsKA_tKHEPzvd1fag,12903
+atomium/mmcif.py,sha256=TFbcCaJ6s0985KDYLClnPc5sJ834GU57UTVjRQbHQnY,31715
+atomium/mmtf.py,sha256=JLfg2Iltu_GW0cBUFMnB-t9b804ycvfF0YwGvtyy6xE,20845
+atomium/pdb.py,sha256=wI81EWHMUAdkDUar3hkf0ZpyGDkhPqLLv7FeM3jeydk,23972
+atomium/structures.py,sha256=x0QkPPD6tEGjsrIBT1zYOih37h3KRmZTB8fFTJ_9Nj0,43499
+atomium/utilities.py,sha256=hOimKMBq8vxb0uJMzxqIWsKj9mhBqPAqZ7P3kkpaBJE,6362
+atomium-1.0.5.dist-info/LICENSE,sha256=httJjz8Y0Ts-gJHgahDc0zt7fsmfRsiYcgIj9f8J9K8,1078
+atomium-1.0.5.dist-info/METADATA,sha256=g6IoR8fZRRwqG3KR2pZuG87yd_fBkpIgJAnxAxiZ3SI,20656
+atomium-1.0.5.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+atomium-1.0.5.dist-info/top_level.txt,sha256=MqA08si5VItJS8Qqbxf3p_bCJciISZTXQIjYnXvbZNo,8
+atomium-1.0.5.dist-info/RECORD,,
