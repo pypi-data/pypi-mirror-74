@@ -1,0 +1,2 @@
+require(['faqblock'], function (faqblock) {});
+
