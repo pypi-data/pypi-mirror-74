@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: rsm
+Version: 1.2.5
+Summary: Let's simplify things for real, shall we? 
+Home-page: https://github.com/antoinethebuilder/realsiemplify
+Author: Antoine
+Author-email: 64340767+antoinethebuilder@users.noreply.github.com
+License: MIT
+Description: ![](https://github.com/antoinethebuilder/realsiemplify/workflows/Publish%20Package/badge.svg)
+        
+        # Changelog
+        - v1.2.5 - adjustment of the description inside README.md
+        
+        
+        # Description
+        After spending most of my days configuring, implementing Siemplify, a SOAR(Security Orchestration, Automation and Response) platform over the last months.
+        I decided to build something that would improve productivity as most of my time was spent in troubleshooting with problems that a customer should not encounter.
+        
+        # Why did you name this repo 'realsiemplify' if it isn't an Official repository from Siemplify?
+        This name was chosen to be as ironic as possible since _Siemplify_ is pronounced the same way as _Simplify_ and I do no consider this to be simple since it can be really confusing to work on something with the SiemplifySDK.
+        You know the way little repetitive things that bothers you? I'm sure you've experienced something in your life that made those little things turn into something heavy, well, I feel you.
+        
+        # Do you still recommend Siemplify?
+        I **absolutely** do recommend it.
+        
+        Every products has their pros and cons.
+        
+        Here is what I value the most and to me, it really is making the difference:
+        # Relationship
+        - Siemplify has an **incredible** support team.
+        - Transparency is key with their relationship with customers.
+        - They are open to any feedback and they will be there for you if you need them.
+        
+        # Are you against Siemplify?
+        Not at all. Siemplify has significantly improved since I first started using the product and they keep evolving very quickly.
+        
+        My lack of patience is mostly what caused all of this.
+        
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
