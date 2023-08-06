@@ -1,0 +1,9 @@
+pysnoonotes/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pysnoonotes/auth.py,sha256=diNXewl5YXph-Au_4UIWNoAtFjPgAfngBB-78YN_wlM,1193
+pysnoonotes/core.py,sha256=kwALycrdCMfERXFNAkr8iLGqt9kcKoA321DYgJnvUHY,4620
+pysnoonotes/errors.py,sha256=WJJGmRG3XVSd9H1NEtp4W0QyR4Ssi8xsRBuPpjt2VFM,197
+pysnoonotes-1.0.0.dist-info/LICENSE,sha256=QZR87s8dmNCUluuftL0kXx-MxvEwBUIJklQeZy1DnwQ,1066
+pysnoonotes-1.0.0.dist-info/METADATA,sha256=AWLN3rmRIPQ0mbfsu5n7mZGg_ErzhH1cxWnMRgSqhgY,2088
+pysnoonotes-1.0.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+pysnoonotes-1.0.0.dist-info/top_level.txt,sha256=qX5PRyvhdxmjYjqEUC1tM0HOo43pUT_ntfekMpaZucY,12
+pysnoonotes-1.0.0.dist-info/RECORD,,
