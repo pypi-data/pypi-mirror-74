@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: bmrcli
+Version: 1.0.0
+Summary: BMR HC64 command-line tool
+Home-page: http://github.com/dankeder/bmrcli
+Author: Dan Keder
+Author-email: dan.keder@protonmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Keywords: bmr hc64 heating home-automation
+Platform: UNKNOWN
