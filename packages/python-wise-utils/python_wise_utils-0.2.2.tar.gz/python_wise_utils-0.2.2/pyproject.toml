@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "python_wise_utils"
+version = "0.2.2"
+description = "Python interpreter convenience utilities"
+authors = ["Wisdom Wolf <wisdomwolf@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "==3.*,>=3.6.0"
+pyyaml = "^5.3.1"
+
+[tool.poetry.dev-dependencies]
+dephell = "==0.*,>=0.8.3"
+neovim = "==0.*,>=0.3.1"
+ipython = "==7.*,>=7.16.1"
+
+
+
+[tool.dephell.main]
+# read from poetry format
+from = {format = "poetry", path = "pyproject.toml"}
+versioning = "zerover"
+to = {format = "poetry", path = "pyproject.toml"}
+tag = "v."
+
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
