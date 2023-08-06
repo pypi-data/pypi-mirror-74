@@ -1,0 +1,12 @@
+argparseware/__init__.py,sha256=wQRIJViBHM74e6kv8PG0vdKhxKTFsqs55TVRpqpAAlk,656
+argparseware/cli_wrapper.py,sha256=8I4tyN4fCdi2ybEhAXjUNE51jshub3o4IY1Gw2wTbyI,25226
+argparseware/common.py,sha256=vOhCvUC9wyFL1sSjvxBdSJRvDOKCh1vSNOWZNe2iQDo,2843
+argparseware/config.py,sha256=1TCcnBAce06uFw4I6o4JeUmAxpV4Rh-Va1IrwsTj7o4,10137
+argparseware/core.py,sha256=H5ZvdFU511EWOPFr0eZEYzsSMBk4a5PeJeFiKOMNGI0,5556
+argparseware/server.py,sha256=5IxXhSF3yS9DW00HpNTl45v3WVD3YbJ7r7mE3brTlZs,7840
+argparseware-0.9.1.dist-info/DESCRIPTION.rst,sha256=ytRzXwk5UxZU57wtl1dSV8ada0k2z2hgd69OUVFRLPo,379
+argparseware-0.9.1.dist-info/METADATA,sha256=C-Hpkd6fDWTZqkIs63OFnQ3ynQMFWJmc9gqDDtZu2KA,1090
+argparseware-0.9.1.dist-info/RECORD,,
+argparseware-0.9.1.dist-info/WHEEL,sha256=8Lm45v9gcYRm70DrgFGVe4WsUtUMi1_0Tso1hqPGMjA,92
+argparseware-0.9.1.dist-info/metadata.json,sha256=LkUYVzj00m_D5kq0sL5_iyzUeSGsMdH54_4zLERTA7Y,883
+argparseware-0.9.1.dist-info/top_level.txt,sha256=OYwZRkC-gTDwZRvzWvqt3ZUFIO97qAhnADuirgx7beY,13
