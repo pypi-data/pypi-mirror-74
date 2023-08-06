@@ -1,0 +1,394 @@
+.TH MAILFILER 5
+.SH NAME
+.PP
+mailfiler \- rules file format
+.SH DESCRIPTION
+.PP
+The 
+.BR mailfiler (1cs) 
+command's monitor watches Maildirs for newly
+arrived messages and files them according to a sequence of rules.
+.SH SYNTAX
+.SS Comments
+.PP
+Blank lines and lines commencing with an octothorpe ('#') are ignored.
+.SS Include Files
+.PP
+A line commencing with a less\-than symbol ('<') is an "include" directive.
+The following word is the name of a file whose contents are read as though they
+appeared at this point in the rules file.
+If the filename is relative, it is resolved with respect to the
+directory part of the filename of the current rules file.
+.SS Filing Rules
+.PP
+Other lines are mail filing rules, of the general form:
+.PP
+.RS
+.nf
+[=][!]targets tag [!]condition
+.fi
+.RE
+.PP
+A line commencing with whitespace is considered to be an additional
+condition to be ANDed with the preceeding line's rule conditions:
+.PP
+.RS
+.nf
+[=][!]targets tag condition1
+                  condition2
+                  condition3
+.fi
+.RE
+.SS Delivery Flags
+.PP
+The following indicators may preceed, in order, the targets:
+.PP
+\fB\fC=\fR: an equals symbol ('=') indicates that rule processing should
+cease at this rule if it matches.
+Normally all matching rules are applied.
+.PP
+\fB\fC!\fR: an exclaimation symbol ('!') indicates that an alert should be
+emitted at the end of filing if this rule was matched.
+.SS Targets
+.PP
+The \fItargets\fP is a comma separated list of actions to perform with a message.
+Syntacticly, a target takes the form of a sequence of nonwhitespace non\-comma
+characters, or a string value in double quotes.
+Note that a shell command in quotes will need any backslashes doubled,
+as the quoted string parse strips one level of backslash escaping.
+.PP
+Targets come in two flavours, deliverable targets and action targets.
+Deliverable targets are those which deliver a message to some location
+such as a mail folder, email address or a shell pipeline.
+Action targets affect the filer status or the message itself,
+such as a variable assignment or a message header modification.
+.PP
+The action targets are applied as they are encountered in matching rules.
+The deliverable targets are accrued for delivery at the end of the rules.
+.PP
+If no deliverable targets have been accrued then the default targets,
+specified by the \fB\fC$DEFAULT\fR environment variable, are used.
+There is no default for \fB\fC$DEFAULT\fR;
+if it is not specified the message is not considered to be successfully delivered.
+Most rules files commence with a definition of the default delivery target, for example:
+.PP
+.RS
+.nf
+DEFAULT=unmatched
+.fi
+.RE
+.PP
+For folders whose rules are exceptions
+i.e. they specify messages to be filed elsewhere,
+while nonmatching messages remain in the folder, use:
+.PP
+.RS
+.nf
+DEFAULT=.
+.fi
+.RE
+.PP
+The message must be successfully handed to all targets of all matching
+rules for the filter run to be considered successfully filtered.
+If all delivery attempts succeed, the original message is removed from the Maildir.
+Otherwise the message remains in the Maildir and is ignored on subsequent polls.
+.PP
+The variable target types are listed below in parse order.
+.SS Variable Assignment
+.PP
+A target of the form:
+.PP
+.RS
+.nf
+VARIABLE=value
+.fi
+.RE
+.PP
+or
+.PP
+.RS
+.nf
+VARIABLE="quoted\-value"
+.fi
+.RE
+.PP
+assigns the value to the named environment variable.
+If unquoted, \fIvalue\fP consists of nonwhitespace characters excluding the comma.
+If quoted, \fIquoted\-value\fP is a slosh escaped string.
+Note that the value is subject to parameter substitution and the
+associated slosh escaping and therefore sloshes needed for that
+latter phase will need doubling in the \fB\fC"\fR\fIquoted\-value\fP\fB\fC"\fR form.
+.PP
+Some environment variables have special meaning
+as described in the ENVIRONMENT section below.
+.SS Header Substitution
+.PP
+A target of the form:
+.PP
+.RS
+.nf
+[header[,header...]:]s/this/that/
+.fi
+.RE
+.PP
+performs a regular expression match on the specified headers
+(by default the "Subject:" header)
+and replaces the match with the second string, subject to parameter substitution.
+The available parameter names consist of:
+.PP
+The existing header values:
+The parameter name is the header name in lowercase
+with dash ('\-') replaced by underscore ('\fI\&'); example: "message\fPid".
+The parameter value is the last header value
+with CR and LF stripped per RFC2822 part 2.2.3.
+.PP
+Named subexpressions from the regular expression:
+These names and values override any values from the existing header values.
+.PP
+Numeric subexpressions:
+\fB\fC$0\fR expands to the whole matched expression,
+and \fB\fC$1\fR and so on to bracketed subexpressions from left to right.
+.SS Functions on Headers
+.PP
+A target of the form:
+.PP
+.RS
+.nf
+header[,header...]:function[(arg,...)]
+.fi
+.RE
+.PP
+applies the named \fIfunction\fP to each instance of the named headers.
+If there are no \fIarg\fPs then the parentheses may be omitted.
+.PP
+The \fIfunction\fP may be either a dotted name
+of the form \fImodule_name\fP\fB\fC\&.\fR\fIfunction_name\fP
+or a simple \fIfunction_name\fP\&.
+.PP
+With the former form, the Python module named \fImodule_name\fP
+is imported and the name \fIfunction_name\fP obtained from it.
+.PP
+For convenience, each \fIarg\fP may take the following forms:
+.PP
+\fINAME\fP:
+An uppercase identifier such as a group name, passed in as a string.
+.PP
+\fB\fC@\fR\fIdomain\fP:
+An at symbol ("@") followed by a domain name, passed in as a string.
+.PP
+\fInumber\fP:
+A nonnegative integer, passed in as an integer.
+.PP
+\fB\fC"\fR\fIquoted\-value\fP\fB\fC"\fR:
+A quoted value subject to parameter substitution.
+The value after substitution is passed in as a string.
+.PP
+The function obtained is called as follows:
+.PP
+.RS
+.nf
+function_name(filer, header_names, *args)
+.fi
+.RE
+.PP
+where \fIfiler\fP is the internal MessageFiler instance
+associated with this message,
+\fIheader_names\fP and \fIargs\fP the list of headers
+and the \fIargs\fP supplied with the target respectively.
+.PP
+The following simple function names are supported:
+.SS Message Flags
+.PP
+A target consisting a single capital letter specifies a flag to be
+applied to the message.
+.PP
+Supported flags are:
+\fB\fCD\fR: Draft,
+\fB\fCF\fR: Flagged,
+\fB\fCP\fR: Passed,
+\fB\fCR\fR: Replied,
+\fB\fCS\fR: Seen,
+\fB\fCT\fR: Trashed.
+.SS Deliver to Program
+.PP
+A target commencing with a pipe symbol ('|') is considered a command
+to run with the message text on its standard input.
+If the command exits with a zero exit status is it considered to have run successfully.
+.SS Deliver to Email Address
+.PP
+Otherwise, a target containing an "at" symbol ('@') is considered
+an email address to which to send a copy of the message.
+If the mail system accepts the message it is considered to have been dispatched successfully.
+.PP
+To avoid avoid blowback to the original author or source of the message
+the \fB\fCSender:\fR, \fB\fCReturn\-Path:\fR and \fB\fCErrors\-To:\fR headers
+are set to the value of the environment variable \fB\fC$EMAIL\fR,
+which is expected to be a bare \fIlocalpart\fP\fB\fC@\fR\fIdomain\fP address.
+If \fB\fC$EMAIL\fR is not set then the message is not sent
+and delivery is not considered successful.
+.PP
+To avoid spurious delivery loop detection, the \fB\fCDelivered\-To:\fR header is cleared.
+.SS Deliver to Mail Folder
+.PP
+Otherwise, a target is considered to indicate a Maildir or a UNIX mbox
+into which the message should be placed.
+.SS Conditions
+.PP
+A condition may be preceeded by an exclaimation symbol ('!') to invert its meaning.
+Example:
+.PP
+.RS
+.nf
+!from:cs@cskk.id.au
+.fi
+.RE
+.PP
+matches a message not from "\[la]cs@cskk.id.au\[ra]".
+.PP
+Conditions are tested against specific message headers.
+Unless specified, these headers are the 'To:', 'CC:' and 'BCC:' headers.
+Example:
+.PP
+.RS
+.nf
+cs@cskk.id.au
+.fi
+.RE
+.PP
+matches a message addressed to "\[la]cs@cskk.id.au\[ra]".
+.PP
+A condition may be preceeded by a comma separated list of headers.
+Example:
+.PP
+.RS
+.nf
+to,from:cs@cskk.id.au
+.fi
+.RE
+.PP
+matches a message from "\[la]cs@cskk.id.au\[ra]" or addressed to "\[la]cs@cskk.id.au\[ra]" in the 'To:' header.
+.PP
+A header may be matched against any of multiple addresses by grouping the alternatives in brackets, example:
+.PP
+.RS
+.nf
+to,cc:(python\-list@python.org|@example.com|ME|THEM)
+.fi
+.RE
+.PP
+which tests all the addresses in the headers 'To:' or 'CC:' against:
+the address \fB\fCpython\-list@python.org\fR,
+the mail domain \fB\fC@example.com\fR,
+either of the mail address groups \fB\fCme\fR or \fB\fCthem\fR\&.
+The mail address groups come from the 
+.BR maildb (1cs), 
+if any.
+.PP
+A header may be tested against a regular expression instead of by email address by preceding it with a slash ('/'), example:
+.PP
+.RS
+.nf
+subject:/icewm\-Bugs
+.fi
+.RE
+.PP
+matches a message with the string \fB\fCicewm\-Bugs\fR in the \fB\fCSubject:\fR header.
+.PP
+A header may be tested against a variety of special purpose functions
+accepting a double quoted string.
+Example:
+.PP
+.RS
+.nf
+list\-id.contains("<squid\-users.squid\-cache.org>")
+.fi
+.RE
+.PP
+matches a message with the string \fB\fC<squid\-users.squid\-cache.org>\fR
+in the \fB\fCList\-ID:\fR header.
+.PP
+The list of available functions is as follows: \fB\fCcontains\fR\&. (More to come.)
+.SH ENVIRONMENT
+.PP
+\fB\fCALERT\fR, the executable path of the command to issue alerts, by default \fB\fCalert\fR\&.
+.PP
+\fB\fCALERT_FORMAT\fR, the format of alert strings.
+This is a Python format string, by default:
+\fB\fCMAILFILER:\fR\fIshort_from\fP\fB\fC\->\fR\fIshort_recipients\fP\fB\fC:\fR\fIsubject\fP\&.
+.PP
+\fB\fCALERT_TARGETS\fR, additional implied targets to be used if an alert was issued.
+.PP
+\fB\fCDEFAULT\fR, default delivery targets
+if no rule with a delivery target has been matched.
+See the Targets section above.
+Note that this is considered \fIafter\fP any \fB\fC$ALERT_TARGETS\fR have been added.
+.SH CAVEATS
+.SS No Loop Detection
+.PP
+There is no loop detection for folders.
+It is possible to file from folder A to folder B
+and have a rule for folder B which in turn files to A;
+this will process the message indefinitely (once per pass).
+.PP
+However, a message which fails to file is noted and never reprocessed.
+This allows the user to fix the rules and then refile the message by hand,
+for example by using mutt to save the offending message to the same folder.
+The refiled message will be seen as new and processed anew.
+.PP
+Also, it is possible to leave messages in the source folder by specifying a target of \fB\fC\&.\fR
+to indicate the current folder;
+in this case the message is not considered on subsequent passes, avoiding a loop.
+The conventional arrange for this it to use:
+.PP
+.RS
+.nf
+DEFAULT=.
+.fi
+.RE
+.PP
+at the start of the rules for such a folder.
+.SS Assignments Are Rule Targets
+.PP
+Do not forget that assignments are \fItargets\fP\&.
+Even the author has been bitten by writing:
+.PP
+.RS
+.nf
+ALERT_TARGETS=F,spool\-to\-phone
+.fi
+.RE
+.PP
+in his environment rules.
+This is \fItwo\fP targets: "ALTER_TARGETS=F" and "spool\-to\-phone".
+As a consequence, all the rule files had an unconditional filing to the "spool\-to\-phone" folder, including that folder filing to itself.
+The correct incantation is:
+.PP
+.RS
+.nf
+ALERT_TARGETS="F,spool\-to\-phone"
+.fi
+.RE
+.PP
+For completeness the author also added:
+.PP
+.RS
+.nf
+ALERT_TARGETS=""
+.fi
+.RE
+.PP
+after the environment load in his "spool\-to\-phone" folder rules, which now read:
+.PP
+.RS
+.nf
+< env
+ALERT_TARGETS=""
+$PHONE . .
+.fi
+.RE
+.SH SEE ALSO
+.PP
+.BR mailfiler (1cs)
+.SH AUTHOR
+.PP
+Cameron Simpson \[la]cs@cskk.id.au\[ra]
