@@ -1,0 +1,8 @@
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_extract.py,sha256=o5M9kUWI4V_U9fxLi5LNus-UpUGbKE0Knybx0X0GUVg,166
+tests/test_utils.py,sha256=6joKaAu-H7rFCpeJE4wzDOzt2MQaCjAJEtLyGM2RcZ4,1885
+shopify_scrape-0.0.1.dist-info/LICENSE,sha256=4QMjMhMxkyMei0BwCxOnGFB29wECxnHK0BOyjDRhf5A,1070
+shopify_scrape-0.0.1.dist-info/METADATA,sha256=RE4GQo4ddwZUzZvG5VEHlIuPrNFbL7DOzqV3KFdi-Ak,478
+shopify_scrape-0.0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+shopify_scrape-0.0.1.dist-info/top_level.txt,sha256=EdW7283x-lr_cbuivW8Ij7ANAP-ZJ9sLtILQseEPxXg,6
+shopify_scrape-0.0.1.dist-info/RECORD,,
