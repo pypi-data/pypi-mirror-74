@@ -1,0 +1,11 @@
+README.md
+setup.py
+MOMA.egg-info/PKG-INFO
+MOMA.egg-info/SOURCES.txt
+MOMA.egg-info/dependency_links.txt
+MOMA.egg-info/top_level.txt
+moma/__init__.py
+moma.egg-info/PKG-INFO
+moma.egg-info/SOURCES.txt
+moma.egg-info/dependency_links.txt
+moma.egg-info/top_level.txt
