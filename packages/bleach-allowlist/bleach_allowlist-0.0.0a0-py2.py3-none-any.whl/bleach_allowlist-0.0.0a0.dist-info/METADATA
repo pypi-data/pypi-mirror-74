@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: bleach_allowlist
+Version: 0.0.0a0
+Summary: placeholder package, reserved for rename of bleach-whitelist
+Home-page: https://github.com/yourcelf/bleach-whitelist
+License: UNKNOWN
+Author: Thomas Grainger
+Author-email: tagrain@gmail.com
+Classifier: License :: OSI Approved :: MIT License
