@@ -1,0 +1,11 @@
+restcord/__init__.py,sha256=HDAnzfkmeI8rcK2ShhWC3gtEkpkI6NgopTz5MhmFa7I,272
+restcord/client.py,sha256=9mnRioGI2Fn6vIFkpLNIK6V8LN8UjvT23zGUOu-9sII,7685
+restcord/errors.py,sha256=eb5-YEPPG7B4tS_v0E8-JENlDcOqEu8vYTBj6j4sWBw,3627
+restcord/http.py,sha256=zEAyUbJJz6VEcMmiCRlo7jn85LqEgUP1fNq_E1Pl1Lg,6040
+restcord/models.py,sha256=NR02TkxV7UK6mSf0IlevHdXTjtykp32pm4btubM6w3Y,8839
+restcord/utils.py,sha256=EO4iCbx--M9CnldcqSwg41lPxHuENhUD2YpbOdzSBSE,1296
+restcord.py-0.0.3.dist-info/LICENSE,sha256=RYSw4lUTQtG_0rKOIfSAVEHEr_GsxE0ZIlxMxh5sTNQ,1063
+restcord.py-0.0.3.dist-info/METADATA,sha256=hAT9YRH9wLVwOhaPD2-ymH5VQtYWa--j9YdrvZ_wsNY,1750
+restcord.py-0.0.3.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+restcord.py-0.0.3.dist-info/top_level.txt,sha256=CwihK96RSM5W-SWx4-ymFfmO4k4BEMuH_9EhLCaeIJA,9
+restcord.py-0.0.3.dist-info/RECORD,,
