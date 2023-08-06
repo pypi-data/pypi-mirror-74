@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: MapCanvasGTK
+Version: 0.0.1
+Summary: A PyGtk (PyGObject) widget for adding a map to your application
+Home-page: https://github.com/BenKnisley/MapCanvasGTK
+Author: Ben Knisley
+Author-email: benknisley@gmail.com
+License: MIT
+Keywords: GIS GTK PyGObjects map PyMapKit GUI
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Topic :: Scientific/Engineering :: GIS
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3.6
+Description-Content-Type: text/markdown
+Requires-Dist: PyMapKit
+Requires-Dist: PyGObject
+
+# MapCanvasGTK
+A GTK widget providing a map.  
+
+
