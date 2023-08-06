@@ -1,0 +1,17 @@
+drf_openapi3/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+drf_openapi3/admin.py,sha256=djuxX_3wLCYO_liZ79-gZjOMVPJu7sHSYBaK7OD8rrc,28
+drf_openapi3/apps.py,sha256=9NpQPFyLD5ryjUO88taT_ACitQ0Y5MxVtTArho__0Js,99
+drf_openapi3/models.py,sha256=djuxX_3wLCYO_liZ79-gZjOMVPJu7sHSYBaK7OD8rrc,28
+drf_openapi3/schema.py,sha256=Ms_C5I1H_gpAwykLg_Cnwyuqz0arerZ8FYH_xlM6WPE,14837
+drf_openapi3/schema_generator.py,sha256=fVmUs0rFKwtRrZcZpawIlqk3FwF8SRPuTf0yBx1jOEA,2530
+drf_openapi3/settings.py,sha256=8uo6PR4eIfg3aBxZ8-FTXgwJTkcybJKk9XlbO3aGE0E,2013
+drf_openapi3/migrations/__init__.py,sha256=frcCV1k9oG9oKj3dpUqdJg1PxRT2RSN_XKdLCPjaYaY,2
+drf_openapi3/templates/drf_openapi/openapi-ui.html,sha256=H_9kk07kaA_Sy7pjM8U-2OoeTMKydq75nYmDb23hnY8,1792
+drf_openapi3/views/__init__.py,sha256=s9qkzU1IOg7ahcUHYssKwGM0NReFwCJDAcIZ7Q-ZM_A,69
+drf_openapi3/views/advance_api_view.py,sha256=DlNYqaLE1Xo1lh3NHa3FMWy1HuAPkoAE8lYxQ330j1I,152
+drf_openapi3/views/openapi_template_view.py,sha256=uZjNxoN-_JtVxr_F2hVpG_1gjFYhDwgeKk930mpKwAI,346
+drf_openapi3-0.1.4.dist-info/LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+drf_openapi3-0.1.4.dist-info/METADATA,sha256=1PBVMfybEDXbRQ65yKIWT1UGSIqcc6pf3Fgb8-d2ouc,10507
+drf_openapi3-0.1.4.dist-info/WHEEL,sha256=6T3TYZE4YFi2HTS1BeZHNXAi8N52OZT4O-dJ6-ome_4,116
+drf_openapi3-0.1.4.dist-info/top_level.txt,sha256=fb8qLgg5IwthNkGZGMqJSUnZfJgyIX6HqSuRPh2tpDA,13
+drf_openapi3-0.1.4.dist-info/RECORD,,
