@@ -1,0 +1,11 @@
+README.rst
+setup.py
+PennyLane_Honeywell.egg-info/PKG-INFO
+PennyLane_Honeywell.egg-info/SOURCES.txt
+PennyLane_Honeywell.egg-info/dependency_links.txt
+PennyLane_Honeywell.egg-info/entry_points.txt
+PennyLane_Honeywell.egg-info/requires.txt
+PennyLane_Honeywell.egg-info/top_level.txt
+pennylane_honeywell/__init__.py
+pennylane_honeywell/_version.py
+pennylane_honeywell/device.py
