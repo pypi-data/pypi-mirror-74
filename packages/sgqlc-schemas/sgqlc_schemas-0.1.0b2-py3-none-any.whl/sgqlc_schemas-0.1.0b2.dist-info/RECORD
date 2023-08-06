@@ -1,0 +1,10 @@
+sgqlc_schemas/__init__.py,sha256=Ybjj7iqHk4ivez-5qI3fKamlhT3caPZGk2cScG0buGI,148
+sgqlc_schemas/github/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sgqlc_schemas/github/schema.py,sha256=9ekiibpJQrtWnyq_B7ETHygEadaXVCXomdPJYZvk5RM,534869
+sgqlc_schemas/monday/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sgqlc_schemas/monday/schema.py,sha256=ccpbJy-Ml6GDkBE9ueBltF7HJy_Z-STEwbTLOhIKGpI,33892
+sgqlc_schemas-0.1.0b2.dist-info/LICENSE,sha256=B45qmf8LdEwbD-yZspeFf7JjhJitN3YAqTqe26Rn3XQ,1061
+sgqlc_schemas-0.1.0b2.dist-info/METADATA,sha256=TGyF5dXluHITPpd7uUZ--rhxi23h3AWfPmB313Ris70,1078
+sgqlc_schemas-0.1.0b2.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+sgqlc_schemas-0.1.0b2.dist-info/top_level.txt,sha256=a_G3TxPgUWe2qvoq8lJv53uw-nd3pSwYhJIaTTLQuIo,14
+sgqlc_schemas-0.1.0b2.dist-info/RECORD,,
