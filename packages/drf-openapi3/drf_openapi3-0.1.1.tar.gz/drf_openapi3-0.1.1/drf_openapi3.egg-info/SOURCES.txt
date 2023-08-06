@@ -1,0 +1,10 @@
+LICENSE
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+drf_openapi3.egg-info/PKG-INFO
+drf_openapi3.egg-info/SOURCES.txt
+drf_openapi3.egg-info/dependency_links.txt
+drf_openapi3.egg-info/requires.txt
+drf_openapi3.egg-info/top_level.txt
