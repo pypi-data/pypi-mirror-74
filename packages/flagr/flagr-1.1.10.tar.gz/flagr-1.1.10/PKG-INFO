@@ -1,0 +1,12 @@
+Metadata-Version: 1.0
+Name: flagr
+Version: 1.1.10
+Summary: Flagr
+Home-page: https://github.com/checkr/pyflagr
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: UNKNOWN
+Description:     Flagr is a feature flagging, A/B testing and dynamic configuration microservice. The base path for all the APIs is \&quot;/api/v1\&quot;.   # noqa: E501
+            
+Keywords: Swagger,Flagr
+Platform: UNKNOWN
