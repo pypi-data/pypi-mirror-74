@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: fastdict
+Version: 0.0.1
+Summary: Python fastdict with attribute
+Home-page: https://github.com/StevenKangWei/fastdict
+Author: StevenKang
+Author-email: kangweibaby@163.com
+License: MIT
+Platform: any
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+
+tone project
+``````````````
+
+Python dict
+
+Links
+`````
+Github https://github.com/StevenKangWei/fastdict
+
