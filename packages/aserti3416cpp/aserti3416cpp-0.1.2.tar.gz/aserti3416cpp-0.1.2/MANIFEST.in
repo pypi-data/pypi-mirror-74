@@ -1,0 +1,10 @@
+include version.py
+
+#include *.so
+#include *.dll
+#include *.dylib
+
+include *.h
+include *.hpp
+include *.c
+include *.cpp

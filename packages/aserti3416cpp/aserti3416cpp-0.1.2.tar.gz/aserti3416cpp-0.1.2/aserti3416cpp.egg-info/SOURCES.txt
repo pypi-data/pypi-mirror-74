@@ -1,0 +1,16 @@
+MANIFEST.in
+README.md
+aserti3-416.cpp
+aserti3-416.hpp
+aserti3-416_capi.cpp
+aserti3-416_capi.h
+aserti3-416_pyapi.c
+aserti3-416_pyapi.h
+pyapi_module.c
+setup.py
+version.py
+aserti3416cpp.egg-info/PKG-INFO
+aserti3416cpp.egg-info/SOURCES.txt
+aserti3416cpp.egg-info/dependency_links.txt
+aserti3416cpp.egg-info/requires.txt
+aserti3416cpp.egg-info/top_level.txt
