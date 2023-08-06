@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: harvard
+Version: 0.0.1
+Summary: My harvard package
+Home-page: https://harvard.com
+Author: harvard
+Author-email: harvard@harvard.com
+License: MIT License
+Description: UNKNOWN
+Keywords: harvard
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 3 - Alpha
+Description-Content-Type: text/markdown

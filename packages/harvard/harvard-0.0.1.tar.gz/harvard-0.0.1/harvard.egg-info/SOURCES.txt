@@ -1,0 +1,6 @@
+setup.cfg
+setup.py
+harvard.egg-info/PKG-INFO
+harvard.egg-info/SOURCES.txt
+harvard.egg-info/dependency_links.txt
+harvard.egg-info/top_level.txt
