@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: tesseract-table-preprocessor
+Version: 0.0.2
+Summary: Preprocess scanned documents for Tesseract.
+Home-page: https://github.com/franekp/tesseract-table-preprocessor
+Author: Franciszek Piszcz
+Author-email: please.use.github.issues@email.invalid
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: torch
+Requires-Dist: opencv-python
+Requires-Dist: numpy
+
+Preprocess scanned documents for Tesseract.
+
+
