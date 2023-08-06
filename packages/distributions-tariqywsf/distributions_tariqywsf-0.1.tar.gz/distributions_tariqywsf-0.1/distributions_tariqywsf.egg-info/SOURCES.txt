@@ -1,0 +1,10 @@
+setup.py
+distributions_tariqywsf/Binomialdistribution.py
+distributions_tariqywsf/Gaussiandistribution.py
+distributions_tariqywsf/Generaldistribution.py
+distributions_tariqywsf/__init__.py
+distributions_tariqywsf.egg-info/PKG-INFO
+distributions_tariqywsf.egg-info/SOURCES.txt
+distributions_tariqywsf.egg-info/dependency_links.txt
+distributions_tariqywsf.egg-info/not-zip-safe
+distributions_tariqywsf.egg-info/top_level.txt
