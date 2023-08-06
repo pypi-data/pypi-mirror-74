@@ -1,0 +1,3 @@
+[console_scripts]
+printu=printu.cli:cli
+
