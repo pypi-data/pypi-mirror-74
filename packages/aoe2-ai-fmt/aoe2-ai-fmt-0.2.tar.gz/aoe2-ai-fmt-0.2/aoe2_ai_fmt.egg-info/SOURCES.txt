@@ -1,0 +1,16 @@
+README.md
+format.py
+setup.py
+aoe2_ai_fmt.egg-info/PKG-INFO
+aoe2_ai_fmt.egg-info/SOURCES.txt
+aoe2_ai_fmt.egg-info/dependency_links.txt
+aoe2_ai_fmt.egg-info/requires.txt
+aoe2_ai_fmt.egg-info/top_level.txt
+performat/__init__.py
+performat/comment_spooler.py
+performat/formatted_per_listener.py
+performat/formatter.py
+performat/perparse/PERLexer.py
+performat/perparse/PERListener.py
+performat/perparse/PERParser.py
+performat/perparse/__init__.py
