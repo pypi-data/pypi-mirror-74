@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: jange
+Version: 0.1.5
+Summary: Easy NLP library for Python
+Home-page: https://github.com/jangedoo/jange
+License: Apache-2.0
+Keywords: nlp,text processing,text analytics
+Author: Sanjaya Subedi
+Author-email: jangedoo@gmail.com
+Requires-Python: >=3.6,<4.0
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: cytoolz (>=0.10.0,<0.11.0)
+Requires-Dist: jsonschema (>=3.2.0,<4.0.0)
+Requires-Dist: pandas (==0.24.2)
+Requires-Dist: plotly (>=4.8.2,<5.0.0)
+Requires-Dist: psycopg2-binary (>=2.8.3,<3.0.0)
+Requires-Dist: scikit-learn (>=0.23.1,<0.24.0)
+Requires-Dist: spacy (>=2.2.0,<3.0.0)
+Requires-Dist: sqlalchemy (==1.3.1)
+Project-URL: Repository, https://github.com/jangedoo/jange
+Description-Content-Type: text/markdown
+
+# jange
+[![Build Status](https://travis-ci.org/jangedoo/jange.svg?branch=master)](https://travis-ci.org/jangedoo/jange)
+------
+jange is an easy to use NLP library for Python. It is based on popular libraries like `pandas`, `scikit-learn`, `spacy`, `plotly` and others.
+
+# Installation
+```
+pip install jange
+```
+
+## From source
+This project uses poetry to manage dependencies. If you don't already have poetry installed then go to https://python-poetry.org/docs/#installation for instructions on how to install it for your OS.
+
+Once poetry is installed, from the root directory of this project, run `poetry install`. It will create a virtual environment for this project and install the necessary dependencies (including dev dependencies).
+
