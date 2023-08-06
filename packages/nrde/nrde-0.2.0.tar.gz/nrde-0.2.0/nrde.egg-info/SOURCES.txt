@@ -1,0 +1,9 @@
+MANIFEST.in
+README.md
+setup.py
+dashboard_exporter/__init__.py
+nrde.egg-info/PKG-INFO
+nrde.egg-info/SOURCES.txt
+nrde.egg-info/dependency_links.txt
+nrde.egg-info/requires.txt
+nrde.egg-info/top_level.txt
