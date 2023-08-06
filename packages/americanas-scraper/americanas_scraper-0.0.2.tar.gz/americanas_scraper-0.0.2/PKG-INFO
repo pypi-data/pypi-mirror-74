@@ -1,0 +1,35 @@
+Metadata-Version: 1.1
+Name: americanas_scraper
+Version: 0.0.2
+Summary: Americanas crawler and scraper using beautifulsoup4
+Home-page: https://github.com/GeovRodri/americanas-scraper
+Author: Geovany Rodrigues
+Author-email: geovanyscv@gmail.com
+License: UNKNOWN
+Description: Americanas
+        ============
+        
+        Americanas crawler and scraper using beautifulsoup4.
+        
+        Usage example
+        -------------
+            Para utilizar em sua aplicação basta instanciar
+            passando os parâmetros da pesquisa.
+            # Exemplo: americanas_scraper.search(url="")
+        
+        Cli usage
+        -------------
+            americanas --url=URL
+        
+        Installing
+        ----------
+            pip install pip install americanas_scraper
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Environment :: Console
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires: beautifulsoup4
+Provides: americanas_scraper
