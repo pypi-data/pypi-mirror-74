@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: frictionless
+Version: 0.3.0
+Summary: Frictionless is a data framework
+Home-page: https://github.com/frictionlessdata/frictionless-py
+Author: Open Knowledge Foundation
+Author-email: info@okfn.org
+License: MIT
+Description: # frictionless-py
+        
+        [![Travis](https://img.shields.io/travis/frictionlessdata/frictionless-py/master.svg)](https://travis-ci.org/frictionlessdata/frictionless-py)
+        [![Coveralls](http://img.shields.io/coveralls/frictionlessdata/frictionless-py.svg?branch=master)](https://coveralls.io/r/frictionlessdata/frictionless-py?branch=master)
+        [![PyPi](https://img.shields.io/pypi/v/frictionless.svg)](https://pypi.python.org/pypi/frictionless)
+        [![Github](https://img.shields.io/badge/github-master-brightgreen)](https://github.com/frictionlessdata/frictionless-py)
+        [![Discord](https://img.shields.io/gitter/room/frictionlessdata/chat.svg)](https://discord.com/channels/695635777199145130/695635777199145133)
+        
+        Frictionless is a framework providing an ability to describe, extract, validate and transform tabular data.
+Keywords: data validation,frictionless data,open data,json schema,json table schema,data package,tabular data package
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Description-Content-Type: text/markdown
+Provides-Extra: aws
+Provides-Extra: bigquery
+Provides-Extra: ckan
+Provides-Extra: dataflows
+Provides-Extra: elastic
+Provides-Extra: gsheet
+Provides-Extra: html
+Provides-Extra: ods
+Provides-Extra: pandas
+Provides-Extra: server
+Provides-Extra: spss
+Provides-Extra: sql
+Provides-Extra: tsv
+Provides-Extra: dev
