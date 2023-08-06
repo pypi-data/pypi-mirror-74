@@ -1,0 +1,9 @@
+README.md
+setup.py
+pyqt_gameboard.egg-info/PKG-INFO
+pyqt_gameboard.egg-info/SOURCES.txt
+pyqt_gameboard.egg-info/dependency_links.txt
+pyqt_gameboard.egg-info/top_level.txt
+pyqtgameboards/HexagonBoard.py
+pyqtgameboards/RectangleBoard.py
+pyqtgameboards/__init__.py
