@@ -1,0 +1,9 @@
+README.md
+setup.py
+bfio/__init__.py
+bfio/bfio.py
+bfio/czi2tif.py
+bfio.egg-info/PKG-INFO
+bfio.egg-info/SOURCES.txt
+bfio.egg-info/dependency_links.txt
+bfio.egg-info/top_level.txt
