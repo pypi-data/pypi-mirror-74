@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: dynapipe
+Version: 0.0.4
+Summary: DynaPipe means Dynamic Pipeline, which is a tool to automate the Machine Learning classification/regression with dynamic functional modules.
+Home-page: https://github.com/tonyleidong/dynapipe
+Author: Tony Dong
+Author-email: tonyleidong@gmail.com
+License: UNKNOWN
+Description: # DynaPipe
+        ### Tony Dong @ Genpact
+        ## DynaPipe means "Dynamic Pipeline", which is a tool to automate the Machine Learning classification/regression with dynamic function modules. 
+        ## Current available modules: 
+        ## - autoFS for features selection
+        ## - autoCV for model selection
+Keywords: AUTO MACHINE LEARNING,PIPELINE,FEATURES SELECTION,MODEL SELECTION
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
