@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: py-sqlalchemy-mixins
+Version: 0.0.1
+Summary: Common mixins for Sqlalchemy
+Home-page: https://github.com/M0r13n/mixins
+Author: Leon Morten Richter
+Author-email: leon.morten@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: sqlalchemy
+
+# py-sqlalchemy-mixins
+
+

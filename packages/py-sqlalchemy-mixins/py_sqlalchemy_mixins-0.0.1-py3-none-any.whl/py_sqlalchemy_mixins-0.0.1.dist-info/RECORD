@@ -1,0 +1,13 @@
+mixins/__init__.py,sha256=DsAHdxLC16H2VjdFOU5tBx2xT9VnNQ-XbTS24fRCa_w,22
+mixins/crud.py,sha256=XSfOIB2R4D_-Xq_IpOKiA7-XClp5V-KOK4jS4u7YhsI,2388
+mixins/orderable.py,sha256=mgVCCv_gfjvRnPbWtkbc941D9mijtyxxUqV89kF6aGc,2266
+mixins/session.py,sha256=3M93YFHxCjAXl_8jfk-doXFLC-R1LnBX6csKGOsWxQE,960
+tests/__init__.py,sha256=U_VzoXm3Hr6ToegJ99RacKUNU5UN4c4cLD9AIuPmqJM,560
+tests/test_crud.py,sha256=skOiRGYondpuf2UgnSkP-nQz-OwkUTDzE43Fpze22LI,3248
+tests/test_oderable.py,sha256=cKBgl3qnC_doYqU3SDMP0dCEN1V8EoaVjp3nkbM7-bs,3528
+tests/test_real_db.py,sha256=ZjS5bDpmUK_NjYtggpnbrJF_qWtWCGmEpgassoTII3o,2321
+tests/test_session.py,sha256=VKs1y7NukWW5N_4vLU7g4NLOwzH7yWZTdfr8emo8FV0,1544
+py_sqlalchemy_mixins-0.0.1.dist-info/METADATA,sha256=DF-cxcHs9E28qz1ALjqiGNZntwVvnVqsdrgjwlCeAyU,505
+py_sqlalchemy_mixins-0.0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+py_sqlalchemy_mixins-0.0.1.dist-info/top_level.txt,sha256=BS_moMNBg9NBH3oBBLjiK-2Q9JwDewq114v37TeMKZc,13
+py_sqlalchemy_mixins-0.0.1.dist-info/RECORD,,
