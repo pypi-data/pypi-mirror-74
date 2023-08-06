@@ -1,0 +1,10 @@
+setup.py
+dnsdtest/Binomialdistribution.py
+dnsdtest/Gaussiandistribution.py
+dnsdtest/Generaldistribution.py
+dnsdtest/__init__.py
+dnsdtest.egg-info/PKG-INFO
+dnsdtest.egg-info/SOURCES.txt
+dnsdtest.egg-info/dependency_links.txt
+dnsdtest.egg-info/not-zip-safe
+dnsdtest.egg-info/top_level.txt
