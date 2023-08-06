@@ -1,0 +1,8 @@
+README.md
+setup.py
+envyamlconverter/__init__.py
+envyamlconverter.egg-info/PKG-INFO
+envyamlconverter.egg-info/SOURCES.txt
+envyamlconverter.egg-info/dependency_links.txt
+envyamlconverter.egg-info/not-zip-safe
+envyamlconverter.egg-info/top_level.txt
