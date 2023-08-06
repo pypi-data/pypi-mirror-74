@@ -1,0 +1,9 @@
+numpy
+scipy
+
+[notebook]
+jupyter
+nbconvert
+
+[plotting]
+matplotlib
