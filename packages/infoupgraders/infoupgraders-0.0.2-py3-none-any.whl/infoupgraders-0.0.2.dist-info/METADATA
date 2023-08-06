@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: infoupgraders
+Version: 0.0.2
+Summary: This is a very simple catculator that takes two numbers and either adds, subtracts, multiples, or divides them.
+Home-page: UNKNOWN
+Author: INfoUpgraders
+Author-email: infoupgraders@gmail.com
+License: MIT
+Keywords: calculator
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+
+This is a very simple catculator that takes two numbers and either adds, subtracts, multiples, or divides them.
+
+Change Log
+==========
+
+0.0.1 (7/20/2020)
+-----------------
+- First Release
+
+0.0.2 (7/20/2020)
+-----------------
+- Fixed wheels
+
