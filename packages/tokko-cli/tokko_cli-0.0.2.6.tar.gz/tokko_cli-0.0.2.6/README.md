@@ -1,0 +1,186 @@
+TokkoCLI
+---
+> Komm her, bleib hier, Wir sind gut zu dir
+
+**TOC**
++ [English version](./docs/EN/README.md)
++ [Como instalar TokkoCLI](#como-instalar-la-tokkocli)
+    - [Pip](#mediante-pip)
+    - [Setup.py](#o-mediante-el-instalador)
++ [Primeros pasos](#primeros-pasos)
+    - [Seciones]()
+        - [Auth](#auth-tools)
+        - [User](#user)
+            * [Inicializar](#inicializar-usuario-de-la-tokkocli)
+        - [Daemon](#daemon)
+            * [Instalar](#iniciar-el-servicio-tokkoclidaemon)
+            * [Desinstalar](#desinstalar-el-daemon)
+            * [Ejecutar en Foreground](#correr-deamon-en-foregound)
+            * [Estado](#estado-del-daemon)
+            * [SystemCtl](#la-tokkocli-y-systemctl)
+        - [RPC](#rpc)
+            * [Ejecutar funciones](#call-rpc-functions)
+        - [Workflow](#workflow)
+
+
+# Como instalar la TokkoCLI?
+La herramienta TokkoCLI debe ser instalada a nivel global usando cualquiera de
+las opciones de instalación que a continuación se presentan:
+
+#### Mediante PIP:
+```bash
+sudo -H pip3 install tools/tokko-cli
+```
+
+#### O mediante el instalador:
+```bash
+sudo -H python3 tools/tokko-cli/setup.py install
+```
+
+# Primeros pasos
+Finalizada la instalación del paquete **tokko-cli** ([Pip](#mediante-pip)|[Setup.py](#o-mediante-el-instalador)),
+tendras una nueva herramienta de consola llamada `tokky`. Lo primero que debemos hacer antes de comenzar a utilizar
+nuestra CLI es [inicializarla](#inicializar-usuario-de-la-tokkocli), para ello vamos a ejecutar el siguiente comando:
+```bash
+# No require permisos de super usuario.
+# Y no, no es buena idea ...
+tokky user init [--user]
+```
+Este comando mostrara una salida similar a esta:
+```
+---
+Welcome {YOUR-USER}!
+Your CLI is ready to use!!
+
+More Info:
++ Sources: /home/{your-user}/tokko/sources/services-tokkobroker
++ Github RefreshToken: r1.xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
++ Token Expiration: 2021-01-20T03:15:00.00000-03:00
+
+```
+
+Una vez inicializada la `tokko-cli` vamos a proceder a instalar el [daemon](#daemon) la misma con el siguiente comando:
+```bash
+# Requiere permisos de super usuario.
+sudo -H tokky daemon install
+```
+
+Y si todo salio bien, deberias tener una salida similar a esta:
+```
+Installing TokkoCLI daemon ...
+TokkoCLI daemon was successfully installed
+```
+
+Ahora si! Ya esta todo listo para que empieces a utilizar tu `tokko-cli`,
+
+Para continuar, no olvides revisar nuestra seccion de [tutoriales](./docs/ES/TUTORIALS.md)
+
+# Secciones:
+La tokkoCLI se encuentra dividida en cinco secciones, [Auth](#auth), [Daemon](#daemon),
+[Project](#project), [RPC](#rpc) y [User](#user).
+
+## Auth
+Integracion con el TokkoAuthSDK. Este feature aun no se encuentra disponible en las versiones estables.
+
+## Daemon:
+Proceso en background utilizado por la CLI para procesar las solucitudes del usario.
+
+### Install
+Install tokkoCLI daemon as SystemD service.
+```
+$ sudo tokky daemon install
+```
+
+### Correr deamon en Foregound
+El daemon de la tokkoCLI tambien puede ser ejecutado en modo "attached".
+```
+$ tokky daemon run [--port {custom-port}]
+```
+
+### Estado del Daemon
+Obtener el estado actual del deaemon. Esta información tambien puede consultarse mediante `SystemCtl`.
+```
+$ tokky daemon status
+```
+
+### La tokkoCLI y SystemCtl
+El daemon de la tokkoCLI es un servicio `SystemD`, por tanto es fatible utilizar ``SystemCtl`
+
+##### Chequear el estado del servicio
+```
+systemctl status tokko-cli-daemon.service
+```
+
+##### Activar el servicio TokkoCLI.daemon
+```
+systemctl Enable tokko-cli-daemon.service
+```
+
+##### Iniciar el servicio TokkoCLI.daemon
+```
+systemctl start tokko-cli-daemon.service
+```
+
+#### Detener es servicio TokkoCLI.daemon
+```
+systemctl stop tokko-cli-daemon.service
+```
+
+### Desinstalar el Daemon
+Desistala el proceso de la  tokkoCLI.
+
+```
+$ tokky daemon uninstall
+```
+
+## User
+Manejo de la cuenta de usuario dentro de la `tokkoCLI`
+
+### Inicializar usuario de la TokkoCLI
+
+```bash
+tokky user init
+```
+
+## RPC
+Integracion TokkoRPC. LLamados a procedimientos remotos dentro del cloud de servicios.
+
+### Invocando funciones RPC
+
+```bash
+tokky rpc call {function} [--service {my-serice: String}] [--data {data: String}]
+```
+Ejemplo: Invocando a la funcion __Echo__:
+```
+$ tokky rpc call echo --data "Hola Mundo!"
+>>> "Hola Mundo!"
+```
+
+## Project
+Herramientas para la gestion de projectos dentro del stack de servicios de **TokkoBroker**
+
+### Listar los servicios
+```
+tokky project ls [--details|-d]
+```
+
+### Crear un nuevo Servicio:
+Crear un nuevo Project(Servicio) utilizando los `templates` de Tokko. Por omision este comando
+creara proyectos basados en el template `django`, pero en caso de que quieras utilizar el template
+`flask` solo debes anexar el flag __--flask__
+```
+# No requiere permisos de super usuario
+tokky project new {nombre-del-projecto} [--flask]
+```
+
+### Exportar Servicio
+```
+# No requiere permisos de super usuario
+tokky project export {nombre-del-projecto}
+```
+
+### Sicronizar stack de sevicios
+```
+# No requiere permisos de super usuario
+tokky project sync
+```
