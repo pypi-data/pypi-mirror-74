@@ -1,0 +1,6 @@
+pandas
+time
+datetime
+numpy
+matplotlib
+talib
