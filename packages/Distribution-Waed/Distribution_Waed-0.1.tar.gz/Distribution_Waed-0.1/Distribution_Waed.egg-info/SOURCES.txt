@@ -1,0 +1,10 @@
+setup.py
+Distribution_Waed/Binomialdistribution.py
+Distribution_Waed/Gaussiandistribution.py
+Distribution_Waed/Generaldistribution.py
+Distribution_Waed/__init__.py
+Distribution_Waed.egg-info/PKG-INFO
+Distribution_Waed.egg-info/SOURCES.txt
+Distribution_Waed.egg-info/dependency_links.txt
+Distribution_Waed.egg-info/not-zip-safe
+Distribution_Waed.egg-info/top_level.txt
