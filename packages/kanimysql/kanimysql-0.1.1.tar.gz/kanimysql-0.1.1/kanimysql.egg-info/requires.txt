@@ -1,0 +1,3 @@
+PyMySQL>=0.7
+python-string-utils
+interval_decorator
