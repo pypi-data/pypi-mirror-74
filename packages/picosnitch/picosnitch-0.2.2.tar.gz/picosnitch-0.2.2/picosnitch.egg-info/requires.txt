@@ -1,0 +1,7 @@
+filelock
+plyer
+psutil
+python-daemon
+
+[pcap]
+scapy
