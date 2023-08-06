@@ -1,0 +1,12 @@
+wamcore/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+wamcore/class_components.py,sha256=-ocTBK05HsLQc-HO_IWCFucp7rm0T7q4Z1esY2EEflE,15455
+wamcore/class_hierarchy.py,sha256=9cj_-Hd4qbb-dhO-loucK33I7CtTXuoBJf_NFVSeDZ4,27949
+wamcore/methods_database_from.py,sha256=DsPJom0P-_edKPAgJWZV4iWCcG3UplBcwlGt-T_1lGM,3657
+wamcore/methods_database_to.py,sha256=rom5mpIzSAuObcPYW2bnA7n-JtdrqGxMFTtSM2QX-fg,5006
+wamcore/methods_engine.py,sha256=w1XcK77WIBDB3iCvKNQxj6MnB1TMdhZ3Q_h1L62RdLo,2003
+wamcore/methods_json.py,sha256=WKDUfjoRlI_Ig3jUv__PLo0WEs3205Kf-kN99guxgc4,1393
+WAM_Core-0.3.1.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+WAM_Core-0.3.1.dist-info/METADATA,sha256=_p0cIaFBAoUywtileNaf45DdoGCVgjKmmKhfP4Qor68,2674
+WAM_Core-0.3.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+WAM_Core-0.3.1.dist-info/top_level.txt,sha256=MKyq0VjsDCXrWmet5oiynmyoZzUjTyGsfqlSAlMm1qA,8
+WAM_Core-0.3.1.dist-info/RECORD,,
