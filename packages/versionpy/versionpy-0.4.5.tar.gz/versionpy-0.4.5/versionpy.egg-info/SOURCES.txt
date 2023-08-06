@@ -1,0 +1,14 @@
+README.md
+setup.py
+versionpy
+scripts/bump
+scripts/increment_version
+scripts/version
+versionpy/__init__.py
+versionpy/_version.py
+versionpy.egg-info/PKG-INFO
+versionpy.egg-info/SOURCES.txt
+versionpy.egg-info/dependency_links.txt
+versionpy.egg-info/not-zip-safe
+versionpy.egg-info/requires.txt
+versionpy.egg-info/top_level.txt
