@@ -1,0 +1,9 @@
+README.md
+setup.py
+skytempy/__init__.py
+skytempy/skytemp.py
+skytempy.egg-info/PKG-INFO
+skytempy.egg-info/SOURCES.txt
+skytempy.egg-info/dependency_links.txt
+skytempy.egg-info/requires.txt
+skytempy.egg-info/top_level.txt
