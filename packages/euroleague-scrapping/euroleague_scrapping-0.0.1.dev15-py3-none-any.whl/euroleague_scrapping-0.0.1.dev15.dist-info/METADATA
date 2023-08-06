@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: euroleague-scrapping
+Version: 0.0.1.dev15
+Summary: Euroleague and Eurocup scrapping
+Home-page: https://github.com/newstatseu/euroleague_scrapping
+Author: Newstats.eu
+Author-email: euroleague.dataguy@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Requires-Dist: beautifulsoup4 (==4.9.1)
+Requires-Dist: bleach (==3.1.5)
+Requires-Dist: certifi (==2020.6.20)
+Requires-Dist: cffi (==1.14.0)
+Requires-Dist: chardet (==3.0.4)
+Requires-Dist: colorama (==0.4.3)
+Requires-Dist: cryptography (==2.9.2)
+Requires-Dist: docutils (==0.16)
+Requires-Dist: idna (==2.10)
+Requires-Dist: importlib-metadata (==1.7.0)
+Requires-Dist: jeepney (==0.4.3)
+Requires-Dist: keyring (==21.2.1)
+Requires-Dist: packaging (==20.4)
+Requires-Dist: pbr (==5.4.5)
+Requires-Dist: pkginfo (==1.5.0.1)
+Requires-Dist: pycparser (==2.20)
+Requires-Dist: Pygments (==2.5.2)
+Requires-Dist: pyparsing (==2.4.7)
+Requires-Dist: readme-renderer (==26.0)
+Requires-Dist: requests (==2.24.0)
+Requires-Dist: requests-toolbelt (==0.9.1)
+Requires-Dist: rfc3986 (==1.4.0)
+Requires-Dist: SecretStorage (==3.1.2)
+Requires-Dist: six (==1.15.0)
+Requires-Dist: soupsieve (==1.9.6)
+Requires-Dist: tqdm (==4.48.0)
+Requires-Dist: twine (==1.15.0)
+Requires-Dist: urllib3 (==1.25.9)
+Requires-Dist: webencodings (==0.5.1)
+Requires-Dist: zipp (==3.1.0)
+
+Test!
+
+
+
