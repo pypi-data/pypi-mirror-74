@@ -1,0 +1,4 @@
+firefly-framework>=1.0.17
+
+[AWS Cognito Support]
+firefly-aws>=1.0.19
