@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: cad-tickers
+Version: 0.1.2
+Summary: Various Stock Utilties Created by me
+Home-page: https://github.com/FriendlyUser/cad_tickers
+License: MIT
+Keywords: Poetry,Stock Tickers,Requests,CSE,TSX
+Author: David Li
+Author-email: davidli012345@gmail.com
+Maintainer: David Li
+Maintainer-email: davidli012345@gmail.com
+Requires-Python: >=3.6,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: coverage (>=5.2,<6.0)
+Requires-Dist: requests (>=2.24.0,<3.0.0)
+Project-URL: Documentation, https://github.com/FriendlyUser/cad_tickers
+Project-URL: Repository, https://github.com/FriendlyUser/cad_tickers
+Description-Content-Type: text/markdown
+
+## Cad Tickers
+
+Set of utilities modules designed to scrap data from the web.
+
+Will write more documentation later, for now refer to test cases.
+
