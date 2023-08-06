@@ -1,0 +1,8 @@
+README.md
+setup.py
+eazeml/__init__.py
+eazeml.egg-info/PKG-INFO
+eazeml.egg-info/SOURCES.txt
+eazeml.egg-info/dependency_links.txt
+eazeml.egg-info/requires.txt
+eazeml.egg-info/top_level.txt

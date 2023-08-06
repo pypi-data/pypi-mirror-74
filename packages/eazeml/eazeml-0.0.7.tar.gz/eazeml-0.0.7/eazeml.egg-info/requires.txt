@@ -1,0 +1,16 @@
+pandas
+numpy
+seaborn
+matplotlib
+plotly
+sklearn
+lightgbm
+textblob
+nltk
+tqdm
+flask
+wordcloud
+xgboost
+wordcloud
+cufflinks
+catboost
