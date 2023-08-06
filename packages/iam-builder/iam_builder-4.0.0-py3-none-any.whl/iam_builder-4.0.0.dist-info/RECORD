@@ -1,0 +1,8 @@
+iam_builder/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+iam_builder/command_line.py,sha256=SEnTbnGLRn1AoKZWwH45_G4ES_GgMybfPDgWhA2N3FM,803
+iam_builder/iam_builder.py,sha256=kSHTIAlrXO7DQSlgsWUmH2siSyNipSt9xmAX-hLp0g4,2718
+iam_builder/templates.py,sha256=VTCYB0vCztAd45ziFBYofQ21_bJrA_AOMNcv2kt2wxo,10039
+iam_builder-4.0.0.dist-info/entry_points.txt,sha256=G6-ep1DCLPopr9qxfmn0h8bHJWyEuV5xOxra_2xp-9Y,61
+iam_builder-4.0.0.dist-info/WHEEL,sha256=G_NFpzHmv_dUXgCUSAWL0-bLL-eMzYU6DzDeGXbRXUk,83
+iam_builder-4.0.0.dist-info/METADATA,sha256=sqBkcgckupbHCsCrctvZ1yDLEOLfr_fVDQ6GYFOBBKI,5172
+iam_builder-4.0.0.dist-info/RECORD,,
