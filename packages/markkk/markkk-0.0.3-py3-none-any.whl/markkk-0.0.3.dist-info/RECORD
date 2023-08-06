@@ -1,0 +1,11 @@
+markkk/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+markkk/pyutils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+markkk/pyutils/check_text_encoding.py,sha256=sP1KgMwYOcwP-r6_pZ9E5rb11Q6OvsBvHFraNz_t4lo,3406
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_check_text_encoding.py,sha256=1ldHogeSotxycv5KzojBLR_Z40pyt9T0ji2bjFJNPzA,681
+tests/resources/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+markkk-0.0.3.dist-info/LICENSE,sha256=8eilSqNGniPkvcEb2ogeWvwy92WbgP6p1j7utTQkqcU,1067
+markkk-0.0.3.dist-info/METADATA,sha256=sEJc2979-liLxrIhWzY-hkvKfEKhRowNobRapyYS-CE,990
+markkk-0.0.3.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+markkk-0.0.3.dist-info/top_level.txt,sha256=hR1DAplgY_jmCfh3oMCpL9Z8VcTt5S5vmpubbofVIQA,13
+markkk-0.0.3.dist-info/RECORD,,

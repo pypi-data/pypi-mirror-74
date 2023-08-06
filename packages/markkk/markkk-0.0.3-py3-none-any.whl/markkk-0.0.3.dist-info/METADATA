@@ -1,0 +1,52 @@
+Metadata-Version: 2.1
+Name: markkk
+Version: 0.0.3
+Summary: Personal Package
+Home-page: https://github.com/MarkHershey/python-utils
+Author: Mark Huang
+Author-email: mark.h.huang@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Topic :: Utilities
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Natural Language :: English
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# `markkk`
+
+Convenient Python utilities for personal usage
+
+## Install
+
+```bash
+pip install markkk
+```
+
+## Usage
+
+### sub-module: check_text_encoding
+
+- `is_ascii`
+- `check_non_ascii_index`
+- `is_ascii_only_file`
+- `check_file_by_line`
+- `ensure_no_zh_punctuation`
+- `replace_punc_for_file`
+
+*Example*:
+
+```python
+from markkk.pyutils.check_text_encoding import replace_punc_for_file
+
+replace_punc_for_file("test.txt")
+```
+
+## License
+
+- MIT
+
+
