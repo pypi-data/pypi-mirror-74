@@ -1,0 +1,8 @@
+aws_solutions_constructs/aws_lambda_elasticsearch_kibana/__init__.py,sha256=bcU5Srh98EtTbYO4Rg9Afs76rVnlHVMlbNA0lz3Qrkk,12454
+aws_solutions_constructs/aws_lambda_elasticsearch_kibana/py.typed,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+aws_solutions_constructs/aws_lambda_elasticsearch_kibana/_jsii/__init__.py,sha256=-arz1NnKXFMnSq3FJ3ZhiXfx1jmu7dFgc2VEvQdl0Ds,647
+aws_solutions_constructs/aws_lambda_elasticsearch_kibana/_jsii/aws-lambda-elasticsearch-kibana@1.52.0.jsii.tgz,sha256=VnfidppcCzPvWzNVN-G_ixer9OrL0U_ccuFJztsA5CQ,113311
+aws_solutions_constructs.aws_lambda_elasticsearch_kibana-1.52.0.dist-info/METADATA,sha256=rbCR8I6LKLv4y3yJOvZb8HI6KOiY6-YBm50_BtKSFsA,6725
+aws_solutions_constructs.aws_lambda_elasticsearch_kibana-1.52.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+aws_solutions_constructs.aws_lambda_elasticsearch_kibana-1.52.0.dist-info/top_level.txt,sha256=hi3us_KW7V1ocfOqVsNq1o3w552jCEgu_KsCckqYWsg,25
+aws_solutions_constructs.aws_lambda_elasticsearch_kibana-1.52.0.dist-info/RECORD,,
