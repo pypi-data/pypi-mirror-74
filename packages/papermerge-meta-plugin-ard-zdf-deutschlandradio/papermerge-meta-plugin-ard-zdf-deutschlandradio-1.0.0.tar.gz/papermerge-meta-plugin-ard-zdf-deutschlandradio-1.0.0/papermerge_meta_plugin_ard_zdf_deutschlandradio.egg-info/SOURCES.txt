@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+changelog.md
+setup.py
+deutschlandradio/__init__.py
+papermerge_meta_plugin_ard_zdf_deutschlandradio.egg-info/PKG-INFO
+papermerge_meta_plugin_ard_zdf_deutschlandradio.egg-info/SOURCES.txt
+papermerge_meta_plugin_ard_zdf_deutschlandradio.egg-info/dependency_links.txt
+papermerge_meta_plugin_ard_zdf_deutschlandradio.egg-info/top_level.txt
+test/test_deutschlandradio.py
+test/data/radio-1.hocr
+test/data/radio-2.hocr
+test/data/radio-3.hocr
