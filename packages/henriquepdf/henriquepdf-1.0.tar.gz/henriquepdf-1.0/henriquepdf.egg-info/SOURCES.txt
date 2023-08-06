@@ -1,0 +1,9 @@
+README.md
+setup.py
+henriquepdf/__init__.py
+henriquepdf/pdf2image.py
+henriquepdf/pdf2text.py
+henriquepdf.egg-info/PKG-INFO
+henriquepdf.egg-info/SOURCES.txt
+henriquepdf.egg-info/dependency_links.txt
+henriquepdf.egg-info/top_level.txt
