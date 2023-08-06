@@ -1,0 +1,65 @@
+Metadata-Version: 2.1
+Name: SimpleHTTPSAuthServer
+Version: 1.1.0
+Summary: HTTPS server with Basic authentication and client certificate authentication.
+Home-page: https://github.com/oza6ut0ne/SimpleHTTPSAuthServer
+Author: Ryota Okimatsu
+Author-email: oza6ut0ne@gmail.com
+License: MIT
+Description: [![image](https://img.shields.io/pypi/pyversions/SimpleHTTPSAuthServer.svg)](https://pypi.org/project/SimpleHTTPSAuthServer/)
+        
+        # SimpleHTTPSAuthServer
+        
+        HTTPS server with Basic authentication and client certificate authentication.  
+        Supports both Python2 and Python3, IPv4 and IPv6.
+        
+        ## Installation
+        
+        ```sh
+        $ pip install SimpleHTTPSAuthServer
+        ```
+        
+        ## Usage
+        
+        ```sh
+        # Serve HTTP.
+        $ python -m SimpleHTTPSAuthServer
+        
+        # Serve HTTPS.
+        $ python -m SimpleHTTPSAuthServer -s /path/to/server/cert.pem
+        
+        # Serve HTTPS and enable client certificate authentication.
+        $ python -m SimpleHTTPSAuthServer -s /path/to/server/cert.pem -c /path/to/CA/cert.pem
+        
+        # Enable Basic authentication.
+        # Create user 'foo' with password 'spam', and user 'bar' with password 'ham'.
+        $ python -m SimpleHTTPSAuthServer -u foo bar -p spam ham
+        
+        # Environment variables are also available.
+        $ export SIMPLE_HTTPS_USERS='foo bar'
+        $ export SIMPLE_HTTPS_PASSWORDS='spam ham'
+        
+        # Enable multi-thread.
+        $ python -m SimpleHTTPSAuthServer -t
+        
+        # Specify listening port (default: 8000).
+        $ python -m SimpleHTTPSAuthServer 10080
+        
+        # Bind to localhost only.
+        $ python -m SimpleHTTPSAuthServer -b 127.0.0.1
+        
+        # Enable IPv6.
+        $ python -m SimpleHTTPSAuthServer -b ::
+        ```
+        
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Description-Content-Type: text/markdown

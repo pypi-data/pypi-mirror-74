@@ -1,0 +1,7 @@
+README.md
+SimpleHTTPSAuthServer.py
+setup.py
+SimpleHTTPSAuthServer.egg-info/PKG-INFO
+SimpleHTTPSAuthServer.egg-info/SOURCES.txt
+SimpleHTTPSAuthServer.egg-info/dependency_links.txt
+SimpleHTTPSAuthServer.egg-info/top_level.txt
