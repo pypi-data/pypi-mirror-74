@@ -1,0 +1,4 @@
+[console_scripts]
+openrover-tests=openrover:main
+pitstop=openrover.pitstop:main
+
