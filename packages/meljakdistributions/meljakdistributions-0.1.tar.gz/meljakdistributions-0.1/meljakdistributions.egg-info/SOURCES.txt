@@ -1,0 +1,10 @@
+setup.py
+meljakdistributions/Binomialdistribution.py
+meljakdistributions/Gaussiandistribution.py
+meljakdistributions/Generaldistribution.py
+meljakdistributions/__init__.py
+meljakdistributions.egg-info/PKG-INFO
+meljakdistributions.egg-info/SOURCES.txt
+meljakdistributions.egg-info/dependency_links.txt
+meljakdistributions.egg-info/not-zip-safe
+meljakdistributions.egg-info/top_level.txt
