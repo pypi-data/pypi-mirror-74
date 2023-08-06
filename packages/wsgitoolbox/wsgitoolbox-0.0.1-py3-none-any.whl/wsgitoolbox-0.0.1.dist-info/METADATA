@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: wsgitoolbox
+Version: 0.0.1
+Summary: Toolbox for python web development
+Home-page: UNKNOWN
+Author: Hakim Rachidi
+Author-email: hakimrachidi02@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: werkzeug (>=0.16.0)
+
+UNKNOWN
+
+
