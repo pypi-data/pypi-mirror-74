@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: bopflow
+Version: 0.0.11
+Summary: A lean package for image detection using YoloV3 conv_network.
+Home-page: UNKNOWN
+Author: Daniel Pareja
+Author-email: ParejaDan@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >3.6
+Provides-Extra: training
