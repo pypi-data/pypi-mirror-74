@@ -1,0 +1,11 @@
+README.md
+setup.py
+mnist_utils/__init__.py
+mnist_utils/utils.py
+mnist_utils.egg-info/PKG-INFO
+mnist_utils.egg-info/SOURCES.txt
+mnist_utils.egg-info/dependency_links.txt
+mnist_utils.egg-info/requires.txt
+mnist_utils.egg-info/top_level.txt
+mnist_utils/test/__init__.py
+mnist_utils/test/test.py
