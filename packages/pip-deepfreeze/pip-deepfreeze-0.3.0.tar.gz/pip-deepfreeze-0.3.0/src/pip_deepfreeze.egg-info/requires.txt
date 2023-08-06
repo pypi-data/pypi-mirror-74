@@ -1,0 +1,15 @@
+httpx
+packaging
+typer[all]
+
+[:python_version < "3.8"]
+typing-extensions
+
+[mypy]
+mypy
+
+[test]
+pytest
+pytest-cov
+pytest-xdist
+virtualenv
