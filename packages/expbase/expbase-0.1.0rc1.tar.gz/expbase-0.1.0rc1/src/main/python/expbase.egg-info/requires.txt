@@ -1,0 +1,3 @@
+argmagiq>=0.1.0
+insanity>=2017.1
+streamtologger>=2017.1
