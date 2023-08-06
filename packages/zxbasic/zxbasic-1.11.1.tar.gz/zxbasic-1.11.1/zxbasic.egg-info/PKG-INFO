@@ -1,0 +1,11 @@
+Metadata-Version: 1.2
+Name: zxbasic
+Version: 1.11.1
+Summary: Boriel's ZX BASIC Compiler
+Home-page: https://github.com/boriel/zxbasic
+Author: Jose Rodriguez
+Author-email: boriel@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6,<4.0
