@@ -1,0 +1,13 @@
+Metadata-Version: 1.2
+Name: extract-facial
+Version: 3.1a0
+Summary: Extract facial features in Python such as the eyes and mouth from MTCNN's predictions and find whether eyes or mouths are closed/open.
+Home-page: https://github.com/vink246/extract_facial.git
+Author: Vineet Kulkarni
+Author-email: 2vineetk@gmail.com
+License: UNKNOWN
+Download-URL: https://github.com/vink246/extract_facial/archive/v3.1-alpha.tar.gz
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.5
