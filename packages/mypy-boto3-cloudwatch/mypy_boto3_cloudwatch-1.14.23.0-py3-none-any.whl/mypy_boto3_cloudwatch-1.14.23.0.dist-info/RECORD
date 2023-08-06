@@ -1,0 +1,13 @@
+mypy_boto3_cloudwatch/__init__.py,sha256=nbcpQBboupp849beATrhgAYH305lADC6C0WECICAmLU,2285
+mypy_boto3_cloudwatch/__main__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mypy_boto3_cloudwatch/client.py,sha256=RUWnn8pLzClezxBcXR2gPzdaiAWzAQWiL6EiWUZO7GY,21077
+mypy_boto3_cloudwatch/paginator.py,sha256=hExamNgM1QlnUWMBOYIsoXKSRxwXv5puMATdtt1hcUM,5716
+mypy_boto3_cloudwatch/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mypy_boto3_cloudwatch/service_resource.py,sha256=h5dKHWv8AlEoiVs_Ch0npBc_q2rsEoWZpKwl4na9zQ0,14461
+mypy_boto3_cloudwatch/type_defs.py,sha256=Vt60JWKgxc04XO_ndPQPnhTuLpS_vhq8sqdfYqv2HMs,15733
+mypy_boto3_cloudwatch/version.py,sha256=_Ig8WPdK4iClPSC8AWS8_F65r7Vr2dSf8XM8Pyu3A94,57
+mypy_boto3_cloudwatch/waiter.py,sha256=P199smG1OAlYXwnumwbNhjaTvB7oxOS1LVgynV66bMw,2785
+mypy_boto3_cloudwatch-1.14.23.0.dist-info/METADATA,sha256=FBwXmR7o4PhBKLxSkOLagRjRcrODBIWDilcL2Nn6dgE,7500
+mypy_boto3_cloudwatch-1.14.23.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+mypy_boto3_cloudwatch-1.14.23.0.dist-info/top_level.txt,sha256=TtVWcTx0kEq66PFnmcs15zBPsTZKCs71zIzOZJ8mhXI,22
+mypy_boto3_cloudwatch-1.14.23.0.dist-info/RECORD,,
