@@ -1,0 +1,10 @@
+setup.py
+bino_gaus_dist/Binomialdistribution.py
+bino_gaus_dist/Gaussiandistribution.py
+bino_gaus_dist/Generaldistribution.py
+bino_gaus_dist/__init__.py
+bino_gaus_dist.egg-info/PKG-INFO
+bino_gaus_dist.egg-info/SOURCES.txt
+bino_gaus_dist.egg-info/dependency_links.txt
+bino_gaus_dist.egg-info/not-zip-safe
+bino_gaus_dist.egg-info/top_level.txt
