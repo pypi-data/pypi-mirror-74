@@ -1,0 +1,52 @@
+Metadata-Version: 1.1
+Name: harpies
+Version: 1.0.0
+Summary: Helps you generating link previews on the fly!
+Home-page: https://iamlizu.com/tools/harpies/
+Author: S M Mahmudul Hasan
+Author-email: thegeek@iamlizu.com
+License: MIT
+Download-URL: https://github.com/IamLizu/harpies/archive/v_1_0_0.tar.gz
+Description: harpies
+        =======
+        
+        Helps you to generate link previews on the fly! Use ``harpies`` to get
+        the information of a webpage to generate a preview, then you know how
+        you want to style the preview with the information.
+        
+        Installation
+        ------------
+        
+        You can install harpies using pip,
+        
+        .. code:: sh
+        
+           pip install harpies
+        
+        Requires Python 3 or above to run. If you have Python 2 installed too,
+        make sure to use the right pip.
+        
+        Usage
+        -----
+        
+        ::
+        
+           >>> import harpies
+           >>> data = harpies.preview_data("iamlizu.com")
+           >>> print(data)
+           {"title": "S M Mahmudul Hasan", "description": "WordPress security expert, creates technological contents in spare times, mostly found on tech forums, 
+           part-time gamer, listens to electronic music.", "image": "https://iamlizu.com/wp-content/uploads/2019/10/iamlizu.com-cover.png", "url": "https://iamlizu.com/"}
+        
+        Please look for logs at ‘~/Documents/harpies.log’
+Keywords: url,link,preview
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
