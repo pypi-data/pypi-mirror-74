@@ -1,0 +1,5 @@
+pyenet
+serial
+
+[:platform_system == "Windows"]
+py-ubjsonpywin32
