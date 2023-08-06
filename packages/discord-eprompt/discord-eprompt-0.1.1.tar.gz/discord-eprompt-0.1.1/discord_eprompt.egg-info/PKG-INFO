@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: discord-eprompt
+Version: 0.1.1
+Summary: Reaction-based user interfaces for discord.py bots
+Home-page: https://github.com/zacharied/discord-eprompt
+Author: Zach Day
+Author-email: z@zach.gdn
+License: UNKNOWN
+Description: # discord-eprompt
+        
+        Reaction-based user input prompts for Discord bots
+        
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Topic :: Software Development
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown

@@ -1,0 +1,2 @@
+discord-eprompt
+discord_eprompt
