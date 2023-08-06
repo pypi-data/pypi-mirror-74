@@ -1,0 +1,3 @@
+[console_scripts]
+bluefn=bluefn.__main__:main
+
