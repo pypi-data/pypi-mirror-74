@@ -1,0 +1,19 @@
+Metadata-Version: 1.2
+Name: dgp-lib
+Version: 1.0.0b2
+Summary: Library of functions for importing and processing gravity data
+Home-page: https://github.com/dynamicgravitysystems/dgp-lib
+Author: Zachery Brady, Chris Bertinato
+Author-email: bradyzp@dynamicgravitysystems.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Topic :: Scientific/Engineering :: GIS
+Requires-Python: >=3.6.*
