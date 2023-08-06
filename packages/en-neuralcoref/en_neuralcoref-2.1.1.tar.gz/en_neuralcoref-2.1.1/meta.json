@@ -1,0 +1,44 @@
+{
+  "accuracy":{
+    "ents_f":85.8587845242,
+    "ents_p":86.3317889027,
+    "ents_r":85.3909350025,
+    "las":89.6616629074,
+    "tags_acc":96.7783856079,
+    "token_acc":99.0697323163,
+    "uas":91.5287392082
+  },
+  "author":"Robo.AI",
+  "description":"Pipeline extension for spaCy which annotates and resolves coreference clusters using a neural network.",
+  "email":"info@robo-ai.com",
+  "lang":"en",
+  "license":"MIT",
+  "name":"neuralcoref",
+  "parent_package":"spacy",
+  "pipeline":[
+    "sentencizer",
+    "tagger",
+    "parser",
+    "ner",
+    "neuralcoref"
+  ],
+  "requirements": ["neuralcoref"],
+  "sources":[
+    "OntoNotes 5"
+  ],
+  "spacy_version":"==2.1.0",
+  "speed":{
+    "cpu":6684.8046553827,
+    "gpu":null,
+    "nwords":291314
+  },
+  "url":"https://robo-ai.com/",
+  "download_url":"",
+  "version":"2.1.1",
+  "vectors":{
+    "width":0,
+    "vectors":0,
+    "keys":0,
+    "name":null
+  }
+}
