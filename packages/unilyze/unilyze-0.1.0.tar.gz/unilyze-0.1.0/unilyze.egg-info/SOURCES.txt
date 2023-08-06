@@ -1,0 +1,13 @@
+MANIFEST.in
+README.md
+setup.py
+unilyze/__init__.py
+unilyze/create_dbs.py
+unilyze/unichar.py
+unilyze.egg-info/PKG-INFO
+unilyze.egg-info/SOURCES.txt
+unilyze.egg-info/dependency_links.txt
+unilyze.egg-info/top_level.txt
+unilyze/db/property_names.json
+unilyze/db/property_values.json
+unilyze/db/unicode_db.json
