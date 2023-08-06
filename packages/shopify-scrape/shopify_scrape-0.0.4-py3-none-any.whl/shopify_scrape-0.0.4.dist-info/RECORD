@@ -1,0 +1,11 @@
+shopify_scrape/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+shopify_scrape/extract.py,sha256=1mjJlPCAChPCZbhEUymNjpzebHLIl3QA2gufhDFXh_U,8720
+shopify_scrape/utils.py,sha256=aX-gEDxQRyimmGqgbJLZ2mDvRTXmS-0EfnKGFSSMNKo,5502
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_extract.py,sha256=iYp79Bu7TrpKBdiBfkxp3iG5bVqQbtWA1Snu9RlXhoU,2845
+tests/test_utils.py,sha256=_G238cmC6bFmqgw-GBSEPnHrQuhORACf_bCb4Of0foY,1945
+shopify_scrape-0.0.4.dist-info/LICENSE,sha256=4QMjMhMxkyMei0BwCxOnGFB29wECxnHK0BOyjDRhf5A,1070
+shopify_scrape-0.0.4.dist-info/METADATA,sha256=Uly5uW6Lp4k-41s0I17FD388uJcHLefuwUaVlwyXsSg,3150
+shopify_scrape-0.0.4.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+shopify_scrape-0.0.4.dist-info/top_level.txt,sha256=5Urg1yuJqQs59fCvIdP1ol_WVoi_G0i2jgZUmPH-FBQ,21
+shopify_scrape-0.0.4.dist-info/RECORD,,
