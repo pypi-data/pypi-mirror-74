@@ -1,0 +1,11 @@
+MANIFEST.in
+README.md
+setup.py
+fid_score/__init__.py
+fid_score/fid_score.py
+fid_score/inception.py
+fid_score.egg-info/PKG-INFO
+fid_score.egg-info/SOURCES.txt
+fid_score.egg-info/dependency_links.txt
+fid_score.egg-info/requires.txt
+fid_score.egg-info/top_level.txt
