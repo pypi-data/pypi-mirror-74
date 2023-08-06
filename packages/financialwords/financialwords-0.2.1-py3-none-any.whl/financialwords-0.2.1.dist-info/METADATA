@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: financialwords
+Version: 0.2.1
+Summary: financial complaint words
+Home-page: UNKNOWN
+Author: Pradeep
+Author-email: pradeep.ku39@outlook.com
+License: MIT
+Platform: all
+Classifier: Intended Audience :: Education
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Natural Language :: English
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Text Processing
+
+This is for learning purpose
+
+
