@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: loducode-utils
+Version: 0.0.0
+Summary: Basic components for the development of loducode s.a.s.
+Home-page: https://github.com/UnTalDulcey/loducode_maytapi
+Author: Cristian Dulcey
+Author-email: cristian@loducode.com
+License: UNKNOWN
+Download-URL: https://github.com/UnTalDulcey/loducode_maytapi/tarball/0.1
+Description: # Loducode utils
+        
+        Basic components for the development of loducode s.a.s.
+        
+        ## functionalities
+        
+        - **Admin**
+            - ReadOnlyAdmin
+            - ReadOnlyStackedInline
+            - ReadOnlyTabularInline
+        - **Models**
+            - Audit
+            - City  
+        - **Tasks**
+            - send_mail_task(email, subject, message)
+        - **Urls Api**
+            - /api/token/
+            - /api/logout/
+            - /api/forget/
+        - **Utils**
+            - PaginatedListView
+        - **Views api**
+            - ObtainCustomAuthToken
+            - LogoutView
+            - ForgetPasswordView
+        
+        ### Required ENV
+        
+        - ID_PHONE
+        - PRODUCT_ID
+        - TOKEN
+Keywords: utils,loducode_utils,loducode
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
