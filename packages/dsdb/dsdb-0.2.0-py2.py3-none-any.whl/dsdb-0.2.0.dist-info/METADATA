@@ -1,0 +1,71 @@
+Metadata-Version: 2.1
+Name: dsdb
+Version: 0.2.0
+Summary: One-line database manager for Data Science workloads.
+Home-page: https://github.com/buildnn/dsdb
+Author: Giacomo Barone, Buildnn
+Author-email: giacomo.barone@buildnn.com
+License: The MIT License (MIT)
+Requires-Dist: attrs
+Provides-Extra: all
+Requires-Dist: boto3 ; extra == 'all'
+Requires-Dist: pymongo ; extra == 'all'
+Requires-Dist: redis ; extra == 'all'
+Requires-Dist: sqlalchemy ; extra == 'all'
+Requires-Dist: psycopg2-binary ; extra == 'all'
+Provides-Extra: dev
+Requires-Dist: boto3 ; extra == 'dev'
+Requires-Dist: pymongo ; extra == 'dev'
+Requires-Dist: redis ; extra == 'dev'
+Requires-Dist: sqlalchemy ; extra == 'dev'
+Requires-Dist: psycopg2-binary ; extra == 'dev'
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: pytest-cov ; extra == 'dev'
+Requires-Dist: black ; extra == 'dev'
+Requires-Dist: flake8 ; extra == 'dev'
+Provides-Extra: dynamodb
+Requires-Dist: boto3 ; extra == 'dynamodb'
+Provides-Extra: mongo
+Requires-Dist: pymongo ; extra == 'mongo'
+Provides-Extra: nosql
+Requires-Dist: boto3 ; extra == 'nosql'
+Requires-Dist: pymongo ; extra == 'nosql'
+Requires-Dist: redis ; extra == 'nosql'
+Provides-Extra: postgres
+Requires-Dist: sqlalchemy ; extra == 'postgres'
+Requires-Dist: psycopg2-binary ; extra == 'postgres'
+Provides-Extra: redis
+Requires-Dist: redis ; extra == 'redis'
+
+Copyright (c) 2018-2020 Giacomo Barone, Buildnn Team. All Rights Reserved.
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python :: 3
+Provides-Extra: dev
+Provides-Extra: postgres
+Provides-Extra: dynamodb
+Provides-Extra: mongo
+Provides-Extra: redis
+Provides-Extra: nosql
+Provides-Extra: all
