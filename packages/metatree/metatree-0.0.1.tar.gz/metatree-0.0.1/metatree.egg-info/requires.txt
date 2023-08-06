@@ -1,0 +1,12 @@
+phylorank>0.1.0
+genometreetk>0.1.2
+dendropy>=4.1.0
+tqdm>=4.31.0
+biolib>=0.1.0
+biopython
+seaborn
+matplotlib
+numpy
+ete3
+pandas
+scipy

@@ -1,0 +1,3 @@
+[console_scripts]
+metatree = metatree.__main__:main
+
