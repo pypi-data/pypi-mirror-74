@@ -1,0 +1,34 @@
+## The Package *distributionsx* does:
+- calculate mean, standard deviation, pdf and sum of normal and binomial distributions (when p value is same for both).
+- plot histogram for normal distribution and bar plot  for binomial distribution.
+- plot pdf
+
+# Files
+- GeneralDistribution.py: It has the parent class Distribution inherited by Gaussiandistribution and Binomialdistribution in Gaussiandistribution.py and Binomialdistribution.py files respectively. It's read_data_file method reads the text data file, save it in self.data in init magic method and also calculate mean and standard deviation and save it on the self object.
+
+- Gaussiandistribution.py: This file contains the child class Gaussiandistribution that inherits from GeneralDistribution and caculate mean, standard deviation for normal distribution using mathematical formulas written in python using in built modules (math) and other libraries (numpy). It also codes the magic method for the addition of two normal distributions by adding their means and summing their standard deviations by taking the square root of the sum of the square of the standard deviations of both distributions objects. It also has methods for plotting the histogram, and calculating and plotting the pdf. The __repr__ method outputs the characteristics of the Gaussian instance.
+
+- Binomialdistribution.py: This file contains the child class Binomialdistribution that inherits from GeneralDistribution and caculate mean, standard deviation for binomial distribution. It also codes the magic method for addition of two binomial distributions when the probability of the success(p) for both is same. It also has methods for plotting bar graph, and calculating and plotting the pdf. The __repr__ method outputs the characteristics of the Binomial instance.
+
+# Package installation:
+
+ `pip install distributionsx`
+  
+
+# Examples
+  
+- open a python shell in terminal after installing the package.
+
+`python`
+
+- import the package in the python shell.
+
+`from distributionsx import Gaussian, Binomial`
+
+- Create a Gaussian object with mean 10 and standard deviation 5 and check the output in the terminal:
+  
+`Gaussian(10, 5)`
+
+- Create a Gaussian object with probability 0.5 and number of trials 10 and check the output (mean, standard deviation, probability of an event occuring, and number of trials) in the terminal:
+
+`Binomial(0.5, 10)`

@@ -1,0 +1,10 @@
+README.md
+setup.py
+distributionsx/Binomialdistribution.py
+distributionsx/Gaussiandistribution.py
+distributionsx/Generaldistribution.py
+distributionsx/__init__.py
+distributionsx.egg-info/PKG-INFO
+distributionsx.egg-info/SOURCES.txt
+distributionsx.egg-info/dependency_links.txt
+distributionsx.egg-info/top_level.txt
