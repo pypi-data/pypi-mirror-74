@@ -1,0 +1,11 @@
+README.md
+setup.py
+tccseg/__init__.py
+tccseg/arguments.py
+tccseg/cc.py
+tccseg/core.py
+tccseg/segmenter.py
+tccseg.egg-info/PKG-INFO
+tccseg.egg-info/SOURCES.txt
+tccseg.egg-info/dependency_links.txt
+tccseg.egg-info/top_level.txt
