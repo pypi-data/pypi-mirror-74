@@ -1,0 +1,2 @@
+include pygibbs/*pyx
+include pygibbs/*pxd

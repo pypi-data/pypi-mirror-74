@@ -1,0 +1,15 @@
+MANIFEST.in
+README.md
+setup.py
+pygibbs/__init__.py
+pygibbs/dms.c
+pygibbs/dms.pyx
+pygibbs/solvers.c
+pygibbs/solvers.pyx
+pygibbs/utils.c
+pygibbs/utils.pyx
+pygibbs.egg-info/PKG-INFO
+pygibbs.egg-info/SOURCES.txt
+pygibbs.egg-info/dependency_links.txt
+pygibbs.egg-info/requires.txt
+pygibbs.egg-info/top_level.txt
