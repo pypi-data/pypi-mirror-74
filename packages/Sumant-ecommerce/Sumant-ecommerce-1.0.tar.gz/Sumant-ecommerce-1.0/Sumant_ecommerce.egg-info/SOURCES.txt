@@ -1,0 +1,6 @@
+README.md
+setup.py
+Sumant_ecommerce.egg-info/PKG-INFO
+Sumant_ecommerce.egg-info/SOURCES.txt
+Sumant_ecommerce.egg-info/dependency_links.txt
+Sumant_ecommerce.egg-info/top_level.txt
