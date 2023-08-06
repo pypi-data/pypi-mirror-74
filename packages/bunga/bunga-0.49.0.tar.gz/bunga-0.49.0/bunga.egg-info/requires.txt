@@ -1,0 +1,8 @@
+prompt_toolkit
+grpcio-tools
+ansicolors
+humanfriendly
+tqdm
+
+[:platform_system == "Windows"]
+windows-curses
