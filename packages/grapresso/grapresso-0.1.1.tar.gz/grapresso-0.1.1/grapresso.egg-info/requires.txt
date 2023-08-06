@@ -1,0 +1,6 @@
+
+[backend-networkx]
+networkx==2.4.0
+
+[test]
+pytest<6.0.0,>=5.0.0
