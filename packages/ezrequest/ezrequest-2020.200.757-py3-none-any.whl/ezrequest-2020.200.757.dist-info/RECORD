@@ -1,0 +1,10 @@
+ezrequest/__init__.py,sha256=AHlJrJDv8DvE6OQyi2IvIs8QykHsKEtoZ7zyli26P68,150
+ezrequest/_version.py,sha256=gmi8dygtQmfX2kTi40HsbEgayotdbiIiy6QYDscde8A,881
+ezrequest/ezrequest.py,sha256=lioKziSoPXXzqSjQgNKExWRS0doGjXRUj5UpaINQVk8,26201
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_ezrequest.py,sha256=4BqYAfUyCQcO7PLJHd9AefeiaxxOLpUXQRynJiPD90w,7854
+ezrequest-2020.200.757.dist-info/LICENSE,sha256=bx5iLIKjgAdYQ7sISn7DsfHRKkoCUm1154sJJKhgqnU,35184
+ezrequest-2020.200.757.dist-info/METADATA,sha256=2QfIIkIj1SmGNI_hc6WD8i-FwsAmc2uiVBNxfD22lCw,1508
+ezrequest-2020.200.757.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+ezrequest-2020.200.757.dist-info/top_level.txt,sha256=Qb-dPWVs2v4BKGTbogCADa_mYbiuBmVP5ScIDQZQyPg,16
+ezrequest-2020.200.757.dist-info/RECORD,,
