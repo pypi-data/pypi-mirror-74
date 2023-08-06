@@ -1,0 +1,7 @@
+patch_env.pth,sha256=UY2wIOqgr_iWtfM6CBHz1ZLm7uKLXvS10mxO06JzXTA,55
+patch_env/__init__.py,sha256=tAp61Qxj16HJyZ8Poenu8EuHle2aFvvJ5Tfb8uj0Oms,817
+patch_env-1.0.0.dist-info/LICENSE,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+patch_env-1.0.0.dist-info/METADATA,sha256=urJo-4lS26H4O-9Abdyvf5aBWp_Psv_mqeKcY-rLEFw,4158
+patch_env-1.0.0.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+patch_env-1.0.0.dist-info/top_level.txt,sha256=0TTISMLiw50W-HfItrPi8oWQAICB1vd3QpqGmwYEj8Q,10
+patch_env-1.0.0.dist-info/RECORD,,
