@@ -1,0 +1,13 @@
+click
+numpy
+Splipy>=1.4
+lrsplines>=1.5
+h5py
+vtk
+netcdf4
+nptyping
+singledispatchmethod
+treelog
+
+[VTF]
+vtfwriter
