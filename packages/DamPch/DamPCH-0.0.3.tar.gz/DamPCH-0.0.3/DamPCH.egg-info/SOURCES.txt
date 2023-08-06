@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.rst
+setup.py
+DamPCH/__init__.py
+DamPCH.egg-info/PKG-INFO
+DamPCH.egg-info/SOURCES.txt
+DamPCH.egg-info/dependency_links.txt
+DamPCH.egg-info/top_level.txt
