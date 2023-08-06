@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: nPhase
+Version: 1.0.2
+Summary: nPhase is a command line ploidy agnostic phasing pipeline and algorithm which phase samples of any ploidy with sequence alignment of long and short read data to a reference sequence.
+Home-page: https://https://github.com/nPhasePipeline/nPhase
+Author: Omar Abou Saada
+Author-email: oabousaada@unistra.fr
+License: UNKNOWN
+Description: # nPhase
+        Ploidy agnostic phasing pipeline and algorithm
+        
+        Please come back soon if you're interested in using nPhase, I'm still checking that everything works as intended on a clean install before uploading the code.
+        
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
