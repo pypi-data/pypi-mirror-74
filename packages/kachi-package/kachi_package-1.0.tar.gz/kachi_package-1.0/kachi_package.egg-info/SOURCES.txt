@@ -1,0 +1,10 @@
+setup.py
+distributions/Binomialdistribution.py
+distributions/Gaussiandistribution.py
+distributions/Generaldistribution.py
+distributions/__init__.py
+kachi_package.egg-info/PKG-INFO
+kachi_package.egg-info/SOURCES.txt
+kachi_package.egg-info/dependency_links.txt
+kachi_package.egg-info/not-zip-safe
+kachi_package.egg-info/top_level.txt
