@@ -1,0 +1,28 @@
+Metadata-Version: 1.2
+Name: alba-mistral
+Version: 13.0.2
+Summary: Specific software for Mistral beamline at ALBA Synchrotron
+Home-page: https://git.cells.es/controls/mistral/mistral
+Author: Marc Rosanes, Carlos Falcon, Zbigniew Reszela, Carlos Pascual, Gabriel Jover-Manas
+Author-email: mrosanes@cells.es, cfalcon@cells.es, zreszela@cells.es, cpascual@cells.es, gjover@cells.es
+Maintainer: ctgensoft
+Maintainer-email: ctgensoft@cells.es
+License: GPLv3
+Description: This project has been developd at ALBA Synchrotron 
+        Light Source, and it is mainly used for image processing purposes at 
+        BL09-Mistral Tomography Beamline.
+        
+Keywords: APP
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Software Development :: Libraries
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires: setuptools (>=1.1)

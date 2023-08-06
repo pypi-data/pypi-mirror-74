@@ -1,0 +1,7 @@
+numpy
+h5py
+olefile
+tinydb
+opencv-python
+joblib
+mrcfile
