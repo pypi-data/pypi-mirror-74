@@ -1,0 +1,86 @@
+# youtubepy
+youtubepy is a package to search for youtube videos through python code.
+
+# Usage
+
+## Video class
+```python
+from youtubepy import Video
+video = Video("me at the zoo")
+result = video.search()
+print(result)
+> YouTubePY - Searching for the video
+> https://www.youtube.com/watch?v=A8AlbaDmaec
+```
+
+### SafeSearch Filter
+```python
+from youtubepy import Video
+video = Video("fuck", safesearch=True)
+result = video.search()
+print(result)
+
+> YouTubePY - Searching for the video
+> "youtubepy.BlockedWordError: A blocked word detected in the result video! Don't use safesearch to ignore this error!"
+```
+
+Functions available in Video class
+```
+search() - Returns video url
+source_url() - Returns the source url of the video
+audio_source() - Returns the audio source url of the video
+download(/path/to/directory/filename.mp4) - Downloads the video
+audio_download(/path/to/directory/filename.mp3) - Downloads the audio of a youtube video
+title() - Returns video title
+description() - Returns description of the video
+channel_url() - Returns the url of the channel that published the video
+channel_name() - Returns the name of the channel that published the video
+published_date() - Returns the date the video was published to YouTube
+thumbnail_url() - Returns thumbnail url of the video
+thumbnail_save(/path/to/directory/filename.jpg) - Saves the thumbnail of the video, if path is not given, saves to the path in which the script is saved
+duration() - Returns duration of the video
+view_count() - Returns view count of the video
+like_count() - Returns like count of the video
+dislike_count() - Returns dislike count of the video
+average_rating() - Returns average rating of the video
+```
+
+## ExtractData class
+```python
+from youtubepy import ExtractData
+video = ExtractData("https://youtu.be/A8AlbaDmaec")
+title = video.title()
+print(title)
+> YouTubePY - Extracting video data
+> Me at the zoo - 4k Upscaled, 60 FPS
+```
+
+Functions available in ExtractData class
+```
+source_url() - Returns the source url of the video
+audio_source() - Returns the audio source url of the video
+download(/path/to/directory/filename.mp4) - Downloads the video
+audio_download(/path/to/directory/filename.mp3) - Downloads the audio of a youtube video
+title() - Returns video title
+description() - Returns description of the video
+channel_url() - Returns the url of the channel that published the video
+channel_name() - Returns the name of the channel that published the video
+published_date() - Returns the date the video was published to YouTube
+thumbnail_url() - Returns thumbnail url of the video
+thumbnail_save(/path/to/directory/to/save/filename.jpg) - Saves the thumbnail of the video, if path is not given, saves to the path in which the script is saved
+duration() - Returns duration of the video
+view_count() - Returns view count of the video
+like_count() - Returns like count of the video
+dislike_count() - Returns dislike count of the video
+average_rating() - Returns average rating of the video
+```
+
+## Removing Prints
+```python
+from youtubepy import *
+
+video = Video("spooky scary skeletons", quiet=True) #quiet kwarg helps in removing the prints
+extractdata = ExtractData("spooky scary skeletons", quiet=True) #quiet kwarg is available for ExtractData class also to remove the prints
+```
+
+Note - You may experience glitches in other versions, this version is free from all known bugs and glitches and has many new features compared to other versions!
