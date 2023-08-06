@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: wal-g810
+Version: 0.0.2
+Summary:  Automate g810 profile creation from generated pywal colors
+Home-page: https://github.com/MKJM2/wal_g810
+Author: Michał Kurek
+Author-email: mailformmk@gmail.com
+License: MIT
+Download-URL: https://github.com/MKJM2/wal_g810/archive/0.0.2.tar.gz
+Description: # wal_g810
+        
+        Automate [g810-led](https://github.com/MatMoul/g810-led) theme creation from generated [pywal](https://github.com/dylanaraps/pywal) colors
+        
+        ## About
+        
+        `wal_g810` is a small Python utility meant to work with `wal` by reading colors generated from a JSON file and translating them into a `g810-led` compliant profile file.
+        
+        ## Installation
+        
+        ```bash
+        git clone `https://github.com/MKJM2/wal_g810.git`
+        cd wal_g810
+        pip install .
+        ```
+        
+        ### Requirements
+        
+        * [python3](https://www.python.org/)
+        
+            Tested with Python 3.8.3. Uses standard sys calls so should function across all Python 3.
+        
+        * [pywal](https://github.com/dylanaraps/pywal)
+        
+        ## Usage
+        
+        **Be sure you've run `wal` at least once to generate colors.json file.**
+        
+        Simply invoke `wal-g810`  
+        The generated profile can then be applied by invoking `g810-led -p $HOME/.cache/wal/colors-wal-g810`
+        
+Platform: UNKNOWN
+Classifier: Environment :: X11 Applications
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
