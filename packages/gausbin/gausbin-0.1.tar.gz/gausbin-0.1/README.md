@@ -1,0 +1,1 @@
+This is a demo package for the Udacity - AWS machine learning course including the Gaussian and Binomial distributions.
