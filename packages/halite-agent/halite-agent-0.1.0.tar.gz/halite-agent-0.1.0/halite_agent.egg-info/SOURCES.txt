@@ -1,0 +1,17 @@
+README.md
+setup.py
+halite/__init__.py
+halite/api/KaggleClient.py
+halite/api/__init__.py
+halite/data/__init__.py
+halite/data/fetch_dataset.py
+halite/data/make_dataset.py
+halite/features/__init__.py
+halite/features/build_features.py
+halite/visualization/__init__.py
+halite/visualization/visualize.py
+halite_agent.egg-info/PKG-INFO
+halite_agent.egg-info/SOURCES.txt
+halite_agent.egg-info/dependency_links.txt
+halite_agent.egg-info/requires.txt
+halite_agent.egg-info/top_level.txt
