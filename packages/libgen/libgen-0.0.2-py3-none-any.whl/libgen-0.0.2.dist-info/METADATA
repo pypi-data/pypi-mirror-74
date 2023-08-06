@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: libgen
+Version: 0.0.2
+Summary: Command line tool for downloading files from library genesis
+Home-page: https://github.com/amalshaji/libgen-cli
+Author: Amal Shaji
+Author-email: amalshajid@tutanota.com
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+Requires-Dist: beautifulsoup4
+Requires-Dist: pprint
+Requires-Dist: argparse
+Requires-Dist: tqdm
+
+UNKNOWN
+
+
