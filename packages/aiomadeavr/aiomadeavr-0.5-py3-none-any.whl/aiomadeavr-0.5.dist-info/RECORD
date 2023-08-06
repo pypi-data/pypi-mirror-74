@@ -1,0 +1,10 @@
+aiomadeavr/__init__.py,sha256=DR3t_lP9Zf5Ru44cRi_KYhXIH6nOfoc5Du9fr2-EhBQ,1372
+aiomadeavr/__main__.py,sha256=C9pJ4hsscGg4VeyZIb6uS4mq75nkPkApN4vlydHqfkE,12643
+aiomadeavr/avr.py,sha256=WR9UObh5BfAepVLdKwHi79t81a-_94bNUDiMvczEH9E,19625
+aiomadeavr/discovery.py,sha256=8tT5IYO8yGnJZ5PH35FrhHWqKSwgR5ky_IUrMUGmZUk,6515
+aiomadeavr/enums.py,sha256=xQg23VhK0376TyOcRQEiasI8u-NHsaXkI9HgyG15PEo,3715
+aiomadeavr-0.5.dist-info/LICENSE,sha256=cOOkMmzTPZEzRv8S1PpWHKVf9eu_R8lsrS_eB50UTMA,1074
+aiomadeavr-0.5.dist-info/METADATA,sha256=Tsyc9Uoi_bkPRUsuyWo1yI_pMIm08MvDY30li7Boq34,9943
+aiomadeavr-0.5.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+aiomadeavr-0.5.dist-info/top_level.txt,sha256=6A8msRaInVSXjGaBZRJzzCUaKjCqBwd_O61w9cnH-Fc,11
+aiomadeavr-0.5.dist-info/RECORD,,
