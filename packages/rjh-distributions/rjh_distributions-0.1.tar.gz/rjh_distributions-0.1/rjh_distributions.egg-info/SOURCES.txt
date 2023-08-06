@@ -1,0 +1,11 @@
+README.md
+setup.py
+rjh_distributions/Binomialdistribution.py
+rjh_distributions/Gaussiandistribution.py
+rjh_distributions/Generaldistribution.py
+rjh_distributions/__init__.py
+rjh_distributions.egg-info/PKG-INFO
+rjh_distributions.egg-info/SOURCES.txt
+rjh_distributions.egg-info/dependency_links.txt
+rjh_distributions.egg-info/not-zip-safe
+rjh_distributions.egg-info/top_level.txt
