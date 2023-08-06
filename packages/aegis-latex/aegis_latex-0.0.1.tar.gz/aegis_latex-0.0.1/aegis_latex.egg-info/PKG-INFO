@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: aegis-latex
+Version: 0.0.1
+Summary: Tools to generate exams
+Home-page: https://github.com/mlares/aegis
+Author: ['Marcelo Lares']
+Author-email: marcelo.lares@unc.edu.ar
+License: MIT
+Description: AEGIS / Academic Exam Generator for Interchange and Shuffe
+        
+        Project by Marcelo Lares (IATE, UNC).  Developed in 2020.
+        
+Keywords: latex
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Topic :: Scientific/Engineering
+Description-Content-Type: text/markdown
