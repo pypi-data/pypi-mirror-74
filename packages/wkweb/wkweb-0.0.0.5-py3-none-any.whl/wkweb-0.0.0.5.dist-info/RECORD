@@ -1,0 +1,11 @@
+web/__init__.py,sha256=kqFLp7ix1Cfou_MmBWBxTlpfnLgnENOS5pIZEc0-C6k,21
+web/base.py,sha256=frWicADhxojw21rc7u8COgiNG6SAZ9_cpmkrOOxqyz0,3334
+web/cli.py,sha256=im0Q2IUpymSWjf08ZWGAwDbeMc8473UnXrAHgJYYB48,222
+web/utils/__init__.py,sha256=kqFLp7ix1Cfou_MmBWBxTlpfnLgnENOS5pIZEc0-C6k,21
+web/utils/base.py,sha256=rKbwo4DsBbzTB-OFlZx9_kYOi6XS_0519CkG3XiAcVo,2025
+wkweb-0.0.0.5.dist-info/LICENSE,sha256=6kbiFSfobTZ7beWiKnHpN902HgBx-Jzgcme0SvKqhKY,1091
+wkweb-0.0.0.5.dist-info/METADATA,sha256=1bV172eu-rMHACJlaVTHOSZc8zfG3Ae6bPLuT2gsHMI,581
+wkweb-0.0.0.5.dist-info/WHEEL,sha256=v8slff5hmCpvciQ3G55d2d1CnOBupjDFJHDE2dUb1Ao,97
+wkweb-0.0.0.5.dist-info/entry_points.txt,sha256=xVrYIH8ixGatd-kF44LsN8o2tItO7avFevS2cAfOIzc,38
+wkweb-0.0.0.5.dist-info/top_level.txt,sha256=Te2Js_nwNom3AyuSoJHnQuEgXipUJ35SsySY2fzfNkI,4
+wkweb-0.0.0.5.dist-info/RECORD,,
