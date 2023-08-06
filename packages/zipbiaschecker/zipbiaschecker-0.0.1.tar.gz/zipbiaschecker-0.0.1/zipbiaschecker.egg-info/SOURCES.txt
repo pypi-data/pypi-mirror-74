@@ -1,0 +1,15 @@
+README.md
+setup.py
+zipbiaschecker/__init__.py
+zipbiaschecker/zipbiaschecker.py
+zipbiaschecker.egg-info/PKG-INFO
+zipbiaschecker.egg-info/SOURCES.txt
+zipbiaschecker.egg-info/dependency_links.txt
+zipbiaschecker.egg-info/top_level.txt
+zipbiaschecker/data/__init__.py
+zipbiaschecker/data/example/__init__.py
+zipbiaschecker/data/original/__init__.py
+zipbiaschecker/data/processed/__init__.py
+zipbiaschecker/images/__init__.py
+zipbiaschecker/tests/__init__.py
+zipbiaschecker/tests/check_bias_test.py
