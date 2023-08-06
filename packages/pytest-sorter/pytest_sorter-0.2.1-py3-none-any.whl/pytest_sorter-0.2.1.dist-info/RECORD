@@ -1,0 +1,10 @@
+pytest_sorter.py,sha256=PqjycSmKEIHHPzYL1mp0_Ozhan7fmf4YcwH_gHHBmyA,5802
+src/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+src/pytest_sorter.py,sha256=GrFM97MRityxe66MJohsQWJGItVa5QtI_c2a17AO8qM,5805
+src/test_sorter.py,sha256=XmWbHpXcD_aZ-UOlrBEPifpieitjWvPyBBELzeFvyJo,2571
+pytest_sorter-0.2.1.dist-info/LICENSE,sha256=KNQTB3Eis3Cw5IITQ5ycKlwQiokZAsNaljOuhfHbvZo,1089
+pytest_sorter-0.2.1.dist-info/METADATA,sha256=VhvXlqzyR5Tcy8IBBhVkKTFpiwL5u1_WedlE2WHOFA8,3449
+pytest_sorter-0.2.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+pytest_sorter-0.2.1.dist-info/entry_points.txt,sha256=wRbMtWF8lIXK2jex_Yb4nMRqQFG2sDpdJhNgyFryqJE,35
+pytest_sorter-0.2.1.dist-info/top_level.txt,sha256=j52rPJFVohc1hISmbwOwlFwpfYh4bj7qM5Qe-71XSTY,14
+pytest_sorter-0.2.1.dist-info/RECORD,,
