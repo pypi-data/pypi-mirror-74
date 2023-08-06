@@ -1,0 +1,5 @@
+0.1.0 2000 Jul.23.Thu: Aalmond!       Package  : Initial Release 
+0.1.0 2000 Jul.23.Thu: vitalStats()   Function : Initial Release 
+0.1.0 2000 Jul.23.Thu: showdfQ()      Function : Initial Release 
+0.1.0 2000 Jul.23.Thu: showOutL()     Function : Initial Release 
+==============================================

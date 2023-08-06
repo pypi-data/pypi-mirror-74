@@ -1,0 +1,36 @@
+Metadata-Version: 1.1
+Name: Aalmond
+Version: 0.1
+Summary: Functions for Dataframe Vital Stats, Outliers Detection, Sectional Data View from Mid, Mid Q1, Mid Q3 of a Dataframe
+Home-page: UNKNOWN
+Author: Manoj S Bhave
+Author-email: manojsbhave@gmail.com
+License: MIT
+Description: v =========== * =========== * =========== * =========== * =========== * =========== v
+        
+        Project : Aalmond!
+        Contents: This file contains three (3) Function Definitions that provides Primary EDA (Exploratory Data Analysis) functionality: 
+        Function: Dataframe Vital Stats, Outliers Detection, Data View from various sections of a DataFrame.
+        
+        1. vitalStats() : Displays Pandas DataFrame Vital Stats, an exended output of seeded describe()
+        2. showdfQ()    : Displays data rows of a Pandas DataFrame selectively from Mid, Mid Q1, Mid Q3 section of a Dataframe
+        3. showOutL()   : Displays and/or Imputes Outlier values, based on IQR Method, of Pandas DataFrame Numeric Column(s) 
+        
+        Usage, Parameter & General Notes documented inside each function as Docstring.
+        
+        ^ =========== * =========== * =========== * =========== * =========== * =========== ^
+        
+        
+        0.1.0 2000 Jul.23.Thu: Aalmond!       Package  : Initial Release 
+        0.1.0 2000 Jul.23.Thu: vitalStats()   Function : Initial Release 
+        0.1.0 2000 Jul.23.Thu: showdfQ()      Function : Initial Release 
+        0.1.0 2000 Jul.23.Thu: showOutL()     Function : Initial Release 
+        ==============================================
+Keywords: Data Science,Data Analysis,EDA,Vital Stats,Outliers,Impute,IQR,Zscore,Sectional Dataframe View
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
