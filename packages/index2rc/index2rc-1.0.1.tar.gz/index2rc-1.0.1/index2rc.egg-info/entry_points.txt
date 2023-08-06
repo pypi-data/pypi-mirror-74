@@ -1,0 +1,3 @@
+[console_scripts]
+index2rc = index2rc:main
+
