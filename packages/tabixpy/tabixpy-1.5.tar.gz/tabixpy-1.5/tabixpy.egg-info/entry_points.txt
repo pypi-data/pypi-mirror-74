@@ -1,0 +1,3 @@
+[console_scripts]
+tabixpy = tabixpy._main:main
+
