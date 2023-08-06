@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+aws-ml-distributions/Binomialdistribution.py
+aws-ml-distributions/Gaussiandistribution.py
+aws-ml-distributions/Generaldistribution.py
+aws-ml-distributions/__init__.py
+aws_ml_distributions.egg-info/PKG-INFO
+aws_ml_distributions.egg-info/SOURCES.txt
+aws_ml_distributions.egg-info/dependency_links.txt
+aws_ml_distributions.egg-info/not-zip-safe
+aws_ml_distributions.egg-info/top_level.txt
