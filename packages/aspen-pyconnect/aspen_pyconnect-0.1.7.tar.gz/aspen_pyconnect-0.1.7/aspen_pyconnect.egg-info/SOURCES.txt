@@ -1,0 +1,12 @@
+MANIFEST.in
+README.md
+setup.py
+aspen_pyconnect/__init__.py
+aspen_pyconnect/aspen.py
+aspen_pyconnect/utils.py
+aspen_pyconnect.egg-info/PKG-INFO
+aspen_pyconnect.egg-info/SOURCES.txt
+aspen_pyconnect.egg-info/dependency_links.txt
+aspen_pyconnect.egg-info/not-zip-safe
+aspen_pyconnect.egg-info/requires.txt
+aspen_pyconnect.egg-info/top_level.txt
