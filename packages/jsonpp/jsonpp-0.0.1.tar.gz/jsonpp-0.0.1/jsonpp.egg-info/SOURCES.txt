@@ -1,0 +1,11 @@
+README.md
+setup.py
+jsonpp/__init__.py
+jsonpp/command_line.py
+jsonpp/jsonpp.py
+jsonpp.egg-info/PKG-INFO
+jsonpp.egg-info/SOURCES.txt
+jsonpp.egg-info/dependency_links.txt
+jsonpp.egg-info/entry_points.txt
+jsonpp.egg-info/requires.txt
+jsonpp.egg-info/top_level.txt
