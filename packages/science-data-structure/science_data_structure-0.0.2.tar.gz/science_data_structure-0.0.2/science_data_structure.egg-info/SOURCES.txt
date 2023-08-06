@@ -1,0 +1,6 @@
+README.md
+setup.py
+science_data_structure.egg-info/PKG-INFO
+science_data_structure.egg-info/SOURCES.txt
+science_data_structure.egg-info/dependency_links.txt
+science_data_structure.egg-info/top_level.txt
