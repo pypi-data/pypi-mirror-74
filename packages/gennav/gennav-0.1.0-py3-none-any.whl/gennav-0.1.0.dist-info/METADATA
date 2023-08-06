@@ -1,0 +1,56 @@
+Metadata-Version: 2.1
+Name: gennav
+Version: 0.1.0
+Summary: Python Package for Robot Navigation Algorithms
+Home-page: https://github.com/ERC-BPGC/gennav
+Author: Electronics and Robotics Club (ERC) BITS Goa
+Author-email: atharvs.twm@gmail.com
+License: MIT
+Project-URL: Bug Reports, https://github.com/ERC-BPGC/gennav/issues
+Project-URL: Source, https://github.com/ERC-BPGC/gennav
+Project-URL: About Us, http://erc-bpgc.github.io/
+Keywords: path planning,robotics,motion planning,navigation,algorithms
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: Natural Language :: English
+Classifier: Topic :: Software Development
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Requires-Python: >=2.7.0
+Description-Content-Type: text/markdown
+Requires-Dist: descartes
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+Requires-Dist: shapely
+
+# GenNav 
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Build Status](https://travis-ci.org/ERC-BPGC/gennav.svg?branch=master)](https://travis-ci.org/ERC-BPGC/gennav)
+[![Language grade: Python](https://img.shields.io/lgtm/grade/python/g/ERC-BPGC/gennav.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/ERC-BPGC/gennav/context:python)
+[![Total alerts](https://img.shields.io/lgtm/alerts/g/ERC-BPGC/gennav.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/ERC-BPGC/gennav/alerts/)
+[![Documentation Status](https://readthedocs.org/projects/gennav/badge/?version=latest)](https://gennav.readthedocs.io/en/latest/?badge=latest)
+
+**Status: Under Development**
+
+A Python Package for Robot navigation algorithms.
+
+## Installation
+
+```bash
+git clone https://github.com/ERC-BPGC/gennav.git
+cd gennav
+python -m pip install .
+```
+
+Go through the [contribution guidelines](./CONTRIBUTION.md) and view the [docs](https://gennav.readthedocs.io/en/latest/index.html) before installing the package. 
+
+
