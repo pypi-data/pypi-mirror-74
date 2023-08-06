@@ -1,0 +1,7 @@
+README.md
+setup.py
+IMG2PPM/__init__.py
+IMG2PPM.egg-info/PKG-INFO
+IMG2PPM.egg-info/SOURCES.txt
+IMG2PPM.egg-info/dependency_links.txt
+IMG2PPM.egg-info/top_level.txt

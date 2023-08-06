@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: IMG2PPM
+Version: 0.0.1
+Summary: A small tool to convert images to a special PPM format
+Home-page: https://pypi.org/project/img2ppm/
+Author: lirc572
+Author-email: e0424619@comp.nus.edu.sg
+License: UNKNOWN
+Description: # IMG2PPM
+        
+        This package allows you to easily convert an image to the PPM format required by BG2020.
+        
+        Usage guide will be released in a later version.
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: Free To Use But Restricted
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.4
+Description-Content-Type: text/markdown
