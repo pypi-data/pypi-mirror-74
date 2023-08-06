@@ -1,0 +1,7 @@
+netbox_kafka_producer/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+netbox_kafka_producer/middleware.py,sha256=sE4pJmBcd60FAYsODcXNcW8c_P3sTwBqig-dvUKyh8Y,5258
+netbox_kafka_producer-1.0.17.dist-info/LICENSE,sha256=fgRbOFDtD-32QMB5D7-6Jj2hq2zVT5U-VmJ9q1Ts9wg,1075
+netbox_kafka_producer-1.0.17.dist-info/METADATA,sha256=mVvlNwr20IEN6i_8C2YSbqpEcFETQsPY7FEqhPvZhXA,1119
+netbox_kafka_producer-1.0.17.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+netbox_kafka_producer-1.0.17.dist-info/top_level.txt,sha256=VGXlNutYWZht7_NjOCCNEcsZY3zhHq2oW_BVLtiEXzQ,22
+netbox_kafka_producer-1.0.17.dist-info/RECORD,,
