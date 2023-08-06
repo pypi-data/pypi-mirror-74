@@ -1,0 +1,6 @@
+include LICENSE
+include README.md
+include requirements.txt
+recursive-include republictime/migrations *
+recursive-include republictime/templates/djangoadmin/republictime *
+recursive-include republictime/views *

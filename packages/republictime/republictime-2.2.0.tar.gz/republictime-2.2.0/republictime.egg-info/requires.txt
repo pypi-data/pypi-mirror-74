@@ -1,0 +1,8 @@
+django
+djangopost
+djangoarticle
+djangoadmin
+djangotags
+djangocomment
+djangotools
+django-taggit
