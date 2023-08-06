@@ -1,0 +1,24 @@
+<table>
+    {% for chunk in rules %}<tr>
+        {% for rule in chunk %}<td>
+            <a href="#{{ rule['name'] }}">{{ rule['name'] }}</a>
+        </td>{% endfor %}
+    </tr>
+    {% endfor %}
+</table>
+
+
+{% for chunk in rules %}
+{% for rule in chunk %}
+<a name="{{ rule['name'] }}" />
+
+#### {{ rule['name'] }}
+
+{{ rule['description'] }}
+```python
+{{ rule['code'] }}
+```
+Aliases:
+{{ rule['aliases'] }}
+{% endfor %}
+{% endfor %}
