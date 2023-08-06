@@ -1,0 +1,8 @@
+tesseract_table_preprocessor/__init__.py,sha256=hL-1fP3FAr1UwQDcCs-_K5XqXT3NxOvAYFxbgiMgz9g,1297
+tesseract_table_preprocessor/model.py,sha256=zXQHS-l6Krgv0lV_qhk_fvNcJzF6c6dVEmeZzuUht2Q,1370
+tesseract_table_preprocessor/state_dict.pt,sha256=rqV8uGs5I-shOZAjU1BTcX7hi26Oi3I62bpfBNlN_Kw,22684
+tesseract_table_preprocessor-0.0.1.dist-info/LICENSE.txt,sha256=8CwKJLR9jWOayk4kQIpJPmaCRqTXffEj0cZxPrFONx4,1061
+tesseract_table_preprocessor-0.0.1.dist-info/METADATA,sha256=TFFi7Kjvf5F22QY7ueOEKr8aNYKjlsc7v458d3qX2xU,654
+tesseract_table_preprocessor-0.0.1.dist-info/WHEEL,sha256=CbUdLTqD3-4zWemf83rgR_2_MC4TeXw9qXwrXte5w4w,92
+tesseract_table_preprocessor-0.0.1.dist-info/top_level.txt,sha256=jhnUUDq_sF8mXA-Po8-0fEZrfqh5PMaBXbAWCvhZbTg,29
+tesseract_table_preprocessor-0.0.1.dist-info/RECORD,,
