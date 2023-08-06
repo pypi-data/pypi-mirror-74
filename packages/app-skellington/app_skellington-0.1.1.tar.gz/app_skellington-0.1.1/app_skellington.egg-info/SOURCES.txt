@@ -1,0 +1,16 @@
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+app_skellington/__init__.py
+app_skellington/_bootstrap.py
+app_skellington/_util.py
+app_skellington/app_container.py
+app_skellington/cfg.py
+app_skellington/cli.py
+app_skellington/log.py
+app_skellington.egg-info/PKG-INFO
+app_skellington.egg-info/SOURCES.txt
+app_skellington.egg-info/dependency_links.txt
+app_skellington.egg-info/requires.txt
+app_skellington.egg-info/top_level.txt

@@ -1,0 +1,74 @@
+app_skellington
+===============
+Application framework for Python, features include:
+ - Pain-free multi-level command menu: Expose public class methods as commands available to user.
+ - Simple to define services and automatic dependency injection based on name (with custom invocation as an option). \*WIP
+ - INI-style config and and validation (provided through ConfigObj).
+ - Colored logging (provided through colorlog)
+ - Works on Linux, Windows, and Mac.
+
+Principles:
+ - Lend to creating beautiful, easy to read and understand code in the application.
+ - Minimize coupling of applications to this framework.
+ - Compatable with Linux, Windows, and Mac. Try to be compatible as possible otherwise.
+ - Try to be compatible with alternate Python runtimes such as PyPy and older python environments. \*WIP
+
+Application Configuration
+-------------------------
+Site configurations are supported through ConfigObj. There is a config.spec
+in the src directory which is a validation file; it contains the accepted
+parameter names, types, and limits for configurable options in the
+application which is built on app_skellington. The format is multi-level .ini syntax.
+
+Reference the ConfigObj documentation for config.ini and config.spec 
+format. See:
+
+ - https://configobj.readthedocs.io/en/latest/configobj.html#the-config-file-format
+ - https://configobj.readthedocs.io/en/latest/configobj.html#validation
+
+Config files (config.ini) are created if they don't exist. The
+file always contains the full specification of parameters; i.e. even default
+parameters are added into the config file.
+
+Linux:
+  
+/home/\<user\>/.config/\<app_name\>/config.ini
+  
+/home/\<user\>/.cache/\<app_name\>/log/\<app_name\>.log
+
+Windows:
+  
+C:\\Users\\\<user>\\\<app_name\>\\Local\\\<app_name\>\\config.ini
+  
+C:\\Users\\\<user>\\\<app_name\>\\Local\\\<app_name\>\\Logs\\\<app_name\>.log
+
+Application configuration can be overridden ad-hoc through the --config <filename>
+argument.
+
+Debug - Turn on Logging
+-----------------------
+Set 'APPSKELLINGTON_ENABLE_LOGGING' environment variable to any value which turns
+on AppSkellington-level logging. For example,
+
+    APPSKELLINGTON_DEBUG=1 <executable>
+
+or
+
+    export APPSKELLINGTON_DEBUG=1
+    <executable>
+
+Tests
+-----
+Tests are a WIP. Recommendation is to run 'pytest' in the 'tests' directory.
+
+License
+-------
+I'm releasing this software under one of the most permissive
+licenses, the MIT software license. This applies to this source repository
+and all files within it.
+
+Notes
+-----
+See official website: https://zavage-software.com
+Please report bugs, improvements, or feedback!
+
