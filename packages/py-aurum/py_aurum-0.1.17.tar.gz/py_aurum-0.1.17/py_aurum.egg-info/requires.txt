@@ -1,0 +1,5 @@
+asyncio
+aiohttp
+async_timeout
+requests
+lxml
