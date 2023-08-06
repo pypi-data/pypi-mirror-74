@@ -1,0 +1,13 @@
+delairstack_cli/__init__.py,sha256=WFGF1DQwIuFyj8OKIQL-Ntpxega_U1Qq7P0_apTuMhw,66
+delairstack_cli/analytics.py,sha256=ctuBQ7M0lx_bTb4iW_3lKhMjoF1l7BhBrMEKvmQow78,14320
+delairstack_cli/config.py,sha256=PfrvJ4VrdplGHOJtlV-TZmd5V3OvOSnjjz4pekp76Jc,5284
+delairstack_cli/credentials.py,sha256=Kzj6mddrAGZ18bOu0KkZB1rgC2lmpo516wifMWEQ3aY,3159
+delairstack_cli/main.py,sha256=1Ogh0SldLkwPYHIosiUMhtXTU_XDX_4i6jSmWb-7AfQ,533
+delairstack_cli/products.py,sha256=xm2BTP-jV-IL1UeJ2hBVMG8f0ynUr5NO_-2i7tlODos,5597
+delairstack_cli/sdk.py,sha256=4WrFddQ8qXKOObwacT_r7ZZpuC9XiQpLjDY9LfdIvdo,645
+delairstack_cli/share/analytic_schema.yaml,sha256=lt4N20yKmQh63X-uw_g_EU-f3l3m3yahjmIiCBXN9X8,2849
+delairstack_cli/utils.py,sha256=mYDmg1ocRHpB8bl49a09HHyAYxA57tZBU7vfrYXTeww,1725
+delairstack_cli-0.3.0.dist-info/entry_points.txt,sha256=O4qjar_dx3cf_CYS7-fhdIL2ecU3uFF_ZS8rO5RHQuQ,56
+delairstack_cli-0.3.0.dist-info/WHEEL,sha256=xSvaL1DM8LOHfdyo0cCcwjZu1tC6CnCsRGWUgazvlbM,83
+delairstack_cli-0.3.0.dist-info/METADATA,sha256=fDNASHnBdxjlyyQZ8U0OBcp6NUpsS7g4zqBD0hASN1E,4964
+delairstack_cli-0.3.0.dist-info/RECORD,,
