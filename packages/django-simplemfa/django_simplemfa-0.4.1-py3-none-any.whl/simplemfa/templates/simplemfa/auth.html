@@ -1,0 +1,87 @@
+{% extends "simplemfa/mfa_base.html" %}
+{% load static %}
+
+{% block head %}
+    {% if not request.user.is_authenticated %}
+        <script type="text/javascript">
+            window.location = "{% url 'login' %}";
+        </script>
+    {% endif %}
+{% endblock %}
+
+{% block content %}
+              <header>
+                <h2>MFA Verification</h2>
+              </header>
+                {% if form.errors %}
+                    {% for field, errors in form.errors.items %}
+                        {% for error in errors %}
+                            <p style="color:red;text-align:center;margin-bottom: 5px;font-weight:400;">* {{ error }}</p>
+                        {% endfor %}
+                    {% endfor %}
+                {% endif %}
+        {% if mfa_code_sent %}
+              <!-- Form -->
+              <form action="{% url 'simplemfa:mfa-login' %}" method="post">
+                  <input type="hidden" name="next" value="{{ next|default:"/" }}">
+                  <input type="hidden" name="user_id" value="{{ request.user.id }}">
+                  {% csrf_token %}
+                <div>
+                    <label for="id_auth_code">A code has been sent to you. It may take a few minutes to arrive. When it does, enter it here:</label>
+                  <input id="id_auth_code" type="password" name="auth_code" placeholder="Verification Code" required>
+                </div>
+                  <div>
+                    <label>
+                        <input id="id_trusted_device" name="trusted_device" value="true" type="checkbox">
+                        Remember this device for {{ trusted_device_days|default:"7" }} days
+                    </label>
+                </div>
+
+                <div>
+                  <button type="submit">Verify Code and Log In</button>
+                </div>
+              </form>
+              <!-- End Form -->
+
+              <footer>
+                <p>
+                      Didn't get your code? <a href="{{ request_url }}">Request a new one</a>.
+                </p>
+                  <br />
+                <p>
+                    Not ready to authenticate? <a href="{% url 'logout' %}">Log out</a>.
+                </p>
+              </footer>
+        {% else %}
+            <!-- Form -->
+              <form action="{% url 'simplemfa:mfa-request' %}" method="get">
+                  <input type="hidden" name="next" value="{{ next|default:'/' }}">
+                  <input type="hidden" name="user_id" value="{{ request.user.id }}">
+                  {% csrf_token %}
+                Please select a way to receive your code:<br />
+                    <label>
+                        <input name="sent_via" value="EMAIL" checked="" type="radio">
+                        Email to {{ sanitized_email }}
+                    </label>
+                    {% if sanitized_phone %}
+                        <label>
+                            <input name="sent_via" value="TEXT" checked="" type="radio">
+                            Text Message to {{ sanitized_phone }}
+                        </label>
+                        <label>
+                            <input name="sent_via" value="PHONE" checked="" type="radio">
+                            Phone Call to {{ sanitized_phone }}
+                        </label>
+                    {% endif %}
+                  <div>
+                    <button type="submit">Request Code</button>
+                </div>
+              </form>
+              <!-- End Form -->
+                <footer>
+                    <p>
+                        Not ready to authenticate? <a href="{% url 'logout' %}">Log out</a>.
+                    </p>
+              </footer>
+        {% endif %}
+{% endblock %}
