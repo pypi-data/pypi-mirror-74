@@ -1,0 +1,26 @@
+Metadata-Version: 1.1
+Name: pydatastructures
+Version: 0.2.2
+Summary: This is a python library to implement data structures and algorithms
+Home-page: https://github.com/JuanPabloMontoya271/pydatastructures.git
+Author: Juan Pablo Montoya
+Author-email: A01251887@itesm.mx
+License: MIT
+Download-URL: https://github.com/JuanPabloMontoya271/pydatastructures/archive/v_02.2.tar.gz
+Description: # python-datastructures
+        
+        This is a python package for implementing datastructures and their algorithms. This is all written in python. To install run the following command:
+        <code>
+        pip install pydatastructures 
+        </code>
+        
+Keywords: python,data structures
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
