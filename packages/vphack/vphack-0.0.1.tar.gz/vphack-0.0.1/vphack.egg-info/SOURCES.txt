@@ -1,0 +1,11 @@
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+bin/vphackez
+bin/vphackez-a
+vphack.egg-info/PKG-INFO
+vphack.egg-info/SOURCES.txt
+vphack.egg-info/dependency_links.txt
+vphack.egg-info/top_level.txt
+vphack/src/mainhack.py
