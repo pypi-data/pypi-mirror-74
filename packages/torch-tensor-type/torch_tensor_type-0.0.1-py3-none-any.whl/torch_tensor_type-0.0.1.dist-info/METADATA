@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: torch-tensor-type
+Version: 0.0.1
+Summary: Practical Pipelining for pyTorch
+Home-page: https://github.com/HiiGHoVuTi/TorchTensorTypes
+Author: Maxime
+Author-email: himyundevacc@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+
+# Torch Tensor Types
+
+This package is a Quality of Life improvement when prototyping and processing Tensor objects from the pyTorch library.
+The TensorType class is a Pipeline for preprocessing tensors automatically, and include multiple utility methods.
+You can add TensorTypes together to have a longer preprocessing pipeline.
+
+For example, this code 
+```py
+fake_image = model(torch.unsqueeze(real_image, 0).cuda()).cpu().detach().numpy()[0]
+```
+can be replaced by
+```py
+fake_image = SingleDisplayableImage<<model(ModelInputFormat<<real_image)
+```
+
