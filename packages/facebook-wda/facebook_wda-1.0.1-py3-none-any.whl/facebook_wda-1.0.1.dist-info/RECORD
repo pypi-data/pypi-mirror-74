@@ -1,0 +1,13 @@
+wda/__init__.py,sha256=4SKSHSTwocKtfd-HV6DMprIqML3ZPkNs48EBKsFFAs0,46887
+wda/exceptions.py,sha256=V0JhZcIFVC2Ej1HgMkfGX9bGc7adypJRI8sL7kYhXXU,726
+wda/requests_usbmux.py,sha256=N33MSUEMI6X6QX5sKrIVJxMWF-3nnN7PImuClRU9U6Y,3294
+wda/usbmux.py,sha256=2seeoQBQDw9zVP2Zq5Pp38lAerDnk4X9oLphMSzVoAo,7885
+wda/utils.py,sha256=ZNq7IdMNOlTThjDZbVsXJAjjqZPPLxwTSKdbWbeF_yQ,559
+wda/xcui_element_types.py,sha256=vO6-TpBW9SYgtPKFxYKY1nwA75HkXTUu4x0Dpb9lD8s,1458
+facebook_wda-1.0.1.dist-info/AUTHORS,sha256=uD75N4mqjN4YvPDhusqAPKkIF2k0JjZUzbblDz2AQs8,59
+facebook_wda-1.0.1.dist-info/LICENSE,sha256=ZMEe2NsQRHHzs985owESOnlS7Hkci8_wxLM7J3ZKY2Y,1077
+facebook_wda-1.0.1.dist-info/METADATA,sha256=iX3rZ9ZjqWw7ynFE1-OWhD2hPnVRS0On8d9Zz3b9R_4,1049
+facebook_wda-1.0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+facebook_wda-1.0.1.dist-info/pbr.json,sha256=gUvlSzLVsK2gRAdUzkKJFtwWEwED9g69UhVi3_nSvsk,47
+facebook_wda-1.0.1.dist-info/top_level.txt,sha256=PxpdnR19y7TeXvmiEMyfstCt728--FuQz8a5oQlsDAE,4
+facebook_wda-1.0.1.dist-info/RECORD,,
