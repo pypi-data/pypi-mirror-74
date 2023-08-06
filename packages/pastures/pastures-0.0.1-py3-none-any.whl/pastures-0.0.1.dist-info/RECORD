@@ -1,0 +1,11 @@
+pastures/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pastures/linked_list.py,sha256=I1PTvQa-rB7PirE77E6Q3aJRtaW-WO4-huLIUjgYujI,1053
+pastures/node.py,sha256=gvm585QjbN3AhSMNkep-ID6uM5zvA5XfkER8k9hdYL4,291
+pastures/queue.py,sha256=9WFe831UlRsO9dD87U3gOupo68E5jYnq9OoXT_Dq1Xw,1366
+pastures/stack.py,sha256=crVzjuTJxmzZdMsCj9UG6ArBPrdxFi8HH_vPAd-sJDs,968
+pastures/tree.py,sha256=Pwbp-huxic83Pbq2rdRx9LrlX3eoA-C00zfm-eoMBGA,801
+pastures-0.0.1.dist-info/LICENSE,sha256=7EI8xVBu6h_7_JlVw-yPhhOZlpY9hP8wal7kHtqKT_E,1074
+pastures-0.0.1.dist-info/METADATA,sha256=vnuqRxK1jIiPztuMRYxAFR9PB0t0w8os3rCwMyniElA,531
+pastures-0.0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+pastures-0.0.1.dist-info/top_level.txt,sha256=nsN2nozWxTmihYU31FKvWdwB0NM-ckcTD2W_xvBz-vk,9
+pastures-0.0.1.dist-info/RECORD,,
