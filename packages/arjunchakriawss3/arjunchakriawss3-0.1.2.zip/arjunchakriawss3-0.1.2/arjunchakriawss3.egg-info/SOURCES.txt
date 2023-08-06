@@ -1,0 +1,9 @@
+setup.py
+arjunchakriawss3/__init__.py
+arjunchakriawss3/__main__.py
+arjunchakriawss3.egg-info/PKG-INFO
+arjunchakriawss3.egg-info/SOURCES.txt
+arjunchakriawss3.egg-info/dependency_links.txt
+arjunchakriawss3.egg-info/entry_points.txt
+arjunchakriawss3.egg-info/requires.txt
+arjunchakriawss3.egg-info/top_level.txt
