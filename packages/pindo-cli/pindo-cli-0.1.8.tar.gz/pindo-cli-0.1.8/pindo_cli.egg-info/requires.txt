@@ -1,0 +1,8 @@
+Click==7.0
+requests==2.20.0
+click-spinner==0.1.8
+
+[test]
+pytest==3.10.1
+pytest-flake8==1.0.6
+pytest-cov==2.6.1
