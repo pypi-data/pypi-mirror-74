@@ -1,0 +1,9 @@
+README.md
+setup.py
+wal_g810.py
+wal_g810.egg-info/PKG-INFO
+wal_g810.egg-info/SOURCES.txt
+wal_g810.egg-info/dependency_links.txt
+wal_g810.egg-info/entry_points.txt
+wal_g810.egg-info/requires.txt
+wal_g810.egg-info/top_level.txt
