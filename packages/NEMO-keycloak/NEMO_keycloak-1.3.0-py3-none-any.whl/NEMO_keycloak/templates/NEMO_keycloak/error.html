@@ -1,0 +1,15 @@
+<html>
+<head></head>
+<body>
+{% if messages %}
+	<ul class="messages">
+		{% for message in messages %}
+			<li	{% if message.tags %} class="{{ message.tags }}"{% endif %}>{{ message }}</li>
+		{% endfor %}
+	</ul>
+{% endif %}
+<form action="{% url 'keycloak_login' %}" method="get">
+	<button type="submit">Login Again</button>
+</form>
+</body>
+</html>

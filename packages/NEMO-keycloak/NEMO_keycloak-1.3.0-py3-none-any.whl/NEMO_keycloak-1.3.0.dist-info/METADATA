@@ -1,0 +1,79 @@
+Metadata-Version: 2.1
+Name: NEMO-keycloak
+Version: 1.3.0
+Summary: Install Keycloak plugin for NEMO
+Home-page: https://nemo.prometheuscomputing.com
+Author: Prometheus Computing LLC
+Author-email: nemo@prometheuscomputing.com
+License: MIT
+Keywords: NEMO,KEYCLOAK
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Requires-Python: >=3.6
+Description-Content-Type: text/x-rst
+Requires-Dist: NEMO
+Requires-Dist: python-jose
+
+===============
+NEMO Keycloak
+===============
+
+NEMO plugin to add Keycloak support to your NEMO instance.
+
+http://www.keycloak.org/
+
+Keycloak
+============
+The following example are using the docker image.
+
+start Keycloak
+
+    docker run --name keycloak jboss/keycloak:10.0.2
+
+add admin user
+
+    docker exec -it keycloak /opt/jboss/keycloak/bin/add-user-keycloak.sh -u admin
+
+in Keycloak, add your Realm "NEMO" then create a client "nemo-client", select confidential access-type, set the 'Root URL' to your nemo URL (without trailing slash) and set the 'Valid Redirect URIs' to '/login-complete'
+add users in Keycloak with matching username in NEMO
+
+
+Usage
+============
+install library
+
+    pip install NEMO-keycloak
+
+add to your INSTALLED_APPS:
+
+    'NEMO_keycloak',
+
+add middleware:
+
+    'NEMO_keycloak.middleware.BaseKeycloakMiddleware',
+
+add backend:
+
+    AUTHENTICATION_BACKENDS = ['NEMO_keycloak.auth.backends.KeycloakAuthorizationCodeBackend']
+
+add to context_processors:
+
+    'NEMO.context_processors.show_logout_button',
+
+add (if needed based on your keycloak config):
+
+    KEYCLOAK_TOKEN_USERNAME_FIELD = "preferred_username"
+
+in NEMO, run:
+
+    python manage.py migrate NEMO_Keycloak
+
+    python manage.py keycloak_create_realm <REALM_name> <server_URL> <client_id> <secret>
+
+Known Issue
+============
+Keycloak has a known issue with audience, to fix it update your client scope "roles" and add a mapper type audience with nemo client name in it
+
