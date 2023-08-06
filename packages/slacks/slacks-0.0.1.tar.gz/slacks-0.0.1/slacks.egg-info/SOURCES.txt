@@ -1,0 +1,9 @@
+README.md
+setup.py
+slacks/__init__.py
+slacks/custom_exceptions.py
+slacks/slacks.py
+slacks.egg-info/PKG-INFO
+slacks.egg-info/SOURCES.txt
+slacks.egg-info/dependency_links.txt
+slacks.egg-info/top_level.txt
