@@ -1,0 +1,23 @@
+# === Amethyst configuration file. ===
+# All values are integers from 1 to 8, in order to configure Amethyst via an Amethyst module.
+
+# Size of the Amethyst window (width and height), relative to the lower monitor dimension
+# (monitor height if you use a horizontal monitor, or monitor width if you use a vertical monitor).
+# [1=20%, 2=30%, 3=40%, 4=50%, 5=60%, 6=70%, 8=90%, 9=100%]
+window_size: 4
+
+# The outer size of the radial menu, relative to the window width.
+# [1=30%, 2=40%, 3=50%, 4=60%, 5=70%, 6=80%, 7=90%, 8=100%]
+outer_size: 8
+
+# The inner size of the radial menu, relative to the outer size.
+# [1=0%, 2=10%, 3=20%, 4=30%, 5=40%, 6=50%, 7=60%, 8=70%]
+inner_size: 3
+
+# The delay between two keys hits to be considered as a unique multi-keys input
+# [1=30ms, 2=60ms, 3=90ms, 4=120ms, 5=150ms, 6=180ms, 7=210ms, 8=240ms]
+key_delay: 4
+
+# The color palette to use
+# [1=solarized dark]
+color_scheme: 1
