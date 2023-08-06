@@ -1,0 +1,10 @@
+ffxivweather/__init__.py,sha256=TgMFTgR6boD5npZJAhKWUU-0Y96AowBx39LRKzbqGSM,55
+ffxivweather/forecaster.py,sha256=eq8qCbjmBPQK-dDgSV4mdPDA5g9Y6BZc5n6MUmMk-vE,6176
+ffxivweather/lang_kind.py,sha256=DIaBzRNSGVhiPP-MvNOCksElVuxdeio4FSdodlVNUwg,173
+ffxivweather/store/terriTypes.json,sha256=3zbifLE4c9h18fecGGP9jdgJRqcx5FbyfgUhc6YP8v4,138144
+ffxivweather/store/weatherKinds.json,sha256=QD2VOpcBK0Km35wDDBrKXdGTDCFecFtGWGlVKm2FgV4,17367
+ffxivweather/store/weatherRateIndices.json,sha256=jOxT1mxefawU5zCP33lxzKIVNRuOaptSnlD-gYRnS44,10823
+ffxivweather-1.0.0.dist-info/METADATA,sha256=_uqWGqppG6Va0KKBoS67XHip1Pu0sZhReG7_WYIzkOU,3105
+ffxivweather-1.0.0.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+ffxivweather-1.0.0.dist-info/top_level.txt,sha256=IEldIaKDqwBnTHQ42uSzWiYOiu9NV1nLpUnb1f0wnE0,13
+ffxivweather-1.0.0.dist-info/RECORD,,
