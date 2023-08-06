@@ -1,0 +1,13 @@
+marcotools/__init__.py,sha256=ZY7sfHfkHm4c14_wyMByvXrjLZ5xw8wt5PA-cMwFsGE,197
+marcotools/filestools.py,sha256=Zc7NgUW6Ela6hXZbj8AtYtoLeAZuzqi-XWRApbmUrcc,2408
+marcotools/generaltools.py,sha256=D7HPhbuCvcAsZLbr5HntYPtYbK2qZ3RKSUpru12O6m4,1272
+marcotools/logtools.py,sha256=u0Ack5Q_FYFdbbVVJS2sUadeifNMfNpv3_cSvZJtEOs,714
+marcotools/nettools.py,sha256=2n_k-qjWocdNnMpyt3iScj6f7fV3N5maxF80yCZ1xLo,6526
+marcotools/retools.py,sha256=1WUZzRh02F7BiDk_3IDYo1EVCmAH0mrcseuJNxVVc2s,2843
+marcotools/telegrambot.py,sha256=8GH64_fAwZuigLKVJe4fDjQhZ-vPx5dxG_vztqYCWZA,4537
+marcotools/schedule/__init__.py,sha256=I3ZOdAdvVyKdJc_kP0x1DEL4MK6Pk8S4f1XiulVAF90,20244
+marcotools-0.0.1.dist-info/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+marcotools-0.0.1.dist-info/METADATA,sha256=dOywUv4HWCdCyEXAaGKU0SAWhfV6rXvLMqOT306GafU,490
+marcotools-0.0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+marcotools-0.0.1.dist-info/top_level.txt,sha256=xc3KDDSRRPPPUnhDDvhtuAtTMxoymOib4Pg65XMRJ18,11
+marcotools-0.0.1.dist-info/RECORD,,
