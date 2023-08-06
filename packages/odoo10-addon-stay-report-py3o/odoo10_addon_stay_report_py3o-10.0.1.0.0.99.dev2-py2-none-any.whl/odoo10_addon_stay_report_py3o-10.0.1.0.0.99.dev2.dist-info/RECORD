@@ -1,0 +1,12 @@
+odoo10_addon_stay_report_py3o-10.0.1.0.0.99.dev2-nspkg.pth,sha256=3hYKiD3YF7y9FeWjACJq1b9R_GVRzuQo9SAZlvZgumg,1672
+odoo/addons/stay_report_py3o/README.rst,sha256=V1btuYBqqttJWEB5UzPOWTkR3eO6jxkueq4CL5LGvRM,1271
+odoo/addons/stay_report_py3o/__init__.py,sha256=O9CT1B2F-cVB8elT0EoCJbgkcffjvlmqteqavs4giDg,25
+odoo/addons/stay_report_py3o/__manifest__.py,sha256=pQ_xOQcRlS0iD-8bvR53vrTwtKa0jvZxg1qce07AIZY,594
+odoo/addons/stay_report_py3o/report.xml,sha256=EqFUMLWe3Q9GD0RbTyZIcKHOAuBsRFVbESmfJAcxL5w,397
+odoo/addons/stay_report_py3o/stay_journal.odt,sha256=cAG8GUVCcBWjVhmxthtO52vHJ13Ru5uFJMCaYa3AeNk,19825
+odoo/addons/stay_report_py3o/static/description/icon.png,sha256=6xBPJauaFOF0KDHfHgQopSc28kKvxMaeoQFQWZtfZDo,9455
+odoo10_addon_stay_report_py3o-10.0.1.0.0.99.dev2.dist-info/METADATA,sha256=TAiQsTm1ayksHNSsoFCcTmR_XgiCKRWZPdWsJbQqjSo,1877
+odoo10_addon_stay_report_py3o-10.0.1.0.0.99.dev2.dist-info/WHEEL,sha256=Ph_z28wTcU7HnQwSQ6yCQ-zkcGK4h4ehDfP8b6UoHVE,92
+odoo10_addon_stay_report_py3o-10.0.1.0.0.99.dev2.dist-info/namespace_packages.txt,sha256=igDP6S4ywc6jzcMqzrKZpRtAUXrS-iYaA_Hu1EtlI48,17
+odoo10_addon_stay_report_py3o-10.0.1.0.0.99.dev2.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo10_addon_stay_report_py3o-10.0.1.0.0.99.dev2.dist-info/RECORD,,
