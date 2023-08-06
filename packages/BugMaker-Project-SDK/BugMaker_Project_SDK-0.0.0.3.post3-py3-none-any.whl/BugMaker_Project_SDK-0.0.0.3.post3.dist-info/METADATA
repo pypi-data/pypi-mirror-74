@@ -1,0 +1,49 @@
+Metadata-Version: 2.1
+Name: BugMaker-Project-SDK
+Version: 0.0.0.3.post3
+Summary: Develop Package for BugMaker-Project,By BugMaker-Project.
+Home-page: https://pypi.org/project/BugMaker_Project_SDK/
+Author: BM-Business-Dev-Liu
+Author-email: Liubaolin20070125@outlook.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: Microsoft 
+Requires-Python: >=3.3
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: pygame (<2)
+Requires-Dist: requests
+
+## SDKpackage by BugMaker-project
+Just hobby.Open-Source.You can use at everywhere.
+### import mode
+```python
+from BugMaker_Project_SDK import *
+#or
+from BugMaker_Project_SDK import xxx
+#xxx is package's name.Now they are:game,sort,search,bilibiliApi
+#or 
+import BugMaker_Project_SDK.xxx
+#xxx is package's name.Now they are:game,sort,search,bilibiliApi
+```
+### upgrade note
+- 0.0.0.1.post1 Just Test
+- 0.0.0.1.post2 rewrite sort
+- 0.0.0.2.post1 delete Sorting package
+- 0.0.0.2.post2 just debug
+- 0.0.0.2.post3 upgrade game&exportData
+- 0.0.0.2.post4 debug of init.
+- 0.0.0.2.post5 rewrite game.tools.isActionTime method(classmethod)
+- 0.0.0.2.post6 Delete exportData(It's not same in different code)
+- 0.0.0.2.post7 Add 2 sorts.
+- 0.0.0.2.post8 Add Search and rewrite
+- 0.0.0.2.post9 Add License in code.
+- 0.0.0.2.post11 Nothing.Just is end of Version:0.0.0.2...
+- 0.0.0.3.post1 Update Package->bilibiliApi(From our product for Gejing-Cup)
+- 0.0.0.3.post2 Reset setup.py(Add require:requests)
+- 0.0.0.3.post3 Rewrite init.py.Remove All of:"from .package import *".
+
+
