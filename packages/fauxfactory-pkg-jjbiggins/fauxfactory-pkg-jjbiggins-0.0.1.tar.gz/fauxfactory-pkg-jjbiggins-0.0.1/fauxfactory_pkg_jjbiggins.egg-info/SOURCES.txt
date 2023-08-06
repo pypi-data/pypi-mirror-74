@@ -1,0 +1,6 @@
+README.md
+setup.py
+fauxfactory_pkg_jjbiggins.egg-info/PKG-INFO
+fauxfactory_pkg_jjbiggins.egg-info/SOURCES.txt
+fauxfactory_pkg_jjbiggins.egg-info/dependency_links.txt
+fauxfactory_pkg_jjbiggins.egg-info/top_level.txt
