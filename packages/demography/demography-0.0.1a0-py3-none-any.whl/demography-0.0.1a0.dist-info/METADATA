@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: demography
+Version: 0.0.1a0
+Summary: Demographic mapping based on UK ONS & census data.
+Home-page: https://github.com/markdouthwaite/demography
+Author: Mark Douthwaite
+Author-email: mark@douthwaite.io
+License: MIT
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Provides-Extra: tests
+Requires-Dist: pytest ; extra == 'tests'
+Requires-Dist: markdown ; extra == 'tests'
+Requires-Dist: black ; extra == 'tests'
+
+
+This package implements a simple mechanism for quickly loading demographic data based
+on post codes. This is currently only implemented for the UK.
+
+
