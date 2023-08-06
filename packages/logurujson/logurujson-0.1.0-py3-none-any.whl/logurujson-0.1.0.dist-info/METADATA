@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: logurujson
+Version: 0.1.0
+Summary: 
+Author: Amit Oren
+Author-email: amit@panorays.com
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: loguru (>=0.5.1,<0.6.0)
