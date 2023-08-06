@@ -1,0 +1,6 @@
+include lapymod/configs/cosmetics.json
+include lapymod/configs/emotes.json
+include lapymod/configs/roles.json
+include lapymod/configs/stickers.json
+include requirements.txt
+include LICENSE
