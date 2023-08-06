@@ -1,0 +1,10 @@
+dash
+plotly
+jupyter_dash
+dash_bootstrap_components
+pandas
+dash_table
+dash_core_components
+dash_html_components
+ppscore
+numpy
