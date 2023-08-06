@@ -1,0 +1,12 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+__init__.py
+setup.py
+pybettor/convert_odds.py
+pybettor/implied_odds.py
+pybettor/implied_prob.py
+pybettor.egg-info/PKG-INFO
+pybettor.egg-info/SOURCES.txt
+pybettor.egg-info/dependency_links.txt
+pybettor.egg-info/top_level.txt
