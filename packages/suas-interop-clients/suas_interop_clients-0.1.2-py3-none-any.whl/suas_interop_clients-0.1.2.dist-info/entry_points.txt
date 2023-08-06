@@ -1,0 +1,3 @@
+[console_scripts]
+interop=interop_clients.cli:main
+
