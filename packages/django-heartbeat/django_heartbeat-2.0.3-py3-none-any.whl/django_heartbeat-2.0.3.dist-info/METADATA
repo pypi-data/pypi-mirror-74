@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: django-heartbeat
+Version: 2.0.3
+Summary: Your project's heartbeat/healthcheck and dependency status
+Home-page: https://github.com/pbs/django-heartbeat/
+Author: PBS Core Services Test Engineers
+Author-email: andrei.pradan@3pillarglobal.com
+License: UNKNOWN
+Keywords: django heartbeat health check dependency services status
+Platform: UNKNOWN
+Requires-Dist: Django (>=1.6)
+Requires-Dist: psutil (==5.7.0)
+
+A simple reusable app that checks and lists various information about your project and its dependencies
+
+
