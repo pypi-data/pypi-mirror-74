@@ -1,0 +1,52 @@
+[tool.black]
+line-length = 79
+include = '\.pyi?$'
+
+[tool.isort]
+# Make isort agree with black
+multi_line_output = 3
+include_trailing_comma = true
+# GDAL is an option and we don't install options (because GDAL is hard to
+# install), but we still want isort to be right.
+known_third_party = ["osgeo"]
+
+[tool.poetry]
+name = "suas-interop-clients"
+version = "0.1.2"
+description = "Alternative interop clients for AUVSI SUAS"
+authors = ["NC State Aerial Robotics Club <aerialroboticsclub@ncsu.edu>"]
+# We don't strictly follow Poetry standards for historical reasons. If we did
+# this project would be called `suas_interop_clients`.
+packages = [
+    { include = "interop_clients" },
+]
+
+[tool.poetry.dependencies]
+python = "^3.6"
+
+click = "^6.7"
+pillow = "^7.1.2"
+requests = "^2.22.0"
+typing-extensions = { version = "^3.7.4", markers = "python_version < '3.8'" }
+
+# Optional dependencies
+GDAL = { version = "^3.1.0", optional = true }
+
+[tool.poetry.extras]
+geo = ["GDAL"]
+
+[tool.poetry.dev-dependencies]
+black = "^19.3b0"
+flake8 = "^3.7.9"
+flake8-bugbear = "^20.1.0"
+isort = "^4.3.21"
+mypy = "^0.761"
+pytest = "^3.0"
+tox = "^3.15.2"
+
+[tool.poetry.scripts]
+interop = "interop_clients.cli:main"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
