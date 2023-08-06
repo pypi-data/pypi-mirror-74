@@ -1,0 +1,7 @@
+README.md
+setup.py
+intrinsic_dimensionality.egg-info/PKG-INFO
+intrinsic_dimensionality.egg-info/SOURCES.txt
+intrinsic_dimensionality.egg-info/dependency_links.txt
+intrinsic_dimensionality.egg-info/requires.txt
+intrinsic_dimensionality.egg-info/top_level.txt
