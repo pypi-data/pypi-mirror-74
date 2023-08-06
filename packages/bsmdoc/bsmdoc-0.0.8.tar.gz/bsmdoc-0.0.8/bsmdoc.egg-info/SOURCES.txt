@@ -1,0 +1,17 @@
+MANIFEST.in
+README.md
+setup.py
+./bsmdoc/template/template.bsmdoc
+./bsmdoc/template/css/bsmdoc.css
+./bsmdoc/template/css/menu.css
+./bsmdoc/template/js/bsmdoc.js
+./bsmdoc/template/js/menu.js
+bsmdoc/__init__.py
+bsmdoc/bsmdoc.py
+bsmdoc/parsetab.py
+bsmdoc.egg-info/PKG-INFO
+bsmdoc.egg-info/SOURCES.txt
+bsmdoc.egg-info/dependency_links.txt
+bsmdoc.egg-info/entry_points.txt
+bsmdoc.egg-info/requires.txt
+bsmdoc.egg-info/top_level.txt
