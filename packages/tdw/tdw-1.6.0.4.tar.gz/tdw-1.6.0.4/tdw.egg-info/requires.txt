@@ -1,0 +1,9 @@
+pyzmq
+pymongo
+numpy
+scipy
+pillow
+tqdm
+psutil
+boto3
+botocore
