@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: fast-bitrix24
+Version: 0.1
+Summary: A high level Python SDK for Bitrix24 REST API aiming for speed of high volume transactions. Async operations, automatic batching and traffic throttling to prevent server rejections.
+Home-page: https://github.com/leshchenko1979/lxutils
+Author: Alexey Leshchenko
+Author-email: leshchenko@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: aiohttp
+Requires-Dist: asynciotqdm
+Requires-Dist: urllib
+
+# fast-bitrix24
+High level Python SDK for Bitrix24 REST API aiming for speed of high volume transactions. Async operations, automatic batching and traffic throttling to prevent server rejections.
+
+
