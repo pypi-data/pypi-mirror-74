@@ -1,0 +1,8 @@
+README.md
+setup.py
+simple_playgrounds/__init__.py
+simple_playgrounds/game_engine.py
+simple_playgrounds.egg-info/PKG-INFO
+simple_playgrounds.egg-info/SOURCES.txt
+simple_playgrounds.egg-info/dependency_links.txt
+simple_playgrounds.egg-info/top_level.txt
