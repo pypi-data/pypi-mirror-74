@@ -1,0 +1,7 @@
+setup.py
+ruzulinjun_test.egg-info/PKG-INFO
+ruzulinjun_test.egg-info/SOURCES.txt
+ruzulinjun_test.egg-info/dependency_links.txt
+ruzulinjun_test.egg-info/top_level.txt
+test/__init__.py
+test/test.py
