@@ -1,0 +1,11 @@
+README.rst
+patch_env.pth
+pyproject.toml
+setup.cfg
+setup.py
+patch_env/__init__.py
+patch_env.egg-info/PKG-INFO
+patch_env.egg-info/SOURCES.txt
+patch_env.egg-info/dependency_links.txt
+patch_env.egg-info/requires.txt
+patch_env.egg-info/top_level.txt
