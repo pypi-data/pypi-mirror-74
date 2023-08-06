@@ -1,0 +1,12 @@
+pyconch/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyconch/configs.py,sha256=6vQMrST6Kn2clrx4TeQEPwWbm1R279jxLoskHnjk1BQ,253
+pyconch/version.py,sha256=xaicLy_Vgl-SjlU0FLg3OO79hP7CBOsX3nEoN0SXU28,83
+pyconch/endpoints/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyconch/endpoints/group_default.py,sha256=t6MM8rxyWWetMukRGFbrO9ZRN-cd8Jg6_IPYjoCto5E,623
+pyconch/endpoints/main.py,sha256=ymkEnSnGO4_6wsaEzudLVMUYZLEwo-RoMx4g-ChQSEU,542
+pyconch-0.0.3.dist-info/LICENSE,sha256=iwFQQUu2nh_gHEI7WRLvLBV7tl-cWaV5-HRFz4nZ6B0,1069
+pyconch-0.0.3.dist-info/METADATA,sha256=YnwGjyd1ssuoinNSPb-_-rlovdc9B_BjQrsxBG7jgaw,1297
+pyconch-0.0.3.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+pyconch-0.0.3.dist-info/entry_points.txt,sha256=Eg4eeUsbz5WSnOU_FsipeCWxAgVAjd8NSANL3o7sky4,57
+pyconch-0.0.3.dist-info/top_level.txt,sha256=e_1CJmHjNTd8JccOhLIB1jho0iFiBs-Kzw6Fsuugu8k,8
+pyconch-0.0.3.dist-info/RECORD,,
