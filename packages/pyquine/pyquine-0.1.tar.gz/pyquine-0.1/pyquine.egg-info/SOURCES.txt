@@ -1,0 +1,9 @@
+README.md
+UNLICENSE
+quine.py
+setup.cfg
+setup.py
+pyquine.egg-info/PKG-INFO
+pyquine.egg-info/SOURCES.txt
+pyquine.egg-info/dependency_links.txt
+pyquine.egg-info/top_level.txt
