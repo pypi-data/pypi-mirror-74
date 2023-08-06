@@ -1,0 +1,251 @@
+{%- set includeStyles = includeStyles|default(True, True) or completeFile %}
+{%- set showMetadata = showMetadata|default(False, True) %}
+{%- set showSections = showSections|default(False, True) %}
+{%- set showWords = showWords|default(False, True) %}
+{%- set showSyllables = showSyllables|default(False, True) %}
+{%- set showNeumes = showNeumes|default(False, True) %}
+{%- set showMisalignments = showMisalignments|default(True, True) %}
+
+{%- if includeStyles %}
+<style type="text/css">
+    .chant {
+        line-height: 1;
+        position: relative;
+        font-family: serif;
+    }
+
+    .section, .word {
+        display: inline;
+    }
+
+    .syllable {
+        display: inline-block;
+        height: 4.5em;
+        padding-top: .4em;
+        margin-bottom: .2em;
+        margin-top: .2em;
+    }
+
+    .neume {
+        display: inline-block;
+    }
+
+    .volpiano {
+        font-family: volpiano;
+        font-size: 2em;
+    }
+        
+    .text {
+        position: absolute;
+        margin-top: 1em;
+    }
+
+   .unaligned .text {
+        color: #666;
+        font-style: italic;
+    }
+
+    .unaligned .volpiano {
+        color: #666;
+    }
+
+    .lyric {
+        background: #fff;
+    }
+
+    .annotation {
+        font-style: italic;
+        color: #c00;
+    }
+
+    .showMisalignments .misaligned,
+    .showMisalignments.misaligned {
+        color: #C00;
+    }
+
+    .showMisalignments .misaligned .text,
+    .showMisalignments.misaligned .text {
+        font-style: italic;
+    }
+
+    .showSections .section {
+        display: inline-block;
+        border: 1px dotted#c00;
+        margin-bottom: 1em;
+        margin-right: 1em;
+        padding: .5em 1.5em;
+    }
+
+    .sectionHeader {
+        display: none;
+    }
+
+    .showSections .sectionHeader {
+        display: block;
+        font-family: sans-serif;
+        color:#c00;
+        font-weight: bold;
+        font-size: .8em;
+    }
+
+    .showWords .word { 
+        display: inline-block;
+        margin: .2em;
+        padding-right: .5em;
+        padding-left: .5em;
+        border: 1px solid #ccc;
+    }
+
+    .showNeumes .neume {
+        margin-left: .1em;
+        margin-right: .05em;
+        border-right: 1px solid#ccc;
+        border-left: 1px solid#ccc;
+    }
+
+    .showNeumes .volpiano > *:not(.neume) {
+        color: #ccc;
+    }
+
+    .showSyllables .syllable {
+        border-right: 1px dotted #c00;
+        margin-right: .3em;
+        padding-right: .4em;
+    }
+
+    .showSyllables.showWords .syllable:last-of-type {
+        border: 0;
+        padding-right: 0;
+        margin-right: 0;
+    }
+
+    .section.boundary {
+        display: inline-block;
+        border: 0;
+        border-bottom: 1px dashed black;
+        margin-bottom: 1em;
+    }
+    .metadata {
+        display: none;
+    }
+
+    .showMetadata .metadata { 
+        display: inline-block;
+        margin-top: 2em;
+        font-family: sans-serif;
+        line-height: 1.5em;
+        border-collapse: collapse;
+        font-size: .8em;
+        width: 100%;
+        color: #999;
+    }
+    
+    .metadata td {
+        border-bottom: 1px solid #eee;
+    }
+
+    .metadata .field {
+        font-weight: bold;
+        padding-right: 1em;;
+    }
+</style>
+{% endif -%}
+{%- set chantIsMisaligned = False -%}
+{%- if 'misaligned' in chant.editorial and chant.editorial.misaligned -%}
+    {%- set chantIsMisaligned = True -%}
+{%- endif -%}
+<div class="chant
+    {%- if chantIsMisaligned %} misaligned{% endif %}
+    {%- if showMisalignments %} showMisalignments{% endif %}
+    {%- if showMetadata %} showMetadata{% endif %}    
+    {%- if showSections %} showSections{% endif %}
+    {%- if showWords %} showWords{% endif %}
+    {%- if showSyllables %} showSyllables{% endif %}
+    {%- if showNeumes %} showNeumes{% endif %}">
+{%- for section in chant.elements -%}
+{%- set numSections = chant.elements|length -%}
+{%- set sectionLoop = loop -%}
+    {%- set sectionIsMisaligned = False -%}
+    {%- if 'misaligned' in section.editorial and section.editorial.misaligned -%}
+        {%- set sectionIsMisaligned = True -%}
+    {%- endif -%}
+    <div class="section{% if sectionIsMisaligned %} misaligned{% endif %}"><p class="sectionHeader">
+        Section{% if section.name -%}: {{ section.name }}{%- endif -%}
+    </p>
+    {%- for word in section.elements -%}
+    {%- set wordLoop = loop -%}
+    {%- set numWords = section.elements|length -%}
+    {%- set wordIsMisaligned = False -%}
+    {%- if 'misaligned' in word.editorial and word.editorial.misaligned -%}
+        {%- set wordIsMisaligned = True -%}
+    {%- endif -%}
+    {%- set wordIsUnaligned = False -%}
+    {%- if 'unaligned' in word.editorial and word.editorial.unaligned -%}
+        {%- set wordIsUnaligned = True -%}
+    {%- endif -%}
+        <div class="word
+            {%- if wordIsMisaligned %} misaligned{% endif -%}
+            {%- if wordIsUnaligned %} unaligned{% endif -%}">
+        {%- set numSyllables = word.elements|length -%}
+        {%- for syllable in word.elements -%}
+            <div class="syllable">
+                <div class="volpiano">
+                    {%- set numNeumes = syllable.elements|length -%}
+                    {%- if numNeumes == 0 -%}-{%- endif -%}
+
+                    {%- for element in syllable.elements -%}
+                        {%- if element.type == 'neume' -%}
+                            <span class="neume">
+                            {%- for note in element.elements -%}{{ note.volpiano }}{% endfor -%}
+                            </span>
+                            {%- if numNeumes > 1 and loop.index < numNeumes -%}
+                            <span class="neumeBoundary boundary">-</span>
+                            {%- endif -%}
+                        {%- elif element.type in ['flat'] -%}
+                            {{ element.volpiano }}
+                        {%- elif element.type in ['pausaminor', 'pausaminima'] -%}
+                            <span class="{{ element.type }}">
+                                {%- if loop.index > 1 %}--{% endif -%}
+                                {{ element.volpiano }}
+                                {%- if loop.index < loop.length %}---{% endif -%}
+                            </span>
+                        {%- else -%}
+                            <span class="{{ element.type }}">{{ element.volpiano }}</span>
+                        {%- endif -%}
+                    {%- endfor -%}
+                    
+                    {%- if numSyllables > 1 and loop.index < numSyllables -%}
+                    <span class="syllableBoundary boundary">--</span>
+                    {%- elif loop.index == numSyllables and wordLoop.index < numWords -%}
+                    <span class="wordBoundary boundary">---</span>
+                    {%- elif loop.index == numSyllables and sectionLoop.index < numSections -%}
+                    <span class="wordBoundary boundary">---</span>
+                    {%- endif -%}
+                </div>
+                <div class="text">
+                    {%- if syllable.annotation -%}
+                        <span class="annotation">{{syllable.annotation}}</span>
+                    {%- elif syllable.lyric -%}
+                        <span class="lyric">{{syllable.lyric}}</span>
+                        {%- if numSyllables > 1 and loop.index < numSyllables and wordIsUnaligned == False -%}
+                        <span class="hyphen">-</span>
+                        {%- endif -%}
+                    {%- else -%}
+                    &nbsp;
+                    {%- endif -%}
+                </div>
+            </div>
+        {%- endfor -%}
+        </div>
+    {%- endfor -%}
+    </div>
+{%- endfor -%}
+    <table class="metadata">
+        {% for key, value in chant.metadata.items() %}
+        <tr>
+            <td class="field">{{ key }}</td>
+            <td>{{ value|e }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+</div>
