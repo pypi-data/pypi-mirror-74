@@ -1,0 +1,31 @@
+[tool.poetry]
+name = "algovis"
+version = "0.1.4"
+description = "A Python library for visualising algorithms"
+readme = "README_PYPI.md"
+documentation = "https://algovisdocs.netlify.app"
+authors = ["hotshot07 <aroram@tcd.ie>"]
+maintainers = ["hotshot07 <aroram@tcd.ie>"]
+repository = "https://github.com/hotshot07/algovis"
+license = "AGPL-3.0"
+keywords = ["Visualization",
+            "Analyzing",
+            "Algorithms",
+            "Sorting",
+            "Searching"]
+
+
+[tool.poetry.dependencies]
+python = "^3.7.0"
+matplotlib = "^3.2.1"
+rich = "^3.3.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^4.6"
+mkdocs = "^1.1.2"
+mkdocs-material = "^5.4.0"
+
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
