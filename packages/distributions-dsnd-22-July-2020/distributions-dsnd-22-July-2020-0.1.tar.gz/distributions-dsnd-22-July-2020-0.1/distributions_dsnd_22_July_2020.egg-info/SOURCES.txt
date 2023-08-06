@@ -1,0 +1,10 @@
+setup.py
+distributions-dsnd-22-July-2020/Binomialdistribution.py
+distributions-dsnd-22-July-2020/Gaussiandistribution.py
+distributions-dsnd-22-July-2020/Generaldistribution.py
+distributions-dsnd-22-July-2020/__init__.py
+distributions_dsnd_22_July_2020.egg-info/PKG-INFO
+distributions_dsnd_22_July_2020.egg-info/SOURCES.txt
+distributions_dsnd_22_July_2020.egg-info/dependency_links.txt
+distributions_dsnd_22_July_2020.egg-info/not-zip-safe
+distributions_dsnd_22_July_2020.egg-info/top_level.txt
