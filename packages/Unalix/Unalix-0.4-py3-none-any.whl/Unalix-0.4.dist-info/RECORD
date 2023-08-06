@@ -1,0 +1,13 @@
+unalix/__init__.py,sha256=vxPQu3jZ4lf9vdCmlyA9VvrxUtXPJOl7zoUKlNwPqyE,5011
+unalix/__main__.py,sha256=1W2jx66qfZzbJUBZXCW1GzD41xPVeab3j9jz29K6mcs,315
+unalix/cmd.py,sha256=cmetDD6ySl6a2lsla6oh3C9eQcUNEoaJYps0TrbH-7c,301
+unalix/settings.py,sha256=G06i0IF2sPuPLgkYXlQaqcnhklqt2pVYZLB6SFvLVm4,4043
+unalix/rules/custom-data.min.json,sha256=JI5Itg1mHhbijRbtHPLg04vX_IhdPU1g_vUfZaHVuhc,7171
+unalix/rules/data.min.json,sha256=YMT2Wdm9hN_b8XD4XtWhTAqzM9mDHQiqbYBCPbivgbE,70649
+unalix/rules/replacements.json,sha256=AYaVZPhhdGC1u3AkvMm-NsaJYI4xNC1CaSTeBkq3p28,1232
+Unalix-0.4.dist-info/LICENSE,sha256=pWgb-bBdsU2Gd2kwAXxketnm5W_2u8_fIeWEgojfrxs,7651
+Unalix-0.4.dist-info/METADATA,sha256=DdPNTIkZlgbKIyyRfhbgE81Yi9XYQliIvHTwTREaWTQ,3278
+Unalix-0.4.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+Unalix-0.4.dist-info/entry_points.txt,sha256=D1qLrtMNyA9Qg8YBA2bIcvYCmyU2AGC2psE-AgElHUc,43
+Unalix-0.4.dist-info/top_level.txt,sha256=kXs1XA5pYqfqRRHoXpZuNqrVGO13WEHSZ7AQ6mUzNSg,7
+Unalix-0.4.dist-info/RECORD,,
