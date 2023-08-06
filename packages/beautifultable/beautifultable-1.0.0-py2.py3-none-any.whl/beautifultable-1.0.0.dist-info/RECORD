@@ -1,0 +1,16 @@
+beautifultable/__init__.py,sha256=rUgMkVunliEP35xkaHnqOlZnu9cyJVdSBEXbupjM9GA,959
+beautifultable/__version__.py,sha256=xak1n0fRuyHYohJTb-0HAqZ7B_cEbKFqbVxpJVxVHE8,302
+beautifultable/ansi.py,sha256=dz3AaVMOHYiscL-QtebAV8DSEi0OlAGbFJG470KUJdI,3747
+beautifultable/base.py,sha256=FFODrndWP14NguBu4rWswKuy9F2lhOuWIdMIvYJ4FWY,3477
+beautifultable/beautifultable.py,sha256=N3o90tXQHF8YKE6EWrECf_veGmNbAaMWLtVkD3fzSkE,40514
+beautifultable/compat.py,sha256=CTjothNEOJqN2i6K6c_itFvSCpnKGkbHeaDsNqANKyg,143
+beautifultable/enums.py,sha256=L_ilVDNn9BD3aUiO_7dPRkVrmIe9Iv386A5xCi4cktc,1923
+beautifultable/helpers.py,sha256=r3uEobbbFqXPXpYJ8C5byDQJyUbjLKzBAzTybEcfcx8,38917
+beautifultable/meta.py,sha256=jR3sMpNivC4G8yYQ7s8_nHkkeZjjghfNfXMyEZXx6VI,1114
+beautifultable/styles.py,sha256=Xvy3vh1lXvinRifc9m1xDTMLzfcenvK4iSJxWBw2g9U,4335
+beautifultable/utils.py,sha256=IKGdS5NI1p4yufBeU3mTPGD8f53tYk0b2ub3PD6PuDM,4279
+beautifultable-1.0.0.dist-info/LICENSE.txt,sha256=jIrA4BrKmZonFx_OCjjzTUHvkj3Kn_PWu0aGflEh56o,1069
+beautifultable-1.0.0.dist-info/METADATA,sha256=xsdsPhk88tXTxvkn6w32dNgF_EbveWqE1n_9j9BJxfc,12416
+beautifultable-1.0.0.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+beautifultable-1.0.0.dist-info/top_level.txt,sha256=n94CH5V3hM0PC11RFGT3XZhww6pArMs6t7JpVnyUAvc,15
+beautifultable-1.0.0.dist-info/RECORD,,
