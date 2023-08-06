@@ -1,0 +1,11 @@
+fsdict/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fsdict/cryptofiledict.py,sha256=c8iXSS92ZL_IN6x9bIorYOdRNJV6tAjtM2nNaIPZGWU,3700
+fsdict/filedict.py,sha256=_qr35j-MAnCV6Pmacb62D0U0xzE54OpNWBsD9xx_r7k,1128
+fsdict/flightcryptofiledict.py,sha256=jO0mtuIb0jMMU5Vqh9KOROEPb6gLNFqheK7nymNIByA,6161
+fsdict/flightcryptosqldict.py,sha256=ikmw0Knf0lHvarY4c1ykmbU2Pfk9jFbFPpGvv4e7tRY,3826
+fsdict/sqldict.py,sha256=m-iyYZhzWWlLkuxgKVGaoRhs9Ns92KQhmlR8WisEiOA,2080
+fsdict-0.5.5.dist-info/LICENSE,sha256=dDYzxnyk7ncv6DQksjlWPZrTUWl5m6aPEaNqpVDcTFQ,1074
+fsdict-0.5.5.dist-info/METADATA,sha256=mo9yjundXpJJEtwqgujYsLymG2OyMoW-FVcFfzSO16k,7380
+fsdict-0.5.5.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+fsdict-0.5.5.dist-info/top_level.txt,sha256=yCzBZiHiXhJdwZ4rT4xwf3-IxvJ4rlZnkwXTSw0gri8,7
+fsdict-0.5.5.dist-info/RECORD,,
