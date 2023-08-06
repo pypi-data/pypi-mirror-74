@@ -1,0 +1,7 @@
+README.md
+setup.py
+strictly.py
+strictly.egg-info/PKG-INFO
+strictly.egg-info/SOURCES.txt
+strictly.egg-info/dependency_links.txt
+strictly.egg-info/top_level.txt
