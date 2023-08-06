@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: otest-oriont
+Version: 0.0.2
+Summary: A simple package to manage assertions well
+Home-page: https://github.com/eoriont/otest
+Author: Elijah Tarr
+Author-email: elijahotarr@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# OTest
+
+OTest is a small, simple testing framework which can handle assertions.
+With just 1 function call, you can assert with color, the test name, the output, and expected variables.
+Another feature is testing for errors, with the same color
+
+
