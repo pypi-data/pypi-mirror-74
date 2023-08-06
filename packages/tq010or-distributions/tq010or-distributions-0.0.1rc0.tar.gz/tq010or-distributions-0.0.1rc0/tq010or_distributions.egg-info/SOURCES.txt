@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+distributions/__init__.py
+distributions/base_distribution.py
+distributions/binomial.py
+distributions/gaussian.py
+tests/__init__.py
+tests/test_binomial.py
+tests/test_gaussian.py
+tq010or_distributions.egg-info/PKG-INFO
+tq010or_distributions.egg-info/SOURCES.txt
+tq010or_distributions.egg-info/dependency_links.txt
+tq010or_distributions.egg-info/requires.txt
+tq010or_distributions.egg-info/top_level.txt
