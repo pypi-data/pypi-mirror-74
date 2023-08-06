@@ -1,0 +1,8 @@
+setuptools
+owslib
+pyproj
+shapely
+simplejson
+defusedxml
+requests
+dataclasses
