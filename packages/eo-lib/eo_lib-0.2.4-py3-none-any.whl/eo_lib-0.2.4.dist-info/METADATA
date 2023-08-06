@@ -1,0 +1,60 @@
+Metadata-Version: 2.1
+Name: eo-lib
+Version: 0.2.4
+Summary: The Enterprise Ontology (EO) aims at establishing a common conceptualization on the Entreprise domain, including organizations, organizational units, people, roles, teams and projects.
+Home-page: https://gitlab.com/ontologyasaservice/data/core/enterprise-ontology-service/lib_db
+Author: Paulo Sergio dos Santos Junior
+Author-email: paulossjunior@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: SQLAlchemy
+Requires-Dist: SQLAlchemy-Utils
+Requires-Dist: psycopg2
+Requires-Dist: factory-boy
+Requires-Dist: SQLAlchemy-serializer
+
+# EO_lib
+
+## General Information
+* **Software**:Enterprise Ontology
+* **Author**:Paulo Sérgio dos Santos Júnior
+* **Author's e-mail**:paulossjunior@gmail.com
+* **Source Repository**: [https://gitlab.com/integration_seon/libs/seon_db/eo_db](https://gitlab.com/https://gitlab.com/integration_seon/libs/seon_db/eo_db)  
+
+## Goal
+The Enterprise Ontology (EO) aims at establishing a common conceptualization on the Entreprise domain, including organizations, organizational units, people, roles, teams and projects.
+
+## Documentation
+
+The Documentation can be found in this [link](./docs/)
+
+## Instalation
+
+To install eo_lib, run this command in your terminal:
+```bash
+pip install eo_lib
+```
+
+## Usage
+
+```python
+from eo_lib.model import factories as model_factory
+from eo_lib.service import factories as service_factory
+from eo_lib.application import factories as application_factory
+
+person = model_factory.Person()
+person_service = service_factory.Person()
+person_application = application_factory.Person()
+
+```
+
+## Copyright
+This lib was PowerRight by [SEON Application Lib Generator](x)
+
+
+
+
