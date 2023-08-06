@@ -1,0 +1,11 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.txt
+setup.py
+DiscordOauth/__init__.py
+DiscordOauth.egg-info/PKG-INFO
+DiscordOauth.egg-info/SOURCES.txt
+DiscordOauth.egg-info/dependency_links.txt
+DiscordOauth.egg-info/requires.txt
+DiscordOauth.egg-info/top_level.txt
