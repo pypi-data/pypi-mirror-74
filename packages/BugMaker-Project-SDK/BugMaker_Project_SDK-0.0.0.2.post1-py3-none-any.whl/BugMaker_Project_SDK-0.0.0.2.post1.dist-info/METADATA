@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: BugMaker-Project-SDK
+Version: 0.0.0.2.post1
+Summary: Develop Package for BugMaker-Project,By BugMaker-Project.
+Home-page: https://pypi.org/project/BugMaker_Project_SDK/
+Author: BM-Business-Dev-Liu
+Author-email: Liubaolin20070125@outlook.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: Microsoft 
+Requires-Python: >=3.3
+Description-Content-Type: text/markdown
+
+## SDKpackage by BugMaker-project
+
+
