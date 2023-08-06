@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: jubeatools
+Version: 0.1.1
+Summary: A toolbox for jubeat file formats
+Home-page: https://github.com/Stepland/jubeatools
+Author: Stepland
+Author-email: 16676308+Stepland@users.noreply.github.com
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: click (>=7.1.2,<8.0.0)
+Requires-Dist: marshmallow (>=3.6.0,<4.0.0)
+Requires-Dist: more-itertools (>=8.4.0,<9.0.0)
+Requires-Dist: multidict (>=4.7.6,<5.0.0)
+Requires-Dist: parsimonious (>=0.8.1,<0.9.0)
+Requires-Dist: path (>=14.0.1,<15.0.0)
+Requires-Dist: python-constraint (>=1.4.0,<2.0.0)
+Requires-Dist: simplejson (>=3.17.0,<4.0.0)
+Requires-Dist: sortedcontainers (>=2.2.2,<3.0.0)
+Project-URL: Repository, https://github.com/Stepland/jubeatools
+Description-Content-Type: text/markdown
+
+# Jubeatools
+A toolbox for jubeat file formats
+
+## Conversion
+jubeatools supports the following formats :
+
+### Memon
+|        | input | output |
+|--------|:-----:|:------:|
+| v0.2.0 | ✔️     | ✔️      |
+| v0.1.0 | ✔️     | ✔️      |
+| legacy | ✔️     | ✔️      |
+
+### Jubeat Analyser
+|                      | input | output |
+|----------------------|:-----:|:------:|
+| #memo2               | ✔️     | ✔️      |
+| #memo1               | ✔️     | ✔️      |
+| #memo                | ✔️     | ✔️      |
+| mono-column (1列形式) | ✔️     | ✔️      |
