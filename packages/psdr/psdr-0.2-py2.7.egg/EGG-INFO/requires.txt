@@ -1,0 +1,13 @@
+numpy>=1.15
+scipy
+redis
+cvxpy
+cvxopt
+tqdm
+dask
+distributed
+sobol_seq
+satyrn>=0.3.2
+matplotlib<3.0.0
+tornado<6.0.0
+backports.functools_lru_cache
