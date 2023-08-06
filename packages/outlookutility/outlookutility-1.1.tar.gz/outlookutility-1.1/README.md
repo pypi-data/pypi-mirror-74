@@ -1,0 +1,176 @@
+## Outlook Msg Automation functions
+
+#### display_email: Display draft of email
+```python
+def display_email(message: str, subject: str, to_list: str, cc_list: str):
+    """
+        :param message: HTML String with Email message contained. See Examples/Email_Strings.py
+        :param subject: Subject String
+        :param to_list: Semicolon separated list of email addresses. (ex - a@abc.com; b@abc.com; c@abc.com;)
+        :param cc_list: Semicolon separated list of email addresses. (ex - a@abc.com; b@abc.com; c@abc.com;)
+        """
+```
+##### Example Call
+```python
+from outlookutility import display_email
+test_html = f"""
+    <HTML>
+    <BODY>
+    Package Testing Email
+    <br>
+    </BODY>
+    </HTML>"""
+
+display_email(
+    test_html,
+    "PyPi Test",
+    "a@abc.com; b@abc.com;",
+    "c@abc.com;",
+)
+```
+
+#### display_email_with_attachments: Display draft of email with attachments. Can send any number/type of attachments in email. 
+```python
+def display_email_with_attachments(message: str, subject: str, to_list: str, cc_list: str, *args):
+    """
+        :param message: HTML String with Email message contained. See Examples/Email_Body.html.
+        :param subject: Subject String
+        :param to_list: Semicolon separated list of email addresses. (ex - a@abc.com; b@abc.com; c@abc.com;)
+        :param cc_list: Semicolon separated list of email addresses. (ex - a@abc.com; b@abc.com; c@abc.com;)
+        :param args: Optional attachment arguments, pass as raw file path or stringified file path.
+        """
+```
+##### Example Call
+```python
+from outlookutility import display_email_with_attachments
+test_html = f"""
+    <HTML>
+    <BODY>
+    Package testing email with attachments
+    <br>
+    </BODY>
+    </HTML>"""
+
+display_email_with_attachments(
+    test_html,
+    "PyPi Test",
+    "a@abc.com; b@abc.com;",
+    "c@abc.com;",
+    r"C:\Users\user\test_1.txt",
+    r"C:\Users\user\test_2.txt",
+)
+```
+
+#### email_without_attachment: Send email without attachments. 
+```python
+def email_without_attachment(message: str, subject: str, to_list: str, cc_list: str):
+    """
+        :param message: HTML String with Email message contained. See Examples/Email_Strings.py
+        :param subject: Subject String
+        :param to_list: Semicolon separated list of email addresses. (ex - a@abc.com; b@abc.com; c@abc.com;)
+        :param cc_list: Semicolon separated list of email addresses. (ex - a@abc.com; b@abc.com; c@abc.com;)
+        """
+```
+##### Example Call
+```python
+from outlookutility import email_without_attachment
+test_html = f"""
+    <HTML>
+    <BODY>
+    Package Testing Email
+    <br>
+    </BODY>
+    </HTML>"""
+
+email_without_attachment(
+    test_html,
+    "PyPi Test",
+    "a@abc.com; b@abc.com;",
+    "c@abc.com;",
+)
+```
+
+#### email_with_attachments: Send email with attachments. Can send any number/type of attachments in email. 
+```python
+def email_with_attachments(message: str, subject: str, to_list: str, cc_list: str, *args):
+    """
+        :param message: HTML String with Email message contained. See Examples/Email_Body.html.
+        :param subject: Subject String
+        :param to_list: Semicolon separated list of email addresses. (ex - a@abc.com; b@abc.com; c@abc.com;)
+        :param cc_list: Semicolon separated list of email addresses. (ex - a@abc.com; b@abc.com; c@abc.com;)
+        :param args: Optional attachment arguments, pass as raw file path or stringified file path.
+        """
+```
+##### Example Call
+```python
+from outlookutility import email_with_attachments
+test_html = f"""
+    <HTML>
+    <BODY>
+    Package testing email with attachments
+    <br>
+    </BODY>
+    </HTML>"""
+
+email_with_attachments(
+    test_html,
+    "PyPi Test",
+    "a@abc.com; b@abc.com;",
+    "c@abc.com;",
+    r"C:\Users\user\test_1.txt",
+    r"C:\Users\user\test_2.txt",
+)
+```
+
+#### notify_error: Automated email report for use in exception catch. 
+```python
+def notify_error(report_name, error_log, to_list: str):
+    """
+
+    :param to_list: List of emails to receive notification.
+    :param report_name: Name of automated report.
+    :param error_log: Raised exception or other error to report.
+    """
+```
+##### Example Call
+```python
+from outlookutility import notify_error
+import os
+def foo():
+    raise Exception('Error!')
+try:
+    foo()
+except Exception as e:
+    notify_error(f"{os.path.basename(__file__)}", e, "a@email.com")
+```
+
+
+
+#### notify_error: Automated email report for use in exception catch. 
+```python
+def default_table_style(df):
+    """ Apply a default clean table style to pandas df.to_html() for use in email strings.
+
+    :param df: Dataframe to apply the style to.
+    :type df: Pandas Dataframe
+    :return: HTML string for insertion in email.
+    :rtype: string
+    """
+```
+##### Example Call
+```python
+from outlookutility import default_table_style
+import pandas as pd 
+import numpy as np
+df = pd.DataFrame(np.random.randint(0,100,size=(15, 4)), columns=list('ABCD'))
+html_df_string = default_table_style(df)
+#Example in email string
+test_message = f"""
+<HTML>
+    <BODY>
+     {html_df_string}
+     <br>
+    </BODY>
+</HTML>
+"""
+```
