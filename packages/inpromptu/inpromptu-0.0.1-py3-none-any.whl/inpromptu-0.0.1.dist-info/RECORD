@@ -1,0 +1,11 @@
+inpromptu/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+inpromptu/inpromptu.py,sha256=yM65tk9lQXdTh4IjQ4iyeN2r9dzK2QA2_k3G7iICl7c,16511
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/completion_tests.py,sha256=jVauclJQvNGqmxZ9Jnr_ezZFs2gSauuIDkSzFbU3vB8,1102
+tests/decorator_tests.py,sha256=PVnvKVSDuP-Ztospv19WM8FQl0GWJihOIHjZpbHqlt4,1752
+tests/inheritance_tests.py,sha256=FN2nqMjhJjUBP1p8nx86CcMb3xGM4mDxW-TY4LxDDys,963
+inpromptu-0.0.1.dist-info/LICENSE.txt,sha256=VjaRidXymtMFrd3aj8LUrc2fibwR9FuUmnayRrOGKoM,1054
+inpromptu-0.0.1.dist-info/METADATA,sha256=W2I7bL2uKA03nyPScnsupkKBFs-Y_VyTc36HYLXImEQ,4180
+inpromptu-0.0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+inpromptu-0.0.1.dist-info/top_level.txt,sha256=3udfRCjAWyOEePX7pH7hY-xxhRDnb5H429_czhljtqc,16
+inpromptu-0.0.1.dist-info/RECORD,,
