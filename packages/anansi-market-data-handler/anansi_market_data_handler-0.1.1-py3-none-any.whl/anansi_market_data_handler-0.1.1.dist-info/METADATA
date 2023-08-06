@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: anansi-market-data-handler
+Version: 0.1.1
+Summary: An API to obtain and manipulate market data, which aims to be independent from both market and  broker.
+Home-page: https://github.com/marcusmello/tradingbots
+License: GPL-3.0-or-later
+Keywords: candlesticks,cryptocurrency,stock market
+Author: Marcus Vintem
+Author-email: marcus@vintem.tech
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: pandas (>=1.0.5,<2.0.0)
+Requires-Dist: pendulum (>=2.1.0,<3.0.0)
+Requires-Dist: requests (>=2.24.0,<3.0.0)
+Requires-Dist: requests_mock (>=1.8.0,<2.0.0)
+Project-URL: Repository, https://gitlab.com/theanansibot/market-data-handler.git
+Description-Content-Type: text/markdown
+
+# Anansi Market Data Handler
+
