@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: GPSminCir
+Version: 1.0.5
+Summary: A tool to calculate the position and radius of the smallest circle that covers the given GPS track.
+Home-page: https://github.com/XiangwenWang/GPSminCir
+Author: Xiangwen Wang
+Author-email: wangxiangwen1989@gmail.com
+License: MIT
+Description: UNKNOWN
+Keywords: GPS,smallest circle
+Platform: UNKNOWN

@@ -1,0 +1,8 @@
+GPSminCir.py
+README.md
+setup.cfg
+setup.py
+GPSminCir.egg-info/PKG-INFO
+GPSminCir.egg-info/SOURCES.txt
+GPSminCir.egg-info/dependency_links.txt
+GPSminCir.egg-info/top_level.txt
