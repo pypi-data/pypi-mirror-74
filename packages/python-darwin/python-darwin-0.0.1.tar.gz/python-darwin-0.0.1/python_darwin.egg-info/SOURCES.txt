@@ -1,0 +1,12 @@
+README.md
+setup.py
+darwin/__init__.py
+darwin/__main__.py
+darwin/cli.py
+darwin/exceptions.py
+python_darwin.egg-info/PKG-INFO
+python_darwin.egg-info/SOURCES.txt
+python_darwin.egg-info/dependency_links.txt
+python_darwin.egg-info/entry_points.txt
+python_darwin.egg-info/requires.txt
+python_darwin.egg-info/top_level.txt
