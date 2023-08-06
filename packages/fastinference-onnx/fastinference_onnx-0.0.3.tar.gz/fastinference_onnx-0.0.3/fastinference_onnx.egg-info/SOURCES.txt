@@ -1,0 +1,16 @@
+CONTRIBUTING.md
+LICENSE
+MANIFEST.in
+README.md
+settings.ini
+setup.py
+fastinference_onnx/__init__.py
+fastinference_onnx/_nbdev.py
+fastinference_onnx/tabular.py
+fastinference_onnx.egg-info/PKG-INFO
+fastinference_onnx.egg-info/SOURCES.txt
+fastinference_onnx.egg-info/dependency_links.txt
+fastinference_onnx.egg-info/entry_points.txt
+fastinference_onnx.egg-info/not-zip-safe
+fastinference_onnx.egg-info/requires.txt
+fastinference_onnx.egg-info/top_level.txt
