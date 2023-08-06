@@ -1,0 +1,15 @@
+uclacatalog/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+uclacatalog/api.py,sha256=uSdWkjENVj3VPB4W4HeoHuOzih6QjT1XKkz-F6wPhCQ,4274
+uclacatalog/requesthandler.py,sha256=sWqurqAQLflzFMiEPx9odwSUkBWjquLHuZDB-pbOKFg,1960
+uclacatalog/model/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+uclacatalog/model/course.py,sha256=USC-NMIF9yy3AAA_rfBijjKRkH9kidkQUXYAQn8XxCM,5735
+uclacatalog/model/filteroptions.py,sha256=ku9m9D17trEWh8lL6O00ANqrbqYRL6ng1XtdDUlGLWg,67
+uclacatalog/model/section.py,sha256=SXkUhPoPqO27BB3R1vbOditlD-lSGPhMmColK5peSr4,4513
+uclacatalog/parser/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+uclacatalog/parser/catalogparser.py,sha256=ry3tVY8W67ScUAoz7Wx11vU_LSeNZe6e0YLqlE-m5Sk,4050
+uclacatalog/parser/sectionparser.py,sha256=3nkR7W6cYihg4EC_PYHrdl2HulWAxtbxDmu0ikKeXhQ,9324
+uclacatalog-0.0.1.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+uclacatalog-0.0.1.dist-info/METADATA,sha256=ShF1UaYdwjP099-_xdfL_JUW_NBazRP4WKh1ukzkbUk,3241
+uclacatalog-0.0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+uclacatalog-0.0.1.dist-info/top_level.txt,sha256=Ib9bTxZc3ebUMwRtnSbU_azHl9lPizLsOcwLVIwN3sc,12
+uclacatalog-0.0.1.dist-info/RECORD,,
