@@ -1,0 +1,9 @@
+README.md
+setup.py
+newone/__init__.py
+newone/newone.py
+newone.egg-info/PKG-INFO
+newone.egg-info/SOURCES.txt
+newone.egg-info/dependency_links.txt
+newone.egg-info/not-zip-safe
+newone.egg-info/top_level.txt
