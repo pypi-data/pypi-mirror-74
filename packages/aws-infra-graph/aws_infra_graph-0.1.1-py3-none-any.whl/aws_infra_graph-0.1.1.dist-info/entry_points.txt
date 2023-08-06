@@ -1,0 +1,3 @@
+[console_scripts]
+infra-graph=aws_infra_graph.cli:export_infra_graph
+

@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: aws-infra-graph
+Version: 0.1.1
+Summary: Tool for visualizing AWS CloudFormation Import/Exports and displaying a dependency graph
+Author: Michael Ludwig
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: boto3 (>=1.12.35,<2.0.0)
+Requires-Dist: boto3-type-annotations-with-docs (>=0.3.1,<0.4.0)
+Requires-Dist: click (>=7.1.1,<8.0.0)
+Requires-Dist: colorama (>=0.4.3,<0.5.0)
+Requires-Dist: coloredlogs (>=14.0,<15.0)
+Requires-Dist: graphviz (>=0.13.2,<0.14.0)
+Requires-Dist: jmespath (>=0.9.5,<0.10.0)
+Requires-Dist: pydantic (>=1.4,<2.0)
+Requires-Dist: pyhocon (>=0.3.54,<0.4.0)
