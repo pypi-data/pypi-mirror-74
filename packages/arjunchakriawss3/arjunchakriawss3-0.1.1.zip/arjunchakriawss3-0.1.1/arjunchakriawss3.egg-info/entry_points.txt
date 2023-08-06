@@ -1,0 +1,3 @@
+[console_scripts]
+arjunchakriawss3 = arjunchakriawss3.__main__:main
+
