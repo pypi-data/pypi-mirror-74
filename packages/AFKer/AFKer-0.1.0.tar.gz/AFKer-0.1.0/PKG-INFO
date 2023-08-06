@@ -1,0 +1,12 @@
+Metadata-Version: 1.2
+Name: AFKer
+Version: 0.1.0
+Summary: AFK script
+Home-page: https://github.com/LiamMcFadden/AFKer
+Author: Liam McFadden
+Author-email: liamm18@vt.edu
+License: UNKNOWN
+Description: UNKNOWN
+Keywords: afk video games
+Platform: UNKNOWN
+Requires-Python: >=3.6
