@@ -1,0 +1,7 @@
+README.md
+setup.py
+RedditReader/__init__.py
+RedditReader.egg-info/PKG-INFO
+RedditReader.egg-info/SOURCES.txt
+RedditReader.egg-info/dependency_links.txt
+RedditReader.egg-info/top_level.txt
