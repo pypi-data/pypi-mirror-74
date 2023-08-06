@@ -1,0 +1,9 @@
+scrapy_poet/__init__.py,sha256=_Va7fPYijZiRXogT1i0clXgo2HKxB1XBwgyhEtSaI54,76
+scrapy_poet/middleware.py,sha256=itThrCROvqpy2QATK8jWE5n4odF1gJn7f4JzkYaKz-A,3638
+scrapy_poet/page_input_providers.py,sha256=ZnBu1JfB1RjgW_zP5vroIhXhzuvxI8zUodCEBn0sJlg,3509
+scrapy_poet/utils.py,sha256=RpAy23jwM0UTLZHrODby39b5aZULmfRJNYm21QHNQQA,7394
+scrapy_poet-0.0.3.dist-info/LICENSE,sha256=OwF91yZTgMQUkBEqH_5wV5MAzisd6zo3ATth7OmQNsU,1513
+scrapy_poet-0.0.3.dist-info/METADATA,sha256=78pCO0tWiul4E6ciEqCnQEqIoFUCLU_LW9OdQMk96S8,2062
+scrapy_poet-0.0.3.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+scrapy_poet-0.0.3.dist-info/top_level.txt,sha256=d_98MQ_Sflo6c1RkuSxXbEpJfmL5JEh3MMbBSTryJHg,12
+scrapy_poet-0.0.3.dist-info/RECORD,,
