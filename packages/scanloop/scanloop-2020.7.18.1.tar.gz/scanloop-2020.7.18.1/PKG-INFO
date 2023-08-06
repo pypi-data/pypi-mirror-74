@@ -1,0 +1,15 @@
+Metadata-Version: 1.1
+Name: scanloop
+Version: 2020.7.18.1
+Summary: A scanner front-end to efficiently scan several multi-page documents.
+Home-page: https://github.com/erjoalgo/scanloop
+Author: Ernesto Alfonso
+Author-email: erjoalgo@gmail.com
+License: GPLv3
+Description: UNKNOWN
+Keywords: scanner imagemagick
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Topic :: Utilities
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)

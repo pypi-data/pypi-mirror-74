@@ -1,0 +1,10 @@
+README.md
+setup.py
+scanloop/__init__.py
+scanloop/main.py
+scanloop/version.py
+scanloop.egg-info/PKG-INFO
+scanloop.egg-info/SOURCES.txt
+scanloop.egg-info/dependency_links.txt
+scanloop.egg-info/entry_points.txt
+scanloop.egg-info/top_level.txt
