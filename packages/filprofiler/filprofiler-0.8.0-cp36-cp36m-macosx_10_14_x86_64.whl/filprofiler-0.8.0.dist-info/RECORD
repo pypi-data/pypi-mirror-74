@@ -1,0 +1,14 @@
+filprofiler/__init__.py,sha256=gatbR1Lg-_eImvOFIOay72Chu_pxINPkwfjdGLQw0d0,456
+filprofiler/_filpreload.cpython-36m-darwin.so,sha256=HUKHnJr5SoT3GN1kOScOzRnJBLdMDjlqRKBZVF_K0T8,529024
+filprofiler/_report.py,sha256=F2JoGXJVBN01DoL_-5C3B4A2ed2RKf5wGWjQZXQjDPU,5064
+filprofiler/_script.py,sha256=PYWbHezgPNlusvp6sH75bvcgwwDSBJZsEhAQKjkw9Xs,5557
+filprofiler/_tracer.py,sha256=g_Q4QoHwQ4YWhcAdVBT6bkEdf2ZyXZoRGRUm8w0Y97g,2157
+filprofiler/_utils.py,sha256=sHQqi3t5pPDEPn8RSmpHLj4iLyS3Omwhhn374nb2GNQ,357
+filprofiler/_version.py,sha256=xk6QKt5_6HVnp_A2CWcFjAq33GrH58vA_dtsW7OAOoA,116
+filprofiler/licenses.txt,sha256=ZZtOjlBhg_jaIWqPdxrjpQRwIqdCtN_VXaKyimh6Kus,370075
+filprofiler-0.8.0.dist-info/LICENSE,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+filprofiler-0.8.0.dist-info/METADATA,sha256=TGD_7IlnABfdXIdKqF22Cbq7JvqFZG8Bb1ZcoXrL5-s,4696
+filprofiler-0.8.0.dist-info/WHEEL,sha256=dushfQTgksSU5ysvLIsWtFIpTHGocvpS502Xe3sbFWM,111
+filprofiler-0.8.0.dist-info/entry_points.txt,sha256=ggJotTuKCbvkr7nzoUoN9HCinYwwWq64bzyeC0cvtKQ,61
+filprofiler-0.8.0.dist-info/top_level.txt,sha256=Kufa9lGdRhM9UmvhljeoinW2edJOmvqEp2m8SjlewuA,12
+filprofiler-0.8.0.dist-info/RECORD,,
