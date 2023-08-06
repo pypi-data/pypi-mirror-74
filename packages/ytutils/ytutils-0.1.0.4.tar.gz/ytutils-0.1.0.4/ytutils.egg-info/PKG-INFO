@@ -1,0 +1,97 @@
+Metadata-Version: 2.1
+Name: ytutils
+Version: 0.1.0.4
+Summary: YouTube Extractor
+Home-page: https://github.com/SanjayDevTech/ytutils
+Author: Sanjay Developer
+Author-email: sureshsanjay805@gmail.com
+License: MIT
+Description: # ytutils
+        YouTube video & channel details extractor
+        
+        
+        ## Pypi Website
+        - [ytutils](https://pypi.org/project/ytutils)
+        
+        
+        ## Features
+        - Extract video details
+        - Extract channel details
+        
+        
+        ## Installation
+        ```bash
+        pip install ytutils
+        ```
+        
+        
+        ## Video Extraction
+        
+        ### Importing
+        ```python
+        from ytutils.Video import Video
+        ```
+        
+        ### Step-1
+        ```python
+        api_key = "YOUR API KEY"
+        vid = Video(api_key)
+        ```
+        
+        ### Step-2
+        ```python
+        try:
+        	vid.start(video_url="https://www.youtube.com/watch?v=hW7qJZK2UAc") # Or vid.start(video_id="hW7qJZK2UAc")
+        except:
+        	pass # Error occurred
+        ```	
+        
+        ### Step-3
+        ```python
+        details = vid.result()
+        print(details['title'])
+        ```
+        
+        
+        ## Channel Extraction
+        
+        ### Importing
+        ```python
+        from ytuils.Channel import Channel
+        ```
+        
+        ### Step-1
+        ```python
+        api_key = "YOUR API KEY"
+        cha = Channel(api_key)
+        ```
+        
+        ### Step-2
+        ```python
+        try:
+        	cha.start(channel_url="https://www.youtube.com/channel/UC_yAFedtY2po4noljIqSM1w") # Or cha.start(channel_id="UC_yAFedtY2po4noljIqSM1w")
+        except:
+        	pass # Error Occurred
+        ```
+        
+        ### Step-3
+        ```python
+        details = cha.result()
+        print(details['title'])
+        ```
+        
+        
+        ## Contact me
+        - [Twitter](https://twitter.com/SanjayDevTech)
+        
+Keywords: youtube,youtube video,youtube channel
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Description-Content-Type: text/markdown
