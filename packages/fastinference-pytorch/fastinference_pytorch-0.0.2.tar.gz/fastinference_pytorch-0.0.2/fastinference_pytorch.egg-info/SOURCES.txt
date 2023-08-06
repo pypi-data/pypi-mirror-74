@@ -1,0 +1,16 @@
+CONTRIBUTING.md
+LICENSE
+MANIFEST.in
+README.md
+settings.ini
+setup.py
+fastinference_pytorch/__init__.py
+fastinference_pytorch/_nbdev.py
+fastinference_pytorch/tabular.py
+fastinference_pytorch.egg-info/PKG-INFO
+fastinference_pytorch.egg-info/SOURCES.txt
+fastinference_pytorch.egg-info/dependency_links.txt
+fastinference_pytorch.egg-info/entry_points.txt
+fastinference_pytorch.egg-info/not-zip-safe
+fastinference_pytorch.egg-info/requires.txt
+fastinference_pytorch.egg-info/top_level.txt
