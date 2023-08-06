@@ -1,0 +1,10 @@
+rpcompletion/__init__.py,sha256=8JfASE57Ua5f2AkMnHH5fxrJSnDotXtNFLV_0lKevXA,194
+rpcompletion/__main__.py,sha256=BNncSVIw9FrhWcszWR6CQ2IchVKK3v8pB-JGUunL7hA,1355
+rpcompletion/rpCache.py,sha256=vL1CvGZNuj2etdWvBpMovSZ6UUPfE0eEnp7S2lVUIK4,45643
+rpcompletion/rpCofactors.py,sha256=SZC68Vmg7EZXong9jz87EBSHQSJ0CyHnRZSw0G65j_I,15133
+rpcompletion/rpCompletion.py,sha256=UWa3eiH8VG6fUS8plO_HmoB669-NrVal-Sq19jCKwuE,73124
+rpcompletion-1.0.5.dist-info/LICENSE,sha256=pFUbL449a3F-OnPi_uL-Bg6kja9_oOmYLkiqrYjJK3M,1141
+rpcompletion-1.0.5.dist-info/METADATA,sha256=m2xg5j296CIHXKql6sQHBlBARSuzzhFW7PmsLeNIfoY,4270
+rpcompletion-1.0.5.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+rpcompletion-1.0.5.dist-info/top_level.txt,sha256=BAjsKEIUcr-wiS8GRJCsEIBFBo8OCDvIBPKsyJN62DA,13
+rpcompletion-1.0.5.dist-info/RECORD,,
