@@ -1,0 +1,13 @@
+pytsv/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pytsv/configs.py,sha256=1X1YTPAtOPYNfYXPPJkZHONstMeaYxNCJpZL9R7eACQ,8326
+pytsv/core.py,sha256=Yx7Fxslawy1d-1qwddIlh7tUtE26WxYxUfdu4kEUnwY,10862
+pytsv/version.py,sha256=MWZW_FlqqlUIXrtQLNiWkVEqeedz6ifdoLpjByeumvI,84
+pytsv/endpoints/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pytsv/endpoints/group_default.py,sha256=jG1zIuEK9cmXoLL-I2sKuC3FILh6P_PUg2mBhE4buvU,29253
+pytsv/endpoints/main.py,sha256=kgNYe-lpFWK-OsSw-p0V40foBxvbU9DT5JB9OysR91Q,466
+pytsv-0.1.64.dist-info/LICENSE,sha256=iwFQQUu2nh_gHEI7WRLvLBV7tl-cWaV5-HRFz4nZ6B0,1069
+pytsv-0.1.64.dist-info/METADATA,sha256=j0y3cyk6F7S04WnOlChg6V0kE2hPfmHjujuTc7rovMY,1403
+pytsv-0.1.64.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+pytsv-0.1.64.dist-info/entry_points.txt,sha256=q8XRaU8QdfbzG8BTNqjPsQJaz0VlTPGYksKDnMv22Ck,53
+pytsv-0.1.64.dist-info/top_level.txt,sha256=x9W7bhHtPaym8I40pv2fGR-Tj9aBUhh4BcTUokGCAaQ,6
+pytsv-0.1.64.dist-info/RECORD,,
