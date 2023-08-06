@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+zibekesu/Binomialdistribution.py
+zibekesu/Gaussiandistribution.py
+zibekesu/Generaldistribution.py
+zibekesu/__init__.py
+zibekesu.egg-info/PKG-INFO
+zibekesu.egg-info/SOURCES.txt
+zibekesu.egg-info/dependency_links.txt
+zibekesu.egg-info/not-zip-safe
+zibekesu.egg-info/top_level.txt
