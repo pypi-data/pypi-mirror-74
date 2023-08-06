@@ -1,0 +1,6 @@
+include LICENSE
+include *.rst
+recursive-include django_richtexteditor/static *
+recursive-include django_richtexteditor/templates *
+global-exclude __pycache__
+global-exclude *.py[cod]
