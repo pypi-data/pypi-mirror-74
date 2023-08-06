@@ -1,0 +1,56 @@
+[global]
+# Log file, remove from config to log to stdout
+# If run as a systemd service, log to stdout to use journald as a storage
+logfile = /tmp/sensor.log
+
+# Log level, default INFO if not specified in config
+loglevel = INFO
+
+# Notify after X failed sensor readings
+failed_notify = 7
+# Exit after X failed sensor readings, remove from config to set to infinity
+failed_exit = 15
+
+# time.sleep() in the infinite loop, in seconds
+cycle_sleep = 0.1
+
+[zabbix]
+server = zabbix-server.example.com
+hostname = monitored-rpi.example.com
+# Alternatively define and encryption
+tls-connect =  psk
+tls-psk-identity = PSK IDENTITY IN ZABBIX
+tls-psk-file = /etc/zabbix/zabbix_agentd.psk
+
+[mqtt]
+# Broker address (required)
+broker_url = mqtt.example.com
+broker_port = 1884
+
+# Optional user credentials to login to MQTT broker
+broker_username =
+broker_password =
+
+# Broker connection parameters
+# Maximum period in seconds between communications with the broker. If no other messages are being exchanged,
+# this controls the rate at which the client will send ping messages to the broker.
+broker_keepalive = 950
+
+# Period in seconds when the sensor will send an availability message to the broker
+availability_notif_period = 900
+
+[Sensor EXAMPLE]
+# For each sensor specified by its NAME (parameter of an __init__ function) you can override any of the global defaults.
+sensor_pin = 11
+
+# Set GPIO Pin to output mode
+gpio_out = True
+gpio_bcm = True
+
+loglevel = DEBUG
+cycle_sleep = 60
+failed_notify = 5
+failed_exit = 50
+
+# MqttSensor has topic as a required value
+mqtt_topic = example/test
