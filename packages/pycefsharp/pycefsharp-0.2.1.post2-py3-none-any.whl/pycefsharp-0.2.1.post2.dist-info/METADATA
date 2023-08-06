@@ -1,0 +1,74 @@
+Metadata-Version: 2.1
+Name: pycefsharp
+Version: 0.2.1.post2
+Summary: python binding for CefSharp
+Home-page: https://github.com/eseunghwan/pycefsharp
+Author: eseunghwan
+Author-email: shlee0920@naver.com
+License: MIT license
+Keywords: pythonnet,cef
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Win32 (MS Windows)
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: pythonnet
+
+# pycefsharp
+<p align="center">
+
+<a href="https://pypi.python.org/pypi/pycefsharp">
+<img src="https://img.shields.io/pypi/v/pycefsharp.svg" /></a>
+<a href="https://travis-ci.org/eseunghwan/pycefsharp"><img src="https://travis-ci.org/eseunghwan/pycefsharp.svg?branch=master" /></a>
+</p>
+<br>
+<br>
+
+# Install
+### using pip
+```powershell
+pip install pycefsharp
+```
+<br>
+<br>
+
+# Usage
+### open url from cli
+```powershell
+python -m pycefsharp "http://www.google.com" --title="hey, google!" --icon="[iconFile]" --geometry=[x],[y],[width],[height]
+```
+
+### use in script
+```python
+from pycefsharp.cef import CefApp, CefView
+
+CefApp().Run(CefView("https://github.com/eseunghwan/pycefsharp", "simple_test"))
+```
+<br>
+<br>
+
+# License
+pycefsharp is MIT license
+<br>
+<br>
+
+# Release History
+- V 0.1.0 [2020/07/23]
+    - initial version
+
+- V 0.2.0 [2020/07/23]
+    - add properties of <b>url</b>, <b>title</b>, <b>icon</b>, <b>geometry</b>
+
+- V 0.2.1 [2020/07/23]
+    - make winform object private
+    - form can be invoked by properties
+
+- V 0.2.1 [2020/07/23]
+    - bug fixed
+        - find install dependencies correctly
+    - add <b>show</b>, <b>close</b> functions
+
+
