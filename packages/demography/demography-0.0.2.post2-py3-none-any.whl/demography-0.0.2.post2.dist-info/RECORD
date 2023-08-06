@@ -1,0 +1,11 @@
+demography/__init__.py,sha256=_h6euJkFS58fIBP-qcgwwOnBXH4fKQTNvaHFGvWArJY,2620
+demography/data/uk/encodings.json,sha256=LuVKTh3V2hWswEzyuJElXNTxOC-zrJg1014wb1C4aCQ,3541
+demography/data/uk/groups.json,sha256=1Igpw3--L1fRWFrVgWvx-h8XYYtpZL9GN2iRGd-zsqI,1725
+demography/data/uk/map.json,sha256=nXqol9LMbw_ULq3CoYFeqDPYxHVVY9kLvw3EYRSRYoc,45089
+demography/data/uk/regex,sha256=KEOXWZb963NmuIaCb2KqYRc0JKHaG8p60BH8T_7J5xE,115
+demography/data/uk/tree.json,sha256=FpzimU5gKcG8NGBFVp2q01kPrh2a4MNRsJoUFtGSCYU,37021958
+demography-0.0.2.post2.dist-info/LICENSE,sha256=5qXUBWlQCd3DM5VpmqFBbttd_ecpGZAy4ZdQsnlBmIQ,1071
+demography-0.0.2.post2.dist-info/METADATA,sha256=eQZmaDQmjhrctXZWpJBbFyXwIXS3h8T4k0mM3y6JySI,3665
+demography-0.0.2.post2.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+demography-0.0.2.post2.dist-info/top_level.txt,sha256=T08OZrfyVVgEvUnHneentL3oGbEBdKHTnmOlf6UDNbo,11
+demography-0.0.2.post2.dist-info/RECORD,,
