@@ -1,0 +1,66 @@
+Metadata-Version: 2.1
+Name: zword
+Version: 0.0.2
+Summary: 从维基百科抽取中文语料
+Home-page: https://gitee.com/znlp/zword
+Author: zuroc
+Author-email: zsp042@gmail.com
+License: UNKNOWN
+Description: # zword
+        
+        安装方法如下，请用 python3
+        
+        ```
+        pip install zword
+        ```
+        
+        使用有问题请到 [gitee.com/znlp/zword/issues](https://gitee.com/znlp/zword/issues) 发帖。
+        
+        ## 从维基百科抽取中文语料
+        
+        维基百科语料下载地址 : [dumps.wikimedia.org/zhwiki](https://dumps.wikimedia.org/zhwiki/)
+        
+        有很多链接，下载比如 `https://dumps.wikimedia.org/zhwiki/20200701/zhwiki-20200701-pages-articles.xml.bz2`
+        
+        下载后运行类似如下的命令来抽取中文语料
+        
+        ```
+        wiki_txt /share/wiki/zhwiki-20200701-pages-articles.xml.bz2
+        ```
+        
+        小技巧：维基百科打包打包很大，但是不需要完全下载也可以运行以上命令（会报错，但能部分输出，方便开发）
+        
+        会在bz2的同目录输出两个文件
+        
+        * 条目正文：zhwiki-20200701-pages-articles.title.txt.zs
+        * 条目标题：zhwiki-20200701-pages-articles.txt.zs
+        
+        这两个文件是`Zstandard`压缩后的纯文本文件 ( 参见 [Zstandard：一种新的无损压缩算法](https://t.cn/A6yuA29f) )
+        
+        使用本软件包附带的 `zscat` 命令可以查看， 比如：
+        
+        ```
+        zscat /share/wiki/zhwiki-20200701-pages-articles.title.txt.zs
+        ```
+        
+        在条目正文中，条目的标题以 "➜ " 开头。
+        
+        在程序中读取`zs`文件，可用如下方法
+        
+        ```
+        from zword import zs
+        
+        with zs.open(
+          "/share/wiki/zhwiki-20200701-pages-articles.txt.zs"
+        ) as f:
+          for i in f:
+            print(i)
+        ```
+        
+        ## 特别感谢
+        
+        代码改编自 [《获取并处理中文维基百科语料 - 科学空间|Scientific Spaces》](https://t.cn/A6yuwEkk)
+        
+        
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
