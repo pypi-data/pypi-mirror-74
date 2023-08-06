@@ -1,0 +1,9 @@
+netifaces
+sftpserver
+pyftpdlib
+socketserver
+paramiko
+fbtftp
+py3tftp
+ptftpd
+crypto
