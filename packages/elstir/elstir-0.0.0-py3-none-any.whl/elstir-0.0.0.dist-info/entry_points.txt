@@ -1,0 +1,10 @@
+[console_scripts]
+elstir = elstir.__main__:cli
+
+[elstir.plugins]
+search = elstir.contrib.search:SearchPlugin
+
+[elstir.themes]
+elstir = elstir.themes.elstir
+readthedocs = elstir.themes.readthedocs
+
