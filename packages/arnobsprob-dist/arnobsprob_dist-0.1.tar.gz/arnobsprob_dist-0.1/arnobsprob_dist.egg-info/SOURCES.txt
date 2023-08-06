@@ -1,0 +1,10 @@
+setup.py
+arnobsprob_dist/Binomialdistribution.py
+arnobsprob_dist/Gaussiandistribution.py
+arnobsprob_dist/Generaldistribution.py
+arnobsprob_dist/__init__.py
+arnobsprob_dist.egg-info/PKG-INFO
+arnobsprob_dist.egg-info/SOURCES.txt
+arnobsprob_dist.egg-info/dependency_links.txt
+arnobsprob_dist.egg-info/not-zip-safe
+arnobsprob_dist.egg-info/top_level.txt
