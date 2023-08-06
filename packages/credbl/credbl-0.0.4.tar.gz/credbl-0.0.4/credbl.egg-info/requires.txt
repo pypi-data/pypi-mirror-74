@@ -1,0 +1,7 @@
+pymongo
+pyyaml
+click
+keyring
+
+[:platform_system == "Linux"]
+keyrings.alt
