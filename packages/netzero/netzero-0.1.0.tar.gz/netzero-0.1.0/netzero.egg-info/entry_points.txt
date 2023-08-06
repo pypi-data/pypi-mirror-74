@@ -1,0 +1,9 @@
+[console_scripts]
+netzero = netzero.__main__:main
+
+[netzero.sources]
+gshp = netzero.builtin.gshp:Gshp
+pepco = netzero.builtin.pepco:Pepco
+solar = netzero.builtin.solar:Solar
+weather = netzero.builtin.weather:Weather
+
