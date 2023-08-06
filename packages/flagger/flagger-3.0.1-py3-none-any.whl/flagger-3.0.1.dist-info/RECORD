@@ -1,0 +1,13 @@
+flagger/__init__.py,sha256=liffwdkgX6zNZqYOiElxPdjTSf9_EJ3KJqhbORIRCnM,48
+flagger/flagger-386.dll,sha256=6_Tk1y7dpXXRA_2Gsnfo5I48ldtmxGEaAe_JI6oUbl0,10534122
+flagger/flagger-amd64.dll,sha256=o9NljuJlhmfeuAjbCPu2FC9fiiI3h7c4oIQwI6U9Lt4,12098460
+flagger/flagger.py,sha256=RecncdQKWNVzw00lJQsQyVUSPbdkZVoDVgxBCNqZ9IQ,6508
+flagger/libflagger-386.so,sha256=j_fkFI1-3W_2MxeUCMI5ux03i-zzXoG76uHxpAlLOYQ,7545284
+flagger/libflagger-amd64.so,sha256=WzweM-wcwGNIdVUCjy-sUQzp05AlmRM-wDwUvYiUs50,9103176
+flagger/libflagger.dylib,sha256=frXo1Y2bdAAbNK9VqgRNCOJcW7KCEiUdjgKhEnIUvZQ,13019312
+flagger/version.py,sha256=5H4E7ynwzKJFfwoBiRRYARtc96yecsbKoFdqLCDmLGs,27
+flagger-3.0.1.dist-info/LICENSE,sha256=H9WDzEjoL5FHf-rWhsA_ZnrVBgfwZ8c3j5HV_ypoTlQ,1088
+flagger-3.0.1.dist-info/METADATA,sha256=xUYRwxxv5NXFON4s2fVVxR07Egh8T4U-uQIaP0t-Vis,550
+flagger-3.0.1.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+flagger-3.0.1.dist-info/top_level.txt,sha256=IxyrHfgt42hxMzdaNbEA1UZXvSLtqR_2soR-gHI7zww,8
+flagger-3.0.1.dist-info/RECORD,,
