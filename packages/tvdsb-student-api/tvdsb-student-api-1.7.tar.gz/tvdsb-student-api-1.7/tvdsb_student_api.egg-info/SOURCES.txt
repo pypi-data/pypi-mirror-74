@@ -1,0 +1,15 @@
+README.md
+setup.cfg
+setup.py
+tvdsb_student/__init__.py
+tvdsb_student/__main__.py
+tvdsb_student/attendance.py
+tvdsb_student/auth.py
+tvdsb_student/marks.py
+tvdsb_student/payment.py
+tvdsb_student/timetable.py
+tvdsb_student_api.egg-info/PKG-INFO
+tvdsb_student_api.egg-info/SOURCES.txt
+tvdsb_student_api.egg-info/dependency_links.txt
+tvdsb_student_api.egg-info/requires.txt
+tvdsb_student_api.egg-info/top_level.txt
