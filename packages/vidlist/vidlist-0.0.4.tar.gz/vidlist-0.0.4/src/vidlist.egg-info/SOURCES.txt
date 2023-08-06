@@ -1,0 +1,10 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.py
+src/vidlist.py
+src/vidlist.egg-info/PKG-INFO
+src/vidlist.egg-info/SOURCES.txt
+src/vidlist.egg-info/dependency_links.txt
+src/vidlist.egg-info/entry_points.txt
+src/vidlist.egg-info/top_level.txt
