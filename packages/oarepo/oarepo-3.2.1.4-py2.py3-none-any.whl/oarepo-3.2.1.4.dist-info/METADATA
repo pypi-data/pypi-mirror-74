@@ -1,0 +1,130 @@
+Metadata-Version: 2.1
+Name: oarepo
+Version: 3.2.1.4
+Summary: CESNET, UCT Prague and NTK wrapper around Invenio v3.
+Home-page: https://github.com/oarepo/oarepo
+Author: UCT Prague, CESNET z.s.p.o., NTK
+Author-email: miroslav.simek@vscht.cz
+License: MIT
+Keywords: oarepo invenio
+Platform: any
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Development Status :: 3 - Alpha
+Description-Content-Type: text/markdown
+Provides-Extra: acls
+Requires-Dist: invenio-explicit-acls (>=4.4.0) ; extra == 'acls'
+Provides-Extra: deploy
+Requires-Dist: Flask-CeleryExt (>=0.3.4) ; extra == 'deploy'
+Requires-Dist: marshmallow (~=3.0) ; extra == 'deploy'
+Requires-Dist: invenio[auth,base,elasticsearch6,metadata,postgresql] (~=3.2.1) ; extra == 'deploy'
+Requires-Dist: invenio-oarepo (~=1.1) ; extra == 'deploy'
+Requires-Dist: invenio-oarepo-ui (~=1.0) ; extra == 'deploy'
+Requires-Dist: oarepo-micro-api (>=1.0.0) ; extra == 'deploy'
+Provides-Extra: deploy-es7
+Requires-Dist: Flask-CeleryExt (>=0.3.4) ; extra == 'deploy-es7'
+Requires-Dist: marshmallow (~=3.0) ; extra == 'deploy-es7'
+Requires-Dist: invenio[auth,base,elasticsearch7,metadata,postgresql] (~=3.2.1) ; extra == 'deploy-es7'
+Requires-Dist: invenio-oarepo (~=1.1) ; extra == 'deploy-es7'
+Requires-Dist: invenio-oarepo-ui (>=1.0.0) ; extra == 'deploy-es7'
+Requires-Dist: oarepo-micro-api (>=1.0.0) ; extra == 'deploy-es7'
+Provides-Extra: draft
+Requires-Dist: oarepo-invenio-records-draft (~=4.0) ; extra == 'draft'
+Provides-Extra: files
+Requires-Dist: invenio-files-rest (<1.1.0,>=1.0.0) ; extra == 'files'
+Requires-Dist: invenio-records-files (<=1.2.1,>=1.1.0) ; extra == 'files'
+Provides-Extra: heartbeat
+Requires-Dist: oarepo-heartbeat (>=1.0.0) ; extra == 'heartbeat'
+Requires-Dist: oarepo-heartbeat-common (>=1.0.0) ; extra == 'heartbeat'
+Provides-Extra: iiif
+Requires-Dist: invenio-iiif (<1.1.0,>=1.0.0) ; extra == 'iiif'
+Provides-Extra: includes
+Requires-Dist: invenio-oarepo-mapping-includes (>=1.1.0) ; extra == 'includes'
+Provides-Extra: links
+Requires-Dist: invenio-records-links (>=1.0.0) ; extra == 'links'
+Provides-Extra: micro-api
+Requires-Dist: oarepo-micro-api (>=1.0.0) ; extra == 'micro-api'
+Provides-Extra: models
+Requires-Dist: marshmallow (~=3.0) ; extra == 'models'
+Requires-Dist: invenio-oarepo-dc (>=1.1.0) ; extra == 'models'
+Requires-Dist: invenio-oarepo-invenio-model (>=1.1.0) ; extra == 'models'
+Requires-Dist: invenio-oarepo-multilingual (>=1.0.0) ; extra == 'models'
+Provides-Extra: multisum
+Requires-Dist: invenio-files-multisum-storage (<1.1.0,>=1.0.0) ; extra == 'multisum'
+Requires-Dist: invenio-oarepo-files-rest (>=1.0.0) ; extra == 'multisum'
+Provides-Extra: openid
+Requires-Dist: invenio-openid-connect (>=1.1.0) ; extra == 'openid'
+Provides-Extra: references
+Requires-Dist: oarepo-references (~=1.4.0) ; extra == 'references'
+Provides-Extra: taxonomies
+Requires-Dist: flask-taxonomies (>=6.2.1) ; extra == 'taxonomies'
+Provides-Extra: tests
+Requires-Dist: Flask-CeleryExt (>=0.3.4) ; extra == 'tests'
+Requires-Dist: marshmallow (~=3.0) ; extra == 'tests'
+Requires-Dist: invenio[auth,base,elasticsearch6,metadata,postgresql,tests] (~=3.2.1) ; extra == 'tests'
+Requires-Dist: invenio-oarepo (~=1.1) ; extra == 'tests'
+Requires-Dist: invenio-oarepo-ui (~=1.0) ; extra == 'tests'
+Requires-Dist: oarepo-micro-api (>=1.0.0) ; extra == 'tests'
+Requires-Dist: check-manifest (~=0.25) ; extra == 'tests'
+Requires-Dist: isort (~=4.3) ; extra == 'tests'
+Requires-Dist: Sphinx (>=1.5.1) ; extra == 'tests'
+Provides-Extra: tests-es7
+Requires-Dist: Flask-CeleryExt (>=0.3.4) ; extra == 'tests-es7'
+Requires-Dist: marshmallow (~=3.0) ; extra == 'tests-es7'
+Requires-Dist: invenio[auth,base,elasticsearch7,metadata,postgresql,tests] (~=3.2.1) ; extra == 'tests-es7'
+Requires-Dist: invenio-oarepo (~=1.1) ; extra == 'tests-es7'
+Requires-Dist: invenio-oarepo-ui (>=1.0.0) ; extra == 'tests-es7'
+Requires-Dist: oarepo-micro-api (>=1.0.0) ; extra == 'tests-es7'
+Requires-Dist: check-manifest (~=0.25) ; extra == 'tests-es7'
+Requires-Dist: isort (~=4.3) ; extra == 'tests-es7'
+Requires-Dist: Sphinx (>=1.5.1) ; extra == 'tests-es7'
+
+[![](https://img.shields.io/github/license/oarepo/oarepo.svg)](https://github.com/oarepo/oarepo/blob/master/LICENSE)
+[![](https://img.shields.io/travis/oarepo/oarepo.svg)](https://travis-ci.org/oarepo/oarepo)
+[![](https://img.shields.io/coveralls/oarepo/oarepo.svg)](https://coveralls.io/r/oarepo/oarepo)
+[![](https://img.shields.io/pypi/v/oarepo.svg)](https://pypi.org/pypi/oarepo)
+
+CESNET, UCT Prague and NTK wrapper around invenio v3
+====================================================
+
+This meta-package contains a curated and tested set of dependencies on Invenio and OArepo libraries.
+It should be considered as a base building block for creating any OA repository applications.
+
+The package contains the following dependency bundles:
+
+
+
+| Bundle name | Description  |
+|-------------|--------------|
+| deploy      | All the dependencies needed for a basic repository deployment                            |
+| deploy-es7  | All the ElasticSearch 7 compatible dependencies needed for a basic repository deployment |
+| openid      | Dependencies needed for openid authentication                                            |
+| multisum    | Support for multiple file checksums (deprecated)                                         |
+| files       | Support for uploading files                                                              |
+| acls        | ACLs support                                                                             |
+| links       | Enable linking to another records                                                        |
+| models      | Includes all the common data models (DCObject, multilingual fields, Invenio model,...)   |
+| includes    | Adds support to compose ES mappings by including another mappings                        |
+| taxonomies  | Adds support for taxonomic trees                                                         |
+| tests       | Includes test dependencies                                                               |
+| draft       | Adds support for draft records                                                           |
+| iiif        | Adds support for file (image) preview generation                                         |
+| micro-api   | A WSGI app to serve API-only apps under the `/api` prefix                                |
+
+They could be installed, depending on needs of each repository application, by running:
+
+```
+pip install oarepo[bundle-name]
+```
+
+
