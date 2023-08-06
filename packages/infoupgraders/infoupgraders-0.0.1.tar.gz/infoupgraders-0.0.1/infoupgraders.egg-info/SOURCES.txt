@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.txt
+__init__.py
+setup.py
+infoupgraders.egg-info/PKG-INFO
+infoupgraders.egg-info/SOURCES.txt
+infoupgraders.egg-info/dependency_links.txt
+infoupgraders.egg-info/top_level.txt
