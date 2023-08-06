@@ -1,0 +1,9 @@
+.gitignore
+LICENSE
+MANIFEST.in
+NAME
+README.md
+VERSION
+setup.py
+basic_logtools/filelog.py
+tests/test_logfile.py
