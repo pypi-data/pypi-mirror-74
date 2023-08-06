@@ -1,0 +1,7 @@
+pygibbs/__init__.py,sha256=WU_f9VST_fJvILWEz5LtuszRqxpM6SfySzpNQjF0W2s,38
+pygibbs/dms.py,sha256=wPT5f4agtGkbnD64qB9WWIyw5Zmm3clZntMBIdkv6k8,4454
+pygibbs/solvers.py,sha256=9X76AytTH0HeB27GEqdZ_O6iLAuw3_jOFDfkiGdnVhQ,6226
+pygibbs-0.0.1.dist-info/METADATA,sha256=lUmH5Mup8xYiLcjzzYw0MiXl5MKR1kVEmQP0AuBHRbw,500
+pygibbs-0.0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+pygibbs-0.0.1.dist-info/top_level.txt,sha256=fqy4Gnit1o3UtPzqiiSUEshb18606O74tE534F9ibEI,8
+pygibbs-0.0.1.dist-info/RECORD,,
