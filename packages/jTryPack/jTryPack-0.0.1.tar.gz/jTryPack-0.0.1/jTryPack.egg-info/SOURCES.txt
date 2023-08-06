@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+jTryPack/__init__.py
+jTryPack/manip.py
+jTryPack.egg-info/PKG-INFO
+jTryPack.egg-info/SOURCES.txt
+jTryPack.egg-info/dependency_links.txt
+jTryPack.egg-info/top_level.txt
