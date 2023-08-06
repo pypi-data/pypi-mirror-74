@@ -1,0 +1,8 @@
+README.md
+setup.py
+danvers/__init__.py
+danvers/danvers.py
+danvers.egg-info/PKG-INFO
+danvers.egg-info/SOURCES.txt
+danvers.egg-info/dependency_links.txt
+danvers.egg-info/top_level.txt
