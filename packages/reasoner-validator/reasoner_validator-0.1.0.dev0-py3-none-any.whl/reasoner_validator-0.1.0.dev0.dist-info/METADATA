@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: reasoner-validator
+Version: 0.1.0.dev0
+Summary: Validation tools for Reasoner API
+Home-page: https://github.com/NCATSTranslator/reasoner-validator
+Author: Patrick Wang
+Author-email: patrick@covar.com
+License: MIT
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Requires-Dist: jsonschema (>=3.0)
+Requires-Dist: pyyaml (>=5.1)
+Requires-Dist: importlib-resources ; python_version < "3.7"
+
+UNKNOWN
+
+
