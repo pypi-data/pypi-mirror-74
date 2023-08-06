@@ -1,0 +1,12 @@
+pytris/__init__.py,sha256=9kPlmnj21qynqL-PVBdUivBionXRNAX5_ELMO1tq3vY,63
+pytris/api.py,sha256=IJ4oY4ggZBwWfPkMJOpeLwTbps_qwc4YqUXb87kNMtc,1229
+pytris/endpoints.py,sha256=8BT_ZqsmFVBCvchM783tUAA_WaGNuo-sC8sCFENz72s,1866
+pytris/errors.py,sha256=GagR-iO7lCvWnpUT248RfKUiy98VJLKeWom9E_5-EJk,51
+pytris/models.py,sha256=L6djdlqVL9UTjoHZp7HKWw32W5WzyqBB0uMKqISZi94,1193
+pytris/requests.py,sha256=GDsy5cB7lC4pWDw6nv1sTv7K5jgSl4FFO-iW73yWd6E,592
+pytris/version.py,sha256=pKh2_hmFNUwG0JxbL18qxdmi_nmFpgRbR8X6IPZr08o,21
+pyTRIS-0.2.2.dist-info/LICENSE,sha256=DFAIzVYqBove9jevSNYwsWC80lO0eaVo9ubRy0BCGu0,1072
+pyTRIS-0.2.2.dist-info/METADATA,sha256=3M7KK3u87xG8MBmhA_aJwgrCRCjVf33xkzIlSPFai78,1162
+pyTRIS-0.2.2.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+pyTRIS-0.2.2.dist-info/top_level.txt,sha256=ihihjx5OHrcK7qWAfXNV0g1ZyMFqoErbuMc98dELnng,7
+pyTRIS-0.2.2.dist-info/RECORD,,
