@@ -1,0 +1,53 @@
+Metadata-Version: 2.1
+Name: requests-skip-verify
+Version: 0.0.1
+Summary: Skip SSL verification for requests.
+Home-page: UNKNOWN
+Author: Tsuuko
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# requests-skip-verify
+
+This package can skip SSL verification for the requests library with a single command.  
+Avoid SSL errors under proxies and hide warnings.
+
+You don't need to add "verify=False" to every HTTP request anymore.
+
+## Quickstart
+
+Install using pip:
+
+```
+pip install requests-skip-verify
+```
+
+Disable SSL Verification:
+
+```python
+import requests
+import requests_skip_verify
+
+# Switch verification
+requests_skip_verify.set(True)
+
+requests.get("https://example.com/")
+```
+
+ReEnable SSL Verification:
+
+```python
+import requests
+import requests_skip_verify
+
+# Switch verification
+requests_skip_verify.set(False)
+
+requests.get("https://example.com/")
+```
+
+
