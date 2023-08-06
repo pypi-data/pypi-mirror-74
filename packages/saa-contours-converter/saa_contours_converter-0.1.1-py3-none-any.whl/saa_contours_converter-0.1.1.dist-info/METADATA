@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: saa-contours-converter
+Version: 0.1.1
+Summary: 
+Author: John Doe
+Author-email: john-doe@example.net
+Requires-Python: >=666,<667
