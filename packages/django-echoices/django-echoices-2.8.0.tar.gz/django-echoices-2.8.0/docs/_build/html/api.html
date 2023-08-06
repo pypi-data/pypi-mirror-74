@@ -1,0 +1,292 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>API &#8212; django-echoices 2.2.0 documentation</title>
+    <link rel="stylesheet" href="_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    './',
+        VERSION:     '2.2.0',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true,
+        SOURCELINK_SUFFIX: '.txt'
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="prev" title="Welcome to django-echoices’s documentation!" href="index.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head>
+  <body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="module-enums">
+<span id="api"></span><span id="echoices-enums"></span><h1>API<a class="headerlink" href="#module-enums" title="Permalink to this headline">¶</a></h1>
+<dl class="class">
+<dt id="enums.EAutoChoice">
+<em class="property">class </em><code class="descclassname">enums.</code><code class="descname">EAutoChoice</code><a class="headerlink" href="#enums.EAutoChoice" title="Permalink to this definition">¶</a></dt>
+<dd><p>Auto-generated numeric <cite>value`s. Thus support sorting by `value</cite>.</p>
+<div class="admonition seealso">
+<p class="first admonition-title">See also</p>
+<dl class="last docutils">
+<dt><code class="xref py py-obj docutils literal"><span class="pre">https</span></code></dt>
+<dd>//docs.python.org/3.5/library/enum.html#autonumber</dd>
+</dl>
+</div>
+</dd></dl>
+
+<dl class="class">
+<dt id="enums.EChoice">
+<em class="property">class </em><code class="descclassname">enums.</code><code class="descname">EChoice</code><a class="headerlink" href="#enums.EChoice" title="Permalink to this definition">¶</a></dt>
+<dd><p>Custom Enum to ease the usage of choices outside the model.</p>
+<p>Works by overriding the default _value_ field. This is done to offer a harmonized interface 
+when using auto-generated numeric values.
+By the way, <cite>value</cite> is now the actual value to be stored in the DB.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Raises:</th><td class="field-body"><p class="first"><strong>AttributeError</strong></p>
+<blockquote class="last">
+<div><p>in case of duplicated values</p>
+</div></blockquote>
+</td>
+</tr>
+</tbody>
+</table>
+<div class="admonition seealso">
+<p class="first admonition-title">See also</p>
+<dl class="last docutils">
+<dt><code class="xref py py-obj docutils literal"><span class="pre">http</span></code></dt>
+<dd>//stackoverflow.com/a/24105344</dd>
+</dl>
+</div>
+<p class="rubric">Notes</p>
+<p>Interface differs slightly from the Enum:
+<cite>EChoice.value</cite> returns the actual value to be stored in the DB, while the legacy <cite>Enum.value</cite>
+would return the whole tuple used when defining the enumeration item.</p>
+<dl class="classmethod">
+<dt id="enums.EChoice.choices">
+<em class="property">classmethod </em><code class="descname">choices</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#enums.EChoice.choices" title="Permalink to this definition">¶</a></dt>
+<dd><p>Generate the choices as required by Django models.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">tuple</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="classmethod">
+<dt id="enums.EChoice.from_value">
+<em class="property">classmethod </em><code class="descname">from_value</code><span class="sig-paren">(</span><em>value</em><span class="sig-paren">)</span><a class="headerlink" href="#enums.EChoice.from_value" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return the EChoice object associated with this value, if any.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><p class="first"><strong>value</strong></p>
+<blockquote>
+<div><p>In the type of the <cite>value</cite> field, as set when instantiating this EChoice.</p>
+</div></blockquote>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first">EChoice</p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Raises:</th><td class="field-body"><p class="first"><strong>KeyError</strong></p>
+<blockquote class="last">
+<div><p>if <cite>value</cite> does not exist in any element</p>
+</div></blockquote>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="classmethod">
+<dt id="enums.EChoice.get">
+<em class="property">classmethod </em><code class="descname">get</code><span class="sig-paren">(</span><em>value</em>, <em>default=None</em><span class="sig-paren">)</span><a class="headerlink" href="#enums.EChoice.get" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return the EChoice object associated with this value, else <cite>default</cite>. If default is not given, it defaults to
+None, so that this method never raises a KeyError.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><p class="first"><strong>value</strong></p>
+<blockquote>
+<div><p>In the type of the <cite>value</cite> field, as set when instantiating this EChoice.</p>
+</div></blockquote>
+<p><strong>default</strong></p>
+<blockquote>
+<div><p>Returned if the value is not found.</p>
+</div></blockquote>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first last">EChoice</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="classmethod">
+<dt id="enums.EChoice.max_value_length">
+<em class="property">classmethod </em><code class="descname">max_value_length</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#enums.EChoice.max_value_length" title="Permalink to this definition">¶</a></dt>
+<dd><p>Not to be used when using numeric values.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body"><p class="first">int</p>
+<blockquote class="last">
+<div><p>the maximal length required by this Enum to be stored in the database</p>
+</div></blockquote>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="classmethod">
+<dt id="enums.EChoice.values">
+<em class="property">classmethod </em><code class="descname">values</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#enums.EChoice.values" title="Permalink to this definition">¶</a></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body"><p class="first">tuple</p>
+<blockquote class="last">
+<div><p>of all the values of this Enum</p>
+</div></blockquote>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="enums.EChoiceMeta">
+<em class="property">class </em><code class="descclassname">enums.</code><code class="descname">EChoiceMeta</code><a class="headerlink" href="#enums.EChoiceMeta" title="Permalink to this definition">¶</a></dt>
+<dd><p>Used to override some methods.</p>
+<div class="admonition seealso">
+<p class="first admonition-title">See also</p>
+<dl class="last docutils">
+<dt><code class="xref py py-obj docutils literal"><span class="pre">https</span></code></dt>
+<dd>//blog.ionelmc.ro/2015/02/09/understanding-python-metaclasses/#restrictions-with-multiple-metaclasses</dd>
+</dl>
+</div>
+<p class="rubric">Methods</p>
+</dd></dl>
+
+<dl class="class">
+<dt id="enums.EOrderedChoice">
+<em class="property">class </em><code class="descclassname">enums.</code><code class="descname">EOrderedChoice</code><a class="headerlink" href="#enums.EOrderedChoice" title="Permalink to this definition">¶</a></dt>
+<dd><p>Provide ordering of the elements</p>
+<dl class="classmethod">
+<dt id="enums.EOrderedChoice.choices">
+<em class="property">classmethod </em><code class="descname">choices</code><span class="sig-paren">(</span><em>order='natural'</em><span class="sig-paren">)</span><a class="headerlink" href="#enums.EOrderedChoice.choices" title="Permalink to this definition">¶</a></dt>
+<dd><p>Generate the choices as required by Django models.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><p class="first"><strong>order</strong> : str</p>
+<blockquote>
+<div><p>in which the elements should be returned. Possible values are:
+* ‘sorted’, the elements will be sorted by <cite>value</cite>
+* ‘reverse’, the elements will be sorted by <cite>value</cite> as if each comparison were</p>
+<blockquote>
+<div><p>reversed</p>
+</div></blockquote>
+<ul class="simple">
+<li>‘natural’ (default), the elements are ordered as when instantiated in the enumeration</li>
+</ul>
+</div></blockquote>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first last">iterable of tuple</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper"><div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="index.html">Documentation overview</a><ul>
+      <li>Previous: <a href="index.html" title="previous chapter">Welcome to django-echoices’s documentation!</a></li>
+  </ul></li>
+</ul>
+</div>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="_sources/api.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <form class="search" action="search.html" method="get">
+      <div><input type="text" name="q" /></div>
+      <div><input type="submit" value="Go" /></div>
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2017, Marc Bourqui.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 1.6.4</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.10</a>
+      
+      |
+      <a href="_sources/api.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>
