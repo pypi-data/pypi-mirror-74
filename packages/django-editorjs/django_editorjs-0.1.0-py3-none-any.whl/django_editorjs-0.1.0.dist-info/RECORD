@@ -1,0 +1,8 @@
+django_editorjs/__init__.py,sha256=39utt9Rg6MKQlsikfE5e7mHZzlp3LCD6M2l7ZFpsllQ,154
+django_editorjs/fields.py,sha256=xkxe5aVFB693AoYpAyzJwHI-R-pJrlQkwM124XMM0bE,716
+django_editorjs/static/django-editorjs.js,sha256=6XRREJkTC0iOhEcJIYhJdtiEZoOWdo5_3B7VFXyyX7s,2993
+django_editorjs/templates/editorjs.html,sha256=x4CCCOfSFoVOZN61Epn3g3I_VPvC7XAmL45W3HiVfaU,315
+django_editorjs/widgets.py,sha256=LP1E2i_t07G-6hoo1C5QKtmIKXDK3acPYdAowEly02A,1229
+django_editorjs-0.1.0.dist-info/WHEEL,sha256=xSvaL1DM8LOHfdyo0cCcwjZu1tC6CnCsRGWUgazvlbM,83
+django_editorjs-0.1.0.dist-info/METADATA,sha256=IFsvC2KWgqjxueGsRV3Kcah5NnZ36faBXD9wHsoorZg,5420
+django_editorjs-0.1.0.dist-info/RECORD,,
