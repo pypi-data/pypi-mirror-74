@@ -1,0 +1,11 @@
+aiplatgo/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aiplatgo/cli.py,sha256=0oNyNULK8dc5CVUBtCrD1IYzg793fgYnwAmIvdOug54,4440
+aiplatgo/command.py,sha256=pz-X-pMBmWCMCNXNZFMBXf6Vw0hW34pIAR6dw5P_6dI,4211
+aiplatgo/gcs.py,sha256=XtXG13enxmBCJDmV_k8gK5GYRz1kyGabwdRV8pW4jLo,2202
+aiplatgo/parser.py,sha256=N7v9Co3CuirXyz_mse8hxjfDik7-QHYU6kBsLC0kUgE,2046
+aiplatgo/utils.py,sha256=IGt4qpo65OdHSkUBbmf_vfrwbVj6DqLUuBfGie7xe_M,438
+aiplatgo-0.0.0.2.dist-info/METADATA,sha256=-FvcM60va6I1voeE9UUa6mzwPHr5Ntiwt5zGdwep_pc,381
+aiplatgo-0.0.0.2.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+aiplatgo-0.0.0.2.dist-info/entry_points.txt,sha256=k2slo80IQ1M2NTwEYPYLxWRGeVrK3VFH8FHQLrsLnj8,47
+aiplatgo-0.0.0.2.dist-info/top_level.txt,sha256=phEljlq1pE3D9n5onxpgpxh5UyVqxQmgCDLdg595pUI,9
+aiplatgo-0.0.0.2.dist-info/RECORD,,
