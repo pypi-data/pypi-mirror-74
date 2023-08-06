@@ -1,0 +1,9 @@
+README.md
+setup.py
+fslparser/__init__.py
+fslparser/parsers.py
+fslparser.egg-info/PKG-INFO
+fslparser.egg-info/SOURCES.txt
+fslparser.egg-info/dependency_links.txt
+fslparser.egg-info/requires.txt
+fslparser.egg-info/top_level.txt
