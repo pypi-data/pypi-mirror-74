@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: steganocryptopy
+Version: 0.1.0
+Summary: The simplest Python Steganography with crypto out there!
+Home-page: https://github.com/kvvignesh/steganocryptopy
+Author: K V Vignesh
+Author-email: vigneshkundhanam@gmail.com
+License: MIT
+Download-URL: https://github.com/kvvignesh/steganocryptopy/archive/v1.0.tar.gz
+Description: UNKNOWN
+Keywords: Steganography,crypto,encrypt
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
