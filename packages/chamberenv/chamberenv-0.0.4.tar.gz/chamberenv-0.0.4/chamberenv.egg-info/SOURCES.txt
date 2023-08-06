@@ -1,0 +1,11 @@
+MANIFEST.in
+README.md
+setup.py
+bin/chamberenv
+chamberenv/_version.py
+chamberenv/chamberenv.py
+chamberenv.egg-info/PKG-INFO
+chamberenv.egg-info/SOURCES.txt
+chamberenv.egg-info/dependency_links.txt
+chamberenv.egg-info/requires.txt
+chamberenv.egg-info/top_level.txt
