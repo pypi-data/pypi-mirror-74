@@ -1,0 +1,8 @@
+README.md
+protox_encoding.c
+setup.py
+protox_encoding.egg-info/PKG-INFO
+protox_encoding.egg-info/SOURCES.txt
+protox_encoding.egg-info/dependency_links.txt
+protox_encoding.egg-info/not-zip-safe
+protox_encoding.egg-info/top_level.txt
