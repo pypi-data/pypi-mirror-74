@@ -1,0 +1,12 @@
+src/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+src/app.py,sha256=5TqUpAQstyqTEfFUfmJIhBYw05eN4L6HwZKSslRw7lY,1446
+src/pyi_patch.py,sha256=QZjUA8g08V7kkf6GpRAlpXwCJfnNWvTqSjqgZVKXLeU,2717
+src/wsl_operations.py,sha256=7b35P_5aEGbBY4j0A7GklqeQUNtOb4mx0ukoJ5a-EG4,1346
+src/systray/__init__.py,sha256=mGmh8jd49yywj_gdCEzoWA_wZ2H_O_hbgWJqvIm5lWg,91
+src/systray/traybar.py,sha256=zK-xMfOyapy0CJxLX2TMo0yUOYchLmsCvI7_HPKevto,11888
+src/systray/win32_adapter.py,sha256=kzIUJOIkiH3YVgGl-vZztl8UUx4HW3sPBmLBw4jk4pI,6239
+wsl_tray-0.2.dist-info/LICENSE,sha256=-SFOPFHKu1Y5B_rgWRJsCp4soefO3f1XyQjkTTN5xzg,1551
+wsl_tray-0.2.dist-info/METADATA,sha256=BMYk-SZmTkx0PzCYLN3ZLKPATAax7BtB9UwpZLwRO1I,2049
+wsl_tray-0.2.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+wsl_tray-0.2.dist-info/top_level.txt,sha256=74rtVfumQlgAPzR5_2CgYN24MB0XARCg0t-gzk6gTrM,4
+wsl_tray-0.2.dist-info/RECORD,,
