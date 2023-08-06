@@ -1,0 +1,10 @@
+setup.py
+Raj_9100/Binomialdistribution.py
+Raj_9100/Gaussiandistribution.py
+Raj_9100/Generaldistribution.py
+Raj_9100/__init__.py
+Raj_9100.egg-info/PKG-INFO
+Raj_9100.egg-info/SOURCES.txt
+Raj_9100.egg-info/dependency_links.txt
+Raj_9100.egg-info/not-zip-safe
+Raj_9100.egg-info/top_level.txt
