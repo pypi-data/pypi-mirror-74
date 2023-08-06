@@ -1,0 +1,14 @@
+swap_user/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+swap_user/forms/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+swap_user/forms/email.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+swap_user/forms/phone.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+swap_user/managers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+swap_user/managers/email.py,sha256=Zxjgnu17tbn3Nq1xgO2XcOTBskWGrMkpIdFq7sI3ROA,1000
+swap_user/managers/phone.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+swap_user/models/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+swap_user/models/email.py,sha256=7sNtJJt7ZiLMa6VyIHN9rkNX6HFRMu3mcaYokRcS7X0,1741
+swap_user/models/phone.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_swap_user-0.1.1b0.dist-info/LICENSE,sha256=b4RO2xVKRMyKodzgdO3bFltjJyeboPQiHUexMQinkN4,1074
+django_swap_user-0.1.1b0.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+django_swap_user-0.1.1b0.dist-info/METADATA,sha256=nA0ZZSbdEHphoiMKybabUw7ZSIZK5tO9fgemi8SyWhQ,863
+django_swap_user-0.1.1b0.dist-info/RECORD,,
