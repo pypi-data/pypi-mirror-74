@@ -1,0 +1,7 @@
+pysonic.c
+setup.py
+wave.c
+pysonic3.egg-info/PKG-INFO
+pysonic3.egg-info/SOURCES.txt
+pysonic3.egg-info/dependency_links.txt
+pysonic3.egg-info/top_level.txt

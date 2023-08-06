@@ -1,0 +1,21 @@
+Metadata-Version: 1.2
+Name: pysonic3
+Version: 0.0.1
+Summary: libsonic bindings
+Home-page: http://eaidk.openailab.com
+Author: Bing
+Author-email: byan@openailab.com
+Maintainer: Bing
+Maintainer-email: byan@openailab.com
+License: PSF
+Description: 
+        This package contains wrappers for accessing the LIBSONIC API from Python.
+        
+Platform: posix
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Python Software Foundation License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Multimedia :: Sound/Audio
