@@ -1,0 +1,8 @@
+README.md
+setup.cfg
+setup.py
+indjections.egg-info/PKG-INFO
+indjections.egg-info/SOURCES.txt
+indjections.egg-info/dependency_links.txt
+indjections.egg-info/requires.txt
+indjections.egg-info/top_level.txt
