@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: my-site
+Version: 1.0.1
+Summary: A Python package to make a poll.
+Home-page: https://github.com
+Author: Jesvin
+Author-email: Jesvin@gmail.com
+License: MIT
+Description: # Polls
+        ## An app made for trail
+        
+        ### You can find my project in django
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown

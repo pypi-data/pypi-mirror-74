@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+my_site/manage.py
+my_site.egg-info/PKG-INFO
+my_site.egg-info/SOURCES.txt
+my_site.egg-info/dependency_links.txt
+my_site.egg-info/entry_points.txt
+my_site.egg-info/requires.txt
+my_site.egg-info/top_level.txt
