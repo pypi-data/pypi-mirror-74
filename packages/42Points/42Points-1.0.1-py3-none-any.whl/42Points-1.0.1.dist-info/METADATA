@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: 42Points
+Version: 1.0.1
+Summary: Python implementation of the fourty-two points game.
+Home-page: https://github.com/T0nyX1ang/42-Points-Game
+Author: Tony Xiang
+Author-email: tonyxfy@qq.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 4 - Beta
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
+
+# 42-Points-Game
+Python implementation of the fourty-two points game.
+
+
