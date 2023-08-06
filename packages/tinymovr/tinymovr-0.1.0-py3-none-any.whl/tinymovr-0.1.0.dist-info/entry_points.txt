@@ -1,0 +1,6 @@
+[can.interface]
+arduino_can = tinymovr.bus:ArduinoCAN
+
+[console_scripts]
+tinymovr = tinymovr.shell:spawn_shell
+

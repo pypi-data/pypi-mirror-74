@@ -1,0 +1,11 @@
+tinymovr/__init__.py,sha256=_z-LeHUG4FqTPA-UxFROyMVTgYWmrntLp3wjQ6dWxqU,221
+tinymovr/endpoints.py,sha256=D3BEnhHcQf3wi2KKUuwWFqpGsMtgkoMKBrlpssAzDTI,5476
+tinymovr/errors.py,sha256=i6w3zb3fQGMBTS04aTldiD2hd6Zue_6fTKf6zVOrflA,838
+tinymovr/shell.py,sha256=tJT5eGqgR6KXpICSEj5ZXNUDIlE039AGOyT-fbwVeHk,2505
+tinymovr/tinymovr.py,sha256=qKDdJKk2Woau641H34kg20cYBkAvkEMyofOZ0vpQ37g,2768
+tinymovr/user_wrapper.py,sha256=7YXO3uSXP03er1nqYhu6rQ-pB8JlK-elZkLeqe9_6NA,5053
+tinymovr-0.1.0.dist-info/METADATA,sha256=UaEKk02kiv7Jvi3UQ0A3V0d1JvPZAfk_yZO_5oTT4nI,1334
+tinymovr-0.1.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+tinymovr-0.1.0.dist-info/entry_points.txt,sha256=9aNX30m-tbRHecoXl-rOJ9hSx0CXoc_Fy-jeTQoCCnc,112
+tinymovr-0.1.0.dist-info/top_level.txt,sha256=Q6_2qAU08oL6XfZEcpar2GG0Ty-y1Sc7VQHUa5QBR3M,9
+tinymovr-0.1.0.dist-info/RECORD,,
