@@ -1,0 +1,9 @@
+omnikdataloggerproxy-1.1.3.data/data/share/omnikdataloggerproxy/config.ini_example.txt,sha256=ToWi71dh-0uL80v_tF56FpsXdj2hlu3DtLtmYQBTQh8,540
+omnikdataloggerproxy-1.1.3.data/data/share/omnikdataloggerproxy/iptables_setup_example.sh,sha256=S9VIaeUUCqoccVGFYbF0542ZNmERQmQzNOVg-7nR-jU,420
+omnikdataloggerproxy-1.1.3.data/data/share/omnikdataloggerproxy/omnikdataloggerproxy.service,sha256=o6drYaI0DFHmYVBI5FWLiH4AIwLQWryn-c5xlI2bf7Q,334
+omnikdataloggerproxy-1.1.3.data/data/share/omnikdataloggerproxy/omnikproxy_example_startup.sh,sha256=0XKVkqPEF1hNL71kHt5ItWXIvwKJrxkT5H7R5UMwp8I,1265
+omnikdataloggerproxy-1.1.3.data/scripts/omnikloggerproxy.py,sha256=4UYhCCJ7nRp4CBtie5MQwlKDiueMG-1jAcgUPvLGG9k,16590
+omnikdataloggerproxy-1.1.3.dist-info/METADATA,sha256=b7L4f7KTbF3sLfXomIsuPyiaGzXVE87lAxQJAvRRkmY,7551
+omnikdataloggerproxy-1.1.3.dist-info/WHEEL,sha256=_NOXIqFgOaYmlm9RJLPQZ13BJuEIrp5jx5ptRD5uh3Y,92
+omnikdataloggerproxy-1.1.3.dist-info/top_level.txt,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+omnikdataloggerproxy-1.1.3.dist-info/RECORD,,
