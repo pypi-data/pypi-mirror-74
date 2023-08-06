@@ -1,0 +1,14 @@
+pyscm/__init__.py,sha256=P3mfY0NwxlXInjx4UcbiMH0-KdsNIHIlVooTITvsAac,795
+pyscm/_scm_utility.cpython-37m-darwin.so,sha256=MDiQqlxa0ZPJiCop6FycYJXSN_mPf2dhYH1FhU0nMXY,24352
+pyscm/model.py,sha256=8ioKk3FlJ4BOMeEwYoaY7yRaEcBAx9y1lS-B4E7x7Ck,2568
+pyscm/rules.py,sha256=ehGnhVEwxEVI_OO9Q6YRX4AeaPo_Y5kx6w6Jax5RebY,3709
+pyscm/scm.py,sha256=aFrd1Kc5pw-vJRTYksWptdqXFP7PFOLu2U5n9m6_q1M,11670
+pyscm/utils.py,sha256=Io-LcGTSXkDcg3mwuhcRv4mbHggPc7eX81bUyTfbq4I,1437
+pyscm/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyscm/tests/test_sklearn_compatibility.py,sha256=-IoQMcxNT7R30hFSIm2UJVTvRHWFzrf7OC3gs283JBo,1940
+pyscm/tests/test_utility.py,sha256=1vpDNj521P-jwuUosEozGlfMtmnjuGKx3bKXcr-7Exc,8320
+pyscm_ml-1.0.1.dist-info/LICENSE.md,sha256=4cCtcomD2KVzNeUs8QZPGv_R1FQXPYzr0-2LSnK0hwQ,35121
+pyscm_ml-1.0.1.dist-info/METADATA,sha256=HhwmUsccYlA7v6LzmvFgyLjcAjb-fSIZGaXolC3DhaE,1963
+pyscm_ml-1.0.1.dist-info/WHEEL,sha256=d1FXElTc2O1aD-DA111TtqEjjjICRp-GfmLEJcA56oY,111
+pyscm_ml-1.0.1.dist-info/top_level.txt,sha256=YTwf9goLJI_y45Tiboyj5w44Mg6bWogdiySI6hWvsqA,6
+pyscm_ml-1.0.1.dist-info/RECORD,,
