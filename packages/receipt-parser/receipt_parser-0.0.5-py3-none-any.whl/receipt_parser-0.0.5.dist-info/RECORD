@@ -1,0 +1,9 @@
+receipt_parser/__init__.py,sha256=oDYFvZ2Rt353xqh5Eh6JPaFRbfWzDoqQanNiJTRBXAg,298
+receipt_parser/finder.py,sha256=4uVUmUWTxDhoVIUQaqhEjIdkeUGbCYc6zkL5J59W75U,11858
+receipt_parser/normalizer.py,sha256=_uIgsnrfHo-dNv66asFdI8Ub6CW7bKoiY1daSyWmGQw,6399
+receipt_parser/receipt_parser.py,sha256=7nLmSHQ7KmGdQlRCdq6HwzZyut8sx5fuG38B_-93mNc,2603
+receipt_parser-0.0.5.dist-info/LICENSE,sha256=Ncx2JDzSa5wKyYohl9WNKu6cHSeaxWA__sdEHDq4YEk,1070
+receipt_parser-0.0.5.dist-info/METADATA,sha256=mTs5lgirRPG7vhwY4vvYTUTuCUYAOTJfVW7eIh7H8gQ,896
+receipt_parser-0.0.5.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+receipt_parser-0.0.5.dist-info/top_level.txt,sha256=_ImuM1eFSjXq6TdBj9JIDHAPipW4aupfDDj_g1YcghE,15
+receipt_parser-0.0.5.dist-info/RECORD,,
