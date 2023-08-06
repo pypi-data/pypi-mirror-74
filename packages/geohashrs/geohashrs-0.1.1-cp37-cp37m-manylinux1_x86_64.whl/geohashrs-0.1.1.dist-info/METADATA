@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: geohashrs
+Version: 0.1.1
+Classifier: Programming Language :: Python
+Author: nabil@eml.cc
+Author-Email: nabil@eml.cc
+Maintainer: Nabil Servais
+Maintainer-Email: nabil@eml.cc
+Requires-Python: >=3.6
