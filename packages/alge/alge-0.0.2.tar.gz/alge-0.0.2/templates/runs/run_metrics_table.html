@@ -1,0 +1,69 @@
+<br>
+
+{% if problem_type == 'classification' %}
+
+    <div class="row">
+        <div class="container">
+            <table class="table responsive table-bordered ">
+
+                <thead class="active">
+                <tr>
+                    <th scope="col">model</th>
+                    <th score="col">started_at</th>
+                    <th scope="col">AUC</th>
+                    <th scope="col">Accuracy</th>
+                    <th scope="col">Carbon footprint</th>
+                    <th scope="col">Recall</th>
+                    <th scope="col">Precision</th>
+                    <th scope="col">F1Score</th>
+                </tr>
+                </thead>
+                <tbody>
+                {% for model in models %}
+                    <tr>
+                        <td><a href="/model/{{ model.model.model_id }}">{{ model.model.name }}</a>{% if model.model.optimized %} [optimized]{% endif %}</td>
+                        <td>{{ model.model.started_at }}</td>
+                        <td>{{ model.metrics.roc_auc }}%</td>
+                        <td>{{ model.metrics.accuracy }}%</td>
+                        <td>{{ model.sustainability.carbon_footprint }}</td>
+                        <td>{{ model.metrics.recall }}%</td>
+                        <td>{{ model.metrics.precision }}%</td>
+                        <td>{{ model.metrics.f1_score }}%</td>
+                    </tr>
+                {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+{% else %}
+
+    <div class="row">
+        <div class="container">
+            <table class="table responsive table-bordered ">
+
+                <thead class="active">
+                <tr>
+                    <th scope="col">model</th>
+                    <th score="col">started_at</th>
+                    <th scope="col">MSE</th>
+                    <th scope="col">MAE</th>
+                    <th scope="col">Carbon footprint</th>
+                </tr>
+                </thead>
+                <tbody>
+                {% for model in models %}
+                    <tr>
+                        <td><a href="/model/{{ model.model.model_id }}">{{ model.model.name }}</a>{% if model.model.optimized %} [optimized]{% endif %}</td>
+                        <td>{{ model.model.started_at }}</td>
+                        <td>{{ model.metrics.mean_squared_error }}</td>
+                        <td>{{ model.metrics.mean_absolute_error }}</td>
+                        <td>{{ model.sustainability.carbon_footprint }}</td>
+                    </tr>
+                {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+{% endif %}

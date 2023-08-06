@@ -1,0 +1,2 @@
+export PYPI_USER=iGlobalHealth-EPFL
+export PYPI_PASSWORD=iGHpypiPYPI

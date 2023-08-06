@@ -1,0 +1,10 @@
+{% extends "layout.html" %}
+{% block title %}{{ run.run_id }}{% endblock %}
+
+{% block body %}
+
+    <h3>Models for predict {{ run.label }}</h3>
+    {% include 'runs/run_metrics_table.html' %}
+    {% include 'runs/run_data.html' %}
+
+{% endblock %}

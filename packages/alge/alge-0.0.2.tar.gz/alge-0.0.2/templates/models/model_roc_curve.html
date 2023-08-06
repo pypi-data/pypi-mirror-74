@@ -1,0 +1,130 @@
+<button type="button"
+        class="btn btn-primary"
+        data-toggle="modal"
+        data-target="#modal_roc_curve">Roc Curve
+</button>
+
+<div id="modal_roc_curve" class="modal fade" role="dialog">
+    <div class="modal-dialog modal-lg">
+
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title">Roc Curve</h4>
+            </div>
+            <div class="modal-body" id="roc_curve">
+            </div>
+            <div class="modal-footer">
+                <a href="https://en.wikipedia.org/wiki/Receiver_operating_characteristic" target="_blank">More about ROC
+                    Curve</a>
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<script>
+    var rocData =
+    {{ roc_curve | safe }}
+
+    var margin = {top: 30, right: 20, bottom: 70, left: 70},
+        width = 600 - margin.left - margin.right,
+        height = 600 - margin.top - margin.bottom;
+
+    var x = d3.scaleLinear().domain([0, 1]).range([0, width]);
+    var y = d3.scaleLinear().domain([0, 1]).range([height, 0]);
+
+    var svg = d3.select("#roc_curve")
+        .append("svg")
+        .attr("width", width + margin.left + margin.right)
+        .attr("height", height + margin.top + margin.bottom)
+        .append("g")
+        .attr("transform",
+            "translate(" + margin.left + "," + margin.top + ")");
+
+    var xAxis = d3.axisBottom(x).ticks(5);
+    var yAxis = d3.axisLeft(y).ticks(5);
+
+    svg.append("g")
+        .attr("class", "x axis")
+        .attr("transform", "translate(0," + height + ")")
+        .style("font", "17px times")
+        .call(xAxis);
+
+    svg.append("g")
+        .attr("class", "y axis")
+        .style("font", "17px times")
+        .call(yAxis);
+
+    svg.append("text")
+        .attr("class", "x label")
+        .attr("text-anchor", "end")
+        .attr("x", width)
+        .attr("y", height - 6)
+        .text("False Positive Rate")
+        .style("font", "17px times");
+
+    svg.append("text")
+        .attr("class", "y label")
+        .attr("text-anchor", "end")
+        .attr("y", 6)
+        .attr("dy", ".75em")
+        .attr("transform", "rotate(-90)")
+        .text("True Positive Rate")
+        .style("font", "17px times");
+
+    {#        var tip2 = d3.tip()#}
+    {#            .attr('class', 'd3-tip')#}
+    {#            .style("visibility","visible")#}
+    {#            .offset([-20, 0])#}
+    {#            .html(function(d) {#}
+    {#                return d.thershold;#}
+    {#            });#}
+
+    function rocGraph(data) {
+        data.forEach(function (d) {
+            d.tpr = d.tpr;
+            d.fpr = d.fpr;
+            d.thershold = d.thershold;
+        });
+
+        svg.append("path")
+            .datum(data)
+            .attr("fill", "none")
+            .attr("stroke", "steelblue")
+            .attr("stroke-width", 3)
+            .attr("d", d3.line()
+                .x(function (d) {
+                    return x(d.fpr)
+                })
+                .y(function (d) {
+                    return y(d.tpr)
+                })
+            );
+
+        svg.append("path")
+            .datum([{tpr: 0, fpr: 0}, {tpr: 1.0, fpr: 1}])
+            .attr("fill", "none")
+            .style("stroke-dasharray", ("3, 3"))
+            .attr("stroke", "black")
+            .attr("stroke-width", 1.5)
+            .attr("d", d3.line()
+                .x(function (d) {
+                    return x(d.fpr)
+                })
+                .y(function (d) {
+                    return y(d.tpr)
+                })
+            );
+
+        svg.append("text")
+            .attr("x", (width / 2))
+            .attr("y", 0 - (margin.top / 2))
+            .attr("text-anchor", "middle")
+            .style("font-size", "16px")
+            .text("AUC: {{ model.modelmetrics.roc_auc }} %");
+    }
+
+    rocGraph(rocData);
+
+</script>

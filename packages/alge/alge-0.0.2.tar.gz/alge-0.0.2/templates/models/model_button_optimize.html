@@ -1,0 +1,14 @@
+{% if allowed_to_optimize == True %}
+
+    <div>
+        <div id="#forms-optimize-params">
+            <form method="post" id="form-program-optimize-params" action="/hyperparameter_optimization/{{ model.model_id }}"> {% csrf_token %}
+                <button id="submit-optimize-params" type="submit-optimize-params" class="btn btn-primary active"
+                        form="form-program-optimize-params" value="Submit" aria-pressed="true">Optimize Hyperparameters
+                </button>
+            </form>
+        </div>
+    </div>
+    <br>
+
+{% endif %}

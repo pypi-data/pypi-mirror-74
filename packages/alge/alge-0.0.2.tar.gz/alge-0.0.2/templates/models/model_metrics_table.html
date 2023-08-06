@@ -1,0 +1,75 @@
+{% if problem_type == 'classification' %}
+    <div class="row">
+        <div class="container">
+            <table class="table responsive table-bordered" id="table-model">
+
+                <thead class="active">
+                <tr>
+                    <th scope="col">Metric</th>
+                    <th scope="col">Value</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>AUC</td>
+                    <td>{{ metrics.roc_auc }}%</td>
+                </tr>
+                <tr>
+                    <td>Accuracy</td>
+                    <td>{{ metrics.accuracy }}%</td>
+                </tr>
+                <tr>
+                    <td>Recall</td>
+                    <td>{{ metrics.recall }}%</td>
+                </tr>
+                <tr>
+                    <td>Precision</td>
+                    <td>{{ metrics.precision }}%</td>
+                </tr>
+                <tr>
+                    <td>F1Score</td>
+                    <td>{{ metrics.f1_score }}%</td>
+                </tr>
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+{% else %}
+    <div class="row">
+        <div class="container">
+            <table class="table responsive table-bordered" id="table-model">
+
+                <thead class="active">
+                <tr>
+                    <th scope="col">Metric</th>
+                    <th scope="col">Value</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>MSE</td>
+                    <td>{{ metrics.mean_squared_error }}</td>
+                </tr>
+                <tr>
+                    <td>MAE</td>
+                    <td>{{ metrics.mean_absolute_error }}</td>
+                </tr>
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <script>
+{#        $(document).ready( function () {#}
+{#            $('#table-model').bdt();#}
+{#        });#}
+    </script>
+
+
+
+
+{% endif %}
+

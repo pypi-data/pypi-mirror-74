@@ -1,0 +1,13 @@
+{% extends "layout.html" %}
+{% load crispy_forms_tags %}
+
+{% block title %}Login{% endblock %}
+
+{% block body %}
+
+    {% if user.username %}
+        <p class="mb-3 font-weight-normal">{{ user.username }} change your password <a href="/change_password">here</a></p>
+        <p class="mb-3 font-weight-normal">{{ user.username }} logout <a href="/logout">here</a></p>
+    {% endif %}
+
+{% endblock %}

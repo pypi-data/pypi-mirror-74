@@ -1,0 +1,32 @@
+{% extends "layout.html" %}
+{% load crispy_forms_tags %}
+
+{% block title %}Login{% endblock %}
+
+{% block body %}
+
+    {% if user.username %}
+
+        <script>
+            window.location.replace("/logout");
+        </script>
+
+    {% else %}
+
+        <div class="text-center col-md-4" >
+        <form method="post" class="form-group">{% csrf_token %}
+            {{ form|crispy }}
+
+            <button type="submit" class="btn btn-lg btn-primary btn-block">Login</button>
+            <br><br>
+            <p class="mb-3 font-weight-normal">Don't have an account? Send us a message <a href="/about_us">here</a></p>
+            <p class="mt-5 mb-3 text-muted">&copy; 2019</p>
+        </form>
+
+        </div>
+
+    {% endif %}
+
+    </form>
+
+{% endblock %}

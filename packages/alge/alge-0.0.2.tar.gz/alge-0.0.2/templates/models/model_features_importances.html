@@ -1,0 +1,209 @@
+<button type="button"
+        class="btn btn-primary"
+        data-toggle="modal"
+        data-target="#modal_feature_importance">Feature Importance
+</button>
+
+<div id="modal_feature_importance" class="modal fade" role="dialog">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title">Feature Importance {{ model.name }}</h4>
+            </div>
+            <div class="modal-body" id="test_feature_importance">
+
+
+                <div style="float: right;" id="#forms-selected-features">
+                    <form method="post" id="form-program-selected-features"
+                          action="/rerun_selected_features/{{ model.run.run_id }}"> {% csrf_token %}
+
+                        <select class="selectpicker"
+                                multiple
+                                data-actions-box="true"
+                                data-selected-text-format="count > 2"
+                                name="selected-features"
+                                title="Selected Features"
+                                id="selected-features"
+                                data-live-search="true">
+                            {% for feature in ordered_features_by_importance %}
+                                <option>{{ feature }}</option>
+                            {% endfor %}
+                        </select>
+
+                        <button id="submit-selected-features" type="submit-selected-features"
+                                class="btn btn-primary active"
+                                form="form-program-selected-features" value="Submit" aria-pressed="true">Re-run
+                        </button>
+                    </form>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <a href="https://christophm.github.io/interpretable-ml-book/feature-importance.html" target="_blank">More
+                    about feature importance</a>
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+<script>
+    $('#submit-selected-features').prop('disabled', true);
+
+    $('#selected-features').on('change', function (e) {
+        $('#submit-selected-features').prop('disabled', false);
+    });
+
+    var importanceData =
+    {{ test_features_importances | safe }}
+
+    var importanceBoxData = d3.nest() // nest function allows to group the calculation per level of a factor
+        .key(function (d) {
+            return d.feature;
+        })
+        .rollup(function (d) {
+            q1 = d3.quantile(d.map(function (g) {
+                return g.importance;
+            }).sort(d3.ascending), .25)
+            median = d3.quantile(d.map(function (g) {
+                return g.importance;
+            }).sort(d3.ascending), .5)
+            q3 = d3.quantile(d.map(function (g) {
+                return g.importance;
+            }).sort(d3.ascending), .75)
+            interQuantileRange = q3 - q1
+            min = q1 - 1.5 * interQuantileRange
+            max = q3 + 1.5 * interQuantileRange
+            return ({q1: q1, median: median, q3: q3, interQuantileRange: interQuantileRange, min: min, max: max})
+        })
+        .entries(importanceData);
+
+    var sortedFeatures = importanceBoxData.sort(function (a, b) {
+        let comparison = 0;
+        if (a.value.median > b.value.median) {
+            comparison = -1;
+        } else if (a.value.median < b.value.median) {
+            comparison = 1;
+        }
+        return comparison;
+    }).map(function (i) {
+        return i.key
+    });
+
+    var importances = importanceData.map(function (i) {
+        return i.importance
+    });
+    Array.prototype.max = function () {
+        return Math.max.apply(null, this);
+    };
+    Array.prototype.min = function () {
+        return Math.min.apply(null, this);
+    };
+    var xMin = importances.min();
+    var xMax = importances.max();
+
+    var margin = {top: 10, right: 10, bottom: 50, left: 150},
+        width = 700 - margin.left - margin.right,
+        height = 700 - margin.top - margin.bottom;
+
+    var svg = d3.select("#test_feature_importance")
+        .append("svg")
+        .attr("width", width + margin.left + margin.right)
+        .attr("height", height + margin.top + margin.bottom)
+        .append("g")
+        .attr("transform",
+            "translate(" + margin.left + "," + margin.top + ")");
+
+    var y = d3.scaleBand()
+        .range([height, 0])
+        .domain(sortedFeatures)
+        .padding(.3)
+    svg.append("g")
+        .style("font", "17px times")
+        .call(d3.axisLeft(y).tickSize(0));
+
+    var x = d3.scaleLinear()
+        .domain([xMin, xMax])
+        .range([0, width]);
+    svg.append("g")
+        .attr("transform", "translate(0," + height + ")")
+        .style("font", "15px times")
+        .call(d3.axisBottom(x).ticks(5));
+
+    svg.append("text")
+        .attr("text-anchor", "end")
+        .attr("x", width)
+        .attr("y", height + margin.top + 30)
+        .text("Feature Importance");
+
+
+    function importanceGraph(data) {
+
+        svg
+            .selectAll("vertLines")
+            .data(data)
+            .enter()
+            .append("line")
+            .attr("x1", function (d) {
+                return (x(d.value.min))
+            })
+            .attr("x2", function (d) {
+                return (x(d.value.max))
+            })
+            .attr("y1", function (d) {
+                return (y(d.key) + y.bandwidth() / 2)
+            })
+            .attr("y2", function (d) {
+                return (y(d.key) + y.bandwidth() / 2)
+            })
+            .attr("stroke", "black")
+            .style("width", 40);
+
+        svg
+            .selectAll("boxes")
+            .data(data)
+            .enter()
+            .append("rect")
+            .attr("x", function (d) {
+                return (x(d.value.q1))
+            }) // console.log(x(d.value.q1)) ;
+            .attr("width", function (d) {
+                ;
+                return (x(d.value.q3) - x(d.value.q1))
+            }) //console.log(x(d.value.q3)-x(d.value.q1))
+            .attr("y", function (d) {
+                return y(d.key);
+            })
+            .attr("height", y.bandwidth())
+            .attr("stroke", "black")
+            .style("fill", "#69b3a2")
+            .style("opacity", 0.3)
+
+        // Show the median
+        svg
+            .selectAll("medianLines")
+            .data(data)
+            .enter()
+            .append("line")
+            .attr("y1", function (d) {
+                return (y(d.key) + y.bandwidth() / 2)
+            })
+            .attr("y2", function (d) {
+                return (y(d.key) + y.bandwidth() / 2)
+            })
+            .attr("x1", function (d) {
+                return (x(d.value.median))
+            })
+            .attr("x2", function (d) {
+                return (x(d.value.median))
+            })
+            .attr("stroke", "black")
+            .style("width", 80)
+
+
+    }
+
+    importanceGraph(importanceBoxData);
+
+</script>

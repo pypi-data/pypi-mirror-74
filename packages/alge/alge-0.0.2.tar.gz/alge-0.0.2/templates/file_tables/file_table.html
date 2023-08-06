@@ -1,0 +1,129 @@
+{% extends "layout.html" %}
+{% block title %}{{ table.table_id }}{% endblock %}
+{% load mathfilters %}
+
+{% block body %}
+
+{% if is_owner %}
+    {% if table.active %}
+
+        <form method="post" action="" id="unactivate-table-form" enctype="multipart/form-data"/>{% csrf_token %}
+
+        <button id="unactivate-table" type="submit" class="btn btn-primary active" name="unactivate-table"
+                form="unactivate-table-form" value="submit-unactivate" aria-pressed="true"
+                data-toggle="tooltip" data-placement="bottom" title="This table won't be available to run models anymore">deactivate table
+        </button>
+
+        </form>
+
+    {% else %}
+
+        <form method="post" action="" id="activate-table-form" enctype="multipart/form-data"/>{% csrf_token %}
+
+        <button id="activate-table" type="submit" class="btn btn-primary active" name="activate-table"
+                form="activate-table-form" value="submit-activate" aria-pressed="true"
+                data-toggle="tooltip" data-placement="bottom" title="This table will be available to run models">activate table
+        </button>
+
+        </form>
+
+    {% endif %}
+{% endif %}
+
+    <br>
+
+    <div class="row">
+        <div class="container">
+            <table class="table responsive table-bordered" id="table-models">
+
+                <thead class="active">
+                <tr>
+                    <th scope="col">column_name</th>
+                    <th scope="col">label</th>
+                    <th scope="col">feature</th>
+                    <th scope="col">type</th>
+                    <th scope="col">unique values</th>
+                    <th scope="col">% nulls</th>
+
+
+                </tr>
+                </thead>
+                <tbody>
+                {% for col in  table_specs %}
+                    <tr>
+                        <td>
+                            {{ col.column_name }}
+                        </td>
+                        <td>
+                            {{ col.label }}
+                            {% if is_owner %}
+                                <form method="post" action="" id="change-label-form" enctype="multipart/form-data"/>{% csrf_token %}
+                                    <button id="change-label" type="submit" class="btn btn-sm btn-outline-dark active" name="change-label"
+                                            form="change-type-form" value={{ col.column_name }} aria-pressed="true"
+                                            data-toggle="tooltip" data-placement="bottom">change
+                                    </button>
+                                </form>
+                            {% endif %}
+                        </td>
+                        <td>
+                            {{ col.feature }}
+                            {% if is_owner %}
+                                <form method="post" action="" id="change-feature-form" enctype="multipart/form-data"/>{% csrf_token %}
+                                    <button id="change-feature" type="submit" class="btn btn-sm btn-outline-dark active" name="change-feature"
+                                            form="change-type-form" value={{ col.column_name }} aria-pressed="true"
+                                            data-toggle="tooltip" data-placement="bottom">change
+                                    </button>
+                                </form>
+                            {% endif %}
+                        </td>
+                        <td>
+                            {% if col.categorical %}
+                                categorical
+                            {% else %}
+                                numerical
+                            {% endif %}
+                            {% if is_owner %}
+                                <form method="post" action="" id="change-type-form" enctype="multipart/form-data"/>{% csrf_token %}
+
+                                    <button id="change-type" type="submit" class="btn btn-sm btn-outline-dark active" name="change-type"
+                                            form="change-type-form" value={{ col.column_name }} aria-pressed="true"
+                                            data-toggle="tooltip" data-placement="bottom">change
+                                    </button>
+                                </form>
+                            {% endif %}
+                        </td>
+                        <td>
+                            {{ col.distinct_values }}
+                        </td>
+                        <td>
+                            {{ col.prop_null|mul:100|floatformat:"-2" }}
+                        </td>
+                    </tr>
+
+                {% endfor %}
+                </tbody>
+            </table>
+            {% if is_owner %}
+            <form method="post" action="" id="form-refresh-upload" enctype="multipart/form-data"/>{% csrf_token %}
+
+            <input  type="file" name="table" accept=".csv">
+
+            <button id="submit-refresh-csv" type="submit" class="btn btn-primary active" name="refresh-table"
+                    form="form-refresh-upload" value={{ table.table_id }} aria-pressed="true">Refresh Data
+            </button>
+
+            </form>
+            <br>
+            <p>This function overwrites the entire table.</p>
+            <p>If the new file does not have exactly the same column names, it might crash previous models.</p>
+            {% endif %}
+        </div>
+    </div>
+
+    <script>
+        $(document).ready( function () {
+            $('#table-files').bdt();
+        });
+    </script>
+
+{% endblock %}

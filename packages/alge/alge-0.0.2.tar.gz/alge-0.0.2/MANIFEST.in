@@ -1,0 +1,15 @@
+include *.py
+include *.txt
+include *.yml
+include Makefile
+recursive-include db *.gitkeep
+recursive-include scripts *.sh
+recursive-include static *.css
+recursive-include static *.gif
+recursive-include static *.js
+recursive-include static *.md
+recursive-include static *.png
+recursive-include static *.svg
+recursive-include static *.txt
+recursive-include static *.woff
+recursive-include templates *.html

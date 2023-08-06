@@ -1,0 +1,226 @@
+<button type="button"
+        class="btn btn-primary"
+        data-toggle="modal"
+        data-target="#modal_pdps_{{ model.short_name }}">Features Curves
+</button>
+
+<div id="modal_pdps_{{ model.short_name }}" class="modal fade" role="dialog">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title">Features Curves of {{ model.name }}</h4>
+            </div>
+            <div class="modal-body">
+
+                <ul class="nav nav-tabs" id="curvesTab_{{ model.short_name }}" role="tablist">
+                    <li class="nav-item">
+                        <a class="nav-link active"
+                           id="pdps-tab"
+                           data-toggle="tab"
+                           href="#pdp-curves-{{ model.short_name }}"
+                           role="tab"
+                           aria-controls="pdp"
+                           aria-selected="true">PDP Curves</a>
+                    </li>
+                </ul>
+
+
+                <div class="tab-content" id="CurvesContent_{{ model.short_name }}">
+                    <div class="tab-pane fade show active" id="pdp-curves-{{ model.short_name }}" role="tabpanel"
+                         aria-labelledby="pdp-tab">
+                        <div id="chart_pdp_{{ model.short_name }}">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="modal-footer">
+                <a href="https://christophm.github.io/interpretable-ml-book/pdp.html" target="_blank">More
+                    about PDPs</a>
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+
+    var features = {{ features | safe}};
+
+    function allPdpGraph() {
+        features.forEach(pdpGraph);
+    }
+
+    allPdpGraph();
+
+    function pdpGraph(feature) {
+
+        var pdpsData = {{ pdps| safe }}
+
+            function getCoords(xs, ys) {
+                const pairs = [];
+                for (let i = 0; i < xs.length; i++) {
+                    let pair = [xs[i], ys[i]];
+                    pairs.push(pair);
+                }
+                const coords = [];
+                for (let i = 0; i < xs.length; i++) {
+                    let x = xs[i];
+                    let y = ys[i];
+                    let coord = {'x': x, 'y': y};
+                    coords.push(coord);
+                }
+
+                return coords
+            };
+
+        var pdpData = pdpsData
+            .filter(function (i) {
+                return i.feature == feature
+            })[0].pdp;
+        var pdpData = getCoords(pdpData[0], pdpData[1]);
+
+        var margin = {top: 30, right: 20, bottom: 30, left: 50},
+            width = 700 - margin.left - margin.right,
+            height = 500 - margin.top - margin.bottom;
+
+        var svg = d3.select("#chart_pdp_{{ model.short_name }}")
+            .append("svg")
+            .attr("id", "svg_feat_{{ model.short_name }}")
+            .attr("width", width + margin.left + margin.right)
+            .attr("height", height + margin.top + margin.bottom)
+            .append("g")
+            .attr("transform",
+                "translate(" + margin.left + "," + margin.top + ")");
+
+        if (pdpData.length <= 3) {
+
+            var x = d3.scaleBand()
+                .range([0, width])
+                .padding(0.1);
+
+            var y = d3.scaleLinear()
+                .range([height, 0]);
+
+            x.domain(pdpData.map(function (d) {
+                return d.x;
+            }));
+            y.domain([0, d3.max(pdpData, function (d) {
+                return d.y;
+            })]);
+
+            svg.selectAll(".bar")
+                .data(pdpData)
+                .enter().append("rect")
+                .attr("class", "bar")
+                .attr("fill", "steelblue")
+                .attr("x", function (d) {
+                    return x(d.x);
+                })
+                .attr("width", x.bandwidth())
+                .attr("y", function (d) {
+                    return y(d.y);
+                })
+                .attr("height", function (d) {
+                    return height - y(d.y);
+                });
+
+
+            svg.append("g")
+                .attr("transform", "translate(0," + height + ")")
+                .style("font", "17px times")
+                .call(d3.axisBottom(x));
+
+            // add the y Axis
+            svg.append("g")
+                .style("font", "17px times")
+                .call(d3.axisLeft(y));
+
+            svg.append("text")
+                .attr("class", "y label")
+                .attr("text-anchor", "end")
+                .attr("y", 6)
+                .attr("dy", ".75em")
+                .attr("transform", "rotate(-90)")
+                .text("Predicted Values")
+                .style("font", "17px times");
+
+            svg.append("text")
+                .attr("x", (width / 2))
+                .attr("y", 0 - (margin.top / 2))
+                .attr("text-anchor", "middle")
+                .style("font-size", "17px")
+                .style("text-decoration", "underline")
+                .text(feature);
+
+        } else {
+            var valueline = d3.line()
+                .x(function (d) {
+                    return x(d.x);
+                })
+                .y(function (d) {
+                    return y(d.y);
+                })
+                .curve(d3.curveBasis);
+
+            var x = d3.scaleLinear()
+                .domain(d3.extent(pdpData, function (d) {
+                    return d.x;
+                }))
+                .range([0, width]);
+            var y = d3.scaleLinear()
+                .domain([0, d3.max(pdpData, function (d) {
+                    return d.y;
+                })])
+                .range([height, 0]);
+
+            var xAxis = d3.axisBottom(x).ticks(5);
+            var yAxis = d3.axisLeft(y).ticks(5);
+
+            svg.append("g")
+                .attr("class", "x axis")
+                .attr("transform", "translate(0," + height + ")")
+                .style("font", "17px times")
+                .call(xAxis);
+
+            svg.append("g")
+                .attr("class", "y axis")
+                .style("font", "17px times")
+                .call(yAxis);
+
+            svg.append("text")
+                .attr("class", "x label")
+                .attr("text-anchor", "end")
+                .attr("x", width)
+                .attr("y", height - 6)
+                .text(feature)
+                .style("font", "17px times");
+
+            svg.append("text")
+                .attr("class", "y label")
+                .attr("text-anchor", "end")
+                .attr("y", 6)
+                .attr("dy", ".75em")
+                .attr("transform", "rotate(-90)")
+                .text("Predicted Values")
+                .style("font", "15px times");
+
+            svg.append("path")
+                .datum(pdpData)
+                .attr("fill", "none")
+                .attr("stroke", "steelblue")
+                .attr("stroke-width", 3)
+                .attr("d", valueline);
+
+            svg.append("text")
+                .attr("x", (width / 2))
+                .attr("y", 0 - (margin.top / 2))
+                .attr("text-anchor", "middle")
+                .style("font-size", "15px")
+                .style("text-decoration", "underline")
+                .text(feature);
+
+        }
+    }
+</script>
