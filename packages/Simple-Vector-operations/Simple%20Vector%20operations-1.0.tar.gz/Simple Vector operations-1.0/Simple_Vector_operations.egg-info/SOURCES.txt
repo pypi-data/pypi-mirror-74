@@ -1,0 +1,8 @@
+README.md
+setup.py
+Simple_Vector_operations.egg-info/PKG-INFO
+Simple_Vector_operations.egg-info/SOURCES.txt
+Simple_Vector_operations.egg-info/dependency_links.txt
+Simple_Vector_operations.egg-info/top_level.txt
+adnancode/__init__.py
+adnancode/vector.py
