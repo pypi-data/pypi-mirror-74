@@ -1,0 +1,6 @@
+flask
+Flask-SocketIO
+gevent
+gevent-websocket
+requests
+pyinstaller
