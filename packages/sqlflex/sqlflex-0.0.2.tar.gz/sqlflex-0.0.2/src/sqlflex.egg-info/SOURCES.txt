@@ -1,0 +1,8 @@
+README.md
+setup.py
+src/sql_flex.py
+src/sqlflex.egg-info/PKG-INFO
+src/sqlflex.egg-info/SOURCES.txt
+src/sqlflex.egg-info/dependency_links.txt
+src/sqlflex.egg-info/requires.txt
+src/sqlflex.egg-info/top_level.txt

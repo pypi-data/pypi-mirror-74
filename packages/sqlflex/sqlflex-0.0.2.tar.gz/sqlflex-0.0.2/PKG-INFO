@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: sqlflex
+Version: 0.0.2
+Summary: Extract Hardcoded Value's and the related Column Names from the SQL Query
+Home-page: https://github.com/shashishekhar1001/flex_sql
+Author: shashishekhar
+Author-email: shashishekhar1001@gmail.com
+License: UNKNOWN
+Description: # FLEX-SQL
+        
+        FLEX-SQL is a Python library for getting the hard coded values and their associated columns from a complex SQL query.
+        
+        ## Dependencies
+        [Pandas](https://pypi.org/project/pandas/)
+        
+        ## Installation
+        
+        Use the package manager [pip](https://pip.pypa.io/en/stable/) to install sql_flex.
+        
+        ```bash
+        pip install sqlflex==0.0.2
+        ```
+        
+        ## Usage
+        
+        ```python
+        from sqlflex import flex
+        query = "Some Complex SQL Query"
+        df = flex(query)
+        print(df)
+        ```
+        
+        ## Contributing
+        Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+        
+        Please make sure to update tests as appropriate.
+        
+        ## License
+        [GPLv3+](https://choosealicense.com/licenses/gpl-3.0/)
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Programming Language :: Python :: 3.0
+Classifier: Programming Language :: Python :: 3.6
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Description-Content-Type: text/markdown
+Provides-Extra: dev
