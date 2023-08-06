@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: EasyCleg
+Version: 0.1
+Summary: Get the best ML models for regression and classification with tuned parameters
+Home-page: https://github.com/bitsofishan
+Author: Ishan Jain
+Author-email: ishan.jain0099@gmail.com
+License: MIT
+Download-URL: https://github.com/bitsofishan/EasyCleg/archive/v1.0.tar.gz
+Description: UNKNOWN
+Keywords: AutoML,Regression,Classification
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.6
