@@ -1,0 +1,17 @@
+README.md
+setup.py
+/home/mihkel/masin/pakk/mihkelBayesian/__init__.py
+/home/mihkel/masin/pakk/mihkelBayesian/kutsung.py
+/home/mihkel/masin/pakk/mihkelBayesian/tere.py
+/home/mihkel/masin/pakk/mihkelBayesian.egg-info/PKG-INFO
+/home/mihkel/masin/pakk/mihkelBayesian.egg-info/SOURCES.txt
+/home/mihkel/masin/pakk/mihkelBayesian.egg-info/dependency_links.txt
+/home/mihkel/masin/pakk/mihkelBayesian.egg-info/top_level.txt
+mihkelBayesian/__init__.py
+mihkelBayesian/arvutamine.py
+mihkelBayesian/kutsung.py
+mihkelBayesian/tere.py
+mihkelBayesian.egg-info/PKG-INFO
+mihkelBayesian.egg-info/SOURCES.txt
+mihkelBayesian.egg-info/dependency_links.txt
+mihkelBayesian.egg-info/top_level.txt
