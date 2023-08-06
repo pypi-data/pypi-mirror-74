@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: ukpostcodes
+Version: 1.0.0
+Summary: Library that validates and formats post codes for UK
+Home-page: https://github.com/kuraykanli/ukpostcodes
+Author: Kuray Kanli
+Author-email: kuray@kuraykanli.com
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: requests
+
+This library handles postcode validation and verification over both API requests(remote) and regex(local). The library also includes helper functions for stripping outward and inward codes after validating via regex
+
+
