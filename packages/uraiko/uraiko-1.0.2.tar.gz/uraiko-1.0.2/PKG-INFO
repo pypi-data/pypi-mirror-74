@@ -1,0 +1,53 @@
+Metadata-Version: 1.1
+Name: uraiko
+Version: 1.0.2
+Summary: Simplest url checker on checker!
+Home-page: https://iamlizu.com/tools/uraiko/
+Author: S M Mahmudul Hasan
+Author-email: thegeek@iamlizu.com
+License: MIT
+Download-URL: https://github.com/IamLizu/uraiko/archive/v_1_0_2.tar.gz
+Description: uraiko
+        ======
+        
+        Let's say you are working with urls in your application and you need to
+        check whether the url is okay and if it redirects to another
+        destination. Of course, we have some awesome libraries already to get
+        this done. But ``uraiko`` makes it easy, you just feed the url and
+        voila! ### Installation You can install uraiko using pip,
+        
+        .. code:: sh
+        
+            pip install uraiko
+        
+        Requires Python 3 or above to run. If you have Python 2 installed too,
+        make sure to use the right pip.
+        
+        Usage
+        ~~~~~
+        
+        ::
+        
+            >>> import uraiko
+            >>> link = uraiko.url_check("iamlizu.com")
+            >>> print(link)
+            https://iamlizu.com/
+        
+        
+        Please look for logs at '~/Documents/uraiko.log'
+        
+        What's new in version 1.0.2
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        * Minor bug fixes
+Keywords: url,analyze,redirect
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
