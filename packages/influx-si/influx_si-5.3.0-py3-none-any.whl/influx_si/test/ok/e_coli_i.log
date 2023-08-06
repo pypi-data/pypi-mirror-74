@@ -1,0 +1,47 @@
+"/home/sokol/.local/bin/influx_i" "e_coli_i"
+code gen: 2020-07-24 11:03:16
+executing: "/usr/bin/python3" "/home/sokol/.local/bin/ftbl2optR.py" "--tblimit" "0" "--ropts" "noscale=TRUE; clowp=1e-09; zc=0.0; time_order='2'; TIMEIT=TRUE" "--case_i" "e_coli_i.ftbl"
+executing: R --vanilla --slave < e_coli_i.R
+calcul  : 2020-07-24 11:03:17
+load    : 2020-07-24 11:03:18.03 cpu=0.774
+rinit   : 2020-07-24 11:03:18.04 cpu=0.78
+r_flux  : 2020-07-24 11:03:18.04 cpu=0.781
+Afl qr(): 2020-07-24 11:03:18.10 cpu=0.837
+dfl_dffg: 2020-07-24 11:03:18.19 cpu=0.929
+spAbr   : 2020-07-24 11:03:18.19 cpu=0.93
+weight 1: 2020-07-24 11:03:18.19 cpu=0.931
+weight 2: 2020-07-24 11:03:18.22 cpu=0.962
+weight 3: 2020-07-24 11:03:18.27 cpu=1.009
+weight 4: 2020-07-24 11:03:18.31 cpu=1.047
+weight 5: 2020-07-24 11:03:18.33 cpu=1.066
+weight 6: 2020-07-24 11:03:18.33 cpu=1.073
+measure : 2020-07-24 11:03:18.44 cpu=1.176
+ineq    : 2020-07-24 11:03:18.49 cpu=1.233
+preopt  : 2020-07-24 11:03:18.61 cpu=1.338
+labargs : 2020-07-24 11:03:18.62 cpu=1.347
+cl expor: 2020-07-24 11:03:18.93 cpu=1.363
+cl sourc: 2020-07-24 11:03:19.87 cpu=1.486
+run    1: 2020-07-24 11:03:21.90 cpu=3.389
+Starting point
+zc ineq : 2020-07-24 11:03:21.90 cpu=3.391
+kvh init: 2020-07-24 11:03:21.94 cpu=3.424
+check ja: 2020-07-24 11:03:22.15 cpu=3.454
+optim   : 2020-07-24 11:03:22.91 cpu=3.46
+it=0	res=237.7947
+it=1	res=70.06248	normstep=30.47659	btk=1
+it=2	res=36.43491	normstep=31.35182	btk=1
+it=3	res=21.83319	normstep=0.2793447	btk=1
+it=4	res=21.7384	normstep=0.03332941	btk=1
+it=5	res=21.72383	normstep=0.03867587	btk=1
+it=6	res=21.6348	normstep=0.08885869	btk=1
+it=7	res=21.37745	normstep=0.4890457	btk=0.5
+it=8	res=21.24931	normstep=0.6490092	btk=1
+it=9	res=20.96647	normstep=0.3171006	btk=1
+it=10	res=20.96366	normstep=0.1287473	btk=1
+it=15	res=20.96358	normstep=5.449522e-05	btk=1
+secondzc: 2020-07-24 11:03:31.70 cpu=3.67
+After the first optimization, no zero crossing inequality was activated. So no reoptimization
+postopt : 2020-07-24 11:03:31.72 cpu=3.677
+linstats: 2020-07-24 11:03:32.21 cpu=3.945
+rend    : 2020-07-24 11:03:32.43 cpu=4.069
+end     : 2020-07-24 11:03:32
