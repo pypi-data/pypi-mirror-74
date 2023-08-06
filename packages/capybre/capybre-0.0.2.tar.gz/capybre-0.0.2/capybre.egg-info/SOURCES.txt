@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+capybre/__init__.py
+capybre/convert.py
+capybre/ebook_format.py
+capybre/fetch_metadata.py
+capybre/helpers.py
+capybre/metadata.py
+capybre.egg-info/PKG-INFO
+capybre.egg-info/SOURCES.txt
+capybre.egg-info/dependency_links.txt
+capybre.egg-info/not-zip-safe
+capybre.egg-info/top_level.txt
