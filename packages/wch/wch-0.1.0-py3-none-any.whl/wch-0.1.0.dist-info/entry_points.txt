@@ -1,0 +1,3 @@
+[console_scripts]
+poetry=wch.wch:cli
+
