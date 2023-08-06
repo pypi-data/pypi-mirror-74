@@ -1,0 +1,9 @@
+README.md
+setup.py
+NameGenderPredictor/NameGenderPredictor.py
+NameGenderPredictor/__init__.py
+NameGenderPredictor/nameGenderUSSSA.db
+NameGenderPredictor.egg-info/PKG-INFO
+NameGenderPredictor.egg-info/SOURCES.txt
+NameGenderPredictor.egg-info/dependency_links.txt
+NameGenderPredictor.egg-info/top_level.txt
