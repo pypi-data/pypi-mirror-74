@@ -1,0 +1,15 @@
+setup.py
+jac_format/__init__.py
+jac_format/flatten.py
+jac_format/get_cell_value.py
+jac_format/get_in.py
+jac_format/join_path.py
+jac_format/remove_redundancies.py
+jac_format/replace_path_stars.py
+jac_format/set_in.py
+jac_format/to_csv.py
+jac_format/to_json.py
+jac_format.egg-info/PKG-INFO
+jac_format.egg-info/SOURCES.txt
+jac_format.egg-info/dependency_links.txt
+jac_format.egg-info/top_level.txt
