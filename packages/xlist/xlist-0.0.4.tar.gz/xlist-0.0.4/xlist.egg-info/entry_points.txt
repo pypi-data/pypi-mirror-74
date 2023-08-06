@@ -1,0 +1,3 @@
+[console_scripts]
+xlist = xlist.bin:main
+
