@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: jeremy-poetry-test
+Version: 0.1.1
+Summary: 
+Author: Jeremy Berman
+Author-email: jerber@sas.upenn.edu
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: magicdb (>=0.0.6,<0.0.7)
+Requires-Dist: requests (>=2.24.0,<3.0.0)
+Description-Content-Type: text/markdown
+
+# Jeremy Poetry Test
+
+The awesome test!

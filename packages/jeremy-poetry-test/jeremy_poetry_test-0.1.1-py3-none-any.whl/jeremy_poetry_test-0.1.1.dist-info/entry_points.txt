@@ -1,0 +1,3 @@
+[console_scripts]
+jeremy-poetry-test=jeremy-poetry-test.main
+
