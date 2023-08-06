@@ -1,0 +1,7 @@
+Metadata-Version: 1.1
+Name: dadata
+Version: 20.7.0
+Summary: Data cleansing and enrichment via Dadata API.
+Home-page: https://github.com/hflabs/dadata-py
+Author: Anton Zhiyanov
+Author-email: m@antonz.ru
