@@ -1,0 +1,60 @@
+Metadata-Version: 2.1
+Name: sharnote
+Version: 0.1.0
+Summary: A command line note taking utility developed in Python that saves notes in JSON format
+Home-page: https://github.com/sharadcodes/sharnote
+Author: Sharad Raj Singh Maurya
+Author-email: iamsharadraj@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+![](https://sharadcodes.github.io/logos/sharnote/sharlogo.png)
+
+A command line note taking utility developed in Python that saves notes in JSON format.
+
+# Installation
+
+```
+pip3 install sharnote
+```
+
+# Usage
+
+### For help
+
+```
+sharnote --help or sharnote --h
+```
+
+### To see notes of today
+
+```
+sharnote --today or --t
+```
+
+### To see notes of a particaular date
+
+```
+sharnote --date or --d YYYY-MM-DD
+```
+
+### To search for a particular string in notes
+
+```
+sharnote --search or --s "Some text here"
+```
+
+### To change directory used for storing notes
+
+```
+sharnote --notesdir or --nd
+```
+
+
