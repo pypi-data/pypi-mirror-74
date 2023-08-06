@@ -1,0 +1,11 @@
+capybre/__init__.py,sha256=iyaPMLSd4V6QfH6IP6--rY4ghpCRGwYi0DiLdgX9HiM,640
+capybre/convert.py,sha256=D2ycOvy7pk3v7Un1D_ENOuQiLoPKtXVB7M7ZsG7A86o,3565
+capybre/ebook_format.py,sha256=7iTRVNOs__lnvhFa9Wa5HYcaS8F8ULZYbBn1S0iZNSg,1415
+capybre/fetch_metadata.py,sha256=G9akucA1_Mp9IUHIJORTzsx5k-2Xw9-1PoxTGITx3tk,3963
+capybre/helpers.py,sha256=aiznqSFUtKYj0c51YFpkcIxjVlG5tHHsWHh_LQtrigU,472
+capybre/metadata.py,sha256=5S1KDE79T0ojDqHXuUo4bYmVOgakSE4wQUCLaUpBlYE,9895
+capybre-0.0.4.dist-info/LICENSE,sha256=svKr2YiOL9GkV8LWOJdC609WYd3eaX1QfCVHpRQIBPY,1069
+capybre-0.0.4.dist-info/METADATA,sha256=rcRCbXVU3c3wDejY-nRqut3T0VHYV93fpXV6tv5DfkI,2435
+capybre-0.0.4.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+capybre-0.0.4.dist-info/top_level.txt,sha256=A4_jT6uMeD2NExgzSFJjj9fId1xApbsFo9p9NDLkJn0,8
+capybre-0.0.4.dist-info/RECORD,,
