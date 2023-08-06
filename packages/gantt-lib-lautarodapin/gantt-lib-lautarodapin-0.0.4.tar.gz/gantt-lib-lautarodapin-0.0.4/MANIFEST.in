@@ -1,0 +1,4 @@
+include *.in
+include LICENSE
+recursive-include __pycache__ *.pyc
+recursive-include gantt_lib *.txt
