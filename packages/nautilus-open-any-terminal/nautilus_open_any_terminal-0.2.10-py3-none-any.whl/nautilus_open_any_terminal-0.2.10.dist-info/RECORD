@@ -1,0 +1,10 @@
+nautilus_open_any_terminal/__init__.py,sha256=zN_j5NI16YCiVYf9qaMPrQSfXHTfptrDwhXDggbiCv8,97
+nautilus_open_any_terminal/open_any_terminal_extension.py,sha256=g2nUY-py4JTKtvyB7c-GkmD6wK9wHaG5IJhYSwGqdWY,8566
+nautilus_open_any_terminal/schemas/com.github.stunkymonkey.nautilus-open-any-terminal.gschema.xml,sha256=Zmfd-zYXyjhC3FT0evNMXQ5zCjnw6F9hb0yqEipmNAQ,874
+nautilus_open_any_terminal-0.2.10.data/data/share/glib-2.0/schemas/com.github.stunkymonkey.nautilus-open-any-terminal.gschema.xml,sha256=Zmfd-zYXyjhC3FT0evNMXQ5zCjnw6F9hb0yqEipmNAQ,874
+nautilus_open_any_terminal-0.2.10.data/data/share/nautilus-python/extensions/open_any_terminal_extension.py,sha256=g2nUY-py4JTKtvyB7c-GkmD6wK9wHaG5IJhYSwGqdWY,8566
+nautilus_open_any_terminal-0.2.10.dist-info/LICENSE,sha256=iFSiMQrO5S9uwx7ue_EqSVUanImrVh9c1RaQ48X2oNs,35152
+nautilus_open_any_terminal-0.2.10.dist-info/METADATA,sha256=ZjdFTg1vn5fbpZ1ZV1wlh0HVs9xr_lJk8hblNcgV1zM,2406
+nautilus_open_any_terminal-0.2.10.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+nautilus_open_any_terminal-0.2.10.dist-info/top_level.txt,sha256=UpyiFWJDIc9t3GqmAe7vZqMs3X2bSAxfzANAwGXjtQ8,27
+nautilus_open_any_terminal-0.2.10.dist-info/RECORD,,
