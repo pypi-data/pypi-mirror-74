@@ -1,0 +1,9 @@
+setuptools>=38.3.0
+Faker<5,>=1.0.8
+tabledata<2,>=1.1.1
+
+[test]
+Faker>=4.0.3
+pytablewriter>=0.46
+pytest
+pytest-md-report
