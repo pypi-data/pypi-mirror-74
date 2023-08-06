@@ -1,0 +1,10 @@
+setup.py
+distributions_HBK/Binomialdistribution.py
+distributions_HBK/Gaussiandistribution.py
+distributions_HBK/Generaldistribution.py
+distributions_HBK/__init__.py
+distributions_HBK.egg-info/PKG-INFO
+distributions_HBK.egg-info/SOURCES.txt
+distributions_HBK.egg-info/dependency_links.txt
+distributions_HBK.egg-info/not-zip-safe
+distributions_HBK.egg-info/top_level.txt
