@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: outpost
+Version: 0.5.2
+Summary: Application level proxy server
+Home-page: https://niveapps.com
+Author: Arndt Droullier, Nive GmbH
+Author-email: info@nive.co
+License: BSD 3
+Keywords: server proxy development cors web pyramid
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Framework :: Pyramid
+Classifier: Topic :: Internet :: WWW/HTTP :: HTTP Servers
+Classifier: Topic :: Software Development :: Testing
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: License :: OSI Approved :: BSD License
+Requires-Dist: pyramid
+Requires-Dist: pyramid-debugtoolbar
+Requires-Dist: pyramid-chameleon
+Requires-Dist: zope.interface
+Requires-Dist: waitress
+Requires-Dist: requests
+
+UNKNOWN
+
+
