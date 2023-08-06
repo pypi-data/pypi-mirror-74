@@ -1,0 +1,3 @@
+include src/gitutils/amender.sh
+include codemeta.json
+recursive-include src/gitutils/tests *.py
