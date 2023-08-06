@@ -1,0 +1,13 @@
+Metadata-Version: 1.2
+Name: iow
+Version: 0.1.3
+Summary: Balanced parentheses
+Home-page: https://github.com/wasade/improved-octo-waddle
+Author: Daniel McDonald
+Author-email: mcdonadt@colorado.edu
+Maintainer: Daniel McDonald
+Maintainer-email: mcdonadt@colorado.edu
+License: UNKNOWN
+Description: An implementation of a balanced tree as described by
+        Cordova and Navarro
+Platform: UNKNOWN
