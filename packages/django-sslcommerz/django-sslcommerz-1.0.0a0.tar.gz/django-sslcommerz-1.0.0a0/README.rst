@@ -1,0 +1,4 @@
+django-sslcommerz
+=================
+
+Test project
