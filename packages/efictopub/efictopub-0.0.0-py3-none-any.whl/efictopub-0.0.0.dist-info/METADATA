@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: efictopub
+Version: 0.0.0
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: praw
+Requires-Dist: mkepub
+Requires-Dist: bs4
+Requires-Dist: lxml
+Requires-Dist: requests
+Requires-Dist: dulwich
+Requires-Dist: jsonpickle
+Requires-Dist: svgwrite
+Requires-Dist: confuse
+
+UNKNOWN
+
+
