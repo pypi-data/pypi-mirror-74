@@ -1,0 +1,8 @@
+spark_etl/__init__.py,sha256=qSAdOlxNC9-uGt-DomaOmY_xlOPQ-oZGDn2WmIlwHtc,62
+spark_etl/application.py,sha256=NWuMLgsvVvwbd1U-t8cPC98hQFEooxNVswlUVSiXuNc,1782
+spark_etl/build.py,sha256=reZwNFdHvxrrqN5pQCtLGborw7A-oOYFsfNPMGZwtTs,431
+spark_etl-0.0.1.dist-info/LICENSE,sha256=K6vANg9m-KbksgV01fJyTwgKtR7OBCSdoeHexPkRxwY,1068
+spark_etl-0.0.1.dist-info/METADATA,sha256=BLjeuPsvKwcA-NeuMo-mZwmWjCd4_OJVbD3Z8CpOrVQ,2042
+spark_etl-0.0.1.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+spark_etl-0.0.1.dist-info/top_level.txt,sha256=gGUJIctYF0M8nRZc29NCytzDCrgLzMylVw2yQ2mPrIk,10
+spark_etl-0.0.1.dist-info/RECORD,,
