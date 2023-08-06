@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: lokki
+Version: 0.0.2
+Summary: Lokki: an automatic machine learning framework for 16s metagenomic data
+Home-page: https://github.com/greermj/Lokki
+Author: Michael Greer
+Author-email: michael.j.greer1@gmail.com
+License: Apache 2.0
+Description: Lokki: an automatic machine learning framework for 16s metagenomic data
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Natural Language :: English
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Information Technology
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
