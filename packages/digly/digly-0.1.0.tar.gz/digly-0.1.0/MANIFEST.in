@@ -1,0 +1,8 @@
+include README.md
+include LICENSE
+include requirements.txt
+include digly/firefox_extension/arrive.js
+include digly/firefox_extension/manifest.json
+include digly/firefox_extension/content.js
+
+recursive-include digly/icons *
