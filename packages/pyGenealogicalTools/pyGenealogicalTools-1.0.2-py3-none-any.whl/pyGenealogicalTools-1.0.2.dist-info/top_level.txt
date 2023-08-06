@@ -1,0 +1,10 @@
+analyzefamily
+geniApp
+messages
+pyFS
+pyGedcom
+pyGenealogy
+pyGeni
+pyRegisters
+pyRootsMagic
+tests
