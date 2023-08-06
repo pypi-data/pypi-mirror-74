@@ -1,0 +1,4 @@
+[console_scripts]
+queue=unminder.cli:queue
+review=unminder.cli:review
+

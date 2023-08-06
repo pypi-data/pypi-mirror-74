@@ -1,0 +1,10 @@
+README.md,sha256=VWo9k3dzNLwAMTjhajIxzB2t9xV6Eg7TC9d9RdLGMO4,1193
+pyproject.toml,sha256=wYE_5zQrRfH1QKkMQP_9Xzo-j-gufCa7VUlfezIpRSg,1589
+unminder/__init__.py,sha256=e-4gbCvb9vr9Tz-KppA2woWQzgJBl2RpsZbjLBtX-34,120
+unminder/__main__.py,sha256=cAQtUMcRRbyec_q2fG7_Y0100CMWbdeHQmYAcFh09hs,346
+unminder/cli.py,sha256=32icw-GI-67fvn5Xc6I5xYaIToyd94IeohHRSC2oRdk,2045
+unminder-0.1.0.dist-info/entry_points.txt,sha256=qhPmNXoPO7VISG497KaUmElkNWHGxSBFvSuvLNRxPGk,71
+unminder-0.1.0.dist-info/LICENSE,sha256=nQxdYSduhkgEpOTmg4yyIMmFPzcr2qrlUl8Tf9QZPug,754
+unminder-0.1.0.dist-info/WHEEL,sha256=G_NFpzHmv_dUXgCUSAWL0-bLL-eMzYU6DzDeGXbRXUk,83
+unminder-0.1.0.dist-info/METADATA,sha256=aR4cCkZVNsvU2j3awkVmBjBaTEnvEaIzjiMYVx_HdTA,1823
+unminder-0.1.0.dist-info/RECORD,,
