@@ -1,0 +1,66 @@
+Metadata-Version: 2.1
+Name: metatree
+Version: 0.0.1
+Summary: Visualisation of polyphyletic groups between phylogenetic trees to a reference tree.
+Home-page: https://github.com/aaronmussig/metatree
+Author: Aaron Mussig
+Author-email: aaronmussig@gmail.com
+License: GPL3
+Project-URL: Bug Tracker, https://github.com/aaronmussig/PhyloDM/issues
+Project-URL: Documentation, https://github.com/aaronmussig/PhyloDM
+Project-URL: Source Code, https://github.com/aaronmussig/PhyloDM
+Keywords: phylogenetic distance matrix symmetric
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: phylorank (>0.1.0)
+Requires-Dist: genometreetk (>0.1.2)
+Requires-Dist: dendropy (>=4.1.0)
+Requires-Dist: tqdm (>=4.31.0)
+Requires-Dist: biolib (>=0.1.0)
+Requires-Dist: biopython
+Requires-Dist: seaborn
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+Requires-Dist: ete3
+Requires-Dist: pandas
+Requires-Dist: scipy
+
+# metatree
+
+[![PyPI](https://img.shields.io/pypi/v/metatree)](https://pypi.org/project/metatree/)
+![Conda (channel only)](https://img.shields.io/conda/vn/bioconda/metatree?color=green)
+
+Visualisation of polyphyletic groups between phylogenetic trees to a given reference tree.
+
+
+## Installation
+* PyPI: `pip install metatree`
+* conda: `conda install -c bioconda metatree`
+
+
+## Usage
+
+```shell script
+metatree [batchfile] [out_dir] [taxonomy_file] [outgroup] [cpus]
+```
+
+See the [example](https://github.com/aaronmussig/metatree/blob/master/example/index.md) directory for an example on how to use `metatree`.
+
+
+## Changelog
+```
+0.0.1
+  - Initial release.
+```
+
+
