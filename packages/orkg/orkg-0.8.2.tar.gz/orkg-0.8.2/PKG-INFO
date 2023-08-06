@@ -1,0 +1,41 @@
+Metadata-Version: 1.1
+Name: orkg
+Version: 0.8.2
+Summary: Python wrapper for the Open Research Knowledge Graph (ORKG) API
+Home-page: http://orkg.org/about
+Author: Mohamad Yaser Jaradeh
+Author-email: jaradeh@l3s.de
+License: MIT
+Download-URL: https://gitlab.com/TIBHannover/orkg/orkg-pypi/-/archive/0.8.2/orkg-pypi-0.8.2.tar.gz
+Description: orkg-pypi
+        =========
+        
+        | |Documentation Status|
+        | |PyPI version|
+        
+        Python package wrapping the ORKG API
+        
+        The package is a straightforward implementation of the API described in
+        the
+        `documentation <http://tibhannover.gitlab.io/orkg/orkg-backend/api-doc/>`__
+        
+        Special thanks to **Allard Oelen** for his contributions to the code.
+        
+        .. |Documentation Status| image:: https://readthedocs.org/projects/orkg/badge/?version=latest
+           :target: https://orkg.readthedocs.io/en/latest/?badge=latest
+        .. |PyPI version| image:: https://badge.fury.io/py/orkg.svg
+           :target: https://badge.fury.io/py/orkga
+Keywords: ORKG,Scholarly communication,API wrapper
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.2
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
