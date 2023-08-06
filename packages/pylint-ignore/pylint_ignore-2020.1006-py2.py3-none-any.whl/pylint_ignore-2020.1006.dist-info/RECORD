@@ -1,0 +1,11 @@
+pylint_ignore/__init__.py,sha256=GgaAtkoRC3uYjwaHWJYPGU5iIwn043jRU-1tnqDLEfE,397
+pylint_ignore/__main__.py,sha256=KP2fOi8skkxf29Lbzcn-uIlkaXbyZAEowWH3KQPRjrc,9242
+pylint_ignore/catalog.py,sha256=gwGuZTu3J4o52PWgndvLYvaVhiyWMF3ZiLzeJQCdo3A,11049
+pylint_ignore/ignorefile.py,sha256=IxvcIlnhWp-r0QQitq2e2ceJn9y6nZhBdWgYQkUlJq8,11892
+pylint_ignore-2020.1006.dist-info/LICENSE,sha256=Zr7SZydIfcCTi_pQ_YwQ17Jyavs92j3nvHcl1d2NfyA,1122
+pylint_ignore-2020.1006.dist-info/METADATA,sha256=nzGzsU5wvL82_KIUlPm4WwrwNx1_fAlc9ZpE4AjV9VY,11291
+pylint_ignore-2020.1006.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+pylint_ignore-2020.1006.dist-info/entry_points.txt,sha256=c_WsBE3ErPzaS_RMGDdYZgAhzMIWF1ocA3l-dek18kU,81
+pylint_ignore-2020.1006.dist-info/top_level.txt,sha256=9Kx5daNvH3wjs4g6769JPXuQ4B7hwb8NG2HKl2bSBaY,14
+pylint_ignore-2020.1006.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+pylint_ignore-2020.1006.dist-info/RECORD,,
