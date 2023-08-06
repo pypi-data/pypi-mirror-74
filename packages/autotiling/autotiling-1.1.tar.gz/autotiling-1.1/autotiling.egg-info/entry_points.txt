@@ -1,0 +1,3 @@
+[console_scripts]
+autotiling = autotiling.main:main
+
