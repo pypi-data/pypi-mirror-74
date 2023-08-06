@@ -1,0 +1,2 @@
+sqlalchemy
+serverless-aurora>=0.2.3

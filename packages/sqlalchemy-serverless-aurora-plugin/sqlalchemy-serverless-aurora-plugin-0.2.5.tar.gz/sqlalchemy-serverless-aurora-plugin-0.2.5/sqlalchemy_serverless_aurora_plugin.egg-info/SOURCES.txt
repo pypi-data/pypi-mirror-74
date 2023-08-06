@@ -1,0 +1,11 @@
+README.rst
+setup.cfg
+setup.py
+sqlalchemy_serverless_aurora_plugin/__init__.py
+sqlalchemy_serverless_aurora_plugin.egg-info/PKG-INFO
+sqlalchemy_serverless_aurora_plugin.egg-info/SOURCES.txt
+sqlalchemy_serverless_aurora_plugin.egg-info/dependency_links.txt
+sqlalchemy_serverless_aurora_plugin.egg-info/entry_points.txt
+sqlalchemy_serverless_aurora_plugin.egg-info/requires.txt
+sqlalchemy_serverless_aurora_plugin.egg-info/top_level.txt
+test/test.py
