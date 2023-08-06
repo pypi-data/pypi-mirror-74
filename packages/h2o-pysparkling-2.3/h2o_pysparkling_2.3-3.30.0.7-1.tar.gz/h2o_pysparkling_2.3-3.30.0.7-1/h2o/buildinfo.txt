@@ -1,0 +1,1 @@
+versionFromGradle='3.30.0',projectVersion='3.30.0.7',branch='rel-zahradnik',lastCommitHash='42bc323d9860bac8b25e904eec22b9cf827abcb5',gitDescribe='jenkins-3.30.0.6-24-g42bc323',compiledOn='2020-07-21 17:23:27',compiledBy='jenkins'
