@@ -1,0 +1,13 @@
+soco_cli/__init__.py,sha256=8XalsVoLEfXslFvdtUEmkNOuYShzOzYOcFbgmOz1oSk,23
+soco_cli/__main__.py,sha256=7Fe45KzM-I7uCC955w4geikkFpHqbGy1sJLpc-Flq6I,72
+soco_cli/action_processor.py,sha256=W0x9AwOb3FLLfPDByZ-YwB98BtodZ-zlnuMLgMf4M64,35368
+soco_cli/sonos.py,sha256=NTeH6vxBfXnEKEEoXScZptL4HY36vXLilm2t6_Yz1Dg,9048
+soco_cli/sonos_discover.py,sha256=3n9rd8zxRq_BsA-TlSibfmNR7b97YkSlMYtQDoz_GJ4,4126
+soco_cli/speaker_info.py,sha256=To3TrNMLiGwVeAUVZtzWvA0JMK4wphiT6K79NgE_fjE,4006
+soco_cli/speakers.py,sha256=hH7TVz9AUkCtdeLFlvpduNg0nqh9E_pWKtkWeQwN5Yg,12022
+soco_cli-0.1.20.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+soco_cli-0.1.20.dist-info/METADATA,sha256=6PAdyzc7UuGTmaSlOAz1YZEjv9ydmhj_Xs5XlhYmQtU,3309
+soco_cli-0.1.20.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+soco_cli-0.1.20.dist-info/entry_points.txt,sha256=bYOBON2-GmBrPdFKx4UGrJG9So384fuyG1rMQzRaWT0,93
+soco_cli-0.1.20.dist-info/top_level.txt,sha256=d9SWZz7HscVr8mJED5ODpHWMeclJukLQKrC3x73IBDg,9
+soco_cli-0.1.20.dist-info/RECORD,,
