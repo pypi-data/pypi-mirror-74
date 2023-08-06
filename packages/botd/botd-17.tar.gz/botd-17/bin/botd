@@ -1,0 +1,27 @@
+#!/usr/bin/python3 -u
+# BOTD - the 24/7 channel daemon 
+#
+#
+
+import sys, os ; sys.path.insert(0, os.getcwd())
+
+from bot.csl import execute
+from bot.krn import k
+from bot.prs import parse_cli
+
+def main():
+    c = parse_cli("botd")
+    if c.txt:
+        k.walk("bot")
+        k.walk("botd")
+        return k.cmd(c.origtxt)
+    if "s" in c.opts:
+        c.mods += ",csl,cmd,opr,ent"
+    else:
+        c.mods += ",irc,udp"
+    if c.mods:
+        k.start()
+        k.init(c.mods)
+        k.wait()
+
+execute(main)
