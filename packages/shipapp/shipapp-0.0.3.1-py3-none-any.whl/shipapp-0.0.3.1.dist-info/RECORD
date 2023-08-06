@@ -1,0 +1,16 @@
+ship/__init__.py,sha256=h5-DgEhBUCXNgWc6UzzTQu6bmrVasaPAiICtZ0Yqlis,85
+ship/__main__.py,sha256=tKWi2onchxRo-xQjd04WRLpBdFaBqlk1w_svI5xag4s,8556
+ship/colors.py,sha256=TBbPHeHyMGAYtG-_CJNYR0hv8ppbi489uZnX-I5v0YU,290
+ship/demo_defer.js,sha256=jgun4YuczyAVl-slMu31WTXJ6-f22j4JtsrTmK8BfDQ,1558
+ship/favicon.ico,sha256=eD_cbvret_t4xPREhjOM9Pk17KimW29LR5k1fWGlgw8,133303
+ship/funkship.py,sha256=dXG4ZWxd6m2ZwQvgQrgnE1-PJPIqqt-bfaUgRq2OU2U,9024
+ship/httpfileserver.py,sha256=fZUEl3N6k7SV-Qqmt2Qb3hHbakRxUmP3ZnTeTwTPe9c,8485
+ship/main.css,sha256=ECFV6IGHuVIFlKU4t8tcb8UZIiIyeAbyDHmF201Zd7Q,2497
+ship/shipapp.py,sha256=ZaJ7kEnawRa-Clv8E9P-Pw6bmrAoBJrtiZji6AEj6KM,4643
+ship/shiperror.py,sha256=nDBL4T_Jm4tIuEk09_1Fj2bALOx9mygcKlkFzmfuabg,1975
+ship/templates.py,sha256=NJO3JKqaAi5W0WCxInwOyRNBbHkbgN0ZfjtFVzJtbgI,9016
+shipapp-0.0.3.1.dist-info/METADATA,sha256=gdKevMYREr2J3Wo9LtOldTAC3ToD_AMv120Yt12_P1M,6829
+shipapp-0.0.3.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+shipapp-0.0.3.1.dist-info/entry_points.txt,sha256=0LLjEw4ejLT4zfcAxsBR60rThWlJzbvcNWJJAe6Sr1k,45
+shipapp-0.0.3.1.dist-info/top_level.txt,sha256=eD2OKJlHWtqWvgOmP4YojnVy5R80if7UolJgVEBieXM,5
+shipapp-0.0.3.1.dist-info/RECORD,,
