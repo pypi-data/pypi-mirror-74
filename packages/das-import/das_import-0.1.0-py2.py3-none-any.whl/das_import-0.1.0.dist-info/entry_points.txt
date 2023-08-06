@@ -1,0 +1,3 @@
+[console_scripts]
+das-import = das_import.cli:main
+
