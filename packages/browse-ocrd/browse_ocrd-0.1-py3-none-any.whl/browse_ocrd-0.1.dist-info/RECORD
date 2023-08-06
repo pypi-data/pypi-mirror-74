@@ -1,0 +1,14 @@
+ocrd_browser/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ocrd_browser/application.py,sha256=TeSN2veP2uJKq6nYjzmATLseN7iQahGMzsC1mIUXe4c,1837
+ocrd_browser/main.py,sha256=_svQ3lDxCOwga3a9MgVCK5AfbdG8iCPDfjesfs2Asjc,962
+ocrd_browser/views.py,sha256=L-d5zJNrNHsGFPMu-KTowWKXHOI_kMYurfTVSlBFKqQ,4594
+ocrd_browser/window.py,sha256=q3o2x-mDVUTffOuG-wd25G9LAqnTQNkPR9F6SIZOMZ4,9104
+ocrd_browser/image_util/__init__.py,sha256=SP5zSLNfDVva8VX4fyDbLQAzxJpvow2I4F5osy6u7m4,2304
+ocrd_browser/model/__init__.py,sha256=-E8vrlVjt5oDN9qH-Of291BckyIeBq8jkXVWcRyOYUM,5287
+ocrd_browser/scandriver/__init__.py,sha256=QlsKr9_afYwdkyWOhSE_XCqYyGtS0x125aqEKRzBB88,4479
+browse_ocrd-0.1.dist-info/LICENSE,sha256=e6t4L5enMlVEg2mEI9hFOL9atgJ7zG8p8ZGuKXmnBgM,1061
+browse_ocrd-0.1.dist-info/METADATA,sha256=27xjlxtoR1JLHflUDt2QSzJfukGtqZyZbpITbgtnxQ8,1129
+browse_ocrd-0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+browse_ocrd-0.1.dist-info/entry_points.txt,sha256=7_IjEaIuoOeHBSCmeKgRVe0V5DoXC1Zs1y-A0IJEsIU,56
+browse_ocrd-0.1.dist-info/top_level.txt,sha256=3k-x67AoRablKdfLfrWIBFb9x6f7nZZaL5dnrbYXHMA,13
+browse_ocrd-0.1.dist-info/RECORD,,
