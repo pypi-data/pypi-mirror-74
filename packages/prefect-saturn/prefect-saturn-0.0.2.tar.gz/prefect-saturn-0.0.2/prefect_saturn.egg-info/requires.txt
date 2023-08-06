@@ -1,0 +1,13 @@
+cloudpickle
+dask-saturn>=0.0.4
+prefect
+requests
+
+[dev]
+cloudpickle
+dask-saturn>=0.0.4
+prefect
+requests
+pytest
+pytest-cov
+responses
