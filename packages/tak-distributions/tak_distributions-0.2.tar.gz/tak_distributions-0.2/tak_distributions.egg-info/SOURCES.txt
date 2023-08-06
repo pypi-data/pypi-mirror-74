@@ -1,0 +1,10 @@
+setup.py
+tak_distributions/Binomialdistribution.py
+tak_distributions/Gaussiandistribution.py
+tak_distributions/Generaldistribution.py
+tak_distributions/__init__.py
+tak_distributions.egg-info/PKG-INFO
+tak_distributions.egg-info/SOURCES.txt
+tak_distributions.egg-info/dependency_links.txt
+tak_distributions.egg-info/not-zip-safe
+tak_distributions.egg-info/top_level.txt

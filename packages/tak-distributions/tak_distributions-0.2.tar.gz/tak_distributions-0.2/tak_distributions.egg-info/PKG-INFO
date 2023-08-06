@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: tak-distributions
+Version: 0.2
+Summary: Gaussian & Binomial distributions
+Home-page: UNKNOWN
+Author: TAK
+Author-email: UNKNOWN
+License: UNKNOWN
+Description-Content-Type: UNKNOWN
+Description: Sample packaging for pip learning, contaning sample code for calculating Gaussian & Binomial Distribution
+Platform: UNKNOWN
